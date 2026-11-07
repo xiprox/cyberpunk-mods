@@ -59,3 +59,7 @@ cmake --build build --config Release
 ```
 
 `build/Release/voice_test.exe` checks everything that doesn't need the game: effects by their measured output, rooms, corners and echoes in a made-up world of boxes, packets, the jitter buffer, real links between two engines on one PC, and the audio devices. It plays only silence, and never stores or sends microphone audio.
+
+Two tools for trying a headset-style clamp on the game's sound, outside the game and not part of the mod:
+- `build/Release/record_game.exe` records what the default output plays into `recordings/`. Page Up starts and stops it, with two rising beeps for recording and two falling ones for stopped, neither recorded. While it runs, the game doesn't get Page Up.
+- `build/Release/headset_clamp.exe <recording.wav>` writes `-limiter` and `-headset` versions next to the recording, at the same level, to compare by ear.

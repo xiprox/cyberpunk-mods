@@ -79,6 +79,15 @@ add_executable(voice_test tools/voice_test.cpp)
 target_link_libraries(voice_test PRIVATE voicecore)
 target_compile_options(voice_test PRIVATE /W3 /utf-8)
 
+# ---- for trying the headset clamp on recordings of the game (RECORD.md, 2026-11-07); not part of the mod
+add_executable(record_game tools/record_game.cpp)
+target_link_libraries(record_game PRIVATE ole32 winmm user32)
+target_compile_options(record_game PRIVATE /W4 /utf-8)
+add_executable(headset_clamp tools/headset_clamp.cpp)
+target_compile_options(headset_clamp PRIVATE /W4 /utf-8)
+target_compile_definitions(record_game PRIVATE _CRT_SECURE_NO_WARNINGS)
+target_compile_definitions(headset_clamp PRIVATE _CRT_SECURE_NO_WARNINGS)
+
 # ---- the plugin
 if(EXISTS "${RED4EXT_SDK_DIR}/CMakeLists.txt")
     set(RED4EXT_HEADER_ONLY ON CACHE BOOL "" FORCE)
