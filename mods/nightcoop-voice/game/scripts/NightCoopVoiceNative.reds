@@ -11,7 +11,8 @@ public native class NightCoopVoiceNative extends IScriptable {
   public static native func PeerCount() -> Int32;
   public static native func PeerIdAt(index: Int32) -> Int32;
   public static native func PeerNameAt(index: Int32) -> String;
-  // Bits: 1 linked, 2 link failed, 4 talking nearby, 8 talking on radio, 16 they muted, 32 their radio mic is on.
+  // Bits: 1 direct link up, 2 direct link failed, 4 talking nearby, 8 talking on radio, 16 they muted, 32 their radio
+  // mic is on, 64 on the Relay (no direct link, and their voice gets through over NightCoop).
   public static native func PeerStateAt(index: Int32) -> Int32;
   public static native func PeerPingAt(index: Int32) -> Int32;
 

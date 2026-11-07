@@ -27,8 +27,10 @@ namespace
 {
 constexpr const char* kModId = "xip.nightcoop_voice"; // stable forever
 constexpr const char* kResendModId = "xip.nightcoop_voice.resend";
-constexpr uint32_t kProtocol = 2;                     // raise it when packets or setup messages change meaning
-constexpr uint16_t kChannelSignal = 1;
+constexpr uint32_t kProtocol = 3;                     // raise it when packets or setup messages change meaning
+constexpr uint16_t kChannelSignal = 1;                // link setup, reliable
+constexpr uint16_t kChannelAudio = 2;                 // the Relay: voice and presence when there's no direct link, unreliable
+static_assert(nv::kRelayMaxMessage <= NCSDK_UNRELIABLE_MAX);
 constexpr const char* kStateKey = "k";
 constexpr ULONGLONG kLookupEveryMs = 1000;
 constexpr ULONGLONG kPeerCheckEveryMs = 2000;
@@ -51,6 +53,9 @@ constexpr int kPeerTalkNear = 4;
 constexpr int kPeerTalkRadio = 8;
 constexpr int kPeerMuted = 16;
 constexpr int kPeerOnAir = 32;
+constexpr int kPeerRelay = 64;
+
+constexpr ULONGLONG kRelayRefusalLogEveryMs = 10000;
 
 const RED4ext::v1::Sdk* g_sdk = nullptr;
 RED4ext::v1::PluginHandle g_handle = nullptr;
@@ -217,7 +222,8 @@ void CheckPeers()
     }
     for (const nv::PeerView& peer : g_engine->Peers())
     {
-        stuck = stuck || peer.link != nv::PeerLink::Linked;
+        // A partner heard over the Relay has our mod list, so sending it again wouldn't help.
+        stuck = stuck || (peer.link != nv::PeerLink::Linked && !peer.relay);
     }
     if (g_resendSchedule.Update(static_cast<double>(now), stuck))
     {
@@ -266,6 +272,31 @@ void OnFrame(void*, float)
         }
         return true;
     });
+    // Here, on the game thread, as the SDK requires: the mic's frames for the Relay were queued on the audio thread.
+    g_engine->DrainRelay([](nv::PeerId aPeer, const uint8_t* aData, size_t aSize) {
+        const int32_t result = g_api->send(g_mod, aPeer, kChannelAudio, aData, aSize, 0);
+        if (result > 0)
+        {
+            return nv::RelaySend::Sent;
+        }
+        if (result == NCSDK_E_LIMIT)
+        {
+            return nv::RelaySend::Limit;
+        }
+        if (result == NCSDK_E_STATE)
+        {
+            return nv::RelaySend::NotNow;
+        }
+        // 0: they don't have the mod after all. The engine counts these; the code is only here.
+        static ULONGLONG lastLoggedMs = 0;
+        const ULONGLONG now = GetTickCount64();
+        if (lastLoggedMs == 0 || now - lastLoggedMs >= kRelayRefusalLogEveryMs)
+        {
+            lastLoggedMs = now;
+            nv::Logf(nv::LogInfo, "relay: NightCoop refused a message to peer %u: %d", aPeer, result);
+        }
+        return nv::RelaySend::Refused;
+    });
     g_engine->DrainNotes([](const std::string& aNote) {
         g_api->showMessage(g_mod, aNote.c_str(), kNoteSeconds, NCSDK_TONE_QUIET);
     });
@@ -307,9 +338,24 @@ void OnEvent(void*, int32_t aEvent, NcSdkPeer aPeer)
     }
 }
 
+// On the game thread. A guest's message to another guest comes through the host, but aFrom is still the guest who sent
+// it: guest-to-guest links (xip and Bleack) have always been set up this way. Every packet inside a Relay message also
+// carries its sender, authenticated by the key, and must match aFrom.
 void OnMessage(void*, NcSdkPeer aFrom, uint16_t aChannel, const uint8_t* aData, size_t aSize)
 {
-    if (!g_api || !g_mod || !g_engine || aChannel != kChannelSignal)
+    if (!g_api || !g_mod || !g_engine)
+    {
+        return;
+    }
+    if (aChannel == kChannelAudio)
+    {
+        if (!g_engine->OnRelay(aFrom, aData, aSize))
+        {
+            g_engine->AddPeer(aFrom, PeerNameOf(aFrom)); // a Relay message proves they have the mod, too
+        }
+        return;
+    }
+    if (aChannel != kChannelSignal)
     {
         return;
     }
@@ -565,6 +611,7 @@ void PeerStateAt(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, int32_t* a
         state |= peer->talkingRadio ? kPeerTalkRadio : 0;
         state |= peer->muted ? kPeerMuted : 0;
         state |= peer->onAir ? kPeerOnAir : 0;
+        state |= peer->relay ? kPeerRelay : 0;
     }
     *aOut = state;
 }

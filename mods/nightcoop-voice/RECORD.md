@@ -6,8 +6,22 @@ What we found and decided while building NightCoop Voice, newest entry first.
 "User" marks what the user heard or saw in the game. Everything else came from logs, code or tests, and says so where it matters.
 Started on 2026-11-05 and filled in from the session transcripts, notes and logs. "My" means the assistant's explanation at the time, which the logs or the user may not have confirmed. Readings matched to a spot by time are marked "by timing", since the logs don't say where a player stood.
 
-Installed: 0.4.5 on the user's PC, reaching the others through the log collector. 0.4.6 is built and zipped, not installed, since the game was running; its tests pass without audio devices.
-Not yet checked in the game: 0.4.6's falloff choices. 0.4.5 itself. Partners' reverb and echoes, last heard on 0.4.0. Their room, corners and doors by ear. On the user's own voice since the fixes: the open street, alley, mattress alcove, ramp recess, tunnel and soft materials. Whether voices at 10-30 m are too quiet. Whispering. Car muffling timing, and radio grit and level.
+Installed: 0.4.5 on the user's PC, reaching the others through the log collector. 0.4.6 is built and zipped, not installed, since the game was running; its tests pass without audio devices. 0.5.0, the Relay, is built on the `relay` branch, not zipped or installed; its tests pass without audio devices.
+Not yet checked in the game: all of 0.5.0's Relay (its entry says what to look for). 0.4.6's falloff choices. 0.4.5 itself. Partners' reverb and echoes, last heard on 0.4.0. Their room, corners and doors by ear. On the user's own voice since the fixes: the open street, alley, mattress alcove, ramp recess, tunnel and soft materials. Whether voices at 10-30 m are too quiet. Whispering. Car muffling timing, and radio grit and level.
+
+## 2026-11-07: 0.5.0, the Relay as built
+
+Built to the design below, as 0.5.0 with protocol 3, so it doesn't play with 0.4.x. What building it added or found, from code and `voice_test`, none of it heard in a game yet:
+- A partner's path is direct while the link is connected and has had a direct packet within 8 s (`kSilentLinkMs`, which now counts direct packets only), else the Relay. So a link that went silent on the answering side, which it keeps while asking for a new one, no longer counts as up, and its voice moves to the Relay.
+- A switch can't play a frame twice: each frame goes by one path, and a frame whose sequence number was taken in the last 10 s is dropped, whichever path brings it. In the switching test A made 279 frames, and B took 151 direct and 128 over the Relay, none twice.
+- Loads, my addition to the design: only the game thread can send, so a frame that waited there over 250 ms is dropped rather than sent late. Each message also starts with its send time, and the receiver drops frames over 500 ms later than the quickest message of the last few seconds. Otherwise a backlog delivered all at once after a load would start someone's sentence seconds late. Whether NightCoop delivers such a backlog at all is unknown.
+- Notes: "Voice with Bleack on Relay" once the Relay gets their voice through, at once on Always, otherwise after 3 s without direct, so the half second a direct link takes at a session's start doesn't bring the note every time. "No direct link to Bleack yet" doesn't show while the Relay works.
+- The answering side logged "link timed out" or "went silent" every 100 ms while it waited, and after asking to reconnect it took its own silent link for a new one, so it noted "Voice linked with B" again every 8-10 s (xip's log, 2026-11-06 22:44). Now it logs once per ask, every 10 s, and notes a loss once.
+- Leaving Always: the first offer can arrive before the presence saying so. The offer is taken as the sign, and an older presence's Always bit is ignored for 3 s.
+- Rate, in the test with its made-up speech: five partners at three frames a message took 85-90 messages and 17-25 KB in the busiest second. At 32 kbit/s that's roughly 5-6 KB a second per partner on either packing, so past about five partners at once it's the 32 KB, not the 120 messages, that runs out, by my estimate. A fake limit of 15 messages a second got refusals, then four frames a message and no more refusals.
+- `relay:` lines every 30 s per partner: messages and frames sent, NightCoop's refusals by kind, frames dropped as too old, frames heard by each path, dropped late or twice, and the ping.
+
+To check in a session: the Relay's delay between the user and Bleack by way of Bossun, what loading screens do to it, NightCoop's rate handling (`relay:` and `sdk:` lines, `NightCoopSdkStatus()` in the CET console), whether a host relaying guests' messages counts against its own rate, the HUD's Relay rows and the mic line saying LIVE, the notes, the Settings entry, and a whole session on Always.
 
 ## 2026-11-07: The radio drowned in loud moments; clamping like a headset, to try
 
@@ -29,7 +43,7 @@ It covers a voice, its room sound and its echoes, not the radio. It only changes
 
 ## 2026-11-07: A Relay fallback, for sharing with the community
 
-The user reversed "no voice fallback": "I want to add fallback so I can share this mod with the community." No direct link in the logs has failed while NightCoop itself worked, so it isn't fixing anything seen so far. Designed, not built:
+The user reversed "no voice fallback": "I want to add fallback so I can share this mod with the community." No direct link in the logs has failed while NightCoop itself worked, so it isn't fixing anything seen so far. Designed, and approved by the user; built in 0.5.0 (the entry above):
 - When a direct link is down, voice and presence go as the same encrypted packets over a NightCoop channel, two 20 ms frames a message, and switch back when direct returns. Each side picks for itself and accepts both.
 - A guest's messages to another guest go through the host, so the user and Bleack would go by way of Bossun in North America, very roughly 150-200 ms each way (estimate). It also only moves while the games run frames, so loads cut it.
 - Named "Relay" in the HUD (user). A visible Relay setting, When needed or Always, so the crew can play a whole session on it (user). Protocol 3.
