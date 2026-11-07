@@ -783,9 +783,12 @@ void TestMixer()
             leftBand.push_back(leftLow.Process(side.left[i]));
             rightBand.push_back(rightLow.Process(side.right[i]));
         }
+        // What's left under 1.2 kHz is the 1 kHz tone, which repeats every 48 samples, so lags a period apart score
+        // almost alike: searching both sides sometimes picked 35 - 48 = -13. The far ear can only be later, and by less
+        // than a period, so only that range is searched.
         int bestLag = 0;
         double bestScore = -1e9;
-        for (int lag = -48; lag <= 48; ++lag)
+        for (int lag = 0; lag < 48; ++lag)
         {
             double score = 0.0;
             for (size_t i = 48; i + 48 < leftBand.size(); ++i)
