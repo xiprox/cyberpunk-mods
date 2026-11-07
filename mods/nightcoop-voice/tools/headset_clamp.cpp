@@ -3,7 +3,16 @@
 //   <name>-headset.wav   a model of a tactical headset: what its outside microphones pick up is limited and loses a little
 //                        top end, while what leaks through the ear cups never is, but loses far more treble than bass.
 //                        So a blast shrinks to a muffled thump while quiet sounds come through as they were.
-// Both are written next to the recording at the same level as it, so they can be compared straight against it.
+//                        Measured on the user's recordings, it barely differs from the limiter and is even a little
+//                        brighter in a blast: kept for comparison.
+//   <name>-headset2.wav  the same idea, exaggerated to work in the game's mix, where a blast is only some 15 dB over the
+//                        clamp level instead of 50 or more. The microphones turn down three dB for every dB a sound goes
+//                        over it, judged on the whole sound, and a louder, more muffled leak through the cups takes over.
+//   <name>-headset3.wav  the second, plus what the user asked for after hearing it: quiet sounds lifted a little, as
+//                        talk-through does; recovery that slows while bangs keep coming, so the world doesn't breathe at
+//                        the fire rate; the deepest bass no longer turning it down; and a faint constant character, a little
+//                        narrower with a soft hiss, so wearing it is felt.
+// All are written next to the recording at the same level as it, so they can be compared straight against it.
 //
 //   headset_clamp <recording.wav> [threshold dB over the recording's typical level]
 //   headset_clamp <recording.wav> --at <dB>    the same clamp level for every recording, as a real headset would have
@@ -32,6 +41,29 @@ constexpr float kMicLowHz = 120.f;              // small outside microphones los
 constexpr float kMicHighHz = 7000.f;            // and the very top
 constexpr float kLeakDb = -15.f;                // ear cups pass bass at about this
 constexpr float kLeakHz = 200.f;                // and lose about 6 dB more per octave above this: -29 dB at 1 kHz, -41 at 4 kHz
+
+// The second model. Real blasts are so far over a headset's clamp that what its microphones add hardly counts; the game's
+// mix squeezes that, so the microphones have to give way faster for the leak to be what's left.
+constexpr float kSteepness = 3.f;               // dB down for each dB over the clamp level
+constexpr float kDeepestDb = 40.f;              // no further than this
+constexpr float kLeak2Db = -10.f;
+constexpr float kLeak2Hz = 300.f;               // two-pole: about -21 dB more at 1 kHz, -33 at 2 kHz
+
+// The third model: the second, with what the user asked for after hearing it (2026-11-07).
+constexpr float kDetectLowHz = 80.f;     // what turns the microphones down ignores the deepest bass, so an engine or music doesn't
+constexpr float kReleaseSlowMs = 900.f;  // during repeated bangs the world stays down instead of breathing at the fire rate
+constexpr float kBusyRiseMs = 80.f;      // how fast repeated clamping counts as busy
+constexpr float kBusyFallMs = 2500.f;    // and how long that lasts after the last bang
+constexpr float kLiftBelowDb = 18.f;     // sounds this far under the clamp level get lifted, as a headset's talk-through does
+constexpr float kLiftRatio = 0.5f;       // 1 dB up for every 2 dB further under
+constexpr float kLiftMostDb = 6.f;
+constexpr float kLiftFloorDb = -70.f;    // under this it's silence rather than a quiet sound, and stays as it is
+constexpr float kLiftDownMs = 20.f;      // a sound getting louder loses its lift fast
+constexpr float kLiftUpMs = 400.f;       // and quiet gains it slowly
+constexpr float kWidth = 0.75f;          // microphones on the cups tell less of where a sound is than ears do
+constexpr float kHissDb = -64.f;         // the talk-through electronics' own faint hiss
+constexpr float kHissLowHz = 300.f;
+constexpr float kHissHighHz = 6000.f;
 
 struct Audio
 {
@@ -208,20 +240,108 @@ private:
     float m_z2 = 0.f;
 };
 
-// No look-ahead, like a headset's: it reacts to a peak as it happens.
+// Butterworth highpass, from the same cookbook.
+class Highpass2
+{
+public:
+    Highpass2(float aHz, int aRate)
+    {
+        const double w = 2.0 * kPi * aHz / aRate;
+        const double alpha = std::sin(w) / (2.0 * 0.7071);
+        const double a0 = 1.0 + alpha;
+        m_b0 = static_cast<float>((1.0 + std::cos(w)) / 2.0 / a0);
+        m_b1 = static_cast<float>(-(1.0 + std::cos(w)) / a0);
+        m_b2 = m_b0;
+        m_a1 = static_cast<float>(-2.0 * std::cos(w) / a0);
+        m_a2 = static_cast<float>((1.0 - alpha) / a0);
+    }
+    float Process(float aIn)
+    {
+        const float out = m_b0 * aIn + m_z1;
+        m_z1 = m_b1 * aIn - m_a1 * out + m_z2;
+        m_z2 = m_b2 * aIn - m_a2 * out;
+        return out;
+    }
+
+private:
+    float m_b0, m_b1, m_b2, m_a1, m_a2;
+    float m_z1 = 0.f;
+    float m_z2 = 0.f;
+};
+
+// Lifts quiet sounds a little, the way a tactical headset's talk-through makes footsteps easier to hear.
+class Lift
+{
+public:
+    Lift(float aBelowDb, int aRate)
+        : m_belowDb(aBelowDb), m_power(Coefficient(30.f, aRate)), m_down(Coefficient(kLiftDownMs, aRate)),
+          m_up(Coefficient(kLiftUpMs, aRate))
+    {
+    }
+
+    float Gain(float aIn)
+    {
+        m_level += (aIn * aIn - m_level) * m_power;
+        const float levelDb = 10.f * std::log10(std::max(m_level, 1e-12f));
+        float target = 0.f;
+        if (levelDb < m_belowDb && levelDb > kLiftFloorDb)
+        {
+            target = std::min(kLiftMostDb, (m_belowDb - levelDb) * kLiftRatio) * std::min(1.f, (levelDb - kLiftFloorDb) / 10.f);
+        }
+        m_liftDb += (target - m_liftDb) * (target < m_liftDb ? m_down : m_up);
+        m_most = std::max(m_most, m_liftDb);
+        m_sumDb += m_liftDb;
+        ++m_samples;
+        return std::pow(10.f, m_liftDb / 20.f);
+    }
+
+    float MostDb() const
+    {
+        return m_most;
+    }
+    float MeanDb() const
+    {
+        return m_samples ? static_cast<float>(m_sumDb / m_samples) : 0.f;
+    }
+
+private:
+    float m_belowDb;
+    float m_power;
+    float m_down;
+    float m_up;
+    float m_level = 0.f;
+    float m_liftDb = 0.f;
+    float m_most = 0.f;
+    double m_sumDb = 0.0;
+    int64_t m_samples = 0;
+};
+
+// No look-ahead, like a headset's: it reacts to a peak as it happens. aSteepness 1 holds peaks at the threshold; more turns
+// a sound that many dB down for each dB it goes over, as far as aDeepestDb. With aSlowReleaseMs, recovery slows towards
+// that while bangs keep coming.
 class Limiter
 {
 public:
-    Limiter(float aThreshold, int aRate)
+    Limiter(float aThreshold, int aRate, float aSteepness = 1.f, float aDeepestDb = 120.f, float aSlowReleaseMs = 0.f)
         : m_threshold(aThreshold), m_release(Coefficient(kReleaseMs, aRate)),
-          m_holdSamples(static_cast<int>(kPeakHoldMs * aRate / 1000.f)), m_sink(1.f - Coefficient(kPeakHoldMs, aRate))
+          m_holdSamples(static_cast<int>(kPeakHoldMs * aRate / 1000.f)), m_sink(1.f - Coefficient(kPeakHoldMs, aRate)),
+          m_steepness(aSteepness), m_floor(std::pow(10.f, -aDeepestDb / 20.f)),
+          m_slowRelease(aSlowReleaseMs > 0.f ? Coefficient(aSlowReleaseMs, aRate) : 0.f),
+          m_busyRise(Coefficient(kBusyRiseMs, aRate)), m_busyFall(Coefficient(kBusyFallMs, aRate))
     {
     }
 
     float Process(float aIn)
     {
-        // The peak jumps up at once, stays for the hold, then sinks; the gain follows it at the attack and release speeds.
-        const float level = std::fabs(aIn);
+        return aIn * Track(aIn);
+    }
+
+    // Follows aDetect and returns the gain for it, to apply to aDetect or to another signal.
+    float Track(float aDetect)
+    {
+        // The peak jumps up at once, stays for the hold, then sinks. The gain drops with it at once and recovers at the
+        // release speed.
+        const float level = std::fabs(aDetect);
         if (level >= m_peak)
         {
             m_peak = level;
@@ -235,12 +355,39 @@ public:
         {
             m_peak = std::max(level, m_peak * m_sink);
         }
-        const float target = m_peak > m_threshold ? m_threshold / m_peak : 1.f;
-        m_gain = target < m_gain ? target : m_gain + (target - m_gain) * m_release;
+        float target = 1.f;
+        if (m_peak > m_threshold)
+        {
+            const float ratio = m_threshold / m_peak;
+            target = std::max(m_steepness == 1.f ? ratio : std::pow(ratio, m_steepness), m_floor);
+        }
+        float release = m_release;
+        if (m_slowRelease > 0.f)
+        {
+            const bool down = m_gain < 0.5f; // over 6 dB
+            m_busy += ((down ? 1.f : 0.f) - m_busy) * (down ? m_busyRise : m_busyFall);
+            release += (m_slowRelease - m_release) * m_busy;
+        }
+        m_gain = target < m_gain ? target : m_gain + (target - m_gain) * release;
         m_deepest = std::min(m_deepest, m_gain);
         m_clampedSamples += m_gain < 0.708f ? 1 : 0; // more than 3 dB
         ++m_samples;
-        return aIn * m_gain;
+        // A breath: well down, then back up near full, as happens between shots when it recovers too fast.
+        if (m_gain < 0.316f) // -10 dB
+        {
+            m_armed = true;
+        }
+        else if (m_armed && m_gain > 0.708f)
+        {
+            m_armed = false;
+            ++m_breaths;
+        }
+        return m_gain;
+    }
+
+    int Breaths() const
+    {
+        return m_breaths;
     }
 
     float DeepestDb() const
@@ -257,6 +404,14 @@ private:
     float m_release;
     int m_holdSamples;
     float m_sink;
+    float m_steepness;
+    float m_floor;
+    float m_slowRelease;
+    float m_busyRise;
+    float m_busyFall;
+    float m_busy = 0.f;
+    bool m_armed = false;
+    int m_breaths = 0;
     int m_holdLeft = 0;
     float m_peak = 0.f;
     float m_gain = 1.f;
@@ -337,14 +492,23 @@ int wmain(int aCount, wchar_t** aArguments)
 
     Audio limited = original;
     Audio headset = original;
+    Audio headset2 = original;
+    Audio headset3 = original;
     const float leakGain = std::pow(10.f, kLeakDb / 20.f);
+    const float leak2Gain = std::pow(10.f, kLeak2Db / 20.f);
+    const float liftBelowDb = 20.f * std::log10(threshold) - kLiftBelowDb;
     for (int channel = 0; channel < channels; ++channel)
     {
         Limiter plain(threshold, original.rate);
         Limiter microphone(threshold, original.rate);
+        Limiter microphone2(threshold, original.rate, kSteepness, kDeepestDb);
+        Limiter microphone3(threshold, original.rate, kSteepness, kDeepestDb, kReleaseSlowMs);
         OnePole micLow(kMicLowHz, original.rate);
         Lowpass2 micHigh(kMicHighHz, original.rate);
         OnePole leak(kLeakHz, original.rate);
+        Lowpass2 leak2(kLeak2Hz, original.rate);
+        Highpass2 detectLow(kDetectLowHz, original.rate);
+        Lift lift(liftBelowDb, original.rate);
         for (size_t frame = 0; frame < frames; ++frame)
         {
             const size_t index = frame * channels + channel;
@@ -352,24 +516,70 @@ int wmain(int aCount, wchar_t** aArguments)
             limited.samples[index] = plain.Process(in);
             const float picked = micHigh.Process(micLow.Highpass(in));
             headset.samples[index] = microphone.Process(picked) + leak.Lowpass(in) * leakGain;
+            const float leaked = leak2.Process(in) * leak2Gain;
+            headset2.samples[index] = picked * microphone2.Track(in) + leaked;
+            headset3.samples[index] = picked * lift.Gain(picked) * microphone3.Track(detectLow.Process(in)) + leaked;
         }
         const char* ear = channels == 1 ? "mono" : channel == 0 ? "left" : "right";
-        std::printf("  %s: limiter down %.1f dB at most, over 3 dB down %.1f%% of the time; headset microphones down %.1f dB at "
-                    "most, %.1f%% of the time\n",
+        std::printf("  %s, down at most and share of time over 3 dB down: limiter %.1f dB %.1f%%, headset microphones %.1f dB "
+                    "%.1f%%, headset 2 microphones %.1f dB %.1f%%, headset 3 microphones %.1f dB %.1f%%\n",
                     ear, -plain.DeepestDb(), plain.ClampedShare() * 100.0, -microphone.DeepestDb(),
-                    microphone.ClampedShare() * 100.0);
+                    microphone.ClampedShare() * 100.0, -microphone2.DeepestDb(), microphone2.ClampedShare() * 100.0,
+                    -microphone3.DeepestDb(), microphone3.ClampedShare() * 100.0);
+        std::printf("  %s, breaths (down 10 dB, then back within 3 dB): headset 2 %d, headset 3 %d; headset 3 lift %.1f dB at "
+                    "most, %.1f dB on average\n",
+                    ear, microphone2.Breaths(), microphone3.Breaths(), lift.MostDb(), lift.MeanDb());
     }
 
-    std::filesystem::path limitedPath = input;
-    limitedPath.replace_filename(input.stem().wstring() + L"-limiter.wav");
-    std::filesystem::path headsetPath = input;
-    headsetPath.replace_filename(input.stem().wstring() + L"-headset.wav");
-    if (!WriteWav(limitedPath, limited) || !WriteWav(headsetPath, headset))
+    // Headset 3's character, which needs both ears at once: a narrower picture, and the electronics' hiss in each ear.
+    if (channels == 2)
+    {
+        uint32_t seed = 0x9e3779b9u;
+        const auto noise = [&seed] {
+            seed = seed * 1664525u + 1013904223u;
+            return static_cast<float>(static_cast<int32_t>(seed)) / 2147483648.f;
+        };
+        std::vector<float> hiss(headset3.samples.size());
+        for (int channel = 0; channel < 2; ++channel)
+        {
+            OnePole low(kHissLowHz, original.rate);
+            Lowpass2 high(kHissHighHz, original.rate);
+            for (size_t frame = 0; frame < frames; ++frame)
+            {
+                hiss[frame * 2 + channel] = high.Process(low.Highpass(noise()));
+            }
+        }
+        double power = 0.0;
+        for (const float sample : hiss)
+        {
+            power += static_cast<double>(sample) * sample;
+        }
+        const float hissGain =
+            std::pow(10.f, kHissDb / 20.f) / static_cast<float>(std::sqrt(std::max(power / hiss.size(), 1e-20)));
+        for (size_t frame = 0; frame < frames; ++frame)
+        {
+            float& left = headset3.samples[frame * 2];
+            float& right = headset3.samples[frame * 2 + 1];
+            const float middle = (left + right) * 0.5f;
+            const float side = (left - right) * 0.5f * kWidth;
+            left = middle + side + hiss[frame * 2] * hissGain;
+            right = middle - side + hiss[frame * 2 + 1] * hissGain;
+        }
+    }
+
+    const auto named = [&](const wchar_t* aSuffix) {
+        std::filesystem::path path = input;
+        path.replace_filename(input.stem().wstring() + aSuffix);
+        return path;
+    };
+    if (!WriteWav(named(L"-limiter.wav"), limited) || !WriteWav(named(L"-headset.wav"), headset) ||
+        !WriteWav(named(L"-headset2.wav"), headset2) || !WriteWav(named(L"-headset3.wav"), headset3))
     {
         std::printf("Couldn't write the results.\n");
         return 1;
     }
-    std::printf("  loudest peak now: limiter %.1f dB, headset %.1f dB\n", PeakDb(limited), PeakDb(headset));
-    std::printf("Wrote %ls and %ls\n", limitedPath.filename().c_str(), headsetPath.filename().c_str());
+    std::printf("  loudest peak now: limiter %.1f dB, headset %.1f dB, headset 2 %.1f dB, headset 3 %.1f dB\n", PeakDb(limited),
+                PeakDb(headset), PeakDb(headset2), PeakDb(headset3));
+    std::printf("Wrote the -limiter, -headset, -headset2 and -headset3 versions\n");
     return 0;
 }
