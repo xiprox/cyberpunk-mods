@@ -1,5 +1,10 @@
 // The voice mod without the game: who is connected, what goes where, and the audio threads. The game side (or the test
-// program) tells it about players and positions, and carries its setup messages over NightCoop.
+// program) tells it about players and positions, and carries its setup messages and the Relay over NightCoop.
+//
+// Voice goes to each partner on one of two paths. Direct: the hole-punched link, while it's connected and hearing from
+// them. The Relay: otherwise, the same sealed packets in a NightCoop channel message, two 20 ms frames to a message.
+// Each game picks for itself and takes both paths at all times, so nothing has to be agreed. "Always" in Settings puts
+// every pair with this player on the Relay: it makes no direct links, and tells partners so in its presence.
 #pragma once
 
 #include "audio/automix.hpp"
@@ -34,12 +39,40 @@ struct PeerView
 {
     PeerId id = 0;
     std::string name;
-    PeerLink link = PeerLink::Connecting;
+    PeerLink link = PeerLink::Connecting; // the direct link
+    bool relay = false;  // no direct link, and the Relay is getting their voice through
     bool talkingNear = false;
     bool talkingRadio = false;
     bool muted = false;  // they muted themselves
     bool onAir = false;  // their radio mic is on
-    int pingMs = -1;
+    int pingMs = -1;     // the round trip of whichever path carries it
+};
+
+// How a Relay message fared with NightCoop. It's never retried: voice that can't go now is dropped.
+enum class RelaySend : int
+{
+    Sent,
+    Limit,   // over NightCoop's rate limit (NCSDK_E_LIMIT)
+    NotNow,  // NightCoop can't send to them just now (NCSDK_E_STATE: a load, or their mod list hasn't come)
+    Refused, // anything else
+};
+
+// The most one Relay message may hold: NightCoop's limit for an unreliable message (NCSDK_UNRELIABLE_MAX).
+constexpr size_t kRelayMaxMessage = 1024;
+
+// Counts since the partner was added, for the log and the test program.
+struct PathStats
+{
+    uint32_t heardDirect = 0;   // audio frames from them, by the path they came
+    uint32_t heardRelay = 0;
+    uint32_t duplicates = 0;    // audio frames that came a second time, dropped
+    uint32_t stale = 0;         // Relay frames that came far too late to play, dropped
+    uint32_t relayMessages = 0; // Relay messages we sent them
+    uint32_t relayFrames = 0;   // audio frames in those
+    uint32_t refusedLimit = 0;  // messages NightCoop refused for its rate limit, their frames dropped
+    uint32_t refusedNotNow = 0;
+    uint32_t refusedOther = 0;
+    uint32_t tooOld = 0;        // audio frames dropped before sending, after waiting through a load or a hitch
 };
 
 class Engine final : public LinkSink
@@ -64,6 +97,12 @@ public:
     // aSend returns false to keep that message and the rest for that player for the next try; other players' go on.
     void DrainSignals(const std::function<bool(PeerId, const std::vector<uint8_t>&)>& aSend);
     void DrainNotes(const std::function<void(const std::string&)>& aShow);
+
+    // ---- the Relay, from the game thread only: NightCoop's SDK may be called there and nowhere else.
+    // Every frame: hands aSend the messages that are ready, one partner's in order.
+    void DrainRelay(const std::function<RelaySend(PeerId, const uint8_t*, size_t)>& aSend);
+    // A Relay message from a partner. False if they aren't known here yet (their packets are dropped until they are).
+    bool OnRelay(PeerId aFrom, const uint8_t* aData, size_t aSize);
 
     // ---- positions, from the game thread
     void SetListener(const Vec3& aPosition, const Vec3& aForward, const Vec3& aRight);
@@ -95,6 +134,11 @@ public:
 
     // ---- state for the HUD and the menus, from any thread
     std::vector<PeerView> Peers() const;
+    PathStats Stats(PeerId aPeer) const;
+    bool RelayAlways() const
+    {
+        return m_relayAlways.load();
+    }
     bool InSession() const
     {
         return m_inSession.load();
@@ -137,8 +181,15 @@ private:
     void Post(std::function<void()> aWork);
     void WorkerLoop();
     void Tick(double aNowMs);
+    void TickDirect(Peer& aPeer, double aNowMs);
+    void TickPath(Peer& aPeer, double aNowMs);
     void SendPresence(double aNowMs);
     void LogLevels(double aNowMs);
+    void LogRelay(double aNowMs);
+    void ReceivePacket(PeerId aPeer, const uint8_t* aData, size_t aSize, bool aRelay, bool aStale);
+    // Sends one sealed packet to one partner by their path; the caller holds m_peersLock.
+    void SendToPeer(Peer& aPeer, const uint8_t* aPacket, size_t aSize, bool aAudio, double aNowMs);
+    void RelayRefusedForRate(double aNowMs, const Peer& aPeer, int aFrames);
     void ReadLiveTuning(double aNowMs);
     std::string AutoGainKey();
     void SaveAutoGain();
@@ -150,7 +201,7 @@ private:
 
     std::shared_ptr<Peer> FindPeer(PeerId aPeer) const;
     void CreateLink(Peer& aPeer, uint32_t aGeneration);
-    void DestroyLink(Peer& aPeer);
+    void DestroyLink(Peer& aPeer, const char* aWhy);
     void HandleSignal(Peer& aPeer, uint8_t aKind, uint32_t aGeneration, const std::string& aText);
     void Note(const std::string& aText);
     void ApplyPeerMix(const Peer& aPeer);
@@ -177,6 +228,14 @@ private:
 
     std::atomic<bool> m_muted{false};
     std::atomic<bool> m_radioOn{false};
+    std::atomic<bool> m_relayAlways{false};
+    std::atomic<int> m_relayAudience{0}; // partners on the Relay who should have heard the last frame
+
+    // Game thread only: packing more frames into a message for a while after NightCoop refused one for its rate.
+    int m_relayExtraFrames = 0;
+    double m_relayLastLimitMs = -1e12;
+    double m_relayLastRaiseMs = -1e12;
+    double m_lastRelayLogMs = 0.0; // worker thread
     bool m_radioWasOnAtPress = false;
     std::atomic<int> m_testRoute{0};
 

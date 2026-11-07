@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.25)
 
 set(CMAKE_POLICY_DEFAULT_CMP0091 NEW)
 set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
-project(NightCoopVoice VERSION 0.4.6 LANGUAGES C CXX)
+project(NightCoopVoice VERSION 0.5.0 LANGUAGES C CXX)
 
 # Static C runtime: the mod has to load on Bleack's Proton setup too, where the system's C++ runtime may be older than
 # the one this was built against.

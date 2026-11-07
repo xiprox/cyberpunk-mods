@@ -1,10 +1,11 @@
 # NightCoop Voice
 
-Voice chat inside NightCoop sessions: nearby voices that follow distance, direction, walls and cars, plus a group radio. Audio goes directly between players, not through NightCoop or its host. [RECORD.md](RECORD.md) says why it's built the way it is.
+Voice chat inside NightCoop sessions: nearby voices that follow distance, direction, walls and cars, plus a group radio. Audio goes directly between players when it can, and over NightCoop, through its host, when it can't (the Relay). [RECORD.md](RECORD.md) says why it's built the way it is.
 
 ## Install
 
 Every player needs the same files, and RED4ext, Codeware, CET, Native Settings and NightCoop 0.2.0 or newer. Unzip `dist/NightCoopVoice-<version>.zip` into the game folder. To remove the mod, delete `red4ext/plugins/NightCoopVoice` and `bin/x64/plugins/cyber_engine_tweaks/mods/NightCoopVoice`.
+Versions only talk to the same protocol: 0.5.0 and newer can't hear 0.4.x or older, so everyone updates together.
 
 ## How it plays
 
@@ -21,6 +22,7 @@ Nothing needs pressing to talk. Links connect when a session starts, and your mi
 - **Rooms and echoes:** rays around you measure the space you're in. A closet dies fast, a hall or tunnel rings, and open air gives back very little. A balcony or anywhere else with no roof over one side lets sound out instead of ringing, and so does a low wall. Carpet, fabric, upholstery, grass and the like shorten the ring. Across a closed room the voice falls away while the room's sound doesn't. Walls far enough off and big enough give real echoes, from their own direction, up to four per talker. Posts, signs, stairs, low walls and soft surfaces don't. A voice through a wall brings the sound of the room it's in, as that player's own rays measured it. In headphones you also hear your own voice in the room, never directly, only somewhere closed in that rings for more than about half a second, and not underwater or in a car.
 - **Cars:** riders in one vehicle hear each other clean. Between the inside of a car and anywhere else, voices are heavily muffled within 5 m and silent past that. Bikes block nothing.
 - **Radio:** everyone always hears it, at any distance, through walls and cars. Only players with their radio mic on are sent over it. It has the grit of a military radio's digital voice encoding. In headphones it plays from an earpiece in the left or right ear, or in both, as chosen in Settings. With Headphones off it always plays in both ears.
+- **Relay:** with no direct link to a partner, including the moment one takes to connect, voice goes to them over NightCoop instead, and back to direct once the link is up. Settings, Connection, Relay: When needed (the default), or Always, which makes no direct links at all, for every pair that includes you. Packing two frames a message adds 20 ms, waiting for game frames a little more, and a guest's voice to another guest goes by way of the host, so two players in Europe with a host in North America hear each other a few hundred ms later (an estimate). It only moves while the games run frames, so loading screens cut it. The HUD shows "Bleack - Relay", and "Bleack - nearby, Relay" while they talk.
 
 Levels set themselves. Each mic evens itself out with an automatic gain, which remembers each mic between runs, and a compressor, so speech leaves every player at about the same level. Each listener's voices then keep their balance with that player's game: the mod measures what the output plays, takes away its own voices, and sets one gain for all voices, so the game's Master Volume and the system volume don't matter. Voices rise when a fight starts and settle slowly afterwards. Nearby gunfire can still drown them out, on purpose. Where the output can't be measured, voices follow the Master Volume setting alone. Every 30 s NightCoop's log gets `levels:` lines with the real numbers, `rays:` lines with what the rays cost, and an `acoustics:` line with the measured room and how ways round were found.
 
@@ -31,12 +33,13 @@ Settings are in the game's Settings menu under Mods, Voice. They're stored per P
 | Part | Where | Does |
 |---|---|---|
 | Engine | `src/` | Mic chain, Opus, encrypted links, jitter buffer, mixer, effects, all on its own threads |
-| Game glue | `src/plugin/` | NightCoop session events and setup messages, script functions, keys |
+| Game glue | `src/plugin/` | NightCoop session events, setup messages and the Relay, script functions, keys |
 | Acoustics | `src/audio/acoustics.cpp` | Decides which rays to cast and what the answers mean, with no game in it, so the test program can stand in for the world |
 | HUD and positions | `game/scripts/` | Reads positions and casts the rays it's asked for each frame, draws the corner display |
 | Settings | `game/cet/` | The Voice section, through Native Settings |
 
-NightCoop's SDK carries only setup: addresses over a reliable channel, and a key the host makes per session in shared state. There is deliberately no voice fallback: a pair that can't connect stays silent, shows it on the HUD and keeps retrying. The host could read that key, as it can all SDK data.
+NightCoop's SDK carries setup, addresses over a reliable channel, and a key the host makes per session in shared state. The host could read that key, as it can all SDK data.
+It also carries the Relay: the same encrypted packets as the direct links, two 20 ms frames to an unreliable message on a second channel, sent on the game thread, where the SDK has to be called. Each game picks a path per partner for itself and takes both at all times, so a switch needs nothing agreed, and sequence numbers run on across it. Presence goes the same way once a second, so mute, the radio mic, their room and the ping work on either path; the ping is then the Relay's real round trip. NightCoop allows 120 messages and 32768 bytes a second per mod: two frames a message fit four partners on the Relay at once, so past that a message carries three. When NightCoop refuses one for its rate, its frames are dropped, never retried, and messages carry a frame more for a while. On Always, a player tells partners in their presence, so they stop trying direct with them. `relay:` lines in NightCoop's log count what went each way every 30 s.
 
 A player's mod list can fail to register on another machine: on one join, Bleack's NightCoop never registered Bossun's, for any mod, so Bleack never answered Bossun's link offers. So while a player is stuck, the mod re-sends its own list, by registering and unregistering a throwaway mod, which makes NightCoop send it again.
 
@@ -58,8 +61,8 @@ cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DRED4EXT_SDK_DIR=<short p
 cmake --build build --config Release
 ```
 
-`build/Release/voice_test.exe` checks everything that doesn't need the game: effects by their measured output, rooms, corners and echoes in a made-up world of boxes, packets, the jitter buffer, real links between two engines on one PC, and the audio devices. It plays only silence, and never stores or sends microphone audio.
+`build/Release/voice_test.exe` checks everything that doesn't need the game: effects by their measured output, rooms, corners and echoes in a made-up world of boxes, packets, the jitter buffer, real links between two engines on one PC, the Relay over a fake NightCoop channel with its rate limit, and the audio devices. It plays only silence, and never stores or sends microphone audio.
 
 Two tools for trying a headset-style clamp on the game's sound, outside the game and not part of the mod:
 - `build/Release/record_game.exe` records what the default output plays into `recordings/`. Page Up starts and stops it, with two rising beeps for recording and two falling ones for stopped, neither recorded. While it runs, the game doesn't get Page Up.
-- `build/Release/headset_clamp.exe <recording.wav>` writes `-limiter` and `-headset` versions next to the recording, at the same level, to compare by ear.
+- `build/Release/headset_clamp.exe <recording.wav>` writes `-limiter` and `-headset` versions next to the recording, at the same level, to compare by ear. `--at <dB>` sets one clamp level for every recording.

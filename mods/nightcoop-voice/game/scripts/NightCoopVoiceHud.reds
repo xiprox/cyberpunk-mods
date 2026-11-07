@@ -147,25 +147,27 @@ public class NightCoopVoiceHud extends IScriptable {
       if i < count {
         let peer = NightCoopVoiceNative.PeerStateAt(i);
         let name = NightCoopVoiceNative.PeerNameAt(i);
-        let line = name;
+        let relay = (peer & 64) != 0;
+        let path = relay ? ", Relay" : "";
+        let line = relay ? name + " - Relay" : name;
         let color = this.Grey();
-        if (peer & 1) == 0 {
+        if (peer & 1) == 0 && !relay {
           line = ((peer & 2) != 0) ? name + " - no direct link" : name + " - connecting";
           color = ((peer & 2) != 0) ? this.Red() : this.Grey();
         } else {
           if (peer & 8) != 0 {
-            line = name + " - radio";
+            line = name + " - radio" + path;
             color = this.Yellow();
           } else {
             if (peer & 4) != 0 {
-              line = name + " - nearby";
+              line = name + " - nearby" + path;
               color = this.Cyan();
             } else {
               if (peer & 32) != 0 {
-                line = name + " - on air";
+                line = name + " - on air" + path;
               } else {
                 if (peer & 16) != 0 {
-                  line = name + " - muted";
+                  line = name + " - muted" + path;
                 }
               }
             }

@@ -6,6 +6,7 @@
 #include <xmmintrin.h>
 
 #include <algorithm>
+#include <array>
 #include <cstdlib>
 #include <cstring>
 #include <filesystem>
@@ -44,11 +45,121 @@ constexpr float kToneRadioOff = 880.f;
 constexpr float kToneMute = 440.f;
 constexpr float kToneUnmute = 660.f;
 
+// The Relay. A message is a 4-byte send time, then entries of a 2-byte size and one sealed packet.
+constexpr size_t kRelayHeader = 4;
+constexpr double kRelayFreshMs = 3000.0;        // presence comes once a second, so this long without any means it's down
+constexpr double kRelayNoteAfterMs = 3000.0;    // a direct link at the start of a session is usually up well before
+constexpr double kFrameMs = 20.0;
+constexpr double kRelayFlushSlackMs = 25.0;     // past the frames a message waits for, the first one goes anyway
+constexpr double kRelayMostWaitMs = 250.0;      // older than this, a queued frame is too late to be worth sending
+constexpr double kRelayStaleMs = 500.0;         // this much later than the quickest recent message, a frame can't play
+constexpr size_t kRelayMostQueued = 64;
+constexpr int kRelayPartnersAtTwoFrames = 4;    // 25 messages a second each, out of NightCoop's 120
+constexpr int kRelayMostFrames = 4;
+constexpr double kRelayRaiseEveryMs = 1000.0;   // after a refusal for the rate, one more frame a message, at most this often
+constexpr double kRelayEaseAfterMs = 10000.0;   // and one fewer after this long with none
+constexpr double kRelayLogEveryMs = 30000.0;
+constexpr double kRelayLimitLogEveryMs = 10000.0;
+constexpr double kSeenForMs = 10000.0;          // a frame's sequence number counts as taken for this long
+constexpr double kAlwaysAfterOfferMs = 3000.0;
+
 enum PresenceBit : uint8_t
 {
     PresenceMuted = 1,
     PresenceOnAir = 2,
+    PresenceRelayAlways = 4, // this player's Relay is set to Always: no direct link with them
 };
+
+// Each sender's own millisecond clock, for the Relay's send times.
+uint32_t ClockStamp(double aNowMs)
+{
+    return static_cast<uint32_t>(static_cast<int64_t>(aNowMs));
+}
+
+struct RelayItem
+{
+    double queuedMs = 0.0;
+    bool audio = false;
+    std::vector<uint8_t> packet;
+};
+
+// How late a Relay message is against the quickest of the last few seconds. The two machines' clocks differ by any
+// amount, so only differences between messages count. Keeps the last quick time through a load, so a backlog
+// delivered all at once afterwards shows as late.
+class RelayLateness
+{
+public:
+    double Late(double aNowMs, uint32_t aSentMs)
+    {
+        const uint32_t transit = ClockStamp(aNowMs) - aSentMs;
+        if (aNowMs - m_bucketStartMs >= kBucketMs)
+        {
+            if (m_haveCurrent)
+            {
+                m_previous = m_current;
+                m_havePrevious = true;
+            }
+            m_haveCurrent = false;
+            m_bucketStartMs = aNowMs;
+        }
+        if (!m_haveCurrent || static_cast<int32_t>(transit - m_current) < 0)
+        {
+            m_current = transit;
+            m_haveCurrent = true;
+        }
+        uint32_t quickest = m_current;
+        if (m_havePrevious && static_cast<int32_t>(m_previous - quickest) < 0)
+        {
+            quickest = m_previous;
+        }
+        return static_cast<double>(static_cast<int32_t>(transit - quickest));
+    }
+
+private:
+    static constexpr double kBucketMs = 2500.0;
+    double m_bucketStartMs = -1e12;
+    uint32_t m_current = 0;
+    uint32_t m_previous = 0;
+    bool m_haveCurrent = false;
+    bool m_havePrevious = false;
+};
+
+struct PathCounters
+{
+    std::atomic<uint32_t> heardDirect{0};
+    std::atomic<uint32_t> heardRelay{0};
+    std::atomic<uint32_t> duplicates{0};
+    std::atomic<uint32_t> stale{0};
+    std::atomic<uint32_t> relayMessages{0};
+    std::atomic<uint32_t> relayFrames{0};
+    std::atomic<uint32_t> refusedLimit{0};
+    std::atomic<uint32_t> refusedNotNow{0};
+    std::atomic<uint32_t> refusedOther{0};
+    std::atomic<uint32_t> tooOld{0};
+};
+
+PathStats StatsOf(const PathCounters& aCounters)
+{
+    PathStats stats;
+    stats.heardDirect = aCounters.heardDirect.load();
+    stats.heardRelay = aCounters.heardRelay.load();
+    stats.duplicates = aCounters.duplicates.load();
+    stats.stale = aCounters.stale.load();
+    stats.relayMessages = aCounters.relayMessages.load();
+    stats.relayFrames = aCounters.relayFrames.load();
+    stats.refusedLimit = aCounters.refusedLimit.load();
+    stats.refusedNotNow = aCounters.refusedNotNow.load();
+    stats.refusedOther = aCounters.refusedOther.load();
+    stats.tooOld = aCounters.tooOld.load();
+    return stats;
+}
+
+struct SeenFrame
+{
+    uint16_t sequence = 0;
+    double atMs = -1e12;
+};
+constexpr size_t kSeenFrames = 256;
 
 void PutU32(uint8_t* aOut, uint32_t aValue)
 {
@@ -125,7 +236,31 @@ struct Engine::Peer
     bool wasConnected = false;
     std::atomic<bool> noLinkNoted{false};
 
-    std::atomic<double> lastReceiveMs{0.0};
+    // The path: direct while this is set (the link is connected and hearing from them), else the Relay. Set by Tick.
+    std::atomic<bool> directUp{false};
+    std::atomic<double> lastDirectMs{0.0}; // our last packet from them by each path
+    std::atomic<double> lastRelayMs{-1e12};
+    std::atomic<double> alwaysIgnoredUntilMs{-1e12}; // after an offer from them, their presence's Always bit is old
+
+    // Worker thread only: what the log and the notes last said about the path.
+    bool onRelay = false;
+    bool relayNoted = false;
+    bool theyWereAlways = false;
+    double relaySinceMs = 0.0;
+    std::string directDownWhy = "no direct link yet";
+    PathStats logged;
+
+    // Relay packets waiting for the game thread, queued by the audio and worker threads.
+    std::mutex relayMutex;
+    std::deque<RelayItem> relayQueue;
+    RelayLateness relayLateness; // game thread only
+
+    // Audio frames taken lately, so a frame that came by both paths plays once.
+    std::mutex seenMutex;
+    std::array<SeenFrame, kSeenFrames> seen{};
+
+    PathCounters counters;
+
     std::atomic<double> lastAudioMs{-1e12};
     std::atomic<double> spatialMs{-1e12};
     std::atomic<bool> audibleNearby{false};
@@ -366,8 +501,12 @@ void Engine::CreateLink(Peer& aPeer, uint32_t aGeneration)
     Logf(LogInfo, "peer %u: connecting (try %u)", aPeer.id, aGeneration);
 }
 
-void Engine::DestroyLink(Peer& aPeer)
+void Engine::DestroyLink(Peer& aPeer, const char* aWhy)
 {
+    if (aPeer.directUp.exchange(false))
+    {
+        aPeer.directDownWhy = aWhy;
+    }
     std::unique_ptr<Link> old;
     {
         ExclusiveLock lock(m_peersLock);
@@ -381,13 +520,29 @@ void Engine::DestroyLink(Peer& aPeer)
 
 void Engine::HandleSignal(Peer& aPeer, uint8_t aKind, uint32_t aGeneration, const std::string& aText)
 {
+    // With the Relay on Always here there's no direct link to set up: offers go unanswered.
+    if (m_relayAlways.load())
+    {
+        return;
+    }
+    if ((aPeer.remoteBits.load() & PresenceRelayAlways) != 0)
+    {
+        if (aKind != SignalDescription)
+        {
+            return;
+        }
+        // An Always player makes no offers, so they've left Always, and the offer beat their presence saying so. An
+        // older presence may still be on its way over the Relay, so the bit counts again only after a moment.
+        aPeer.remoteBits.fetch_and(static_cast<uint8_t>(~PresenceRelayAlways));
+        aPeer.alwaysIgnoredUntilMs.store(NowMs() + kAlwaysAfterOfferMs);
+    }
     switch (aKind)
     {
     case SignalRestart:
         if (aPeer.offerer && aGeneration == aPeer.generation && aPeer.link)
         {
             Logf(LogInfo, "peer %u asks to reconnect", aPeer.id);
-            DestroyLink(aPeer);
+            DestroyLink(aPeer, "they asked to reconnect");
             aPeer.nextRetryMs = 0.0;
         }
         break;
@@ -404,7 +559,7 @@ void Engine::HandleSignal(Peer& aPeer, uint8_t aKind, uint32_t aGeneration, cons
             // A newer try from the offering side replaces whatever we had.
             if (aPeer.link)
             {
-                DestroyLink(aPeer);
+                DestroyLink(aPeer, "they started a new link");
             }
             CreateLink(aPeer, aGeneration);
             aPeer.link->OnSignal(aKind, aText);
@@ -487,59 +642,8 @@ void Engine::Tick(double aNowMs)
     }
     for (const auto& entry : peers)
     {
-        Peer& peer = *entry;
-        const bool hasLink = peer.link != nullptr;
-        const LinkState state = hasLink ? peer.link->State() : LinkState::Failed;
-        const bool connected = hasLink && state == LinkState::Connected;
-
-        if (connected && !peer.wasConnected)
-        {
-            peer.wasConnected = true;
-            peer.retryDelayMs = kFirstRetryMs;
-            peer.noLinkNoted.store(false);
-            peer.lastReceiveMs.store(aNowMs);
-            Logf(LogInfo, "peer %u (%s): direct link up after %.0f ms, %s", peer.id, peer.name.c_str(),
-                 aNowMs - peer.linkCreatedMs, peer.link->PathKinds().c_str());
-            Note("Voice linked with " + peer.name);
-        }
-
-        if (hasLink)
-        {
-            const bool timedOut = state == LinkState::Connecting && aNowMs - peer.linkCreatedMs > kConnectTimeoutMs;
-            const bool silent =
-                connected && m_haveKey.load() && aNowMs - peer.lastReceiveMs.load() > kSilentLinkMs;
-            if (state == LinkState::Failed || timedOut || silent)
-            {
-                if (peer.wasConnected)
-                {
-                    Note("Voice lost the link to " + peer.name + ", reconnecting");
-                }
-                Logf(LogInfo, "peer %u (%s): link %s", peer.id, peer.name.c_str(),
-                     silent ? "went silent" : timedOut ? "timed out" : "failed");
-                if (peer.offerer)
-                {
-                    DestroyLink(peer);
-                    peer.nextRetryMs = aNowMs + peer.retryDelayMs;
-                    peer.retryDelayMs = std::min(peer.retryDelayMs * 2.0, kMaxRetryMs);
-                }
-                else if (aNowMs - peer.lastRestartAskMs > kRestartAskEveryMs)
-                {
-                    peer.lastRestartAskMs = aNowMs;
-                    peer.wasConnected = false;
-                    LinkSignal(peer.id, SignalRestart, peer.generation, "");
-                }
-            }
-        }
-        else if (peer.offerer && m_haveKey.load() && aNowMs >= peer.nextRetryMs)
-        {
-            CreateLink(peer, peer.generation + 1);
-        }
-
-        if (!connected && !peer.noLinkNoted.load() && aNowMs - peer.addedMs > kNoLinkNoteAfterMs)
-        {
-            peer.noLinkNoted.store(true);
-            Note("No direct link to " + peer.name + " yet, still trying");
-        }
+        TickDirect(*entry, aNowMs);
+        TickPath(*entry, aNowMs);
     }
 
     if (aNowMs - m_lastPresenceMs >= kPresenceEveryMs)
@@ -548,8 +652,167 @@ void Engine::Tick(double aNowMs)
         SendPresence(aNowMs);
     }
     LogLevels(aNowMs);
+    LogRelay(aNowMs);
     ReadLiveTuning(aNowMs);
     UpdateAudioThreads(aNowMs);
+}
+
+// The direct link: set it up, notice when it's lost, and try again. Not at all while either side's Relay is on Always.
+void Engine::TickDirect(Peer& aPeer, double aNowMs)
+{
+    const bool theyAreAlways = (aPeer.remoteBits.load() & PresenceRelayAlways) != 0;
+    if (theyAreAlways != aPeer.theyWereAlways)
+    {
+        aPeer.theyWereAlways = theyAreAlways;
+        Logf(LogInfo, "peer %u (%s) set their Relay to %s", aPeer.id, aPeer.name.c_str(),
+             theyAreAlways ? "Always" : "When needed");
+        if (!theyAreAlways)
+        {
+            aPeer.retryDelayMs = kFirstRetryMs;
+            aPeer.nextRetryMs = 0.0;
+        }
+    }
+    if (m_relayAlways.load() || theyAreAlways)
+    {
+        const char* why = m_relayAlways.load() ? "the Relay is set to Always here" : "they set their Relay to Always";
+        if (aPeer.link)
+        {
+            Logf(LogInfo, "peer %u (%s): dropping the direct link, as %s", aPeer.id, aPeer.name.c_str(), why);
+            DestroyLink(aPeer, why);
+        }
+        if (aPeer.directDownWhy != why)
+        {
+            aPeer.directDownWhy = why;
+        }
+        return;
+    }
+
+    const bool hasLink = aPeer.link != nullptr;
+    const LinkState state = hasLink ? aPeer.link->State() : LinkState::Failed;
+    const bool connected = hasLink && state == LinkState::Connected;
+
+    if (connected && !aPeer.wasConnected)
+    {
+        aPeer.wasConnected = true;
+        aPeer.retryDelayMs = kFirstRetryMs;
+        aPeer.noLinkNoted.store(false);
+        aPeer.lastDirectMs.store(aNowMs);
+        aPeer.directUp.store(true);
+        Logf(LogInfo, "peer %u (%s): direct link up after %.0f ms, %s", aPeer.id, aPeer.name.c_str(),
+             aNowMs - aPeer.linkCreatedMs, aPeer.link->PathKinds().c_str());
+        Note("Voice linked with " + aPeer.name);
+    }
+
+    if (!hasLink)
+    {
+        if (aPeer.offerer && m_haveKey.load() && aNowMs >= aPeer.nextRetryMs)
+        {
+            CreateLink(aPeer, aPeer.generation + 1);
+        }
+        return;
+    }
+
+    const bool timedOut = state == LinkState::Connecting && aNowMs - aPeer.linkCreatedMs > kConnectTimeoutMs;
+    // Only direct packets count here: a partner whose direct packets stopped may still be heard over the Relay.
+    const bool silent = connected && m_haveKey.load() && aNowMs - aPeer.lastDirectMs.load() > kSilentLinkMs;
+    if (connected && !silent && !aPeer.directUp.load())
+    {
+        // The answering side keeps a silent link while it waits for a new one, and the old one can come back to life.
+        aPeer.directUp.store(true);
+        aPeer.noLinkNoted.store(false);
+        Logf(LogInfo, "peer %u (%s): direct link heard from again", aPeer.id, aPeer.name.c_str());
+        Note("Voice linked with " + aPeer.name);
+    }
+    if (state != LinkState::Failed && !timedOut && !silent)
+    {
+        return;
+    }
+
+    const char* what = silent ? "went silent" : timedOut ? "timed out" : "failed";
+    const char* why = silent ? "the direct link went silent" : timedOut ? "the direct link timed out" : "the direct link failed";
+    if (aPeer.directUp.exchange(false))
+    {
+        aPeer.directDownWhy = why;
+        Note("Voice lost the link to " + aPeer.name + ", reconnecting");
+    }
+    if (aPeer.offerer)
+    {
+        Logf(LogInfo, "peer %u (%s): link %s", aPeer.id, aPeer.name.c_str(), what);
+        DestroyLink(aPeer, why);
+        aPeer.nextRetryMs = aNowMs + aPeer.retryDelayMs;
+        aPeer.retryDelayMs = std::min(aPeer.retryDelayMs * 2.0, kMaxRetryMs);
+    }
+    else if (aNowMs - aPeer.lastRestartAskMs > kRestartAskEveryMs)
+    {
+        // Logged with the ask, which goes once every kRestartAskEveryMs, rather than on every tick while waiting.
+        aPeer.lastRestartAskMs = aNowMs;
+        Logf(LogInfo, "peer %u (%s): link %s, asking them to reconnect", aPeer.id, aPeer.name.c_str(), what);
+        LinkSignal(aPeer.id, SignalRestart, aPeer.generation, "");
+    }
+}
+
+// Which way voice goes to them, for the log and the notes. OnMicPacket and SendPresence read directUp themselves.
+void Engine::TickPath(Peer& aPeer, double aNowMs)
+{
+    const bool always = m_relayAlways.load() || (aPeer.remoteBits.load() & PresenceRelayAlways) != 0;
+    const bool relayWorking = aNowMs - aPeer.lastRelayMs.load() < kRelayFreshMs;
+    const bool onRelay = m_haveKey.load() && !aPeer.directUp.load();
+    if (onRelay != aPeer.onRelay)
+    {
+        aPeer.onRelay = onRelay;
+        if (onRelay)
+        {
+            aPeer.relaySinceMs = aNowMs;
+            aPeer.relayNoted = false;
+            Logf(LogInfo, "peer %u (%s): voice goes over the Relay: %s", aPeer.id, aPeer.name.c_str(),
+                 aPeer.directDownWhy.c_str());
+        }
+        else if (aPeer.directUp.load())
+        {
+            Logf(LogInfo, "peer %u (%s): voice back on the direct link, the Relay stops", aPeer.id, aPeer.name.c_str());
+        }
+    }
+    // Not for the moment a direct link takes to come up, or every session would start with this note.
+    if (onRelay && relayWorking && !aPeer.relayNoted && (always || aNowMs - aPeer.relaySinceMs >= kRelayNoteAfterMs))
+    {
+        aPeer.relayNoted = true;
+        Logf(LogInfo, "peer %u (%s): the Relay is getting through", aPeer.id, aPeer.name.c_str());
+        Note("Voice with " + aPeer.name + " on Relay");
+    }
+    if (!aPeer.directUp.load() && !relayWorking && !aPeer.noLinkNoted.load() && aNowMs - aPeer.addedMs > kNoLinkNoteAfterMs)
+    {
+        aPeer.noLinkNoted.store(true);
+        Note(always ? "No voice with " + aPeer.name + " on the Relay yet"
+                    : "No direct link to " + aPeer.name + " yet, still trying");
+    }
+}
+
+void Engine::LogRelay(double aNowMs)
+{
+    if (aNowMs - m_lastRelayLogMs < kRelayLogEveryMs)
+    {
+        return;
+    }
+    m_lastRelayLogMs = aNowMs;
+    SharedLock lock(m_peersLock);
+    for (const auto& peer : m_peers)
+    {
+        const PathStats now = StatsOf(peer->counters);
+        PathStats& was = peer->logged;
+        if (now.relayMessages == was.relayMessages && now.heardRelay == was.heardRelay && now.tooOld == was.tooOld &&
+            now.refusedLimit == was.refusedLimit && now.refusedNotNow == was.refusedNotNow &&
+            now.refusedOther == was.refusedOther && now.stale == was.stale && now.duplicates == was.duplicates)
+        {
+            continue;
+        }
+        Logf(LogInfo, "relay: %s: sent %u messages with %u frames; NightCoop refused %u for its rate, %u not now, %u otherwise; %u frames waited too long; heard %u frames over the Relay and %u direct, dropped %u too late and %u twice; ping %d ms",
+             peer->name.c_str(), now.relayMessages - was.relayMessages, now.relayFrames - was.relayFrames,
+             now.refusedLimit - was.refusedLimit, now.refusedNotNow - was.refusedNotNow,
+             now.refusedOther - was.refusedOther, now.tooOld - was.tooOld, now.heardRelay - was.heardRelay,
+             now.heardDirect - was.heardDirect, now.stale - was.stale, now.duplicates - was.duplicates,
+             peer->pingMs.load());
+        was = now;
+    }
 }
 
 // Temporary: see LiveTuning. Lines like room_db=-3 in %LOCALAPPDATA%\NightCoopVoice\tuning.ini, picked up within a second.
@@ -679,7 +942,8 @@ void Engine::SendPresence(double aNowMs)
         SharedLock lock(m_keyLock);
         key = m_key;
     }
-    const uint8_t bits = static_cast<uint8_t>((m_muted.load() ? PresenceMuted : 0) | (m_radioOn.load() ? PresenceOnAir : 0));
+    const uint8_t bits = static_cast<uint8_t>((m_muted.load() ? PresenceMuted : 0) | (m_radioOn.load() ? PresenceOnAir : 0) |
+                                              (m_relayAlways.load() ? PresenceRelayAlways : 0));
     const uint32_t now = static_cast<uint32_t>(aNowMs);
     const uint8_t enclosure = ToByte(m_roomEnclosure.load(), 1.f);
     const uint8_t meters = ToByte(m_roomMeters.load(), kPresenceRoomMeters);
@@ -688,11 +952,8 @@ void Engine::SendPresence(double aNowMs)
     SharedLock lock(m_peersLock);
     for (const auto& peer : m_peers)
     {
-        if (!peer->link || peer->link->State() != LinkState::Connected)
-        {
-            continue;
-        }
-        // The ping trick: they echo our send time and say how long they sat on it.
+        // The ping trick: they echo our send time and say how long they sat on it. Over the Relay too, so the ping
+        // is whichever path's real round trip.
         uint8_t plain[kPresenceSize];
         plain[0] = bits;
         PutU32(plain + 1, now);
@@ -709,11 +970,184 @@ void Engine::SendPresence(double aNowMs)
         info.sender = m_self.load();
         uint8_t packet[kMaxPacket];
         const size_t size = SealPacket(key, info, plain, sizeof(plain), packet);
-        peer->link->Send(packet, size);
+        SendToPeer(*peer, packet, size, false, aNowMs);
     }
 }
 
+void Engine::SendToPeer(Peer& aPeer, const uint8_t* aPacket, size_t aSize, bool aAudio, double aNowMs)
+{
+    if (aPeer.directUp.load() && aPeer.link && aPeer.link->Send(aPacket, aSize))
+    {
+        return;
+    }
+    RelayItem item;
+    item.queuedMs = aNowMs;
+    item.audio = aAudio;
+    item.packet.assign(aPacket, aPacket + aSize);
+    std::lock_guard lock(aPeer.relayMutex);
+    if (aPeer.relayQueue.size() >= kRelayMostQueued)
+    {
+        // The game thread has stopped draining it, in a load or a long hitch.
+        if (aPeer.relayQueue.front().audio)
+        {
+            aPeer.counters.tooOld++;
+        }
+        aPeer.relayQueue.pop_front();
+    }
+    aPeer.relayQueue.push_back(std::move(item));
+}
+
+void Engine::DrainRelay(const std::function<RelaySend(PeerId, const uint8_t*, size_t)>& aSend)
+{
+    const double now = NowMs();
+    if (m_relayExtraFrames > 0 && now - m_relayLastLimitMs > kRelayEaseAfterMs)
+    {
+        --m_relayExtraFrames;
+        m_relayLastLimitMs = now;
+        Logf(LogInfo, "relay: no refusals for a while, packing one frame fewer a message");
+    }
+    const int frames = std::min((m_relayAudience.load() > kRelayPartnersAtTwoFrames ? 3 : 2) + m_relayExtraFrames,
+                                kRelayMostFrames);
+    // Long enough for the rest of a message's frames to come, so a lone frame only goes alone at the end of speech.
+    const double flushMs = kFrameMs * (frames - 1) + kRelayFlushSlackMs;
+
+    std::vector<std::shared_ptr<Peer>> peers;
+    {
+        SharedLock lock(m_peersLock);
+        peers = m_peers;
+    }
+    const uint32_t stamp = ClockStamp(now);
+    std::vector<std::pair<std::vector<uint8_t>, int>> messages; // each with its count of audio frames
+    for (const auto& peer : peers)
+    {
+        messages.clear();
+        {
+            std::lock_guard lock(peer->relayMutex);
+            auto& queue = peer->relayQueue;
+            while (!queue.empty() && now - queue.front().queuedMs > kRelayMostWaitMs)
+            {
+                if (queue.front().audio)
+                {
+                    peer->counters.tooOld++;
+                }
+                queue.pop_front();
+            }
+            while (!queue.empty())
+            {
+                size_t bytes = kRelayHeader;
+                int audio = 0;
+                size_t count = 0;
+                while (count < queue.size() && audio < frames &&
+                       bytes + 2 + queue[count].packet.size() <= kRelayMaxMessage)
+                {
+                    bytes += 2 + queue[count].packet.size();
+                    audio += queue[count].audio ? 1 : 0;
+                    ++count;
+                }
+                if (count == 0)
+                {
+                    queue.pop_front(); // can't fit any message; no packet is this big
+                    continue;
+                }
+                // Full, presence alone, or a frame that has waited long enough for its partner.
+                const bool full = audio >= frames || count < queue.size();
+                if (!full && audio > 0 && now - queue.front().queuedMs < flushMs)
+                {
+                    break;
+                }
+                std::vector<uint8_t> message(bytes);
+                PutU32(message.data(), stamp);
+                size_t at = kRelayHeader;
+                for (size_t i = 0; i < count; ++i)
+                {
+                    const std::vector<uint8_t>& packet = queue[i].packet;
+                    message[at] = static_cast<uint8_t>(packet.size());
+                    message[at + 1] = static_cast<uint8_t>(packet.size() >> 8);
+                    std::memcpy(message.data() + at + 2, packet.data(), packet.size());
+                    at += 2 + packet.size();
+                }
+                queue.erase(queue.begin(), queue.begin() + static_cast<ptrdiff_t>(count));
+                messages.emplace_back(std::move(message), audio);
+            }
+        }
+
+        // Outside the queue's lock, so the audio thread never waits on NightCoop.
+        for (const auto& [message, audio] : messages)
+        {
+            switch (aSend(peer->id, message.data(), message.size()))
+            {
+            case RelaySend::Sent:
+                peer->counters.relayMessages++;
+                peer->counters.relayFrames += static_cast<uint32_t>(audio);
+                break;
+            case RelaySend::Limit:
+                peer->counters.refusedLimit++;
+                RelayRefusedForRate(now, *peer, audio);
+                break;
+            case RelaySend::NotNow:
+                peer->counters.refusedNotNow++;
+                break;
+            case RelaySend::Refused:
+                peer->counters.refusedOther++;
+                break;
+            }
+        }
+    }
+}
+
+// Never waits or retries: the frames are dropped, and later messages carry more frames each, so there are fewer.
+void Engine::RelayRefusedForRate(double aNowMs, const Peer& aPeer, int aFrames)
+{
+    if (aNowMs - m_relayLastLimitMs > kRelayLimitLogEveryMs)
+    {
+        Logf(LogInfo, "relay: NightCoop's rate limit refused a message to %s, and its %d frames were dropped",
+             aPeer.name.c_str(), aFrames);
+    }
+    m_relayLastLimitMs = aNowMs;
+    if (m_relayExtraFrames < kRelayMostFrames - 2 && aNowMs - m_relayLastRaiseMs >= kRelayRaiseEveryMs)
+    {
+        ++m_relayExtraFrames;
+        m_relayLastRaiseMs = aNowMs;
+        Logf(LogInfo, "relay: packing one frame more a message for a while, for NightCoop's rate limit");
+    }
+}
+
+bool Engine::OnRelay(PeerId aFrom, const uint8_t* aData, size_t aSize)
+{
+    const auto peer = FindPeer(aFrom);
+    if (!peer)
+    {
+        return false;
+    }
+    // A partner's bytes: every size is checked before anything is read.
+    if (aSize < kRelayHeader || aSize > kRelayMaxMessage)
+    {
+        return true;
+    }
+    const bool stale = peer->relayLateness.Late(NowMs(), GetU32(aData)) > kRelayStaleMs;
+    size_t at = kRelayHeader;
+    while (aSize - at >= 2)
+    {
+        const size_t size = static_cast<size_t>(aData[at]) | static_cast<size_t>(aData[at + 1]) << 8;
+        at += 2;
+        if (size > aSize - at)
+        {
+            break;
+        }
+        ReceivePacket(aFrom, aData + at, size, true, stale);
+        at += size;
+    }
+    return true;
+}
+
 void Engine::LinkPacket(PeerId aPeer, const uint8_t* aData, size_t aSize)
+{
+    ReceivePacket(aPeer, aData, aSize, false, false);
+}
+
+// From the link's thread (direct) or the game thread (the Relay). The packet's own sender, authenticated by the key,
+// must be the player it came from, so a Relay message can't speak for anyone else.
+void Engine::ReceivePacket(PeerId aPeer, const uint8_t* aData, size_t aSize, bool aRelay, bool aStale)
 {
     if (!m_haveKey.load())
     {
@@ -738,20 +1172,43 @@ void Engine::LinkPacket(PeerId aPeer, const uint8_t* aData, size_t aSize)
         return;
     }
     const double now = NowMs();
-    peer->lastReceiveMs.store(now);
+    (aRelay ? peer->lastRelayMs : peer->lastDirectMs).store(now);
 
     if (info.type == PacketAudio)
     {
         if (plainSize > 2)
         {
             const uint16_t sequence = static_cast<uint16_t>(plain[0] | plain[1] << 8);
+            if (aStale)
+            {
+                peer->counters.stale++;
+                return;
+            }
+            {
+                // One stream whichever way it came: a frame already taken is never played again.
+                std::lock_guard lock(peer->seenMutex);
+                SeenFrame& seen = peer->seen[sequence % kSeenFrames];
+                if (seen.sequence == sequence && now - seen.atMs < kSeenForMs)
+                {
+                    peer->counters.duplicates++;
+                    return;
+                }
+                seen.sequence = sequence;
+                seen.atMs = now;
+            }
+            (aRelay ? peer->counters.heardRelay : peer->counters.heardDirect)++;
             peer->lastAudioMs.store(now);
             m_mixer.PushPacket(aPeer, sequence, info.flags, plain + 2, static_cast<int>(plainSize - 2));
         }
     }
     else if (info.type == PacketPresence && plainSize == kPresenceSize)
     {
-        peer->remoteBits.store(plain[0]);
+        uint8_t bits = plain[0];
+        if (now < peer->alwaysIgnoredUntilMs.load())
+        {
+            bits &= static_cast<uint8_t>(~PresenceRelayAlways);
+        }
+        peer->remoteBits.store(bits);
         peer->echoSent.store(GetU32(plain + 1));
         peer->echoAtMs.store(now);
         const uint32_t held = GetU32(plain + 9);
@@ -812,20 +1269,19 @@ void Engine::OnMicPacket(const uint8_t* aOpus, int aSize, bool aSpurt)
     const size_t size = SealPacket(key, info, plain, static_cast<size_t>(aSize) + 2, packet);
 
     const double now = NowMs();
+    int relayAudience = 0;
     SharedLock lock(m_peersLock);
     for (const auto& peer : m_peers)
     {
-        if (!peer->link)
-        {
-            continue;
-        }
         // Your nearby voice goes only to people close enough to hear it; the radio goes to everyone.
         const bool nearby = peer->audibleNearby.load() && now - peer->spatialMs.load() < kPositionFreshMs;
         if (radio || nearby)
         {
-            peer->link->Send(packet, size);
+            relayAudience += peer->directUp.load() ? 0 : 1;
+            SendToPeer(*peer, packet, size, true, now);
         }
     }
+    m_relayAudience.store(relayAudience);
 }
 
 void Engine::SetListener(const Vec3& aPosition, const Vec3& aForward, const Vec3& aRight)
@@ -1000,6 +1456,26 @@ void Engine::ApplySettings()
         Logf(LogInfo, "falloff: %.0f%%%s", share * 100.f, taper ? " with taper" : share >= 1.f ? " (today)" : "");
     }
 
+    // The Relay: "always" makes no direct links at all and tells partners so; anything else uses it only when needed.
+    const bool always = m_settings.Get("relay") == "always";
+    if (m_relayAlways.exchange(always) != always)
+    {
+        Logf(LogInfo, "relay: set to %s", always ? "Always, so no direct links" : "When needed");
+        Post([this, always] {
+            // Partners hear of it at once, by the path still in use, rather than with the next second's presence.
+            SendPresence(NowMs());
+            if (!always)
+            {
+                SharedLock lock(m_peersLock);
+                for (const auto& peer : m_peers)
+                {
+                    peer->retryDelayMs = kFirstRetryMs;
+                    peer->nextRetryMs = 0.0;
+                }
+            }
+        });
+    }
+
     const bool muted = m_settings.GetBool("muted", false);
     m_muted.store(muted);
     m_mic->SetMuted(muted);
@@ -1035,9 +1511,16 @@ void Engine::ApplySettings()
     }
 }
 
+PathStats Engine::Stats(PeerId aPeer) const
+{
+    const auto peer = FindPeer(aPeer);
+    return peer ? StatsOf(peer->counters) : PathStats{};
+}
+
 std::vector<PeerView> Engine::Peers() const
 {
     std::vector<PeerView> views;
+    const double now = NowMs();
     SharedLock lock(m_peersLock);
     views.reserve(m_peers.size());
     for (const auto& peer : m_peers)
@@ -1045,7 +1528,8 @@ std::vector<PeerView> Engine::Peers() const
         PeerView view;
         view.id = peer->id;
         view.name = peer->name;
-        if (peer->link && peer->link->State() == LinkState::Connected)
+        const bool direct = peer->directUp.load();
+        if (direct)
         {
             view.link = PeerLink::Linked;
         }
@@ -1053,6 +1537,7 @@ std::vector<PeerView> Engine::Peers() const
         {
             view.link = PeerLink::Failed;
         }
+        view.relay = !direct && now - peer->lastRelayMs.load() < kRelayFreshMs;
         const uint8_t bits = peer->remoteBits.load();
         view.muted = (bits & PresenceMuted) != 0;
         view.onAir = (bits & PresenceOnAir) != 0;
@@ -1080,7 +1565,8 @@ void Engine::UpdateAudioThreads(double aNowMs)
         SharedLock lock(m_peersLock);
         for (const auto& peer : m_peers)
         {
-            if (peer->link && peer->link->State() == LinkState::Connected)
+            // Someone to talk to by either path.
+            if (peer->directUp.load() || aNowMs - peer->lastRelayMs.load() < kRelayFreshMs)
             {
                 wanted = true;
                 break;

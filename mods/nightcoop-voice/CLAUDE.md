@@ -5,7 +5,7 @@ Co-op voice for Cyberpunk 2077 on the NightCoop mod; [README.md](README.md) says
 
 - The user approves a design before any building starts. Realism beats clarity, and nobody should have to adjust levels, so no volume or distance sliders.
 - Say what went untested in the game. Tests measure the sound but can't judge it: only the user's ears can, so don't call something fixed until they've heard it.
-- Read the logs first for anything in-game: `C:\Users\wayne\Documents\CP77 Collected Logs\<player>\game\red4ext\plugins\NightCoop\nightcoop.log`. `xip` is the user, `Bobson` is Bossun (clock 7 h behind), `Bleack` (clock 1 h ahead). Look for `levels:`, `rays:`, `acoustics:`, `tuning:` and `time:` lines.
+- Read the logs first for anything in-game: `C:\Users\wayne\Documents\CP77 Collected Logs\<player>\game\red4ext\plugins\NightCoop\nightcoop.log`. `xip` is the user, `Bobson` is Bossun (clock 7 h behind), `Bleack` (clock 1 h ahead). Look for `levels:`, `rays:`, `acoustics:`, `tuning:`, `time:` and `relay:` lines.
 
 ## Building and installing
 

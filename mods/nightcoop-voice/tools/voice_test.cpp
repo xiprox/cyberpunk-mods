@@ -1,5 +1,6 @@
 // Checks the mod without the game: effects by their measured output, packets, the jitter buffer, real hole-punched
-// links between two engines on this PC, and the audio devices. Run it with no arguments; it exits non-zero on a failure.
+// links between two engines on this PC, the Relay over a fake NightCoop channel, and the audio devices. Run it with no
+// arguments; it exits non-zero on a failure.
 // No microphone audio is stored or sent anywhere: the device check reports a level and throws the samples away.
 
 #include "audio/acoustics.hpp"
@@ -17,11 +18,16 @@
 
 #include <opus.h>
 
+#include <algorithm>
 #include <cmath>
 #include <cstdio>
 #include <cstring>
+#include <deque>
 #include <filesystem>
+#include <map>
+#include <memory>
 #include <random>
+#include <string>
 #include <thread>
 #include <vector>
 
@@ -2748,6 +2754,506 @@ void TestLinks()
     Check(a.Peers().empty() && b.Peers().empty(), "leaving cleans up");
 }
 
+// ---- the Relay
+
+// How many audio frames a Relay message carries: a 4-byte send time, then a 2-byte size and a sealed packet each.
+int AudioFramesIn(const uint8_t* aData, size_t aSize)
+{
+    int frames = 0;
+    size_t at = 4;
+    while (at + 2 <= aSize)
+    {
+        const size_t size = static_cast<size_t>(aData[at]) | static_cast<size_t>(aData[at + 1]) << 8;
+        at += 2;
+        if (size > aSize - at)
+        {
+            break;
+        }
+        frames += size > 0 && aData[at] == PacketAudio ? 1 : 0;
+        at += size;
+    }
+    return frames;
+}
+
+// NightCoop's channel between test engines. A message is in flight for a while and arrives only when the test's game
+// thread delivers it. Each sender is held to NightCoop's rate per mod and direction, as its send() answers it.
+class FakeNightCoop
+{
+public:
+    struct Sender
+    {
+        bool started = false;
+        double messages = 0.0;
+        double bytes = 0.0;
+        double refilledMs = 0.0;
+        std::deque<std::pair<double, size_t>> lastSecond;
+        int sent = 0;
+        int refused = 0;
+        int mostFrames = 0;
+        size_t mostMessagesInASecond = 0;
+        size_t mostBytesInASecond = 0;
+    };
+
+    double delayMs = 60.0;
+    double messagesPerSecond = 120.0; // NCSDK_RATE_MESSAGES_PER_S
+    double bytesPerSecond = 32768.0;  // NCSDK_RATE_BYTES_PER_S
+    bool hold = false;                // a loading screen: nothing arrives until it's over
+    bool deliverTwice = false;
+
+    RelaySend Send(PeerId aFrom, PeerId aTo, const uint8_t* aData, size_t aSize)
+    {
+        const double now = NowMs();
+        Sender& sender = m_senders[aFrom];
+        if (!sender.started)
+        {
+            sender.started = true;
+            sender.messages = messagesPerSecond;
+            sender.bytes = bytesPerSecond;
+            sender.refilledMs = now;
+        }
+        // Bursts of up to a second's worth, which is 4 times the rate for a quarter of a second.
+        const double seconds = (now - sender.refilledMs) / 1000.0;
+        sender.refilledMs = now;
+        sender.messages = std::min(messagesPerSecond, sender.messages + seconds * messagesPerSecond);
+        sender.bytes = std::min(bytesPerSecond, sender.bytes + seconds * bytesPerSecond);
+        if (aSize > kRelayMaxMessage)
+        {
+            ++sender.refused;
+            return RelaySend::Refused;
+        }
+        if (sender.messages < 1.0 || sender.bytes < static_cast<double>(aSize))
+        {
+            ++sender.refused;
+            return RelaySend::Limit;
+        }
+        sender.messages -= 1.0;
+        sender.bytes -= static_cast<double>(aSize);
+        ++sender.sent;
+
+        sender.lastSecond.emplace_back(now, aSize);
+        while (now - sender.lastSecond.front().first >= 1000.0)
+        {
+            sender.lastSecond.pop_front();
+        }
+        size_t bytes = 0;
+        for (const auto& entry : sender.lastSecond)
+        {
+            bytes += entry.second;
+        }
+        sender.mostMessagesInASecond = std::max(sender.mostMessagesInASecond, sender.lastSecond.size());
+        sender.mostBytesInASecond = std::max(sender.mostBytesInASecond, bytes);
+        sender.mostFrames = std::max(sender.mostFrames, AudioFramesIn(aData, aSize));
+
+        m_flight.push_back({now + delayMs, aFrom, aTo, std::vector<uint8_t>(aData, aData + aSize)});
+        return RelaySend::Sent;
+    }
+
+    // The game thread of every engine: what has arrived goes to its engine.
+    void Deliver(const std::vector<std::pair<PeerId, Engine*>>& aEngines)
+    {
+        if (hold)
+        {
+            return;
+        }
+        const double now = NowMs();
+        while (!m_flight.empty() && m_flight.front().dueMs <= now)
+        {
+            const InFlight message = std::move(m_flight.front());
+            m_flight.pop_front();
+            for (const auto& [id, engine] : aEngines)
+            {
+                if (id == message.to)
+                {
+                    for (int i = 0; i < (deliverTwice ? 2 : 1); ++i)
+                    {
+                        engine->OnRelay(message.from, message.data.data(), message.data.size());
+                    }
+                }
+            }
+        }
+    }
+
+    Sender& From(PeerId aPeer)
+    {
+        return m_senders[aPeer];
+    }
+
+private:
+    struct InFlight
+    {
+        double dueMs = 0.0;
+        PeerId from = 0;
+        PeerId to = 0;
+        std::vector<uint8_t> data;
+    };
+    std::map<PeerId, Sender> m_senders;
+    std::deque<InFlight> m_flight;
+};
+
+// Setup messages between two engines. Blocked, they're lost, as if no direct link could ever form. Those for partners
+// with no engine behind them are lost too.
+int PumpSignals(Engine& aFrom, PeerId aFromId, Engine& aTo, PeerId aToId, bool aBlocked)
+{
+    int count = 0;
+    aFrom.DrainSignals([&](PeerId aPeer, const std::vector<uint8_t>& aMessage) {
+        ++count;
+        if (!aBlocked && aPeer == aToId)
+        {
+            aTo.OnSignal(aFromId, aMessage.data(), aMessage.size());
+        }
+        return true;
+    });
+    return count;
+}
+
+// Two engines standing 2 m apart, with real direct links and a fake NightCoop channel, run 10 ms at a time. A can
+// also have partners with no engine behind them, who only receive.
+struct RelayRig
+{
+    RelayRig(const char* aName, PeerId aIdA, PeerId aIdB, bool aAlwaysA = false, bool aAlwaysB = false)
+        : idA(aIdA)
+        , idB(aIdB)
+    {
+        const auto dir = std::filesystem::temp_directory_path() / "nightcoop-voice-test";
+        const std::string name(aName);
+        settingsA.Load(dir / ("relay-" + name + "-a.ini"));
+        settingsB.Load(dir / ("relay-" + name + "-b.ini"));
+        for (Settings* settings : {&settingsA, &settingsB})
+        {
+            settings->Set("gate", "0");
+            settings->Set("muted", "0");
+        }
+        settingsA.Set("relay", aAlwaysA ? "always" : "needed");
+        settingsB.Set("relay", aAlwaysB ? "always" : "needed");
+        a = std::make_unique<Engine>(settingsA, false);
+        b = std::make_unique<Engine>(settingsB, false);
+        a->SessionStart(idA);
+        b->SessionStart(idB);
+        VoiceKey key;
+        RandomBytes(key.data(), key.size());
+        a->SetKey(key.data(), key.size());
+        b->SetKey(key.data(), key.size());
+        a->AddPeer(idB, "Bee");
+        b->AddPeer(idA, "Ay");
+        a->SetListener({0.f, 0.f, 0.f}, {0.f, 1.f, 0.f}, {1.f, 0.f, 0.f});
+        b->SetListener({0.f, 2.f, 0.f}, {0.f, -1.f, 0.f}, {-1.f, 0.f, 0.f});
+    }
+
+    void AddListenerOnlyPartner(PeerId aPeer)
+    {
+        a->AddPeer(aPeer, "Partner " + std::to_string(aPeer));
+        onlyListening.push_back(aPeer);
+    }
+
+    void SetRelay(Settings& aSettings, Engine& aEngine, bool aAlways)
+    {
+        aSettings.Set("relay", aAlways ? "always" : "needed");
+        aEngine.ApplySettings();
+    }
+
+    void Step(bool aTalkA, bool aTalkB)
+    {
+        a->SetPeerSpatial(idB, {0.f, 2.f, 0.f}, {}, CabinNone);
+        b->SetPeerSpatial(idA, {0.f, 0.f, 0.f}, {}, CabinNone);
+        for (const PeerId peer : onlyListening)
+        {
+            a->SetPeerSpatial(peer, {1.f, 1.f, 0.f}, {}, CabinNone);
+        }
+        signalsFromA += PumpSignals(*a, idA, *b, idB, blockDirect);
+        signalsFromB += PumpSignals(*b, idB, *a, idA, blockDirect);
+
+        // The audio threads, at real speed in 10 ms blocks however long a step took: Sleep is coarse on Windows.
+        if (audioStartMs < 0.0)
+        {
+            audioStartMs = NowMs();
+        }
+        const int64_t due = static_cast<int64_t>((NowMs() - audioStartMs) / 10.0);
+        float block[kBlock * 2];
+        for (; blocksDone < due; ++blocksDone)
+        {
+            if (aTalkA)
+            {
+                a->InjectMic(speech.data() + speechAt, kBlock);
+                samplesFromA += kBlock;
+            }
+            if (aTalkB)
+            {
+                b->InjectMic(speech.data() + speechAt, kBlock);
+            }
+            speechAt = (speechAt + kBlock) % speech.size();
+            b->GetMixer().Render(block);
+            for (int i = 0; i < kBlock; ++i)
+            {
+                heardByB.push_back(block[i * 2]);
+            }
+            a->GetMixer().Render(block);
+            for (int i = 0; i < kBlock; ++i)
+            {
+                heardByA.push_back(block[i * 2]);
+            }
+        }
+
+        // Each engine's game thread, one frame a step.
+        if (!stallA)
+        {
+            const double start = NowMs();
+            a->DrainRelay([&](PeerId aTo, const uint8_t* aData, size_t aSize) { return channel.Send(idA, aTo, aData, aSize); });
+            longestDrainMs = std::max(longestDrainMs, NowMs() - start);
+        }
+        b->DrainRelay([&](PeerId aTo, const uint8_t* aData, size_t aSize) { return channel.Send(idB, aTo, aData, aSize); });
+        channel.Deliver({{idA, a.get()}, {idB, b.get()}});
+        Sleep(5);
+    }
+
+    void Run(double aMs, bool aTalkA, bool aTalkB)
+    {
+        const double until = NowMs() + aMs;
+        while (NowMs() < until)
+        {
+            Step(aTalkA, aTalkB);
+        }
+    }
+
+    // Steps until both see a direct link, or the time is up.
+    bool RunUntilLinked(double aMs, bool aTalkA)
+    {
+        const double until = NowMs() + aMs;
+        while (NowMs() < until)
+        {
+            if (ViewOf(*a, idB).link == PeerLink::Linked && ViewOf(*b, idA).link == PeerLink::Linked)
+            {
+                return true;
+            }
+            Step(aTalkA, false);
+        }
+        return false;
+    }
+
+    static PeerView ViewOf(const Engine& aEngine, PeerId aPeer)
+    {
+        for (const PeerView& view : aEngine.Peers())
+        {
+            if (view.id == aPeer)
+            {
+                return view;
+            }
+        }
+        return {};
+    }
+
+    static float RmsOfLast(const std::vector<float>& aHeard, double aSeconds)
+    {
+        const size_t count = std::min(aHeard.size(), static_cast<size_t>(aSeconds * kRate));
+        return Rms(std::vector<float>(aHeard.end() - static_cast<ptrdiff_t>(count), aHeard.end()));
+    }
+
+    int FramesFromA() const
+    {
+        return samplesFromA / kFrame;
+    }
+
+    Settings settingsA;
+    Settings settingsB;
+    std::unique_ptr<Engine> a;
+    std::unique_ptr<Engine> b;
+    PeerId idA;
+    PeerId idB;
+    std::vector<PeerId> onlyListening;
+    FakeNightCoop channel;
+    bool blockDirect = false;
+    bool stallA = false; // A's game thread stops, as in a load
+    int signalsFromA = 0;
+    int signalsFromB = 0;
+    int samplesFromA = 0;
+    double audioStartMs = -1.0;
+    int64_t blocksDone = 0;
+    double longestDrainMs = 0.0;
+    std::vector<float> speech = FakeSpeech(kRate);
+    size_t speechAt = 0;
+    std::vector<float> heardByA;
+    std::vector<float> heardByB;
+};
+
+void TestRelayWithoutDirect()
+{
+    std::printf("the Relay, with no direct link (a fake NightCoop channel, 60 ms each way)\n");
+    RelayRig rig("blocked", 0, 7);
+    rig.blockDirect = true;
+    rig.Run(1500.0, false, false); // presence, each way
+    rig.Run(3000.0, true, false);
+
+    const PeerView seenByB = RelayRig::ViewOf(*rig.b, 0);
+    const PeerView seenByA = RelayRig::ViewOf(*rig.a, 7);
+    const PathStats heard = rig.b->Stats(0);
+    Check(RelayRig::RmsOfLast(rig.heardByB, 2.0) > 0.002f, "B hears A over the Relay", "rms %.4f",
+          RelayRig::RmsOfLast(rig.heardByB, 2.0));
+    Check(heard.heardRelay > 100 && heard.heardDirect == 0, "every frame came over the Relay", "%.0f frames",
+          heard.heardRelay);
+    Check(seenByB.relay && seenByB.link != PeerLink::Linked && seenByA.relay,
+          "both show the Relay, not a direct link");
+    Check(rig.channel.From(0).mostFrames == 2, "two 20 ms frames to a message", "%.0f",
+          rig.channel.From(0).mostFrames);
+    Check(rig.channel.From(0).mostMessagesInASecond <= 30, "about 25 messages a second, with presence",
+          "%.0f in the busiest second", static_cast<double>(rig.channel.From(0).mostMessagesInASecond));
+    Check(seenByB.pingMs >= 120 && seenByB.pingMs < 400, "the ping is the Relay's round trip", "%.0f ms",
+          seenByB.pingMs);
+
+    rig.a->ToggleMute();
+    rig.Run(1500.0, false, false);
+    Check(RelayRig::ViewOf(*rig.b, 0).muted, "B sees that A muted, over the Relay");
+    rig.a->ToggleMute();
+
+    // NightCoop shouldn't deliver a message twice, but if it did, each frame still plays once.
+    const uint32_t duplicatesBefore = rig.b->Stats(0).duplicates;
+    rig.channel.deliverTwice = true;
+    rig.Run(1000.0, true, false);
+    rig.channel.deliverTwice = false;
+    Check(rig.b->Stats(0).duplicates - duplicatesBefore > 20, "a frame that comes twice plays once",
+          "%.0f copies dropped", rig.b->Stats(0).duplicates - duplicatesBefore);
+
+    // A load on B's side: messages pile up and then come all at once.
+    const PathStats beforeHold = rig.b->Stats(0);
+    rig.channel.hold = true;
+    rig.Run(2000.0, true, false);
+    rig.channel.hold = false;
+    rig.Run(1500.0, true, false);
+    const PathStats afterHold = rig.b->Stats(0);
+    Check(afterHold.stale - beforeHold.stale > 50, "a backlog after a load is dropped, not played late",
+          "%.0f frames dropped", afterHold.stale - beforeHold.stale);
+    Check(afterHold.heardRelay - beforeHold.heardRelay > 40 && RelayRig::RmsOfLast(rig.heardByB, 1.0) > 0.002f,
+          "and voice goes on after it", "%.0f frames", afterHold.heardRelay - beforeHold.heardRelay);
+
+    // A load on A's side: its game thread stops, so the Relay's frames wait.
+    const uint32_t oldBefore = rig.a->Stats(7).tooOld;
+    rig.stallA = true;
+    rig.Run(1000.0, true, false);
+    rig.stallA = false;
+    rig.Run(500.0, true, false);
+    Check(rig.a->Stats(7).tooOld - oldBefore > 30, "frames that waited through a stall are dropped, not sent late",
+          "%.0f dropped", rig.a->Stats(7).tooOld - oldBefore);
+    Check(rig.longestDrainMs < 5.0, "the game thread's drain never waits", "%.2f ms at most", rig.longestDrainMs);
+}
+
+void TestRelayAlways()
+{
+    std::printf("the Relay on Always\n");
+    // A is on Always, and B is the side that offers direct links, so this also shows A ignoring offers.
+    RelayRig rig("always", 7, 0, true, false);
+    rig.Run(3000.0, false, false);
+    Check(rig.signalsFromA == 0, "Always makes no direct link: not one setup message", "%.0f sent", rig.signalsFromA);
+    Check(RelayRig::ViewOf(*rig.b, 7).relay && RelayRig::ViewOf(*rig.a, 0).relay &&
+              RelayRig::ViewOf(*rig.b, 7).link != PeerLink::Linked && RelayRig::ViewOf(*rig.a, 0).link != PeerLink::Linked,
+          "both sides are on the Relay");
+
+    rig.Run(2500.0, true, false);
+    rig.Run(2500.0, false, true);
+    const PathStats atB = rig.b->Stats(7);
+    const PathStats atA = rig.a->Stats(0);
+    Check(atB.heardRelay > 80 && atB.heardDirect == 0, "the Always side's voice reaches the other over the Relay",
+          "%.0f frames", atB.heardRelay);
+    Check(atA.heardRelay > 80 && atA.heardDirect == 0, "and the other side's reaches it the same way", "%.0f frames",
+          atA.heardRelay);
+
+    // The other side on Always instead.
+    rig.SetRelay(rig.settingsA, *rig.a, false);
+    rig.SetRelay(rig.settingsB, *rig.b, true);
+    rig.Run(1500.0, false, false);
+    const int signalsBefore = rig.signalsFromA + rig.signalsFromB;
+    const PathStats beforeSwap = rig.b->Stats(7);
+    rig.Run(2500.0, true, false);
+    Check(rig.signalsFromA + rig.signalsFromB == signalsBefore && RelayRig::ViewOf(*rig.a, 0).relay &&
+              rig.b->Stats(7).heardRelay - beforeSwap.heardRelay > 80 && rig.b->Stats(7).heardDirect == 0,
+          "with the other side on Always, still the Relay both ways and no direct link");
+
+    rig.SetRelay(rig.settingsB, *rig.b, false);
+    const double start = NowMs();
+    const bool linked = rig.RunUntilLinked(10000.0, false);
+    Check(linked, "with both back on When needed, the direct link comes up", "%.0f ms", NowMs() - start);
+}
+
+void TestRelaySwitches()
+{
+    std::printf("switching between direct and the Relay while talking\n");
+    RelayRig rig("switch", 0, 7);
+    if (!rig.RunUntilLinked(20000.0, false))
+    {
+        Check(false, "the two sides find each other directly first");
+        return;
+    }
+    rig.Run(1000.0, false, false);
+    rig.samplesFromA = 0;
+    const PathStats before = rig.b->Stats(0);
+
+    rig.Run(1500.0, true, false);
+    const PathStats direct = rig.b->Stats(0);
+    rig.SetRelay(rig.settingsA, *rig.a, true);
+    rig.Run(2500.0, true, false);
+    const PathStats relay = rig.b->Stats(0);
+    Check(RelayRig::RmsOfLast(rig.heardByB, 1.5) > 0.002f && RelayRig::ViewOf(*rig.b, 0).relay,
+          "set to Always mid-sentence, the voice carries on over the Relay");
+    rig.SetRelay(rig.settingsA, *rig.a, false);
+    const bool back = rig.RunUntilLinked(10000.0, true);
+    rig.Run(1500.0, true, false);
+    const PathStats after = rig.b->Stats(0);
+
+    const uint32_t heardDirect = after.heardDirect - before.heardDirect;
+    const uint32_t heardRelay = after.heardRelay - before.heardRelay;
+    // A talked without a pause, so its voice gate opened once, and the mic sent the 20 ms before that first.
+    const uint32_t made = static_cast<uint32_t>(rig.FramesFromA()) + 1;
+    Check(direct.heardDirect > before.heardDirect && relay.heardRelay > direct.heardRelay &&
+              after.heardDirect > relay.heardDirect,
+          "direct, then the Relay, then direct again", "%.0f frames over the Relay", heardRelay);
+    Check(back && RelayRig::ViewOf(*rig.a, 7).link == PeerLink::Linked && !RelayRig::ViewOf(*rig.a, 7).relay &&
+              RelayRig::RmsOfLast(rig.heardByB, 1.0) > 0.002f,
+          "back on When needed, voice returns to the direct link");
+    Check(after.duplicates == before.duplicates, "no frame came twice across the switches");
+    std::printf("    A made %u frames; B took %u direct and %u over the Relay\n", made, heardDirect, heardRelay);
+    Check(heardDirect + heardRelay <= made && heardDirect + heardRelay >= made * 85 / 100,
+          "every frame A made reached B once, give or take a few at a switch", "%.1f%%",
+          100.0 * (heardDirect + heardRelay) / std::max(made, 1u));
+}
+
+void TestRelayRate()
+{
+    std::printf("the Relay within NightCoop's rate limit\n");
+    {
+        RelayRig rig("partners", 0, 7);
+        rig.blockDirect = true;
+        for (PeerId peer = 1; peer <= 4; ++peer)
+        {
+            rig.AddListenerOnlyPartner(peer);
+        }
+        rig.Run(1500.0, false, false);
+        rig.Run(3000.0, true, false);
+        FakeNightCoop::Sender& fromA = rig.channel.From(0);
+        Check(fromA.mostFrames == 3, "with five partners on the Relay, three frames to a message", "%.0f",
+              fromA.mostFrames);
+        Check(fromA.mostMessagesInASecond <= 120, "within 120 messages a second", "%.0f in the busiest second",
+              static_cast<double>(fromA.mostMessagesInASecond));
+        Check(fromA.refused == 0, "and within 32768 bytes a second", "%.0f bytes in the busiest second",
+              static_cast<double>(fromA.mostBytesInASecond));
+        Check(RelayRig::RmsOfLast(rig.heardByB, 2.0) > 0.002f, "B hears A");
+    }
+    {
+        RelayRig rig("tight", 0, 7);
+        rig.blockDirect = true;
+        rig.channel.messagesPerSecond = 15.0; // far under what two frames a message needs
+        rig.Run(1500.0, false, false);
+        rig.Run(3500.0, true, false);
+        FakeNightCoop::Sender& fromA = rig.channel.From(0);
+        const int refusedThen = fromA.refused;
+        const uint32_t heardThen = rig.b->Stats(0).heardRelay;
+        rig.Run(2000.0, true, false);
+        Check(refusedThen > 0 && rig.a->Stats(7).refusedLimit > 0, "over a tight limit, NightCoop refuses some",
+              "%.0f refused", refusedThen);
+        Check(fromA.mostFrames == 4, "the mod packs more frames to a message", "%.0f at most", fromA.mostFrames);
+        Check(fromA.refused == refusedThen, "and then fits under the limit");
+        Check(rig.b->Stats(0).heardRelay - heardThen > 60 && RelayRig::RmsOfLast(rig.heardByB, 1.5) > 0.002f,
+              "voice still gets through", "%.0f frames in 2 s", rig.b->Stats(0).heardRelay - heardThen);
+        Check(rig.longestDrainMs < 5.0, "it never waits for NightCoop", "%.2f ms at most", rig.longestDrainMs);
+    }
+}
+
 void TestDevices()
 {
     std::printf("audio devices\n");
@@ -2842,6 +3348,10 @@ int main(int aCount, char** aArguments)
     TestResendSchedule();
     TestSignalQueue();
     TestLinks();
+    TestRelayWithoutDirect();
+    TestRelayAlways();
+    TestRelaySwitches();
+    TestRelayRate();
     if (withDevices)
     {
         TestDevices();

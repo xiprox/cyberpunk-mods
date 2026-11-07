@@ -5,6 +5,7 @@ local TAB = "/nightcoopvoice"
 local MIC = TAB .. "/mic"
 local KEYS = TAB .. "/keys"
 local HEARING = TAB .. "/hearing"
+local CONNECTION = TAB .. "/connection"
 local PLAYERS = TAB .. "/players"
 local PLAYER_POLL_SECONDS = 1.0
 local PLACEHOLDER_WAIT_SECONDS = 20.0
@@ -122,6 +123,13 @@ local function buildMenu()
         end)
     menu.addSwitch(HEARING, "Show the voice display", "The corner display of your mic, the radio and who's talking.",
         settingOn("hud", true), true, store("hud"))
+
+    menu.addSubcategory(CONNECTION, "Connection")
+    local relayChoices = { "needed", "always" }
+    menu.addSelectorString(CONNECTION, "Relay", "How voice travels. When needed: straight between players, and over NightCoop only while there's no direct link. Always: over NightCoop with everyone, never straight; it comes a little later, goes by way of the host, and stops in loading screens.",
+        { "When needed", "Always" }, setting("relay", "needed") == "always" and 2 or 1, 1, function(index)
+            nativeVoice.SetSetting("relay", relayChoices[index] or "needed")
+        end)
 
     menu.addSubcategory(PLAYERS, "Players")
 end
