@@ -1,5 +1,6 @@
 #include "engine.hpp"
 
+#include "audio/render_hook.hpp"
 #include "audio/wasapi.hpp"
 
 #include <pmmintrin.h>
@@ -654,7 +655,50 @@ void Engine::Tick(double aNowMs)
     LogLevels(aNowMs);
     LogRelay(aNowMs);
     ReadLiveTuning(aNowMs);
+    UpdateHeadset(aNowMs);
     UpdateAudioThreads(aNowMs);
+}
+
+bool Engine::HeadsetSoloTest() const
+{
+    return g_liveTuning.headsetSolo.load();
+}
+
+// The headset is worn while the radio mic is on (RECORD.md, 2026-11-07): that's what nudges people off a radio they
+// forgot, with nobody having to say so.
+void Engine::UpdateHeadset(double aNowMs)
+{
+    const bool worn = m_headsetSetting.load() && m_radioOn.load() && (m_inSession.load() || HeadsetSoloTest());
+    if (g_headset.on.exchange(worn) != worn)
+    {
+        Logf(LogInfo, "headset: %s", worn ? "on" : "off");
+    }
+    // The clamp level was set at the game's Master volume 100; the game's samples get quieter with the setting.
+    g_headset.levelShiftDb.store(20.f * std::log10(std::clamp(m_autoMix.Master(), 5.f, 100.f) / 100.f));
+
+    if (aNowMs - m_lastHeadsetLogMs < kLevelsEveryMs)
+    {
+        return;
+    }
+    m_lastHeadsetLogMs = aNowMs;
+    const uint64_t frames = g_headset.frames.exchange(0);
+    const uint64_t worn30 = g_headset.wornFrames.exchange(0);
+    const float deepest = g_headset.deepestDb.exchange(0.f);
+    const uint32_t breaths = g_headset.breaths.exchange(0);
+    const uint64_t costNs = g_headset.costNs.exchange(0);
+    const uint32_t buffers = g_headset.buffers.exchange(0);
+    const RenderHookCounts counts = GetRenderHookCounts();
+    if (frames == 0 && !worn)
+    {
+        return;
+    }
+    const double seconds = kLevelsEveryMs / 1000.0;
+    Logf(LogInfo,
+         "headset: %s; worn for %.0f%% of the game's sound, turned down %.1f dB at most, %u breaths; %.2f ms a second over "
+         "%u buffers; streams: %u set up, %u it can run on",
+         worn ? "on" : "off", frames ? 100.0 * static_cast<double>(worn30) / static_cast<double>(frames) : 0.0,
+         deepest < 0.f ? -deepest : 0.f,
+         breaths, static_cast<double>(costNs) / 1e6 / seconds, buffers, counts.streamsSeen, counts.streamsUsed);
 }
 
 // The direct link: set it up, notice when it's lost, and try again. Not at all while either side's Relay is on Always.
@@ -844,6 +888,11 @@ void Engine::ReadLiveTuning(double aNowMs)
     float ring = 1.f;
     float echoDb = 0.f;
     float ownDb = 0.f;
+    bool headsetSolo = false;
+    float headsetDb = 0.f;
+    float headsetSteep = 3.f;
+    float headsetDeepestDb = 40.f;
+    float headsetHissDb = 0.f;
     std::ifstream file(path);
     std::string line;
     while (std::getline(file, line))
@@ -875,12 +924,41 @@ void Engine::ReadLiveTuning(double aNowMs)
         {
             ownDb = std::clamp(value, -60.f, 20.f);
         }
+        else if (key == "headset_solo")
+        {
+            headsetSolo = value != 0.f;
+        }
+        else if (key == "headset_db")
+        {
+            headsetDb = std::clamp(value, -20.f, 30.f);
+        }
+        else if (key == "headset_steep")
+        {
+            headsetSteep = std::clamp(value, 1.f, 6.f);
+        }
+        else if (key == "headset_deepest_db")
+        {
+            headsetDeepestDb = std::clamp(value, 3.f, 60.f);
+        }
+        else if (key == "headset_hiss_db")
+        {
+            headsetHissDb = std::clamp(value, -60.f, 20.f);
+        }
     }
+    g_liveTuning.headsetDb.store(headsetDb);
+    g_liveTuning.headsetSteep.store(headsetSteep);
+    g_liveTuning.headsetDeepestDb.store(headsetDeepestDb);
+    g_liveTuning.headsetHissDb.store(headsetHissDb);
     g_liveTuning.roomDb.store(roomDb);
     g_liveTuning.ring.store(ring);
     g_liveTuning.echoDb.store(echoDb);
     g_liveTuning.ownDb.store(ownDb);
-    Logf(LogInfo, "tuning: room %+.1f dB, ring times %.2f, echoes %+.1f dB, own voice %+.1f dB", roomDb, ring, echoDb, ownDb);
+    g_liveTuning.headsetSolo.store(headsetSolo);
+    Logf(LogInfo,
+         "tuning: room %+.1f dB, ring times %.2f, echoes %+.1f dB, own voice %+.1f dB; headset clamp level %+.1f dB, %.1f dB down "
+         "per dB over, %.0f dB at most, hiss %+.1f dB%s",
+         roomDb, ring, echoDb, ownDb, headsetDb, headsetSteep, headsetDeepestDb, headsetHissDb,
+         headsetSolo ? "; the radio key puts the headset on with no session" : "");
 }
 
 // Real numbers for when someone says a voice is too quiet, and what the mic learned, for next time.
@@ -1438,10 +1516,7 @@ void Engine::ApplySettings()
     m_autoMix.SetOffsetDb(m_settings.GetFloat("voice_level", 0.f));
     const bool headphones = m_settings.GetBool("headphones", true);
     m_headphones.store(headphones);
-    const std::string radioEar = m_settings.Get("radio_ear");
-    m_mixer.SetRadioEar(!headphones || radioEar == "both" ? RadioEar::Both
-                        : radioEar == "right"             ? RadioEar::Right
-                                                          : RadioEar::Left);
+    m_headsetSetting.store(m_settings.GetBool("headset", true));
 
     // Temporary, to compare falloff curves by ear in a session. Only changes what this PC hears, and never the 40 m limit
     // that decides sending, so the players' games still agree.

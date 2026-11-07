@@ -1,5 +1,5 @@
 // What the radio does to a voice, in the order it would happen for real: a boom mic driven hard, the digital encoding of a
-// military radio, then a small earpiece in one ear.
+// military radio, then the small speakers in a tactical headset's ear cups.
 #pragma once
 
 #include "audio/dsp.hpp"
@@ -8,14 +8,8 @@
 
 namespace nv
 {
-enum class RadioEar : int
-{
-    Left = 0,
-    Right = 1,
-    Both = 2, // speakers: there's no earpiece to sit in one ear
-};
-
-// One ear sounds quieter than two at the same level, so the earpiece plays this much above what both ears would get.
+// The radio plays in both ears, as in the headset, never in one (RECORD.md, 2026-11-07): the headset's clamp covers both
+// ears either way. This puts it at a nearby voice's level; a single earpiece had needed about 4 dB more.
 constexpr float kRadioBothEarsGain = 0.63f; // about -4 dB
 
 class RadioEffect
@@ -30,9 +24,8 @@ public:
         return m_clickLeft > 0;
     }
 
-    // One sample at 48 kHz. aVoiceGain fades the voice in and out. aOnEar is the ear wearing the earpiece, aOtherEar the
-    // little that leaks around the head to the other one.
-    void Process(float aSample, float aVoiceGain, float& aOnEar, float& aOtherEar);
+    // One sample at 48 kHz, for each ear. aVoiceGain fades the voice in and out.
+    float Process(float aSample, float aVoiceGain);
 
 private:
     static constexpr int kHistory = 64; // a power of two, and longer than any delay in here
@@ -58,7 +51,6 @@ private:
 
     float m_history[kHistory]{};
     int m_write = 0;
-    OnePole m_leak;
 
     int m_clickLeft = 0;
     uint32_t m_noise = 0x12345;

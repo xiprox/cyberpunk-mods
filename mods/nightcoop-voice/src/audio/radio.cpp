@@ -37,11 +37,6 @@ constexpr float kCupSecond = -0.2f;
 constexpr float kSpeakerDrive = 1.2f;
 constexpr float kOutput = 0.82f;             // set by measuring: see the loudness check in tools/voice_test.cpp
 
-// What reaches the other ear: faint, late and muffled by the head.
-constexpr int kLeakSamples = 30;             // about 0.6 ms
-constexpr float kLeakHz = 900.f;
-constexpr float kLeakGain = 0.08f;           // about -22 dB
-
 constexpr int kClickSamples = kRate * 6 / 1000;
 constexpr float kClickLevel = 0.8f;
 } // namespace
@@ -56,7 +51,6 @@ RadioEffect::RadioEffect()
     m_outLow1.SetLowpass(kBandHighHz);
     m_outLow2.SetLowpass(kBandHighHz);
     m_peak.SetPeak(kPeakHz, kPeakQ, kPeakDb);
-    m_leak.SetCutoff(kLeakHz);
     m_step = kStepMin;
 }
 
@@ -86,7 +80,7 @@ float RadioEffect::Back(int aSamples) const
     return m_history[(m_write - aSamples + kHistory) & (kHistory - 1)];
 }
 
-void RadioEffect::Process(float aSample, float aVoiceGain, float& aOnEar, float& aOtherEar)
+float RadioEffect::Process(float aSample, float aVoiceGain)
 {
     float input = std::tanh(aSample * kMicDrive);
     input = m_inHigh.Process(input);
@@ -114,10 +108,8 @@ void RadioEffect::Process(float aSample, float aVoiceGain, float& aOnEar, float&
     signal = m_peak.Process(signal);
 
     const float inCup = signal + kCupFirst * Back(kCupFirstSamples) + kCupSecond * Back(kCupSecondSamples);
-    aOnEar = std::tanh(inCup * kSpeakerDrive) * kOutput;
-    aOtherEar = m_leak.Lowpass(Back(kLeakSamples)) * kLeakGain * kOutput;
-
     m_history[m_write] = signal;
     m_write = (m_write + 1) & (kHistory - 1);
+    return std::tanh(inCup * kSpeakerDrive) * kOutput;
 }
 } // namespace nv

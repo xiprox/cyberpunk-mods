@@ -8,6 +8,7 @@
 #include <RED4ext/Scripting/Natives/Generated/Vector4.hpp>
 #include <RED4ext/Scripting/Utils.hpp>
 
+#include "audio/render_hook.hpp"
 #include "audio/wasapi.hpp"
 #include "engine.hpp"
 #include "net/resend.hpp"
@@ -1076,6 +1077,8 @@ RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::v1::PluginHandle aHandle, RED4e
         g_handle = aHandle;
         g_sdk = aSdk;
         nv::SetLogSink(&LogSink);
+        // Before the game sets up its sound, so the radio headset can reach it.
+        nv::InstallRenderHook();
 
         auto* rtti = RED4ext::CRTTISystem::Get();
         rtti->AddRegisterCallback(RegisterTypes);

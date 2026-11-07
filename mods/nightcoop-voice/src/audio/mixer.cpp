@@ -98,8 +98,8 @@ public:
         }
     }
 
-    void Render(float* aLeft, float* aRight, float* aSend, TestRoute aTest, RadioEar aEar, const RadioWorld& aWorld,
-                double aNowMs);
+    void Render(float* aLeft, float* aRight, float* aSend, float* aRadioLeft, float* aRadioRight, TestRoute aTest,
+                const RadioWorld& aWorld, double aNowMs);
 
     const PeerId peer;
     JitterBuffer jitter;
@@ -246,8 +246,8 @@ float Voice::ReadEcho(float aDelay) const
     return newer + (older - newer) * part;
 }
 
-void Voice::Render(float* aLeft, float* aRight, float* aSend, TestRoute aTest, RadioEar aEar, const RadioWorld& aWorld,
-                   double aNowMs)
+void Voice::Render(float* aLeft, float* aRight, float* aSend, float* aRadioLeft, float* aRadioRight, TestRoute aTest,
+                   const RadioWorld& aWorld, double aNowMs)
 {
     const float playerVolume = muted.load() ? 0.f : 1.f;
 
@@ -422,27 +422,11 @@ void Voice::Render(float* aLeft, float* aRight, float* aSend, TestRoute aTest, R
         m_radioWorldGain += (aWorld.gain - m_radioWorldGain) * kRadioFade;
         if (m_radioGain > 0.0005f || m_radio.IsClicking())
         {
-            float onEar = 0.f;
-            float otherEar = 0.f;
-            m_radio.Process(sample, m_radioGain, onEar, otherEar);
-            onEar = m_radioWorld2.Lowpass(m_radioWorld1.Lowpass(onEar)) * m_radioWorldGain * playerVolume;
-            otherEar *= m_radioWorldGain * playerVolume;
-            aSend[i] += onEar * aWorld.send;
-            if (aEar == RadioEar::Left)
-            {
-                aLeft[i] += onEar;
-                aRight[i] += otherEar;
-            }
-            else if (aEar == RadioEar::Right)
-            {
-                aLeft[i] += otherEar;
-                aRight[i] += onEar;
-            }
-            else
-            {
-                aLeft[i] += onEar * kRadioBothEarsGain;
-                aRight[i] += onEar * kRadioBothEarsGain;
-            }
+            float heard = m_radio.Process(sample, m_radioGain);
+            heard = m_radioWorld2.Lowpass(m_radioWorld1.Lowpass(heard)) * m_radioWorldGain * playerVolume;
+            aSend[i] += heard * aWorld.send;
+            aRadioLeft[i] += heard * kRadioBothEarsGain;
+            aRadioRight[i] += heard * kRadioBothEarsGain;
         }
     }
 
@@ -652,11 +636,6 @@ void Mixer::SetTestRoute(TestRoute aRoute)
     m_testRoute.store(static_cast<int>(aRoute));
 }
 
-void Mixer::SetRadioEar(RadioEar aEar)
-{
-    m_radioEar.store(static_cast<int>(aEar));
-}
-
 void Mixer::SetListenerEffects(float aUnderwater, float aSlowMotion)
 {
     m_underwater.store(Clamp01(aUnderwater));
@@ -691,6 +670,8 @@ void Mixer::Render(float* aStereo)
     std::memset(m_left, 0, sizeof(m_left));
     std::memset(m_right, 0, sizeof(m_right));
     std::memset(m_send, 0, sizeof(m_send));
+    std::memset(m_radioLeft, 0, sizeof(m_radioLeft));
+    std::memset(m_radioRight, 0, sizeof(m_radioRight));
 
     AcquireSRWLockShared(&m_lock);
     m_renderList = m_voices;
@@ -698,7 +679,6 @@ void Mixer::Render(float* aStereo)
 
     const double now = NowMs();
     const auto test = static_cast<TestRoute>(m_testRoute.load());
-    const auto ear = static_cast<RadioEar>(m_radioEar.load());
     const float underwater = m_underwater.load();
     const float slow = m_slowMotion.load();
     RadioWorld world;
@@ -710,7 +690,7 @@ void Mixer::Render(float* aStereo)
     for (const auto& voice : m_renderList)
     {
         const TestRoute route = voice->peer == kSelfVoice ? test : TestRoute::Off;
-        voice->Render(m_left, m_right, m_send, route, ear, world, now);
+        voice->Render(m_left, m_right, m_send, m_radioLeft, m_radioRight, route, world, now);
     }
     m_renderList.clear();
 
@@ -746,6 +726,15 @@ void Mixer::Render(float* aStereo)
     room.decaySeconds = roomDecay + (std::max(roomDecay, kSlowRoomDecay) - roomDecay) * slow;
     m_reverb.SetRoom(room);
     m_reverb.Process(m_send, m_left, m_right, kBlock);
+
+    // Nearby voices and their rooms are outside sounds, heard through the headset's microphones when it's on; the radio
+    // plays inside it.
+    m_headset.Process(m_left, m_right, kBlock, g_headset.on.load(std::memory_order_relaxed), now);
+    for (int i = 0; i < kBlock; ++i)
+    {
+        m_left[i] += m_radioLeft[i];
+        m_right[i] += m_radioRight[i];
+    }
 
     const float masterStep = (m_masterTarget.load() - m_masterCurrent) / kBlock;
     for (int i = 0; i < kBlock; ++i)

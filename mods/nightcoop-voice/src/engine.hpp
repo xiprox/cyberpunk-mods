@@ -143,6 +143,8 @@ public:
     {
         return m_inSession.load();
     }
+    // Temporary: headset_solo=1 in tuning.ini lets the radio key put the headset on with no session, to try it alone.
+    bool HeadsetSoloTest() const;
     bool Muted() const
     {
         return m_muted.load();
@@ -191,6 +193,7 @@ private:
     void SendToPeer(Peer& aPeer, const uint8_t* aPacket, size_t aSize, bool aAudio, double aNowMs);
     void RelayRefusedForRate(double aNowMs, const Peer& aPeer, int aFrames);
     void ReadLiveTuning(double aNowMs);
+    void UpdateHeadset(double aNowMs);
     std::string AutoGainKey();
     void SaveAutoGain();
     void UpdateAudioThreads(double aNowMs);
@@ -228,6 +231,8 @@ private:
 
     std::atomic<bool> m_muted{false};
     std::atomic<bool> m_radioOn{false};
+    std::atomic<bool> m_headsetSetting{true}; // Settings, Hearing, Radio headset
+    double m_lastHeadsetLogMs = 0.0;           // worker thread
     std::atomic<bool> m_relayAlways{false};
     std::atomic<int> m_relayAudience{0}; // partners on the Relay who should have heard the last frame
 

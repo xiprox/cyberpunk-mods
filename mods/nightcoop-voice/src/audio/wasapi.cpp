@@ -1,5 +1,7 @@
 #include "audio/wasapi.hpp"
 
+#include "audio/render_hook.hpp"
+
 #include <windows.h>
 
 #include <initguid.h>
@@ -172,8 +174,22 @@ void WriteSample(uint8_t* aData, const StreamFormat& aFormat, float aValue)
 }
 
 // Asks for exactly what we work in and lets Windows convert; a driver that refuses gets its own format and we convert.
+// While it lives, streams set up on this thread are the mod's own, which the headset leaves alone.
+struct OwnStreams
+{
+    OwnStreams()
+    {
+        SetOwnStreamsOnThisThread(true);
+    }
+    ~OwnStreams()
+    {
+        SetOwnStreamsOnThisThread(false);
+    }
+};
+
 HRESULT InitClient(IAudioClient* aClient, int aChannels, DWORD aFlags, int aBufferMs, StreamFormat& aOut)
 {
+    const OwnStreams own;
     WAVEFORMATEXTENSIBLE wanted{};
     wanted.Format.wFormatTag = WAVE_FORMAT_EXTENSIBLE;
     wanted.Format.nChannels = static_cast<WORD>(aChannels);

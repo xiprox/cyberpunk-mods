@@ -3,6 +3,7 @@
 
 #include "audio/acoustics.hpp"
 #include "audio/dsp.hpp"
+#include "audio/headset.hpp"
 #include "audio/radio.hpp"
 #include "audio/spatial.hpp"
 
@@ -53,7 +54,6 @@ public:
     // From the mic thread. Only ever heard as the room's sound, so a gap or a dropped block goes unnoticed.
     void PushOwnVoice(const float* aSamples, int aCount);
     void SetTestRoute(TestRoute aRoute);
-    void SetRadioEar(RadioEar aEar);
     // What the listener's own state does to the radio and the room. Nearby voices get theirs from SetSpatial.
     void SetListenerEffects(float aUnderwater, float aSlowMotion);
 
@@ -91,7 +91,6 @@ private:
     std::atomic<float> m_roomMeters{8.f};
     std::atomic<float> m_roomDecay{0.6f};
     std::atomic<int> m_testRoute{0};
-    std::atomic<int> m_radioEar{static_cast<int>(RadioEar::Left)};
     std::atomic<float> m_underwater{0.f};
     std::atomic<float> m_slowMotion{0.f};
 
@@ -104,6 +103,10 @@ private:
     float m_left[kBlock]{};
     float m_right[kBlock]{};
     float m_send[kBlock]{};
+    // The radio plays inside the headset, so it's kept apart from what the headset's microphones hear.
+    float m_radioLeft[kBlock]{};
+    float m_radioRight[kBlock]{};
+    HeadsetVoices m_headset;
 
     // One writer, the mic thread, and one reader, the render thread.
     static constexpr int kOwnVoiceSamples = 4096;

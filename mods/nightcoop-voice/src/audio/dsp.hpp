@@ -123,6 +123,14 @@ struct LiveTuning
     // distance, and whether that lift eases back to today's curve between 20 and 40 m.
     std::atomic<float> falloff{1.f};
     std::atomic<bool> falloffTaper{false};
+
+    // headset_solo=1: the radio key puts the headset on with no session, to try it alone (2026-11-07).
+    std::atomic<bool> headsetSolo{false};
+    // The radio headset, to tune it gentler or firmer by ear in the game (2026-11-07).
+    std::atomic<float> headsetDb{0.f};          // added to its clamp level: up means only louder sounds get turned down
+    std::atomic<float> headsetSteep{3.f};       // dB down for each dB over it
+    std::atomic<float> headsetDeepestDb{40.f};  // how far down it can go
+    std::atomic<float> headsetHissDb{0.f};      // added to its hiss
 };
 inline LiveTuning g_liveTuning;
 

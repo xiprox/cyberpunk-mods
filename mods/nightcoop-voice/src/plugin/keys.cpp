@@ -105,7 +105,8 @@ void KeyWatcher::Loop()
     {
         Sleep(kPollMs);
 
-        const bool usable = !m_blocked.load() && m_engine.InSession() && GameHasFocus();
+        // Outside a session only the headset test uses the keys (the radio key puts it on); the mod is otherwise idle.
+        const bool usable = !m_blocked.load() && (m_engine.InSession() || m_engine.HeadsetSoloTest()) && GameHasFocus();
         const bool muteDown = usable && IsDown(m_muteKey.load());
         const bool radioDown = usable && IsDown(m_radioKey.load());
 

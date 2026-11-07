@@ -113,14 +113,10 @@ local function buildMenu()
         { "100% (today)", "85%", "70%", "50%", "70% with taper" }, falloffIndex, 1, function(index)
             nativeVoice.SetSetting("falloff_test", falloffs[index] or "")
         end)
-    menu.addSwitch(HEARING, "Headphones", "Places nearby voices around your head and the radio in one ear, which only works in headphones. Turn it off for speakers.",
+    menu.addSwitch(HEARING, "Headphones", "Places nearby voices around your head, which only works in headphones. Turn it off for speakers.",
         settingOn("headphones", true), true, store("headphones"))
-    local radioEars = { "left", "right", "both" }
-    local radioEar = setting("radio_ear", "left")
-    menu.addSelectorString(HEARING, "Radio earpiece", "Which ear wears the radio, or both. With Headphones off, it always plays in both.",
-        { "Left", "Right", "Both" }, radioEar == "right" and 2 or radioEar == "both" and 3 or 1, 1, function(index)
-            nativeVoice.SetSetting("radio_ear", radioEars[index] or "left")
-        end)
+    menu.addSwitch(HEARING, "Radio headset", "While your radio mic is on you wear a tactical headset: bangs and blasts turn into a muffled thump, quiet sounds come up a little, and there's a faint hiss. Nearby voices go through it too; the radio plays inside it. Off leaves the game's sound alone.",
+        settingOn("headset", true), true, store("headset"))
     menu.addSwitch(HEARING, "Show the voice display", "The corner display of your mic, the radio and who's talking.",
         settingOn("hud", true), true, store("hud"))
 
