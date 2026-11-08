@@ -1,0 +1,11 @@
+# CMake's output, including build/stage
+/build/
+
+# The zips for the crew, kept on disk; earlier versions exist only there
+/dist/
+
+# Third-party libraries, from tools/fetch_deps.ps1
+/deps/
+
+# Recordings of the game from tools/record_game, and what headset_clamp makes of them
+/recordings/

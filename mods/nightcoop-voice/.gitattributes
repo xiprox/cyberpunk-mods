@@ -1,0 +1,2 @@
+# The files have always had LF endings; keep them that way in every checkout, worktrees included.
+* text=auto eol=lf
