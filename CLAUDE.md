@@ -36,3 +36,7 @@ Each folder in `mods/` is its own mod project; read its CLAUDE.md, README.md and
 - This folder is one git repo for all the mods, with no remote. Claude commits only when asked, and proposes every commit's title and description first. Each mod's CLAUDE.md has its commit rules; changes to the repo itself use the scope `repo`.
 - Mods moved into `mods/` and the SDK into `vendor/` on 2026-11-08, so older RECORD.md entries name the old paths.
 - Build output, zips, test-run pictures, recordings and dumps of game files stay on disk but out of git. The vehicle customizer's scouting pictures are in git, and so are the reports of the test runs its RECORD.md cites.
+
+## Compacting
+
+- When the user says "let's compact", reply with the instructions for the compaction in one code block, saying what to keep, without the `/compact` itself, so they can copy and paste it.
