@@ -1,0 +1,21 @@
+﻿cars: 65; paints shared by every body panel: median 11, min 1, max 39
+of those, not worn or burnt: median 9, min 1, max 28
+  thorton_merrimac_basic               panels  9  shared  39  clean  26  ['default', 'max_tac_01', 'max_tac_02', 'max_tac_03', 'police_01', 'reed_01', 'suburban_01', 'suburban_02', 'suburban_03', 'suburban_04', 'suburban_05', 'suburban_06']
+  thorton_merrimac_basic               panels  9  shared  39  clean  26  ['default', 'max_tac_01', 'max_tac_02', 'max_tac_03', 'police_01', 'reed_01', 'suburban_01', 'suburban_02', 'suburban_03', 'suburban_04', 'suburban_05', 'suburban_06']
+  villefort_deleon_basic               panels  7  shared  38  clean  22  ['default', 'player_01', 'suburban_01', 'suburban_02', 'suburban_03', 'suburban_04', 'suburban_05', 'suburban_06', 'suburban_07', 'suburban_08', 'suburban_09', 'suburban_10']
+  makigai_tanishi_basic                panels  3  shared  38  clean  22  ['default', 'player_01', 'suburban_01', 'suburban_02', 'suburban_03', 'suburban_04', 'suburban_05', 'suburban_06', 'suburban_07', 'suburban_08', 'suburban_09', 'suburban_10']
+  quadra_sport_r7_basic                panels  4  shared  36  clean  20  ['default', 'mr_hands_01', 'netrunner_01', 'suburban_01', 'suburban_02', 'suburban_03', 'suburban_04', 'suburban_05', 'suburban_06', 'suburban_07', 'suburban_08', 'suburban_09']
+  villefort_cortes__basic              panels  9  shared  31  clean  24  ['arasaka_01', 'black_agent_01', 'border_patrol', 'default', 'delamain', 'kangtao_01', 'mafia_01', 'padre', 'police_01', 'sheriff', 'suburban_01', 'suburban_02']
+  villefort_columbus__basic            panels  9  shared  30  clean  18  ['6th_street_01', 'aldecaldos_01', 'aldecaldos_jammer', 'arasaka_01', 'default', 'growl_fm', 'judys_van', 'kangtao_01', 'q_104_holo', 'suburban_01', 'suburban_02', 'suburban_03']
+  v_standard25_villefort_columbus_songbird panels  9  shared  30  clean  18  ['6th_street_01', 'aldecaldos_01', 'aldecaldos_jammer', 'arasaka_01', 'default', 'growl_fm', 'judys_van', 'kangtao_01', 'q_104_holo', 'suburban_01', 'suburban_02', 'suburban_03']
+  chevalier_emperor_nusa               panels  8  shared  29  clean  28  ['arasaka_01', 'armored_01', 'armored_02', 'armored_03', 'autonomous_zetatech_01', 'deathrace_01', 'default', 'militech', 'militech_camo', 'mobile_lab', 'nusa_01', 'police_blue']
+  chevalier_emperor__basic             panels  8  shared  29  clean  28  ['arasaka_01', 'armored_01', 'armored_02', 'armored_03', 'autonomous_zetatech_01', 'deathrace_01', 'default', 'militech', 'militech_camo', 'mobile_lab', 'nusa_01', 'police_blue']
+  archer_quartz__basic                 panels  7  shared  27  clean  20  ['carbon_fiber_01', 'default', 'kerry_01', 'primer_black', 'primer_gray', 'primer_red', 'stickerbomb_01', 'stickerbomb_02', 'suburban_01', 'suburban_02', 'suburban_03', 'suburban_04']
+  quadra_turbo_basic                   panels  5  shared  25  clean  19  ['default', 'player', 'player_q001_damage', 'tygerclaws_01', 'tygerclaws_02', 'tygerclaws_03', 'tygerclaws_04', 'tygerclaws_05', 'tygerclaws_06', 'urban_01', 'urban_02', 'urban_03']
+fewest:
+  rayfield_caliburn__basic             panels  7  shared   1  clean   1  ['default']
+  porsche_911turbo__basic              panels  7  shared   1  clean   1  ['default']
+  mizutani_shion__basic                panels  8  shared   1  clean   1  ['default']
+  herrera_riptide__basic               panels 10  shared   1  clean   1  ['default']
+  herrera_outlaw__heist                panels 10  shared   1  clean   1  ['default']
+  herrera_outlaw__basic                panels 10  shared   1  clean   1  ['default']

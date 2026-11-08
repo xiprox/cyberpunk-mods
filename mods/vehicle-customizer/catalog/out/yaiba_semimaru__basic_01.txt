@@ -1,0 +1,36 @@
+ARV-Q340 Semimaru (yaiba_semimaru__basic_01), from base\vehicles\sport\v_sport1_yaiba_semimaru__basic_01.ent
+records: Vehicle.v_sport1_yaiba_semimaru_player
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  yaiba_semimaru_basic_urban_01 Yaiba semimaru basic urban 5 looks
+                                            paints: yaiba_semimaru_basic_urban_02, yaiba_semimaru_basic_urban_03, yaiba_semimaru_basic_urban_04, yaiba_semimaru_basic_urban_05
+WRECKS: yaiba_semimaru_basic_burnt_01
+
+SLOTS (12)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                     4 paints   5 looks  [style: Yaiba semimaru basic urban]
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                     4 paints   5 looks  [style: Yaiba semimaru basic urban]
+  Trunk [hood_a.trunk] (hood_a): 1 options
+    trunk_01                                        4 paints   5 looks  [style: Yaiba semimaru basic urban]
+  Hood [trunk_a.hood] (trunk_a): 1 options
+    hood_01                                         4 paints   5 looks  [style: Yaiba semimaru basic urban]
+  Body [base.body] (Base): 1 options
+    body_01                                         4 paints   6 looks  [style: Yaiba semimaru basic urban] [wreck: yaiba_semimaru_basic_burnt_01]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     2 paints   6 looks  [style: Yaiba semimaru basic urban] [wreck: yaiba_semimaru_basic_burnt_01]
+  Seats: front left [base.seat] (Base): 1 options
+    seat_fl_01                                      2 paints   6 looks  [style: Yaiba semimaru basic urban] [wreck: yaiba_semimaru_basic_burnt_01]
+  Seats: front right [base.seat.seats_fr] (Base): 1 options
+    seat_fr_01                                      2 paints   6 looks  [style: Yaiba semimaru basic urban] [wreck: yaiba_semimaru_basic_burnt_01]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    wheel_01                                        2 paints   5 looks  [style: Yaiba semimaru basic urban]
+  Doors: a [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_a_01                                       4 paints   5 looks  [style: Yaiba semimaru basic urban]
+  Doors: mirror [door.door.door_mirror] (door_front_left_a, door_front_right_a): 1 options
+    door_mirror_01                                  4 paints   5 looks  [style: Yaiba semimaru basic urban]
+  Wheel (brake) [brake.wheel] (brake_front_left, brake_front_right): 1 options
+    wheel_02                                        3 paints   5 looks  [style: Yaiba semimaru basic urban]
+
+KITS (0)

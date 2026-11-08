@@ -1,0 +1,30 @@
+{
+  "camera_forward": {
+    "x": -0.8,
+    "y": -0.5,
+    "z": -0.3
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 399.5,
+    "x": 1109.8,
+    "y": -1868.6,
+    "z": -79.4
+  },
+  "nearest": {
+    "distance": 28.5,
+    "gig": "sts_bls_ina_11",
+    "gig_state_from": "not found in the journal",
+    "id": "scrapyard_by_the_landfill",
+    "name": "Scrapyard by the landfill"
+  },
+  "note": "",
+  "player": {
+    "x": 1422.5,
+    "y": -1658,
+    "yaw": 124,
+    "z": 52.5
+  },
+  "stamp": "20261106-175956",
+  "time": "2026-11-06 17:59:56"
+}

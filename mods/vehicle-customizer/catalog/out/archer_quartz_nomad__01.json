@@ -1,0 +1,3474 @@
+{
+ "id": "archer_quartz_nomad__01",
+ "label": "Quartz \"Specter\"",
+ "entity": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad__01.ent",
+ "family": "v_standard2_archer_quartz_nomad",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard2_archer_quartz_nomad_player",
+  "Vehicle.v_standard2_archer_quartz_nomad_player_02"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app"
+ ],
+ "styles": [
+  {
+   "id": "archer_quartz_nomad_aldecados_02",
+   "code": "archer_quartz_nomad_aldecados_02",
+   "label": "Archer quartz nomad aldecados 02",
+   "base_look": "archer_quartz_nomad_aldecados_02",
+   "looks": [
+    "archer_quartz_nomad_aldecados_02",
+    "archer_quartz_nomad_aldecados_03",
+    "archer_quartz_nomad_aldecados_04",
+    "archer_quartz_nomad_aldecados_05",
+    "archer_quartz_nomad_aldecados_01_1",
+    "archer_quartz_nomad_wraiths_03",
+    "archer_quartz_nomad_wraiths_01_1",
+    "archer_quartz_nomad_wraiths_03_missiles",
+    "archer_quartz_nomad_aldecados_02_missiles",
+    "archer_quartz_nomad_aldecados_03_missiles",
+    "archer_quartz_nomad_aldecados_05_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "1e6ab950",
+    "bumper_back.bumper": "f8c5ed7a",
+    "hood_a.hood": "8ee0f8f2",
+    "trunk_a.trunk": "74dd0450",
+    "base.body": "a397da9d",
+    "base.interior": "f2374c7b",
+    "base.window.window_f": "9ec39f89",
+    "wheel.tire": "c1572690",
+    "wheel.wheel": "7256e82d",
+    "door.door": "edba2943"
+   },
+   "kits": [
+    "nomad_0845",
+    "nomad_8bf0"
+   ]
+  },
+  {
+   "id": "archer_quartz_nomad_player_02",
+   "code": "archer_quartz_nomad_player_02",
+   "label": "Archer quartz nomad player 02",
+   "base_look": "archer_quartz_nomad_player_02",
+   "looks": [
+    "archer_quartz_nomad_player_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "1e6ab950",
+    "bumper_back.bumper": "f8c5ed7a",
+    "hood_a.hood": "8ee0f8f2",
+    "trunk_a.trunk": "74dd0450",
+    "base.body": "a397da9d",
+    "base.interior": "f2374c7b",
+    "base.window.window_f": "9ec39f89",
+    "wheel.tire": "c1572690",
+    "wheel.wheel": "308a27fd",
+    "wheel.wheel.wheel_a1880": "5894c75b",
+    "door.door": "edba2943"
+   },
+   "kits": [
+    "nomad_0845",
+    "nomad_8bf0"
+   ]
+  },
+  {
+   "id": "archer_quartz_nomad_wraiths_01",
+   "code": "archer_quartz_nomad_wraiths_01",
+   "label": "Archer quartz nomad wraiths",
+   "base_look": "archer_quartz_nomad_wraiths_01",
+   "looks": [
+    "archer_quartz_nomad_wraiths_01",
+    "archer_quartz_nomad_wraiths_02",
+    "archer_quartz_nomad_wraiths_05",
+    "archer_quartz_nomad_aldecados_01",
+    "archer_quartz_nomad_wraiths_01_missiles",
+    "archer_quartz_nomad_wraiths_02_missiles",
+    "archer_quartz_nomad_wraiths_05_missiles",
+    "archer_quartz_nomad_aldecados_01_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "1e6ab950",
+    "bumper_back.bumper": "f8c5ed7a",
+    "hood_a.hood": "8ee0f8f2",
+    "trunk_a.trunk": "74dd0450",
+    "base.body": "a397da9d",
+    "base.interior": "f2374c7b",
+    "base.trunk": "78eeac9c",
+    "base.window.window_f": "9ec39f89",
+    "wheel.tire": "c1572690",
+    "wheel.wheel": "7256e82d",
+    "door.door": "edba2943"
+   },
+   "kits": [
+    "nomad_0845",
+    "nomad_4e8e",
+    "nomad_73a3",
+    "nomad_8bf0"
+   ]
+  },
+  {
+   "id": "archer_quartz_nomad_wraiths_04",
+   "code": "archer_quartz_nomad_wraiths_04",
+   "label": "Archer quartz nomad wraiths 04",
+   "base_look": "archer_quartz_nomad_wraiths_04",
+   "looks": [
+    "archer_quartz_nomad_wraiths_04",
+    "archer_quartz_nomad_player_01",
+    "archer_quartz_nomad_player_01_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "1e6ab950",
+    "bumper_back.bumper": "f8c5ed7a",
+    "hood_a.hood": "8ee0f8f2",
+    "trunk_a.trunk": "74dd0450",
+    "base.body": "a397da9d",
+    "base.interior": "f2374c7b",
+    "base.trunk": "78eeac9c",
+    "base.window.window_f": "9ec39f89",
+    "wheel.tire": "c1572690",
+    "wheel.wheel": "7256e82d",
+    "door.door": "edba2943"
+   },
+   "kits": [
+    "nomad_0845",
+    "nomad_4e8e",
+    "nomad_8bf0"
+   ]
+  }
+ ],
+ "wrecks": [
+  "archer_quartz_nomad_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "1e6ab950",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wraiths_01",
+      "wraiths_02",
+      "aldecaldos_01",
+      "aldecaldos_02",
+      "player_02"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_player_02",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_player_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "f8c5ed7a",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wraiths_01",
+      "player_02"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_player_02",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_player_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "8ee0f8f2",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wraiths_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "wraiths_02",
+      "aldecados_02",
+      "player_02"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_player_02",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_player_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "74dd0450",
+     "code": "trunk_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_trunk_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_trunk_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wraiths_01",
+      "wraiths_02",
+      "player_02"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_player_02",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_player_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "a397da9d",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecaldos_01",
+     "paints": [
+      "aldecaldos_01",
+      "wraiths_01",
+      "wraiths_02",
+      "aldecaldos_02",
+      "wraiths_03",
+      "wraiths_04",
+      "wraiths_05",
+      "wraiths_06",
+      "aldecaldos_02_2",
+      "aldecaldos_03",
+      "aldecaldos_04",
+      "aldecaldos_05",
+      "player_02"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_burnt_01",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_player_02",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_player_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04",
+      "wreck:archer_quartz_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "f2374c7b",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wraiths_01",
+      "wraiths_02"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_burnt_01",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_player_02",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_player_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04",
+      "wreck:archer_quartz_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_b"
+   ],
+   "options": [
+    {
+     "id": "78eeac9c",
+     "code": "trunk_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_trunk_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_trunk_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wraiths_01",
+      "wraiths_02",
+      "aldecaldos_01"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_f",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f_01"
+   ],
+   "options": [
+    {
+     "id": "9ec39f89",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wraiths_01",
+      "wraiths_02"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_burnt_01",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_player_02",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_player_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04",
+      "wreck:archer_quartz_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     -0.0377,
+     0.0,
+     0.0
+    ],
+    [
+     -0.034,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0257,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0275,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "c1572690",
+     "code": "tire_a_01",
+     "vehicle": "Galena \"Gecko\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "muddy_white_01",
+     "paints": [
+      "muddy_red",
+      "muddy_cyan",
+      "muddy_yellow",
+      "muddy_red_02",
+      "muddy_gray",
+      "muddy_red_03",
+      "muddy_green",
+      "muddy_white_01",
+      "dusty_gray"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_player_02",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_player_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims: a",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "7256e82d",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecaldos_02",
+     "paints": [
+      "aldecaldos_01",
+      "wraiths_01",
+      "wraiths_02",
+      "aldecaldos_02"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04"
+     ]
+    },
+    {
+     "id": "308a27fd",
+     "code": "wheel_01 + wheel_a_01",
+     "vehicle": "Mackinaw MTL1",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "silver_dusty_01",
+     "paints": [
+      "clean_01",
+      "black_dirt",
+      "green_dirt",
+      "silver_dusty_01",
+      "black_dusty"
+     ],
+     "looks": [
+      "archer_quartz_nomad_player_02"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_player_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel.wheel_a1880",
+   "label": "Rims: a1880",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     -0.1643,
+     0.0,
+     0.0
+    ],
+    [
+     -0.165,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a1880",
+    "wheel_01_<c>_a4088"
+   ],
+   "options": [
+    {
+     "id": "5894c75b",
+     "code": "wheel_01",
+     "vehicle": "Thrax 388 Jefferson",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "maelstrom_red_01_dusty",
+     "paints": [
+      "dirty_01",
+      "valentinos_01",
+      "maelstrom_red_01",
+      "maelstrom_green_01",
+      "maelstrom_red_01_dusty",
+      "valentinos_01_dusty",
+      "maelstrom_green_dusty"
+     ],
+     "looks": [
+      "archer_quartz_nomad_player_02"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_player_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "edba2943",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wraiths_01",
+      "wraiths_02",
+      "aldecaldos_02",
+      "wraiths_03",
+      "aldecaldos_02_2",
+      "aldecaldos_03",
+      "aldecaldos_04",
+      "aldecaldos_05",
+      "player_02"
+     ],
+     "looks": [
+      "archer_quartz_nomad_aldecados_01",
+      "archer_quartz_nomad_aldecados_01_1",
+      "archer_quartz_nomad_aldecados_01_missiles",
+      "archer_quartz_nomad_aldecados_02",
+      "archer_quartz_nomad_aldecados_02_missiles",
+      "archer_quartz_nomad_aldecados_03",
+      "archer_quartz_nomad_aldecados_03_missiles",
+      "archer_quartz_nomad_aldecados_04",
+      "archer_quartz_nomad_aldecados_05",
+      "archer_quartz_nomad_aldecados_05_missiles",
+      "archer_quartz_nomad_player_01",
+      "archer_quartz_nomad_player_01_missiles",
+      "archer_quartz_nomad_player_02",
+      "archer_quartz_nomad_wraiths_01",
+      "archer_quartz_nomad_wraiths_01_1",
+      "archer_quartz_nomad_wraiths_01_missiles",
+      "archer_quartz_nomad_wraiths_02",
+      "archer_quartz_nomad_wraiths_02_missiles",
+      "archer_quartz_nomad_wraiths_03",
+      "archer_quartz_nomad_wraiths_03_missiles",
+      "archer_quartz_nomad_wraiths_04",
+      "archer_quartz_nomad_wraiths_05",
+      "archer_quartz_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:archer_quartz_nomad_aldecados_02",
+      "style:archer_quartz_nomad_player_02",
+      "style:archer_quartz_nomad_wraiths_01",
+      "style:archer_quartz_nomad_wraiths_04"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "nomad_0845",
+   "family": "nomad",
+   "code": "kit_nomad_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_cap_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_body_cap_01.mesh",
+     "code": "body_cap_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_rear_lights_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_body_rear_lights_01.mesh",
+     "code": "body_rear_lights_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_body_sticker_01.mesh",
+     "code": "body_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detector_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.5849,
+      1.8777,
+      -0.3633
+     ],
+     "rotation": [
+      -0.3234716057777405,
+      0.01798982359468937,
+      0.28419190645217896,
+      0.902373194694519
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detector_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.549,
+      1.758,
+      -0.4821
+     ],
+     "rotation": [
+      -0.5109809637069702,
+      -0.00717252679169178,
+      0.220456063747406,
+      0.830810546875
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detector_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.5519,
+      1.7663,
+      -0.4801
+     ],
+     "rotation": [
+      -0.5034176707267761,
+      0.09020686149597168,
+      -0.2860584259033203,
+      0.8103110194206238
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detector_medium_04",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.6013,
+      1.8779,
+      -0.3702
+     ],
+     "rotation": [
+      -0.2870721220970154,
+      0.02518811635673046,
+      -0.28702107071876526,
+      0.9135502576828003
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "engine",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_engine_01.mesh",
+     "code": "engine_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "sensor_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02.mesh",
+     "code": "sensor_medium_02",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.6987,
+      1.8611,
+      -0.0768
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02_shadow.mesh",
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ml_a",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__int01_crystaldome_f_ml_a_01.mesh",
+     "code": "crystaldome_f_ml_a_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ml_b",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__int01_crystaldome_f_ml_b_01.mesh",
+     "code": "crystaldome_f_ml_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_a",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__int01_crystaldome_f_mr_a_01.mesh",
+     "code": "crystaldome_f_mr_a_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_b",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__int01_crystaldome_f_mr_b_01.mesh",
+     "code": "crystaldome_f_mr_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "archer_quartz_nomad_aldecados_01",
+    "archer_quartz_nomad_aldecados_01_1",
+    "archer_quartz_nomad_aldecados_01_missiles",
+    "archer_quartz_nomad_aldecados_02",
+    "archer_quartz_nomad_aldecados_02_missiles",
+    "archer_quartz_nomad_aldecados_03",
+    "archer_quartz_nomad_aldecados_03_missiles",
+    "archer_quartz_nomad_aldecados_04",
+    "archer_quartz_nomad_aldecados_05",
+    "archer_quartz_nomad_aldecados_05_missiles",
+    "archer_quartz_nomad_burnt_01",
+    "archer_quartz_nomad_player_01",
+    "archer_quartz_nomad_player_01_missiles",
+    "archer_quartz_nomad_player_02",
+    "archer_quartz_nomad_wraiths_01",
+    "archer_quartz_nomad_wraiths_01_1",
+    "archer_quartz_nomad_wraiths_01_missiles",
+    "archer_quartz_nomad_wraiths_02",
+    "archer_quartz_nomad_wraiths_02_missiles",
+    "archer_quartz_nomad_wraiths_03",
+    "archer_quartz_nomad_wraiths_03_missiles",
+    "archer_quartz_nomad_wraiths_04",
+    "archer_quartz_nomad_wraiths_05",
+    "archer_quartz_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:archer_quartz_nomad_aldecados_02",
+    "style:archer_quartz_nomad_player_02",
+    "style:archer_quartz_nomad_wraiths_01",
+    "style:archer_quartz_nomad_wraiths_04",
+    "wreck:archer_quartz_nomad_burnt_01"
+   ]
+  },
+  {
+   "id": "nomad_4e8e",
+   "family": "nomad",
+   "code": "kit_nomad_body_2",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "cable_a_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_cable_a_01_01.mesh",
+     "code": "cable_a_01_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "light_device_medium_04",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_04.mesh",
+     "code": "light_device_medium_04",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.0006,
+      1.0705,
+      0.3072
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_04_shadow.mesh",
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "archer_quartz_nomad_aldecados_01",
+    "archer_quartz_nomad_aldecados_01_missiles",
+    "archer_quartz_nomad_player_01",
+    "archer_quartz_nomad_player_01_missiles",
+    "archer_quartz_nomad_wraiths_01",
+    "archer_quartz_nomad_wraiths_01_missiles",
+    "archer_quartz_nomad_wraiths_02",
+    "archer_quartz_nomad_wraiths_02_missiles",
+    "archer_quartz_nomad_wraiths_04",
+    "archer_quartz_nomad_wraiths_05",
+    "archer_quartz_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:archer_quartz_nomad_wraiths_01",
+    "style:archer_quartz_nomad_wraiths_04"
+   ]
+  },
+  {
+   "id": "nomad_8bf0",
+   "family": "nomad",
+   "code": "kit_nomad_body_doors_hood_trunk",
+   "where": [
+    "body",
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "hood_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_hood_sticker_01.mesh",
+     "code": "hood_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "sensor_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_01.mesh",
+     "code": "sensor_medium_01",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      -0.039,
+      -0.2712,
+      0.3232
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "sensor_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03.mesh",
+     "code": "sensor_medium_03",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      -0.3042,
+      0.5842,
+      -0.1002
+     ],
+     "rotation": [
+      0.01833653636276722,
+      -0.023406602442264557,
+      0.00019334160606376827,
+      0.9995578527450562
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03_shadow.mesh",
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "trunk_a_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_trunk_a_sticker_01.mesh",
+     "code": "trunk_a_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_04",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_04.mesh",
+     "code": "electric_device_04",
+     "paint": "dusty",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      -0.0254,
+      -0.2782,
+      0.3171
+     ],
+     "rotation": [
+      0.3489508330821991,
+      -0.3511720895767212,
+      0.6230714917182922,
+      -0.6055521368980408
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_04_shadow.mesh",
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "window_fl_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_window_fl_sticker_01.mesh",
+     "code": "window_fl_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "window_fr_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_window_fr_sticker_01.mesh",
+     "code": "window_fr_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    }
+   ],
+   "looks": [
+    "archer_quartz_nomad_aldecados_01",
+    "archer_quartz_nomad_aldecados_01_1",
+    "archer_quartz_nomad_aldecados_01_missiles",
+    "archer_quartz_nomad_aldecados_02",
+    "archer_quartz_nomad_aldecados_02_missiles",
+    "archer_quartz_nomad_aldecados_03",
+    "archer_quartz_nomad_aldecados_03_missiles",
+    "archer_quartz_nomad_aldecados_04",
+    "archer_quartz_nomad_aldecados_05",
+    "archer_quartz_nomad_aldecados_05_missiles",
+    "archer_quartz_nomad_player_01",
+    "archer_quartz_nomad_player_01_missiles",
+    "archer_quartz_nomad_player_02",
+    "archer_quartz_nomad_wraiths_01",
+    "archer_quartz_nomad_wraiths_01_1",
+    "archer_quartz_nomad_wraiths_01_missiles",
+    "archer_quartz_nomad_wraiths_02",
+    "archer_quartz_nomad_wraiths_02_missiles",
+    "archer_quartz_nomad_wraiths_03",
+    "archer_quartz_nomad_wraiths_03_missiles",
+    "archer_quartz_nomad_wraiths_04",
+    "archer_quartz_nomad_wraiths_05",
+    "archer_quartz_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk",
+    "slot:window.window"
+   ],
+   "needs": [],
+   "origins": [
+    "style:archer_quartz_nomad_aldecados_02",
+    "style:archer_quartz_nomad_player_02",
+    "style:archer_quartz_nomad_wraiths_01",
+    "style:archer_quartz_nomad_wraiths_04"
+   ]
+  },
+  {
+   "id": "nomad_73a3",
+   "family": "nomad",
+   "code": "trunk_b_sticker_01",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "trunk_b_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_trunk_b_sticker_01.mesh",
+     "code": "trunk_b_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_quartz_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "archer_quartz_nomad_aldecados_01",
+    "archer_quartz_nomad_aldecados_01_missiles",
+    "archer_quartz_nomad_wraiths_01",
+    "archer_quartz_nomad_wraiths_01_missiles",
+    "archer_quartz_nomad_wraiths_02",
+    "archer_quartz_nomad_wraiths_02_missiles",
+    "archer_quartz_nomad_wraiths_05",
+    "archer_quartz_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:base.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:archer_quartz_nomad_wraiths_01"
+   ]
+  }
+ ],
+ "looks": {
+  "archer_quartz_nomad_wraiths_01": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_01",
+   "style": "archer_quartz_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_01": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_01",
+   "style": "archer_quartz_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_01_1": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_01_1",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_wraiths_01_1": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_01_1",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_wraiths_05": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_05",
+   "style": "archer_quartz_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_05": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_05",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_wraiths_03": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_03",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_03": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_03",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_wraiths_04": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_04",
+   "style": "archer_quartz_nomad_wraiths_04",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_04": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_04",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_wraiths_02": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_02",
+   "style": "archer_quartz_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_02": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_02",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_player_01": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "player_01",
+   "style": "archer_quartz_nomad_wraiths_04",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_wraiths_03_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_03_missiles",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_player_01_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "player_01_missiles",
+   "style": "archer_quartz_nomad_wraiths_04",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_wraiths_01_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_01_missiles",
+   "style": "archer_quartz_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_03_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_03_missiles",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_01_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_01_missiles",
+   "style": "archer_quartz_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_05_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_05_missiles",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_aldecados_02_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "aldecados_02_missiles",
+   "style": "archer_quartz_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "archer_quartz_nomad_wraiths_05_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_05_missiles",
+   "style": "archer_quartz_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_wraiths_02_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "wraiths_02_missiles",
+   "style": "archer_quartz_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.trunk": {
+     "all": "trunk_b"
+    }
+   }
+  },
+  "archer_quartz_nomad_player_02": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_quartz_nomad.app",
+   "app_look": "player_02",
+   "style": "archer_quartz_nomad_player_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.nomad_interior": {
+     "all": "v_standard2_archer_quartz_nomad__int01_interior_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.wheel.wheel_a1880": {
+     "bl": "wheel_01_bl_a4088",
+     "br": "wheel_01_br_a1880"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.331,
+   0.3468,
+   0.2551,
+   -0.1348
+  ],
+  "b": [
+   0.331,
+   0.3468,
+   0.2562,
+   -0.1348
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "cab7b1e6",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Quartz \"Specter\"",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2551,
+   "tire_center": -0.1348,
+   "axles": [
+    "f"
+   ],
+   "looks": 22,
+   "paints": [
+    "aldecaldos_01",
+    "wraiths_01",
+    "wraiths_02",
+    "aldecaldos_02"
+   ],
+   "default_paint": "aldecaldos_02",
+   "kind": "car",
+   "look_names": [
+    "archer_quartz_nomad_aldecados_01",
+    "archer_quartz_nomad_aldecados_01_1",
+    "archer_quartz_nomad_aldecados_01_missiles",
+    "archer_quartz_nomad_aldecados_02",
+    "archer_quartz_nomad_aldecados_02_missiles",
+    "archer_quartz_nomad_aldecados_03",
+    "archer_quartz_nomad_aldecados_03_missiles",
+    "archer_quartz_nomad_aldecados_04",
+    "archer_quartz_nomad_aldecados_05",
+    "archer_quartz_nomad_aldecados_05_missiles",
+    "archer_quartz_nomad_player_01",
+    "archer_quartz_nomad_player_01_missiles",
+    "archer_quartz_nomad_wraiths_01",
+    "archer_quartz_nomad_wraiths_01_1",
+    "archer_quartz_nomad_wraiths_01_missiles",
+    "archer_quartz_nomad_wraiths_02",
+    "archer_quartz_nomad_wraiths_02_missiles",
+    "archer_quartz_nomad_wraiths_03",
+    "archer_quartz_nomad_wraiths_03_missiles",
+    "archer_quartz_nomad_wraiths_04",
+    "archer_quartz_nomad_wraiths_05",
+    "archer_quartz_nomad_wraiths_05_missiles"
+   ]
+  },
+  {
+   "id": "f2fbed12",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Quartz \"Specter\"",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2562,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 22,
+   "paints": [
+    "aldecaldos_01",
+    "wraiths_01",
+    "wraiths_02",
+    "aldecaldos_02"
+   ],
+   "default_paint": "aldecaldos_02",
+   "kind": "car",
+   "look_names": [
+    "archer_quartz_nomad_aldecados_01",
+    "archer_quartz_nomad_aldecados_01_1",
+    "archer_quartz_nomad_aldecados_01_missiles",
+    "archer_quartz_nomad_aldecados_02",
+    "archer_quartz_nomad_aldecados_02_missiles",
+    "archer_quartz_nomad_aldecados_03",
+    "archer_quartz_nomad_aldecados_03_missiles",
+    "archer_quartz_nomad_aldecados_04",
+    "archer_quartz_nomad_aldecados_05",
+    "archer_quartz_nomad_aldecados_05_missiles",
+    "archer_quartz_nomad_player_01",
+    "archer_quartz_nomad_player_01_missiles",
+    "archer_quartz_nomad_wraiths_01",
+    "archer_quartz_nomad_wraiths_01_1",
+    "archer_quartz_nomad_wraiths_01_missiles",
+    "archer_quartz_nomad_wraiths_02",
+    "archer_quartz_nomad_wraiths_02_missiles",
+    "archer_quartz_nomad_wraiths_03",
+    "archer_quartz_nomad_wraiths_03_missiles",
+    "archer_quartz_nomad_wraiths_04",
+    "archer_quartz_nomad_wraiths_05",
+    "archer_quartz_nomad_wraiths_05_missiles"
+   ]
+  },
+  {
+   "id": "62018226",
+   "rim": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Mackinaw MTL1",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2906,
+   "tire_center": -0.1348,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [
+    "clean_01",
+    "black_dirt",
+    "green_dirt",
+    "silver_dusty_01",
+    "black_dusty"
+   ],
+   "default_paint": "silver_dusty_01",
+   "kind": "car",
+   "look_names": [
+    "archer_quartz_nomad_player_02"
+   ]
+  },
+  {
+   "id": "c6980bde",
+   "rim": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Thrax 388 Jefferson",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.328,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [
+    "dirty_01",
+    "valentinos_01",
+    "maelstrom_red_01",
+    "maelstrom_green_01",
+    "maelstrom_red_01_dusty",
+    "valentinos_01_dusty",
+    "maelstrom_green_dusty"
+   ],
+   "default_paint": "maelstrom_red_01_dusty",
+   "kind": "car",
+   "look_names": [
+    "archer_quartz_nomad_player_02"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "archer_quartz_nomad_player_01_missiles",
+   "Quartz \"Sidewinder\""
+  ],
+  [
+   "archer_quartz_nomad_player_02",
+   "Quartz \"Specter\""
+  ]
+ ]
+}

@@ -1,0 +1,43 @@
+Hellhound "Man o' War" (militech_hellhound__basic_01), from base\vehicles\standard\v_standard3_militech_hellhound__basic_01.ent
+records: Vehicle.ncpd_hellhound_heat_5, Vehicle.v_standard3_militech_hellhound_police
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  police_01                Police           3 looks
+                                            paints: police_02, police_03
+                                            kits: body_stickers_maxtac_01, kit_police_doors_hood_trunk, kit_police_body
+WRECKS: burnt_police
+
+SLOTS (11)
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                         5 paints   8 looks  [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] [look: q305_hologrom_red] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                        5 paints   8 looks  [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] [look: q305_hologrom_red] ...
+  Body [base.body] (Base): 1 options
+    body_01                                         5 paints  10 looks  [look: burnt] [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     2 paints   9 looks  [look: burnt] [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] ...
+  Windshield [base.window] (Base): 1 options
+    window_f_01                                     5 paints  10 looks  [look: burnt] [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_a_01                                       0 paints   5 looks  [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] [look: q305_hologrom_red]
+    tire_01                                         0 paints   3 looks  [car: v_utility4_militech_behemoth] [style: Police]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_a_01                                      2 paints   5 looks  [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] [look: q305_hologrom_red]
+    wheel_a_01 + wheel_police_01                    2 paints   3 looks  [style: Police]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_a_01                                       5 paints   8 looks  [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] [look: q305_hologrom_red] ...
+  Door (hatch_door) [hatch_door.door] (hatch_door): 1 options
+    hatch_door_01                                   4 paints  10 looks  [look: burnt] [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] ...
+  Tires (b) [wheel_b.tire] (wheel_front_left_b, wheel_front_right_b): 2 options
+    tire_a_01                                       0 paints   5 looks  [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] [look: q305_hologrom_red]
+    tire_01                                         0 paints   3 looks  [car: v_utility4_militech_behemoth] [style: Police]
+  Rims (b) [wheel_b.wheel] (wheel_front_left_b, wheel_front_right_b): 1 options
+    wheel_a_01                                      2 paints   8 looks  [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] [look: q305_hologrom_red] ...
+
+KITS (3)
+  body_stickers_maxtac_01                        1 parts  10 looks  [look: burnt] [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] ...
+  kit_police_body                                6 parts   4 looks  [style: Police] [wreck: burnt_police]
+                                                 made to sit on base.body.police_body_lights
+  kit_police_doors_hood_trunk                    10 parts   8 looks  [look: max_tac_01] [look: max_tac_02] [look: max_tac_03] [look: player_01] [look: q305_hologrom_red] ...
+                                                 made to sit on Doors, Hood, Trunk

@@ -1,0 +1,17 @@
+﻿basegame_4_appearance.archive: 0/83419 paths=0 t=0s
+basegame_4_appearance.archive: 50000/83419 paths=6912 t=13s
+basegame_4_appearance.archive {'entries': 83419, 'cr2w': 83419, 'errors': 0}
+basegame_4_gamedata.archive: 0/57033 paths=9943 t=21s
+basegame_4_gamedata.archive: 50000/57033 paths=12321 t=37s
+basegame_4_gamedata.archive {'entries': 57033, 'cr2w': 57033, 'errors': 0}
+basegame_1_engine.archive: 0/4289 paths=12413 t=39s
+basegame_1_engine.archive {'entries': 4289, 'cr2w': 4201, 'errors': 0}
+basegame_3_nightcity.archive: 0/104319 paths=12512 t=42s
+basegame_3_nightcity.archive: 50000/104319 paths=12622 t=63s
+basegame_3_nightcity.archive: 100000/104319 paths=12682 t=80s
+basegame_3_nightcity.archive {'entries': 104319, 'cr2w': 104319, 'errors': 0}
+ep1_1_nightcity.archive: 0/43568 paths=12685 t=81s
+ep1_1_nightcity.archive {'entries': 43568, 'cr2w': 43568, 'errors': 0}
+ep1_2_gamedata.archive: 0/30892 paths=13081 t=105s
+ep1_2_gamedata.archive {'entries': 30892, 'cr2w': 30809, 'errors': 0}
+paths 16061 present 14555 t=125s

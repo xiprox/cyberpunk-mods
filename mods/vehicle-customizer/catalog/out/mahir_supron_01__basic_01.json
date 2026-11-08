@@ -1,0 +1,4129 @@
+{
+ "id": "mahir_supron_01__basic_01",
+ "label": "Supron FS3-T",
+ "entity": "base\\vehicles\\standard\\v_standard25_mahir_supron_01__basic_01.ent",
+ "family": "v_standard25_mahir_supron",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard25_mahir_supron_gt_player",
+  "Vehicle.v_standard25_mahir_supron_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "aldecaldos_01",
+   "code": "aldecaldos_01",
+   "label": "Aldecaldos",
+   "base_look": "mahir_supron__basic_aldecaldos_01",
+   "looks": [
+    "mahir_supron__basic_aldecaldos_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "f184b351",
+    "bumper_back.bumper": "222f9c77",
+    "trunk_a.trunk": "01da5bdc",
+    "base.body": "29589055",
+    "base.exhaust": "816905c1",
+    "base.interior": "fcdf9263",
+    "wheel.tire": "bee65cc8",
+    "wheel.wheel": "b04164e5",
+    "door.door": "a753c765",
+    "trunk_b.trunk": "f71ae45c"
+   },
+   "kits": [
+    "aldecaldos_bd40",
+    "aldecaldos_fd1f"
+   ]
+  },
+  {
+   "id": "poor_01",
+   "code": "poor_01",
+   "label": "Poor",
+   "base_look": "mahir_supron__basic_poor_01",
+   "looks": [
+    "mahir_supron__basic_poor_01",
+    "mahir_supron__basic_poor_02",
+    "mahir_supron__basic_poor_03",
+    "mahir_supron__basic_poor_04",
+    "mahir_supron__basic_poor_05"
+   ],
+   "options": {
+    "bumper_front.bumper": "f184b351",
+    "bumper_back.bumper": "222f9c77",
+    "trunk_a.trunk": "01da5bdc",
+    "base.body": "29589055",
+    "base.exhaust": "816905c1",
+    "base.interior": "fcdf9263",
+    "wheel.tire": "bee65cc8",
+    "wheel.wheel": "b04164e5",
+    "door.door": "a753c765",
+    "trunk_b.trunk": "f71ae45c"
+   },
+   "kits": [
+    "aldecaldos_fd1f"
+   ]
+  },
+  {
+   "id": "poor_06",
+   "code": "poor_06",
+   "label": "Poor 06",
+   "base_look": "mahir_supron__basic_poor_06",
+   "looks": [
+    "mahir_supron__basic_poor_06",
+    "mahir_supron__basic_poor_07",
+    "mahir_supron__basic_poor_08",
+    "mahir_supron__basic_poor_09",
+    "mahir_supron__basic_poor_10"
+   ],
+   "options": {
+    "bumper_front.bumper": "87722798",
+    "bumper_back.bumper": "3ae1d9b2",
+    "hood_a.hood": "0063941a",
+    "trunk_a.trunk": "01da5bdc",
+    "base.body": "29589055",
+    "base.exhaust": "816905c1",
+    "base.interior": "fcdf9263",
+    "wheel.tire": "bee65cc8",
+    "wheel.wheel": "b04164e5",
+    "door.door": "a753c765",
+    "trunk_b.trunk": "f71ae45c"
+   },
+   "kits": [
+    "aldecaldos_fd1f"
+   ]
+  },
+  {
+   "id": "suburban_01",
+   "code": "suburban_01",
+   "label": "Suburban",
+   "base_look": "mahir_supron__basic_suburban_01",
+   "looks": [
+    "mahir_supron__basic_suburban_01",
+    "mahir_supron__basic_suburban_02",
+    "mahir_supron__basic_suburban_03",
+    "mahir_supron__basic_suburban_04",
+    "mahir_supron__basic_suburban_05",
+    "mahir_supron__basic_suburban_06",
+    "mahir_supron__basic_suburban_07"
+   ],
+   "options": {
+    "bumper_front.bumper": "87722798",
+    "bumper_back.bumper": "3ae1d9b2",
+    "hood_a.hood": "0063941a",
+    "trunk_a.trunk": "01da5bdc",
+    "base.body": "29589055",
+    "base.exhaust": "816905c1",
+    "base.interior": "fcdf9263",
+    "wheel.tire": "df061608",
+    "wheel.wheel": "fe8810fd",
+    "door.door": "a753c765",
+    "trunk_b.trunk": "f71ae45c"
+   },
+   "kits": [
+    "aldecaldos_fd1f"
+   ]
+  },
+  {
+   "id": "tap_tap",
+   "code": "tap_tap",
+   "label": "Tap tap",
+   "base_look": "mahir_supron__basic_tap_tap",
+   "looks": [
+    "mahir_supron__basic_tap_tap"
+   ],
+   "options": {
+    "bumper_front.bumper": "87722798",
+    "bumper_back.bumper": "3ae1d9b2",
+    "hood_a.hood": "0063941a",
+    "trunk_a.trunk": "01da5bdc",
+    "base.body": "29589055",
+    "base.exhaust": "816905c1",
+    "base.interior": "fcdf9263",
+    "wheel.tire": "df061608",
+    "wheel.wheel": "fe8810fd",
+    "door.door": "a753c765",
+    "trunk_b.trunk": "f71ae45c"
+   },
+   "kits": [
+    "aldecaldos_fd1f",
+    "sticker_ac63"
+   ]
+  },
+  {
+   "id": "urban_01",
+   "code": "urban_01",
+   "label": "Urban",
+   "base_look": "mahir_supron__basic_urban_01",
+   "looks": [
+    "mahir_supron__basic_urban_01",
+    "mahir_supron__basic_urban_02",
+    "mahir_supron__basic_urban_03",
+    "mahir_supron__basic_urban_04",
+    "mahir_supron__basic_urban_05",
+    "mahir_supron__basic_urban_06",
+    "mahir_supron__basic_urban_07",
+    "mahir_supron__basic_mox_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "87722798",
+    "bumper_back.bumper": "3ae1d9b2",
+    "hood_a.hood": "0063941a",
+    "trunk_a.trunk": "01da5bdc",
+    "base.body": "29589055",
+    "base.exhaust": "816905c1",
+    "base.interior": "fcdf9263",
+    "wheel.tire": "b3e2a5a8",
+    "wheel.wheel": "3ea293bd",
+    "door.door": "a753c765",
+    "trunk_b.trunk": "f71ae45c"
+   },
+   "kits": [
+    "aldecaldos_fd1f"
+   ]
+  },
+  {
+   "id": "player_01",
+   "code": "player_01",
+   "label": "V's own",
+   "base_look": "mahir_supron__basic_player_01",
+   "looks": [
+    "mahir_supron__basic_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "f184b351",
+    "bumper_back.bumper": "222f9c77",
+    "trunk_a.trunk": "01da5bdc",
+    "base.body": "29589055",
+    "base.exhaust": "816905c1",
+    "base.interior": "fcdf9263",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "d52203cd",
+    "door.door": "a753c765",
+    "trunk_b.trunk": "f71ae45c"
+   },
+   "kits": [
+    "aldecaldos_fd1f"
+   ]
+  }
+ ],
+ "wrecks": [
+  "mahir_supron__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "87722798",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "mox_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tap_tap",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "poor_06"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:poor_06",
+      "style:suburban_01",
+      "style:tap_tap",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "f184b351",
+     "code": "junk_bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_junk_bumper_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "color_02",
+     "paints": [
+      "color_02",
+      "color_03",
+      "color_04"
+     ],
+     "looks": [
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_player_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05"
+     ],
+     "origins": [
+      "style:aldecaldos_01",
+      "style:player_01",
+      "style:poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "3ae1d9b2",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "mox_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tap_tap",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "poor_06"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:poor_06",
+      "style:suburban_01",
+      "style:tap_tap",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "222f9c77",
+     "code": "junk_bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_junk_bumper_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "color_02",
+     "paints": [
+      "color_02",
+      "color_03",
+      "color_04"
+     ],
+     "looks": [
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_player_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05"
+     ],
+     "origins": [
+      "style:aldecaldos_01",
+      "style:player_01",
+      "style:poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "0063941a",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "mox_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tap_tap",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "poor_06"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:poor_06",
+      "style:suburban_01",
+      "style:tap_tap",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "01da5bdc",
+     "code": "trunk_a",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_trunk_a.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_trunk_a_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "mox_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tap_tap",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "poor_06",
+      "aldecaldos_01"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_player_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:aldecaldos_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_06",
+      "style:suburban_01",
+      "style:tap_tap",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "29589055",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "mox_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tap_tap",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "poor_06",
+      "aldecaldos_01",
+      "kurtz_01"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_burnt_01",
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_player_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:aldecaldos_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_06",
+      "style:suburban_01",
+      "style:tap_tap",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.exhaust",
+   "label": "Exhaust",
+   "kind": "exhaust",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "exhaust_01"
+   ],
+   "options": [
+    {
+     "id": "816905c1",
+     "code": "exhaust_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_exhaust_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "mox_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tap_tap",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_burnt_01",
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_player_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:aldecaldos_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_06",
+      "style:suburban_01",
+      "style:tap_tap",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "fcdf9263",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "mox_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tap_tap",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_burnt_01",
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_player_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:aldecaldos_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_06",
+      "style:suburban_01",
+      "style:tap_tap",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "bee65cc8",
+     "code": "tire_01",
+     "vehicle": "Galena G240",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "muddy",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_letter_white",
+      "dusty_letter_white",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10"
+     ],
+     "origins": [
+      "style:aldecaldos_01",
+      "style:poor_01",
+      "style:poor_06"
+     ]
+    },
+    {
+     "id": "df061608",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:suburban_01",
+      "style:tap_tap"
+     ]
+    },
+    {
+     "id": "b3e2a5a8",
+     "code": "tire_wide_02",
+     "vehicle": "Galena G240",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02_shadowmesh.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02_shadowmesh.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02_shadowmesh.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "dusty_letter_white",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "dusty_letter_white",
+      "muddy_letter_white",
+      "clean_letter_white"
+     ],
+     "looks": [
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "3546ca88",
+     "code": "tire_01",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "muddy",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_white_letters",
+      "whitewall"
+     ],
+     "looks": [
+      "mahir_supron__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "b04164e5",
+     "code": "wheel_police_01",
+     "vehicle": "Galena G240",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10"
+     ],
+     "origins": [
+      "style:aldecaldos_01",
+      "style:poor_01",
+      "style:poor_06"
+     ]
+    },
+    {
+     "id": "fe8810fd",
+     "code": "wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_wheel_fl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tap_tap"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:suburban_01",
+      "style:tap_tap"
+     ]
+    },
+    {
+     "id": "3ea293bd",
+     "code": "wheel_wide_type66_01",
+     "vehicle": "Galena G240",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "d52203cd",
+     "code": "wheel_01",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01"
+     ],
+     "looks": [
+      "mahir_supron__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "a753c765",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_fr_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "mox_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tap_tap",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "poor_06",
+      "aldecaldos_01",
+      "kurtz_01"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_player_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:aldecaldos_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_06",
+      "style:suburban_01",
+      "style:tap_tap",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_b.trunk",
+   "label": "Trunk (b)",
+   "kind": "trunk",
+   "group": "trunk_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_b"
+   ],
+   "options": [
+    {
+     "id": "f71ae45c",
+     "code": "trunk_b",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_trunk_b.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_trunk_b_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "mox_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tap_tap",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "poor_06",
+      "aldecaldos_01"
+     ],
+     "looks": [
+      "mahir_supron__basic:default",
+      "mahir_supron__basic:suburban_rave_ow_01",
+      "mahir_supron__basic_aldecaldos_01",
+      "mahir_supron__basic_mox_01",
+      "mahir_supron__basic_player_01",
+      "mahir_supron__basic_poor_01",
+      "mahir_supron__basic_poor_02",
+      "mahir_supron__basic_poor_03",
+      "mahir_supron__basic_poor_04",
+      "mahir_supron__basic_poor_05",
+      "mahir_supron__basic_poor_06",
+      "mahir_supron__basic_poor_07",
+      "mahir_supron__basic_poor_08",
+      "mahir_supron__basic_poor_09",
+      "mahir_supron__basic_poor_10",
+      "mahir_supron__basic_suburban_01",
+      "mahir_supron__basic_suburban_02",
+      "mahir_supron__basic_suburban_03",
+      "mahir_supron__basic_suburban_04",
+      "mahir_supron__basic_suburban_05",
+      "mahir_supron__basic_suburban_06",
+      "mahir_supron__basic_suburban_07",
+      "mahir_supron__basic_tap_tap",
+      "mahir_supron__basic_urban_01",
+      "mahir_supron__basic_urban_02",
+      "mahir_supron__basic_urban_03",
+      "mahir_supron__basic_urban_04",
+      "mahir_supron__basic_urban_05",
+      "mahir_supron__basic_urban_06",
+      "mahir_supron__basic_urban_07"
+     ],
+     "origins": [
+      "look:default",
+      "look:suburban_rave_ow_01",
+      "style:aldecaldos_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_06",
+      "style:suburban_01",
+      "style:tap_tap",
+      "style:urban_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "aldecaldos_fd1f",
+   "family": "aldecaldos",
+   "code": "door_fr_01_aldecaldos_sticker_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_aldecaldos_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_fr_01_aldecaldos_sticker_01.mesh",
+     "code": "door_fr_01_aldecaldos_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic:default",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "mahir_supron__basic:default",
+    "mahir_supron__basic:suburban_rave_ow_01",
+    "mahir_supron__basic_aldecaldos_01",
+    "mahir_supron__basic_mox_01",
+    "mahir_supron__basic_player_01",
+    "mahir_supron__basic_poor_01",
+    "mahir_supron__basic_poor_02",
+    "mahir_supron__basic_poor_03",
+    "mahir_supron__basic_poor_04",
+    "mahir_supron__basic_poor_05",
+    "mahir_supron__basic_poor_06",
+    "mahir_supron__basic_poor_07",
+    "mahir_supron__basic_poor_08",
+    "mahir_supron__basic_poor_09",
+    "mahir_supron__basic_poor_10",
+    "mahir_supron__basic_suburban_01",
+    "mahir_supron__basic_suburban_02",
+    "mahir_supron__basic_suburban_03",
+    "mahir_supron__basic_suburban_04",
+    "mahir_supron__basic_suburban_05",
+    "mahir_supron__basic_suburban_06",
+    "mahir_supron__basic_suburban_07",
+    "mahir_supron__basic_tap_tap",
+    "mahir_supron__basic_urban_01",
+    "mahir_supron__basic_urban_02",
+    "mahir_supron__basic_urban_03",
+    "mahir_supron__basic_urban_04",
+    "mahir_supron__basic_urban_05",
+    "mahir_supron__basic_urban_06",
+    "mahir_supron__basic_urban_07"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "look:suburban_rave_ow_01",
+    "style:aldecaldos_01",
+    "style:player_01",
+    "style:poor_01",
+    "style:poor_06",
+    "style:suburban_01",
+    "style:tap_tap",
+    "style:urban_01"
+   ]
+  },
+  {
+   "id": "aldecaldos_bd40",
+   "family": "aldecaldos",
+   "code": "kit_aldecaldos_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "body_aldecaldos_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_body_aldecaldos_sticker_01.mesh",
+     "code": "body_aldecaldos_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_aldecaldos_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_fl_aldecaldos_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_fl_01_aldecaldos_sticker_01.mesh",
+     "code": "door_fl_01_aldecaldos_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_aldecaldos_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "mahir_supron__basic_aldecaldos_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:aldecaldos_01"
+   ]
+  },
+  {
+   "id": "sticker_ac63",
+   "family": "sticker",
+   "code": "kit_sticker_body_bumper_doors_hood_trunk",
+   "where": [
+    "body",
+    "bumper",
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "body_01_tatap_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_body_01_tatap_sticker.mesh",
+     "code": "body_01_tatap_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_tap_tap",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "bumper_f_01_tatap_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_bumper_f_01_tatap_sticker.mesh",
+     "code": "bumper_f_01_tatap_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_tap_tap",
+     "parent": "vehicle_slots:bumper_front"
+    },
+    {
+     "name": "door_bl_01_tatap_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_bl_01_tatap_sticker.mesh",
+     "code": "door_bl_01_tatap_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_tap_tap",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_01_tatap_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_br_01_tatap_sticker.mesh",
+     "code": "door_br_01_tatap_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_tap_tap",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fl_01_tatap_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_fl_01_tatap_sticker.mesh",
+     "code": "door_fl_01_tatap_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_tap_tap",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_01_tatap_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_door_fr_01_tatap_sticker.mesh",
+     "code": "door_fr_01_tatap_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_tap_tap",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "hood_01_tatap_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_hood_01_tatap_sticker.mesh",
+     "code": "hood_01_tatap_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_tap_tap",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "trunk_a_tatap_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_trunk_a_tatap_sticker.mesh",
+     "code": "trunk_a_tatap_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_tap_tap",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "trunk_b_tatap_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_trunk_b_tatap_sticker.mesh",
+     "code": "trunk_b_tatap_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron__basic_tap_tap",
+     "parent": "vehicle_slots:trunk_b"
+    }
+   ],
+   "looks": [
+    "mahir_supron__basic_tap_tap"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper",
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk",
+    "slot:trunk_b.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:tap_tap"
+   ]
+  }
+ ],
+ "looks": {
+  "mahir_supron__basic_urban_01": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "urban_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_urban_06": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "urban_06",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_01": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_01",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_urban_04": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "urban_04",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_urban_03": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "urban_03",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_urban_07": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "urban_07",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_urban_05": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "urban_05",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_suburban_01": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "suburban_01",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_08": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_08",
+   "style": "poor_06",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_tap_tap": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "tap_tap",
+   "style": "tap_tap",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_player_01": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "player_01",
+   "style": "player_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_03": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_03",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_suburban_03": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "suburban_03",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_07": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_07",
+   "style": "poor_06",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_05": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_05",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_09": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_09",
+   "style": "poor_06",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_mox_01": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "mox_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_02": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_02",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_suburban_02": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "suburban_02",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_06": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_06",
+   "style": "poor_06",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_04": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_04",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_poor_10": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "poor_10",
+   "style": "poor_06",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_suburban_05": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "suburban_05",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_suburban_07": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "suburban_07",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_suburban_04": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "suburban_04",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_suburban_06": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "suburban_06",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "mahir_supron__basic_urban_02": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "urban_02",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  },
+  "mahir_supron__basic_aldecaldos_01": {
+   "app": "base\\vehicles\\appearances\\standard\\mahir_supron__basic.app",
+   "app_look": "aldecaldos_01",
+   "style": "aldecaldos_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_window_bl": {
+     "all": "body_01_window_bl_01"
+    },
+    "base.body.body_window_br": {
+     "all": "body_01_window_br_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3215,
+   0.2517,
+   0.2431,
+   -0.0678
+  ],
+  "b": [
+   0.3215,
+   0.2517,
+   0.2431,
+   -0.0678
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "71574f6d",
+   "rim": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_01",
+   "from": "Supron FS3-T",
+   "radius": 0.3219,
+   "width": 0.2502,
+   "rim_radius": 0.2224,
+   "tire_center": -0.0274,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 20,
+   "paints": [
+    "tap_tap"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mahir_supron__basic:default",
+    "mahir_supron__basic:suburban_rave_ow_01",
+    "mahir_supron__basic_suburban_01",
+    "mahir_supron__basic_suburban_02",
+    "mahir_supron__basic_suburban_03",
+    "mahir_supron__basic_suburban_04",
+    "mahir_supron__basic_suburban_05",
+    "mahir_supron__basic_suburban_06",
+    "mahir_supron__basic_suburban_07",
+    "mahir_supron__basic_tap_tap"
+   ]
+  },
+  {
+   "id": "aab40296",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_01_shadow.mesh",
+   "code": "wheel_police_01",
+   "tire_code": "tire_fl_01",
+   "from": "Galena G240",
+   "radius": 0.3215,
+   "width": 0.2517,
+   "rim_radius": 0.2431,
+   "tire_center": -0.0678,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 22,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mahir_supron__basic_aldecaldos_01",
+    "mahir_supron__basic_poor_01",
+    "mahir_supron__basic_poor_02",
+    "mahir_supron__basic_poor_03",
+    "mahir_supron__basic_poor_04",
+    "mahir_supron__basic_poor_05",
+    "mahir_supron__basic_poor_06",
+    "mahir_supron__basic_poor_07",
+    "mahir_supron__basic_poor_08",
+    "mahir_supron__basic_poor_09",
+    "mahir_supron__basic_poor_10"
+   ]
+  },
+  {
+   "id": "7a3d74fc",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02_shadowmesh.mesh",
+   "code": "wheel_wide_type66_fl_01",
+   "tire_code": "tire_wide_fl_02",
+   "from": "Galena G240",
+   "radius": 0.3215,
+   "width": 0.3308,
+   "rim_radius": 0.2632,
+   "tire_center": -0.1125,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 16,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mahir_supron__basic_mox_01",
+    "mahir_supron__basic_urban_01",
+    "mahir_supron__basic_urban_02",
+    "mahir_supron__basic_urban_03",
+    "mahir_supron__basic_urban_04",
+    "mahir_supron__basic_urban_05",
+    "mahir_supron__basic_urban_06",
+    "mahir_supron__basic_urban_07"
+   ]
+  },
+  {
+   "id": "372daa0a",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Quartz EC-T2 r660",
+   "radius": 0.362,
+   "width": 0.2965,
+   "rim_radius": 0.2807,
+   "tire_center": -0.1137,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 2,
+   "paints": [
+    "poor_01"
+   ],
+   "default_paint": "poor_01",
+   "kind": "car",
+   "look_names": [
+    "mahir_supron__basic_player_01"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "mahir_supron__basic_player_01",
+   "Supron FS3"
+  ],
+  [
+   "mahir_supron__basic_urban_02",
+   "Supron FS3-T"
+  ]
+ ]
+}

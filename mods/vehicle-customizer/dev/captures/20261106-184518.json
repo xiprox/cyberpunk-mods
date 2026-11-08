@@ -1,0 +1,40 @@
+{
+  "camera_forward": {
+    "x": -0.8,
+    "y": -0.6,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 25.9,
+    "x": -2482.8,
+    "y": -928.8,
+    "z": 8.7
+  },
+  "look_object": {
+    "class": "DisposalDevice",
+    "entity_id": "13531485592044298768ULL",
+    "name": "Gameplay-Devices-DisplayNames-Crate",
+    "position": {
+      "x": -2482.8,
+      "y": -929.5,
+      "z": 8.1
+    }
+  },
+  "nearest": {
+    "distance": 1.3,
+    "gig": "sts_hey_spr_03",
+    "gig_state_from": "not found in the journal",
+    "id": "wellsprings_body_shop",
+    "name": "Wellsprings body shop"
+  },
+  "note": "",
+  "player": {
+    "x": -2462.8,
+    "y": -912.4,
+    "yaw": 129.4,
+    "z": 8.2
+  },
+  "stamp": "20261106-184518",
+  "time": "2026-11-06 18:45:18"
+}

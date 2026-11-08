@@ -1,0 +1,5728 @@
+{
+ "id": "thorton_galena_01__basic_01",
+ "label": "Galena G240",
+ "entity": "base\\vehicles\\standard\\v_standard2_thorton_galena_01__basic_01.ent",
+ "family": "v_standard2_thorton_galena",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard2_thorton_galena_bobas_player",
+  "Vehicle.v_standard2_thorton_galena_gt_player",
+  "Vehicle.v_standard2_thorton_galena_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "deathrace_galena",
+   "code": "deathrace_galena",
+   "label": "Deathrace galena",
+   "base_look": "thorton_galena__basic_deathrace_galena",
+   "looks": [
+    "thorton_galena__basic_deathrace_galena",
+    "thorton_galena__basic_deathrace_galena_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "0db730d1",
+    "bumper_back.bumper": "b597d90f",
+    "hood_a.hood": "0666319f",
+    "trunk_a.trunk": "27c711c0",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "door.door": "1ae9e105"
+   },
+   "kits": [
+    "nomad_2a77"
+   ]
+  },
+  {
+   "id": "gt_01",
+   "code": "gt_01",
+   "label": "Gt",
+   "base_look": "thorton_galena__basic_gt_01",
+   "looks": [
+    "thorton_galena__basic_gt_01",
+    "thorton_galena__basic_poor_08_gt"
+   ],
+   "options": {
+    "bumper_front.bumper": "9c10f967",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "2283a8aa",
+    "bumper_back.bumper.bumper_b": "fdced9bf",
+    "hood_a.hood": "0666319f",
+    "trunk_a.trunk": "27c711c0",
+    "trunk_a.trunk.trunk_spoiler": "cea97f80",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "b3e2a5a8",
+    "wheel.wheel": "3c3ac7a5",
+    "door.door": "1ae9e105"
+   },
+   "kits": []
+  },
+  {
+   "id": "gt_02",
+   "code": "gt_02",
+   "label": "Gt 02",
+   "base_look": "thorton_galena__basic_gt_02",
+   "looks": [
+    "thorton_galena__basic_gt_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "9c10f967",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "2283a8aa",
+    "bumper_back.bumper.bumper_b": "fdced9bf",
+    "hood_a.hood": "0666319f",
+    "trunk_a.trunk": "27c711c0",
+    "trunk_a.trunk.trunk_spoiler": "cea97f80",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "b3e2a5a8",
+    "wheel.wheel": "3ea293bd",
+    "door.door": "1ae9e105"
+   },
+   "kits": []
+  },
+  {
+   "id": "maelstrom_01",
+   "code": "maelstrom_01",
+   "label": "Maelstrom",
+   "base_look": "thorton_galena__basic_maelstrom_01",
+   "looks": [
+    "thorton_galena__basic_maelstrom_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "9c10f967",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "2283a8aa",
+    "bumper_back.bumper.bumper_b": "fdced9bf",
+    "hood_a.hood": "02e3d2c2",
+    "trunk_a.trunk": "27c711c0",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "a22bb0c2",
+    "wheel.wheel": "9183ca49",
+    "door.door": "1ae9e105"
+   },
+   "kits": [
+    "maelstrom_0530",
+    "maelstrom_a0cc"
+   ]
+  },
+  {
+   "id": "poor_01",
+   "code": "poor_01",
+   "label": "Poor",
+   "base_look": "thorton_galena__basic_poor_01",
+   "looks": [
+    "thorton_galena__basic_poor_01",
+    "thorton_galena__basic_poor_02",
+    "thorton_galena__basic_poor_03",
+    "thorton_galena__basic_poor_04",
+    "thorton_galena__basic_poor_05",
+    "thorton_galena__basic_poor_06",
+    "thorton_galena__basic_poor_07"
+   ],
+   "options": {
+    "bumper_front.bumper": "9c10f967",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "2283a8aa",
+    "bumper_back.bumper.bumper_b": "fdced9bf",
+    "hood_a.hood": "02e3d2c2",
+    "trunk_a.trunk": "27c711c0",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "b2efc610",
+    "wheel.wheel": "259540ad",
+    "door.door": "1ae9e105"
+   },
+   "kits": []
+  },
+  {
+   "id": "poor_09",
+   "code": "poor_09",
+   "label": "Poor 09",
+   "base_look": "thorton_galena__basic_poor_09",
+   "looks": [
+    "thorton_galena__basic_poor_09",
+    "thorton_galena__basic_poor_10",
+    "thorton_galena__basic_poor_11",
+    "thorton_galena__basic_poor_12",
+    "thorton_galena__basic_poor_13",
+    "thorton_galena__basic_poor_14"
+   ],
+   "options": {
+    "bumper_front.bumper": "4bcd4309",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "e31b86bf",
+    "hood_a.hood": "02e3d2c2",
+    "trunk_a.trunk": "27c711c0",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "bee65cc8",
+    "wheel.wheel": "b04164e5",
+    "door.door": "1ae9e105"
+   },
+   "kits": []
+  },
+  {
+   "id": "q000_galena_bobas_garage",
+   "code": "q000_galena_bobas_garage",
+   "label": "Q000 galena bobas garage",
+   "base_look": "thorton_galena__basic_q000_galena_bobas_garage",
+   "looks": [
+    "thorton_galena__basic_q000_galena_bobas_garage",
+    "thorton_galena__basic_q000_galena_bobas"
+   ],
+   "options": {
+    "bumper_front.bumper": "0db730d1",
+    "bumper_back.bumper": "b597d90f",
+    "hood_a.hood": "397458f8",
+    "trunk_a.trunk": "27c711c0",
+    "base.body": "4d643935",
+    "base.interior": "83d69e21",
+    "base.window": "c9ce5324",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "door.door": "1ae9e105"
+   },
+   "kits": [
+    "nomad_2a77",
+    "nomad_c4fe",
+    "nomad_fffe"
+   ]
+  },
+  {
+   "id": "sq011_nancys_car",
+   "code": "sq011_nancys_car",
+   "label": "Sq011 nancys car",
+   "base_look": "thorton_galena__basic_sq011_nancys_car",
+   "looks": [
+    "thorton_galena__basic_sq011_nancys_car"
+   ],
+   "options": {
+    "bumper_front.bumper": "9c10f967",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "2283a8aa",
+    "bumper_back.bumper.bumper_b": "fdced9bf",
+    "hood_a.hood": "02e3d2c2",
+    "trunk_a.trunk": "27c711c0",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "b3e2a5a8",
+    "wheel.wheel": "3ea293bd",
+    "door.door": "1ae9e105"
+   },
+   "kits": [
+    "maelstrom_0530",
+    "maelstrom_a0cc"
+   ]
+  },
+  {
+   "id": "steves_car",
+   "code": "steves_car",
+   "label": "Steves car",
+   "base_look": "thorton_galena__basic_steves_car",
+   "looks": [
+    "thorton_galena__basic_steves_car"
+   ],
+   "options": {
+    "bumper_front.bumper": "9c10f967",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "2283a8aa",
+    "bumper_back.bumper.bumper_b": "fdced9bf",
+    "hood_a.hood": "02e3d2c2",
+    "trunk_a.trunk": "27c711c0",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "bee65cc8",
+    "wheel.wheel": "ee916a45",
+    "door.door": "1ae9e105"
+   },
+   "kits": [
+    "maelstrom_a0cc",
+    "sticker_720b"
+   ]
+  },
+  {
+   "id": "suburban_01",
+   "code": "suburban_01",
+   "label": "Suburban",
+   "base_look": "thorton_galena__basic_suburban_01",
+   "looks": [
+    "thorton_galena__basic_suburban_01",
+    "thorton_galena__basic_suburban_02",
+    "thorton_galena__basic_suburban_03",
+    "thorton_galena__basic_suburban_04",
+    "thorton_galena__basic_suburban_05",
+    "thorton_galena__basic_suburban_06",
+    "thorton_galena__basic_suburban_07"
+   ],
+   "options": {
+    "bumper_front.bumper": "9c10f967",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "2283a8aa",
+    "bumper_back.bumper.bumper_b": "fdced9bf",
+    "hood_a.hood": "02e3d2c2",
+    "trunk_a.trunk": "27c711c0",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "bee65cc8",
+    "wheel.wheel": "ee916a45",
+    "door.door": "1ae9e105"
+   },
+   "kits": []
+  },
+  {
+   "id": "player_01",
+   "code": "player_01",
+   "label": "V's own",
+   "base_look": "thorton_galena__basic_player_01",
+   "looks": [
+    "thorton_galena__basic_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "4bcd4309",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "e31b86bf",
+    "hood_a.hood": "0666319f",
+    "trunk_a.trunk": "27c711c0",
+    "trunk_a.trunk.trunk_spoiler": "cea97f80",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "3b6fbedc",
+    "wheel.wheel": "9268eac3",
+    "door.door": "1ae9e105"
+   },
+   "kits": []
+  },
+  {
+   "id": "voodoo_01",
+   "code": "voodoo_01",
+   "label": "Voodoo",
+   "base_look": "thorton_galena__basic_voodoo_01",
+   "looks": [
+    "thorton_galena__basic_voodoo_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "9c10f967",
+    "bumper_front.bumper.bumper_f": "c31c618a",
+    "bumper_back.bumper": "2283a8aa",
+    "bumper_back.bumper.bumper_b": "fdced9bf",
+    "hood_a.hood": "02e3d2c2",
+    "trunk_a.trunk": "27c711c0",
+    "trunk_a.trunk.trunk_spoiler": "cea97f80",
+    "base.body": "4d643935",
+    "base.interior": "54dc8de3",
+    "base.window": "c9ce5324",
+    "wheel.tire": "b3e2a5a8",
+    "wheel.wheel": "3c3ac7a5",
+    "door.door": "1ae9e105"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "thorton_galena__basic_burnt_01",
+  "thorton_galena__basic_q000_galena_bobas_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper: main",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "9c10f967",
+     "code": "bumper_f_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_bumper_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_05",
+     "paints": [
+      "galena_gt_02",
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "q000",
+      "deathrace_01",
+      "steves_car_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:gt_02",
+      "style:maelstrom_01",
+      "style:poor_01",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01"
+     ]
+    },
+    {
+     "id": "4bcd4309",
+     "code": "junk_bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_junk_bumper_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "color_02",
+      "color_03"
+     ],
+     "looks": [
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:poor_09"
+     ]
+    },
+    {
+     "id": "0db730d1",
+     "code": "q000_bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "q000",
+      "deathrace_01"
+     ],
+     "looks": [
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_garage"
+     ],
+     "origins": [
+      "style:deathrace_galena",
+      "style:q000_galena_bobas_garage"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_front.bumper.bumper_f",
+   "label": "Front bumper: main",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_02"
+   ],
+   "options": [
+    {
+     "id": "c31c618a",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "industrial_02",
+     "paints": [
+      "galena_gt_02",
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "q000",
+      "deathrace_01",
+      "steves_car_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:gt_02",
+      "style:maelstrom_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_09",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper: back",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "2283a8aa",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_06",
+     "paints": [
+      "galena_gt_02",
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "q000",
+      "deathrace_01",
+      "steves_car_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:gt_02",
+      "style:maelstrom_01",
+      "style:poor_01",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01"
+     ]
+    },
+    {
+     "id": "e31b86bf",
+     "code": "junk_bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_junk_bumper_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "color_02",
+      "color_03"
+     ],
+     "looks": [
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:poor_09"
+     ]
+    },
+    {
+     "id": "b597d90f",
+     "code": "q000_bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "q000",
+      "deathrace_01"
+     ],
+     "looks": [
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_garage"
+     ],
+     "origins": [
+      "style:deathrace_galena",
+      "style:q000_galena_bobas_garage"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper.bumper_b",
+   "label": "Rear bumper: back",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_02"
+   ],
+   "options": [
+    {
+     "id": "fdced9bf",
+     "code": "bumper_b_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_bumper_b_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_06",
+     "paints": [
+      "galena_gt_02",
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "q000",
+      "deathrace_01",
+      "steves_car_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:gt_02",
+      "style:maelstrom_01",
+      "style:poor_01",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "02e3d2c2",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "industrial_02",
+     "paints": [
+      "galena_gt_02",
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "q000",
+      "deathrace_01",
+      "steves_car_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:maelstrom_01",
+      "style:poor_01",
+      "style:poor_09",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01"
+     ]
+    },
+    {
+     "id": "0666319f",
+     "code": "q000_hood_nomad_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__hood_nomad_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__hood_nomad_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "industrial_06",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "galena_gt_02",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "q000",
+      "deathrace_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_08_gt"
+     ],
+     "origins": [
+      "style:deathrace_galena",
+      "style:gt_01",
+      "style:gt_02",
+      "style:player_01"
+     ]
+    },
+    {
+     "id": "397458f8",
+     "code": "q000_hood_nomad_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__hood_nomad_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__hood_nomad_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "q000",
+     "paints": [
+      "q000",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_garage"
+     ],
+     "origins": [
+      "style:q000_galena_bobas_garage"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk: a",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_01",
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "27c711c0",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "industrial_02",
+     "paints": [
+      "galena_gt_02",
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "q000",
+      "deathrace_01",
+      "steves_car_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14",
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_garage",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:deathrace_galena",
+      "style:gt_01",
+      "style:gt_02",
+      "style:maelstrom_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_09",
+      "style:q000_galena_bobas_garage",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk.trunk_spoiler",
+   "label": "Trunk: spoiler",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_spoiler"
+   ],
+   "options": [
+    {
+     "id": "cea97f80",
+     "code": "trunk_spoiler_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_trunk_spoiler_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_trunk_spoiler_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "galena_gt_02",
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "q000",
+      "deathrace_01",
+      "steves_car_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:gt_02",
+      "style:player_01",
+      "style:voodoo_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "4d643935",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_body_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "q000",
+     "paints": [
+      "galena_gt_02",
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "q000",
+      "deathrace_01",
+      "steves_car_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_burnt_01",
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14",
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_burnt_01",
+      "thorton_galena__basic_q000_galena_bobas_garage",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:deathrace_galena",
+      "style:gt_01",
+      "style:gt_02",
+      "style:maelstrom_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_09",
+      "style:q000_galena_bobas_garage",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01",
+      "wreck:burnt_01",
+      "wreck:q000_galena_bobas_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "54dc8de3",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "industrial_01",
+     "paints": [
+      "galena_gt_02",
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "voodoo_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "q000",
+      "deathrace_01"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_burnt_01",
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:deathrace_galena",
+      "style:gt_01",
+      "style:gt_02",
+      "style:maelstrom_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_09",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "83d69e21",
+     "code": "q000_interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_burnt_01",
+      "thorton_galena__basic_q000_galena_bobas_garage"
+     ],
+     "origins": [
+      "style:q000_galena_bobas_garage",
+      "wreck:q000_galena_bobas_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f"
+   ],
+   "options": [
+    {
+     "id": "c9ce5324",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tinted_black",
+      "q000"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_burnt_01",
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14",
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_burnt_01",
+      "thorton_galena__basic_q000_galena_bobas_garage",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:deathrace_galena",
+      "style:gt_01",
+      "style:gt_02",
+      "style:maelstrom_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_09",
+      "style:q000_galena_bobas_garage",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01",
+      "wreck:burnt_01",
+      "wreck:q000_galena_bobas_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     -0.15643447637557983,
+     0.0,
+     0.0,
+     0.9876883625984192
+    ],
+    [
+     -0.4146932363510132,
+     0.0,
+     0.0,
+     0.9099612832069397
+    ],
+    [
+     0.3583679795265198,
+     0.0,
+     0.0,
+     0.9335805177688599
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a",
+    "tire_02_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "bee65cc8",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_letter_white",
+      "dusty_letter_white",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07"
+     ],
+     "origins": [
+      "look:default",
+      "style:poor_09",
+      "style:steves_car",
+      "style:suburban_01"
+     ]
+    },
+    {
+     "id": "b2efc610",
+     "code": "tire_01",
+     "vehicle": "Colby CST40",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "clean_white_letters",
+      "dusty",
+      "muddy",
+      "whitewall"
+     ],
+     "looks": [
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07"
+     ],
+     "origins": [
+      "style:poor_01"
+     ]
+    },
+    {
+     "id": "b3e2a5a8",
+     "code": "tire_wide_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "muddy_letter_white",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "dusty_letter_white",
+      "muddy_letter_white",
+      "clean_letter_white"
+     ],
+     "looks": [
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "style:gt_01",
+      "style:gt_02",
+      "style:sq011_nancys_car",
+      "style:voodoo_01"
+     ]
+    },
+    {
+     "id": "e5843c98",
+     "code": "tire_a_01",
+     "vehicle": "Galena \"Gecko\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "muddy_white_01",
+     "paints": [
+      "muddy_red",
+      "muddy_cyan",
+      "muddy_yellow",
+      "muddy_red_02",
+      "muddy_gray",
+      "muddy_red_03",
+      "muddy_green",
+      "muddy_white_01",
+      "dusty_gray"
+     ],
+     "looks": [
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_garage"
+     ],
+     "origins": [
+      "style:deathrace_galena",
+      "style:q000_galena_bobas_garage"
+     ]
+    },
+    {
+     "id": "3b6fbedc",
+     "code": "tire_01 + tire_02",
+     "vehicle": "Turbo-R 740",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "dusty_01",
+     "paints": [
+      "tygerclaws_03",
+      "tygerclaws_05",
+      "dusty_01"
+     ],
+     "looks": [
+      "thorton_galena__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    },
+    {
+     "id": "a22bb0c2",
+     "code": "tire_01 + tire_wide_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_letter_white",
+      "dusty_letter_white",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "thorton_galena__basic_maelstrom_01"
+     ],
+     "origins": [
+      "style:maelstrom_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     -0.15643447637557983,
+     0.0,
+     0.0,
+     0.9876883625984192
+    ],
+    [
+     -0.4146932363510132,
+     0.0,
+     0.0,
+     0.9099612832069397
+    ],
+    [
+     0.3583679795265198,
+     0.0,
+     0.0,
+     0.9335805177688599
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_02_<c>",
+    "wheel_02_<c>_a",
+    "wheel_<c>_02"
+   ],
+   "options": [
+    {
+     "id": "ee916a45",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "voodoo_01",
+      "poor_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07"
+     ],
+     "origins": [
+      "look:default",
+      "style:steves_car",
+      "style:suburban_01"
+     ]
+    },
+    {
+     "id": "259540ad",
+     "code": "wheel_02",
+     "vehicle": "Colby CST40",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wheel_02_gray",
+     "paints": [
+      "wheel_02_black",
+      "wheel_02_green",
+      "wheel_02_gray"
+     ],
+     "looks": [
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07"
+     ],
+     "origins": [
+      "style:poor_01"
+     ]
+    },
+    {
+     "id": "b04164e5",
+     "code": "wheel_police_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14"
+     ],
+     "origins": [
+      "style:poor_09"
+     ]
+    },
+    {
+     "id": "e7cc1925",
+     "code": "wheel_a_01",
+     "vehicle": "Galena \"Gecko\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "deathrace_01",
+     "paints": [
+      "deathrace_01",
+      "silver_01",
+      "brown_01",
+      "black_dusty",
+      "red",
+      "cyan",
+      "black",
+      "silver_dusty",
+      "red_dusty",
+      "black_dusty_light"
+     ],
+     "looks": [
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_garage"
+     ],
+     "origins": [
+      "style:deathrace_galena",
+      "style:q000_galena_bobas_garage"
+     ]
+    },
+    {
+     "id": "3c3ac7a5",
+     "code": "wheel_wide_cortes_b2_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_cortes_b2_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_cortes_b2_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_cortes_b2_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_cortes_b2_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "style:gt_01",
+      "style:voodoo_01"
+     ]
+    },
+    {
+     "id": "3ea293bd",
+     "code": "wheel_wide_type66_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_sq011_nancys_car"
+     ],
+     "origins": [
+      "style:gt_02",
+      "style:sq011_nancys_car"
+     ]
+    },
+    {
+     "id": "9268eac3",
+     "code": "wheel_01 + wheel_02",
+     "vehicle": "Turbo-R 740",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player",
+     "paints": [
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "turbo_urban05",
+      "turbo_urban02",
+      "chrome",
+      "black_blue",
+      "neomilitarism",
+      "entropism"
+     ],
+     "looks": [
+      "thorton_galena__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    },
+    {
+     "id": "9183ca49",
+     "code": "wheel_police_01 + wheel_wide_cortes_b2_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_cortes_b2_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_cortes_b2_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_galena__basic_maelstrom_01"
+     ],
+     "origins": [
+      "style:maelstrom_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "1ae9e105",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_fr_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "industrial_02",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_06",
+      "industrial_04",
+      "industrial_05",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "galena_gt_02",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "q000",
+      "deathrace_01",
+      "steves_car_01",
+      "voodoo_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "thorton_galena__basic:default",
+      "thorton_galena__basic_deathrace_galena",
+      "thorton_galena__basic_deathrace_galena_02",
+      "thorton_galena__basic_gt_01",
+      "thorton_galena__basic_gt_02",
+      "thorton_galena__basic_maelstrom_01",
+      "thorton_galena__basic_player_01",
+      "thorton_galena__basic_poor_01",
+      "thorton_galena__basic_poor_02",
+      "thorton_galena__basic_poor_03",
+      "thorton_galena__basic_poor_04",
+      "thorton_galena__basic_poor_05",
+      "thorton_galena__basic_poor_06",
+      "thorton_galena__basic_poor_07",
+      "thorton_galena__basic_poor_08_gt",
+      "thorton_galena__basic_poor_09",
+      "thorton_galena__basic_poor_10",
+      "thorton_galena__basic_poor_11",
+      "thorton_galena__basic_poor_12",
+      "thorton_galena__basic_poor_13",
+      "thorton_galena__basic_poor_14",
+      "thorton_galena__basic_q000_galena_bobas",
+      "thorton_galena__basic_q000_galena_bobas_garage",
+      "thorton_galena__basic_sq011_nancys_car",
+      "thorton_galena__basic_steves_car",
+      "thorton_galena__basic_suburban_01",
+      "thorton_galena__basic_suburban_02",
+      "thorton_galena__basic_suburban_03",
+      "thorton_galena__basic_suburban_04",
+      "thorton_galena__basic_suburban_05",
+      "thorton_galena__basic_suburban_06",
+      "thorton_galena__basic_suburban_07",
+      "thorton_galena__basic_voodoo_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:deathrace_galena",
+      "style:gt_01",
+      "style:gt_02",
+      "style:maelstrom_01",
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_09",
+      "style:q000_galena_bobas_garage",
+      "style:sq011_nancys_car",
+      "style:steves_car",
+      "style:suburban_01",
+      "style:voodoo_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "maelstrom_0530",
+   "family": "maelstrom",
+   "code": "kit_maelstrom_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_br_maelstrom_stickers_combined_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_br_maelstrom_stickers_combined_01.mesh",
+     "code": "door_br_maelstrom_stickers_combined_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_maelstrom_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fl_maelstrom_stickers_combined_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_fl_maelstrom_stickers_combined_01.mesh",
+     "code": "door_fl_maelstrom_stickers_combined_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_maelstrom_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_maelstrom_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_fr_maelstrom_stickers_01.mesh",
+     "code": "door_fr_maelstrom_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_maelstrom_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "door_fr_maelstrom_stickers_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_fr_maelstrom_stickers_02.mesh",
+     "code": "door_fr_maelstrom_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_maelstrom_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "fuelcap_maelstrom_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_fuelcap_maelstrom_sticker_01.mesh",
+     "code": "fuelcap_maelstrom_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "fuel_cap",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_maelstrom_01",
+     "parent": "vehicle_slots:fuel_cap"
+    },
+    {
+     "name": "maelstrom_stickers_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_body_maelstrom_stickers_02.mesh",
+     "code": "body_maelstrom_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_maelstrom_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "maelstrom_stickers_combined_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_bl_maelstrom_stickers_combined_01.mesh",
+     "code": "door_bl_maelstrom_stickers_combined_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_maelstrom_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    }
+   ],
+   "looks": [
+    "thorton_galena__basic_maelstrom_01",
+    "thorton_galena__basic_sq011_nancys_car"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:maelstrom_01",
+    "style:sq011_nancys_car"
+   ]
+  },
+  {
+   "id": "maelstrom_a0cc",
+   "family": "maelstrom",
+   "code": "kit_maelstrom_body_trunk",
+   "where": [
+    "body",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "maelstrom_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_body_maelstrom_stickers_01.mesh",
+     "code": "body_maelstrom_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_steves_car",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "trunk_maelstrom_stickers_combined_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_trunk_maelstrom_stickers_combined_01.mesh",
+     "code": "trunk_maelstrom_stickers_combined_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_steves_car",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "thorton_galena__basic_maelstrom_01",
+    "thorton_galena__basic_sq011_nancys_car",
+    "thorton_galena__basic_steves_car"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:maelstrom_01",
+    "style:sq011_nancys_car",
+    "style:steves_car"
+   ]
+  },
+  {
+   "id": "nomad_c4fe",
+   "family": "nomad",
+   "code": "kit_nomad_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "braindance_cartridge_a_cover_stripe_a",
+     "mesh": "base\\vehicles\\common\\parts\\placeables\\braindance_cartridge_a_cover_stripe_a.mesh",
+     "code": "braindance_cartridge_a_cover_stripe_a",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.1637,
+      0.3101,
+      0.7281
+     ],
+     "rotation": [
+      0.14442762732505798,
+      -0.6794785261154175,
+      0.1495591402053833,
+      0.7036204934120178
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02.mesh",
+     "code": "light_device_medium_02",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.0371,
+      0.1395,
+      0.8068
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02_shadow.mesh",
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_small_01.mesh",
+     "code": "light_device_small_01",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.4433,
+      -1.015,
+      0.8073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_01_shadow.mesh",
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_04",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_03.mesh",
+     "code": "electric_device_medium_03",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.1939,
+      -0.9751,
+      0.9041
+     ],
+     "rotation": [
+      -0.7071068286895752,
+      0.0,
+      0.0,
+      0.7071068286895752
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_03_shadow.mesh",
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_05",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03.mesh",
+     "code": "sensor_medium_03",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.7345,
+      1.3249,
+      0.2293
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03_shadow.mesh",
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_galena__basic_q000_galena_bobas",
+    "thorton_galena__basic_q000_galena_bobas_burnt_01",
+    "thorton_galena__basic_q000_galena_bobas_garage"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:q000_galena_bobas_garage",
+    "wreck:q000_galena_bobas_burnt_01"
+   ]
+  },
+  {
+   "id": "nomad_2a77",
+   "family": "nomad",
+   "code": "kit_nomad_bumper",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "detachable_body_5818",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_f_01",
+     "slot": null,
+     "position": [
+      1.321407035207947,
+      0.0805617707752935,
+      -0.14686925611821336
+     ],
+     "rotation": [
+      -0.2324922580635672,
+      0.008821393655872792,
+      -0.03287603347147804,
+      0.9720024707449123
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:bumper_front"
+    },
+    {
+     "name": "detachable_body_6404",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_f_01",
+     "slot": null,
+     "position": [
+      0.19341872881125527,
+      0.07868222246169466,
+      -0.19740150256150785
+     ],
+     "rotation": [
+      -0.23222334693228772,
+      -0.011617752959483734,
+      0.051930435603164384,
+      0.9712057529837215
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:bumper_front"
+    }
+   ],
+   "looks": [
+    "thorton_galena__basic_deathrace_galena",
+    "thorton_galena__basic_deathrace_galena_02",
+    "thorton_galena__basic_q000_galena_bobas",
+    "thorton_galena__basic_q000_galena_bobas_garage"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "style:deathrace_galena",
+    "style:q000_galena_bobas_garage"
+   ]
+  },
+  {
+   "id": "nomad_fffe",
+   "family": "nomad",
+   "code": "kit_nomad_doors_trunk",
+   "where": [
+    "doors",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "light_device_medium_04",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_04.mesh",
+     "code": "light_device_medium_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_01",
+     "slot": null,
+     "position": [
+      -0.0012975707453351994,
+      -0.15907110762252843,
+      -0.14594053252147673
+     ],
+     "rotation": [
+      0.9999524947200102,
+      -3.791336072315938e-05,
+      -0.004363089971379872,
+      0.008726003195055175
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "q000_door_bl_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__door_bl_stickers_01.mesh",
+     "code": "q000_door_bl_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0008729997207410634,
+      -0.008726997300982475,
+      -7.999997251317836e-06,
+      0.9999616146087646
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "q000_door_br_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__door_br_stickers_01.mesh",
+     "code": "q000_door_br_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0034719989635050297,
+      0.004377998877316713,
+      0.004377998877316713,
+      0.99997478723526
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "q000_door_fl_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena_q000__door_fl_stickers_01.mesh",
+     "code": "q000_door_fl_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      -0.007500540173027305,
+      -3.440700916397251e-05,
+      2.670712598926132e-05
+     ],
+     "rotation": [
+      -0.002609998919069767,
+      0.0017569991759955883,
+      -0.004367998335510492,
+      0.9999855160713196
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_q000_galena_bobas",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "thorton_galena__basic_q000_galena_bobas",
+    "thorton_galena__basic_q000_galena_bobas_garage"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:q000_galena_bobas_garage"
+   ]
+  },
+  {
+   "id": "sticker_720b",
+   "family": "sticker",
+   "code": "kit_sticker_doors_interior_trunk",
+   "where": [
+    "doors",
+    "interior",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_steves_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_fr_steves_stickers_01.mesh",
+     "code": "door_fr_steves_stickers_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_steves_car",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "int01_steves_stickers_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__int01_steves_stickers_02.mesh",
+     "code": "steves_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_steves_car",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "steves_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_bl_steves_stickers_01.mesh",
+     "code": "door_bl_steves_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_steves_car",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "steves_stickers_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_door_bl_steves_stickers_02.mesh",
+     "code": "door_bl_steves_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_steves_car",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "trunk_steves_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_trunk_steves_stickers_01.mesh",
+     "code": "trunk_steves_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena__basic_steves_car",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "thorton_galena__basic_steves_car"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:steves_car"
+   ]
+  }
+ ],
+ "looks": {
+  "thorton_galena__basic_steves_car": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "steves_car",
+   "style": "steves_car",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_maelstrom_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "maelstrom_01",
+   "style": "maelstrom_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_q000_galena_bobas_garage": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "q000_galena_bobas_garage",
+   "style": "q000_galena_bobas_garage",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.body.body_parts": {
+     "all": "body_parts_01"
+    },
+    "base.body.detachable_body_cable": {
+     "all": "detachable_body_cable_01"
+    },
+    "base.body.detachable_body_cable_2": {
+     "all": "detachable_body_cable_02"
+    },
+    "base.body.detachable_body_cable_2_2": {
+     "all": "detachable_body_cable_03"
+    },
+    "base.body.detachable_body_cable_2_2_2": {
+     "all": "detachable_body_cable_04"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_suburban_04": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "suburban_04",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_suburban_07": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "suburban_07",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_suburban_02": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "suburban_02",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_q000_galena_bobas": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "q000_galena_bobas",
+   "style": "q000_galena_bobas_garage",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.body.body_parts": {
+     "all": "body_parts_01"
+    },
+    "base.body.detachable_body_cable": {
+     "all": "detachable_body_cable_01"
+    },
+    "base.body.detachable_body_cable_2": {
+     "all": "detachable_body_cable_02"
+    },
+    "base.body.detachable_body_cable_2_2": {
+     "all": "detachable_body_cable_03"
+    },
+    "base.body.detachable_body_cable_2_2_2": {
+     "all": "detachable_body_cable_04"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_07": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_07",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_13": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_13",
+   "style": "poor_09",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_09": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_09",
+   "style": "poor_09",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_suburban_05": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "suburban_05",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_02": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_02",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_14": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_14",
+   "style": "poor_09",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_01",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_suburban_03": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "suburban_03",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_gt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "gt_01",
+   "style": "gt_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_spoiler": {
+     "all": "trunk_spoiler"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_04": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_04",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_11": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_11",
+   "style": "poor_09",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_gt_02": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "gt_02",
+   "style": "gt_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_spoiler": {
+     "all": "trunk_spoiler"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_12": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_12",
+   "style": "poor_09",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_suburban_06": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "suburban_06",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_voodoo_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "voodoo_01",
+   "style": "voodoo_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_spoiler": {
+     "all": "trunk_spoiler"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_03": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_03",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_suburban_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "suburban_01",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_06": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_06",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_08_gt": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_08_gt",
+   "style": "gt_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_spoiler": {
+     "all": "trunk_spoiler"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_10": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_10",
+   "style": "poor_09",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_deathrace_galena": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "deathrace_galena",
+   "style": "deathrace_galena",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_poor_05": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "poor_05",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_player_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "player_01",
+   "style": "player_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_spoiler": {
+     "all": "trunk_spoiler"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_deathrace_galena_02": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "deathrace_galena_02",
+   "style": "deathrace_galena",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_sq011_nancys_car": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "sq011_nancys_car",
+   "style": "sq011_nancys_car",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena__basic_q000_galena_bobas_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena__basic.app",
+   "app_look": "q000_galena_bobas_burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_roof_barcode": {
+     "all": "body_roof_barcode_01"
+    },
+    "base.body.body_parts": {
+     "all": "body_parts_01"
+    },
+    "base.body.detachable_body_cable": {
+     "all": "detachable_body_cable_01"
+    },
+    "base.body.detachable_body_cable_2": {
+     "all": "detachable_body_cable_02"
+    },
+    "base.body.detachable_body_cable_2_2": {
+     "all": "detachable_body_cable_03"
+    },
+    "base.body.detachable_body_cable_2_2_2": {
+     "all": "detachable_body_cable_04"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3215,
+   0.2517,
+   0.2496,
+   -0.0678
+  ],
+  "b": [
+   0.3215,
+   0.2517,
+   0.2496,
+   -0.0678
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "c68c1469",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_01",
+   "tire_code": "tire_fl_01",
+   "from": "Galena G240",
+   "radius": 0.3215,
+   "width": 0.2517,
+   "rim_radius": 0.2496,
+   "tire_center": -0.0678,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 18,
+   "paints": [
+    "voodoo_01",
+    "poor_02"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena__basic:default",
+    "thorton_galena__basic_steves_car",
+    "thorton_galena__basic_suburban_01",
+    "thorton_galena__basic_suburban_02",
+    "thorton_galena__basic_suburban_03",
+    "thorton_galena__basic_suburban_04",
+    "thorton_galena__basic_suburban_05",
+    "thorton_galena__basic_suburban_06",
+    "thorton_galena__basic_suburban_07"
+   ]
+  },
+  {
+   "id": "da8287b7",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_cortes_b2_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_wide_cortes_b2_fl_01",
+   "tire_code": "tire_wide_fl_02",
+   "from": "Galena G240",
+   "radius": 0.3215,
+   "width": 0.3308,
+   "rim_radius": 0.2606,
+   "tire_center": -0.1125,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 7,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena__basic_gt_01",
+    "thorton_galena__basic_maelstrom_01",
+    "thorton_galena__basic_poor_08_gt",
+    "thorton_galena__basic_voodoo_01"
+   ]
+  },
+  {
+   "id": "9dd21a15",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_02",
+   "tire_code": "tire_fl_01",
+   "from": "Colby CST40",
+   "radius": 0.3569,
+   "width": 0.3064,
+   "rim_radius": 0.2625,
+   "tire_center": 0.0121,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 14,
+   "paints": [
+    "wheel_02_black",
+    "wheel_02_green",
+    "wheel_02_gray"
+   ],
+   "default_paint": "wheel_02_gray",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena__basic_poor_01",
+    "thorton_galena__basic_poor_02",
+    "thorton_galena__basic_poor_03",
+    "thorton_galena__basic_poor_04",
+    "thorton_galena__basic_poor_05",
+    "thorton_galena__basic_poor_06",
+    "thorton_galena__basic_poor_07"
+   ]
+  },
+  {
+   "id": "d92da616",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.3226,
+   "width": 0.2104,
+   "rim_radius": 0.2361,
+   "tire_center": -0.1246,
+   "axles": [
+    "f"
+   ],
+   "looks": 4,
+   "paints": [
+    "deathrace_01",
+    "silver_01",
+    "brown_01",
+    "black_dusty",
+    "red",
+    "cyan",
+    "black",
+    "silver_dusty",
+    "red_dusty",
+    "black_dusty_light"
+   ],
+   "default_paint": "deathrace_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena__basic_deathrace_galena",
+    "thorton_galena__basic_deathrace_galena_02",
+    "thorton_galena__basic_q000_galena_bobas",
+    "thorton_galena__basic_q000_galena_bobas_garage"
+   ]
+  },
+  {
+   "id": "b24d0f7e",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_bl_a_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2351,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 4,
+   "paints": [
+    "aldecados_01",
+    "wraiths_01",
+    "deathrace_01",
+    "red_01",
+    "wraiths_01_dusty",
+    "aldecados_01_dusty",
+    "aldecados_01_dusty_light",
+    "red_01_dusty",
+    "deathrace_01_dusty"
+   ],
+   "default_paint": "aldecados_01_dusty",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena__basic_deathrace_galena",
+    "thorton_galena__basic_deathrace_galena_02",
+    "thorton_galena__basic_q000_galena_bobas",
+    "thorton_galena__basic_q000_galena_bobas_garage"
+   ]
+  },
+  {
+   "id": "7a3d74fc",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_wide_type66_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_wide_type66_fl_01",
+   "tire_code": "tire_wide_fl_02",
+   "from": "Galena G240",
+   "radius": 0.3215,
+   "width": 0.3308,
+   "rim_radius": 0.2632,
+   "tire_center": -0.1125,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 4,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena__basic_gt_02",
+    "thorton_galena__basic_sq011_nancys_car"
+   ]
+  },
+  {
+   "id": "aab40296",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_police_01",
+   "tire_code": "tire_fl_01",
+   "from": "Galena G240",
+   "radius": 0.3215,
+   "width": 0.2517,
+   "rim_radius": 0.2431,
+   "tire_center": -0.0678,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 13,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena__basic_maelstrom_01",
+    "thorton_galena__basic_poor_09",
+    "thorton_galena__basic_poor_10",
+    "thorton_galena__basic_poor_11",
+    "thorton_galena__basic_poor_12",
+    "thorton_galena__basic_poor_13",
+    "thorton_galena__basic_poor_14"
+   ]
+  },
+  {
+   "id": "45882302",
+   "rim": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_02.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_bl_02",
+   "tire_code": "tire_bl_02",
+   "from": "Turbo-R 740",
+   "radius": 0.3786,
+   "width": 0.4213,
+   "rim_radius": 0.2802,
+   "tire_center": -0.1367,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [
+    "tygerclaws_03",
+    "tygerclaws_04",
+    "tygerclaws_05",
+    "tygerclaws_06",
+    "black_blue",
+    "chrome",
+    "turbo_urban02",
+    "turbo_urban05"
+   ],
+   "default_paint": "turbo_urban05",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena__basic_player_01"
+   ]
+  },
+  {
+   "id": "24b4fd3c",
+   "rim": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Turbo-R 740",
+   "radius": 0.3477,
+   "width": 0.3381,
+   "rim_radius": 0.2653,
+   "tire_center": -0.0716,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [
+    "player",
+    "tygerclaws_01",
+    "tygerclaws_04",
+    "tygerclaws_05",
+    "tygerclaws_06",
+    "turbo_urban05",
+    "turbo_urban02",
+    "chrome",
+    "black_blue",
+    "neomilitarism",
+    "entropism"
+   ],
+   "default_paint": "player",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena__basic_player_01"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "thorton_galena__basic_gt_02",
+   "Galena GA32t"
+  ],
+  [
+   "thorton_galena__basic_player_01",
+   "Galena G240"
+  ],
+  [
+   "thorton_galena__basic_q000_galena_bobas",
+   "Galena \"Rattler\""
+  ]
+ ]
+}

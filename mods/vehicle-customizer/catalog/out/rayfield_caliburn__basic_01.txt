@@ -1,0 +1,54 @@
+Caliburn "Murkmobile" (rayfield_caliburn__basic_01), from base\vehicles\sport\v_sport1_rayfield_caliburn__basic_01.ent
+records: Vehicle.v_sport1_rayfield_caliburn_02_player, Vehicle.v_sport1_rayfield_caliburn_mordred_player, Vehicle.v_sport1_rayfield_caliburn_player
+generated 2026-11-08
+
+STYLES (5; a style's other looks are its factory paints)
+  mordred                  Mordred          1 looks
+  premium_01               Premium          5 looks
+                                            paints: premium_03, player_01, ma_bls_ina_se1_40, player_01_customizable
+  premium_00               Premium 00       2 looks
+                                            paints: premium_06
+  premium_02               Premium 02       2 looks
+                                            paints: premium_04
+  premium_05               Premium 05       1 looks
+WRECKS: burnt_01
+
+SLOTS (13)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_01                                     9 paints  11 looks  [look: default] [style: Premium 00] [style: Premium] [style: Premium 02] [style: Premium 05]
+    bumper_f_02                                     1 paints   1 looks  [style: Mordred]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                     9 paints  11 looks  [look: default] [style: Premium 00] [style: Premium] [style: Premium 02] [style: Premium 05]
+    bumper_b_02                                     1 paints   1 looks  [style: Mordred]
+  Trunk [hood_a.trunk] (hood_a): 2 options
+    trunk_01                                        9 paints  11 looks  [look: default] [style: Premium 00] [style: Premium] [style: Premium 02] [style: Premium 05]
+    trunk_02                                        1 paints   1 looks  [style: Mordred]
+  Hood [trunk_a.hood] (trunk_a): 1 options
+    hood_01                                         8 paints  11 looks  [look: default] [style: Premium 00] [style: Premium] [style: Premium 02] [style: Premium 05]
+  Body: main [base.body] (Base): 2 options
+    body_01                                         9 paints  12 looks  [look: default] [style: Premium 00] [style: Premium] [style: Premium 02] [style: Premium 05] ...
+    body_02                                         9 paints   1 looks  [style: Mordred]
+  Body: lights [base.body.body_lights] (Base): 2 options
+    body_lights_01                                  0 paints  12 looks  [look: default] [style: Premium 00] [style: Premium] [style: Premium 02] [style: Premium 05] ...
+    body_lights_02                                  0 paints   1 looks  [style: Mordred]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     8 paints  13 looks  [look: default] [style: Mordred] [style: Premium 00] [style: Premium] [style: Premium 02] ...
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 5 options
+    vtech_wheel_a_01                                3 paints   5 looks  [car: Type-66 Avenger] [style: Premium]
+    wheel_01                                        0 paints   3 looks  [look: default] [style: Premium 00]
+    wheel_outlaw_02                                 0 paints   2 looks  [style: Premium 02]
+    wheel_04 + vtech_wheel_a_01                     0 paints   1 looks  [style: Mordred]
+    wheel_outlaw                                    0 paints   1 looks  [style: Premium 05]
+  Doors: a [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_a_01                                      10 paints  12 looks  [look: default] [style: Mordred] [style: Premium 00] [style: Premium] [style: Premium 02] ...
+  Doors: back [door.door.door_b] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                         7 paints  12 looks  [look: default] [style: Mordred] [style: Premium 00] [style: Premium] [style: Premium 02] ...
+  Wings [wing_a.wing] (wing_a): 2 options
+    wing_a_01                                       9 paints  11 looks  [look: default] [style: Premium 00] [style: Premium] [style: Premium 02] [style: Premium 05]
+    wing_a_02                                       0 paints   1 looks  [style: Mordred]
+  Wings (b) [wing_b.wing] (wing_b): 1 options
+    wing_b_01                                      10 paints  12 looks  [look: default] [style: Mordred] [style: Premium 00] [style: Premium] [style: Premium 02] ...
+  Wings (c) [wing_c.wing] (wing_c): 1 options
+    wing_c_01                                      10 paints  12 looks  [look: default] [style: Mordred] [style: Premium 00] [style: Premium] [style: Premium 02] ...
+
+KITS (0)

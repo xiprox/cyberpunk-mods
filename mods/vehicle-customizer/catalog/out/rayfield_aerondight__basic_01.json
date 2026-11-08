@@ -1,0 +1,2196 @@
+{
+ "id": "rayfield_aerondight__basic_01",
+ "label": "Aerondight \"Guinevere\"",
+ "entity": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight__basic_01.ent",
+ "family": "v_sport1_rayfield_aerondight",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_sport1_rayfield_aerondight_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "urban_01",
+   "code": "urban_01",
+   "label": "Urban",
+   "base_look": "rayfield_aerondight__basic_urban_01",
+   "looks": [
+    "rayfield_aerondight__basic_urban_01",
+    "rayfield_aerondight__basic_urban_03",
+    "rayfield_aerondight__basic_urban_04",
+    "rayfield_aerondight__basic_urban_06",
+    "rayfield_aerondight__basic_kerry",
+    "rayfield_aerondight__basic_q000_streetkid"
+   ],
+   "options": {
+    "bumper_front.bumper": "7982bfab",
+    "bumper_back.bumper": "158a6349",
+    "hood_a.hood": "fb8f9e51",
+    "trunk_a.trunk": "4133587d",
+    "base.body": "546936c4",
+    "base.interior": "ab3dbd5a",
+    "wheel.tire": "6fbb9de8",
+    "wheel.wheel": "28d1e1bd",
+    "door.door": "8509d7f1",
+    "door_b.door": "d9fc2da2",
+    "door_c.door": "874f1cab",
+    "hood_b.hood": "06ee4113"
+   },
+   "kits": []
+  },
+  {
+   "id": "urban_02",
+   "code": "urban_02",
+   "label": "Urban 02",
+   "base_look": "rayfield_aerondight__basic_urban_02",
+   "looks": [
+    "rayfield_aerondight__basic_urban_02",
+    "rayfield_aerondight__basic_urban_05",
+    "rayfield_aerondight__basic_urban_07",
+    "rayfield_aerondight__basic_player_01",
+    "rayfield_aerondight__basic_player_01_customizable_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "7982bfab",
+    "bumper_back.bumper": "158a6349",
+    "hood_a.hood": "fb8f9e51",
+    "trunk_a.trunk": "4133587d",
+    "base.body": "546936c4",
+    "base.interior": "ab3dbd5a",
+    "wheel.tire": "614a92e0",
+    "wheel.wheel": "3a45c74d",
+    "door.door": "8509d7f1",
+    "door_b.door": "d9fc2da2",
+    "door_c.door": "874f1cab",
+    "hood_b.hood": "06ee4113"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "rayfield_aerondight__basic_burnt"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "7982bfab",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_7",
+      "urban_6",
+      "urban_5",
+      "urban_4",
+      "urban_3",
+      "urban_2",
+      "urban_1",
+      "kerry",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "158a6349",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_7",
+      "urban_6",
+      "urban_5",
+      "urban_4",
+      "urban_3",
+      "urban_2",
+      "urban_1",
+      "kerry",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "fb8f9e51",
+     "code": "hood_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_hood_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_hood_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_7",
+      "urban_6",
+      "urban_5",
+      "urban_4",
+      "urban_3",
+      "urban_2",
+      "urban_1",
+      "kerry",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "4133587d",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_7",
+      "urban_6",
+      "urban_5",
+      "urban_4",
+      "urban_3",
+      "urban_2",
+      "urban_1",
+      "kerry",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "546936c4",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_7",
+      "urban_6",
+      "urban_5",
+      "urban_4",
+      "urban_3",
+      "urban_2",
+      "urban_1",
+      "kerry",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_burnt",
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02",
+      "wreck:burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "ab3dbd5a",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_5",
+     "paints": [
+      "kerry",
+      "urban_1",
+      "urban_2",
+      "urban_3",
+      "urban_4",
+      "urban_5",
+      "urban_6"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_burnt",
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02",
+      "wreck:burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "6fbb9de8",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_letter_white",
+      "dusty_letter_white",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_06"
+     ],
+     "origins": [
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "614a92e0",
+     "code": "tire_01",
+     "vehicle": "Caliburn \"Murkmobile\"",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "28d1e1bd",
+     "code": "wheel_aerondight",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_wheel_aerondight_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_wheel_aerondight_fl.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_wheel_aerondight_bl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_wheel_aerondight_bl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "kerry"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_06"
+     ],
+     "origins": [
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "3a45c74d",
+     "code": "wheel_01",
+     "vehicle": "Caliburn \"Murkmobile\"",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "8509d7f1",
+     "code": "door_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fr_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fr_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "kerry",
+      "urban_1",
+      "urban_2",
+      "urban_3",
+      "urban_4",
+      "urban_5",
+      "urban_6",
+      "urban_7",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_b.door",
+   "label": "Doors (b)",
+   "kind": "door",
+   "group": "door_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_b",
+    "door_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "d9fc2da2",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fl_b_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fr_b_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fl_b_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fr_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_7",
+      "urban_6",
+      "urban_5",
+      "urban_4",
+      "urban_3",
+      "urban_2",
+      "urban_1",
+      "kerry",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_c.door",
+   "label": "Doors (c)",
+   "kind": "door",
+   "group": "door_c",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_c",
+    "door_front_right_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_c"
+   ],
+   "options": [
+    {
+     "id": "874f1cab",
+     "code": "door_c_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fl_c_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_door_fr_c_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_6",
+      "urban_5",
+      "urban_4",
+      "urban_3",
+      "urban_2",
+      "urban_1",
+      "kerry"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_b.hood",
+   "label": "Hood (b)",
+   "kind": "hood",
+   "group": "hood_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_b"
+   ],
+   "options": [
+    {
+     "id": "06ee4113",
+     "code": "hood_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_hood_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_hood_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_7",
+      "urban_6",
+      "urban_5",
+      "urban_4",
+      "urban_3",
+      "urban_2",
+      "urban_1",
+      "kerry",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_aerondight__basic_kerry",
+      "rayfield_aerondight__basic_player_01",
+      "rayfield_aerondight__basic_player_01_customizable_01",
+      "rayfield_aerondight__basic_q000_streetkid",
+      "rayfield_aerondight__basic_urban_01",
+      "rayfield_aerondight__basic_urban_02",
+      "rayfield_aerondight__basic_urban_03",
+      "rayfield_aerondight__basic_urban_04",
+      "rayfield_aerondight__basic_urban_05",
+      "rayfield_aerondight__basic_urban_06",
+      "rayfield_aerondight__basic_urban_07"
+     ],
+     "origins": [
+      "style:urban_01",
+      "style:urban_02"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [],
+ "looks": {
+  "rayfield_aerondight__basic_urban_06": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "urban_06",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_urban_04": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "urban_04",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_urban_03": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "urban_03",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_urban_01": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "urban_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_urban_07": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "urban_07",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_urban_05": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "urban_05",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_urban_02": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "urban_02",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_kerry": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "kerry",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_player_01": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "player_01",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_q000_streetkid": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "q000_streetkid",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_burnt": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "burnt",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  },
+  "rayfield_aerondight__basic_player_01_customizable_01": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_aerondight__basic.app",
+   "app_look": "player_01_customizable_01",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_light": {
+     "all": "body_light_01"
+    },
+    "base.body.body_light_2": {
+     "all": "body_light_2"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d",
+     "fr": "door_fr_d"
+    },
+    "door_e.door": {
+     "fl": "door_fl_e",
+     "fr": "door_fr_e"
+    },
+    "door.window": {
+     "fl": "v_sport1_rayfield_aerondight__ext01_window_fl",
+     "fr": "v_sport1_rayfield_aerondight__ext01_window_fr"
+    },
+    "door.window.crystal_dome": {
+     "fl": "v_sport1_rayfield_aerondight__int01_crystal_dome_fl",
+     "fr": "v_sport1_rayfield_aerondight__int01_crystal_dome_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "v_sport1_rayfield_aerondight__ext01_window_f"
+    },
+    "base.window.crystal_dome_f": {
+     "all": "v_sport1_rayfield_aerondight__int01_crystal_dome_f"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4195,
+   0.3701,
+   0.3529,
+   -0.1945
+  ],
+  "b": [
+   0.4195,
+   0.4067,
+   0.3526,
+   -0.1784
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "fa3b68c2",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_wheel_aerondight_bl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_aerondight_bl",
+   "tire_code": "tire_bl_01",
+   "from": "Aerondight \"Guinevere\"",
+   "radius": 0.4195,
+   "width": 0.4067,
+   "rim_radius": 0.3526,
+   "tire_center": -0.1784,
+   "axles": [
+    "b"
+   ],
+   "looks": 6,
+   "paints": [
+    "kerry"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_aerondight__basic_kerry",
+    "rayfield_aerondight__basic_q000_streetkid",
+    "rayfield_aerondight__basic_urban_01",
+    "rayfield_aerondight__basic_urban_03",
+    "rayfield_aerondight__basic_urban_04",
+    "rayfield_aerondight__basic_urban_06"
+   ]
+  },
+  {
+   "id": "c00a6762",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_wheel_aerondight_fl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_aerondight\\entities\\meshes\\v_sport1_rayfield_aerondight__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_aerondight_fl",
+   "tire_code": "tire_fl_01",
+   "from": "Aerondight \"Guinevere\"",
+   "radius": 0.4195,
+   "width": 0.3701,
+   "rim_radius": 0.3529,
+   "tire_center": -0.1945,
+   "axles": [
+    "f"
+   ],
+   "looks": 6,
+   "paints": [
+    "kerry"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_aerondight__basic_kerry",
+    "rayfield_aerondight__basic_q000_streetkid",
+    "rayfield_aerondight__basic_urban_01",
+    "rayfield_aerondight__basic_urban_03",
+    "rayfield_aerondight__basic_urban_04",
+    "rayfield_aerondight__basic_urban_06"
+   ]
+  },
+  {
+   "id": "45acca94",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Caliburn \"Murkmobile\"",
+   "radius": 0.395,
+   "width": 0.4665,
+   "rim_radius": 0.3474,
+   "tire_center": -0.1207,
+   "axles": [
+    "b"
+   ],
+   "looks": 5,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_aerondight__basic_player_01",
+    "rayfield_aerondight__basic_player_01_customizable_01",
+    "rayfield_aerondight__basic_urban_02",
+    "rayfield_aerondight__basic_urban_05",
+    "rayfield_aerondight__basic_urban_07"
+   ]
+  },
+  {
+   "id": "d0ece6cc",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Caliburn \"Murkmobile\"",
+   "radius": 0.3786,
+   "width": 0.3472,
+   "rim_radius": 0.3562,
+   "tire_center": -0.1092,
+   "axles": [
+    "f"
+   ],
+   "looks": 5,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_aerondight__basic_player_01",
+    "rayfield_aerondight__basic_player_01_customizable_01",
+    "rayfield_aerondight__basic_urban_02",
+    "rayfield_aerondight__basic_urban_05",
+    "rayfield_aerondight__basic_urban_07"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "rayfield_aerondight__basic_player_01",
+   "Aerondight \"Guinevere\""
+  ]
+ ]
+}

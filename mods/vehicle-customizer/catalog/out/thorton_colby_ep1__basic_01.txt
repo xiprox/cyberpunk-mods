@@ -1,0 +1,54 @@
+Colby C125 (thorton_colby_ep1__basic_01), from ep1\vehicles\standard\v_standard2_thorton_colby_ep1__basic_01.ent
+records: Vehicle.v_standard2_thorton_colby_scavengers, Vehicle.v_standard2_thorton_colby_scavengers_courier_expanded, Vehicle.v_standard2_thorton_colby_scavengers_quest
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  scavenger_01             Scavenger        1 looks
+                                            kits: kit_scavengers_body_2, kit_scavengers_body
+  scavenger_02             Scavenger 02     1 looks
+                                            kits: kit_scavengers_body_doors, kit_scavengers_body
+WRECKS: burnt_01
+
+SLOTS (12)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_01                                    18 paints  21 looks  [look: default_01] [look: family_car] [look: player_01] [look: poor_1] [look: poor_1_1] ...
+    junk_bumper_f_01                                2 paints   7 looks  [look: muamar_reyes_car] [look: poor_2] [look: poor_2_1] [look: poor_2_2] [look: poor_2_3] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    18 paints  20 looks  [look: default_01] [look: family_car] [look: poor_1] [look: poor_1_1] [look: poor_1_2] ...
+    junk_bumper_b_01                                2 paints   8 looks  [look: muamar_reyes_car] [look: player_01] [look: poor_2] [look: poor_2_1] [look: poor_2_2] ...
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        19 paints  22 looks  [look: default_01] [look: family_car] [look: muamar_reyes_car] [look: player_01] [look: poor_1] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       19 paints  29 looks  [look: default_01] [look: family_car] [look: muamar_reyes_car] [look: player_01] [look: poor_1] ...
+  Body [base.body] (Base): 1 options
+    body_01                                        18 paints  30 looks  [look: default_01] [look: family_car] [look: muamar_reyes_car] [look: player_01] [look: poor_1] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     9 paints  30 looks  [look: default_01] [look: family_car] [look: muamar_reyes_car] [look: player_01] [look: poor_1] ...
+  Windshield: back left [base.window] (Base): 1 options
+    window_bl_01                                    3 paints  30 looks  [look: default_01] [look: family_car] [look: muamar_reyes_car] [look: player_01] [look: poor_1] ...
+  Windshield: back right [base.window.window_br] (Base): 1 options
+    window_br_01                                    2 paints  30 looks  [look: default_01] [look: family_car] [look: muamar_reyes_car] [look: player_01] [look: poor_1] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         5 paints  28 looks  [look: default_01] [look: family_car] [look: player_01] [look: poor_1] [look: poor_1_1] ...
+    tire_01                                         5 paints   1 looks  [look: muamar_reyes_car]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 6 options
+    wheel_01                                        3 paints  17 looks  [look: default_01] [look: family_car] [look: poor_1] [look: poor_1_1] [look: poor_1_2] ...
+    wheel_02                                        3 paints   5 looks  [look: suburban_1] [look: suburban_1_1] [look: suburban_1_2] [look: suburban_1_3] [look: suburban_1_4]
+    wheel_04                                        5 paints   3 looks  [look: urban_01] [look: urban_01_1] [look: valentinos_01]
+    wheel_06                                        0 paints   2 looks  [style: Scavenger] [style: Scavenger 02]
+    wheel_03                                        8 paints   1 looks  [look: player_01]
+    wheel_05 + wheel_01                             0 paints   1 looks  [look: muamar_reyes_car]
+  Doors: a [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                        18 paints  28 looks  [look: default_01] [look: family_car] [look: player_01] [look: poor_1] [look: poor_1_1] ...
+  Doors: mirror [door.door.mirror] (door_front_left_a, door_front_right_a): 1 options
+    door_mirror_01                                 13 paints  28 looks  [look: default_01] [look: family_car] [look: player_01] [look: poor_1] [look: poor_1_1] ...
+
+KITS (5)
+  kit_scavengers_body                            2 parts   2 looks  [style: Scavenger] [style: Scavenger 02]
+  kit_scavengers_body_2                          2 parts   1 looks  [style: Scavenger]
+  kit_scavengers_body_doors                      2 parts   1 looks  [style: Scavenger 02]
+                                                 made to sit on Doors: a
+  stickers_bumper_b_01                           1 parts   2 looks  [look: family_car] [look: valentinos_01]
+                                                 made to sit on Rear bumper
+  kit_valentinos_body_bumper_doors_hood          10 parts   1 looks  [look: valentinos_01]
+                                                 made to sit on Rear bumper, Doors: a, Hood

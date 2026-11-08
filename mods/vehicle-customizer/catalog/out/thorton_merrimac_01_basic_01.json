@@ -1,0 +1,5802 @@
+{
+ "id": "thorton_merrimac_01_basic_01",
+ "label": "Merrimac MSP3 Dreadnought",
+ "entity": "base\\vehicles\\standard\\v_standard25_thorton_merrimac_01_basic_01.ent",
+ "family": "v_standard25_thorton_merrimac_01_basic",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.ncpd_thorton_merrimac_police_heat_4",
+  "Vehicle.v_standard25_thorton_merrimac_police"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\thorton_merrimac_basic.app",
+  "ep1\\vehicles\\appearances\\standard\\thorton_merrimac_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "thorton_merrimac_basic_police_01",
+   "code": "thorton_merrimac_basic_police_01",
+   "label": "Thorton merrimac basic police",
+   "base_look": "thorton_merrimac_basic_police_01",
+   "looks": [
+    "thorton_merrimac_basic_police_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "efb3e70c",
+    "bumper_front.bumper.bumper_f_maxtac": "a31f497e",
+    "bumper_back.bumper": "ed48914e",
+    "hood_a.hood": "e7d8c1de",
+    "trunk_a.trunk": "11bbe4e4",
+    "base.body": "1047d781",
+    "base.body.body_maxtac": "5e1aa62f",
+    "base.exhaust": "2dad94fd",
+    "base.interior": "3bf30a2f",
+    "base.seat": "811d41d7",
+    "base.seat.seats_b": "4bcaafc7",
+    "base.seat.seats_fl": "b6f0438a",
+    "base.window": "ae004529",
+    "base.window.window_bl": "98df05e9",
+    "base.window.window_br": "4d801c08",
+    "base.window.window_br_2": "218063bc",
+    "base.window.window_f": "86df6b05",
+    "wheel.tire": "946d4608",
+    "door.door": "f083f365",
+    "wheel_b.tire": "6bb4caed",
+    "wheel_b.wheel": "ce32e856",
+    "window.window": "d891963d"
+   },
+   "kits": [
+    "police_90aa",
+    "police_a9f0",
+    "police_b301"
+   ]
+  }
+ ],
+ "wrecks": [
+  "thorton_merrimac_basic_police_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper: main",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01",
+    "bumper_f_02",
+    "bumper_f_player_fixed"
+   ],
+   "options": [
+    {
+     "id": "efb3e70c",
+     "code": "bumper_f_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "max_tac_01",
+      "reed_01",
+      "max_tac_02",
+      "max_tac_03",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    },
+    {
+     "id": "1a87bed3",
+     "code": "bumper_f_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_12"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_12"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_12"
+     ]
+    },
+    {
+     "id": "3088835a",
+     "code": "bumper_f_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_player_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_player_shadow_01.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_front.bumper.bumper_f_maxtac",
+   "label": "Front bumper: maxtac",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_maxtac_01",
+    "bumper_f_police_01"
+   ],
+   "options": [
+    {
+     "id": "1ad0e066",
+     "code": "bumper_f_maxtac_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_maxtac_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_maxtac_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422"
+     ]
+    },
+    {
+     "id": "a31f497e",
+     "code": "bumper_f_police_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_police_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_f_police_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01",
+    "bumper_b_fixed_01"
+   ],
+   "options": [
+    {
+     "id": "ed48914e",
+     "code": "bumper_b_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "max_tac_01",
+      "reed_01",
+      "max_tac_02",
+      "max_tac_03",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    },
+    {
+     "id": "4ca80be8",
+     "code": "bumper_b_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_b_player_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_b_player_shadowmesh_01.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a",
+    "hood_b",
+    "hood_player"
+   ],
+   "options": [
+    {
+     "id": "e7d8c1de",
+     "code": "hood_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "max_tac_01",
+      "reed_01",
+      "max_tac_02",
+      "max_tac_03",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    },
+    {
+     "id": "8980c371",
+     "code": "hood_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_10",
+     "paints": [
+      "max_tac_01",
+      "reed_01",
+      "max_tac_02",
+      "max_tac_03",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11"
+     ],
+     "origins": [
+      "look:poor_10",
+      "look:poor_11"
+     ]
+    },
+    {
+     "id": "32549018",
+     "code": "hood_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_player_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "11bbe4e4",
+     "code": "trunk_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "max_tac_01",
+      "reed_01",
+      "max_tac_02",
+      "max_tac_03",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body: main",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "1047d781",
+     "code": "body_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "max_tac_01",
+      "max_tac_02",
+      "max_tac_03",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "reed_01",
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    },
+    {
+     "id": "f0be5389",
+     "code": "body_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_player_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_player_shadow_01.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:burnt_player_01",
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.body_maxtac",
+   "label": "Body: maxtac",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_maxtac_01",
+    "police_body_lights_02"
+   ],
+   "options": [
+    {
+     "id": "c75f286b",
+     "code": "body_maxtac_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_maxtac_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_maxtac_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054"
+     ],
+     "origins": [
+      "look:burnt_maxtac_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054"
+     ]
+    },
+    {
+     "id": "5e1aa62f",
+     "code": "body_police_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_police_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_police_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.exhaust",
+   "label": "Exhaust",
+   "kind": "exhaust",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "exhaust_01"
+   ],
+   "options": [
+    {
+     "id": "2dad94fd",
+     "code": "exhaust_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_exhaust_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    },
+    {
+     "id": "bcef65e5",
+     "code": "exhaust_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_exhaust_player_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:burnt_player_01",
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "3bf30a2f",
+     "code": "interior_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "max_tac_01",
+     "paints": [
+      "player_01",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "max_tac_01",
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    },
+    {
+     "id": "dbcfc453",
+     "code": "interior_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_interior_player_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:burnt_player_01",
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat",
+   "label": "Seats: front right",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seats_fr_01",
+    "seats_fr_02"
+   ],
+   "options": [
+    {
+     "id": "811d41d7",
+     "code": "seats_fr_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_seats_fr_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_seats_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "max_tac_01",
+     "paints": [
+      "player_01",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "max_tac_01",
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:player_01",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:burnt_player_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    },
+    {
+     "id": "02276450",
+     "code": "seats_fr_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_seats_fr_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_seats_fr_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "interior_07",
+      "interior_01",
+      "interior_02",
+      "interior_03",
+      "interior_04",
+      "interior_08",
+      "interior_09",
+      "interior_poor_02",
+      "interior_poor_03",
+      "interior_poor_04",
+      "interior_poor_05",
+      "interior_poor_06",
+      "interior_poor_07"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:reed_01"
+     ],
+     "origins": [
+      "look:reed_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat.seats_b",
+   "label": "Seats: back",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seats_b_01",
+    "seats_b_02"
+   ],
+   "options": [
+    {
+     "id": "f14ac500",
+     "code": "seats_b_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_seats_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "player_01",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "max_tac_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:player_01",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_player_01",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01"
+     ]
+    },
+    {
+     "id": "4bcaafc7",
+     "code": "seats_b_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_seats_b_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "interior_poor_07",
+     "paints": [
+      "interior_07",
+      "interior_02",
+      "interior_01",
+      "interior_03",
+      "interior_04",
+      "interior_08",
+      "interior_09",
+      "interior_poor_02",
+      "interior_poor_03",
+      "interior_poor_04",
+      "interior_poor_05",
+      "interior_poor_06",
+      "interior_poor_07",
+      "interior_police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_maxtac_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:reed_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat.seats_fl",
+   "label": "Seats: front left",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seats_fl_01"
+   ],
+   "options": [
+    {
+     "id": "b6f0438a",
+     "code": "seats_fl_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_seats_fl_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_seats_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "max_tac_01",
+     "paints": [
+      "player_01",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "max_tac_01",
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:player_01",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:burnt_player_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield: back left",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_bl_02"
+   ],
+   "options": [
+    {
+     "id": "ae004529",
+     "code": "window_bl_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_bl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark",
+      "poor_01",
+      "clean",
+      "dirt"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:player_01",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:burnt_player_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_bl",
+   "label": "Windshield: back left",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_b_player_01",
+    "window_bl_03"
+   ],
+   "options": [
+    {
+     "id": "98df05e9",
+     "code": "window_bl_03",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_bl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark",
+      "poor_01",
+      "clean",
+      "dirty"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    },
+    {
+     "id": "510aaffb",
+     "code": "window_b_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_b_player_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:burnt_player_01",
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_br",
+   "label": "Windshield: back right",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_br_02"
+   ],
+   "options": [
+    {
+     "id": "4d801c08",
+     "code": "window_br_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_br_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark",
+      "poor_01",
+      "clean",
+      "dirty"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:player_01",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:burnt_player_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_br_2",
+   "label": "Windshield: back right",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_br_03"
+   ],
+   "options": [
+    {
+     "id": "218063bc",
+     "code": "window_br_03",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_br_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark",
+      "poor_01",
+      "clean",
+      "dirty"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_f",
+   "label": "Windshield: front",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f"
+   ],
+   "options": [
+    {
+     "id": "86df6b05",
+     "code": "window_f_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark",
+      "poor_01",
+      "dark_b",
+      "dark_c",
+      "dirty",
+      "clean"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:burnt_01",
+      "thorton_merrimac_basic:burnt_maxtac_01",
+      "thorton_merrimac_basic:burnt_player_01",
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:player_01",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01",
+      "thorton_merrimac_basic_police_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_maxtac_01",
+      "look:burnt_player_01",
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01",
+      "wreck:thorton_merrimac_basic_police_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "946d4608",
+     "code": "tire_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "letter_white",
+      "dirty",
+      "dirty_letter_brown",
+      "dirty_letter_white",
+      "dirty_02"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_03",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_10",
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    },
+    {
+     "id": "28154650",
+     "code": "tire_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "clean_letter_white",
+     "paints": [
+      "clean",
+      "clean_letter_white",
+      "dusty",
+      "dusty_letter_white",
+      "muddy",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_02",
+      "look:poor_09",
+      "look:suburban_02",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_09",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01"
+     ]
+    },
+    {
+     "id": "27202ba8",
+     "code": "tire_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_player_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_player_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_player_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_player_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "25fe421d",
+     "code": "wheel_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_10"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_03",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_03",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_10"
+     ]
+    },
+    {
+     "id": "6e1b72e5",
+     "code": "wheel_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black_01",
+     "paints": [
+      "black_01",
+      "black_02",
+      "black_03",
+      "silver_01",
+      "black_poor_01",
+      "silver_poor_01",
+      "black_04"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_02",
+      "look:poor_09",
+      "look:suburban_02",
+      "look:suburban_09",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_10",
+      "look:web_01"
+     ]
+    },
+    {
+     "id": "64de9ccd",
+     "code": "wheel_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh",
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wheel_01",
+     "paints": [
+      "wheel_02",
+      "wheel_03",
+      "wheel_01",
+      "wheel_04",
+      "wheel_05",
+      "wheel_06"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11"
+     ],
+     "origins": [
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_10",
+      "look:poor_11"
+     ]
+    },
+    {
+     "id": "76099805",
+     "code": "wheel_bandit_04",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_bandit_fl_04.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_bandit_fl_04.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_bandit_fl_04.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_bandit_fl_04.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08"
+     ],
+     "origins": [
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:urban_07",
+      "look:urban_08"
+     ]
+    },
+    {
+     "id": "05ba42c5",
+     "code": "wheel_03",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_03.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_03.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_03.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054"
+     ]
+    },
+    {
+     "id": "feef781d",
+     "code": "wheel_outlaw_05",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_outlaw_fl_05.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_outlaw_fl_05.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_outlaw_fl_05.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_outlaw_fl_05.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_09"
+     ],
+     "origins": [
+      "look:urban_03",
+      "look:urban_09"
+     ]
+    },
+    {
+     "id": "51d3f8e5",
+     "code": "wheel_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_player_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_player_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_player_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_player_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "f083f365",
+     "code": "door_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fr_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "max_tac_01",
+      "reed_01",
+      "max_tac_02",
+      "max_tac_03",
+      "player_01",
+      "poor_12",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:player_01",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.tire",
+   "label": "Tires (b)",
+   "kind": "tire",
+   "group": "wheel_b",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left_b",
+    "wheel_back_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "6bb4caed",
+     "code": "tire_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh"
+     },
+     "shadows": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "letter_white",
+      "dirty",
+      "dirty_letter_brown",
+      "dirty_letter_white",
+      "dirty_02"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:poor_01",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_03",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_10",
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    },
+    {
+     "id": "2f72f29b",
+     "code": "tire_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "clean_letter_white",
+      "dusty",
+      "dusty_letter_white",
+      "muddy",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_02",
+      "look:poor_09",
+      "look:suburban_02",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_09",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01"
+     ]
+    },
+    {
+     "id": "620ad445",
+     "code": "tire_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_player_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_player_01.mesh"
+     },
+     "shadows": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.wheel",
+   "label": "Rims (b)",
+   "kind": "wheel",
+   "group": "wheel_b",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left_b",
+    "wheel_back_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ],
+    [
+     0.7986356019973755,
+     0.0,
+     0.0,
+     0.6018149852752686
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_b",
+    "wheel_02_<c>_b",
+    "wheel_03_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "1aef214e",
+     "code": "wheel_02",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_10"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_03",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_03",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_10"
+     ]
+    },
+    {
+     "id": "0396b74a",
+     "code": "wheel_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black_01",
+     "paints": [
+      "black_01",
+      "black_02",
+      "black_03",
+      "silver_01",
+      "black_poor_01",
+      "silver_poor_01",
+      "black_04"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_02",
+      "look:poor_09",
+      "look:suburban_02",
+      "look:suburban_09",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_10",
+      "look:web_01"
+     ]
+    },
+    {
+     "id": "ab1852b4",
+     "code": "wheel_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wheel_01",
+     "paints": [
+      "wheel_02",
+      "wheel_03",
+      "wheel_01",
+      "wheel_04",
+      "wheel_05",
+      "wheel_06"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11"
+     ],
+     "origins": [
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_10",
+      "look:poor_11"
+     ]
+    },
+    {
+     "id": "ce32e856",
+     "code": "wheel_03",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_03.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "police_01"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    },
+    {
+     "id": "898e5b7a",
+     "code": "wheel_bandit_04",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_bandit_fl_04.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_bandit_fl_04.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08"
+     ],
+     "origins": [
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:urban_07",
+      "look:urban_08"
+     ]
+    },
+    {
+     "id": "a4fb3d88",
+     "code": "wheel_outlaw_05",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_outlaw_fl_05.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_outlaw_fl_05.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_09"
+     ],
+     "origins": [
+      "look:urban_03",
+      "look:urban_09"
+     ]
+    },
+    {
+     "id": "e0ac228e",
+     "code": "wheel_player_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_player_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_player_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_merrimac_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a",
+    "window_back_left_a",
+    "window_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "d891963d",
+     "code": "window_01",
+     "vehicle": "v_standard25_thorton_merrimac",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_window_br_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark",
+      "poor_01",
+      "clean",
+      "dirty"
+     ],
+     "looks": [
+      "thorton_merrimac_basic:maxtac_e307",
+      "thorton_merrimac_basic:maxtac_e422",
+      "thorton_merrimac_basic:maxtac_p054",
+      "thorton_merrimac_basic:player_01",
+      "thorton_merrimac_basic:poor_01",
+      "thorton_merrimac_basic:poor_02",
+      "thorton_merrimac_basic:poor_03",
+      "thorton_merrimac_basic:poor_04",
+      "thorton_merrimac_basic:poor_05",
+      "thorton_merrimac_basic:poor_06",
+      "thorton_merrimac_basic:poor_07",
+      "thorton_merrimac_basic:poor_08",
+      "thorton_merrimac_basic:poor_09",
+      "thorton_merrimac_basic:poor_10",
+      "thorton_merrimac_basic:poor_11",
+      "thorton_merrimac_basic:poor_12",
+      "thorton_merrimac_basic:q301_no_wheels_01",
+      "thorton_merrimac_basic:reed_01",
+      "thorton_merrimac_basic:suburban_01",
+      "thorton_merrimac_basic:suburban_02",
+      "thorton_merrimac_basic:suburban_03",
+      "thorton_merrimac_basic:suburban_04",
+      "thorton_merrimac_basic:suburban_05",
+      "thorton_merrimac_basic:suburban_06",
+      "thorton_merrimac_basic:suburban_07",
+      "thorton_merrimac_basic:suburban_08",
+      "thorton_merrimac_basic:suburban_09",
+      "thorton_merrimac_basic:suburban_10",
+      "thorton_merrimac_basic:urban_01",
+      "thorton_merrimac_basic:urban_02",
+      "thorton_merrimac_basic:urban_03",
+      "thorton_merrimac_basic:urban_04",
+      "thorton_merrimac_basic:urban_05",
+      "thorton_merrimac_basic:urban_06",
+      "thorton_merrimac_basic:urban_07",
+      "thorton_merrimac_basic:urban_08",
+      "thorton_merrimac_basic:urban_09",
+      "thorton_merrimac_basic:urban_10",
+      "thorton_merrimac_basic:web_01",
+      "thorton_merrimac_basic_police_01"
+     ],
+     "origins": [
+      "look:maxtac_e307",
+      "look:maxtac_e422",
+      "look:maxtac_p054",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:poor_11",
+      "look:poor_12",
+      "look:q301_no_wheels_01",
+      "look:reed_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:urban_09",
+      "look:urban_10",
+      "look:web_01",
+      "style:thorton_merrimac_basic_police_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "antenna_6a8f",
+   "family": "antenna",
+   "code": "antenna_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "detachable_body_06",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_antenna_01.mesh",
+     "code": "antenna_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:poor_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_merrimac_basic:poor_01",
+    "thorton_merrimac_basic:poor_04",
+    "thorton_merrimac_basic:poor_05",
+    "thorton_merrimac_basic:poor_12"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:poor_01",
+    "look:poor_04",
+    "look:poor_05",
+    "look:poor_12"
+   ]
+  },
+  {
+   "id": "max_tac_1b98",
+   "family": "max_tac",
+   "code": "kit_max_tac_doors_hood_trunk",
+   "where": [
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "max_tac_fl_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fl_stickers_01.mesh",
+     "code": "door_fl_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:maxtac_e307",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "max_tac_fr_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fr_stickers_01.mesh",
+     "code": "door_fr_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:maxtac_e307",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "max_tac_hood_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_stickers_01.mesh",
+     "code": "hood_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:maxtac_e307",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "max_tac_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_bl_stickers_01.mesh",
+     "code": "door_bl_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:maxtac_e307",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "max_tac_stickers_br_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_br_stickers_01.mesh",
+     "code": "door_br_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:maxtac_e307",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "number_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_number_stickers_01.mesh",
+     "code": "hood_number_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:maxtac_e307",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "trunk_number_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_trunk_number_sticker_01.mesh",
+     "code": "trunk_number_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      -0.29
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:maxtac_e307",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "thorton_merrimac_basic:maxtac_e307",
+    "thorton_merrimac_basic:maxtac_e422",
+    "thorton_merrimac_basic:maxtac_p054",
+    "thorton_merrimac_basic:poor_04",
+    "thorton_merrimac_basic:poor_05"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:maxtac_e307",
+    "look:maxtac_e422",
+    "look:maxtac_p054",
+    "look:poor_04",
+    "look:poor_05"
+   ]
+  },
+  {
+   "id": "player_efe5",
+   "family": "player",
+   "code": "kit_player_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_elements_player_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_elements_player_01.mesh",
+     "code": "body_elements_player_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_body_elements_player_shadow_01.mesh",
+     "look": "thorton_merrimac_basic:player_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "merrimac_player_fx_cutout",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\merrimac_player_fx_cutout.mesh",
+     "code": "merrimac_player_fx_cutout",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:player_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "trunk_player_lights_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_trunk_player_lights_01.mesh",
+     "code": "trunk_player_lights_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:player_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_merrimac_basic:burnt_player_01",
+    "thorton_merrimac_basic:player_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_player_01",
+    "look:player_01"
+   ]
+  },
+  {
+   "id": "player_ef57",
+   "family": "player",
+   "code": "kit_player_doors_hood",
+   "where": [
+    "doors",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "door_bl_player_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_bl_player_01.mesh",
+     "code": "door_bl_player_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:player_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_player_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_br_player_01.mesh",
+     "code": "door_br_player_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:player_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "hood_player_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_player_sticker_01.mesh",
+     "code": "hood_player_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_player",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic:player_01",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "thorton_merrimac_basic:player_01"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:player_01"
+   ]
+  },
+  {
+   "id": "police_90aa",
+   "family": "police",
+   "code": "bumper_b_police_stickers_01",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "bumper_b_police_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_bumper_b_police_stickers_01.mesh",
+     "code": "bumper_b_police_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:bumper_back"
+    }
+   ],
+   "looks": [
+    "thorton_merrimac_basic:maxtac_e307",
+    "thorton_merrimac_basic:maxtac_e422",
+    "thorton_merrimac_basic:maxtac_p054",
+    "thorton_merrimac_basic:poor_01",
+    "thorton_merrimac_basic:poor_02",
+    "thorton_merrimac_basic:poor_03",
+    "thorton_merrimac_basic:poor_04",
+    "thorton_merrimac_basic:poor_05",
+    "thorton_merrimac_basic:poor_06",
+    "thorton_merrimac_basic:poor_07",
+    "thorton_merrimac_basic:poor_08",
+    "thorton_merrimac_basic:poor_09",
+    "thorton_merrimac_basic:poor_10",
+    "thorton_merrimac_basic:poor_11",
+    "thorton_merrimac_basic:poor_12",
+    "thorton_merrimac_basic:q301_no_wheels_01",
+    "thorton_merrimac_basic:reed_01",
+    "thorton_merrimac_basic:suburban_01",
+    "thorton_merrimac_basic:suburban_02",
+    "thorton_merrimac_basic:suburban_03",
+    "thorton_merrimac_basic:suburban_04",
+    "thorton_merrimac_basic:suburban_05",
+    "thorton_merrimac_basic:suburban_06",
+    "thorton_merrimac_basic:suburban_07",
+    "thorton_merrimac_basic:suburban_08",
+    "thorton_merrimac_basic:suburban_09",
+    "thorton_merrimac_basic:suburban_10",
+    "thorton_merrimac_basic:urban_01",
+    "thorton_merrimac_basic:urban_02",
+    "thorton_merrimac_basic:urban_03",
+    "thorton_merrimac_basic:urban_04",
+    "thorton_merrimac_basic:urban_05",
+    "thorton_merrimac_basic:urban_06",
+    "thorton_merrimac_basic:urban_07",
+    "thorton_merrimac_basic:urban_08",
+    "thorton_merrimac_basic:urban_09",
+    "thorton_merrimac_basic:urban_10",
+    "thorton_merrimac_basic:web_01",
+    "thorton_merrimac_basic_police_01"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "look:maxtac_e307",
+    "look:maxtac_e422",
+    "look:maxtac_p054",
+    "look:poor_01",
+    "look:poor_02",
+    "look:poor_03",
+    "look:poor_04",
+    "look:poor_05",
+    "look:poor_06",
+    "look:poor_07",
+    "look:poor_08",
+    "look:poor_09",
+    "look:poor_10",
+    "look:poor_11",
+    "look:poor_12",
+    "look:q301_no_wheels_01",
+    "look:reed_01",
+    "look:suburban_01",
+    "look:suburban_02",
+    "look:suburban_03",
+    "look:suburban_04",
+    "look:suburban_05",
+    "look:suburban_06",
+    "look:suburban_07",
+    "look:suburban_08",
+    "look:suburban_09",
+    "look:suburban_10",
+    "look:urban_01",
+    "look:urban_02",
+    "look:urban_03",
+    "look:urban_04",
+    "look:urban_05",
+    "look:urban_06",
+    "look:urban_07",
+    "look:urban_08",
+    "look:urban_09",
+    "look:urban_10",
+    "look:web_01",
+    "style:thorton_merrimac_basic_police_01"
+   ]
+  },
+  {
+   "id": "police_b301",
+   "family": "police",
+   "code": "kit_police_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "antenna_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_antenna_01.mesh",
+     "code": "antenna_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "police_body_lights_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_antenna_01_shadow.mesh",
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police_lights_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_police_lights_01.mesh",
+     "code": "police_lights_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "police_body_lights_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police_speakers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_police_speakers_01.mesh",
+     "code": "police_speakers_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "police_body_lights_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "sensor_medium_02",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_sensor_medium_02.mesh",
+     "code": "sensor_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "police_body_lights_02",
+     "slot": null,
+     "position": [
+      -0.0248,
+      -0.1733,
+      0.0472
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_sensor_medium_02_shadow.mesh",
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_merrimac_basic_police_01",
+    "thorton_merrimac_basic_police_burnt_01"
+   ],
+   "made_for": [
+    "slot:base.body.body_maxtac"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_merrimac_basic_police_01",
+    "wreck:thorton_merrimac_basic_police_burnt_01"
+   ]
+  },
+  {
+   "id": "police_a9f0",
+   "family": "police",
+   "code": "kit_police_body_doors_hood_trunk",
+   "where": [
+    "body",
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "cover_bl_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_bl_police_covers_01.mesh",
+     "code": "door_bl_police_covers_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_bl_police_covers_01_shadow.mesh",
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "cover_br_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_br_police_covers_01.mesh",
+     "code": "door_br_police_covers_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "cover_fl_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fl_police_covers_01.mesh",
+     "code": "door_fl_police_covers_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "cover_fr_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fr_police_covers_01.mesh",
+     "code": "door_fr_police_covers_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "door_bl_police_parts_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_bl_police_parts_01.mesh",
+     "code": "door_bl_police_parts_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_police_parts_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_br_police_parts_01.mesh",
+     "code": "door_br_police_parts_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "hood_stickers_police",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_stickers_police_01.mesh",
+     "code": "hood_stickers_police_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "police_parts_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_police_parts_01.mesh",
+     "code": "police_parts_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__int01_police_parts_01_shadow.mesh",
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_hood_stickers_police_01.mesh",
+     "code": "hood_stickers_police_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "police_stickers_bl",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_bl_police_stickers_01.mesh",
+     "code": "door_bl_police_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "police_stickers_br",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_br_police_stickers_01.mesh",
+     "code": "door_br_police_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "police_stickers_fl",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fl_police_stickers_01.mesh",
+     "code": "door_fl_police_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "police_stickers_fr",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_door_fr_stickers_police_01.mesh",
+     "code": "door_fr_stickers_police_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "sensor_medium_03",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_sensor_medium_03.mesh",
+     "code": "sensor_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_sensor_medium_01_shadow.mesh",
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "trunk_police_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_trunk_police_stickers_01.mesh",
+     "code": "trunk_police_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      -0.29
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_merrimac_basic_police_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "thorton_merrimac_basic_police_01"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_merrimac_basic_police_01"
+   ]
+  }
+ ],
+ "looks": {
+  "thorton_merrimac_basic_police_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_merrimac_basic.app",
+   "app_look": "police_01",
+   "style": "thorton_merrimac_basic_police_01",
+   "wreck": false,
+   "parts": {
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_police": {
+     "fl": "door_fl_police_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_maxtac": {
+     "all": "bumper_b_maxtac_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f_maxtac": {
+     "all": "bumper_f_police_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel.wheel_a": {
+     "fl": "wheel_06_fl_a",
+     "fr": "wheel_06_fr_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.hood.hood_maxtac": {
+     "all": "hood_maxtac_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights_01"
+    },
+    "base.body.body_maxtac": {
+     "all": "police_body_lights_02"
+    },
+    "trunk_a.window": {
+     "all": "maxtac_window_b_01"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_03_bl_b",
+     "br": "wheel_03_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    },
+    "base.seat": {
+     "all": "seats_fr_01"
+    },
+    "base.seat.seats_b": {
+     "all": "seats_b_02"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.window": {
+     "all": "window_bl_02"
+    },
+    "base.window.window_br": {
+     "all": "window_br_02"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_bl": {
+     "all": "window_bl_03"
+    },
+    "base.window.window_br_2": {
+     "all": "window_br_03"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    }
+   }
+  },
+  "thorton_merrimac_basic_police_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_merrimac_basic.app",
+   "app_look": "police_burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights_01"
+    },
+    "base.body.body_maxtac": {
+     "all": "police_body_lights_02"
+    },
+    "base.seat": {
+     "all": "seats_fr_01"
+    },
+    "base.seat.seats_b": {
+     "all": "seats_b_02"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.window": {
+     "all": "window_bl_02"
+    },
+    "base.window.window_br": {
+     "all": "window_br_02"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_bl": {
+     "all": "window_bl_03"
+    },
+    "base.window.window_br_2": {
+     "all": "window_br_03"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.408,
+   0.3848,
+   0.2681,
+   -0.1452
+  ],
+  "b": [
+   0.408,
+   0.3848,
+   0.2694,
+   -0.1452
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "450eeb56",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_06.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_06",
+   "tire_code": "tire_fl_02",
+   "from": "Merrimac MSP3 Dreadnought",
+   "radius": 0.408,
+   "width": 0.3848,
+   "rim_radius": 0.2681,
+   "tire_center": -0.1452,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_merrimac_basic_police_01"
+   ]
+  },
+  {
+   "id": "e973b69f",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_03.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_03",
+   "tire_code": "tire_fl_02",
+   "from": "Merrimac MSP3 Dreadnought",
+   "radius": 0.408,
+   "width": 0.3848,
+   "rim_radius": 0.2694,
+   "tire_center": -0.1452,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 7,
+   "paints": [
+    "police_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_merrimac_basic:maxtac_e307",
+    "thorton_merrimac_basic:maxtac_e422",
+    "thorton_merrimac_basic:maxtac_p054",
+    "thorton_merrimac_basic_police_01"
+   ]
+  },
+  {
+   "id": "13a294b2",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_02",
+   "tire_code": "tire_fl_02",
+   "from": "Merrimac MSP3 Dreadnought",
+   "radius": 0.408,
+   "width": 0.3848,
+   "rim_radius": 0.2661,
+   "tire_center": -0.1452,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 28,
+   "paints": [
+    "poor_01"
+   ],
+   "default_paint": "poor_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_merrimac_basic:poor_01",
+    "thorton_merrimac_basic:poor_03",
+    "thorton_merrimac_basic:poor_06",
+    "thorton_merrimac_basic:poor_07",
+    "thorton_merrimac_basic:poor_08",
+    "thorton_merrimac_basic:poor_12",
+    "thorton_merrimac_basic:q301_no_wheels_01",
+    "thorton_merrimac_basic:reed_01",
+    "thorton_merrimac_basic:suburban_01",
+    "thorton_merrimac_basic:suburban_03",
+    "thorton_merrimac_basic:suburban_06",
+    "thorton_merrimac_basic:suburban_07",
+    "thorton_merrimac_basic:suburban_08",
+    "thorton_merrimac_basic:suburban_10"
+   ]
+  },
+  {
+   "id": "17ad477e",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_bandit_fl_04.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_bandit_fl_04",
+   "tire_code": "tire_fl_01",
+   "from": "Merrimac MSP3 Dreadnought",
+   "radius": 0.4076,
+   "width": 0.3542,
+   "rim_radius": 0.2881,
+   "tire_center": -0.1218,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 8,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_merrimac_basic:suburban_04",
+    "thorton_merrimac_basic:suburban_05",
+    "thorton_merrimac_basic:urban_07",
+    "thorton_merrimac_basic:urban_08"
+   ]
+  },
+  {
+   "id": "07996972",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Merrimac MSP3 Dreadnought",
+   "radius": 0.4076,
+   "width": 0.3542,
+   "rim_radius": 0.3253,
+   "tire_center": -0.1218,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 22,
+   "paints": [
+    "black_01",
+    "black_02",
+    "black_03",
+    "silver_01",
+    "black_poor_01",
+    "silver_poor_01",
+    "black_04"
+   ],
+   "default_paint": "black_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_merrimac_basic:poor_02",
+    "thorton_merrimac_basic:poor_09",
+    "thorton_merrimac_basic:suburban_02",
+    "thorton_merrimac_basic:suburban_09",
+    "thorton_merrimac_basic:urban_01",
+    "thorton_merrimac_basic:urban_02",
+    "thorton_merrimac_basic:urban_04",
+    "thorton_merrimac_basic:urban_05",
+    "thorton_merrimac_basic:urban_06",
+    "thorton_merrimac_basic:urban_10",
+    "thorton_merrimac_basic:web_01"
+   ]
+  },
+  {
+   "id": "b5694651",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_outlaw_fl_05.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_outlaw_fl_05",
+   "tire_code": "tire_fl_01",
+   "from": "Merrimac MSP3 Dreadnought",
+   "radius": 0.4076,
+   "width": 0.3542,
+   "rim_radius": 0.3428,
+   "tire_center": -0.1218,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 4,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_merrimac_basic:urban_03",
+    "thorton_merrimac_basic:urban_09"
+   ]
+  },
+  {
+   "id": "868a09fe",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_wheel_fl_player_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_player_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_player_01",
+   "tire_code": "tire_fl_player_01",
+   "from": "Merrimac MSP3 Dreadnought",
+   "radius": 0.4194,
+   "width": 0.3956,
+   "rim_radius": 0.2734,
+   "tire_center": -0.2053,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_merrimac_basic:player_01"
+   ]
+  },
+  {
+   "id": "2e82dbd0",
+   "rim": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_merrimac\\entities\\meshes\\v_standard25_thorton_merrimac__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_02",
+   "from": "Merrimac MSP3 Dreadnought",
+   "radius": 0.408,
+   "width": 0.3848,
+   "rim_radius": 0.3541,
+   "tire_center": -0.1452,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 8,
+   "paints": [
+    "wheel_02",
+    "wheel_03",
+    "wheel_01",
+    "wheel_04",
+    "wheel_05",
+    "wheel_06"
+   ],
+   "default_paint": "wheel_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_merrimac_basic:poor_04",
+    "thorton_merrimac_basic:poor_05",
+    "thorton_merrimac_basic:poor_10",
+    "thorton_merrimac_basic:poor_11"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "thorton_merrimac_basic_police_01",
+   "Merrimac MSP3 Dreadnought"
+  ]
+ ]
+}

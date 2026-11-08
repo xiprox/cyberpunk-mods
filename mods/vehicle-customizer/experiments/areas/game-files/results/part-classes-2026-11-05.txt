@@ -1,0 +1,8 @@
+﻿component classes: [('entPhysicalMeshComponent', 46248), ('entMeshComponent', 37990), ('entSkinnedMeshComponent', 1750), ('entAppearanceProxyMeshComponent', 1566), ('entPhysicalSkinnedMeshComponent', 669), ('entStaticOccluderMeshComponent', 33), ('entDebug_MeshComponent', 1)]
+  body_01            [('entPhysicalMeshComponent', 1134), ('entMeshComponent', 2), ('entPhysicalSkinnedMeshComponent', 2)]
+  tire_01_fl_a       [('entPhysicalMeshComponent', 950), ('entMeshComponent', 2)]
+  wheel_01_fl_a      [('entPhysicalMeshComponent', 762), ('entMeshComponent', 2)]
+  bumper_f_shadow    [('entMeshComponent', 826)]
+  bumper_f_01        [('entPhysicalMeshComponent', 846), ('entMeshComponent', 2)]
+  door_fl_a          [('entPhysicalMeshComponent', 980), ('entMeshComponent', 2)]
+  hood_a             [('entPhysicalMeshComponent', 918), ('entMeshComponent', 2)]

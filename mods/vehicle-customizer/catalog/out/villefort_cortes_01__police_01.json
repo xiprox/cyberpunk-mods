@@ -1,0 +1,5662 @@
+{
+ "id": "villefort_cortes_01__police_01",
+ "label": "Cortes V6000 NCPD Overlord",
+ "entity": "base\\vehicles\\standard\\v_standard2_villefort_cortes_01__police_01.ent",
+ "family": "v_standard2_villefort_cortes",
+ "garage": false,
+ "default_look": "delamain",
+ "records": [
+  "Vehicle.border_patrol_villefort_cortes_heat_1",
+  "Vehicle.border_patrol_villefort_cortes_heat_2",
+  "Vehicle.ncpd_villefort_cortes_heat_1",
+  "Vehicle.ncpd_villefort_cortes_heat_2",
+  "Vehicle.v_standard2_villefort_cortes_police",
+  "Vehicle.v_standard2_villefort_cortes_police_border_patrol",
+  "Vehicle.v_standard2_villefort_cortes_police_mws",
+  "Vehicle.v_standard2_villefort_cortes_police_sheriff",
+  "Vehicle.v_standard2_villefort_cortes_police_siren"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\villefort_cortes__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "black_agent",
+   "code": "black_agent",
+   "label": "Black agent",
+   "base_look": "villefort_cortes__basic_black_agent",
+   "looks": [
+    "villefort_cortes__basic_black_agent"
+   ],
+   "options": {
+    "bumper_front.bumper": "fff51522",
+    "bumper_back.bumper": "f7458b64",
+    "hood_a.hood": "3dd807f4",
+    "trunk_a.trunk": "50de95d2",
+    "base.body": "e20f958b",
+    "base.interior": "7870f9ad",
+    "base.seat": "ae110d9a",
+    "base.window": "62b1539e",
+    "wheel.tire": "91100bc8",
+    "wheel.wheel": "f51fabbf",
+    "door.door": "5e42787d",
+    "window.door": "98ec8995"
+   },
+   "kits": [
+    "nomad_8e74",
+    "nomad_cb1c",
+    "police_374e",
+    "police_50d0"
+   ]
+  },
+  {
+   "id": "boder_patrol_01",
+   "code": "boder_patrol_01",
+   "label": "Boder patrol",
+   "base_look": "villefort_cortes__basic_boder_patrol_01",
+   "looks": [
+    "villefort_cortes__basic_boder_patrol_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "fff51522",
+    "bumper_back.bumper": "f7458b64",
+    "hood_a.hood": "3dd807f4",
+    "trunk_a.trunk": "50de95d2",
+    "base.body": "e20f958b",
+    "base.interior": "7870f9ad",
+    "base.seat": "ae110d9a",
+    "base.window": "62b1539e",
+    "wheel.tire": "91100bc8",
+    "wheel.wheel": "f51fabbf",
+    "door.door": "5e42787d",
+    "window.door": "98ec8995"
+   },
+   "kits": [
+    "nomad_8e74",
+    "nomad_cb1c",
+    "police_1041",
+    "police_374e",
+    "police_4cc0",
+    "police_4cd2",
+    "police_50d0",
+    "police_6008",
+    "police_72bd",
+    "police_bb1e"
+   ]
+  },
+  {
+   "id": "police_01",
+   "code": "police_01",
+   "label": "Police",
+   "base_look": "villefort_cortes__basic_police_01",
+   "looks": [
+    "villefort_cortes__basic_police_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "fff51522",
+    "bumper_back.bumper": "f7458b64",
+    "hood_a.hood": "3dd807f4",
+    "trunk_a.trunk": "50de95d2",
+    "base.body": "e20f958b",
+    "base.interior": "7870f9ad",
+    "base.seat": "ae110d9a",
+    "base.window": "62b1539e",
+    "wheel.tire": "91100bc8",
+    "wheel.wheel": "f51fabbf",
+    "door.door": "5e42787d",
+    "window.door": "98ec8995"
+   },
+   "kits": [
+    "nomad_8e74",
+    "nomad_cb1c",
+    "police_374e",
+    "police_4cc0",
+    "police_4cd2",
+    "police_4d1b",
+    "police_50d0",
+    "police_6008",
+    "police_bb1e"
+   ]
+  },
+  {
+   "id": "police_q000_streetkid",
+   "code": "police_q000_streetkid",
+   "label": "Police q000 streetkid",
+   "base_look": "villefort_cortes__basic_police_q000_streetkid",
+   "looks": [
+    "villefort_cortes__basic_police_q000_streetkid"
+   ],
+   "options": {
+    "bumper_front.bumper": "6f95cfaa",
+    "bumper_back.bumper": "f7458b64",
+    "hood_a.hood": "3dd807f4",
+    "trunk_a.trunk": "50de95d2",
+    "base.body": "e20f958b",
+    "base.interior": "7870f9ad",
+    "base.seat": "ae110d9a",
+    "base.window": "62b1539e",
+    "wheel.tire": "91100bc8",
+    "wheel.wheel": "f51fabbf",
+    "door.door": "5e42787d",
+    "window.door": "98ec8995"
+   },
+   "kits": [
+    "nomad_8e74",
+    "nomad_cb1c",
+    "police_1041",
+    "police_374e",
+    "police_4cc0",
+    "police_4d1b",
+    "police_50d0",
+    "police_bb1e"
+   ]
+  },
+  {
+   "id": "police_q000_streetkid_02",
+   "code": "police_q000_streetkid_02",
+   "label": "Police q000 streetkid 02",
+   "base_look": "villefort_cortes__basic_police_q000_streetkid_02",
+   "looks": [
+    "villefort_cortes__basic_police_q000_streetkid_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "6f95cfaa",
+    "bumper_back.bumper": "f7458b64",
+    "hood_a.hood": "3dd807f4",
+    "trunk_a.trunk": "50de95d2",
+    "base.body": "e20f958b",
+    "base.interior": "7870f9ad",
+    "base.seat": "ae110d9a",
+    "base.window": "62b1539e",
+    "wheel.tire": "91100bc8",
+    "wheel.wheel": "f51fabbf",
+    "door.door": "5e42787d",
+    "window.door": "98ec8995"
+   },
+   "kits": [
+    "nomad_8e74",
+    "nomad_cb1c",
+    "police_374e",
+    "police_4cc0",
+    "police_4d1b",
+    "police_50d0",
+    "police_bb1e"
+   ]
+  },
+  {
+   "id": "sheriff_01",
+   "code": "sheriff_01",
+   "label": "Sheriff",
+   "base_look": "villefort_cortes__basic_sheriff_01",
+   "looks": [
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "fff51522",
+    "bumper_back.bumper": "f7458b64",
+    "hood_a.hood": "3dd807f4",
+    "trunk_a.trunk": "50de95d2",
+    "base.body": "e20f958b",
+    "base.interior": "7870f9ad",
+    "base.seat": "ae110d9a",
+    "base.window": "62b1539e",
+    "wheel.tire": "91100bc8",
+    "wheel.wheel": "f51fabbf",
+    "door.door": "5e42787d",
+    "window.door": "98ec8995"
+   },
+   "kits": [
+    "nomad_8e74",
+    "nomad_cb1c",
+    "police_374e",
+    "police_4cc0",
+    "police_4cd2",
+    "police_50d0",
+    "police_6008",
+    "police_8a18",
+    "police_bb1e"
+   ]
+  }
+ ],
+ "wrecks": [
+  "villefort_cortes__basic_burnt_01",
+  "villefort_cortes__basic_burnt_police"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "fff51522",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "delamain",
+     "paints": [
+      "border_patrol",
+      "delamain",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "police_01",
+      "padre",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "sheriff",
+      "black_agent_01",
+      "mafia_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:sheriff_01"
+     ]
+    },
+    {
+     "id": "6f95cfaa",
+     "code": "bumper_f_q000_streetkid",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_bumper_f_q000_streetkid.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "border_patrol",
+      "delamain",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "police_01",
+      "padre",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "sheriff",
+      "black_agent_01",
+      "mafia_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02"
+     ],
+     "origins": [
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "f7458b64",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "delamain",
+     "paints": [
+      "border_patrol",
+      "delamain",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "police_01",
+      "padre",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "sheriff",
+      "black_agent_01",
+      "mafia_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01"
+     ]
+    },
+    {
+     "id": "cb100123",
+     "code": "bumper_b_q000_padre",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_bumper_b_q000_padre.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "padre",
+     "paints": [
+      "border_patrol",
+      "delamain",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "police_01",
+      "padre",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "sheriff",
+      "black_agent_01",
+      "mafia_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:padre"
+     ],
+     "origins": [
+      "look:padre"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "3dd807f4",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "delamain",
+     "paints": [
+      "border_patrol",
+      "delamain",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "police_01",
+      "padre",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "sheriff",
+      "black_agent_01",
+      "mafia_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "50de95d2",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "border_patrol",
+      "delamain",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "police_01",
+      "padre",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "sheriff",
+      "black_agent_01",
+      "mafia_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "e20f958b",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "delamain",
+     "paints": [
+      "border_patrol",
+      "delamain",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "police_01",
+      "padre",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "sheriff",
+      "black_agent_01",
+      "mafia_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_burnt_01",
+      "villefort_cortes__basic_burnt_police",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01",
+      "wreck:burnt_01",
+      "wreck:burnt_police"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "7870f9ad",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_02",
+     "paints": [
+      "delamain",
+      "poor_01",
+      "poor_02",
+      "padre",
+      "suburban_04",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_burnt_01",
+      "villefort_cortes__basic_burnt_police",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01",
+      "wreck:burnt_01",
+      "wreck:burnt_police"
+     ]
+    },
+    {
+     "id": "4bcfc746",
+     "code": "interior_q000_padre",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__int01_interior_q000_padre.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "padre",
+     "paints": [
+      "delamain",
+      "poor_01",
+      "poor_02",
+      "padre",
+      "suburban_04",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:padre"
+     ],
+     "origins": [
+      "look:padre"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat",
+   "label": "Seats",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "headrest_standard"
+   ],
+   "options": [
+    {
+     "id": "ae110d9a",
+     "code": "seats_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__int01_seats_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_02",
+     "paints": [
+      "delamain",
+      "poor_01",
+      "poor_02",
+      "padre",
+      "suburban_04",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_burnt_01",
+      "villefort_cortes__basic_burnt_police",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01",
+      "wreck:burnt_01",
+      "wreck:burnt_police"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_b"
+   ],
+   "options": [
+    {
+     "id": "62b1539e",
+     "code": "window_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_window_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "delamain",
+      "padre",
+      "padre_red",
+      "extra_dark"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_burnt_01",
+      "villefort_cortes__basic_burnt_police",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01",
+      "wreck:burnt_01",
+      "wreck:burnt_police"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a",
+    "tire_03_<c>"
+   ],
+   "options": [
+    {
+     "id": "fa0360f8",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05"
+     ]
+    },
+    {
+     "id": "68370bd0",
+     "code": "tire_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:trevors"
+     ],
+     "origins": [
+      "look:default",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:trevors"
+     ]
+    },
+    {
+     "id": "91100bc8",
+     "code": "tire_police_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:q108_15c_arasaka",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_03_<c>"
+   ],
+   "options": [
+    {
+     "id": "deb1263d",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "chrome",
+     "paints": [
+      "padre",
+      "delamain",
+      "chrome",
+      "copper",
+      "gunmetal",
+      "red",
+      "turquoise"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:kangtao_01",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08"
+     ]
+    },
+    {
+     "id": "165a8d4d",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "delamain",
+     "paints": [
+      "padre",
+      "delamain",
+      "chrome",
+      "copper",
+      "gunmetal",
+      "red",
+      "turquoise"
+     ],
+     "looks": [
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi"
+     ],
+     "origins": [
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi"
+     ]
+    },
+    {
+     "id": "77e1dffd",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "padre",
+     "paints": [
+      "delamain",
+      "kangtao_01",
+      "padre",
+      "chrome",
+      "copper",
+      "gunmetal"
+     ],
+     "looks": [
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05"
+     ],
+     "origins": [
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:sq012_peralez",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05"
+     ]
+    },
+    {
+     "id": "cb61b5fd",
+     "code": "wheel_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "primer_black",
+     "paints": [
+      "primer_black"
+     ],
+     "looks": [
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:trevors"
+     ],
+     "origins": [
+      "look:default",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:trevors"
+     ]
+    },
+    {
+     "id": "f51fabbf",
+     "code": "wheel_police_01 + wheel_police_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "police_01"
+     ],
+     "looks": [
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:q108_15c_arasaka",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "5e42787d",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fr_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "delamain",
+     "paints": [
+      "border_patrol",
+      "delamain",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "police_01",
+      "padre",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "kangtao_01",
+      "sheriff",
+      "black_agent_01",
+      "mafia_01",
+      "arasaka_01",
+      "delamain_dented_q005"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brake.wheel",
+   "label": "Wheel (brake)",
+   "kind": "wheel",
+   "group": "brake",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "brake_front_left",
+    "brake_front_right",
+    "brake_back_left",
+    "brake_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a6437",
+    "wheel_01_<c>_center"
+   ],
+   "options": [
+    {
+     "id": "8ec53a39",
+     "code": "wheel_center_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_center_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_center_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_center_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_center_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "delamain",
+     "paints": [
+      "delamain",
+      "kangtao_01",
+      "padre",
+      "chrome",
+      "copper",
+      "gunmetal",
+      "red",
+      "turquoise"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_q307",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_q307",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.door",
+   "label": "Door (window)",
+   "kind": "door",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a",
+    "window_back_left_a",
+    "window_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "98ec8995",
+     "code": "door_window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_window_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_window_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_window_br_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "padre",
+      "delamain_dented_q005"
+     ],
+     "looks": [
+      "villefort_cortes__basic:arasaka_01",
+      "villefort_cortes__basic:default",
+      "villefort_cortes__basic:delamain",
+      "villefort_cortes__basic:delamain_bulletholes",
+      "villefort_cortes__basic:delamain_dented_q005",
+      "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+      "villefort_cortes__basic:delamain_konpeki",
+      "villefort_cortes__basic:delamain_konpeki_garage",
+      "villefort_cortes__basic:delamain_missile_trunk",
+      "villefort_cortes__basic:delamain_taxi",
+      "villefort_cortes__basic:kangtao_01",
+      "villefort_cortes__basic:mafia_01",
+      "villefort_cortes__basic:padre",
+      "villefort_cortes__basic:player_01",
+      "villefort_cortes__basic:poor_1_01",
+      "villefort_cortes__basic:poor_1_02",
+      "villefort_cortes__basic:poor_1_03",
+      "villefort_cortes__basic:poor_1_04",
+      "villefort_cortes__basic:poor_1_05",
+      "villefort_cortes__basic:poor_1_06",
+      "villefort_cortes__basic:q108_15c_arasaka",
+      "villefort_cortes__basic:sq012_peralez",
+      "villefort_cortes__basic:suburban_1_01",
+      "villefort_cortes__basic:suburban_1_02",
+      "villefort_cortes__basic:suburban_1_03",
+      "villefort_cortes__basic:suburban_1_04",
+      "villefort_cortes__basic:suburban_1_05",
+      "villefort_cortes__basic:suburban_1_06",
+      "villefort_cortes__basic:suburban_1_07",
+      "villefort_cortes__basic:suburban_1_08",
+      "villefort_cortes__basic:trevors",
+      "villefort_cortes__basic:urban_1_01",
+      "villefort_cortes__basic:urban_1_02",
+      "villefort_cortes__basic:urban_1_03",
+      "villefort_cortes__basic:urban_1_04",
+      "villefort_cortes__basic:urban_1_05",
+      "villefort_cortes__basic_black_agent",
+      "villefort_cortes__basic_boder_patrol_01",
+      "villefort_cortes__basic_police_01",
+      "villefort_cortes__basic_police_q000_streetkid",
+      "villefort_cortes__basic_police_q000_streetkid_02",
+      "villefort_cortes__basic_sheriff_01"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:default",
+      "look:delamain",
+      "look:delamain_bulletholes",
+      "look:delamain_dented_q005",
+      "look:delamain_dented_q005_bulletholes",
+      "look:delamain_konpeki",
+      "look:delamain_konpeki_garage",
+      "look:delamain_missile_trunk",
+      "look:delamain_taxi",
+      "look:kangtao_01",
+      "look:mafia_01",
+      "look:padre",
+      "look:player_01",
+      "look:poor_1_01",
+      "look:poor_1_02",
+      "look:poor_1_03",
+      "look:poor_1_04",
+      "look:poor_1_05",
+      "look:poor_1_06",
+      "look:q108_15c_arasaka",
+      "look:sq012_peralez",
+      "look:suburban_1_01",
+      "look:suburban_1_02",
+      "look:suburban_1_03",
+      "look:suburban_1_04",
+      "look:suburban_1_05",
+      "look:suburban_1_06",
+      "look:suburban_1_07",
+      "look:suburban_1_08",
+      "look:trevors",
+      "look:urban_1_01",
+      "look:urban_1_02",
+      "look:urban_1_03",
+      "look:urban_1_04",
+      "look:urban_1_05",
+      "style:black_agent",
+      "style:boder_patrol_01",
+      "style:police_01",
+      "style:police_q000_streetkid",
+      "style:police_q000_streetkid_02",
+      "style:sheriff_01"
+     ]
+    },
+    {
+     "id": "db938246",
+     "code": "door_window_01 + door_window_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_window_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_window_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_window_br_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "padre",
+      "delamain_dented_q005"
+     ],
+     "looks": [
+      "villefort_cortes__basic:delamain_q307"
+     ],
+     "origins": [
+      "look:delamain_q307"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "aldecaldos_761e",
+   "family": "aldecaldos",
+   "code": "door_fl_stickers_aldecaldos_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fl_stickers_aldecaldos_01.mesh",
+     "code": "door_fl_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:q108_15c_arasaka",
+    "villefort_cortes__basic:trevors"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:q108_15c_arasaka",
+    "look:trevors"
+   ]
+  },
+  {
+   "id": "aldecaldos_192d",
+   "family": "aldecaldos",
+   "code": "door_fr_stickers_aldecaldos_02",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_stickers_aldecaldos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fr_stickers_aldecaldos_02.mesh",
+     "code": "door_fr_stickers_aldecaldos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:arasaka_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:arasaka_01",
+    "villefort_cortes__basic:trevors"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:arasaka_01",
+    "look:trevors"
+   ]
+  },
+  {
+   "id": "aldecaldos_b161",
+   "family": "aldecaldos",
+   "code": "kit_aldecaldos_body_doors_hood_interior",
+   "where": [
+    "body",
+    "doors",
+    "hood",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_body_stickers_aldecaldos_01.mesh",
+     "code": "body_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_stickers_aldecaldos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_body_stickers_aldecaldos_02.mesh",
+     "code": "body_stickers_aldecaldos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_stickers_aldecaldos_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_body_stickers_aldecaldos_03.mesh",
+     "code": "body_stickers_aldecaldos_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_bl_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_bl_stickers_aldecaldos_01.mesh",
+     "code": "door_bl_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_bl_stickers_aldecaldos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_bl_stickers_aldecaldos_02.mesh",
+     "code": "door_bl_stickers_aldecaldos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_bl_stickers_aldecaldos_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_bl_stickers_aldecaldos_03.mesh",
+     "code": "door_bl_stickers_aldecaldos_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_br_stickers_aldecaldos_01.mesh",
+     "code": "door_br_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fr_stickers_aldecaldos_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fr_stickers_aldecaldos_03.mesh",
+     "code": "door_fr_stickers_aldecaldos_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "fuelcap_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_fuelcap_stickers_aldecaldos_01.mesh",
+     "code": "fuelcap_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "fuel_cap",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:fuel_cap"
+    },
+    {
+     "name": "hood_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_hood_stickers_aldecaldos_01.mesh",
+     "code": "hood_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "interior_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__int01_interior_stickers_aldecaldos_01.mesh",
+     "code": "interior_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "stickers_aldecaldos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_hood_stickers_aldecaldos_02.mesh",
+     "code": "hood_stickers_aldecaldos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:trevors",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:trevors"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:trevors"
+   ]
+  },
+  {
+   "id": "arasaka_efd6",
+   "family": "arasaka",
+   "code": "interior_arasaka_sticker_01",
+   "where": [
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "interior_arasaka_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__int01_interior_arasaka_sticker_01.mesh",
+     "code": "interior_arasaka_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:arasaka_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:arasaka_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:arasaka_01"
+   ]
+  },
+  {
+   "id": "arasaka_0d97",
+   "family": "arasaka",
+   "code": "kit_arasaka_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_sticker_arasaka_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fl_sticker_arasaka_01.mesh",
+     "code": "door_fl_sticker_arasaka_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:arasaka_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_sticker_arasaka_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fr_sticker_arasaka_01.mesh",
+     "code": "door_fr_sticker_arasaka_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:arasaka_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "door_fr_sticker_arasaka_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fr_sticker_arasaka_02.mesh",
+     "code": "door_fr_sticker_arasaka_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:arasaka_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:arasaka_01",
+    "villefort_cortes__basic:q108_15c_arasaka"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:arasaka_01",
+    "look:q108_15c_arasaka"
+   ]
+  },
+  {
+   "id": "delamain_4b0b",
+   "family": "delamain",
+   "code": "body_stickers_delamain",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_delamain",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_body_stickers_delamain.mesh",
+     "code": "body_stickers_delamain",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:delamain",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:delamain",
+    "villefort_cortes__basic:delamain_bulletholes",
+    "villefort_cortes__basic:delamain_dented_q005",
+    "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+    "villefort_cortes__basic:delamain_konpeki",
+    "villefort_cortes__basic:delamain_konpeki_garage",
+    "villefort_cortes__basic:delamain_missile_trunk",
+    "villefort_cortes__basic:delamain_q307",
+    "villefort_cortes__basic:delamain_taxi",
+    "villefort_cortes__basic:suburban_1_01",
+    "villefort_cortes__basic:suburban_1_02",
+    "villefort_cortes__basic:suburban_1_03",
+    "villefort_cortes__basic:suburban_1_04",
+    "villefort_cortes__basic:suburban_1_05",
+    "villefort_cortes__basic:suburban_1_06",
+    "villefort_cortes__basic:suburban_1_07",
+    "villefort_cortes__basic:suburban_1_08"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:delamain",
+    "look:delamain_bulletholes",
+    "look:delamain_dented_q005",
+    "look:delamain_dented_q005_bulletholes",
+    "look:delamain_konpeki",
+    "look:delamain_konpeki_garage",
+    "look:delamain_missile_trunk",
+    "look:delamain_q307",
+    "look:delamain_taxi",
+    "look:suburban_1_01",
+    "look:suburban_1_02",
+    "look:suburban_1_03",
+    "look:suburban_1_04",
+    "look:suburban_1_05",
+    "look:suburban_1_06",
+    "look:suburban_1_07",
+    "look:suburban_1_08"
+   ]
+  },
+  {
+   "id": "delamain_0a2b",
+   "family": "delamain",
+   "code": "kit_delamain_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_bl_stickers_delamain",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_bl_stickers_delamain.mesh",
+     "code": "door_bl_stickers_delamain",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:delamain",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_stickers_delamain",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_br_stickers_delamain.mesh",
+     "code": "door_br_stickers_delamain",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:delamain",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fl_stickers_delamain",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fl_stickers_delamain.mesh",
+     "code": "door_fl_stickers_delamain",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:delamain",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_stickers_delamain",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fr_stickers_delamain.mesh",
+     "code": "door_fr_stickers_delamain",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:delamain",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:delamain",
+    "villefort_cortes__basic:delamain_bulletholes",
+    "villefort_cortes__basic:delamain_dented_q005",
+    "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+    "villefort_cortes__basic:delamain_konpeki",
+    "villefort_cortes__basic:delamain_konpeki_garage",
+    "villefort_cortes__basic:delamain_missile_trunk",
+    "villefort_cortes__basic:delamain_q307",
+    "villefort_cortes__basic:delamain_taxi"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:delamain",
+    "look:delamain_bulletholes",
+    "look:delamain_dented_q005",
+    "look:delamain_dented_q005_bulletholes",
+    "look:delamain_konpeki",
+    "look:delamain_konpeki_garage",
+    "look:delamain_missile_trunk",
+    "look:delamain_q307",
+    "look:delamain_taxi"
+   ]
+  },
+  {
+   "id": "nomad_cb1c",
+   "family": "nomad",
+   "code": "kit_nomad_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_02.mesh",
+     "code": "electric_device_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      -0.0243,
+      -0.3092,
+      0.25
+     ],
+     "rotation": [
+      -0.147015780210495,
+      0.147015780210495,
+      -0.6916548609733582,
+      0.6916548609733582
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:default",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_02_fr",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_02.mesh",
+     "code": "electric_device_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.02,
+      -0.32,
+      0.25
+     ],
+     "rotation": [
+      -0.6743797659873962,
+      0.6743797659873962,
+      -0.21263118088245392,
+      0.21263106167316437
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:default",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:arasaka_01",
+    "villefort_cortes__basic:default",
+    "villefort_cortes__basic:delamain",
+    "villefort_cortes__basic:delamain_bulletholes",
+    "villefort_cortes__basic:delamain_dented_q005",
+    "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+    "villefort_cortes__basic:delamain_konpeki",
+    "villefort_cortes__basic:delamain_konpeki_garage",
+    "villefort_cortes__basic:delamain_missile_trunk",
+    "villefort_cortes__basic:delamain_q307",
+    "villefort_cortes__basic:delamain_taxi",
+    "villefort_cortes__basic:kangtao_01",
+    "villefort_cortes__basic:mafia_01",
+    "villefort_cortes__basic:padre",
+    "villefort_cortes__basic:player_01",
+    "villefort_cortes__basic:poor_1_01",
+    "villefort_cortes__basic:poor_1_02",
+    "villefort_cortes__basic:poor_1_03",
+    "villefort_cortes__basic:poor_1_04",
+    "villefort_cortes__basic:poor_1_05",
+    "villefort_cortes__basic:poor_1_06",
+    "villefort_cortes__basic:q108_15c_arasaka",
+    "villefort_cortes__basic:sq012_peralez",
+    "villefort_cortes__basic:suburban_1_01",
+    "villefort_cortes__basic:suburban_1_02",
+    "villefort_cortes__basic:suburban_1_03",
+    "villefort_cortes__basic:suburban_1_04",
+    "villefort_cortes__basic:suburban_1_05",
+    "villefort_cortes__basic:suburban_1_06",
+    "villefort_cortes__basic:suburban_1_07",
+    "villefort_cortes__basic:suburban_1_08",
+    "villefort_cortes__basic:trevors",
+    "villefort_cortes__basic:urban_1_01",
+    "villefort_cortes__basic:urban_1_02",
+    "villefort_cortes__basic:urban_1_03",
+    "villefort_cortes__basic:urban_1_04",
+    "villefort_cortes__basic:urban_1_05",
+    "villefort_cortes__basic_black_agent",
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_police_q000_streetkid",
+    "villefort_cortes__basic_police_q000_streetkid_02",
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:arasaka_01",
+    "look:default",
+    "look:delamain",
+    "look:delamain_bulletholes",
+    "look:delamain_dented_q005",
+    "look:delamain_dented_q005_bulletholes",
+    "look:delamain_konpeki",
+    "look:delamain_konpeki_garage",
+    "look:delamain_missile_trunk",
+    "look:delamain_q307",
+    "look:delamain_taxi",
+    "look:kangtao_01",
+    "look:mafia_01",
+    "look:padre",
+    "look:player_01",
+    "look:poor_1_01",
+    "look:poor_1_02",
+    "look:poor_1_03",
+    "look:poor_1_04",
+    "look:poor_1_05",
+    "look:poor_1_06",
+    "look:q108_15c_arasaka",
+    "look:sq012_peralez",
+    "look:suburban_1_01",
+    "look:suburban_1_02",
+    "look:suburban_1_03",
+    "look:suburban_1_04",
+    "look:suburban_1_05",
+    "look:suburban_1_06",
+    "look:suburban_1_07",
+    "look:suburban_1_08",
+    "look:trevors",
+    "look:urban_1_01",
+    "look:urban_1_02",
+    "look:urban_1_03",
+    "look:urban_1_04",
+    "look:urban_1_05",
+    "style:black_agent",
+    "style:boder_patrol_01",
+    "style:police_01",
+    "style:police_q000_streetkid",
+    "style:police_q000_streetkid_02",
+    "style:sheriff_01"
+   ]
+  },
+  {
+   "id": "nomad_8e74",
+   "family": "nomad",
+   "code": "light_device_medium_02",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_light_device_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02.mesh",
+     "code": "light_device_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_f_police_01",
+     "slot": null,
+     "position": [
+      1.0472,
+      0.62,
+      0.1131
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02_shadow.mesh",
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:bumper_front"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:q108_15c_arasaka",
+    "villefort_cortes__basic_black_agent",
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper.bumper_f_police"
+   ],
+   "needs": [],
+   "origins": [
+    "look:q108_15c_arasaka",
+    "style:black_agent",
+    "style:boder_patrol_01",
+    "style:police_01",
+    "style:sheriff_01"
+   ]
+  },
+  {
+   "id": "nomad_8e74",
+   "family": "nomad",
+   "code": "light_device_medium_02_q000_streetkid",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_light_device_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02_q000_streetkid.mesh",
+     "code": "light_device_medium_02_q000_streetkid",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_f_police_01",
+     "slot": null,
+     "position": [
+      1.0472,
+      0.62,
+      0.1131
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02_shadow.mesh",
+     "look": "villefort_cortes__basic_police_q000_streetkid",
+     "parent": "vehicle_slots:bumper_front"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic_police_q000_streetkid",
+    "villefort_cortes__basic_police_q000_streetkid_02"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper.bumper_f_police"
+   ],
+   "needs": [],
+   "origins": [
+    "style:police_q000_streetkid",
+    "style:police_q000_streetkid_02"
+   ]
+  },
+  {
+   "id": "police_4cc0",
+   "family": "police",
+   "code": "kit_police_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "police_window_bl_01_grate",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_bl_01_window.mesh",
+     "code": "police_door_bl_01_window",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_bl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:window_back_left_a"
+    },
+    {
+     "name": "police_window_br_01_grate",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_br_01_window.mesh",
+     "code": "police_door_br_01_window",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_br",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:window_back_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_police_q000_streetkid",
+    "villefort_cortes__basic_police_q000_streetkid_02",
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "made_for": [
+    "slot:window.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:boder_patrol_01",
+    "style:police_01",
+    "style:police_q000_streetkid",
+    "style:police_q000_streetkid_02",
+    "style:sheriff_01"
+   ]
+  },
+  {
+   "id": "police_8a18",
+   "family": "police",
+   "code": "kit_police_body_doors_hood_trunk",
+   "where": [
+    "body",
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "body_01_decal_sheriff",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_body_01_decal_sheriff.mesh",
+     "code": "police_body_01_decal_sheriff",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_sheriff_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_bl_01_decal_sheriff",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_bl_01_decal_sheriff.mesh",
+     "code": "police_door_bl_01_decal_sheriff",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_sheriff_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_01_decal_sheriff",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_br_01_decal_sheriff.mesh",
+     "code": "police_door_br_01_decal_sheriff",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_sheriff_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "fl_01_decal_sheriff",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_fl_01_decal_sheriff.mesh",
+     "code": "police_door_fl_01_decal_sheriff",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_sheriff_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "fr_01_decal_sheriff",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_fr_01_decal_sheriff.mesh",
+     "code": "police_door_fr_01_decal_sheriff",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_sheriff_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "hood_01_decal_sheriff",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_hood_01_decal_sheriff.mesh",
+     "code": "police_hood_01_decal_sheriff",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_sheriff_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "trunk_01_decals_sheriff",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_trunk_01_decals_sheriff.mesh",
+     "code": "police_trunk_01_decals_sheriff",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_sheriff_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:sheriff_01"
+   ]
+  },
+  {
+   "id": "police_50d0",
+   "family": "police",
+   "code": "kit_police_bumper_doors_hood_trunk",
+   "where": [
+    "bumper",
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "police__hood_01_decals",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_hood_01_decals.mesh",
+     "code": "police_hood_01_decals",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "police_door_cage_bl_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_bl_01.mesh",
+     "code": "police_door_bl_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "police_door_fl_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_fl_01.mesh",
+     "code": "police_door_fl_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "police_door_fr_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_fr_01.mesh",
+     "code": "police_door_fr_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "police_trunk_01_decals",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_trunk_01_decals.mesh",
+     "code": "police_trunk_01_decals",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_detector_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_f_police_01",
+     "slot": null,
+     "position": [
+      0.6675,
+      0.6074,
+      0.0359
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:bumper_front"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_light_device_small_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_small_01.mesh",
+     "code": "light_device_small_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_f_police_01",
+     "slot": null,
+     "position": [
+      1.4,
+      0.5995,
+      0.0801
+     ],
+     "rotation": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:bumper_front"
+    },
+    {
+     "name": "v_standard2_villefort_cortes_police__ext01_bumper_b_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_bumper_b_01.mesh",
+     "code": "police_bumper_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_bumper_b_01_shadow.mesh",
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:bumper_back"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:q108_15c_arasaka",
+    "villefort_cortes__basic_black_agent",
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_police_q000_streetkid",
+    "villefort_cortes__basic_police_q000_streetkid_02",
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper",
+    "slot:bumper_front.bumper.bumper_f_police",
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:q108_15c_arasaka",
+    "style:black_agent",
+    "style:boder_patrol_01",
+    "style:police_01",
+    "style:police_q000_streetkid",
+    "style:police_q000_streetkid_02",
+    "style:sheriff_01"
+   ]
+  },
+  {
+   "id": "police_6008",
+   "family": "police",
+   "code": "kit_police_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_bl_stickers_police_display",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_bl_01_display.mesh",
+     "code": "police_door_bl_01_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_stickers_police_display",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_br_01_display.mesh",
+     "code": "police_door_br_01_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fl_stickers_police_display",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_fl_01_display.mesh",
+     "code": "police_door_fl_01_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_stickers_police_display",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_fr_01_display.mesh",
+     "code": "police_door_fr_01_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:boder_patrol_01",
+    "style:police_01",
+    "style:sheriff_01"
+   ]
+  },
+  {
+   "id": "police_72bd",
+   "family": "police",
+   "code": "kit_police_doors_hood",
+   "where": [
+    "doors",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "bl_decals_border_patrol",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_bl_01_decals_border_patrol.mesh",
+     "code": "police_door_bl_01_decals_border_patrol",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_boder_patrol_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "br_decals_border_patrol",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_br_01_decals_border_patrol.mesh",
+     "code": "police_door_br_01_decals_border_patrol",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_boder_patrol_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "fl_decal_border_patrol",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_fl_01_decal_border_patrol.mesh",
+     "code": "police_door_fl_01_decal_border_patrol",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_boder_patrol_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "fl_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_fl_01_decal_police.mesh",
+     "code": "police_door_fl_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_boder_patrol_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "fr_decal_border_patrol",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_fr_01_decal_border_patrol.mesh",
+     "code": "police_door_fr_01_decal_border_patrol",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_boder_patrol_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "hood_01_decal_border_patrol",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_hood_01_decal_border_patrol.mesh",
+     "code": "police_hood_01_decal_border_patrol",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_boder_patrol_01",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic_boder_patrol_01"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "style:boder_patrol_01"
+   ]
+  },
+  {
+   "id": "police_4d1b",
+   "family": "police",
+   "code": "kit_police_hood_trunk",
+   "where": [
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "hood_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_hood_01_decal_police.mesh",
+     "code": "police_hood_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "trunk_01_decals_police",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_trunk_01_decals_police.mesh",
+     "code": "police_trunk_01_decals_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_police_q000_streetkid",
+    "villefort_cortes__basic_police_q000_streetkid_02"
+   ],
+   "made_for": [
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:police_01",
+    "style:police_q000_streetkid",
+    "style:police_q000_streetkid_02"
+   ]
+  },
+  {
+   "id": "police_4cd2",
+   "family": "police",
+   "code": "police_body_01_display",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_police_display",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_body_01_display.mesh",
+     "code": "police_body_01_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_burnt_police",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:boder_patrol_01",
+    "style:police_01",
+    "style:sheriff_01",
+    "wreck:burnt_police"
+   ]
+  },
+  {
+   "id": "police_374e",
+   "family": "police",
+   "code": "police_door_br_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "police_door_cage_br_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_door_br_01.mesh",
+     "code": "police_door_br_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:delamain_q307",
+    "villefort_cortes__basic:q108_15c_arasaka",
+    "villefort_cortes__basic_black_agent",
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_police_q000_streetkid",
+    "villefort_cortes__basic_police_q000_streetkid_02",
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:delamain_q307",
+    "look:q108_15c_arasaka",
+    "style:black_agent",
+    "style:boder_patrol_01",
+    "style:police_01",
+    "style:police_q000_streetkid",
+    "style:police_q000_streetkid_02",
+    "style:sheriff_01"
+   ]
+  },
+  {
+   "id": "police_1041",
+   "family": "police",
+   "code": "police_trunk_01_decals_border_patrol",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "trunk_01_decals_border_patrol",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_trunk_01_decals_border_patrol.mesh",
+     "code": "police_trunk_01_decals_border_patrol",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic_police_q000_streetkid",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_police_q000_streetkid"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:boder_patrol_01",
+    "style:police_q000_streetkid"
+   ]
+  },
+  {
+   "id": "police_bb1e",
+   "family": "police",
+   "code": "police_vehicle_lights_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_villefort_cortes_police__ext01_vehicle_lights_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_vehicle_lights_01.mesh",
+     "code": "police_vehicle_lights_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes_police__ext01_vehicle_lights_01_shadowmesh.mesh",
+     "look": "villefort_cortes__basic_police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_burnt_police",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_police_q000_streetkid",
+    "villefort_cortes__basic_police_q000_streetkid_02",
+    "villefort_cortes__basic_sheriff_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:boder_patrol_01",
+    "style:police_01",
+    "style:police_q000_streetkid",
+    "style:police_q000_streetkid_02",
+    "style:sheriff_01",
+    "wreck:burnt_police"
+   ]
+  },
+  {
+   "id": "sticker_6bc3",
+   "family": "sticker",
+   "code": "door_bl_kangtao_sticker_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_bl_kangtao_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_bl_kangtao_sticker_01.mesh",
+     "code": "door_bl_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:kangtao_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+    "villefort_cortes__basic:kangtao_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:delamain_dented_q005_bulletholes",
+    "look:kangtao_01"
+   ]
+  },
+  {
+   "id": "sticker_f5af",
+   "family": "sticker",
+   "code": "door_fr_kangtao_sticker_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_kangtao_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fr_kangtao_sticker_01.mesh",
+     "code": "door_fr_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:kangtao_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:kangtao_01",
+    "villefort_cortes__basic:trevors"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:kangtao_01",
+    "look:trevors"
+   ]
+  },
+  {
+   "id": "sticker_8266",
+   "family": "sticker",
+   "code": "kit_sticker_body_doors_interior",
+   "where": [
+    "body",
+    "doors",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "body_kangtao_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_body_kangtao_sticker_01.mesh",
+     "code": "body_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:kangtao_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_fl_kangtao_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_door_fl_kangtao_sticker_01.mesh",
+     "code": "door_fl_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:kangtao_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "interior_kangtao_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__int01_interior_kangtao_sticker_01.mesh",
+     "code": "interior_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_cortes__basic:kangtao_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_cortes__basic:kangtao_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:kangtao_01"
+   ]
+  }
+ ],
+ "looks": {
+  "villefort_cortes__basic_police_01": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_cortes__basic.app",
+   "app_look": "police_01",
+   "style": "police_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_police": {
+     "all": "body_police_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f_police": {
+     "all": "bumper_f_police_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "headrest_standard"
+    },
+    "wheel.tire": {
+     "fl": "tire_03_fl",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_03_bl",
+     "br": "tire_03_br"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_03_fl",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_03_bl",
+     "br": "wheel_03_br"
+    }
+   }
+  },
+  "villefort_cortes__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_cortes__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "headrest_standard"
+    },
+    "base.seat.headrest_delamain": {
+     "all": "headrest_delamain"
+    }
+   }
+  },
+  "villefort_cortes__basic_black_agent": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_cortes__basic.app",
+   "app_look": "black_agent",
+   "style": "black_agent",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f_police": {
+     "all": "bumper_f_police_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "headrest_standard"
+    },
+    "wheel.tire": {
+     "fl": "tire_03_fl",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_03_bl",
+     "br": "tire_03_br"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_03_fl",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_03_bl",
+     "br": "wheel_03_br"
+    }
+   }
+  },
+  "villefort_cortes__basic_police_q000_streetkid": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_cortes__basic.app",
+   "app_look": "police_q000_streetkid",
+   "style": "police_q000_streetkid",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_police": {
+     "all": "body_police_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f_police": {
+     "all": "bumper_f_police_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "headrest_standard"
+    },
+    "wheel.tire": {
+     "fl": "tire_03_fl",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_03_bl",
+     "br": "tire_03_br"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_03_fl",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_03_bl",
+     "br": "wheel_03_br"
+    }
+   }
+  },
+  "villefort_cortes__basic_police_q000_streetkid_02": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_cortes__basic.app",
+   "app_look": "police_q000_streetkid_02",
+   "style": "police_q000_streetkid_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_police": {
+     "all": "body_police_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f_police": {
+     "all": "bumper_f_police_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "headrest_standard"
+    },
+    "wheel.tire": {
+     "fl": "tire_03_fl",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_03_bl",
+     "br": "tire_03_br"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_03_fl",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_03_bl",
+     "br": "wheel_03_br"
+    }
+   }
+  },
+  "villefort_cortes__basic_sheriff_01": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_cortes__basic.app",
+   "app_look": "sheriff_01",
+   "style": "sheriff_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_police": {
+     "all": "body_police_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f_police": {
+     "all": "bumper_f_police_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "headrest_standard"
+    },
+    "wheel.tire": {
+     "fl": "tire_03_fl",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_03_bl",
+     "br": "tire_03_br"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_03_fl",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_03_bl",
+     "br": "wheel_03_br"
+    }
+   }
+  },
+  "villefort_cortes__basic_boder_patrol_01": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_cortes__basic.app",
+   "app_look": "boder_patrol_01",
+   "style": "boder_patrol_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_police": {
+     "all": "body_police_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f_police": {
+     "all": "bumper_f_police_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "headrest_standard"
+    },
+    "wheel.tire": {
+     "fl": "tire_03_fl",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_03_bl",
+     "br": "tire_03_br"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_03_fl",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_03_bl",
+     "br": "wheel_03_br"
+    }
+   }
+  },
+  "villefort_cortes__basic_burnt_police": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_cortes__basic.app",
+   "app_look": "burnt_police",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_police": {
+     "all": "body_police_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "headrest_standard"
+    },
+    "base.seat.headrest_delamain": {
+     "all": "headrest_delamain"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.394,
+   0.2784,
+   0.2467,
+   -0.1083
+  ],
+  "b": [
+   0.394,
+   0.2784,
+   0.2489,
+   -0.1083
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "2a0889ba",
+   "rim": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_fl_02",
+   "tire_code": "tire_fl_02",
+   "from": "Cortes V5000 Valor",
+   "radius": 0.3927,
+   "width": 0.2865,
+   "rim_radius": 0.2768,
+   "tire_center": -0.0935,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 16,
+   "paints": [
+    "primer_black"
+   ],
+   "default_paint": "primer_black",
+   "kind": "car",
+   "look_names": [
+    "villefort_cortes__basic:default",
+    "villefort_cortes__basic:poor_1_01",
+    "villefort_cortes__basic:poor_1_02",
+    "villefort_cortes__basic:poor_1_03",
+    "villefort_cortes__basic:poor_1_04",
+    "villefort_cortes__basic:poor_1_05",
+    "villefort_cortes__basic:poor_1_06",
+    "villefort_cortes__basic:trevors"
+   ]
+  },
+  {
+   "id": "2a878932",
+   "rim": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Cortes V5000 Valor",
+   "radius": 0.3927,
+   "width": 0.3932,
+   "rim_radius": 0.3167,
+   "tire_center": -0.0469,
+   "axles": [
+    "b"
+   ],
+   "looks": 18,
+   "paints": [
+    "delamain",
+    "kangtao_01",
+    "padre",
+    "chrome",
+    "copper",
+    "gunmetal"
+   ],
+   "default_paint": "delamain",
+   "kind": "car",
+   "look_names": [
+    "villefort_cortes__basic:delamain",
+    "villefort_cortes__basic:delamain_bulletholes",
+    "villefort_cortes__basic:delamain_dented_q005",
+    "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+    "villefort_cortes__basic:delamain_konpeki",
+    "villefort_cortes__basic:delamain_konpeki_garage",
+    "villefort_cortes__basic:delamain_missile_trunk",
+    "villefort_cortes__basic:delamain_q307",
+    "villefort_cortes__basic:delamain_taxi",
+    "villefort_cortes__basic:mafia_01",
+    "villefort_cortes__basic:padre",
+    "villefort_cortes__basic:player_01",
+    "villefort_cortes__basic:sq012_peralez",
+    "villefort_cortes__basic:urban_1_01",
+    "villefort_cortes__basic:urban_1_02",
+    "villefort_cortes__basic:urban_1_03",
+    "villefort_cortes__basic:urban_1_04",
+    "villefort_cortes__basic:urban_1_05"
+   ]
+  },
+  {
+   "id": "0429603a",
+   "rim": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Cortes V5000 Valor",
+   "radius": 0.3927,
+   "width": 0.3932,
+   "rim_radius": 0.3167,
+   "tire_center": -0.0469,
+   "axles": [
+    "f"
+   ],
+   "looks": 19,
+   "paints": [
+    "padre",
+    "delamain",
+    "chrome",
+    "copper",
+    "gunmetal",
+    "red",
+    "turquoise"
+   ],
+   "default_paint": "delamain",
+   "kind": "car",
+   "look_names": [
+    "villefort_cortes__basic:arasaka_01",
+    "villefort_cortes__basic:delamain",
+    "villefort_cortes__basic:delamain_bulletholes",
+    "villefort_cortes__basic:delamain_dented_q005",
+    "villefort_cortes__basic:delamain_dented_q005_bulletholes",
+    "villefort_cortes__basic:delamain_konpeki",
+    "villefort_cortes__basic:delamain_konpeki_garage",
+    "villefort_cortes__basic:delamain_missile_trunk",
+    "villefort_cortes__basic:delamain_q307",
+    "villefort_cortes__basic:delamain_taxi",
+    "villefort_cortes__basic:kangtao_01",
+    "villefort_cortes__basic:suburban_1_01",
+    "villefort_cortes__basic:suburban_1_02",
+    "villefort_cortes__basic:suburban_1_03",
+    "villefort_cortes__basic:suburban_1_04",
+    "villefort_cortes__basic:suburban_1_05",
+    "villefort_cortes__basic:suburban_1_06",
+    "villefort_cortes__basic:suburban_1_07",
+    "villefort_cortes__basic:suburban_1_08"
+   ]
+  },
+  {
+   "id": "4d3fe950",
+   "rim": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_police_01",
+   "tire_code": "tire_fl_police_01",
+   "from": "Cortes V5000 Valor",
+   "radius": 0.394,
+   "width": 0.2784,
+   "rim_radius": 0.2467,
+   "tire_center": -0.1083,
+   "axles": [
+    "f"
+   ],
+   "looks": 7,
+   "paints": [
+    "police_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "villefort_cortes__basic:q108_15c_arasaka",
+    "villefort_cortes__basic_black_agent",
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_police_q000_streetkid",
+    "villefort_cortes__basic_police_q000_streetkid_02",
+    "villefort_cortes__basic_sheriff_01"
+   ]
+  },
+  {
+   "id": "68729a25",
+   "rim": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_police_02",
+   "tire_code": "tire_fl_police_01",
+   "from": "Cortes V5000 Valor",
+   "radius": 0.394,
+   "width": 0.2784,
+   "rim_radius": 0.2489,
+   "tire_center": -0.1083,
+   "axles": [
+    "b"
+   ],
+   "looks": 7,
+   "paints": [
+    "suburban_01",
+    "wraiths_01",
+    "player_01",
+    "aldecados_01",
+    "aldecados_02",
+    "wraiths_02"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "villefort_cortes__basic:q108_15c_arasaka",
+    "villefort_cortes__basic_black_agent",
+    "villefort_cortes__basic_boder_patrol_01",
+    "villefort_cortes__basic_police_01",
+    "villefort_cortes__basic_police_q000_streetkid",
+    "villefort_cortes__basic_police_q000_streetkid_02",
+    "villefort_cortes__basic_sheriff_01"
+   ]
+  },
+  {
+   "id": "66b13b86",
+   "rim": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Cortes V5000 Valor",
+   "radius": 0.3927,
+   "width": 0.3932,
+   "rim_radius": 0.3167,
+   "tire_center": -0.0469,
+   "axles": [
+    "b"
+   ],
+   "looks": 10,
+   "paints": [
+    "padre",
+    "delamain",
+    "chrome",
+    "copper",
+    "gunmetal",
+    "red",
+    "turquoise"
+   ],
+   "default_paint": "chrome",
+   "kind": "car",
+   "look_names": [
+    "villefort_cortes__basic:arasaka_01",
+    "villefort_cortes__basic:kangtao_01",
+    "villefort_cortes__basic:suburban_1_01",
+    "villefort_cortes__basic:suburban_1_02",
+    "villefort_cortes__basic:suburban_1_03",
+    "villefort_cortes__basic:suburban_1_04",
+    "villefort_cortes__basic:suburban_1_05",
+    "villefort_cortes__basic:suburban_1_06",
+    "villefort_cortes__basic:suburban_1_07",
+    "villefort_cortes__basic:suburban_1_08"
+   ]
+  },
+  {
+   "id": "355b875e",
+   "rim": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Cortes V5000 Valor",
+   "radius": 0.3927,
+   "width": 0.3932,
+   "rim_radius": 0.3167,
+   "tire_center": -0.0469,
+   "axles": [
+    "f"
+   ],
+   "looks": 9,
+   "paints": [
+    "delamain",
+    "kangtao_01",
+    "padre",
+    "chrome",
+    "copper",
+    "gunmetal"
+   ],
+   "default_paint": "padre",
+   "kind": "car",
+   "look_names": [
+    "villefort_cortes__basic:mafia_01",
+    "villefort_cortes__basic:padre",
+    "villefort_cortes__basic:player_01",
+    "villefort_cortes__basic:sq012_peralez",
+    "villefort_cortes__basic:urban_1_01",
+    "villefort_cortes__basic:urban_1_02",
+    "villefort_cortes__basic:urban_1_03",
+    "villefort_cortes__basic:urban_1_04",
+    "villefort_cortes__basic:urban_1_05"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "villefort_cortes__basic_boder_patrol_01",
+   "Cortes V6000 NCPD Overlord"
+  ],
+  [
+   "villefort_cortes__basic_police_01",
+   "Cortes V6000 NCPD Overlord"
+  ],
+  [
+   "villefort_cortes__basic_sheriff_01",
+   "Cortes V6000 NCPD Overlord"
+  ]
+ ]
+}

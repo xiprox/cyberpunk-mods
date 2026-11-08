@@ -1,0 +1,1425 @@
+13:49:03 runner on; job sweep_b; waiting for the save to load
+13:49:08 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+13:49:19 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+13:49:29 the run script says the start screen is gone
+13:49:29 waiting at the menu: start screen closed, newest save known (modded), menu here, 1 tries
+13:49:29 main menu continued the newest save; waiting for the world
+13:49:51 world loaded; job sweep_b
+13:49:51   engine: ready: 96 catalogs, 480 pool records, 69 look files watched
+13:49:51   engine: build 1: Vehicle.vc_archer_hella__basic_01_1 called in archer_hella__basic_player_01; 2 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 1 kit parts added
+13:49:51   engine: attached: Vehicle.vc_archer_hella__basic_01_1 in archer_hella__basic_player_01, switching to its build's look
+13:49:51   engine: kept Vehicle.vc_archer_hella__basic_01_1's look archer_hella__basic_player_01 against the game's reset
+13:49:51   engine: build 2: Vehicle.vc_archer_hella__basic_01_1 rebuilt in archer_hella__basic_poor_2__vc_a; 2 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 1 kit parts added
+13:49:51 step 1: engine and catalogs; 96 catalogs to go through
+13:49:51 PASS engine is running
+13:49:51 PASS saving is locked for the run
+13:49:52 step 2: turn V away from their own car
+13:49:54 step 3: thorton_galena_nomad__01: build it and spawn it
+13:49:54   thorton_galena_nomad__01: 11 styles, 14 slots, 6 kits; build 553 characters
+13:49:54   spawned entity 10789226ULL 12 m ahead of V
+13:49:54   engine: build 3: Vehicle.vc_thorton_galena_nomad__01_4 called in thorton_galena_nomad_player_01; 22 parts swapped, 4 repainted, 1 added where the look has none, 0 failed, 3 kit parts added
+13:49:54   engine: attached: Vehicle.vc_thorton_galena_nomad__01_4 in thorton_galena_nomad_player_01, switching to its build's look
+13:49:54   engine: build 4: Vehicle.vc_thorton_galena_nomad__01_4 rebuilt in thorton_galena_nomad_wraiths_05__vc_a; 20 parts swapped, 2 repainted, 3 added where the look has none, 0 failed, 3 kit parts added
+13:49:54   done waiting for the copy to appear (0.1 s)
+13:49:55 step 4: thorton_galena_nomad__01: wait for its style
+13:49:55   done waiting for thorton_galena_nomad__01 in its style's look (0.0 s)
+13:49:58 step 5: thorton_galena_nomad__01: check it
+13:49:58 PASS thorton_galena_nomad__01 spawned - Vehicle.vc_thorton_galena_nomad__01_4
+13:49:58 PASS thorton_galena_nomad__01 - thorton_galena_nomad_wraiths_05__vc_a; ok (32 parts checked)
+13:49:58 PASS thorton_galena_nomad__01: every part placed - 20 parts swapped, 2 repainted, 3 added where the look has none, 0 failed, 3 kit parts added
+13:49:58 SHOT sweep_thorton_galena_nomad__01
+13:50:02 step 6: thorton_galena_nomad__01: take it away
+13:50:03 step 7: thorton_mackinaw_bmf_01: build it and spawn it
+13:50:03   thorton_mackinaw_bmf_01: 1 styles, 1 slots, 0 kits; build 72 characters
+13:50:03   spawned entity 10789246ULL 12 m ahead of V
+13:50:03   engine: build 5: Vehicle.vc_thorton_mackinaw_bmf_01_4 called in thorton_mackinaw_bmf_bmf_01; 1 parts swapped, 1 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:50:03   engine: attached: Vehicle.vc_thorton_mackinaw_bmf_01_4 in thorton_mackinaw_bmf_bmf_01
+13:50:03   done waiting for the copy to appear (0.1 s)
+13:50:04 step 8: thorton_mackinaw_bmf_01: wait for its style
+13:50:04   done waiting for thorton_mackinaw_bmf_01 in its style's look (0.0 s)
+13:50:07 step 9: thorton_mackinaw_bmf_01: check it
+13:50:07 PASS thorton_mackinaw_bmf_01 spawned - Vehicle.vc_thorton_mackinaw_bmf_01_4
+13:50:07 PASS thorton_mackinaw_bmf_01 - thorton_mackinaw_bmf_bmf_01; ok (1 parts checked)
+13:50:07 PASS thorton_mackinaw_bmf_01: every part placed - 1 parts swapped, 1 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:50:07 SHOT sweep_thorton_mackinaw_bmf_01
+13:50:11 step 10: thorton_mackinaw_bmf_01: take it away
+13:50:12 step 11: thorton_mackinaw_nomad_01__basic_01: build it and spawn it
+13:50:12   thorton_mackinaw_nomad_01__basic_01: 2 styles, 7 slots, 3 kits; build 261 characters
+13:50:12   spawned entity 10789255ULL 12 m ahead of V
+13:50:12   engine: build 6: Vehicle.vc_thorton_mackinaw_nomad_01__basic_01_4 called in thorton_mackinaw_nomad_saguaro_01; 12 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:50:13   engine: attached: Vehicle.vc_thorton_mackinaw_nomad_01__basic_01_4 in thorton_mackinaw_nomad_saguaro_01, switching to its build's look
+13:50:13   engine: build 7: Vehicle.vc_thorton_mackinaw_nomad_01__basic_01_4 rebuilt in thorton_mackinaw_nomad_panams_truck__vc_a; 12 parts swapped, 6 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:50:13   done waiting for the copy to appear (0.1 s)
+13:50:14 step 12: thorton_mackinaw_nomad_01__basic_01: wait for its style
+13:50:14   done waiting for thorton_mackinaw_nomad_01__basic_01 in its style's look (0.0 s)
+13:50:17 step 13: thorton_mackinaw_nomad_01__basic_01: check it
+13:50:17 PASS thorton_mackinaw_nomad_01__basic_01 spawned - Vehicle.vc_thorton_mackinaw_nomad_01__basic_01_4
+13:50:17 PASS thorton_mackinaw_nomad_01__basic_01 - thorton_mackinaw_nomad_panams_truck__vc_a; ok (12 parts checked)
+13:50:17 PASS thorton_mackinaw_nomad_01__basic_01: every part placed - 12 parts swapped, 6 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:50:17 SHOT sweep_thorton_mackinaw_nomad_01__basic_01
+13:50:21 step 14: thorton_mackinaw_nomad_01__basic_01: take it away
+13:50:22 step 15: thorton_colby_pickup__kurtz_01_ep1: build it and spawn it
+13:50:22   thorton_colby_pickup__kurtz_01_ep1: 8 styles, 15 slots, 19 kits; build 594 characters
+13:50:22   spawned entity 10789289ULL 12 m ahead of V
+13:50:22   engine: build 8: Vehicle.vc_thorton_colby_pickup__kurtz_01_ep1_4 called in thorton_colby_pickup_kurtz_player_01; 22 parts swapped, 11 repainted, 1 added where the look has none, 0 failed, 3 kit parts added
+13:50:22   engine: attached: Vehicle.vc_thorton_colby_pickup__kurtz_01_ep1_4 in thorton_colby_pickup_kurtz_player_01
+13:50:22   done waiting for the copy to appear (0.1 s)
+13:50:23 step 16: thorton_colby_pickup__kurtz_01_ep1: wait for its style
+13:50:23   done waiting for thorton_colby_pickup__kurtz_01_ep1 in its style's look (0.0 s)
+13:50:26 step 17: thorton_colby_pickup__kurtz_01_ep1: check it
+13:50:26 PASS thorton_colby_pickup__kurtz_01_ep1 spawned - Vehicle.vc_thorton_colby_pickup__kurtz_01_ep1_4
+13:50:26 PASS thorton_colby_pickup__kurtz_01_ep1 - thorton_colby_pickup_kurtz_player_01; ok (27 parts checked)
+13:50:26 PASS thorton_colby_pickup__kurtz_01_ep1: every part placed - 22 parts swapped, 11 repainted, 1 added where the look has none, 0 failed, 3 kit parts added
+13:50:26 SHOT sweep_thorton_colby_pickup__kurtz_01_ep1
+13:50:30 step 18: thorton_colby_pickup__kurtz_01_ep1: take it away
+13:50:31 step 19: yaiba_kusanagi_basic_01: build it and spawn it
+13:50:31   yaiba_kusanagi_basic_01: 9 styles, 7 slots, 4 kits; build 265 characters
+13:50:31   spawned entity 10789304ULL 12 m ahead of V
+13:50:31   engine: build 9: Vehicle.vc_yaiba_kusanagi_basic_01_4 called in yaiba_kusanagi_basic_player_01; 8 parts swapped, 3 repainted, 1 added where the look has none, 0 failed, 2 kit parts added
+13:50:31   engine: attached: Vehicle.vc_yaiba_kusanagi_basic_01_4 in yaiba_kusanagi_basic_player_01, switching to its build's look
+13:50:31   engine: build 10: Vehicle.vc_yaiba_kusanagi_basic_01_4 rebuilt in yaiba_kusanagi_basic_suburban_01__vc_a; 8 parts swapped, 3 repainted, 1 added where the look has none, 0 failed, 2 kit parts added
+13:50:31   done waiting for the copy to appear (0.1 s)
+13:50:32 step 20: yaiba_kusanagi_basic_01: wait for its style
+13:50:32   done waiting for yaiba_kusanagi_basic_01 in its style's look (0.0 s)
+13:50:35 step 21: yaiba_kusanagi_basic_01: check it
+13:50:35 PASS yaiba_kusanagi_basic_01 spawned - Vehicle.vc_yaiba_kusanagi_basic_01_4
+13:50:35 PASS yaiba_kusanagi_basic_01 - yaiba_kusanagi_basic_suburban_01__vc_a; ok (11 parts checked)
+13:50:35 PASS yaiba_kusanagi_basic_01: every part placed - 8 parts swapped, 3 repainted, 1 added where the look has none, 0 failed, 2 kit parts added
+13:50:35 SHOT sweep_yaiba_kusanagi_basic_01
+13:50:39 step 22: yaiba_kusanagi_basic_01: take it away
+13:50:40 step 23: archer_quartz__basic_01: build it and spawn it
+13:50:40   archer_quartz__basic_01: 10 styles, 13 slots, 4 kits; build 451 characters
+13:50:40   spawned entity 10789307ULL 12 m ahead of V
+13:50:40   engine: build 11: Vehicle.vc_archer_quartz__basic_01_4 called in archer_quartz__basic_suburban_1_1; 21 parts swapped, 19 repainted, 0 added where the look has none, 0 failed, 2 kit parts added
+13:50:40   engine: attached: Vehicle.vc_archer_quartz__basic_01_4 in archer_quartz__basic_suburban_1_1, switching to its build's look
+13:50:40   engine: build 12: Vehicle.vc_archer_quartz__basic_01_4 rebuilt in archer_quartz__basic_player_01__vc_a; 20 parts swapped, 8 repainted, 1 added where the look has none, 0 failed, 2 kit parts added
+13:50:40   done waiting for the copy to appear (0.1 s)
+13:50:41 step 24: archer_quartz__basic_01: wait for its style
+13:50:41   done waiting for archer_quartz__basic_01 in its style's look (0.0 s)
+13:50:44 step 25: archer_quartz__basic_01: check it
+13:50:44 PASS archer_quartz__basic_01 spawned - Vehicle.vc_archer_quartz__basic_01_4
+13:50:44 PASS archer_quartz__basic_01 - archer_quartz__basic_player_01__vc_a; ok (23 parts checked)
+13:50:44 PASS archer_quartz__basic_01: every part placed - 20 parts swapped, 8 repainted, 1 added where the look has none, 0 failed, 2 kit parts added
+13:50:44 SHOT sweep_archer_quartz__basic_01
+13:50:48 step 26: archer_quartz__basic_01: take it away
+13:50:49 step 27: thorton_merrimac_01_player_01_ep1: build it and spawn it
+13:50:49   thorton_merrimac_01_player_01_ep1: 1 styles, 21 slots, 5 kits; build 741 characters
+13:50:49   spawned entity 10789334ULL 12 m ahead of V
+13:50:49   engine: build 13: Vehicle.vc_thorton_merrimac_01_player_01_ep1_4 called in thorton_merrimac_basic_player_01; 33 parts swapped, 17 repainted, 2 added where the look has none, 0 failed, 4 kit parts added
+13:50:50   engine: attached: Vehicle.vc_thorton_merrimac_01_player_01_ep1_4 in thorton_merrimac_basic_player_01
+13:50:50   done waiting for the copy to appear (0.1 s)
+13:50:51 step 28: thorton_merrimac_01_player_01_ep1: wait for its style
+13:50:51   done waiting for thorton_merrimac_01_player_01_ep1 in its style's look (0.0 s)
+13:50:54 step 29: thorton_merrimac_01_player_01_ep1: check it
+13:50:54 PASS thorton_merrimac_01_player_01_ep1 spawned - Vehicle.vc_thorton_merrimac_01_player_01_ep1_4
+13:50:54 PASS thorton_merrimac_01_player_01_ep1 - thorton_merrimac_basic_player_01; ok (39 parts checked)
+13:50:54 PASS thorton_merrimac_01_player_01_ep1: every part placed - 33 parts swapped, 17 repainted, 2 added where the look has none, 0 failed, 4 kit parts added
+13:50:54 SHOT sweep_thorton_merrimac_01_player_01_ep1
+13:50:58 step 30: thorton_merrimac_01_player_01_ep1: take it away
+13:50:59 step 31: thorton_galena_01__basic_01: build it and spawn it
+13:50:59   thorton_galena_01__basic_01: 12 styles, 14 slots, 6 kits; build 576 characters
+13:50:59   spawned entity 10789348ULL 12 m ahead of V
+13:50:59   engine: build 14: Vehicle.vc_thorton_galena_01__basic_01_4 called in thorton_galena__basic_q000_galena_bobas; 20 parts swapped, 14 repainted, 3 added where the look has none, 0 failed, 11 kit parts added
+13:50:59   engine: attached: Vehicle.vc_thorton_galena_01__basic_01_4 in thorton_galena__basic_q000_galena_bobas, switching to its build's look
+13:50:59   engine: build 15: Vehicle.vc_thorton_galena_01__basic_01_4 rebuilt in thorton_galena__basic_voodoo_01__vc_a; 22 parts swapped, 20 repainted, 1 added where the look has none, 0 failed, 11 kit parts added
+13:50:59   done waiting for the copy to appear (0.1 s)
+13:51:00 step 32: thorton_galena_01__basic_01: wait for its style
+13:51:00   done waiting for thorton_galena_01__basic_01 in its style's look (0.0 s)
+13:51:03 step 33: thorton_galena_01__basic_01: check it
+13:51:03 PASS thorton_galena_01__basic_01 spawned - Vehicle.vc_thorton_galena_01__basic_01_4
+13:51:03 PASS thorton_galena_01__basic_01 - thorton_galena__basic_voodoo_01__vc_a; ok (36 parts checked)
+13:51:03 PASS thorton_galena_01__basic_01: every part placed - 22 parts swapped, 20 repainted, 1 added where the look has none, 0 failed, 11 kit parts added
+13:51:03 SHOT sweep_thorton_galena_01__basic_01
+13:51:07 step 34: thorton_galena_01__basic_01: take it away
+13:51:08 step 35: quadra_type66_nomad__basic_01: build it and spawn it
+13:51:08   quadra_type66_nomad__basic_01: 10 styles, 11 slots, 8 kits; build 454 characters
+13:51:08   spawned entity 10789382ULL 12 m ahead of V
+13:51:08   engine: build 16: Vehicle.vc_quadra_type66_nomad__basic_01_4 called in quadra_type66_nomad_player_01; 16 parts swapped, 16 repainted, 1 added where the look has none, 0 failed, 18 kit parts added
+13:51:08   engine: attached: Vehicle.vc_quadra_type66_nomad__basic_01_4 in quadra_type66_nomad_player_01, switching to its build's look
+13:51:08   engine: build 17: Vehicle.vc_quadra_type66_nomad__basic_01_4 rebuilt in quadra_type66_nomad_wraiths_04__vc_a; 14 parts swapped, 7 repainted, 3 added where the look has none, 0 failed, 18 kit parts added
+13:51:08   done waiting for the copy to appear (0.1 s)
+13:51:09 step 36: quadra_type66_nomad__basic_01: wait for its style
+13:51:09   done waiting for quadra_type66_nomad__basic_01 in its style's look (0.0 s)
+13:51:12 step 37: quadra_type66_nomad__basic_01: check it
+13:51:12 PASS quadra_type66_nomad__basic_01 spawned - Vehicle.vc_quadra_type66_nomad__basic_01_4
+13:51:12 PASS quadra_type66_nomad__basic_01 - quadra_type66_nomad_wraiths_04__vc_a; ok (37 parts checked)
+13:51:12 PASS quadra_type66_nomad__basic_01: every part placed - 14 parts swapped, 7 repainted, 3 added where the look has none, 0 failed, 18 kit parts added
+13:51:12 SHOT sweep_quadra_type66_nomad__basic_01
+13:51:16 step 38: quadra_type66_nomad__basic_01: take it away
+13:51:17 step 39: thorton_colby_pickup_nomad__basic_01: build it and spawn it
+13:51:17   thorton_colby_pickup_nomad__basic_01: 12 styles, 11 slots, 13 kits; build 453 characters
+13:51:17   spawned entity 10789398ULL 12 m ahead of V
+13:51:17   engine: build 18: Vehicle.vc_thorton_colby_pickup_nomad__basic_01_4 called in thorton_colby_pickup_nomad_player_01; 19 parts swapped, 12 repainted, 0 added where the look has none, 0 failed, 24 kit parts added
+13:51:17   engine: attached: Vehicle.vc_thorton_colby_pickup_nomad__basic_01_4 in thorton_colby_pickup_nomad_player_01, switching to its build's look
+13:51:17   engine: build 19: Vehicle.vc_thorton_colby_pickup_nomad__basic_01_4 rebuilt in thorton_colby_pickup_nomad_wraiths_05__vc_a; 18 parts swapped, 8 repainted, 1 added where the look has none, 0 failed, 24 kit parts added
+13:51:17   done waiting for the copy to appear (0.1 s)
+13:51:18 step 40: thorton_colby_pickup_nomad__basic_01: wait for its style
+13:51:18   done waiting for thorton_colby_pickup_nomad__basic_01 in its style's look (0.0 s)
+13:51:21 step 41: thorton_colby_pickup_nomad__basic_01: check it
+13:51:21 PASS thorton_colby_pickup_nomad__basic_01 spawned - Vehicle.vc_thorton_colby_pickup_nomad__basic_01_4
+13:51:21 PASS thorton_colby_pickup_nomad__basic_01 - thorton_colby_pickup_nomad_wraiths_05__vc_a; ok (47 parts checked)
+13:51:21 PASS thorton_colby_pickup_nomad__basic_01: every part placed - 18 parts swapped, 8 repainted, 1 added where the look has none, 0 failed, 24 kit parts added
+13:51:21 SHOT sweep_thorton_colby_pickup_nomad__basic_01
+13:51:25 step 42: thorton_colby_pickup_nomad__basic_01: take it away
+13:51:26 step 43: quadra_turbo__basic_01: build it and spawn it
+13:51:26   quadra_turbo__basic_01: 8 styles, 15 slots, 14 kits; build 562 characters
+13:51:26   spawned entity 10789433ULL 12 m ahead of V
+13:51:27   engine: build 20: Vehicle.vc_quadra_turbo__basic_01_4 called in quadra_turbo_basic_player_02; 25 parts swapped, 12 repainted, 0 added where the look has none, 0 failed, 6 kit parts added
+13:51:27   engine: attached: Vehicle.vc_quadra_turbo__basic_01_4 in quadra_turbo_basic_player_02, switching to its build's look
+13:51:27   engine: build 21: Vehicle.vc_quadra_turbo__basic_01_4 rebuilt in quadra_turbo_basic_urban_01__vc_a; 25 parts swapped, 12 repainted, 0 added where the look has none, 0 failed, 6 kit parts added
+13:51:27   done waiting for the copy to appear (0.1 s)
+13:51:28 step 44: quadra_turbo__basic_01: wait for its style
+13:51:28   done waiting for quadra_turbo__basic_01 in its style's look (0.0 s)
+13:51:31 step 45: quadra_turbo__basic_01: check it
+13:51:31 PASS quadra_turbo__basic_01 spawned - Vehicle.vc_quadra_turbo__basic_01_4
+13:51:31 PASS quadra_turbo__basic_01 - quadra_turbo_basic_urban_01__vc_a; ok (31 parts checked)
+13:51:31 PASS quadra_turbo__basic_01: every part placed - 25 parts swapped, 12 repainted, 0 added where the look has none, 0 failed, 6 kit parts added
+13:51:31 SHOT sweep_quadra_turbo__basic_01
+13:51:35 step 46: quadra_turbo__basic_01: take it away
+13:51:36 step 47: chevalier_emperor_01__basic_01: build it and spawn it
+13:51:36   chevalier_emperor_01__basic_01: 6 styles, 19 slots, 10 kits; build 699 characters
+13:51:36   spawned entity 10789483ULL 12 m ahead of V
+13:51:36   engine: build 22: Vehicle.vc_chevalier_emperor_01__basic_01_4 called in chevalier_emperor__basic_player_01; 31 parts swapped, 18 repainted, 0 added where the look has none, 0 failed, 37 kit parts added
+13:51:36   engine: attached: Vehicle.vc_chevalier_emperor_01__basic_01_4 in chevalier_emperor__basic_player_01, switching to its build's look
+13:51:36   engine: build 23: Vehicle.vc_chevalier_emperor_01__basic_01_4 rebuilt in chevalier_emperor__basic_suburban_1__vc_a; 31 parts swapped, 18 repainted, 0 added where the look has none, 0 failed, 37 kit parts added
+13:51:36   done waiting for the copy to appear (0.1 s)
+13:51:37 step 48: chevalier_emperor_01__basic_01: wait for its style
+13:51:37   done waiting for chevalier_emperor_01__basic_01 in its style's look (0.0 s)
+13:51:40 step 49: chevalier_emperor_01__basic_01: check it
+13:51:40 PASS chevalier_emperor_01__basic_01 spawned - Vehicle.vc_chevalier_emperor_01__basic_01_4
+13:51:40 PASS chevalier_emperor_01__basic_01 - chevalier_emperor__basic_suburban_1__vc_a; ok (70 parts checked)
+13:51:40 PASS chevalier_emperor_01__basic_01: every part placed - 31 parts swapped, 18 repainted, 0 added where the look has none, 0 failed, 37 kit parts added
+13:51:40 SHOT sweep_chevalier_emperor_01__basic_01
+13:51:44 step 50: chevalier_emperor_01__basic_01: take it away
+13:51:45 step 51: chevalier_thrax__basic_01: build it and spawn it
+13:51:45   chevalier_thrax__basic_01: 9 styles, 14 slots, 14 kits; build 556 characters
+13:51:45   spawned entity 10789504ULL 12 m ahead of V
+13:51:45   engine: build 24: Vehicle.vc_chevalier_thrax__basic_01_4 called in chevalier_thrax__basic_player_01; 26 parts swapped, 16 repainted, 0 added where the look has none, 0 failed, 9 kit parts added
+13:51:45   engine: attached: Vehicle.vc_chevalier_thrax__basic_01_4 in chevalier_thrax__basic_player_01, switching to its build's look
+13:51:45   engine: build 25: Vehicle.vc_chevalier_thrax__basic_01_4 rebuilt in chevalier_thrax__basic_valentinos_02__vc_a; 26 parts swapped, 12 repainted, 0 added where the look has none, 0 failed, 9 kit parts added
+13:51:45   done waiting for the copy to appear (0.1 s)
+13:51:46 step 52: chevalier_thrax__basic_01: wait for its style
+13:51:46   done waiting for chevalier_thrax__basic_01 in its style's look (0.0 s)
+13:51:49 step 53: chevalier_thrax__basic_01: check it
+13:51:49 PASS chevalier_thrax__basic_01 spawned - Vehicle.vc_chevalier_thrax__basic_01_4
+13:51:49 PASS chevalier_thrax__basic_01 - chevalier_thrax__basic_valentinos_02__vc_a; ok (35 parts checked)
+13:51:49 PASS chevalier_thrax__basic_01: every part placed - 26 parts swapped, 12 repainted, 0 added where the look has none, 0 failed, 9 kit parts added
+13:51:49 SHOT sweep_chevalier_thrax__basic_01
+13:51:53 step 54: chevalier_thrax__basic_01: take it away
+13:51:54 step 55: quadra_type66__basic_01: build it and spawn it
+13:51:54   quadra_type66__basic_01: 11 styles, 17 slots, 3 kits; build 558 characters
+13:51:54   spawned entity 10789538ULL 12 m ahead of V
+13:51:54   engine: build 26: Vehicle.vc_quadra_type66__basic_01_4 called in quadra_type66__basic_bulleat; 20 parts swapped, 13 repainted, 7 added where the look has none, 0 failed, 0 kit parts added
+13:51:54   engine: attached: Vehicle.vc_quadra_type66__basic_01_4 in quadra_type66__basic_bulleat, switching to its build's look
+13:51:54   engine: build 27: Vehicle.vc_quadra_type66__basic_01_4 rebuilt in quadra_type66__basic_urban_01__vc_a; 25 parts swapped, 13 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:51:54   done waiting for the copy to appear (0.1 s)
+13:51:55 step 56: quadra_type66__basic_01: wait for its style
+13:51:55   done waiting for quadra_type66__basic_01 in its style's look (0.0 s)
+13:51:58 step 57: quadra_type66__basic_01: check it
+13:51:58 PASS quadra_type66__basic_01 spawned - Vehicle.vc_quadra_type66__basic_01_4
+13:51:58 PASS quadra_type66__basic_01 - quadra_type66__basic_urban_01__vc_a; ok (27 parts checked)
+13:51:58 PASS quadra_type66__basic_01: every part placed - 25 parts swapped, 13 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:51:58 SHOT sweep_quadra_type66__basic_01
+13:52:02 step 58: quadra_type66__basic_01: take it away
+13:52:03 step 59: mahir_supron_01__basic_01: build it and spawn it
+13:52:03   mahir_supron_01__basic_01: 7 styles, 11 slots, 3 kits; build 362 characters
+13:52:03   spawned entity 10789569ULL 12 m ahead of V
+13:52:04   engine: build 28: Vehicle.vc_mahir_supron_01__basic_01_4 called in mahir_supron__basic_urban_02; 20 parts swapped, 16 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:52:04   engine: attached: Vehicle.vc_mahir_supron_01__basic_01_4 in mahir_supron__basic_urban_02, switching to its build's look
+13:52:04   engine: build 29: Vehicle.vc_mahir_supron_01__basic_01_4 rebuilt in mahir_supron__basic_player_01__vc_a; 19 parts swapped, 17 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:52:04   done waiting for the copy to appear (0.1 s)
+13:52:05 step 60: mahir_supron_01__basic_01: wait for its style
+13:52:05   done waiting for mahir_supron_01__basic_01 in its style's look (0.0 s)
+13:52:08 step 61: mahir_supron_01__basic_01: check it
+13:52:08 PASS mahir_supron_01__basic_01 spawned - Vehicle.vc_mahir_supron_01__basic_01_4
+13:52:08 PASS mahir_supron_01__basic_01 - mahir_supron__basic_player_01__vc_a; ok (20 parts checked)
+13:52:08 PASS mahir_supron_01__basic_01: every part placed - 19 parts swapped, 17 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:52:08 SHOT sweep_mahir_supron_01__basic_01
+13:52:12 step 62: mahir_supron_01__basic_01: take it away
+13:52:13 step 63: arch_nemesis_lina_01_ep1: build it and spawn it
+13:52:13   arch_nemesis_lina_01_ep1: 1 styles, 6 slots, 3 kits; build 229 characters
+13:52:13   spawned entity 10789587ULL 12 m ahead of V
+13:52:13   engine: build 30: Vehicle.vc_arch_nemesis_lina_01_ep1_4 called in arch_nemesis_lina_lina_malina_02; 8 parts swapped, 1 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:52:13   engine: attached: Vehicle.vc_arch_nemesis_lina_01_ep1_4 in arch_nemesis_lina_lina_malina_02
+13:52:13   done waiting for the copy to appear (0.1 s)
+13:52:14 step 64: arch_nemesis_lina_01_ep1: wait for its style
+13:52:14   done waiting for arch_nemesis_lina_01_ep1 in its style's look (0.0 s)
+13:52:17 step 65: arch_nemesis_lina_01_ep1: check it
+13:52:17 PASS arch_nemesis_lina_01_ep1 spawned - Vehicle.vc_arch_nemesis_lina_01_ep1_4
+13:52:17 PASS arch_nemesis_lina_01_ep1 - arch_nemesis_lina_lina_malina_02; ok (8 parts checked)
+13:52:17 PASS arch_nemesis_lina_01_ep1: every part placed - 8 parts swapped, 1 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:52:17 SHOT sweep_arch_nemesis_lina_01_ep1
+13:52:21 step 66: arch_nemesis_lina_01_ep1: take it away
+13:52:22 step 67: makigai_tanishi_basic_01_ep1: build it and spawn it
+13:52:22   makigai_tanishi_basic_01_ep1: 10 styles, 24 slots, 3 kits; build 879 characters
+13:52:22   spawned entity 10789608ULL 12 m ahead of V
+13:52:22   engine: build 31: Vehicle.vc_makigai_tanishi_basic_01_ep1_4 called in makigai_tanishi_basic_player_mr_hands; 20 parts swapped, 13 repainted, 12 added where the look has none, 0 failed, 0 kit parts added
+13:52:22   engine: attached: Vehicle.vc_makigai_tanishi_basic_01_ep1_4 in makigai_tanishi_basic_player_mr_hands, switching to its build's look
+13:52:22   engine: build 32: Vehicle.vc_makigai_tanishi_basic_01_ep1_4 rebuilt in makigai_tanishi_basic_urban_01__vc_a; 20 parts swapped, 9 repainted, 12 added where the look has none, 0 failed, 0 kit parts added
+13:52:22   done waiting for the copy to appear (0.1 s)
+13:52:23 step 68: makigai_tanishi_basic_01_ep1: wait for its style
+13:52:23   done waiting for makigai_tanishi_basic_01_ep1 in its style's look (0.0 s)
+13:52:26 step 69: makigai_tanishi_basic_01_ep1: check it
+13:52:26 PASS makigai_tanishi_basic_01_ep1 spawned - Vehicle.vc_makigai_tanishi_basic_01_ep1_4
+13:52:26 PASS makigai_tanishi_basic_01_ep1 - makigai_tanishi_basic_urban_01__vc_a; ok (32 parts checked)
+13:52:26 PASS makigai_tanishi_basic_01_ep1: every part placed - 20 parts swapped, 9 repainted, 12 added where the look has none, 0 failed, 0 kit parts added
+13:52:26 SHOT sweep_makigai_tanishi_basic_01_ep1
+13:52:30 step 70: makigai_tanishi_basic_01_ep1: take it away
+13:52:31 step 71: herrera_outlaw_heist_01_ep1: build it and spawn it
+13:52:31   herrera_outlaw_heist_01_ep1: 2 styles, 11 slots, 0 kits; build 378 characters
+13:52:31   spawned entity 10789640ULL 12 m ahead of V
+13:52:31   engine: build 33: Vehicle.vc_herrera_outlaw_heist_01_ep1_4 called in herrera_outlaw__heist_player_01; 20 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:52:31   engine: attached: Vehicle.vc_herrera_outlaw_heist_01_ep1_4 in herrera_outlaw__heist_player_01
+13:52:31   done waiting for the copy to appear (0.1 s)
+13:52:32 step 72: herrera_outlaw_heist_01_ep1: wait for its style
+13:52:32   done waiting for herrera_outlaw_heist_01_ep1 in its style's look (0.0 s)
+13:52:35 step 73: herrera_outlaw_heist_01_ep1: check it
+13:52:35 PASS herrera_outlaw_heist_01_ep1 spawned - Vehicle.vc_herrera_outlaw_heist_01_ep1_4
+13:52:35 PASS herrera_outlaw_heist_01_ep1 - herrera_outlaw__heist_player_01; ok (20 parts checked)
+13:52:35 PASS herrera_outlaw_heist_01_ep1: every part placed - 20 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:52:35 SHOT sweep_herrera_outlaw_heist_01_ep1
+13:52:39 step 74: herrera_outlaw_heist_01_ep1: take it away
+13:52:40 step 75: quadra_sport_r7_01_ep1: build it and spawn it
+13:52:40   quadra_sport_r7_01_ep1: 25 styles, 22 slots, 11 kits; build 799 characters
+13:52:40   spawned entity 10789653ULL 12 m ahead of V
+13:52:40   engine: build 34: Vehicle.vc_quadra_sport_r7_01_ep1_4 called in quadra_sport_r7_basic_mr_hands_reward; 29 parts swapped, 11 repainted, 5 added where the look has none, 0 failed, 5 kit parts added
+13:52:41   engine: attached: Vehicle.vc_quadra_sport_r7_01_ep1_4 in quadra_sport_r7_basic_mr_hands_reward, switching to its build's look
+13:52:41   engine: build 35: Vehicle.vc_quadra_sport_r7_01_ep1_4 rebuilt in quadra_sport_r7_basic_web_01__vc_a; 29 parts swapped, 18 repainted, 5 added where the look has none, 0 failed, 5 kit parts added
+13:52:41   done waiting for the copy to appear (0.1 s)
+13:52:42 step 76: quadra_sport_r7_01_ep1: wait for its style
+13:52:42   done waiting for quadra_sport_r7_01_ep1 in its style's look (0.0 s)
+13:52:45 step 77: quadra_sport_r7_01_ep1: check it
+13:52:45 PASS quadra_sport_r7_01_ep1 spawned - Vehicle.vc_quadra_sport_r7_01_ep1_4
+13:52:45 PASS quadra_sport_r7_01_ep1 - quadra_sport_r7_basic_web_01__vc_a; ok (39 parts checked)
+13:52:45 PASS quadra_sport_r7_01_ep1: every part placed - 29 parts swapped, 18 repainted, 5 added where the look has none, 0 failed, 5 kit parts added
+13:52:45 SHOT sweep_quadra_sport_r7_01_ep1
+13:52:49 step 78: quadra_sport_r7_01_ep1: take it away
+13:52:50 step 79: thorton_colby__basic_01: build it and spawn it
+13:52:50   thorton_colby__basic_01: 8 styles, 12 slots, 5 kits; build 465 characters
+13:52:50   spawned entity 10789666ULL 12 m ahead of V
+13:52:50   engine: build 36: Vehicle.vc_thorton_colby__basic_01_4 called in thorton_colby__basic_urban_01_1; 20 parts swapped, 14 repainted, 0 added where the look has none, 0 failed, 11 kit parts added
+13:52:50   engine: attached: Vehicle.vc_thorton_colby__basic_01_4 in thorton_colby__basic_urban_01_1, switching to its build's look
+13:52:50   engine: build 37: Vehicle.vc_thorton_colby__basic_01_4 rebuilt in thorton_colby__basic_valentinos_01__vc_a; 20 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 11 kit parts added
+13:52:50   done waiting for the copy to appear (0.1 s)
+13:52:51 step 80: thorton_colby__basic_01: wait for its style
+13:52:51   done waiting for thorton_colby__basic_01 in its style's look (0.0 s)
+13:52:54 step 81: thorton_colby__basic_01: check it
+13:52:54 PASS thorton_colby__basic_01 spawned - Vehicle.vc_thorton_colby__basic_01_4
+13:52:54 PASS thorton_colby__basic_01 - thorton_colby__basic_valentinos_01__vc_a; ok (31 parts checked)
+13:52:54 PASS thorton_colby__basic_01: every part placed - 20 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 11 kit parts added
+13:52:54 SHOT sweep_thorton_colby__basic_01
+13:52:58 step 82: thorton_colby__basic_01: take it away
+13:52:59 step 83: rayfield_aerondight__basic_01: build it and spawn it
+13:52:59   rayfield_aerondight__basic_01: 2 styles, 12 slots, 0 kits; build 392 characters
+13:52:59   spawned entity 10789681ULL 12 m ahead of V
+13:52:59   engine: build 38: Vehicle.vc_rayfield_aerondight__basic_01_4 called in rayfield_aerondight__basic_player_01; 21 parts swapped, 10 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:52:59   engine: attached: Vehicle.vc_rayfield_aerondight__basic_01_4 in rayfield_aerondight__basic_player_01, switching to its build's look
+13:52:59   engine: build 39: Vehicle.vc_rayfield_aerondight__basic_01_4 rebuilt in rayfield_aerondight__basic_urban_02__vc_a; 21 parts swapped, 10 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:52:59   done waiting for the copy to appear (0.1 s)
+13:53:00 step 84: rayfield_aerondight__basic_01: wait for its style
+13:53:00   done waiting for rayfield_aerondight__basic_01 in its style's look (0.0 s)
+13:53:03 step 85: rayfield_aerondight__basic_01: check it
+13:53:03 PASS rayfield_aerondight__basic_01 spawned - Vehicle.vc_rayfield_aerondight__basic_01_4
+13:53:03 PASS rayfield_aerondight__basic_01 - rayfield_aerondight__basic_urban_02__vc_a; ok (21 parts checked)
+13:53:03 PASS rayfield_aerondight__basic_01: every part placed - 21 parts swapped, 10 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:53:03 SHOT sweep_rayfield_aerondight__basic_01
+13:53:07 step 86: rayfield_aerondight__basic_01: take it away
+13:53:08 step 87: thorton_colby_pickup__basic_01: build it and spawn it
+13:53:08   thorton_colby_pickup__basic_01: 3 styles, 15 slots, 19 kits; build 589 characters
+13:53:08   spawned entity 10789710ULL 12 m ahead of V
+13:53:08   engine: build 40: Vehicle.vc_thorton_colby_pickup__basic_01_4 called in thorton_colby_pickup_ma_bls_ina_se1_44; 20 parts swapped, 13 repainted, 3 added where the look has none, 0 failed, 3 kit parts added
+13:53:08   engine: attached: Vehicle.vc_thorton_colby_pickup__basic_01_4 in thorton_colby_pickup_ma_bls_ina_se1_44, switching to its build's look
+13:53:08   engine: build 41: Vehicle.vc_thorton_colby_pickup__basic_01_4 rebuilt in thorton_colby_pickup_suburban_1__vc_a; 20 parts swapped, 13 repainted, 3 added where the look has none, 0 failed, 3 kit parts added
+13:53:08   done waiting for the copy to appear (0.1 s)
+13:53:09 step 88: thorton_colby_pickup__basic_01: wait for its style
+13:53:09   done waiting for thorton_colby_pickup__basic_01 in its style's look (0.0 s)
+13:53:12 step 89: thorton_colby_pickup__basic_01: check it
+13:53:12 PASS thorton_colby_pickup__basic_01 spawned - Vehicle.vc_thorton_colby_pickup__basic_01_4
+13:53:12 PASS thorton_colby_pickup__basic_01 - thorton_colby_pickup_suburban_1__vc_a; ok (27 parts checked)
+13:53:12 PASS thorton_colby_pickup__basic_01: every part placed - 20 parts swapped, 13 repainted, 3 added where the look has none, 0 failed, 3 kit parts added
+13:53:12 SHOT sweep_thorton_colby_pickup__basic_01
+13:53:16 step 90: thorton_colby_pickup__basic_01: take it away
+13:53:17 step 91: mizutani_hozuki__basic_01_ep1: build it and spawn it
+13:53:17   mizutani_hozuki__basic_01_ep1: 11 styles, 14 slots, 1 kits; build 459 characters
+13:53:17   spawned entity 10789760ULL 12 m ahead of V
+13:53:18   engine: build 42: Vehicle.vc_mizutani_hozuki__basic_01_ep1_4 called in mizutani_hozuki__basic_urban_05; 23 parts swapped, 13 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:53:18   engine: attached: Vehicle.vc_mizutani_hozuki__basic_01_ep1_4 in mizutani_hozuki__basic_urban_05, switching to its build's look
+13:53:18   engine: build 43: Vehicle.vc_mizutani_hozuki__basic_01_ep1_4 rebuilt in mizutani_hozuki__basic_player_01__vc_a; 19 parts swapped, 6 repainted, 4 added where the look has none, 0 failed, 0 kit parts added
+13:53:18   done waiting for the copy to appear (0.1 s)
+13:53:19 step 92: mizutani_hozuki__basic_01_ep1: wait for its style
+13:53:19   done waiting for mizutani_hozuki__basic_01_ep1 in its style's look (0.0 s)
+13:53:22 step 93: mizutani_hozuki__basic_01_ep1: check it
+13:53:22 PASS mizutani_hozuki__basic_01_ep1 spawned - Vehicle.vc_mizutani_hozuki__basic_01_ep1_4
+13:53:22 PASS mizutani_hozuki__basic_01_ep1 - mizutani_hozuki__basic_player_01__vc_a; ok (23 parts checked)
+13:53:22 PASS mizutani_hozuki__basic_01_ep1: every part placed - 19 parts swapped, 6 repainted, 4 added where the look has none, 0 failed, 0 kit parts added
+13:53:22 SHOT sweep_mizutani_hozuki__basic_01_ep1
+13:53:26 step 94: mizutani_hozuki__basic_01_ep1: take it away
+13:53:27 step 95: villefort_alvarado__basic_01: build it and spawn it
+13:53:27   villefort_alvarado__basic_01: 5 styles, 20 slots, 3 kits; build 656 characters
+13:53:27   spawned entity 10789777ULL 12 m ahead of V
+13:53:27   engine: build 44: Vehicle.vc_villefort_alvarado__basic_01_4 called in villefort_alvarado__basic_player_01; 36 parts swapped, 25 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:53:27   engine: attached: Vehicle.vc_villefort_alvarado__basic_01_4 in villefort_alvarado__basic_player_01, switching to its build's look
+13:53:27   engine: build 45: Vehicle.vc_villefort_alvarado__basic_01_4 rebuilt in villefort_alvarado__basic_valentinos_01__vc_a; 36 parts swapped, 25 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:53:27   done waiting for the copy to appear (0.1 s)
+13:53:28 step 96: villefort_alvarado__basic_01: wait for its style
+13:53:28   done waiting for villefort_alvarado__basic_01 in its style's look (0.0 s)
+13:53:31 step 97: villefort_alvarado__basic_01: check it
+13:53:31 PASS villefort_alvarado__basic_01 spawned - Vehicle.vc_villefort_alvarado__basic_01_4
+13:53:31 PASS villefort_alvarado__basic_01 - villefort_alvarado__basic_valentinos_01__vc_a; ok (37 parts checked)
+13:53:31 PASS villefort_alvarado__basic_01: every part placed - 36 parts swapped, 25 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:53:31 SHOT sweep_villefort_alvarado__basic_01
+13:53:35 step 98: villefort_alvarado__basic_01: take it away
+13:53:36 step 99: brennan_apollo_basic_01: build it and spawn it
+13:53:36   brennan_apollo_basic_01: 8 styles, 8 slots, 11 kits; build 387 characters
+13:53:36   spawned entity 10789795ULL 12 m ahead of V
+13:53:36   engine: build 46: Vehicle.vc_brennan_apollo_basic_01_4 called in brennan_apollo_basic_scorpion; 7 parts swapped, 4 repainted, 1 added where the look has none, 0 failed, 4 kit parts added
+13:53:36   engine: attached: Vehicle.vc_brennan_apollo_basic_01_4 in brennan_apollo_basic_scorpion
+13:53:36   done waiting for the copy to appear (0.1 s)
+13:53:37 step 100: brennan_apollo_basic_01: wait for its style
+13:53:37   done waiting for brennan_apollo_basic_01 in its style's look (0.0 s)
+13:53:40 step 101: brennan_apollo_basic_01: check it
+13:53:40 PASS brennan_apollo_basic_01 spawned - Vehicle.vc_brennan_apollo_basic_01_4
+13:53:40 PASS brennan_apollo_basic_01 - brennan_apollo_basic_scorpion; ok (12 parts checked)
+13:53:40 PASS brennan_apollo_basic_01: every part placed - 7 parts swapped, 4 repainted, 1 added where the look has none, 0 failed, 4 kit parts added
+13:53:40 SHOT sweep_brennan_apollo_basic_01
+13:53:44 step 102: brennan_apollo_basic_01: take it away
+13:53:45 step 103: herrera_riptide_01_ep1: build it and spawn it
+13:53:45   herrera_riptide_01_ep1: 2 styles, 16 slots, 1 kits; build 540 characters
+13:53:45   spawned entity 10789798ULL 12 m ahead of V
+13:53:45   engine: build 47: Vehicle.vc_herrera_riptide_01_ep1_4 called in herrera_riptide__basic_player_01; 22 parts swapped, 10 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:53:45   engine: attached: Vehicle.vc_herrera_riptide_01_ep1_4 in herrera_riptide__basic_player_01
+13:53:45   done waiting for the copy to appear (0.1 s)
+13:53:46 step 104: herrera_riptide_01_ep1: wait for its style
+13:53:46   done waiting for herrera_riptide_01_ep1 in its style's look (0.0 s)
+13:53:49 step 105: herrera_riptide_01_ep1: check it
+13:53:49 PASS herrera_riptide_01_ep1 spawned - Vehicle.vc_herrera_riptide_01_ep1_4
+13:53:49 PASS herrera_riptide_01_ep1 - herrera_riptide__basic_player_01; ok (22 parts checked)
+13:53:49 PASS herrera_riptide_01_ep1: every part placed - 22 parts swapped, 10 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:53:49 SHOT sweep_herrera_riptide_01_ep1
+13:53:54 step 106: herrera_riptide_01_ep1: take it away
+13:53:55 step 107: mizutani_shion__basic_01: build it and spawn it
+13:53:55   mizutani_shion__basic_01: 7 styles, 13 slots, 11 kits; build 502 characters
+13:53:55   spawned entity 10789818ULL 12 m ahead of V
+13:53:55   engine: build 48: Vehicle.vc_mizutani_shion__basic_01_4 called in mizutani_shion__basic_suburban_07; 21 parts swapped, 15 repainted, 1 added where the look has none, 0 failed, 3 kit parts added
+13:53:55   engine: attached: Vehicle.vc_mizutani_shion__basic_01_4 in mizutani_shion__basic_suburban_07, switching to its build's look
+13:53:55   engine: build 49: Vehicle.vc_mizutani_shion__basic_01_4 rebuilt in mizutani_shion__basic_urban_01__vc_a; 21 parts swapped, 11 repainted, 1 added where the look has none, 0 failed, 3 kit parts added
+13:53:55   done waiting for the copy to appear (0.1 s)
+13:53:56 step 108: mizutani_shion__basic_01: wait for its style
+13:53:56   done waiting for mizutani_shion__basic_01 in its style's look (0.0 s)
+13:53:59 step 109: mizutani_shion__basic_01: check it
+13:53:59 PASS mizutani_shion__basic_01 spawned - Vehicle.vc_mizutani_shion__basic_01_4
+13:53:59 PASS mizutani_shion__basic_01 - mizutani_shion__basic_urban_01__vc_a; ok (27 parts checked)
+13:53:59 PASS mizutani_shion__basic_01: every part placed - 21 parts swapped, 11 repainted, 1 added where the look has none, 0 failed, 3 kit parts added
+13:53:59 SHOT sweep_mizutani_shion__basic_01
+13:54:03 step 110: mizutani_shion__basic_01: take it away
+13:54:04 step 111: villefort_alvarado__cabrio_01: build it and spawn it
+13:54:04   villefort_alvarado__cabrio_01: 2 styles, 20 slots, 3 kits; build 656 characters
+13:54:04   spawned entity 10789832ULL 12 m ahead of V
+13:54:04   engine: build 50: Vehicle.vc_villefort_alvarado__cabrio_01_4 called in villefort_alvarado__basic_valentinos_02; 26 parts swapped, 22 repainted, 11 added where the look has none, 0 failed, 0 kit parts added
+13:54:04   engine: attached: Vehicle.vc_villefort_alvarado__cabrio_01_4 in villefort_alvarado__basic_valentinos_02
+13:54:04   done waiting for the copy to appear (0.1 s)
+13:54:05 step 112: villefort_alvarado__cabrio_01: wait for its style
+13:54:05   done waiting for villefort_alvarado__cabrio_01 in its style's look (0.0 s)
+13:54:08 step 113: villefort_alvarado__cabrio_01: check it
+13:54:08 PASS villefort_alvarado__cabrio_01 spawned - Vehicle.vc_villefort_alvarado__cabrio_01_4
+13:54:08 PASS villefort_alvarado__cabrio_01 - villefort_alvarado__basic_valentinos_02; ok (37 parts checked)
+13:54:08 PASS villefort_alvarado__cabrio_01: every part placed - 26 parts swapped, 22 repainted, 11 added where the look has none, 0 failed, 0 kit parts added
+13:54:08 SHOT sweep_villefort_alvarado__cabrio_01
+13:54:12 step 114: villefort_alvarado__cabrio_01: take it away
+13:54:13 step 115: mizutani_shion_nomad__basic_01: build it and spawn it
+13:54:13   mizutani_shion_nomad__basic_01: 5 styles, 17 slots, 5 kits; build 594 characters
+13:54:13   spawned entity 10789850ULL 12 m ahead of V
+13:54:13   engine: build 51: Vehicle.vc_mizutani_shion_nomad__basic_01_4 called in mizutani_shion_nomad_player_02; 25 parts swapped, 17 repainted, 2 added where the look has none, 0 failed, 8 kit parts added
+13:54:13   engine: attached: Vehicle.vc_mizutani_shion_nomad__basic_01_4 in mizutani_shion_nomad_player_02, switching to its build's look
+13:54:13   engine: build 52: Vehicle.vc_mizutani_shion_nomad__basic_01_4 rebuilt in mizutani_shion_nomad_wraiths_03__vc_a; 26 parts swapped, 18 repainted, 1 added where the look has none, 0 failed, 8 kit parts added
+13:54:13   done waiting for the copy to appear (0.1 s)
+13:54:14 step 116: mizutani_shion_nomad__basic_01: wait for its style
+13:54:14   done waiting for mizutani_shion_nomad__basic_01 in its style's look (0.0 s)
+13:54:17 step 117: mizutani_shion_nomad__basic_01: check it
+13:54:17 PASS mizutani_shion_nomad__basic_01 spawned - Vehicle.vc_mizutani_shion_nomad__basic_01_4
+13:54:17 PASS mizutani_shion_nomad__basic_01 - mizutani_shion_nomad_wraiths_03__vc_a; ok (36 parts checked)
+13:54:17 PASS mizutani_shion_nomad__basic_01: every part placed - 26 parts swapped, 18 repainted, 1 added where the look has none, 0 failed, 8 kit parts added
+13:54:17 SHOT sweep_mizutani_shion_nomad__basic_01
+13:54:21 step 118: mizutani_shion_nomad__basic_01: take it away
+13:54:22 step 119: archer_quartz_nomad__01: build it and spawn it
+13:54:22   archer_quartz_nomad__01: 4 styles, 12 slots, 4 kits; build 433 characters
+13:54:22   spawned entity 10789890ULL 12 m ahead of V
+13:54:22   engine: build 53: Vehicle.vc_archer_quartz_nomad__01_4 called in archer_quartz_nomad_player_01_missiles; 18 parts swapped, 14 repainted, 2 added where the look has none, 0 failed, 1 kit parts added
+13:54:22   engine: attached: Vehicle.vc_archer_quartz_nomad__01_4 in archer_quartz_nomad_player_01_missiles, switching to its build's look
+13:54:22   engine: build 54: Vehicle.vc_archer_quartz_nomad__01_4 rebuilt in archer_quartz_nomad_wraiths_04__vc_a; 18 parts swapped, 8 repainted, 2 added where the look has none, 0 failed, 1 kit parts added
+13:54:22   done waiting for the copy to appear (0.1 s)
+13:54:23 step 120: archer_quartz_nomad__01: wait for its style
+13:54:23   done waiting for archer_quartz_nomad__01 in its style's look (0.0 s)
+13:54:26 step 121: archer_quartz_nomad__01: check it
+13:54:26 PASS archer_quartz_nomad__01 spawned - Vehicle.vc_archer_quartz_nomad__01_4
+13:54:26 PASS archer_quartz_nomad__01 - archer_quartz_nomad_wraiths_04__vc_a; ok (21 parts checked)
+13:54:26 PASS archer_quartz_nomad__01: every part placed - 18 parts swapped, 8 repainted, 2 added where the look has none, 0 failed, 1 kit parts added
+13:54:26 SHOT sweep_archer_quartz_nomad__01
+13:54:31 step 122: archer_quartz_nomad__01: take it away
+13:54:32 step 123: q304_charon_ep1: build it and spawn it
+13:54:32   q304_charon_ep1: 2 styles, 22 slots, 11 kits; build 810 characters
+13:54:32   spawned entity 10789907ULL 12 m ahead of V
+13:54:32   engine: build 55: Vehicle.vc_q304_charon_ep1_4 called in quadra_sport_r7_basic_netrunner_01_player; 28 parts swapped, 17 repainted, 6 added where the look has none, 0 failed, 5 kit parts added
+13:54:32   engine: attached: Vehicle.vc_q304_charon_ep1_4 in quadra_sport_r7_basic_netrunner_01_player, switching to its build's look
+13:54:32   engine: build 56: Vehicle.vc_q304_charon_ep1_4 rebuilt in quadra_sport_r7_basic_netrunner_q304_01__vc_a; 28 parts swapped, 17 repainted, 6 added where the look has none, 0 failed, 5 kit parts added
+13:54:32   done waiting for the copy to appear (0.1 s)
+13:54:33 step 124: q304_charon_ep1: wait for its style
+13:54:33   done waiting for q304_charon_ep1 in its style's look (0.0 s)
+13:54:36 step 125: q304_charon_ep1: check it
+13:54:36 PASS q304_charon_ep1 spawned - Vehicle.vc_q304_charon_ep1_4
+13:54:36 PASS q304_charon_ep1 - quadra_sport_r7_basic_netrunner_q304_01__vc_a; ok (39 parts checked)
+13:54:36 PASS q304_charon_ep1: every part placed - 28 parts swapped, 17 repainted, 6 added where the look has none, 0 failed, 5 kit parts added
+13:54:36 SHOT sweep_q304_charon_ep1
+13:54:40 step 126: q304_charon_ep1: take it away
+13:54:41 step 127: archer_hella__basic_01: build it and spawn it
+13:54:41   archer_hella__basic_01: 8 styles, 21 slots, 18 kits; build 821 characters
+13:54:41   spawned entity 10789936ULL 12 m ahead of V
+13:54:41   engine: build 57: Vehicle.vc_archer_hella__basic_01_4 called in archer_hella__basic_player_01; 28 parts swapped, 14 repainted, 5 added where the look has none, 0 failed, 12 kit parts added
+13:54:41   engine: attached: Vehicle.vc_archer_hella__basic_01_4 in archer_hella__basic_player_01
+13:54:41   done waiting for the copy to appear (0.1 s)
+13:54:42 step 128: archer_hella__basic_01: wait for its style
+13:54:42   done waiting for archer_hella__basic_01 in its style's look (0.0 s)
+13:54:45 step 129: archer_hella__basic_01: check it
+13:54:45 PASS archer_hella__basic_01 spawned - Vehicle.vc_archer_hella__basic_01_4
+13:54:45 PASS archer_hella__basic_01 - archer_hella__basic_player_01; ok (45 parts checked)
+13:54:45 PASS archer_hella__basic_01: every part placed - 28 parts swapped, 14 repainted, 5 added where the look has none, 0 failed, 12 kit parts added
+13:54:45 SHOT sweep_archer_hella__basic_01
+13:54:49 step 130: archer_hella__basic_01: take it away
+13:54:50 step 131: rayfield_caliburn__basic_01: build it and spawn it
+13:54:50   rayfield_caliburn__basic_01: 5 styles, 13 slots, 0 kits; build 438 characters
+13:54:50   spawned entity 10789951ULL 12 m ahead of V
+13:54:50   engine: build 58: Vehicle.vc_rayfield_caliburn__basic_01_4 called in rayfield_caliburn__basic_ma_bls_ina_se1_40; 18 parts swapped, 17 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:54:50   engine: attached: Vehicle.vc_rayfield_caliburn__basic_01_4 in rayfield_caliburn__basic_ma_bls_ina_se1_40, switching to its build's look
+13:54:50   engine: build 59: Vehicle.vc_rayfield_caliburn__basic_01_4 rebuilt in rayfield_caliburn__basic_premium_05__vc_a; 18 parts swapped, 13 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:54:50   done waiting for the copy to appear (0.1 s)
+13:54:51 step 132: rayfield_caliburn__basic_01: wait for its style
+13:54:51   done waiting for rayfield_caliburn__basic_01 in its style's look (0.0 s)
+13:54:54 step 133: rayfield_caliburn__basic_01: check it
+13:54:54 PASS rayfield_caliburn__basic_01 spawned - Vehicle.vc_rayfield_caliburn__basic_01_4
+13:54:54 PASS rayfield_caliburn__basic_01 - rayfield_caliburn__basic_premium_05__vc_a; ok (18 parts checked)
+13:54:54 PASS rayfield_caliburn__basic_01: every part placed - 18 parts swapped, 13 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:54:54 SHOT sweep_rayfield_caliburn__basic_01
+13:54:58 step 134: rayfield_caliburn__basic_01: take it away
+13:54:59 step 135: villefort_alvarado__hearse_01_ep1: build it and spawn it
+13:54:59   villefort_alvarado__hearse_01_ep1: 5 styles, 20 slots, 3 kits; build 663 characters
+13:54:59   spawned entity 10789987ULL 12 m ahead of V
+13:54:59   engine: build 60: Vehicle.vc_villefort_alvarado__hearse_01_ep1_4 called in villefort_alvarado_hearse_01_basic_web_01; 28 parts swapped, 8 repainted, 9 added where the look has none, 0 failed, 0 kit parts added
+13:54:59   engine: attached: Vehicle.vc_villefort_alvarado__hearse_01_ep1_4 in villefort_alvarado_hearse_01_basic_web_01, switching to its build's look
+13:54:59   engine: build 61: Vehicle.vc_villefort_alvarado__hearse_01_ep1_4 rebuilt in villefort_alvarado_hearse_01_basic_suburban_02__vc_a; 28 parts swapped, 8 repainted, 9 added where the look has none, 0 failed, 0 kit parts added
+13:54:59   done waiting for the copy to appear (0.1 s)
+13:55:00 step 136: villefort_alvarado__hearse_01_ep1: wait for its style
+13:55:01   done waiting for villefort_alvarado__hearse_01_ep1 in its style's look (0.0 s)
+13:55:04 step 137: villefort_alvarado__hearse_01_ep1: check it
+13:55:04 PASS villefort_alvarado__hearse_01_ep1 spawned - Vehicle.vc_villefort_alvarado__hearse_01_ep1_4
+13:55:04 PASS villefort_alvarado__hearse_01_ep1 - villefort_alvarado_hearse_01_basic_suburban_02__vc_a; ok (37 parts checked)
+13:55:04 PASS villefort_alvarado__hearse_01_ep1: every part placed - 28 parts swapped, 8 repainted, 9 added where the look has none, 0 failed, 0 kit parts added
+13:55:04 SHOT sweep_villefort_alvarado__hearse_01_ep1
+13:55:08 step 138: villefort_alvarado__hearse_01_ep1: take it away
+13:55:09 step 139: makigai_maimai_01_basic_01: build it and spawn it
+13:55:09   makigai_maimai_01_basic_01: 5 styles, 12 slots, 1 kits; build 387 characters
+13:55:09   spawned entity 10790006ULL 12 m ahead of V
+13:55:09   engine: build 62: Vehicle.vc_makigai_maimai_01_basic_01_4 called in makigai_maimai__basic_player_01; 22 parts swapped, 13 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:09   engine: attached: Vehicle.vc_makigai_maimai_01_basic_01_4 in makigai_maimai__basic_player_01, switching to its build's look
+13:55:09   engine: build 63: Vehicle.vc_makigai_maimai_01_basic_01_4 rebuilt in makigai_maimai__basic_urban_01__vc_a; 22 parts swapped, 13 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:09   done waiting for the copy to appear (0.1 s)
+13:55:10 step 140: makigai_maimai_01_basic_01: wait for its style
+13:55:10   done waiting for makigai_maimai_01_basic_01 in its style's look (0.0 s)
+13:55:13 step 141: makigai_maimai_01_basic_01: check it
+13:55:13 PASS makigai_maimai_01_basic_01 spawned - Vehicle.vc_makigai_maimai_01_basic_01_4
+13:55:13 PASS makigai_maimai_01_basic_01 - makigai_maimai__basic_urban_01__vc_a; ok (22 parts checked)
+13:55:13 PASS makigai_maimai_01_basic_01: every part placed - 22 parts swapped, 13 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:13 SHOT sweep_makigai_maimai_01_basic_01
+13:55:17 step 142: makigai_maimai_01_basic_01: take it away
+13:55:18 step 143: thorton_mackinaw_01__basic_01: build it and spawn it
+13:55:18   thorton_mackinaw_01__basic_01: 3 styles, 16 slots, 1 kits; build 543 characters
+13:55:18   spawned entity 10790025ULL 12 m ahead of V
+13:55:18   engine: build 64: Vehicle.vc_thorton_mackinaw_01__basic_01_4 called in thorton_mackinaw__basic_player_01; 29 parts swapped, 20 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:55:18   engine: attached: Vehicle.vc_thorton_mackinaw_01__basic_01_4 in thorton_mackinaw__basic_player_01, switching to its build's look
+13:55:18   engine: build 65: Vehicle.vc_thorton_mackinaw_01__basic_01_4 rebuilt in thorton_mackinaw__basic_valentinos_01__vc_a; 29 parts swapped, 9 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:55:18   done waiting for the copy to appear (0.1 s)
+13:55:19 step 144: thorton_mackinaw_01__basic_01: wait for its style
+13:55:19   done waiting for thorton_mackinaw_01__basic_01 in its style's look (0.0 s)
+13:55:22 step 145: thorton_mackinaw_01__basic_01: check it
+13:55:22 PASS thorton_mackinaw_01__basic_01 spawned - Vehicle.vc_thorton_mackinaw_01__basic_01_4
+13:55:22 PASS thorton_mackinaw_01__basic_01 - thorton_mackinaw__basic_valentinos_01__vc_a; ok (31 parts checked)
+13:55:22 PASS thorton_mackinaw_01__basic_01: every part placed - 29 parts swapped, 9 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:55:22 SHOT sweep_thorton_mackinaw_01__basic_01
+13:55:26 step 146: thorton_mackinaw_01__basic_01: take it away
+13:55:27 step 147: villefort_deleon_01_ep1: build it and spawn it
+13:55:27   villefort_deleon_01_ep1: 5 styles, 11 slots, 2 kits; build 368 characters
+13:55:27   spawned entity 10790043ULL 12 m ahead of V
+13:55:27   engine: build 66: Vehicle.vc_villefort_deleon_01_ep1_4 called in villefort_deleon_basic_player_01; 19 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:27   engine: attached: Vehicle.vc_villefort_deleon_01_ep1_4 in villefort_deleon_basic_player_01, switching to its build's look
+13:55:27   engine: build 67: Vehicle.vc_villefort_deleon_01_ep1_4 rebuilt in villefort_deleon_basic_urban_01__vc_a; 19 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:27   done waiting for the copy to appear (0.1 s)
+13:55:28 step 148: villefort_deleon_01_ep1: wait for its style
+13:55:28   done waiting for villefort_deleon_01_ep1 in its style's look (0.0 s)
+13:55:31 step 149: villefort_deleon_01_ep1: check it
+13:55:31 PASS villefort_deleon_01_ep1 spawned - Vehicle.vc_villefort_deleon_01_ep1_4
+13:55:31 PASS villefort_deleon_01_ep1 - villefort_deleon_basic_urban_01__vc_a; ok (19 parts checked)
+13:55:31 PASS villefort_deleon_01_ep1: every part placed - 19 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:31 SHOT sweep_villefort_deleon_01_ep1
+13:55:35 step 150: villefort_deleon_01_ep1: take it away
+13:55:36 step 151: militech_hellhound__basic_01_ep1: build it and spawn it
+13:55:36   militech_hellhound__basic_01_ep1: 2 styles, 11 slots, 3 kits; build 368 characters
+13:55:36   spawned entity 10790057ULL 12 m ahead of V
+13:55:36   engine: build 68: Vehicle.vc_militech_hellhound__basic_01_ep1_4 called in militech_hellhound__basic_player_01; 22 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:36   engine: attached: Vehicle.vc_militech_hellhound__basic_01_ep1_4 in militech_hellhound__basic_player_01, switching to its build's look
+13:55:36   engine: build 69: Vehicle.vc_militech_hellhound__basic_01_ep1_4 rebuilt in militech_hellhound__basic_q305_hologrom_red__vc_a; 21 parts swapped, 15 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:55:36   done waiting for the copy to appear (0.1 s)
+13:55:37 step 152: militech_hellhound__basic_01_ep1: wait for its style
+13:55:37   done waiting for militech_hellhound__basic_01_ep1 in its style's look (0.0 s)
+13:55:40 step 153: militech_hellhound__basic_01_ep1: check it
+13:55:40 PASS militech_hellhound__basic_01_ep1 spawned - Vehicle.vc_militech_hellhound__basic_01_ep1_4
+13:55:40 PASS militech_hellhound__basic_01_ep1 - militech_hellhound__basic_q305_hologrom_red__vc_a; ok (22 parts checked)
+13:55:40 PASS militech_hellhound__basic_01_ep1: every part placed - 21 parts swapped, 15 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:55:40 SHOT sweep_militech_hellhound__basic_01_ep1
+13:55:44 step 154: militech_hellhound__basic_01_ep1: take it away
+13:55:45 step 155: mahir_supron_kurtz_basic_01_ep1: build it and spawn it
+13:55:45   mahir_supron_kurtz_basic_01_ep1: 4 styles, 11 slots, 10 kits; build 562 characters
+13:55:45   spawned entity 10790091ULL 12 m ahead of V
+13:55:45   engine: build 70: Vehicle.vc_mahir_supron_kurtz_basic_01_ep1_4 called in mahir_supron_kurtz_basic_player_01; 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 11 kit parts added
+13:55:46   engine: attached: Vehicle.vc_mahir_supron_kurtz_basic_01_ep1_4 in mahir_supron_kurtz_basic_player_01
+13:55:46   done waiting for the copy to appear (0.1 s)
+13:55:47 step 156: mahir_supron_kurtz_basic_01_ep1: wait for its style
+13:55:47   done waiting for mahir_supron_kurtz_basic_01_ep1 in its style's look (0.0 s)
+13:55:50 step 157: mahir_supron_kurtz_basic_01_ep1: check it
+13:55:50 PASS mahir_supron_kurtz_basic_01_ep1 spawned - Vehicle.vc_mahir_supron_kurtz_basic_01_ep1_4
+13:55:50 PASS mahir_supron_kurtz_basic_01_ep1 - mahir_supron_kurtz_basic_player_01; ok (34 parts checked)
+13:55:50 PASS mahir_supron_kurtz_basic_01_ep1: every part placed - 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 11 kit parts added
+13:55:50 SHOT sweep_mahir_supron_kurtz_basic_01_ep1
+13:55:54 step 158: mahir_supron_kurtz_basic_01_ep1: take it away
+13:55:55 step 159: herrera_outlaw_basic_01: build it and spawn it
+13:55:55   herrera_outlaw_basic_01: 2 styles, 8 slots, 0 kits; build 290 characters
+13:55:55   spawned entity 10790100ULL 12 m ahead of V
+13:55:55   engine: build 71: Vehicle.vc_herrera_outlaw_basic_01_4 called in herrera_outlaw__basic_player_01; 14 parts swapped, 10 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:55   engine: attached: Vehicle.vc_herrera_outlaw_basic_01_4 in herrera_outlaw__basic_player_01, switching to its build's look
+13:55:55   engine: build 72: Vehicle.vc_herrera_outlaw_basic_01_4 rebuilt in herrera_outlaw__basic_premium_05__vc_a; 14 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:55   done waiting for the copy to appear (0.1 s)
+13:55:56 step 160: herrera_outlaw_basic_01: wait for its style
+13:55:56   done waiting for herrera_outlaw_basic_01 in its style's look (0.0 s)
+13:55:59 step 161: herrera_outlaw_basic_01: check it
+13:55:59 PASS herrera_outlaw_basic_01 spawned - Vehicle.vc_herrera_outlaw_basic_01_4
+13:55:59 PASS herrera_outlaw_basic_01 - herrera_outlaw__basic_premium_05__vc_a; ok (14 parts checked)
+13:55:59 PASS herrera_outlaw_basic_01: every part placed - 14 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:55:59 SHOT sweep_herrera_outlaw_basic_01
+13:56:03 step 162: herrera_outlaw_basic_01: take it away
+13:56:04 step 163: villefort_cortes_01__basic_01: build it and spawn it
+13:56:04   villefort_cortes_01__basic_01: 9 styles, 14 slots, 23 kits; build 536 characters
+13:56:04   spawned entity 10790113ULL 12 m ahead of V
+13:56:04   engine: build 73: Vehicle.vc_villefort_cortes_01__basic_01_4 called in villefort_cortes__basic_player_01; 28 parts swapped, 20 repainted, 1 added where the look has none, 0 failed, 5 kit parts added
+13:56:04   engine: attached: Vehicle.vc_villefort_cortes_01__basic_01_4 in villefort_cortes__basic_player_01, switching to its build's look
+13:56:04   engine: build 74: Vehicle.vc_villefort_cortes_01__basic_01_4 rebuilt in villefort_cortes__basic_urban_1_01__vc_a; 28 parts swapped, 20 repainted, 1 added where the look has none, 0 failed, 5 kit parts added
+13:56:04   done waiting for the copy to appear (0.1 s)
+13:56:05 step 164: villefort_cortes_01__basic_01: wait for its style
+13:56:05   done waiting for villefort_cortes_01__basic_01 in its style's look (0.0 s)
+13:56:08 step 165: villefort_cortes_01__basic_01: check it
+13:56:08 PASS villefort_cortes_01__basic_01 spawned - Vehicle.vc_villefort_cortes_01__basic_01_4
+13:56:08 PASS villefort_cortes_01__basic_01 - villefort_cortes__basic_urban_1_01__vc_a; ok (34 parts checked)
+13:56:08 PASS villefort_cortes_01__basic_01: every part placed - 28 parts swapped, 20 repainted, 1 added where the look has none, 0 failed, 5 kit parts added
+13:56:08 SHOT sweep_villefort_cortes_01__basic_01
+13:56:12 step 166: villefort_cortes_01__basic_01: take it away
+13:56:13 step 167: makigai_tanishi_player_01_ep1: build it and spawn it
+13:56:13   makigai_tanishi_player_01_ep1: 1 styles, 24 slots, 3 kits; build 880 characters
+13:56:13   spawned entity 10790132ULL 12 m ahead of V
+13:56:13   engine: build 75: Vehicle.vc_makigai_tanishi_player_01_ep1_4 called in makigai_tanishi_basic_player_01; 19 parts swapped, 11 repainted, 13 added where the look has none, 0 failed, 0 kit parts added
+13:56:13   engine: attached: Vehicle.vc_makigai_tanishi_player_01_ep1_4 in makigai_tanishi_basic_player_01
+13:56:13   done waiting for the copy to appear (0.1 s)
+13:56:14 step 168: makigai_tanishi_player_01_ep1: wait for its style
+13:56:14   done waiting for makigai_tanishi_player_01_ep1 in its style's look (0.0 s)
+13:56:17 step 169: makigai_tanishi_player_01_ep1: check it
+13:56:17 PASS makigai_tanishi_player_01_ep1 spawned - Vehicle.vc_makigai_tanishi_player_01_ep1_4
+13:56:17 PASS makigai_tanishi_player_01_ep1 - makigai_tanishi_basic_player_01; ok (32 parts checked)
+13:56:17 PASS makigai_tanishi_player_01_ep1: every part placed - 19 parts swapped, 11 repainted, 13 added where the look has none, 0 failed, 0 kit parts added
+13:56:17 SHOT sweep_makigai_tanishi_player_01_ep1
+13:56:21 step 170: makigai_tanishi_player_01_ep1: take it away
+13:56:22 step 171: villefort_columbus_01__basic_01: build it and spawn it
+13:56:22   villefort_columbus_01__basic_01: 15 styles, 14 slots, 21 kits; build 551 characters
+13:56:22   spawned entity 10790163ULL 12 m ahead of V
+13:56:22   engine: build 76: Vehicle.vc_villefort_columbus_01__basic_01_4 called in villefort_columbus__basic_player_01; 23 parts swapped, 16 repainted, 1 added where the look has none, 0 failed, 9 kit parts added
+13:56:23   engine: attached: Vehicle.vc_villefort_columbus_01__basic_01_4 in villefort_columbus__basic_player_01
+13:56:23   done waiting for the copy to appear (0.1 s)
+13:56:24 step 172: villefort_columbus_01__basic_01: wait for its style
+13:56:24   done waiting for villefort_columbus_01__basic_01 in its style's look (0.0 s)
+13:56:27 step 173: villefort_columbus_01__basic_01: check it
+13:56:27 PASS villefort_columbus_01__basic_01 spawned - Vehicle.vc_villefort_columbus_01__basic_01_4
+13:56:27 PASS villefort_columbus_01__basic_01 - villefort_columbus__basic_player_01; ok (33 parts checked)
+13:56:27 PASS villefort_columbus_01__basic_01: every part placed - 23 parts swapped, 16 repainted, 1 added where the look has none, 0 failed, 9 kit parts added
+13:56:27 SHOT sweep_villefort_columbus_01__basic_01
+13:56:31 step 174: villefort_columbus_01__basic_01: take it away
+13:56:32 step 175: archer_bandit_01: build it and spawn it
+13:56:32   archer_bandit_01: 1 styles, 9 slots, 1 kits; build 310 characters
+13:56:32   spawned entity 10790199ULL 12 m ahead of V
+13:56:32   engine: build 77: Vehicle.vc_archer_bandit_01_4 called in archer_bandit_bandit_01; 11 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:56:32   engine: attached: Vehicle.vc_archer_bandit_01_4 in archer_bandit_bandit_01
+13:56:32   done waiting for the copy to appear (0.1 s)
+13:56:33 step 176: archer_bandit_01: wait for its style
+13:56:33   done waiting for archer_bandit_01 in its style's look (0.0 s)
+13:56:36 step 177: archer_bandit_01: check it
+13:56:36 PASS archer_bandit_01 spawned - Vehicle.vc_archer_bandit_01_4
+13:56:36 PASS archer_bandit_01 - archer_bandit_bandit_01; ok (11 parts checked)
+13:56:36 PASS archer_bandit_01: every part placed - 11 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:56:36 SHOT sweep_archer_bandit_01
+13:56:40 step 178: archer_bandit_01: take it away
+13:56:41 step 179: villefort_cortes_01__police_01: build it and spawn it
+13:56:41   villefort_cortes_01__police_01: 6 styles, 14 slots, 23 kits; build 536 characters
+13:56:41   spawned entity 10790228ULL 12 m ahead of V
+13:56:41   engine: build 78: Vehicle.vc_villefort_cortes_01__police_01_4 called in villefort_cortes__basic_boder_patrol_01; 24 parts swapped, 16 repainted, 5 added where the look has none, 0 failed, 5 kit parts added
+13:56:41   engine: attached: Vehicle.vc_villefort_cortes_01__police_01_4 in villefort_cortes__basic_boder_patrol_01, switching to its build's look
+13:56:41   engine: build 79: Vehicle.vc_villefort_cortes_01__police_01_4 rebuilt in villefort_cortes__basic_sheriff_01__vc_a; 24 parts swapped, 16 repainted, 5 added where the look has none, 0 failed, 5 kit parts added
+13:56:41   done waiting for the copy to appear (0.1 s)
+13:56:42 step 180: villefort_cortes_01__police_01: wait for its style
+13:56:42   done waiting for villefort_cortes_01__police_01 in its style's look (0.0 s)
+13:56:45 step 181: villefort_cortes_01__police_01: check it
+13:56:45 PASS villefort_cortes_01__police_01 spawned - Vehicle.vc_villefort_cortes_01__police_01_4
+13:56:45 PASS villefort_cortes_01__police_01 - villefort_cortes__basic_sheriff_01__vc_a; ok (34 parts checked)
+13:56:45 PASS villefort_cortes_01__police_01: every part placed - 24 parts swapped, 16 repainted, 5 added where the look has none, 0 failed, 5 kit parts added
+13:56:45 SHOT sweep_villefort_cortes_01__police_01
+13:56:49 step 182: villefort_cortes_01__police_01: take it away
+13:56:50 step 183: kaukaz_bratsk_dogtown_container_truck_01_ep1: build it and spawn it
+13:56:50   kaukaz_bratsk_dogtown_container_truck_01_ep1: 1 styles, 6 slots, 1 kits; build 244 characters
+13:56:50   spawned entity 10790251ULL 12 m ahead of V
+13:56:50   engine: build 80: Vehicle.vc_kaukaz_bratsk_dogtown_container_truck_01_ep1_4 called in kaukaz_bratsk_barghest_container_truck_dogtown_01; 11 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:56:50   engine: attached: Vehicle.vc_kaukaz_bratsk_dogtown_container_truck_01_ep1_4 in kaukaz_bratsk_barghest_container_truck_dogtown_01
+13:56:50   done waiting for the copy to appear (0.1 s)
+13:56:51 step 184: kaukaz_bratsk_dogtown_container_truck_01_ep1: wait for its style
+13:56:51   done waiting for kaukaz_bratsk_dogtown_container_truck_01_ep1 in its style's look (0.0 s)
+13:56:54 step 185: kaukaz_bratsk_dogtown_container_truck_01_ep1: check it
+13:56:54 PASS kaukaz_bratsk_dogtown_container_truck_01_ep1 spawned - Vehicle.vc_kaukaz_bratsk_dogtown_container_truck_01_ep1_4
+13:56:54 PASS kaukaz_bratsk_dogtown_container_truck_01_ep1 - kaukaz_bratsk_barghest_container_truck_dogtown_01; ok (11 parts checked)
+13:56:54 PASS kaukaz_bratsk_dogtown_container_truck_01_ep1: every part placed - 11 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:56:54 SHOT sweep_kaukaz_bratsk_dogtown_container_truck_01_ep1
+13:56:58 step 186: kaukaz_bratsk_dogtown_container_truck_01_ep1: take it away
+13:56:59 step 187: mahir_supron_kurtz_basic_mq304_ep1: build it and spawn it
+13:56:59   mahir_supron_kurtz_basic_mq304_ep1: 4 styles, 11 slots, 10 kits; build 562 characters
+13:56:59   spawned entity 10790263ULL 12 m ahead of V
+13:56:59   engine: build 81: Vehicle.vc_mahir_supron_kurtz_basic_mq304_ep1_4 called in mahir_supron_kurtz_basic_base_01; 22 parts swapped, 2 repainted, 1 added where the look has none, 0 failed, 11 kit parts added
+13:57:00   engine: attached: Vehicle.vc_mahir_supron_kurtz_basic_mq304_ep1_4 in mahir_supron_kurtz_basic_base_01, switching to its build's look
+13:57:00   engine: build 82: Vehicle.vc_mahir_supron_kurtz_basic_mq304_ep1_4 rebuilt in mahir_supron_kurtz_basic_player_01__vc_a; 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 11 kit parts added
+13:57:00   done waiting for the copy to appear (0.1 s)
+13:57:01 step 188: mahir_supron_kurtz_basic_mq304_ep1: wait for its style
+13:57:01   done waiting for mahir_supron_kurtz_basic_mq304_ep1 in its style's look (0.0 s)
+13:57:04 step 189: mahir_supron_kurtz_basic_mq304_ep1: check it
+13:57:04 PASS mahir_supron_kurtz_basic_mq304_ep1 spawned - Vehicle.vc_mahir_supron_kurtz_basic_mq304_ep1_4
+13:57:04 PASS mahir_supron_kurtz_basic_mq304_ep1 - mahir_supron_kurtz_basic_player_01__vc_a; ok (34 parts checked)
+13:57:04 PASS mahir_supron_kurtz_basic_mq304_ep1: every part placed - 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 11 kit parts added
+13:57:04 SHOT sweep_mahir_supron_kurtz_basic_mq304_ep1
+13:57:08 step 190: mahir_supron_kurtz_basic_mq304_ep1: take it away
+13:57:09 step 191: militech_behemoth_basic_01_ep1: build it and spawn it
+13:57:09   militech_behemoth_basic_01_ep1: 2 styles, 10 slots, 8 kits; build 408 characters
+13:57:09   spawned entity 10790291ULL 12 m ahead of V
+13:57:09   engine: build 83: Vehicle.vc_militech_behemoth_basic_01_ep1_4 called in militech_behemoth_basic_kurtz_01; 16 parts swapped, 4 repainted, 3 added where the look has none, 0 failed, 12 kit parts added
+13:57:09   engine: attached: Vehicle.vc_militech_behemoth_basic_01_ep1_4 in militech_behemoth_basic_kurtz_01, switching to its build's look
+13:57:09   engine: build 84: Vehicle.vc_militech_behemoth_basic_01_ep1_4 rebuilt in militech_behemoth_police_q305_hologram__vc_a; 15 parts swapped, 9 repainted, 4 added where the look has none, 0 failed, 12 kit parts added
+13:57:09   done waiting for the copy to appear (0.1 s)
+13:57:10 step 192: militech_behemoth_basic_01_ep1: wait for its style
+13:57:10   done waiting for militech_behemoth_basic_01_ep1 in its style's look (0.0 s)
+13:57:13 step 193: militech_behemoth_basic_01_ep1: check it
+13:57:13 PASS militech_behemoth_basic_01_ep1 spawned - Vehicle.vc_militech_behemoth_basic_01_ep1_4
+13:57:13 PASS militech_behemoth_basic_01_ep1 - militech_behemoth_police_q305_hologram__vc_a; ok (32 parts checked)
+13:57:13 PASS militech_behemoth_basic_01_ep1: every part placed - 15 parts swapped, 9 repainted, 4 added where the look has none, 0 failed, 12 kit parts added
+13:57:13 SHOT sweep_militech_behemoth_basic_01_ep1
+13:57:17 step 194: militech_behemoth_basic_01_ep1: take it away
+13:57:18 step 195: militech_behemoth_basic_01: build it and spawn it
+13:57:18   militech_behemoth_basic_01: 4 styles, 7 slots, 2 kits; build 247 characters
+13:57:18   spawned entity 10790298ULL 12 m ahead of V
+13:57:18   engine: build 85: Vehicle.vc_militech_behemoth_basic_01_4 called in militech_behemoth_basic_camo_01; 16 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:57:18   engine: attached: Vehicle.vc_militech_behemoth_basic_01_4 in militech_behemoth_basic_camo_01, switching to its build's look
+13:57:18   engine: build 86: Vehicle.vc_militech_behemoth_basic_01_4 rebuilt in militech_behemoth_basic_kang_tao__vc_a; 16 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:57:18   done waiting for the copy to appear (0.1 s)
+13:57:19 step 196: militech_behemoth_basic_01: wait for its style
+13:57:19   done waiting for militech_behemoth_basic_01 in its style's look (0.0 s)
+13:57:22 step 197: militech_behemoth_basic_01: check it
+13:57:22 PASS militech_behemoth_basic_01 spawned - Vehicle.vc_militech_behemoth_basic_01_4
+13:57:22 PASS militech_behemoth_basic_01 - militech_behemoth_basic_kang_tao__vc_a; ok (16 parts checked)
+13:57:22 PASS militech_behemoth_basic_01: every part placed - 16 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:57:22 SHOT sweep_militech_behemoth_basic_01
+13:57:26 step 198: militech_behemoth_basic_01: take it away
+13:57:27 step 199: archer_hella__police_01: build it and spawn it
+13:57:27   archer_hella__police_01: 2 styles, 21 slots, 18 kits; build 821 characters
+13:57:27   spawned entity 10790361ULL 12 m ahead of V
+13:57:27   engine: build 87: Vehicle.vc_archer_hella__police_01_4 called in archer_hella__basic_police_01; 25 parts swapped, 13 repainted, 8 added where the look has none, 0 failed, 12 kit parts added
+13:57:27   engine: attached: Vehicle.vc_archer_hella__police_01_4 in archer_hella__basic_police_01
+13:57:27   done waiting for the copy to appear (0.1 s)
+13:57:28 step 200: archer_hella__police_01: wait for its style
+13:57:28   done waiting for archer_hella__police_01 in its style's look (0.0 s)
+13:57:31 step 201: archer_hella__police_01: check it
+13:57:31 PASS archer_hella__police_01 spawned - Vehicle.vc_archer_hella__police_01_4
+13:57:31 PASS archer_hella__police_01 - archer_hella__basic_police_01; ok (45 parts checked)
+13:57:31 PASS archer_hella__police_01: every part placed - 25 parts swapped, 13 repainted, 8 added where the look has none, 0 failed, 12 kit parts added
+13:57:31 SHOT sweep_archer_hella__police_01
+13:57:35 step 202: archer_hella__police_01: take it away
+13:57:36 step 203: kaukaz_bratsk__basic_concrete_truck_01: build it and spawn it
+13:57:36   kaukaz_bratsk__basic_concrete_truck_01: 1 styles, 8 slots, 0 kits; build 295 characters
+13:57:36   spawned entity 10790416ULL 12 m ahead of V
+13:57:36   engine: build 88: Vehicle.vc_kaukaz_bratsk__basic_concrete_truck_01_4 called in kaukaz_bratsk__basic_concrete_truck_01; 11 parts swapped, 5 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:57:36   engine: attached: Vehicle.vc_kaukaz_bratsk__basic_concrete_truck_01_4 in kaukaz_bratsk__basic_concrete_truck_01
+13:57:36   done waiting for the copy to appear (0.1 s)
+13:57:37 step 204: kaukaz_bratsk__basic_concrete_truck_01: wait for its style
+13:57:37   done waiting for kaukaz_bratsk__basic_concrete_truck_01 in its style's look (0.0 s)
+13:57:40 step 205: kaukaz_bratsk__basic_concrete_truck_01: check it
+13:57:40 PASS kaukaz_bratsk__basic_concrete_truck_01 spawned - Vehicle.vc_kaukaz_bratsk__basic_concrete_truck_01_4
+13:57:40 PASS kaukaz_bratsk__basic_concrete_truck_01 - kaukaz_bratsk__basic_concrete_truck_01; ok (13 parts checked)
+13:57:40 PASS kaukaz_bratsk__basic_concrete_truck_01: every part placed - 11 parts swapped, 5 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:57:40 SHOT sweep_kaukaz_bratsk__basic_concrete_truck_01
+13:57:45 step 206: kaukaz_bratsk__basic_concrete_truck_01: take it away
+13:57:46 step 207: kaukaz_zeya__barrels_01: build it and spawn it
+13:57:46   kaukaz_zeya__barrels_01: 1 styles, 6 slots, 3 kits; build 217 characters
+13:57:46   spawned entity 10790428ULL 12 m ahead of V
+13:57:46   engine: build 89: Vehicle.vc_kaukaz_zeya__barrels_01_4 called in kaukaz_zeya__basic_zeya_barrels_01; 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:57:46   engine: attached: Vehicle.vc_kaukaz_zeya__barrels_01_4 in kaukaz_zeya__basic_zeya_barrels_01
+13:57:46   done waiting for the copy to appear (0.1 s)
+13:57:47 step 208: kaukaz_zeya__barrels_01: wait for its style
+13:57:47   done waiting for kaukaz_zeya__barrels_01 in its style's look (0.0 s)
+13:57:50 step 209: kaukaz_zeya__barrels_01: check it
+13:57:50 PASS kaukaz_zeya__barrels_01 spawned - Vehicle.vc_kaukaz_zeya__barrels_01_4
+13:57:50 PASS kaukaz_zeya__barrels_01 - kaukaz_zeya__basic_zeya_barrels_01; ok (10 parts checked)
+13:57:50 PASS kaukaz_zeya__barrels_01: every part placed - 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:57:50 SHOT sweep_kaukaz_zeya__barrels_01
+13:57:54 step 210: kaukaz_zeya__barrels_01: take it away
+13:57:55 step 211: kaukaz_zeya__full_01: build it and spawn it
+13:57:55   kaukaz_zeya__full_01: 2 styles, 6 slots, 3 kits; build 216 characters
+13:57:55   spawned entity 10790458ULL 12 m ahead of V
+13:57:55   engine: build 90: Vehicle.vc_kaukaz_zeya__full_01_4 called in kaukaz_zeya__basic_zeya_full_01; 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:57:55   engine: attached: Vehicle.vc_kaukaz_zeya__full_01_4 in kaukaz_zeya__basic_zeya_full_01, switching to its build's look
+13:57:55   engine: build 91: Vehicle.vc_kaukaz_zeya__full_01_4 rebuilt in kaukaz_zeya__basic_zeya_hazmat_01__vc_a; 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:57:55   done waiting for the copy to appear (0.1 s)
+13:57:56 step 212: kaukaz_zeya__full_01: wait for its style
+13:57:56   done waiting for kaukaz_zeya__full_01 in its style's look (0.0 s)
+13:57:59 step 213: kaukaz_zeya__full_01: check it
+13:57:59 PASS kaukaz_zeya__full_01 spawned - Vehicle.vc_kaukaz_zeya__full_01_4
+13:57:59 PASS kaukaz_zeya__full_01 - kaukaz_zeya__basic_zeya_hazmat_01__vc_a; ok (10 parts checked)
+13:57:59 PASS kaukaz_zeya__full_01: every part placed - 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:57:59 SHOT sweep_kaukaz_zeya__full_01
+13:58:03 step 214: kaukaz_zeya__full_01: take it away
+13:58:04 step 215: thorton_colby_pickup_nomad__basic_01_mq304_ep1: build it and spawn it
+13:58:04   thorton_colby_pickup_nomad__basic_01_mq304_ep1: 12 styles, 11 slots, 13 kits; build 453 characters
+13:58:04   spawned entity 10790470ULL 12 m ahead of V
+13:58:04   engine: build 92: Vehicle.vc_thorton_colby_pickup_nomad__basic_01_mq304_ep1_4 called in thorton_colby_pickup_nomad_aldecados_05; 18 parts swapped, 11 repainted, 1 added where the look has none, 0 failed, 24 kit parts added
+13:58:04   engine: attached: Vehicle.vc_thorton_colby_pickup_nomad__basic_01_mq304_ep1_4 in thorton_colby_pickup_nomad_aldecados_05, switching to its build's look
+13:58:04   engine: build 93: Vehicle.vc_thorton_colby_pickup_nomad__basic_01_mq304_ep1_4 rebuilt in thorton_colby_pickup_nomad_wraiths_05__vc_a; 18 parts swapped, 8 repainted, 1 added where the look has none, 0 failed, 24 kit parts added
+13:58:04   done waiting for the copy to appear (0.1 s)
+13:58:05 step 216: thorton_colby_pickup_nomad__basic_01_mq304_ep1: wait for its style
+13:58:05   done waiting for thorton_colby_pickup_nomad__basic_01_mq304_ep1 in its style's look (0.0 s)
+13:58:08 step 217: thorton_colby_pickup_nomad__basic_01_mq304_ep1: check it
+13:58:08 PASS thorton_colby_pickup_nomad__basic_01_mq304_ep1 spawned - Vehicle.vc_thorton_colby_pickup_nomad__basic_01_mq304_ep1_4
+13:58:08 PASS thorton_colby_pickup_nomad__basic_01_mq304_ep1 - thorton_colby_pickup_nomad_wraiths_05__vc_a; ok (47 parts checked)
+13:58:08 PASS thorton_colby_pickup_nomad__basic_01_mq304_ep1: every part placed - 18 parts swapped, 8 repainted, 1 added where the look has none, 0 failed, 24 kit parts added
+13:58:08 SHOT sweep_thorton_colby_pickup_nomad__basic_01_mq304_ep1
+13:58:12 step 218: thorton_colby_pickup_nomad__basic_01_mq304_ep1: take it away
+13:58:13 step 219: thorton_colby_ep1__basic_01: build it and spawn it
+13:58:13   thorton_colby_ep1__basic_01: 2 styles, 12 slots, 5 kits; build 464 characters
+13:58:13   spawned entity 10790486ULL 12 m ahead of V
+13:58:13   engine: build 94: Vehicle.vc_thorton_colby_ep1__basic_01_4 called in thorton_colby__basic_scavenger_01; 19 parts swapped, 7 repainted, 1 added where the look has none, 0 failed, 11 kit parts added
+13:58:13   engine: attached: Vehicle.vc_thorton_colby_ep1__basic_01_4 in thorton_colby__basic_scavenger_01, switching to its build's look
+13:58:13   engine: build 95: Vehicle.vc_thorton_colby_ep1__basic_01_4 rebuilt in thorton_colby__basic_scavenger_02__vc_a; 17 parts swapped, 7 repainted, 3 added where the look has none, 0 failed, 11 kit parts added
+13:58:13   done waiting for the copy to appear (0.1 s)
+13:58:14 step 220: thorton_colby_ep1__basic_01: wait for its style
+13:58:15   done waiting for thorton_colby_ep1__basic_01 in its style's look (0.0 s)
+13:58:18 step 221: thorton_colby_ep1__basic_01: check it
+13:58:18 PASS thorton_colby_ep1__basic_01 spawned - Vehicle.vc_thorton_colby_ep1__basic_01_4
+13:58:18 PASS thorton_colby_ep1__basic_01 - thorton_colby__basic_scavenger_02__vc_a; ok (31 parts checked)
+13:58:18 PASS thorton_colby_ep1__basic_01: every part placed - 17 parts swapped, 7 repainted, 3 added where the look has none, 0 failed, 11 kit parts added
+13:58:18 SHOT sweep_thorton_colby_ep1__basic_01
+13:58:22 step 222: thorton_colby_ep1__basic_01: take it away
+13:58:23 step 223: chevalier_centurion__basic_01_ep1: build it and spawn it
+13:58:23   chevalier_centurion__basic_01_ep1: 1 styles, 19 slots, 0 kits; build 617 characters
+13:58:23   spawned entity 10790534ULL 12 m ahead of V
+13:58:23   engine: build 96: Vehicle.vc_chevalier_centurion__basic_01_ep1_4 called in chevalier_centurion_basic_dumptruck_suburban_01; 29 parts swapped, 17 repainted, 3 added where the look has none, 0 failed, 0 kit parts added
+13:58:23   engine: attached: Vehicle.vc_chevalier_centurion__basic_01_ep1_4 in chevalier_centurion_basic_dumptruck_suburban_01, switching to its build's look
+13:58:23   engine: build 97: Vehicle.vc_chevalier_centurion__basic_01_ep1_4 rebuilt in chevalier_centurion_basic_dumptruck_poor_01__vc_a; 29 parts swapped, 0 repainted, 3 added where the look has none, 0 failed, 0 kit parts added
+13:58:23   done waiting for the copy to appear (0.1 s)
+13:58:24 step 224: chevalier_centurion__basic_01_ep1: wait for its style
+13:58:24   done waiting for chevalier_centurion__basic_01_ep1 in its style's look (0.0 s)
+13:58:27 step 225: chevalier_centurion__basic_01_ep1: check it
+13:58:27 PASS chevalier_centurion__basic_01_ep1 spawned - Vehicle.vc_chevalier_centurion__basic_01_ep1_4
+13:58:27 PASS chevalier_centurion__basic_01_ep1 - chevalier_centurion_basic_dumptruck_poor_01__vc_a; ok (32 parts checked)
+13:58:27 PASS chevalier_centurion__basic_01_ep1: every part placed - 29 parts swapped, 0 repainted, 3 added where the look has none, 0 failed, 0 kit parts added
+13:58:27 SHOT sweep_chevalier_centurion__basic_01_ep1
+13:58:31 step 226: chevalier_centurion__basic_01_ep1: take it away
+13:58:32 step 227: z71_aras__basic_01: build it and spawn it
+13:58:32   z71_aras__basic_01: 1 styles, 0 slots, 0 kits; build 39 characters
+13:58:32   spawned entity 10790548ULL 12 m ahead of V
+13:58:32   engine: build 98: Vehicle.vc_z71_aras__basic_01_4 called in kaukaz_z71_aras__basic_poor_01; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:58:32   engine: attached: Vehicle.vc_z71_aras__basic_01_4 in kaukaz_z71_aras__basic_poor_01, switching to its build's look
+13:58:32   engine: build 99: Vehicle.vc_z71_aras__basic_01_4 rebuilt in kaukaz_z71_aras__basic_distraction__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:58:32   done waiting for the copy to appear (0.1 s)
+13:58:33 step 228: z71_aras__basic_01: wait for its style
+13:58:33   done waiting for z71_aras__basic_01 in its style's look (0.0 s)
+13:58:36 step 229: z71_aras__basic_01: check it
+13:58:36 PASS z71_aras__basic_01 spawned - Vehicle.vc_z71_aras__basic_01_4
+13:58:36 PASS z71_aras__basic_01 - kaukaz_z71_aras__basic_distraction__vc_a; ok (0 parts checked)
+13:58:36 PASS z71_aras__basic_01: every part placed - 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+13:58:36 SHOT sweep_z71_aras__basic_01
+13:58:40 step 230: z71_aras__basic_01: take it away
+13:58:41 step 231: brennan_apollo_basic_01_ep1: build it and spawn it
+13:58:41   brennan_apollo_basic_01_ep1: 4 styles, 8 slots, 11 kits; build 395 characters
+13:58:41   spawned entity 10790553ULL 12 m ahead of V
+13:58:41   engine: build 100: Vehicle.vc_brennan_apollo_basic_01_ep1_4 called in brennan_apollo_police_basic_militia_01; 8 parts swapped, 5 repainted, 0 added where the look has none, 0 failed, 4 kit parts added
+13:58:41   engine: attached: Vehicle.vc_brennan_apollo_basic_01_ep1_4 in brennan_apollo_police_basic_militia_01, switching to its build's look
+13:58:41   engine: build 101: Vehicle.vc_brennan_apollo_basic_01_ep1_4 rebuilt in brennan_apollo_police_basic_police_01__vc_a; 8 parts swapped, 3 repainted, 0 added where the look has none, 0 failed, 4 kit parts added
+13:58:41   done waiting for the copy to appear (0.1 s)
+13:58:42 step 232: brennan_apollo_basic_01_ep1: wait for its style
+13:58:42   done waiting for brennan_apollo_basic_01_ep1 in its style's look (0.0 s)
+13:58:45 step 233: brennan_apollo_basic_01_ep1: check it
+13:58:45 PASS brennan_apollo_basic_01_ep1 spawned - Vehicle.vc_brennan_apollo_basic_01_ep1_4
+13:58:45 PASS brennan_apollo_basic_01_ep1 - brennan_apollo_police_basic_police_01__vc_a; ok (12 parts checked)
+13:58:45 PASS brennan_apollo_basic_01_ep1: every part placed - 8 parts swapped, 3 repainted, 0 added where the look has none, 0 failed, 4 kit parts added
+13:58:45 SHOT sweep_brennan_apollo_basic_01_ep1
+13:58:49 step 234: brennan_apollo_basic_01_ep1: take it away
+13:58:50 step 235: kaukaz_zeya__basic_01: build it and spawn it
+13:58:50   kaukaz_zeya__basic_01: 1 styles, 6 slots, 3 kits; build 215 characters
+13:58:50   spawned entity 10790584ULL 12 m ahead of V
+13:58:50   engine: build 102: Vehicle.vc_kaukaz_zeya__basic_01_4 called in kaukaz_zeya__basic_zeya_basic_02; 9 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:58:50   engine: attached: Vehicle.vc_kaukaz_zeya__basic_01_4 in kaukaz_zeya__basic_zeya_basic_02, switching to its build's look
+13:58:50   engine: build 103: Vehicle.vc_kaukaz_zeya__basic_01_4 rebuilt in kaukaz_zeya__basic_zeya_basic_01__vc_a; 9 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:58:50   done waiting for the copy to appear (0.1 s)
+13:58:51 step 236: kaukaz_zeya__basic_01: wait for its style
+13:58:51   done waiting for kaukaz_zeya__basic_01 in its style's look (0.0 s)
+13:58:54 step 237: kaukaz_zeya__basic_01: check it
+13:58:54 PASS kaukaz_zeya__basic_01 spawned - Vehicle.vc_kaukaz_zeya__basic_01_4
+13:58:54 PASS kaukaz_zeya__basic_01 - kaukaz_zeya__basic_zeya_basic_01__vc_a; ok (10 parts checked)
+13:58:54 PASS kaukaz_zeya__basic_01: every part placed - 9 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+13:58:54 SHOT sweep_kaukaz_zeya__basic_01
+13:58:59 step 238: kaukaz_zeya__basic_01: take it away
+13:59:00 step 239: thorton_merrimac_01_basic_01_ep1: build it and spawn it
+13:59:00   thorton_merrimac_01_basic_01_ep1: 12 styles, 23 slots, 7 kits; build 852 characters
+13:59:00   spawned entity 10790614ULL 12 m ahead of V
+13:59:00   engine: build 104: Vehicle.vc_thorton_merrimac_01_basic_01_ep1_4 called in thorton_merrimac_basic_maxtac_e307; 37 parts swapped, 15 repainted, 0 added where the look has none, 0 failed, 8 kit parts added
+13:59:00   engine: attached: Vehicle.vc_thorton_merrimac_01_basic_01_ep1_4 in thorton_merrimac_basic_maxtac_e307, switching to its build's look
+13:59:00   engine: build 105: Vehicle.vc_thorton_merrimac_01_basic_01_ep1_4 rebuilt in thorton_merrimac_basic_urban_07__vc_a; 35 parts swapped, 19 repainted, 2 added where the look has none, 0 failed, 8 kit parts added
+13:59:00   done waiting for the copy to appear (0.1 s)
+13:59:01 step 240: thorton_merrimac_01_basic_01_ep1: wait for its style
+13:59:01   done waiting for thorton_merrimac_01_basic_01_ep1 in its style's look (0.0 s)
+13:59:04 step 241: thorton_merrimac_01_basic_01_ep1: check it
+13:59:04 PASS thorton_merrimac_01_basic_01_ep1 spawned - Vehicle.vc_thorton_merrimac_01_basic_01_ep1_4
+13:59:04 PASS thorton_merrimac_01_basic_01_ep1 - thorton_merrimac_basic_urban_07__vc_a; ok (47 parts checked)
+13:59:04 PASS thorton_merrimac_01_basic_01_ep1: every part placed - 35 parts swapped, 19 repainted, 2 added where the look has none, 0 failed, 8 kit parts added
+13:59:04 SHOT sweep_thorton_merrimac_01_basic_01_ep1
+13:59:08 step 242: thorton_merrimac_01_basic_01_ep1: take it away
+13:59:09 step 243: villefort_cortes_02__delamain_01: build it and spawn it
+13:59:09   villefort_cortes_02__delamain_01: 3 styles, 14 slots, 23 kits; build 539 characters
+13:59:09   spawned entity 10790647ULL 12 m ahead of V
+13:59:09   engine: build 106: Vehicle.vc_villefort_cortes_02__delamain_01_4 called in villefort_cortes__basic_delamain; 28 parts swapped, 2 repainted, 1 added where the look has none, 0 failed, 5 kit parts added
+13:59:09   engine: attached: Vehicle.vc_villefort_cortes_02__delamain_01_4 in villefort_cortes__basic_delamain, switching to its build's look
+13:59:09   engine: build 107: Vehicle.vc_villefort_cortes_02__delamain_01_4 rebuilt in villefort_cortes__basic_delamain_q307__vc_a; 28 parts swapped, 1 repainted, 1 added where the look has none, 0 failed, 5 kit parts added
+13:59:09   done waiting for the copy to appear (0.1 s)
+13:59:10 step 244: villefort_cortes_02__delamain_01: wait for its style
+13:59:10   done waiting for villefort_cortes_02__delamain_01 in its style's look (0.0 s)
+13:59:13 step 245: villefort_cortes_02__delamain_01: check it
+13:59:13 PASS villefort_cortes_02__delamain_01 spawned - Vehicle.vc_villefort_cortes_02__delamain_01_4
+13:59:13 PASS villefort_cortes_02__delamain_01 - villefort_cortes__basic_delamain_q307__vc_a; ok (34 parts checked)
+13:59:13 PASS villefort_cortes_02__delamain_01: every part placed - 28 parts swapped, 1 repainted, 1 added where the look has none, 0 failed, 5 kit parts added
+13:59:13 SHOT sweep_villefort_cortes_02__delamain_01
+13:59:17 step 246: villefort_cortes_02__delamain_01: take it away
+13:59:18 step 247: kaukaz_bratsk__basic_machine_truck_01: build it and spawn it
+13:59:18   kaukaz_bratsk__basic_machine_truck_01: 1 styles, 8 slots, 0 kits; build 294 characters
+13:59:18   spawned entity 10790665ULL 12 m ahead of V
+13:59:18   engine: build 108: Vehicle.vc_kaukaz_bratsk__basic_machine_truck_01_4 called in kaukaz_bratsk__basic_machine_truck_burnt_01; 2 parts swapped, 1 repainted, 11 added where the look has none, 0 failed, 0 kit parts added
+13:59:18   engine: attached: Vehicle.vc_kaukaz_bratsk__basic_machine_truck_01_4 in kaukaz_bratsk__basic_machine_truck_burnt_01, switching to its build's look
+13:59:18   engine: build 109: Vehicle.vc_kaukaz_bratsk__basic_machine_truck_01_4 rebuilt in kaukaz_bratsk__basic_machine_truck_01__vc_a; 11 parts swapped, 5 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:59:18   done waiting for the copy to appear (0.1 s)
+13:59:19 step 248: kaukaz_bratsk__basic_machine_truck_01: wait for its style
+13:59:19   done waiting for kaukaz_bratsk__basic_machine_truck_01 in its style's look (0.0 s)
+13:59:22 step 249: kaukaz_bratsk__basic_machine_truck_01: check it
+13:59:22 PASS kaukaz_bratsk__basic_machine_truck_01 spawned - Vehicle.vc_kaukaz_bratsk__basic_machine_truck_01_4
+13:59:22 PASS kaukaz_bratsk__basic_machine_truck_01 - kaukaz_bratsk__basic_machine_truck_01__vc_a; ok (13 parts checked)
+13:59:22 PASS kaukaz_bratsk__basic_machine_truck_01: every part placed - 11 parts swapped, 5 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:59:22 SHOT sweep_kaukaz_bratsk__basic_machine_truck_01
+13:59:26 step 250: kaukaz_bratsk__basic_machine_truck_01: take it away
+13:59:27 step 251: kaukaz_bratsk_extended__basic_01: build it and spawn it
+13:59:27   kaukaz_bratsk_extended__basic_01: 2 styles, 9 slots, 1 kits; build 544 characters
+13:59:27   spawned entity 10790677ULL 12 m ahead of V
+13:59:27   engine: build 110: Vehicle.vc_kaukaz_bratsk_extended__basic_01_4 called in kaukaz_bratsk_extended_sq027_basilsk_cargo_wings; 5 parts swapped, 0 repainted, 4 added where the look has none, 0 failed, 0 kit parts added
+13:59:27   engine: attached: Vehicle.vc_kaukaz_bratsk_extended__basic_01_4 in kaukaz_bratsk_extended_sq027_basilsk_cargo_wings
+13:59:27   done waiting for the copy to appear (0.1 s)
+13:59:28 step 252: kaukaz_bratsk_extended__basic_01: wait for its style
+13:59:28   done waiting for kaukaz_bratsk_extended__basic_01 in its style's look (0.0 s)
+13:59:31 step 253: kaukaz_bratsk_extended__basic_01: check it
+13:59:31 PASS kaukaz_bratsk_extended__basic_01 spawned - Vehicle.vc_kaukaz_bratsk_extended__basic_01_4
+13:59:31 PASS kaukaz_bratsk_extended__basic_01 - kaukaz_bratsk_extended_sq027_basilsk_cargo_wings; ok (9 parts checked)
+13:59:31 PASS kaukaz_bratsk_extended__basic_01: every part placed - 5 parts swapped, 0 repainted, 4 added where the look has none, 0 failed, 0 kit parts added
+13:59:31 SHOT sweep_kaukaz_bratsk_extended__basic_01
+13:59:35 step 254: kaukaz_bratsk_extended__basic_01: take it away
+13:59:37 step 255: kaukaz_bratsk__basic_01: build it and spawn it
+13:59:37   kaukaz_bratsk__basic_01: 1 styles, 8 slots, 0 kits; build 294 characters
+13:59:37   spawned entity 10790684ULL 12 m ahead of V
+13:59:37   engine: build 111: Vehicle.vc_kaukaz_bratsk__basic_01_4 called in kaukaz_bratsk__basic_flatbed_truck_02; 11 parts swapped, 10 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:59:37   engine: attached: Vehicle.vc_kaukaz_bratsk__basic_01_4 in kaukaz_bratsk__basic_flatbed_truck_02, switching to its build's look
+13:59:37   engine: build 112: Vehicle.vc_kaukaz_bratsk__basic_01_4 rebuilt in kaukaz_bratsk__basic_flatbed_truck_01__vc_a; 11 parts swapped, 7 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:59:37   done waiting for the copy to appear (0.1 s)
+13:59:38 step 256: kaukaz_bratsk__basic_01: wait for its style
+13:59:38   done waiting for kaukaz_bratsk__basic_01 in its style's look (0.0 s)
+13:59:41 step 257: kaukaz_bratsk__basic_01: check it
+13:59:41 PASS kaukaz_bratsk__basic_01 spawned - Vehicle.vc_kaukaz_bratsk__basic_01_4
+13:59:41 PASS kaukaz_bratsk__basic_01 - kaukaz_bratsk__basic_flatbed_truck_01__vc_a; ok (13 parts checked)
+13:59:41 PASS kaukaz_bratsk__basic_01: every part placed - 11 parts swapped, 7 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+13:59:41 SHOT sweep_kaukaz_bratsk__basic_01
+13:59:45 step 258: kaukaz_bratsk__basic_01: take it away
+13:59:46 step 259: thorton_merrimac_01_basic_01: build it and spawn it
+13:59:46   thorton_merrimac_01_basic_01: 1 styles, 23 slots, 7 kits; build 853 characters
+13:59:46   spawned entity 10790713ULL 12 m ahead of V
+13:59:46   engine: build 113: Vehicle.vc_thorton_merrimac_01_basic_01_4 called in thorton_merrimac_basic_police_01; 33 parts swapped, 19 repainted, 4 added where the look has none, 0 failed, 8 kit parts added
+13:59:46   engine: attached: Vehicle.vc_thorton_merrimac_01_basic_01_4 in thorton_merrimac_basic_police_01
+13:59:46   done waiting for the copy to appear (0.1 s)
+13:59:47 step 260: thorton_merrimac_01_basic_01: wait for its style
+13:59:47   done waiting for thorton_merrimac_01_basic_01 in its style's look (0.0 s)
+13:59:50 step 261: thorton_merrimac_01_basic_01: check it
+13:59:50 PASS thorton_merrimac_01_basic_01 spawned - Vehicle.vc_thorton_merrimac_01_basic_01_4
+13:59:50 PASS thorton_merrimac_01_basic_01 - thorton_merrimac_basic_police_01; ok (47 parts checked)
+13:59:50 PASS thorton_merrimac_01_basic_01: every part placed - 33 parts swapped, 19 repainted, 4 added where the look has none, 0 failed, 8 kit parts added
+13:59:50 SHOT sweep_thorton_merrimac_01_basic_01
+13:59:54 step 262: thorton_merrimac_01_basic_01: take it away
+13:59:55 step 263: chevalier_thrax__basic_01_ep1: build it and spawn it
+13:59:55   chevalier_thrax__basic_01_ep1: 3 styles, 14 slots, 14 kits; build 555 characters
+13:59:55   spawned entity 10790731ULL 12 m ahead of V
+13:59:55   engine: build 114: Vehicle.vc_chevalier_thrax__basic_01_ep1_4 called in chevalier_thrax__basic_scavenger_01; 24 parts swapped, 14 repainted, 2 added where the look has none, 0 failed, 9 kit parts added
+13:59:55   engine: attached: Vehicle.vc_chevalier_thrax__basic_01_ep1_4 in chevalier_thrax__basic_scavenger_01, switching to its build's look
+13:59:55   engine: build 115: Vehicle.vc_chevalier_thrax__basic_01_ep1_4 rebuilt in chevalier_thrax__basic_scavenger_02__vc_a; 23 parts swapped, 13 repainted, 3 added where the look has none, 0 failed, 9 kit parts added
+13:59:55   done waiting for the copy to appear (0.1 s)
+13:59:56 step 264: chevalier_thrax__basic_01_ep1: wait for its style
+13:59:56   done waiting for chevalier_thrax__basic_01_ep1 in its style's look (0.0 s)
+13:59:59 step 265: chevalier_thrax__basic_01_ep1: check it
+13:59:59 PASS chevalier_thrax__basic_01_ep1 spawned - Vehicle.vc_chevalier_thrax__basic_01_ep1_4
+13:59:59 PASS chevalier_thrax__basic_01_ep1 - chevalier_thrax__basic_scavenger_02__vc_a; ok (35 parts checked)
+13:59:59 PASS chevalier_thrax__basic_01_ep1: every part placed - 23 parts swapped, 13 repainted, 3 added where the look has none, 0 failed, 9 kit parts added
+13:59:59 SHOT sweep_chevalier_thrax__basic_01_ep1
+14:00:03 step 266: chevalier_thrax__basic_01_ep1: take it away
+14:00:04 step 267: archer_hella_ep1__basic_01: build it and spawn it
+14:00:04   archer_hella_ep1__basic_01: 2 styles, 21 slots, 18 kits; build 823 characters
+14:00:04   spawned entity 10790762ULL 12 m ahead of V
+14:00:04   engine: build 116: Vehicle.vc_archer_hella_ep1__basic_01_4 called in archer_hella__basic_scavenger_1; 26 parts swapped, 11 repainted, 7 added where the look has none, 0 failed, 12 kit parts added
+14:00:04   engine: attached: Vehicle.vc_archer_hella_ep1__basic_01_4 in archer_hella__basic_scavenger_1, switching to its build's look
+14:00:04   engine: build 117: Vehicle.vc_archer_hella_ep1__basic_01_4 rebuilt in archer_hella__basic_scavenger_2__vc_a; 26 parts swapped, 13 repainted, 7 added where the look has none, 0 failed, 12 kit parts added
+14:00:04   done waiting for the copy to appear (0.1 s)
+14:00:05 step 268: archer_hella_ep1__basic_01: wait for its style
+14:00:05   done waiting for archer_hella_ep1__basic_01 in its style's look (0.0 s)
+14:00:08 step 269: archer_hella_ep1__basic_01: check it
+14:00:08 PASS archer_hella_ep1__basic_01 spawned - Vehicle.vc_archer_hella_ep1__basic_01_4
+14:00:08 PASS archer_hella_ep1__basic_01 - archer_hella__basic_scavenger_2__vc_a; ok (45 parts checked)
+14:00:08 PASS archer_hella_ep1__basic_01: every part placed - 26 parts swapped, 13 repainted, 7 added where the look has none, 0 failed, 12 kit parts added
+14:00:08 SHOT sweep_archer_hella_ep1__basic_01
+14:00:12 step 270: archer_hella_ep1__basic_01: take it away
+14:00:13 step 271: kaukaz_zeya__container_01: build it and spawn it
+14:00:13   kaukaz_zeya__container_01: 1 styles, 6 slots, 3 kits; build 219 characters
+14:00:13   spawned entity 10790776ULL 12 m ahead of V
+14:00:13   engine: build 118: Vehicle.vc_kaukaz_zeya__container_01_4 called in kaukaz_zeya__basic_zeya_container_02; 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:00:14   engine: attached: Vehicle.vc_kaukaz_zeya__container_01_4 in kaukaz_zeya__basic_zeya_container_02, switching to its build's look
+14:00:14   engine: build 119: Vehicle.vc_kaukaz_zeya__container_01_4 rebuilt in kaukaz_zeya__basic_zeya_container_01__vc_a; 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:00:14   done waiting for the copy to appear (0.1 s)
+14:00:15 step 272: kaukaz_zeya__container_01: wait for its style
+14:00:15   done waiting for kaukaz_zeya__container_01 in its style's look (0.0 s)
+14:00:18 step 273: kaukaz_zeya__container_01: check it
+14:00:18 PASS kaukaz_zeya__container_01 spawned - Vehicle.vc_kaukaz_zeya__container_01_4
+14:00:18 PASS kaukaz_zeya__container_01 - kaukaz_zeya__basic_zeya_container_01__vc_a; ok (10 parts checked)
+14:00:18 PASS kaukaz_zeya__container_01: every part placed - 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:00:18 SHOT sweep_kaukaz_zeya__container_01
+14:00:22 step 274: kaukaz_zeya__container_01: take it away
+14:00:23 step 275: kaukaz_bratsk__basic_container_truck_01: build it and spawn it
+14:00:23   kaukaz_bratsk__basic_container_truck_01: 1 styles, 8 slots, 0 kits; build 296 characters
+14:00:23   spawned entity 10790788ULL 12 m ahead of V
+14:00:23   engine: build 120: Vehicle.vc_kaukaz_bratsk__basic_container_truck_01_4 called in kaukaz_bratsk__basic_container_truck_05; 11 parts swapped, 2 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+14:00:23   engine: attached: Vehicle.vc_kaukaz_bratsk__basic_container_truck_01_4 in kaukaz_bratsk__basic_container_truck_05, switching to its build's look
+14:00:23   engine: build 121: Vehicle.vc_kaukaz_bratsk__basic_container_truck_01_4 rebuilt in kaukaz_bratsk__basic_container_truck_01__vc_a; 11 parts swapped, 5 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+14:00:23   done waiting for the copy to appear (0.1 s)
+14:00:24 step 276: kaukaz_bratsk__basic_container_truck_01: wait for its style
+14:00:24   done waiting for kaukaz_bratsk__basic_container_truck_01 in its style's look (0.0 s)
+14:00:27 step 277: kaukaz_bratsk__basic_container_truck_01: check it
+14:00:27 PASS kaukaz_bratsk__basic_container_truck_01 spawned - Vehicle.vc_kaukaz_bratsk__basic_container_truck_01_4
+14:00:27 PASS kaukaz_bratsk__basic_container_truck_01 - kaukaz_bratsk__basic_container_truck_01__vc_a; ok (13 parts checked)
+14:00:27 PASS kaukaz_bratsk__basic_container_truck_01: every part placed - 11 parts swapped, 5 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+14:00:27 SHOT sweep_kaukaz_bratsk__basic_container_truck_01
+14:00:31 step 278: kaukaz_bratsk__basic_container_truck_01: take it away
+14:00:32 step 279: chevalier_emperor_01__police_01: build it and spawn it
+14:00:32   chevalier_emperor_01__police_01: 1 styles, 19 slots, 10 kits; build 695 characters
+14:00:32   spawned entity 10790800ULL 12 m ahead of V
+14:00:32   engine: build 122: Vehicle.vc_chevalier_emperor_01__police_01_4 called in chevalier_emperor__basic_police; 31 parts swapped, 18 repainted, 0 added where the look has none, 0 failed, 37 kit parts added
+14:00:32   engine: attached: Vehicle.vc_chevalier_emperor_01__police_01_4 in chevalier_emperor__basic_police
+14:00:32   done waiting for the copy to appear (0.1 s)
+14:00:33 step 280: chevalier_emperor_01__police_01: wait for its style
+14:00:33   done waiting for chevalier_emperor_01__police_01 in its style's look (0.0 s)
+14:00:36 step 281: chevalier_emperor_01__police_01: check it
+14:00:36 PASS chevalier_emperor_01__police_01 spawned - Vehicle.vc_chevalier_emperor_01__police_01_4
+14:00:36 PASS chevalier_emperor_01__police_01 - chevalier_emperor__basic_police; ok (70 parts checked)
+14:00:36 PASS chevalier_emperor_01__police_01: every part placed - 31 parts swapped, 18 repainted, 0 added where the look has none, 0 failed, 37 kit parts added
+14:00:36 SHOT sweep_chevalier_emperor_01__police_01
+14:00:40 step 282: chevalier_emperor_01__police_01: take it away
+14:00:41 step 283: chevalier_centurion__flatbed_01_ep1: build it and spawn it
+14:00:41   chevalier_centurion__flatbed_01_ep1: 1 styles, 19 slots, 0 kits; build 615 characters
+14:00:41   spawned entity 10790823ULL 12 m ahead of V
+14:00:41   engine: build 123: Vehicle.vc_chevalier_centurion__flatbed_01_ep1_4 called in chevalier_centurion_basic_flatbed_suburban_01; 26 parts swapped, 18 repainted, 6 added where the look has none, 0 failed, 0 kit parts added
+14:00:41   engine: attached: Vehicle.vc_chevalier_centurion__flatbed_01_ep1_4 in chevalier_centurion_basic_flatbed_suburban_01, switching to its build's look
+14:00:41   engine: build 124: Vehicle.vc_chevalier_centurion__flatbed_01_ep1_4 rebuilt in chevalier_centurion_basic_flatbed_poor_01__vc_a; 26 parts swapped, 0 repainted, 6 added where the look has none, 0 failed, 0 kit parts added
+14:00:41   done waiting for the copy to appear (0.1 s)
+14:00:42 step 284: chevalier_centurion__flatbed_01_ep1: wait for its style
+14:00:42   done waiting for chevalier_centurion__flatbed_01_ep1 in its style's look (0.0 s)
+14:00:45 step 285: chevalier_centurion__flatbed_01_ep1: check it
+14:00:45 PASS chevalier_centurion__flatbed_01_ep1 spawned - Vehicle.vc_chevalier_centurion__flatbed_01_ep1_4
+14:00:45 PASS chevalier_centurion__flatbed_01_ep1 - chevalier_centurion_basic_flatbed_poor_01__vc_a; ok (32 parts checked)
+14:00:45 PASS chevalier_centurion__flatbed_01_ep1: every part placed - 26 parts swapped, 0 repainted, 6 added where the look has none, 0 failed, 0 kit parts added
+14:00:45 SHOT sweep_chevalier_centurion__flatbed_01_ep1
+14:00:49 step 286: chevalier_centurion__flatbed_01_ep1: take it away
+14:00:51 step 287: villefort_columbus_scavengers_01_ep1: build it and spawn it
+14:00:51   villefort_columbus_scavengers_01_ep1: 3 styles, 14 slots, 24 kits; build 569 characters
+14:00:51   spawned entity 10790854ULL 12 m ahead of V
+14:00:51   engine: build 125: Vehicle.vc_villefort_columbus_scavengers_01_ep1_4 called in v_standard25_villefort_columbus_songbird_scavenger_02; 22 parts swapped, 17 repainted, 2 added where the look has none, 0 failed, 9 kit parts added
+14:00:51   engine: attached: Vehicle.vc_villefort_columbus_scavengers_01_ep1_4 in v_standard25_villefort_columbus_songbird_scavenger_02
+14:00:51   done waiting for the copy to appear (0.1 s)
+14:00:52 step 288: villefort_columbus_scavengers_01_ep1: wait for its style
+14:00:52   done waiting for villefort_columbus_scavengers_01_ep1 in its style's look (0.0 s)
+14:00:55 step 289: villefort_columbus_scavengers_01_ep1: check it
+14:00:55 PASS villefort_columbus_scavengers_01_ep1 spawned - Vehicle.vc_villefort_columbus_scavengers_01_ep1_4
+14:00:55 PASS villefort_columbus_scavengers_01_ep1 - v_standard25_villefort_columbus_songbird_scavenger_02; ok (33 parts checked)
+14:00:55 PASS villefort_columbus_scavengers_01_ep1: every part placed - 22 parts swapped, 17 repainted, 2 added where the look has none, 0 failed, 9 kit parts added
+14:00:55 SHOT sweep_villefort_columbus_scavengers_01_ep1
+14:00:59 step 290: villefort_columbus_scavengers_01_ep1: take it away
+14:01:00 step 291: thorton_mackinaw_larimore_01: build it and spawn it
+14:01:00   thorton_mackinaw_larimore_01: 1 styles, 10 slots, 0 kits; build 362 characters
+14:01:00   spawned entity 10790869ULL 12 m ahead of V
+14:01:00   engine: build 126: Vehicle.vc_thorton_mackinaw_larimore_01_4 called in v_standard3_thorton_mackinaw_larimore_suburban_05; 14 parts swapped, 14 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:01:00   engine: attached: Vehicle.vc_thorton_mackinaw_larimore_01_4 in v_standard3_thorton_mackinaw_larimore_suburban_05, switching to its build's look
+14:01:00   engine: build 127: Vehicle.vc_thorton_mackinaw_larimore_01_4 rebuilt in v_standard3_thorton_mackinaw_larimore_suburban_02__vc_a; 14 parts swapped, 14 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:01:00   done waiting for the copy to appear (0.1 s)
+14:01:01 step 292: thorton_mackinaw_larimore_01: wait for its style
+14:01:01   done waiting for thorton_mackinaw_larimore_01 in its style's look (0.0 s)
+14:01:04 step 293: thorton_mackinaw_larimore_01: check it
+14:01:04 PASS thorton_mackinaw_larimore_01 spawned - Vehicle.vc_thorton_mackinaw_larimore_01_4
+14:01:04 PASS thorton_mackinaw_larimore_01 - v_standard3_thorton_mackinaw_larimore_suburban_02__vc_a; ok (14 parts checked)
+14:01:04 PASS thorton_mackinaw_larimore_01: every part placed - 14 parts swapped, 14 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:01:04 SHOT sweep_thorton_mackinaw_larimore_01
+14:01:08 step 294: thorton_mackinaw_larimore_01: take it away
+14:01:09 step 295: mahir_supron_kurtz_basic_no_cd_01_ep1: build it and spawn it
+14:01:09   mahir_supron_kurtz_basic_no_cd_01_ep1: 4 styles, 11 slots, 10 kits; build 562 characters
+14:01:09   spawned entity 10790905ULL 12 m ahead of V
+14:01:09   engine: build 128: Vehicle.vc_mahir_supron_kurtz_basic_no_cd_01_ep1_4 called in mahir_supron_kurtz_basic_kurtz_militia_02; 19 parts swapped, 7 repainted, 4 added where the look has none, 0 failed, 11 kit parts added
+14:01:09   engine: attached: Vehicle.vc_mahir_supron_kurtz_basic_no_cd_01_ep1_4 in mahir_supron_kurtz_basic_kurtz_militia_02, switching to its build's look
+14:01:09   engine: build 129: Vehicle.vc_mahir_supron_kurtz_basic_no_cd_01_ep1_4 rebuilt in mahir_supron_kurtz_basic_player_01__vc_a; 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 11 kit parts added
+14:01:09   done waiting for the copy to appear (0.1 s)
+14:01:10 step 296: mahir_supron_kurtz_basic_no_cd_01_ep1: wait for its style
+14:01:10   done waiting for mahir_supron_kurtz_basic_no_cd_01_ep1 in its style's look (0.0 s)
+14:01:13 step 297: mahir_supron_kurtz_basic_no_cd_01_ep1: check it
+14:01:13 PASS mahir_supron_kurtz_basic_no_cd_01_ep1 spawned - Vehicle.vc_mahir_supron_kurtz_basic_no_cd_01_ep1_4
+14:01:13 PASS mahir_supron_kurtz_basic_no_cd_01_ep1 - mahir_supron_kurtz_basic_player_01__vc_a; ok (34 parts checked)
+14:01:13 PASS mahir_supron_kurtz_basic_no_cd_01_ep1: every part placed - 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 11 kit parts added
+14:01:13 SHOT sweep_mahir_supron_kurtz_basic_no_cd_01_ep1
+14:01:17 step 298: mahir_supron_kurtz_basic_no_cd_01_ep1: take it away
+14:01:18 step 299: kaukaz_bratsk_corp_bud_01_ep1: build it and spawn it
+14:01:18   kaukaz_bratsk_corp_bud_01_ep1: 1 styles, 7 slots, 3 kits; build 268 characters
+14:01:18   spawned entity 10790933ULL 12 m ahead of V
+14:01:18   engine: build 130: Vehicle.vc_kaukaz_bratsk_corp_bud_01_ep1_4 called in kaukaz_bratsk_corpbud_concrete_truck; 11 parts swapped, 4 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:01:18   engine: attached: Vehicle.vc_kaukaz_bratsk_corp_bud_01_ep1_4 in kaukaz_bratsk_corpbud_concrete_truck
+14:01:18   done waiting for the copy to appear (0.1 s)
+14:01:19 step 300: kaukaz_bratsk_corp_bud_01_ep1: wait for its style
+14:01:19   done waiting for kaukaz_bratsk_corp_bud_01_ep1 in its style's look (0.0 s)
+14:01:22 step 301: kaukaz_bratsk_corp_bud_01_ep1: check it
+14:01:22 PASS kaukaz_bratsk_corp_bud_01_ep1 spawned - Vehicle.vc_kaukaz_bratsk_corp_bud_01_ep1_4
+14:01:22 PASS kaukaz_bratsk_corp_bud_01_ep1 - kaukaz_bratsk_corpbud_concrete_truck; ok (12 parts checked)
+14:01:22 PASS kaukaz_bratsk_corp_bud_01_ep1: every part placed - 11 parts swapped, 4 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:01:22 SHOT sweep_kaukaz_bratsk_corp_bud_01_ep1
+14:01:26 step 302: kaukaz_bratsk_corp_bud_01_ep1: take it away
+14:01:27 step 303: militech_hellhound__basic_01: build it and spawn it
+14:01:27   militech_hellhound__basic_01: 1 styles, 11 slots, 3 kits; build 360 characters
+14:01:27   spawned entity 10790960ULL 12 m ahead of V
+14:01:28   engine: build 131: Vehicle.vc_militech_hellhound__basic_01_4 called in militech_hellhound__basic_police_03; 22 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:01:28   engine: attached: Vehicle.vc_militech_hellhound__basic_01_4 in militech_hellhound__basic_police_03, switching to its build's look
+14:01:28   engine: build 132: Vehicle.vc_militech_hellhound__basic_01_4 rebuilt in militech_hellhound__basic_police_01__vc_a; 22 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:01:28   done waiting for the copy to appear (0.1 s)
+14:01:29 step 304: militech_hellhound__basic_01: wait for its style
+14:01:29   done waiting for militech_hellhound__basic_01 in its style's look (0.0 s)
+14:01:32 step 305: militech_hellhound__basic_01: check it
+14:01:32 PASS militech_hellhound__basic_01 spawned - Vehicle.vc_militech_hellhound__basic_01_4
+14:01:32 PASS militech_hellhound__basic_01 - militech_hellhound__basic_police_01__vc_a; ok (22 parts checked)
+14:01:32 PASS militech_hellhound__basic_01: every part placed - 22 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:01:32 SHOT sweep_militech_hellhound__basic_01
+14:01:36 step 306: militech_hellhound__basic_01: take it away
+14:01:37 step 307: kaukaz_bratsk__basic_dump_truck_01: build it and spawn it
+14:01:37   kaukaz_bratsk__basic_dump_truck_01: 1 styles, 8 slots, 0 kits; build 291 characters
+14:01:37   spawned entity 10790976ULL 12 m ahead of V
+14:01:37   engine: build 133: Vehicle.vc_kaukaz_bratsk__basic_dump_truck_01_4 called in kaukaz_bratsk__basic_dump_truck_03; 11 parts swapped, 5 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+14:01:37   engine: attached: Vehicle.vc_kaukaz_bratsk__basic_dump_truck_01_4 in kaukaz_bratsk__basic_dump_truck_03, switching to its build's look
+14:01:37   engine: build 134: Vehicle.vc_kaukaz_bratsk__basic_dump_truck_01_4 rebuilt in kaukaz_bratsk__basic_dump_truck_01__vc_a; 11 parts swapped, 6 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+14:01:37   done waiting for the copy to appear (0.1 s)
+14:01:38 step 308: kaukaz_bratsk__basic_dump_truck_01: wait for its style
+14:01:38   done waiting for kaukaz_bratsk__basic_dump_truck_01 in its style's look (0.0 s)
+14:01:41 step 309: kaukaz_bratsk__basic_dump_truck_01: check it
+14:01:41 PASS kaukaz_bratsk__basic_dump_truck_01 spawned - Vehicle.vc_kaukaz_bratsk__basic_dump_truck_01_4
+14:01:41 PASS kaukaz_bratsk__basic_dump_truck_01 - kaukaz_bratsk__basic_dump_truck_01__vc_a; ok (13 parts checked)
+14:01:41 PASS kaukaz_bratsk__basic_dump_truck_01: every part placed - 11 parts swapped, 6 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+14:01:41 SHOT sweep_kaukaz_bratsk__basic_dump_truck_01
+14:01:45 step 310: kaukaz_bratsk__basic_dump_truck_01: take it away
+14:01:46 step 311: chevalier_thrax__dex: build it and spawn it
+14:01:46   chevalier_thrax__dex: 1 styles, 14 slots, 14 kits; build 559 characters
+14:01:46   spawned entity 10790988ULL 12 m ahead of V
+14:01:46   engine: build 135: Vehicle.vc_chevalier_thrax__dex_4 called in chevalier_thrax__dex_limo_q001_dex_limo; 26 parts swapped, 17 repainted, 0 added where the look has none, 0 failed, 9 kit parts added
+14:01:46   engine: attached: Vehicle.vc_chevalier_thrax__dex_4 in chevalier_thrax__dex_limo_q001_dex_limo
+14:01:46   done waiting for the copy to appear (0.1 s)
+14:01:47 step 312: chevalier_thrax__dex: wait for its style
+14:01:47   done waiting for chevalier_thrax__dex in its style's look (0.0 s)
+14:01:50 step 313: chevalier_thrax__dex: check it
+14:01:50 PASS chevalier_thrax__dex spawned - Vehicle.vc_chevalier_thrax__dex_4
+14:01:50 PASS chevalier_thrax__dex - chevalier_thrax__dex_limo_q001_dex_limo; ok (35 parts checked)
+14:01:50 PASS chevalier_thrax__dex: every part placed - 26 parts swapped, 17 repainted, 0 added where the look has none, 0 failed, 9 kit parts added
+14:01:50 SHOT sweep_chevalier_thrax__dex
+14:01:54 step 314: chevalier_thrax__dex: take it away
+14:01:55 step 315: villefort_columbus_songbird_01_ep1: build it and spawn it
+14:01:55   villefort_columbus_songbird_01_ep1: 3 styles, 14 slots, 24 kits; build 569 characters
+14:01:55   spawned entity 10791040ULL 12 m ahead of V
+14:01:55   engine: build 136: Vehicle.vc_villefort_columbus_songbird_01_ep1_4 called in v_standard25_villefort_columbus_songbird_poor_05; 23 parts swapped, 15 repainted, 1 added where the look has none, 0 failed, 9 kit parts added
+14:01:55   engine: attached: Vehicle.vc_villefort_columbus_songbird_01_ep1_4 in v_standard25_villefort_columbus_songbird_poor_05, switching to its build's look
+14:01:55   engine: build 137: Vehicle.vc_villefort_columbus_songbird_01_ep1_4 rebuilt in v_standard25_villefort_columbus_songbird_scavenger_02__vc_a; 22 parts swapped, 17 repainted, 2 added where the look has none, 0 failed, 9 kit parts added
+14:01:55   done waiting for the copy to appear (0.1 s)
+14:01:56 step 316: villefort_columbus_songbird_01_ep1: wait for its style
+14:01:56   done waiting for villefort_columbus_songbird_01_ep1 in its style's look (0.0 s)
+14:02:00 step 317: villefort_columbus_songbird_01_ep1: check it
+14:02:00 PASS villefort_columbus_songbird_01_ep1 spawned - Vehicle.vc_villefort_columbus_songbird_01_ep1_4
+14:02:00 PASS villefort_columbus_songbird_01_ep1 - v_standard25_villefort_columbus_songbird_scavenger_02__vc_a; ok (33 parts checked)
+14:02:00 PASS villefort_columbus_songbird_01_ep1: every part placed - 22 parts swapped, 17 repainted, 2 added where the look has none, 0 failed, 9 kit parts added
+14:02:00 SHOT sweep_villefort_columbus_songbird_01_ep1
+14:02:04 step 318: villefort_columbus_songbird_01_ep1: take it away
+14:02:05 step 319: archer_hella_ep1__kurtz_01: build it and spawn it
+14:02:05   archer_hella_ep1__kurtz_01: 3 styles, 21 slots, 18 kits; build 824 characters
+14:02:05   spawned entity 10791055ULL 12 m ahead of V
+14:02:05   engine: build 138: Vehicle.vc_archer_hella_ep1__kurtz_01_4 called in archer_hella_kurtz_basic_kurtz_2; 29 parts swapped, 15 repainted, 4 added where the look has none, 0 failed, 12 kit parts added
+14:02:05   engine: attached: Vehicle.vc_archer_hella_ep1__kurtz_01_4 in archer_hella_kurtz_basic_kurtz_2, switching to its build's look
+14:02:05   engine: build 139: Vehicle.vc_archer_hella_ep1__kurtz_01_4 rebuilt in archer_hella_kurtz_basic_kurtz_3__vc_a; 29 parts swapped, 15 repainted, 4 added where the look has none, 0 failed, 12 kit parts added
+14:02:05   done waiting for the copy to appear (0.1 s)
+14:02:06 step 320: archer_hella_ep1__kurtz_01: wait for its style
+14:02:06   done waiting for archer_hella_ep1__kurtz_01 in its style's look (0.0 s)
+14:02:09 step 321: archer_hella_ep1__kurtz_01: check it
+14:02:09 PASS archer_hella_ep1__kurtz_01 spawned - Vehicle.vc_archer_hella_ep1__kurtz_01_4
+14:02:09 PASS archer_hella_ep1__kurtz_01 - archer_hella_kurtz_basic_kurtz_3__vc_a; ok (45 parts checked)
+14:02:09 PASS archer_hella_ep1__kurtz_01: every part placed - 29 parts swapped, 15 repainted, 4 added where the look has none, 0 failed, 12 kit parts added
+14:02:09 SHOT sweep_archer_hella_ep1__kurtz_01
+14:02:13 step 322: archer_hella_ep1__kurtz_01: take it away
+14:02:14 step 323: thorton_mackinaw__courier_01_ep1: build it and spawn it
+14:02:14   thorton_mackinaw__courier_01_ep1: 4 styles, 16 slots, 1 kits; build 538 characters
+14:02:14   spawned entity 10791073ULL 12 m ahead of V
+14:02:14   engine: build 140: Vehicle.vc_thorton_mackinaw__courier_01_ep1_4 called in thorton_mackinaw__cargo_cargo_03; 27 parts swapped, 15 repainted, 4 added where the look has none, 0 failed, 0 kit parts added
+14:02:14   engine: attached: Vehicle.vc_thorton_mackinaw__courier_01_ep1_4 in thorton_mackinaw__cargo_cargo_03, switching to its build's look
+14:02:14   engine: build 141: Vehicle.vc_thorton_mackinaw__courier_01_ep1_4 rebuilt in thorton_mackinaw__cargo_cargo_04__vc_a; 25 parts swapped, 13 repainted, 6 added where the look has none, 0 failed, 0 kit parts added
+14:02:14   done waiting for the copy to appear (0.1 s)
+14:02:15 step 324: thorton_mackinaw__courier_01_ep1: wait for its style
+14:02:15   done waiting for thorton_mackinaw__courier_01_ep1 in its style's look (0.0 s)
+14:02:18 step 325: thorton_mackinaw__courier_01_ep1: check it
+14:02:18 PASS thorton_mackinaw__courier_01_ep1 spawned - Vehicle.vc_thorton_mackinaw__courier_01_ep1_4
+14:02:18 PASS thorton_mackinaw__courier_01_ep1 - thorton_mackinaw__cargo_cargo_04__vc_a; ok (31 parts checked)
+14:02:18 PASS thorton_mackinaw__courier_01_ep1: every part placed - 25 parts swapped, 13 repainted, 6 added where the look has none, 0 failed, 0 kit parts added
+14:02:18 SHOT sweep_thorton_mackinaw__courier_01_ep1
+14:02:22 step 326: thorton_mackinaw__courier_01_ep1: take it away
+14:02:23 step 327: thorton_colby_pickup__kurtz_no_hull_01_ep1: build it and spawn it
+14:02:23   thorton_colby_pickup__kurtz_no_hull_01_ep1: 5 styles, 15 slots, 19 kits; build 603 characters
+14:02:23   spawned entity 10791107ULL 12 m ahead of V
+14:02:23   engine: build 142: Vehicle.vc_thorton_colby_pickup__kurtz_no_hull_01_ep1_4 called in thorton_colby_pickup_kurtz_militia_01_no_hull; 22 parts swapped, 11 repainted, 1 added where the look has none, 0 failed, 3 kit parts added
+14:02:23   engine: attached: Vehicle.vc_thorton_colby_pickup__kurtz_no_hull_01_ep1_4 in thorton_colby_pickup_kurtz_militia_01_no_hull
+14:02:23   done waiting for the copy to appear (0.1 s)
+14:02:24 step 328: thorton_colby_pickup__kurtz_no_hull_01_ep1: wait for its style
+14:02:24   done waiting for thorton_colby_pickup__kurtz_no_hull_01_ep1 in its style's look (0.0 s)
+14:02:27 step 329: thorton_colby_pickup__kurtz_no_hull_01_ep1: check it
+14:02:27 PASS thorton_colby_pickup__kurtz_no_hull_01_ep1 spawned - Vehicle.vc_thorton_colby_pickup__kurtz_no_hull_01_ep1_4
+14:02:27 PASS thorton_colby_pickup__kurtz_no_hull_01_ep1 - thorton_colby_pickup_kurtz_militia_01_no_hull; ok (27 parts checked)
+14:02:27 PASS thorton_colby_pickup__kurtz_no_hull_01_ep1: every part placed - 22 parts swapped, 11 repainted, 1 added where the look has none, 0 failed, 3 kit parts added
+14:02:27 SHOT sweep_thorton_colby_pickup__kurtz_no_hull_01_ep1
+14:02:31 step 330: thorton_colby_pickup__kurtz_no_hull_01_ep1: take it away
+14:02:32 step 331: chevalier_centurion__cargo_01_ep1: build it and spawn it
+14:02:32   chevalier_centurion__cargo_01_ep1: 4 styles, 19 slots, 0 kits; build 618 characters
+14:02:32   spawned entity 10791141ULL 12 m ahead of V
+14:02:32   engine: build 143: Vehicle.vc_chevalier_centurion__cargo_01_ep1_4 called in chevalier_centurion_basic_dumptruck_cargo_03; 31 parts swapped, 17 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:02:32   engine: attached: Vehicle.vc_chevalier_centurion__cargo_01_ep1_4 in chevalier_centurion_basic_dumptruck_cargo_03, switching to its build's look
+14:02:32   engine: build 144: Vehicle.vc_chevalier_centurion__cargo_01_ep1_4 rebuilt in chevalier_centurion_basic_dumptruck_cargo_04__vc_a; 29 parts swapped, 17 repainted, 3 added where the look has none, 0 failed, 0 kit parts added
+14:02:32   done waiting for the copy to appear (0.1 s)
+14:02:33 step 332: chevalier_centurion__cargo_01_ep1: wait for its style
+14:02:33   done waiting for chevalier_centurion__cargo_01_ep1 in its style's look (0.0 s)
+14:02:36 step 333: chevalier_centurion__cargo_01_ep1: check it
+14:02:36 PASS chevalier_centurion__cargo_01_ep1 spawned - Vehicle.vc_chevalier_centurion__cargo_01_ep1_4
+14:02:36 PASS chevalier_centurion__cargo_01_ep1 - chevalier_centurion_basic_dumptruck_cargo_04__vc_a; ok (32 parts checked)
+14:02:36 PASS chevalier_centurion__cargo_01_ep1: every part placed - 29 parts swapped, 17 repainted, 3 added where the look has none, 0 failed, 0 kit parts added
+14:02:36 SHOT sweep_chevalier_centurion__cargo_01_ep1
+14:02:41 step 334: chevalier_centurion__cargo_01_ep1: take it away
+14:02:42 step 335: brennan_apollo_police_01: build it and spawn it
+14:02:42   brennan_apollo_police_01: 2 styles, 6 slots, 2 kits; build 262 characters
+14:02:42   spawned entity 10791174ULL 12 m ahead of V
+14:02:42   engine: build 145: Vehicle.vc_brennan_apollo_police_01_4 called in brennan_apollo_police_basic_police_01; 6 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:02:42   engine: attached: Vehicle.vc_brennan_apollo_police_01_4 in brennan_apollo_police_basic_police_01
+14:02:42   done waiting for the copy to appear (0.1 s)
+14:02:43 step 336: brennan_apollo_police_01: wait for its style
+14:02:43   done waiting for brennan_apollo_police_01 in its style's look (0.0 s)
+14:02:46 step 337: brennan_apollo_police_01: check it
+14:02:46 PASS brennan_apollo_police_01 spawned - Vehicle.vc_brennan_apollo_police_01_4
+14:02:46 PASS brennan_apollo_police_01 - brennan_apollo_police_basic_police_01; ok (6 parts checked)
+14:02:46 PASS brennan_apollo_police_01: every part placed - 6 parts swapped, 4 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:02:46 SHOT sweep_brennan_apollo_police_01
+14:02:50 step 338: brennan_apollo_police_01: take it away
+14:02:51 step 339: thorton_colby_pickup__kurtz_cd_01_ep1: build it and spawn it
+14:02:51   thorton_colby_pickup__kurtz_cd_01_ep1: 2 styles, 15 slots, 19 kits; build 598 characters
+14:02:51   spawned entity 10791195ULL 12 m ahead of V
+14:02:51   engine: build 146: Vehicle.vc_thorton_colby_pickup__kurtz_cd_01_ep1_4 called in thorton_colby_pickup_kurtz_cd_militia_01; 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 3 kit parts added
+14:02:51   engine: attached: Vehicle.vc_thorton_colby_pickup__kurtz_cd_01_ep1_4 in thorton_colby_pickup_kurtz_cd_militia_01
+14:02:51   done waiting for the copy to appear (0.1 s)
+14:02:52 step 340: thorton_colby_pickup__kurtz_cd_01_ep1: wait for its style
+14:02:52   done waiting for thorton_colby_pickup__kurtz_cd_01_ep1 in its style's look (0.0 s)
+14:02:55 step 341: thorton_colby_pickup__kurtz_cd_01_ep1: check it
+14:02:55 PASS thorton_colby_pickup__kurtz_cd_01_ep1 spawned - Vehicle.vc_thorton_colby_pickup__kurtz_cd_01_ep1_4
+14:02:55 PASS thorton_colby_pickup__kurtz_cd_01_ep1 - thorton_colby_pickup_kurtz_cd_militia_01; ok (27 parts checked)
+14:02:55 PASS thorton_colby_pickup__kurtz_cd_01_ep1: every part placed - 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 3 kit parts added
+14:02:55 SHOT sweep_thorton_colby_pickup__kurtz_cd_01_ep1
+14:02:59 step 342: thorton_colby_pickup__kurtz_cd_01_ep1: take it away
+14:03:00 step 343: kaukaz_bratsk__basic_metalstud_truck_01: build it and spawn it
+14:03:00   kaukaz_bratsk__basic_metalstud_truck_01: 1 styles, 8 slots, 0 kits; build 296 characters
+14:03:00   spawned entity 10791210ULL 12 m ahead of V
+14:03:00   engine: build 147: Vehicle.vc_kaukaz_bratsk__basic_metalstud_truck_01_4 called in kaukaz_bratsk__basic_metalstud_truck_02; 11 parts swapped, 2 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+14:03:00   engine: attached: Vehicle.vc_kaukaz_bratsk__basic_metalstud_truck_01_4 in kaukaz_bratsk__basic_metalstud_truck_02, switching to its build's look
+14:03:00   engine: build 148: Vehicle.vc_kaukaz_bratsk__basic_metalstud_truck_01_4 rebuilt in kaukaz_bratsk__basic_metalstud_truck_01__vc_a; 11 parts swapped, 5 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+14:03:00   done waiting for the copy to appear (0.1 s)
+14:03:01 step 344: kaukaz_bratsk__basic_metalstud_truck_01: wait for its style
+14:03:01   done waiting for kaukaz_bratsk__basic_metalstud_truck_01 in its style's look (0.0 s)
+14:03:04 step 345: kaukaz_bratsk__basic_metalstud_truck_01: check it
+14:03:04 PASS kaukaz_bratsk__basic_metalstud_truck_01 spawned - Vehicle.vc_kaukaz_bratsk__basic_metalstud_truck_01_4
+14:03:04 PASS kaukaz_bratsk__basic_metalstud_truck_01 - kaukaz_bratsk__basic_metalstud_truck_01__vc_a; ok (13 parts checked)
+14:03:04 PASS kaukaz_bratsk__basic_metalstud_truck_01: every part placed - 11 parts swapped, 5 repainted, 2 added where the look has none, 0 failed, 0 kit parts added
+14:03:04 SHOT sweep_kaukaz_bratsk__basic_metalstud_truck_01
+14:03:08 step 346: kaukaz_bratsk__basic_metalstud_truck_01: take it away
+14:03:09 step 347: mizutani_shion_nomad__courier_01_ep1: build it and spawn it
+14:03:09   mizutani_shion_nomad__courier_01_ep1: 1 styles, 17 slots, 5 kits; build 597 characters
+14:03:09   spawned entity 10791238ULL 12 m ahead of V
+14:03:09   engine: build 149: Vehicle.vc_mizutani_shion_nomad__courier_01_ep1_4 called in mizutani_shion_nomad__technical_01; 25 parts swapped, 10 repainted, 2 added where the look has none, 0 failed, 8 kit parts added
+14:03:09   engine: attached: Vehicle.vc_mizutani_shion_nomad__courier_01_ep1_4 in mizutani_shion_nomad__technical_01
+14:03:09   done waiting for the copy to appear (0.1 s)
+14:03:10 step 348: mizutani_shion_nomad__courier_01_ep1: wait for its style
+14:03:10   done waiting for mizutani_shion_nomad__courier_01_ep1 in its style's look (0.0 s)
+14:03:13 step 349: mizutani_shion_nomad__courier_01_ep1: check it
+14:03:13 PASS mizutani_shion_nomad__courier_01_ep1 spawned - Vehicle.vc_mizutani_shion_nomad__courier_01_ep1_4
+14:03:13 PASS mizutani_shion_nomad__courier_01_ep1 - mizutani_shion_nomad__technical_01; ok (36 parts checked)
+14:03:13 PASS mizutani_shion_nomad__courier_01_ep1: every part placed - 25 parts swapped, 10 repainted, 2 added where the look has none, 0 failed, 8 kit parts added
+14:03:13 SHOT sweep_mizutani_shion_nomad__courier_01_ep1
+14:03:18 step 350: mizutani_shion_nomad__courier_01_ep1: take it away
+14:03:19 step 351: kaukaz_zeya__freight_01: build it and spawn it
+14:03:19   kaukaz_zeya__freight_01: 1 styles, 6 slots, 3 kits; build 217 characters
+14:03:19   spawned entity 10791260ULL 12 m ahead of V
+14:03:19   engine: build 150: Vehicle.vc_kaukaz_zeya__freight_01_4 called in kaukaz_zeya__basic_zeya_freight_04; 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:19   engine: attached: Vehicle.vc_kaukaz_zeya__freight_01_4 in kaukaz_zeya__basic_zeya_freight_04, switching to its build's look
+14:03:19   engine: build 151: Vehicle.vc_kaukaz_zeya__freight_01_4 rebuilt in kaukaz_zeya__basic_zeya_freight_01__vc_a; 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:19   done waiting for the copy to appear (0.1 s)
+14:03:20 step 352: kaukaz_zeya__freight_01: wait for its style
+14:03:20   done waiting for kaukaz_zeya__freight_01 in its style's look (0.0 s)
+14:03:23 step 353: kaukaz_zeya__freight_01: check it
+14:03:23 PASS kaukaz_zeya__freight_01 spawned - Vehicle.vc_kaukaz_zeya__freight_01_4
+14:03:23 PASS kaukaz_zeya__freight_01 - kaukaz_zeya__basic_zeya_freight_01__vc_a; ok (10 parts checked)
+14:03:23 PASS kaukaz_zeya__freight_01: every part placed - 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:23 SHOT sweep_kaukaz_zeya__freight_01
+14:03:27 step 354: kaukaz_zeya__freight_01: take it away
+14:03:28 step 355: kaukaz_zeya__kurtz_01_ep1: build it and spawn it
+14:03:28   kaukaz_zeya__kurtz_01_ep1: 2 styles, 6 slots, 3 kits; build 213 characters
+14:03:28   spawned entity 10791291ULL 12 m ahead of V
+14:03:28   engine: build 152: Vehicle.vc_kaukaz_zeya__kurtz_01_ep1_4 called in kaukaz_zeya_kurtz_zeya_kurtz_3; 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:28   engine: attached: Vehicle.vc_kaukaz_zeya__kurtz_01_ep1_4 in kaukaz_zeya_kurtz_zeya_kurtz_3, switching to its build's look
+14:03:28   engine: build 153: Vehicle.vc_kaukaz_zeya__kurtz_01_ep1_4 rebuilt in kaukaz_zeya_kurtz_zeya_kurtz_2__vc_a; 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:28   done waiting for the copy to appear (0.1 s)
+14:03:29 step 356: kaukaz_zeya__kurtz_01_ep1: wait for its style
+14:03:29   done waiting for kaukaz_zeya__kurtz_01_ep1 in its style's look (0.0 s)
+14:03:32 step 357: kaukaz_zeya__kurtz_01_ep1: check it
+14:03:32 PASS kaukaz_zeya__kurtz_01_ep1 spawned - Vehicle.vc_kaukaz_zeya__kurtz_01_ep1_4
+14:03:32 PASS kaukaz_zeya__kurtz_01_ep1 - kaukaz_zeya_kurtz_zeya_kurtz_2__vc_a; ok (10 parts checked)
+14:03:32 PASS kaukaz_zeya__kurtz_01_ep1: every part placed - 9 parts swapped, 5 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:32 SHOT sweep_kaukaz_zeya__kurtz_01_ep1
+14:03:36 step 358: kaukaz_zeya__kurtz_01_ep1: take it away
+14:03:37 step 359: kaukaz_bratsk_corp_bud_03_ep1: build it and spawn it
+14:03:37   kaukaz_bratsk_corp_bud_03_ep1: 1 styles, 7 slots, 3 kits; build 267 characters
+14:03:37   spawned entity 10791322ULL 12 m ahead of V
+14:03:37   engine: build 154: Vehicle.vc_kaukaz_bratsk_corp_bud_03_ep1_4 called in kaukaz_bratsk_corpbud_machine_truck; 11 parts swapped, 4 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:37   engine: attached: Vehicle.vc_kaukaz_bratsk_corp_bud_03_ep1_4 in kaukaz_bratsk_corpbud_machine_truck
+14:03:37   done waiting for the copy to appear (0.1 s)
+14:03:38 step 360: kaukaz_bratsk_corp_bud_03_ep1: wait for its style
+14:03:38   done waiting for kaukaz_bratsk_corp_bud_03_ep1 in its style's look (0.0 s)
+14:03:41 step 361: kaukaz_bratsk_corp_bud_03_ep1: check it
+14:03:41 PASS kaukaz_bratsk_corp_bud_03_ep1 spawned - Vehicle.vc_kaukaz_bratsk_corp_bud_03_ep1_4
+14:03:41 PASS kaukaz_bratsk_corp_bud_03_ep1 - kaukaz_bratsk_corpbud_machine_truck; ok (12 parts checked)
+14:03:41 PASS kaukaz_bratsk_corp_bud_03_ep1: every part placed - 11 parts swapped, 4 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:41 SHOT sweep_kaukaz_bratsk_corp_bud_03_ep1
+14:03:45 step 362: kaukaz_bratsk_corp_bud_03_ep1: take it away
+14:03:46 step 363: kaukaz_bratsk_corp_bud_02_ep1: build it and spawn it
+14:03:46   kaukaz_bratsk_corp_bud_02_ep1: 1 styles, 7 slots, 3 kits; build 268 characters
+14:03:46   spawned entity 10791332ULL 12 m ahead of V
+14:03:46   engine: build 155: Vehicle.vc_kaukaz_bratsk_corp_bud_02_ep1_4 called in kaukaz_bratsk_corpbud_dumpster_truck; 11 parts swapped, 4 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:46   engine: attached: Vehicle.vc_kaukaz_bratsk_corp_bud_02_ep1_4 in kaukaz_bratsk_corpbud_dumpster_truck
+14:03:46   done waiting for the copy to appear (0.1 s)
+14:03:47 step 364: kaukaz_bratsk_corp_bud_02_ep1: wait for its style
+14:03:47   done waiting for kaukaz_bratsk_corp_bud_02_ep1 in its style's look (0.0 s)
+14:03:50 step 365: kaukaz_bratsk_corp_bud_02_ep1: check it
+14:03:50 PASS kaukaz_bratsk_corp_bud_02_ep1 spawned - Vehicle.vc_kaukaz_bratsk_corp_bud_02_ep1_4
+14:03:50 PASS kaukaz_bratsk_corp_bud_02_ep1 - kaukaz_bratsk_corpbud_dumpster_truck; ok (12 parts checked)
+14:03:50 PASS kaukaz_bratsk_corp_bud_02_ep1: every part placed - 11 parts swapped, 4 repainted, 1 added where the look has none, 0 failed, 0 kit parts added
+14:03:50 SHOT sweep_kaukaz_bratsk_corp_bud_02_ep1
+14:03:54 step 366: kaukaz_bratsk_corp_bud_02_ep1: take it away
+14:03:56 step 367: mt28_coach_basic_01: build it and spawn it
+14:03:56   mt28_coach_basic_01: 2 styles, 4 slots, 0 kits; build 194 characters
+14:03:56   spawned entity 10791342ULL 12 m ahead of V
+14:03:56   engine: build 156: Vehicle.vc_mt28_coach_basic_01_4 called in mahir_mt28_basic_coach_01; 4 parts swapped, 1 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:03:56   engine: attached: Vehicle.vc_mt28_coach_basic_01_4 in mahir_mt28_basic_coach_01
+14:03:56   done waiting for the copy to appear (0.1 s)
+14:03:57 step 368: mt28_coach_basic_01: wait for its style
+14:03:57   done waiting for mt28_coach_basic_01 in its style's look (0.0 s)
+14:04:00 step 369: mt28_coach_basic_01: check it
+14:04:00 PASS mt28_coach_basic_01 spawned - Vehicle.vc_mt28_coach_basic_01_4
+14:04:00 PASS mt28_coach_basic_01 - mahir_mt28_basic_coach_01; ok (4 parts checked)
+14:04:00 PASS mt28_coach_basic_01: every part placed - 4 parts swapped, 1 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:04:00 SHOT sweep_mt28_coach_basic_01
+14:04:04 step 370: mt28_coach_basic_01: take it away
+14:04:05 step 371: militech_behemoth_police_01_ep1: build it and spawn it
+14:04:05   militech_behemoth_police_01_ep1: 2 styles, 10 slots, 4 kits; build 364 characters
+14:04:05   spawned entity 10791366ULL 12 m ahead of V
+14:04:05   engine: build 157: Vehicle.vc_militech_behemoth_police_01_ep1_4 called in militech_behemoth_police_police_01; 15 parts swapped, 7 repainted, 4 added where the look has none, 0 failed, 12 kit parts added
+14:04:05   engine: attached: Vehicle.vc_militech_behemoth_police_01_ep1_4 in militech_behemoth_police_police_01, switching to its build's look
+14:04:05   engine: build 158: Vehicle.vc_militech_behemoth_police_01_ep1_4 rebuilt in militech_behemoth_police_q305_hologram_red__vc_a; 15 parts swapped, 9 repainted, 4 added where the look has none, 0 failed, 12 kit parts added
+14:04:05   done waiting for the copy to appear (0.1 s)
+14:04:06 step 372: militech_behemoth_police_01_ep1: wait for its style
+14:04:06   done waiting for militech_behemoth_police_01_ep1 in its style's look (0.0 s)
+14:04:09 step 373: militech_behemoth_police_01_ep1: check it
+14:04:09 PASS militech_behemoth_police_01_ep1 spawned - Vehicle.vc_militech_behemoth_police_01_ep1_4
+14:04:09 PASS militech_behemoth_police_01_ep1 - militech_behemoth_police_q305_hologram_red__vc_a; ok (34 parts checked)
+14:04:09 PASS militech_behemoth_police_01_ep1: every part placed - 15 parts swapped, 9 repainted, 4 added where the look has none, 0 failed, 12 kit parts added
+14:04:09 SHOT sweep_militech_behemoth_police_01_ep1
+14:04:13 step 374: militech_behemoth_police_01_ep1: take it away
+14:04:14 step 375: thorton_colby_pickup__kurtz_cd_no_hull_01_ep1: build it and spawn it
+14:04:14   thorton_colby_pickup__kurtz_cd_no_hull_01_ep1: 1 styles, 15 slots, 19 kits; build 596 characters
+14:04:14   spawned entity 10791373ULL 12 m ahead of V
+14:04:14   engine: build 159: Vehicle.vc_thorton_colby_pickup__kurtz_cd_no_hull_01_ep1_4 called in thorton_colby_pickup_kurtz_cd_kurtz_04; 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 3 kit parts added
+14:04:14   engine: attached: Vehicle.vc_thorton_colby_pickup__kurtz_cd_no_hull_01_ep1_4 in thorton_colby_pickup_kurtz_cd_kurtz_04
+14:04:14   done waiting for the copy to appear (0.1 s)
+14:04:15 step 376: thorton_colby_pickup__kurtz_cd_no_hull_01_ep1: wait for its style
+14:04:15   done waiting for thorton_colby_pickup__kurtz_cd_no_hull_01_ep1 in its style's look (0.0 s)
+14:04:18 step 377: thorton_colby_pickup__kurtz_cd_no_hull_01_ep1: check it
+14:04:18 PASS thorton_colby_pickup__kurtz_cd_no_hull_01_ep1 spawned - Vehicle.vc_thorton_colby_pickup__kurtz_cd_no_hull_01_ep1_4
+14:04:18 PASS thorton_colby_pickup__kurtz_cd_no_hull_01_ep1 - thorton_colby_pickup_kurtz_cd_kurtz_04; ok (27 parts checked)
+14:04:18 PASS thorton_colby_pickup__kurtz_cd_no_hull_01_ep1: every part placed - 23 parts swapped, 11 repainted, 0 added where the look has none, 0 failed, 3 kit parts added
+14:04:18 SHOT sweep_thorton_colby_pickup__kurtz_cd_no_hull_01_ep1
+14:04:22 step 378: thorton_colby_pickup__kurtz_cd_no_hull_01_ep1: take it away
+14:04:23 step 379: makigai_tanishi_hfs_01_ep1: build it and spawn it
+14:04:23   makigai_tanishi_hfs_01_ep1: 1 styles, 24 slots, 3 kits; build 877 characters
+14:04:23   spawned entity 10791388ULL 12 m ahead of V
+14:04:23   engine: build 160: Vehicle.vc_makigai_tanishi_hfs_01_ep1_4 called in makigai_tanishi_basic_hfs_01; 20 parts swapped, 13 repainted, 12 added where the look has none, 0 failed, 0 kit parts added
+14:04:23   engine: attached: Vehicle.vc_makigai_tanishi_hfs_01_ep1_4 in makigai_tanishi_basic_hfs_01
+14:04:23   done waiting for the copy to appear (0.1 s)
+14:04:24 step 380: makigai_tanishi_hfs_01_ep1: wait for its style
+14:04:24   done waiting for makigai_tanishi_hfs_01_ep1 in its style's look (0.0 s)
+14:04:27 step 381: makigai_tanishi_hfs_01_ep1: check it
+14:04:27 PASS makigai_tanishi_hfs_01_ep1 spawned - Vehicle.vc_makigai_tanishi_hfs_01_ep1_4
+14:04:27 PASS makigai_tanishi_hfs_01_ep1 - makigai_tanishi_basic_hfs_01; ok (32 parts checked)
+14:04:27 PASS makigai_tanishi_hfs_01_ep1: every part placed - 20 parts swapped, 13 repainted, 12 added where the look has none, 0 failed, 0 kit parts added
+14:04:27 SHOT sweep_makigai_tanishi_hfs_01_ep1
+14:04:31 step 382: makigai_tanishi_hfs_01_ep1: take it away
+14:04:33 step 383: militech_behemoth_netwatch_01_ep1: build it and spawn it
+14:04:33   militech_behemoth_netwatch_01_ep1: 1 styles, 10 slots, 4 kits; build 358 characters
+14:04:33   spawned entity 10791420ULL 12 m ahead of V
+14:04:33   engine: build 161: Vehicle.vc_militech_behemoth_netwatch_01_ep1_4 called in militech_behemoth_police_maxtac_01; 18 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 12 kit parts added
+14:04:33   engine: attached: Vehicle.vc_militech_behemoth_netwatch_01_ep1_4 in militech_behemoth_police_maxtac_01, switching to its build's look
+14:04:33   engine: build 162: Vehicle.vc_militech_behemoth_netwatch_01_ep1_4 rebuilt in militech_behemoth_police_netwatch_01__vc_a; 18 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 12 kit parts added
+14:04:33   done waiting for the copy to appear (0.1 s)
+14:04:34 step 384: militech_behemoth_netwatch_01_ep1: wait for its style
+14:04:34   done waiting for militech_behemoth_netwatch_01_ep1 in its style's look (0.0 s)
+14:04:37 step 385: militech_behemoth_netwatch_01_ep1: check it
+14:04:37 PASS militech_behemoth_netwatch_01_ep1 spawned - Vehicle.vc_militech_behemoth_netwatch_01_ep1_4
+14:04:37 PASS militech_behemoth_netwatch_01_ep1 - militech_behemoth_police_netwatch_01__vc_a; ok (34 parts checked)
+14:04:37 PASS militech_behemoth_netwatch_01_ep1: every part placed - 18 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 12 kit parts added
+14:04:37 SHOT sweep_militech_behemoth_netwatch_01_ep1
+14:04:41 step 386: militech_behemoth_netwatch_01_ep1: take it away
+14:04:42 DONE 290 passed, 0 failed

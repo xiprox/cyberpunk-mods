@@ -1,0 +1,6426 @@
+{
+ "id": "chevalier_emperor_01__basic_01",
+ "label": "Emperor 620 Ragnar",
+ "entity": "base\\vehicles\\standard\\v_standard3_chevalier_emperor_01__basic_01.ent",
+ "family": "v_standard3_chevalier_emperor",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard3_chevalier_emperor_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+  "ep1\\vehicles\\appearances\\standard\\chevalier_emperor_nusa.app"
+ ],
+ "styles": [
+  {
+   "id": "arasaka_q000_chase_01",
+   "code": "arasaka_q000_chase_01",
+   "label": "Arasaka q000 chase",
+   "base_look": "chevalier_emperor__basic_arasaka_q000_chase_01",
+   "looks": [
+    "chevalier_emperor__basic_arasaka_q000_chase_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_02",
+    "chevalier_emperor__basic_arasaka_q000_chase_03",
+    "chevalier_emperor__basic_arasaka_01",
+    "chevalier_emperor__basic_zetatech_01",
+    "chevalier_emperor__basic_zetatech_02"
+   ],
+   "options": {
+    "hood_a.hood": "baec35c6",
+    "trunk_a.trunk": "fa936050",
+    "base.body": "63b0e56d",
+    "base.bumper": "ad84b056",
+    "base.bumper.bumper_b": "20bd8b43",
+    "base.bumper.bumper_b_a": "d13588c0",
+    "base.bumper.bumper_f_b": "e0df2c44",
+    "base.interior": "69ca0aab",
+    "wheel.tire": "2a9d78d8",
+    "wheel.wheel": "e03bb7cd",
+    "door.door": "79217545",
+    "bumper_front_c.bumper": "211dfb14",
+    "bumper_front_d.bumper": "2e7c7132",
+    "hood_b.hood": "077f4562",
+    "hood_c.hood": "781ddba2",
+    "trunk_b.trunk": "e1658650",
+    "trunk_c.trunk": "d6ff2834",
+    "trunk_d.trunk": "162db6bc",
+    "window.door": "3b8ccbfd"
+   },
+   "kits": [
+    "sticker_24c2",
+    "sticker_3e9f",
+    "sticker_92f0",
+    "sticker_e2aa"
+   ]
+  },
+  {
+   "id": "autonomous_truck",
+   "code": "autonomous_truck",
+   "label": "Autonomous truck",
+   "base_look": "chevalier_emperor__basic_autonomous_truck",
+   "looks": [
+    "chevalier_emperor__basic_autonomous_truck"
+   ],
+   "options": {
+    "hood_a.hood": "baec35c6",
+    "trunk_a.trunk": "fa936050",
+    "base.body": "63b0e56d",
+    "base.bumper": "ad84b056",
+    "base.bumper.bumper_b": "20bd8b43",
+    "base.bumper.bumper_b_a": "d13588c0",
+    "base.bumper.bumper_f_b": "e0df2c44",
+    "base.interior": "69ca0aab",
+    "wheel.tire": "2a9d78d8",
+    "wheel.wheel": "fa3d55f5",
+    "door.door": "79217545",
+    "bumper_front_c.bumper": "211dfb14",
+    "bumper_front_d.bumper": "2e7c7132",
+    "hood_b.hood": "077f4562",
+    "hood_c.hood": "781ddba2",
+    "trunk_b.trunk": "e1658650",
+    "trunk_c.trunk": "d6ff2834",
+    "trunk_d.trunk": "162db6bc",
+    "window.door": "3b8ccbfd"
+   },
+   "kits": [
+    "sticker_24c2"
+   ]
+  },
+  {
+   "id": "chevalier_emperor_nusa_nusa_01",
+   "code": "chevalier_emperor_nusa_nusa_01",
+   "label": "Chevalier emperor nusa nusa",
+   "base_look": "chevalier_emperor_nusa_nusa_01",
+   "looks": [
+    "chevalier_emperor_nusa_nusa_01"
+   ],
+   "options": {
+    "hood_a.hood": "baec35c6",
+    "trunk_a.trunk": "fa936050",
+    "base.body": "63b0e56d",
+    "base.bumper": "ad84b056",
+    "base.bumper.bumper_b": "20bd8b43",
+    "base.bumper.bumper_b_a": "d13588c0",
+    "base.bumper.bumper_f_b": "e0df2c44",
+    "base.interior": "69ca0aab",
+    "wheel.tire": "2a9d78d8",
+    "wheel.wheel": "e03bb7cd",
+    "door.door": "79217545",
+    "bumper_front_c.bumper": "211dfb14",
+    "bumper_front_d.bumper": "2e7c7132",
+    "hood_b.hood": "077f4562",
+    "hood_c.hood": "781ddba2",
+    "trunk_b.trunk": "e1658650",
+    "trunk_c.trunk": "d6ff2834",
+    "trunk_d.trunk": "162db6bc",
+    "window.door": "3b8ccbfd"
+   },
+   "kits": [
+    "sticker_24c2",
+    "sticker_3e9f",
+    "sticker_9102"
+   ]
+  },
+  {
+   "id": "militech",
+   "code": "militech",
+   "label": "Militech",
+   "base_look": "chevalier_emperor__basic_militech",
+   "looks": [
+    "chevalier_emperor__basic_militech",
+    "chevalier_emperor__basic_militech_camo_01"
+   ],
+   "options": {
+    "hood_a.hood": "baec35c6",
+    "trunk_a.trunk": "fa936050",
+    "base.body": "63b0e56d",
+    "base.bumper": "ad84b056",
+    "base.bumper.bumper_b": "20bd8b43",
+    "base.bumper.bumper_b_a": "d13588c0",
+    "base.bumper.bumper_f_b": "e0df2c44",
+    "base.interior": "69ca0aab",
+    "wheel.tire": "2a9d78d8",
+    "wheel.wheel": "e03bb7cd",
+    "door.door": "79217545",
+    "bumper_front_c.bumper": "211dfb14",
+    "bumper_front_d.bumper": "2e7c7132",
+    "hood_b.hood": "077f4562",
+    "hood_c.hood": "781ddba2",
+    "trunk_b.trunk": "e1658650",
+    "trunk_c.trunk": "d6ff2834",
+    "trunk_d.trunk": "162db6bc",
+    "window.door": "3b8ccbfd"
+   },
+   "kits": [
+    "nomad_6a90",
+    "sticker_24c2",
+    "sticker_3e9f",
+    "sticker_92f0",
+    "sticker_e2aa"
+   ]
+  },
+  {
+   "id": "netwatch_01",
+   "code": "netwatch_01",
+   "label": "Netwatch",
+   "base_look": "chevalier_emperor__basic_netwatch_01",
+   "looks": [
+    "chevalier_emperor__basic_netwatch_01"
+   ],
+   "options": {
+    "hood_a.hood": "baec35c6",
+    "trunk_a.trunk": "fa936050",
+    "base.body": "63b0e56d",
+    "base.bumper": "ad84b056",
+    "base.bumper.bumper_b": "20bd8b43",
+    "base.bumper.bumper_b_a": "d13588c0",
+    "base.bumper.bumper_f_b": "e0df2c44",
+    "base.interior": "69ca0aab",
+    "wheel.tire": "2a9d78d8",
+    "wheel.wheel": "e03bb7cd",
+    "door.door": "79217545",
+    "bumper_front_c.bumper": "211dfb14",
+    "bumper_front_d.bumper": "2e7c7132",
+    "hood_b.hood": "077f4562",
+    "hood_c.hood": "781ddba2",
+    "trunk_b.trunk": "e1658650",
+    "trunk_c.trunk": "d6ff2834",
+    "trunk_d.trunk": "162db6bc",
+    "window.door": "3b8ccbfd"
+   },
+   "kits": [
+    "netwatch_b94d",
+    "netwatch_c88f",
+    "sticker_24c2",
+    "sticker_3e9f",
+    "sticker_92f0"
+   ]
+  },
+  {
+   "id": "suburban_1",
+   "code": "suburban_1",
+   "label": "Suburban",
+   "base_look": "chevalier_emperor__basic_suburban_1",
+   "looks": [
+    "chevalier_emperor__basic_suburban_1",
+    "chevalier_emperor__basic_suburban_1_2",
+    "chevalier_emperor__basic_suburban_1_3",
+    "chevalier_emperor__basic_suburban_1_4",
+    "chevalier_emperor__basic_suburban_1_5",
+    "chevalier_emperor__basic_suburban_1_6",
+    "chevalier_emperor__basic_urban_1",
+    "chevalier_emperor__basic_player_01",
+    "chevalier_emperor__basic_urban_1_3",
+    "chevalier_emperor__basic_urban_1_4",
+    "chevalier_emperor__basic_urban_1_5",
+    "chevalier_emperor__basic_urban_1_6",
+    "chevalier_emperor__basic_mobile_lab",
+    "chevalier_emperor__basic_deathrace_01"
+   ],
+   "options": {
+    "hood_a.hood": "baec35c6",
+    "trunk_a.trunk": "fa936050",
+    "base.body": "63b0e56d",
+    "base.bumper": "ad84b056",
+    "base.bumper.bumper_b": "20bd8b43",
+    "base.bumper.bumper_b_a": "d13588c0",
+    "base.bumper.bumper_f_b": "e0df2c44",
+    "base.interior": "69ca0aab",
+    "wheel.tire": "2a9d78d8",
+    "wheel.wheel": "e03bb7cd",
+    "door.door": "79217545",
+    "bumper_front_c.bumper": "211dfb14",
+    "bumper_front_d.bumper": "2e7c7132",
+    "hood_b.hood": "077f4562",
+    "hood_c.hood": "781ddba2",
+    "trunk_b.trunk": "e1658650",
+    "trunk_c.trunk": "d6ff2834",
+    "trunk_d.trunk": "162db6bc",
+    "window.door": "3b8ccbfd"
+   },
+   "kits": [
+    "sticker_24c2"
+   ]
+  }
+ ],
+ "wrecks": [
+  "chevalier_emperor__basic_burnt",
+  "chevalier_emperor__basic_mobile_lab_burnt"
+ ],
+ "slots": [
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "baec35c6",
+     "code": "hood_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_hood_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_hood_a_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "fa936050",
+     "code": "trunk_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_a_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "63b0e56d",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_light_f_02_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "mobile_lab",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01",
+      "arasaka_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.bumper",
+   "label": "Bumper (Base): a a",
+   "kind": "bumper",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_a_01_a"
+   ],
+   "options": [
+    {
+     "id": "ad84b056",
+     "code": "bumper_f_01_a",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_f_01_a.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_f_01_a_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.bumper.bumper_b",
+   "label": "Bumper (Base): back",
+   "kind": "bumper",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "20bd8b43",
+     "code": "bumper_b_01_b",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_b_01_b.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.bumper.bumper_b_a",
+   "label": "Bumper (Base): back a",
+   "kind": "bumper",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01_a"
+   ],
+   "options": [
+    {
+     "id": "d13588c0",
+     "code": "bumper_b_01_a",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_b_01_a.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_b_01_a_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.bumper.bumper_f_b",
+   "label": "Bumper (Base): front back",
+   "kind": "bumper",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01_b"
+   ],
+   "options": [
+    {
+     "id": "e0df2c44",
+     "code": "bumper_f_01_b",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_f_01_b.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_f_01_b_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "69ca0aab",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "brown",
+      "deathrace_01",
+      "black",
+      "player_01",
+      "urban_1_4",
+      "urban_1_3",
+      "urban_1_5",
+      "suburban_1_3",
+      "suburban_1_2",
+      "suburban_1",
+      "arasaka_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     -0.7313537001609802,
+     0.0,
+     0.0,
+     0.6819983720779419
+    ],
+    [
+     -0.40673667192459106,
+     0.0,
+     0.0,
+     0.9135454297065735
+    ],
+    [
+     0.27563735842704773,
+     0.0,
+     0.0,
+     0.9612616896629333
+    ],
+    [
+     -0.30070579051971436,
+     0.0,
+     0.0,
+     0.9537169337272644
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "2a9d78d8",
+     "code": "tire_generic_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01_shadowmesh.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01_shadowmesh.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01_shadowmesh.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "clean_letter_white",
+      "dusty",
+      "dusty_letter_white",
+      "muddy",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     -0.7313537001609802,
+     0.0,
+     0.0,
+     0.6819983720779419
+    ],
+    [
+     -0.40673667192459106,
+     0.0,
+     0.0,
+     0.9135454297065735
+    ],
+    [
+     0.27563735842704773,
+     0.0,
+     0.0,
+     0.9612616896629333
+    ],
+    [
+     -0.30070579051971436,
+     0.0,
+     0.0,
+     0.9537169337272644
+    ]
+   ],
+   "roles": [
+    "police__ext01_wheel_<c>_police_01",
+    "police__ext01_wheel_<c>_police_02",
+    "police__ext01_wheel_fl_police_02",
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "e03bb7cd",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "deathrace_01",
+      "deathrace_02"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:default1",
+      "look:militech_q003",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1"
+     ]
+    },
+    {
+     "id": "fa3d55f5",
+     "code": "wheel_bratsk_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_bratsk_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_bratsk_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_bratsk_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_bratsk_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic_autonomous_truck"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "style:autonomous_truck"
+     ]
+    },
+    {
+     "id": "9b2b582d",
+     "code": "police_wheel_police_01 + police_wheel_police_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_wheel_fl_police_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_wheel_fl_police_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_wheel_fl_police_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_wheel_fl_police_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "chevalier_emperor__basic:police"
+     ],
+     "origins": [
+      "look:police"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "79217545",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_fl_01_shadowmesh.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_fr_01_shadowmesh.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_bl_01_shadowmesh.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_br_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "arasaka_01",
+     "paints": [
+      "deathrace_01",
+      "mobile_lab",
+      "police_blue",
+      "police_white",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "urban_01",
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05",
+      "urban_06",
+      "armored_01",
+      "armored_02",
+      "armored_03",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_front_c.bumper",
+   "label": "Front bumper (c)",
+   "kind": "bumper",
+   "group": "bumper_front_c",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01_c"
+   ],
+   "options": [
+    {
+     "id": "211dfb14",
+     "code": "bumper_f_01_c",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_f_01_c.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_f_01_c_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "militech",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_front_d.bumper",
+   "label": "Front bumper (d)",
+   "kind": "bumper",
+   "group": "bumper_front_d",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front_d"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01_d"
+   ],
+   "options": [
+    {
+     "id": "2e7c7132",
+     "code": "bumper_f_01_d",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_f_01_d.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_bumper_f_01_d_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_b.hood",
+   "label": "Hood (b)",
+   "kind": "hood",
+   "group": "hood_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_b"
+   ],
+   "options": [
+    {
+     "id": "077f4562",
+     "code": "hood_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_hood_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_hood_b_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_c.hood",
+   "label": "Hood (c)",
+   "kind": "hood",
+   "group": "hood_c",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_c"
+   ],
+   "options": [
+    {
+     "id": "781ddba2",
+     "code": "hood_c_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_hood_c_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_hood_c_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_b.trunk",
+   "label": "Trunk (b)",
+   "kind": "trunk",
+   "group": "trunk_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_b"
+   ],
+   "options": [
+    {
+     "id": "e1658650",
+     "code": "trunk_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_b_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_c.trunk",
+   "label": "Trunk (c)",
+   "kind": "trunk",
+   "group": "trunk_c",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_c"
+   ],
+   "options": [
+    {
+     "id": "d6ff2834",
+     "code": "trunk_c_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_c_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_c_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_d.trunk",
+   "label": "Trunk (d)",
+   "kind": "trunk",
+   "group": "trunk_d",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_d"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_d"
+   ],
+   "options": [
+    {
+     "id": "162db6bc",
+     "code": "trunk_d_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_d_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_d_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech",
+     "paints": [
+      "police_blue",
+      "armored_03",
+      "armored_02",
+      "armored_01",
+      "police_white",
+      "mobile_lab",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "deathrace_01",
+      "arasaka_01",
+      "militech",
+      "militech_camo",
+      "zetatech_01",
+      "autonomous_zetatech_01",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_burnt",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:burnt",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.door",
+   "label": "Door (window)",
+   "kind": "door",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a",
+    "window_back_left_a",
+    "window_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "3b8ccbfd",
+     "code": "door_window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_window_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_window_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_window_br_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "deathrace_01",
+      "militech",
+      "nusa_01"
+     ],
+     "looks": [
+      "chevalier_emperor__basic:autonomous_zetatech_01",
+      "chevalier_emperor__basic:default1",
+      "chevalier_emperor__basic:militech_q003",
+      "chevalier_emperor__basic:police",
+      "chevalier_emperor__basic_arasaka_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_01",
+      "chevalier_emperor__basic_arasaka_q000_chase_02",
+      "chevalier_emperor__basic_arasaka_q000_chase_03",
+      "chevalier_emperor__basic_autonomous_truck",
+      "chevalier_emperor__basic_deathrace_01",
+      "chevalier_emperor__basic_militech",
+      "chevalier_emperor__basic_militech_camo_01",
+      "chevalier_emperor__basic_mobile_lab",
+      "chevalier_emperor__basic_mobile_lab_burnt",
+      "chevalier_emperor__basic_netwatch_01",
+      "chevalier_emperor__basic_player_01",
+      "chevalier_emperor__basic_suburban_1",
+      "chevalier_emperor__basic_suburban_1_2",
+      "chevalier_emperor__basic_suburban_1_3",
+      "chevalier_emperor__basic_suburban_1_4",
+      "chevalier_emperor__basic_suburban_1_5",
+      "chevalier_emperor__basic_suburban_1_6",
+      "chevalier_emperor__basic_urban_1",
+      "chevalier_emperor__basic_urban_1_3",
+      "chevalier_emperor__basic_urban_1_4",
+      "chevalier_emperor__basic_urban_1_5",
+      "chevalier_emperor__basic_urban_1_6",
+      "chevalier_emperor__basic_zetatech_01",
+      "chevalier_emperor__basic_zetatech_02",
+      "chevalier_emperor_nusa:q305_hologram",
+      "chevalier_emperor_nusa:q305_hologram_red",
+      "chevalier_emperor_nusa_nusa_01"
+     ],
+     "origins": [
+      "look:autonomous_zetatech_01",
+      "look:default1",
+      "look:militech_q003",
+      "look:police",
+      "look:q305_hologram",
+      "look:q305_hologram_red",
+      "style:arasaka_q000_chase_01",
+      "style:autonomous_truck",
+      "style:chevalier_emperor_nusa_nusa_01",
+      "style:militech",
+      "style:netwatch_01",
+      "style:suburban_1",
+      "wreck:mobile_lab_burnt"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "netwatch_c88f",
+   "family": "netwatch",
+   "code": "trunk_a_stickers_netwatch_01",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "trunk_a_stickers_netwatch_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_a_stickers_netwatch_01.mesh",
+     "code": "trunk_a_stickers_netwatch_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor__basic:police",
+    "chevalier_emperor__basic_netwatch_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:police",
+    "style:netwatch_01"
+   ]
+  },
+  {
+   "id": "netwatch_b94d",
+   "family": "netwatch",
+   "code": "trunk_c_stickers_netwatch_01",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "trunk_c_stickers_netwatch_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_trunk_c_stickers_netwatch_01.mesh",
+     "code": "trunk_c_stickers_netwatch_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_c",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic_netwatch_01",
+     "parent": "vehicle_slots:trunk_c"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor__basic_netwatch_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:netwatch_01"
+   ]
+  },
+  {
+   "id": "nomad_6a90",
+   "family": "nomad",
+   "code": "light_device_medium_02",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "detachable_body_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02.mesh",
+     "code": "light_device_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.0171,
+      0.1395,
+      0.8969
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02_shadow.mesh",
+     "look": "chevalier_emperor__basic_militech",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor__basic_militech",
+    "chevalier_emperor__basic_militech_camo_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:militech"
+   ]
+  },
+  {
+   "id": "police_8a88",
+   "family": "police",
+   "code": "kit_police_body_bumper_doors_hood_trunk",
+   "where": [
+    "body",
+    "bumper",
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "door_bl_police_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_bl_01.mesh",
+     "code": "police_door_bl_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_police_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_br_01.mesh",
+     "code": "police_door_br_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "hood_a_police_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_hood_a_01.mesh",
+     "code": "police_hood_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "hood_b_police_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_hood_b_01.mesh",
+     "code": "police_hood_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:hood_b"
+    },
+    {
+     "name": "hood_c_police_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_hood_c_01.mesh",
+     "code": "police_hood_c_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_c",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:hood_c"
+    },
+    {
+     "name": "light_device_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02.mesh",
+     "code": "light_device_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_a_01_a",
+     "slot": null,
+     "position": [
+      0.0,
+      2.794,
+      0.207
+     ],
+     "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      -8.742277657347586e-08
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "light_device_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_03.mesh",
+     "code": "light_device_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_police_01",
+     "slot": null,
+     "position": [
+      -1.04,
+      0.979,
+      0.511
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_03_shadow.mesh",
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police__door_bl_01_side_display",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_bl_01_side_display.mesh",
+     "code": "police_door_bl_01_side_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "police__door_fr_01_side_display",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_fr_01_side_display.mesh",
+     "code": "police_door_fr_01_side_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "police__ext01_body_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_body_01_decal_police.mesh",
+     "code": "police_body_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police__ext01_body_01_side_display",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_body_01_side_display.mesh",
+     "code": "police_body_01_side_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police__ext01_bumper_b_01_a",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_bumper_b_01_a.mesh",
+     "code": "police_bumper_b_01_a",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police__ext01_bumper_b_01_a_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_bumper_b_01_a_decal_police.mesh",
+     "code": "police_bumper_b_01_a_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police__ext01_bumper_f_01_c",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_bumper_f_01_c.mesh",
+     "code": "police_bumper_f_01_c",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_f_01_c",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:bumper_front_c"
+    },
+    {
+     "name": "police__ext01_bumper_f_01_d",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_bumper_f_01_d.mesh",
+     "code": "police_bumper_f_01_d",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_f_01_d",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:bumper_front_d"
+    },
+    {
+     "name": "police__ext01_door_br_01_side_display",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_br_01_side_display.mesh",
+     "code": "police_door_br_01_side_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "police__ext01_door_fl_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_fl_01.mesh",
+     "code": "police_door_fl_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "police__ext01_door_fl_01_side_display",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_fl_01_side_display.mesh",
+     "code": "police_door_fl_01_side_display",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "police__ext01_door_fr_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_fr_01.mesh",
+     "code": "police_door_fr_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "police__ext01_door_window_fr_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_window_fr_01.mesh",
+     "code": "police_door_window_fr_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "police__ext01_hood_a_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_hood_a_01_decal_police.mesh",
+     "code": "police_hood_a_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "police__ext01_trunk_a_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_trunk_a_01_decal_police.mesh",
+     "code": "police_trunk_a_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "police__ext01_trunk_b_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_trunk_b_01_decal_police.mesh",
+     "code": "police_trunk_b_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:trunk_b"
+    },
+    {
+     "name": "police__ext01_trunk_c_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_trunk_c_01_decal_police.mesh",
+     "code": "police_trunk_c_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_c",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:trunk_c"
+    },
+    {
+     "name": "police__ext01_trunk_d_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_trunk_d_01_decal_police.mesh",
+     "code": "police_trunk_d_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_d",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:trunk_d"
+    },
+    {
+     "name": "police__int01_interior_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__int01_interior_01.mesh",
+     "code": "police_interior_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_police_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "trunk_a_police_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_trunk_a_01.mesh",
+     "code": "police_trunk_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "trunk_c_police_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_trunk_c_01.mesh",
+     "code": "police_trunk_c_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_c",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:trunk_c"
+    },
+    {
+     "name": "v_standard3_chevalier_emperor_police__ext01_door_window_fl_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_window_fl_01.mesh",
+     "code": "police_door_window_fl_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "v_standard3_chevalier_emperor_police__ext01_vehicle_lights_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_vehicle_lights_01.mesh",
+     "code": "police_vehicle_lights_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_vehicle_lights_01_shadow.mesh",
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_bl_grate",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_bl_01_grate.mesh",
+     "code": "police_door_bl_01_grate",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_bl",
+     "slot": null,
+     "position": [
+      0.0145,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:window_back_left_a"
+    },
+    {
+     "name": "window_br_grate",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_br_01_grate.mesh",
+     "code": "police_door_br_01_grate",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_br",
+     "slot": null,
+     "position": [
+      -0.0149,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:window_back_right_a"
+    },
+    {
+     "name": "window_fl_grate",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_fl_01_grate.mesh",
+     "code": "police_door_fl_01_grate",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0149,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "window_fr_grate",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_door_fr_01_grate.mesh",
+     "code": "police_door_fr_01_grate",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      -0.0158,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:window_front_right_a"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor__basic:police"
+   ],
+   "made_for": [
+    "slot:base.body.body_police",
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:hood_b.hood",
+    "slot:hood_c.hood",
+    "slot:window.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:police"
+   ]
+  },
+  {
+   "id": "police_afa9",
+   "family": "police",
+   "code": "kit_police_trunk",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "trunk_b_police_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_trunk_b_01.mesh",
+     "code": "police_trunk_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:trunk_b"
+    },
+    {
+     "name": "trunk_d_police_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_trunk_d_01.mesh",
+     "code": "police_trunk_d_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_d",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:police",
+     "parent": "vehicle_slots:trunk_d"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor__basic:police",
+    "chevalier_emperor__basic_burnt"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:police",
+    "wreck:burnt"
+   ]
+  },
+  {
+   "id": "sticker_24c2",
+   "family": "sticker",
+   "code": "door_bl_stickers_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_bl_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_bl_stickers_01.mesh",
+     "code": "door_bl_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic:default1",
+     "parent": "vehicle_slots:door_back_left_a"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor__basic:autonomous_zetatech_01",
+    "chevalier_emperor__basic:default1",
+    "chevalier_emperor__basic:militech_q003",
+    "chevalier_emperor__basic:police",
+    "chevalier_emperor__basic_arasaka_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_02",
+    "chevalier_emperor__basic_arasaka_q000_chase_03",
+    "chevalier_emperor__basic_autonomous_truck",
+    "chevalier_emperor__basic_deathrace_01",
+    "chevalier_emperor__basic_militech",
+    "chevalier_emperor__basic_militech_camo_01",
+    "chevalier_emperor__basic_mobile_lab",
+    "chevalier_emperor__basic_mobile_lab_burnt",
+    "chevalier_emperor__basic_netwatch_01",
+    "chevalier_emperor__basic_player_01",
+    "chevalier_emperor__basic_suburban_1",
+    "chevalier_emperor__basic_suburban_1_2",
+    "chevalier_emperor__basic_suburban_1_3",
+    "chevalier_emperor__basic_suburban_1_4",
+    "chevalier_emperor__basic_suburban_1_5",
+    "chevalier_emperor__basic_suburban_1_6",
+    "chevalier_emperor__basic_urban_1",
+    "chevalier_emperor__basic_urban_1_3",
+    "chevalier_emperor__basic_urban_1_4",
+    "chevalier_emperor__basic_urban_1_5",
+    "chevalier_emperor__basic_urban_1_6",
+    "chevalier_emperor__basic_zetatech_01",
+    "chevalier_emperor__basic_zetatech_02",
+    "chevalier_emperor_nusa:q305_hologram",
+    "chevalier_emperor_nusa:q305_hologram_red",
+    "chevalier_emperor_nusa_nusa_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:autonomous_zetatech_01",
+    "look:default1",
+    "look:militech_q003",
+    "look:police",
+    "look:q305_hologram",
+    "look:q305_hologram_red",
+    "style:arasaka_q000_chase_01",
+    "style:autonomous_truck",
+    "style:chevalier_emperor_nusa_nusa_01",
+    "style:militech",
+    "style:netwatch_01",
+    "style:suburban_1",
+    "wreck:mobile_lab_burnt"
+   ]
+  },
+  {
+   "id": "sticker_3e9f",
+   "family": "sticker",
+   "code": "door_fl_stickers_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_fl_stickers_01.mesh",
+     "code": "door_fl_stickers_01",
+     "paint": "militech",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic_militech",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor__basic:militech_q003",
+    "chevalier_emperor__basic_arasaka_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_02",
+    "chevalier_emperor__basic_arasaka_q000_chase_03",
+    "chevalier_emperor__basic_militech",
+    "chevalier_emperor__basic_militech_camo_01",
+    "chevalier_emperor__basic_netwatch_01",
+    "chevalier_emperor__basic_zetatech_01",
+    "chevalier_emperor__basic_zetatech_02",
+    "chevalier_emperor_nusa:q305_hologram",
+    "chevalier_emperor_nusa:q305_hologram_red",
+    "chevalier_emperor_nusa_nusa_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:militech_q003",
+    "look:q305_hologram",
+    "look:q305_hologram_red",
+    "style:arasaka_q000_chase_01",
+    "style:chevalier_emperor_nusa_nusa_01",
+    "style:militech",
+    "style:netwatch_01"
+   ]
+  },
+  {
+   "id": "sticker_e2aa",
+   "family": "sticker",
+   "code": "hood_a_stickers_01",
+   "where": [
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "stickers_hood",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_hood_a_stickers_01.mesh",
+     "code": "hood_a_stickers_01",
+     "paint": "militech",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic_militech",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor__basic:militech_q003",
+    "chevalier_emperor__basic_arasaka_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_02",
+    "chevalier_emperor__basic_arasaka_q000_chase_03",
+    "chevalier_emperor__basic_militech",
+    "chevalier_emperor__basic_militech_camo_01",
+    "chevalier_emperor__basic_zetatech_01",
+    "chevalier_emperor__basic_zetatech_02"
+   ],
+   "made_for": [
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:militech_q003",
+    "style:arasaka_q000_chase_01",
+    "style:militech"
+   ]
+  },
+  {
+   "id": "sticker_9102",
+   "family": "sticker",
+   "code": "kit_sticker_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "body_nusa_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_body_nusa_stickers_01.mesh",
+     "code": "body_nusa_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor_nusa_nusa_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_bl_nusa_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_bl_nusa_stickers_01.mesh",
+     "code": "door_bl_nusa_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor_nusa_nusa_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_nusa_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_br_nusa_stickers_01.mesh",
+     "code": "door_br_nusa_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor_nusa_nusa_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fl_nusa_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_fl_nusa_stickers_01.mesh",
+     "code": "door_fl_nusa_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor_nusa_nusa_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_nusa_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_fr_nusa_stickers_01.mesh",
+     "code": "door_fr_nusa_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor_nusa_nusa_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor_nusa:q305_hologram",
+    "chevalier_emperor_nusa:q305_hologram_red",
+    "chevalier_emperor_nusa_nusa_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:q305_hologram",
+    "look:q305_hologram_red",
+    "style:chevalier_emperor_nusa_nusa_01"
+   ]
+  },
+  {
+   "id": "sticker_92f0",
+   "family": "sticker",
+   "code": "kit_sticker_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_br_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_br_stickers_01.mesh",
+     "code": "door_br_stickers_01",
+     "paint": "militech",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic_militech",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fr_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_door_fr_stickers_01.mesh",
+     "code": "door_fr_stickers_01",
+     "paint": "militech",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_emperor__basic_militech",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "chevalier_emperor__basic:militech_q003",
+    "chevalier_emperor__basic_arasaka_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_02",
+    "chevalier_emperor__basic_arasaka_q000_chase_03",
+    "chevalier_emperor__basic_militech",
+    "chevalier_emperor__basic_militech_camo_01",
+    "chevalier_emperor__basic_netwatch_01",
+    "chevalier_emperor__basic_zetatech_01",
+    "chevalier_emperor__basic_zetatech_02"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:militech_q003",
+    "style:arasaka_q000_chase_01",
+    "style:militech",
+    "style:netwatch_01"
+   ]
+  }
+ ],
+ "looks": {
+  "chevalier_emperor__basic_suburban_1_4": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "suburban_1_4",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_suburban_1_6": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "suburban_1_6",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_urban_1_4": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "urban_1_4",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_urban_1_6": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "urban_1_6",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_urban_1": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "urban_1",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_suburban_1_3": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "suburban_1_3",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_suburban_1": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "suburban_1",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_suburban_1_5": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "suburban_1_5",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_urban_1_3": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "urban_1_3",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_urban_1_5": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "urban_1_5",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_suburban_1_2": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "suburban_1_2",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_militech": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "militech",
+   "style": "militech",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_player_01": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "player_01",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_mobile_lab": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "mobile_lab",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.roof": {
+     "all": "mobile_lab_roof"
+    }
+   }
+  },
+  "chevalier_emperor__basic_mobile_lab_burnt": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "mobile_lab_burnt",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "chevalier_emperor__basic_deathrace_01": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "deathrace_01",
+   "style": "suburban_1",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_autonomous_truck": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "autonomous_truck",
+   "style": "autonomous_truck",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.roof": {
+     "all": "mobile_lab_roof"
+    }
+   }
+  },
+  "chevalier_emperor__basic_arasaka_01": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "arasaka_01",
+   "style": "arasaka_q000_chase_01",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_netwatch_01": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "netwatch_01",
+   "style": "netwatch_01",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_burnt": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "burnt",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "chevalier_emperor__basic_arasaka_q000_chase_02": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "arasaka_q000_chase_02",
+   "style": "arasaka_q000_chase_01",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_arasaka_q000_chase_01": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "arasaka_q000_chase_01",
+   "style": "arasaka_q000_chase_01",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_arasaka_q000_chase_03": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "arasaka_q000_chase_03",
+   "style": "arasaka_q000_chase_01",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_militech_camo_01": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "militech_camo_01",
+   "style": "militech",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor_nusa_nusa_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\chevalier_emperor_nusa.app",
+   "app_look": "nusa_01",
+   "style": "chevalier_emperor_nusa_nusa_01",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_zetatech_01": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "zetatech_01",
+   "style": "arasaka_q000_chase_01",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "chevalier_emperor__basic_zetatech_02": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_emperor__basic.app",
+   "app_look": "zetatech_02",
+   "style": "arasaka_q000_chase_01",
+   "wreck": false,
+   "parts": {
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_c.trunk": {
+     "all": "trunk_c"
+    },
+    "trunk_d.trunk": {
+     "all": "trunk_d"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_a_01_a"
+    },
+    "base.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "base.bumper.bumper_b_a": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_b": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_d"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_b.hood": {
+     "all": "hood_b"
+    },
+    "hood_c.hood": {
+     "all": "hood_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4957,
+   0.4262,
+   0.3582,
+   0.0277
+  ],
+  "b": [
+   0.5065,
+   0.4253,
+   0.3582,
+   0.0217
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "63c706d8",
+   "rim": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01_shadowmesh.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_generic_bl_01",
+   "from": "Emperor 620 Ragnar",
+   "radius": 0.5065,
+   "width": 0.4253,
+   "rim_radius": 0.3582,
+   "tire_center": 0.0217,
+   "axles": [
+    "b"
+   ],
+   "looks": 28,
+   "paints": [
+    "deathrace_01",
+    "deathrace_02"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_emperor__basic:default1",
+    "chevalier_emperor__basic:militech_q003",
+    "chevalier_emperor__basic_arasaka_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_02",
+    "chevalier_emperor__basic_arasaka_q000_chase_03",
+    "chevalier_emperor__basic_deathrace_01",
+    "chevalier_emperor__basic_militech",
+    "chevalier_emperor__basic_militech_camo_01",
+    "chevalier_emperor__basic_mobile_lab",
+    "chevalier_emperor__basic_netwatch_01",
+    "chevalier_emperor__basic_player_01",
+    "chevalier_emperor__basic_suburban_1",
+    "chevalier_emperor__basic_suburban_1_2",
+    "chevalier_emperor__basic_suburban_1_3",
+    "chevalier_emperor__basic_suburban_1_4",
+    "chevalier_emperor__basic_suburban_1_5",
+    "chevalier_emperor__basic_suburban_1_6",
+    "chevalier_emperor__basic_urban_1",
+    "chevalier_emperor__basic_urban_1_3",
+    "chevalier_emperor__basic_urban_1_4",
+    "chevalier_emperor__basic_urban_1_5",
+    "chevalier_emperor__basic_urban_1_6",
+    "chevalier_emperor__basic_zetatech_01",
+    "chevalier_emperor__basic_zetatech_02",
+    "chevalier_emperor_nusa:q305_hologram",
+    "chevalier_emperor_nusa:q305_hologram_red",
+    "chevalier_emperor_nusa_nusa_01"
+   ]
+  },
+  {
+   "id": "2b3db13c",
+   "rim": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01_shadowmesh.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_generic_fl_01",
+   "from": "Emperor 620 Ragnar",
+   "radius": 0.4957,
+   "width": 0.4262,
+   "rim_radius": 0.3582,
+   "tire_center": 0.0277,
+   "axles": [
+    "f"
+   ],
+   "looks": 28,
+   "paints": [
+    "deathrace_01",
+    "deathrace_02"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_emperor__basic:default1",
+    "chevalier_emperor__basic:militech_q003",
+    "chevalier_emperor__basic_arasaka_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_01",
+    "chevalier_emperor__basic_arasaka_q000_chase_02",
+    "chevalier_emperor__basic_arasaka_q000_chase_03",
+    "chevalier_emperor__basic_deathrace_01",
+    "chevalier_emperor__basic_militech",
+    "chevalier_emperor__basic_militech_camo_01",
+    "chevalier_emperor__basic_mobile_lab",
+    "chevalier_emperor__basic_netwatch_01",
+    "chevalier_emperor__basic_player_01",
+    "chevalier_emperor__basic_suburban_1",
+    "chevalier_emperor__basic_suburban_1_2",
+    "chevalier_emperor__basic_suburban_1_3",
+    "chevalier_emperor__basic_suburban_1_4",
+    "chevalier_emperor__basic_suburban_1_5",
+    "chevalier_emperor__basic_suburban_1_6",
+    "chevalier_emperor__basic_urban_1",
+    "chevalier_emperor__basic_urban_1_3",
+    "chevalier_emperor__basic_urban_1_4",
+    "chevalier_emperor__basic_urban_1_5",
+    "chevalier_emperor__basic_urban_1_6",
+    "chevalier_emperor__basic_zetatech_01",
+    "chevalier_emperor__basic_zetatech_02",
+    "chevalier_emperor_nusa:q305_hologram",
+    "chevalier_emperor_nusa:q305_hologram_red",
+    "chevalier_emperor_nusa_nusa_01"
+   ]
+  },
+  {
+   "id": "eea504a3",
+   "rim": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_wheel_fl_police_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01_shadowmesh.mesh",
+   "code": "police_wheel_fl_police_02",
+   "tire_code": "tire_generic_bl_01",
+   "from": "Emperor 620 Ragnar",
+   "radius": 0.5065,
+   "width": 0.4253,
+   "rim_radius": 0.2467,
+   "tire_center": 0.0217,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [
+    "suburban_01",
+    "wraiths_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_emperor__basic:police"
+   ]
+  },
+  {
+   "id": "85f6d814",
+   "rim": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor_police__ext01_wheel_fl_police_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01_shadowmesh.mesh",
+   "code": "police_wheel_fl_police_01",
+   "tire_code": "tire_generic_fl_01",
+   "from": "Emperor 620 Ragnar",
+   "radius": 0.4957,
+   "width": 0.4262,
+   "rim_radius": 0.2467,
+   "tire_center": 0.0277,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_emperor__basic:police"
+   ]
+  },
+  {
+   "id": "520d6102",
+   "rim": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_bratsk_bl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_bl_01_shadowmesh.mesh",
+   "code": "wheel_bratsk_bl_01",
+   "tire_code": "tire_generic_bl_01",
+   "from": "Emperor 620 Ragnar",
+   "radius": 0.5065,
+   "width": 0.4253,
+   "rim_radius": 0.356,
+   "tire_center": 0.0217,
+   "axles": [
+    "b"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_emperor__basic:autonomous_zetatech_01",
+    "chevalier_emperor__basic_autonomous_truck"
+   ]
+  },
+  {
+   "id": "348d0e02",
+   "rim": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_wheel_bratsk_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_chevalier_emperor\\entities\\meshes\\v_standard3_chevalier_emperor__ext01_tire_generic_fl_01_shadowmesh.mesh",
+   "code": "wheel_bratsk_fl_01",
+   "tire_code": "tire_generic_fl_01",
+   "from": "Emperor 620 Ragnar",
+   "radius": 0.4957,
+   "width": 0.4262,
+   "rim_radius": 0.3486,
+   "tire_center": 0.0277,
+   "axles": [
+    "f"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_emperor__basic:autonomous_zetatech_01",
+    "chevalier_emperor__basic_autonomous_truck"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "chevalier_emperor__basic_player_01",
+   "Emperor 620 Ragnar"
+  ]
+ ]
+}

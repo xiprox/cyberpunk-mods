@@ -1,0 +1,74 @@
+﻿bike .app files: 9 of 126
+
+v_decoration_clean  looks=4  parts=110  shape varies=0  only paint varies=0
+  classes: [('entPhysicalMeshComponent', 73), ('entMeshComponent', 37)]
+  shape: {}
+  part names: ['v_sport1_rayfield_caliburn__ext01_body_01', 'v_sport1_rayfield_caliburn__ext01_bumper_b_01', 'v_sport1_rayfield_caliburn__ext01_bumper_f_01', 'v_sport1_rayfield_caliburn__ext01_chassis_01', 'v_sport1_rayfield_caliburn__ext01_door_fl_a_01', 'v_sport1_rayfield_caliburn__ext01_door_fl_mirror_01', 'v_sport1_rayfield_caliburn__ext01_door_fr_a_01', 'v_sport1_rayfield_caliburn__ext01_door_fr_mirror_01', 'v_sport1_rayfield_caliburn__ext01_engine_01', 'v_sport1_rayfield_caliburn__ext01_fuelcap_01', 'v_sport1_rayfield_caliburn__ext01_hood_01', 'v_sport1_rayfield_caliburn__ext01_tire_bl_01', 'v_sport1_rayfield_caliburn__ext01_tire_bl_8780', 'v_sport1_rayfield_caliburn__ext01_tire_fl_01']
+
+arch_nemesis_basic  looks=31  parts=21  shape varies=1  only paint varies=14
+  classes: [('entPhysicalMeshComponent', 229), ('entPhysicalSkinnedMeshComponent', 124), ('entMeshComponent', 74)]
+  shape: {'fairing_a_01': 3}
+  part names: ['axle_f_01', 'body_a_01', 'body_a_sticker_jackie_01', 'body_b_01', 'body_b_brakelight_01', 'body_c_01', 'body_cables_01', 'body_stickers_02', 'body_stickers_b_02', 'exhaust_01', 'fairing_a_01', 'fuelcap_01', 'fuelcap_sticker_jackie_01', 'fuelport_standard']
+
+brennan_apollo_basic  looks=20  parts=42  shape varies=1  only paint varies=21
+  classes: [('entPhysicalMeshComponent', 268), ('entMeshComponent', 79), ('entPhysicalSkinnedMeshComponent', 56)]
+  shape: {'fairing_c_01': 2}
+  part names: ['axle_a_01', 'axle_b_01', 'bags_bl_01', 'bags_br_01', 'body_b_01', 'brennan_damage_parts_01', 'brennan_damage_parts_02', 'exhaust_01', 'fairing_a_01', 'fairing_b_01', 'fairing_c_01', 'fairing_f_01', 'fuelcap_01', 'fuelport_standard']
+
+brennan_apollo_police_basic  looks=4  parts=31  shape varies=1  only paint varies=19
+  classes: [('entPhysicalMeshComponent', 44), ('entPhysicalSkinnedMeshComponent', 12), ('entMeshComponent', 12)]
+  shape: {'wheel_b_02': 2}
+  part names: ['axle_a_01', 'axle_b_01', 'body_a_police', 'body_b_player_01', 'body_b_police_01', 'body_player', 'brake_02', 'break_kurtz_01', 'engine_02', 'engine_player_01', 'exhaust_02', 'exhaust_04', 'fairing_player_01', 'fairing_police_01']
+
+yaiba_kusanagi_basic  looks=39  parts=36  shape varies=9  only paint varies=18
+  classes: [('entPhysicalMeshComponent', 335), ('entMeshComponent', 138), ('entPhysicalSkinnedMeshComponent', 57)]
+  shape: {'v_sportbike1_yaiba_kusanagi__ext01_body_011080': 3, 'v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655': 3, 'v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871': 3, 'v_common__ext01_seat_01': 3, 'v_sportbike1_yaiba_kusanagi__ext01_fuel_cap_01': 2, 'v_sportbike1_yaiba_kusanagi__ext01_axle_f_013775': 2, 'v_sportbike1_yaiba_kusanagi__ext01_axle_b_017048': 2, 'tire_r_01': 2, 'tire_f_01': 2}
+  part names: ['body_stitches_01', 'exhaust_01', 'license_plate', 'license_plate_small', 'license_plate_small_seat_02', 'lights_player_01', 'lights_player_02', 'stickers_player_01', 'tire_f_01', 'tire_r_01', 'v_common__ext01_fuel_port_01', 'v_common__ext01_kit_01', 'v_common__ext01_kit_02', 'v_common__ext01_seat_01']
+
+thorton_colby_pickup_nomad  looks=22  parts=115  shape varies=0  only paint varies=53
+  classes: [('entPhysicalMeshComponent', 1071), ('entMeshComponent', 772), ('entSkinnedMeshComponent', 22)]
+  shape: {}
+  part names: ['attachments_generator_f_int', 'body_01', 'brennan_apollo__ext01_wheel_fl_01', 'brennan_apollo__ext01_wheel_fr_01', 'bumper_b_01', 'bumper_f_01', 'bumper_f_stickers_aldecaldos_01', 'chassis', 'crystaldome_fl_b_a', 'crystaldome_fl_b_b', 'crystaldome_fl_f_a', 'crystaldome_fl_f_b', 'crystaldome_fr_b_a', 'crystaldome_fr_b_b']
+
+arch_nemesis_lina  looks=2  parts=17  shape varies=1  only paint varies=1
+  classes: [('entPhysicalMeshComponent', 16), ('entPhysicalSkinnedMeshComponent', 8), ('entMeshComponent', 8)]
+  shape: {'fairing_a_01': 2}
+  part names: ['axle_f_01', 'body_a_01', 'body_a_sticker_jackie_01', 'body_b_01', 'body_c_01', 'body_cables_01', 'exhaust_01', 'fairing_a_01', 'fuelcap_01', 'fuelport_standard', 'handlebar_01', 'license_plate_small', 'tire_b_01', 'tire_f_01']
+
+brennan_apollo_police_basic  looks=6  parts=37  shape varies=4  only paint varies=22
+  classes: [('entPhysicalMeshComponent', 65), ('entMeshComponent', 24), ('entPhysicalSkinnedMeshComponent', 16)]
+  shape: {'axle_a_01': 2, 'license_plate_small': 2, 'wheel_b_02': 2, 'engine_kurtz': 2}
+  part names: ['axle_a_01', 'axle_b_01', 'bags_br_kurtz_01', 'bags_br_kurtz_stickers_01', 'body_a_police', 'body_b_police_01', 'body_kurtz', 'body_kurtz_militia', 'brake_02', 'break_kurtz_01', 'engine_02', 'engine_kurtz', 'exhaust_02', 'exhaust_kurtz']
+
+v_standard_thorton_colby_pickup_nomad_mq304  looks=22  parts=115  shape varies=0  only paint varies=53
+  classes: [('entPhysicalMeshComponent', 1071), ('entMeshComponent', 772), ('entSkinnedMeshComponent', 22)]
+  shape: {}
+  part names: ['attachments_generator_f_int', 'body_01', 'brennan_apollo__ext01_wheel_fl_01', 'brennan_apollo__ext01_wheel_fr_01', 'bumper_b_01', 'bumper_f_01', 'bumper_f_stickers_aldecaldos_01', 'chassis', 'crystaldome_fl_b_a', 'crystaldome_fl_b_b', 'crystaldome_fl_f_a', 'crystaldome_fl_f_b', 'crystaldome_fr_b_a', 'crystaldome_fr_b_b']
+
+-- does a bike use the car part names? --
+  body_01            2/9
+  hood_a             2/9
+  trunk_a            2/9
+  bumper_f_01        2/9
+  bumper_b_01        2/9
+  door_fl_a          2/9
+  wheel_01_fl_a      2/9
+  tire_01_fl_a       2/9
+  steering_wheel     2/9
+  fairing_a_01       3/9
+
+-- the commonest bike part names, by .app --
+[('license_plate_small', 6), ('handlebar_01', 5), ('tire_f_01', 5), ('fuelport_standard', 5), ('fuelcap_01', 5), ('exhaust_01', 4), ('tire_b_01', 4), ('v_sportbike3_brennan_apollo__ext01_tire_f_01', 3), ('v_sportbike3_brennan_apollo__ext01_bags_bl_01', 3), ('fairing_a_01', 3), ('wheel_b_01', 3), ('body_b_01', 3), ('axle_a_01', 3), ('axle_b_01', 3), ('v_sportbike3_brennan_apollo__ext01_bags_f_01', 2), ('v_sportbike3_brennan_apollo__ext01_engine_b_01', 2), ('v_sportbike3_brennan_apollo__ext01_body_a_01', 2), ('v_sportbike3_brennan_apollo__ext01_engine_a_01', 2), ('v_sportbike3_brennan_apollo__ext01_break_01', 2), ('v_sportbike3_brennan_apollo__ext01_bags_mount_f_01', 2), ('v_sportbike3_brennan_apollo__ext01_wheel_f_01', 2), ('v_sportbike3_brennan_apollo__ext01_bags_b_01', 2), ('v_sportbike3_brennan_apollo__ext01_bags_mount_b_01', 2), ('body_cables_01', 2), ('wheel_f_01', 2), ('body_c_01', 2), ('body_a_sticker_jackie_01', 2), ('body_a_01', 2), ('v_sportbike2_arch_nemesis__ext01_axle_b_01', 2), ('axle_f_01', 2)]
+
+-- meshes one bike family shares with another --
+distinct 330, shared across bike families 94
+  ['arch_nemesis', 'brennan_apollo', 'yaiba_kusanagi']  base\vehicles\common\parts\v_common__ext01_fuel_port\entities\meshes\fuelport_standard.mesh
+  ['brennan_apollo', 'thorton_colby', 'v_standard']  base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_wheel_b_01.mesh
+  ['v_decoration', 'yaiba_kusanagi']  base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi\entities\meshes\v_sportbike1_yaiba_kusanagi__ext01_kickstand_01.mesh
+  ['arch_nemesis', 'brennan_apollo']  base\vehicles\common\parts\v_common_licenseplate\entities\meshes\license_plate_angle_01.mesh
+  ['brennan_apollo', 'yaiba_kusanagi']  base\vehicles\common\parts\v_common_licenseplate\entities\meshes\license_plate_small.mesh
+  ['thorton_colby', 'v_standard']  base\vehicles\standard\v_standard25_thorton_colby_pickup_nomad\entities\meshes\v_standard25_thorton_colby_pickup_nomad__ext01_body_01.mesh
+  ['thorton_colby', 'v_standard']  base\vehicles\standard\v_standard25_thorton_colby_pickup_nomad\entities\meshes\v_standard25_thorton_colby_pickup_nomad__ext01_chassis_01.mesh
+  ['thorton_colby', 'v_standard']  base\vehicles\standard\v_standard25_thorton_colby_pickup_nomad\entities\meshes\v_standard25_thorton_colby_pickup_nomad__ext01_window_f_01.mesh
+  ['thorton_colby', 'v_standard']  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_electric_device_medium_01.mesh
+  ['thorton_colby', 'v_standard']  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_light_device_medium_02.mesh

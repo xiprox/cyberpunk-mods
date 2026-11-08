@@ -1,0 +1,93 @@
+Thrax 388 Jefferson (chevalier_thrax__basic_01), from base\vehicles\standard\v_standard2_chevalier_thrax__basic_01.ent
+records: Vehicle.v_standard2_chevalier_thrax_player
+generated 2026-11-08
+
+STYLES (9; a style's other looks are its factory paints)
+  6th_street_01            6th Street       1 looks
+                                            kits: kit_6th_street_body_trunk, kit_6th_street_body_trunk_2, door_fl_6th_street_sticker_01, hood_02_sticker, stickers_sensors_01
+  combat_cab_01            Combat cab       1 looks
+                                            kits: kit_6th_street_body_doors, kit_6th_street_body_trunk, door_fr_stickers_maelstrom_01, stickers_sensors_01
+  deathrace_01             Deathrace        1 looks
+                                            kits: kit_6th_street_body_trunk, door_fl_6th_street_sticker_01, hood_02_sticker, stickers_sensors_01
+  maelstrom_01             Maelstrom        1 looks
+                                            kits: door_fr_stickers_maelstrom_01, kit_maelstrom_body_doors_hood_trunk, stickers_sensors_01
+  poor_01                  Poor             3 looks
+                                            paints: poor_02, poor_03
+                                            kits: stickers_sensors_01
+  suburban_01              Suburban         8 looks
+                                            paints: suburban_02, suburban_03, suburban_04, suburban_05, suburban_06, suburban_07, mafia_01
+                                            kits: stickers_sensors_01
+  urban_01                 Urban            2 looks
+                                            paints: player_01
+                                            kits: stickers_sensors_01
+  valentinos_01            Valentinos       1 looks
+                                            kits: door_fl_6th_street_sticker_01, stickers_sensors_01, kit_valentinos_doors_trunk, kit_valentinos_body_doors
+  valentinos_02            Valentinos 02    1 looks
+                                            kits: stickers_sensors_01, kit_valentinos_doors_trunk, kit_valentinos_body_doors_hood_trunk
+WRECKS: burnt_01
+
+SLOTS (14)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                    21 paints  23 looks  [look: default] [look: mq304] [look: q001_dex_limo] [style: 6th Street] [style: Combat cab] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                    21 paints  23 looks  [look: default] [look: mq304] [look: q001_dex_limo] [style: 6th Street] [style: Combat cab] ...
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        21 paints  24 looks  [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] [style: 6th Street] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       21 paints  25 looks  [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] [look: scavenger_02] ...
+  Body [base.body] (Base): 1 options
+    body_01                                        21 paints  27 looks  [look: burnt_01] [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] ...
+  Interior [base.interior] (Base): 3 options
+    interior_01                                     3 paints  24 looks  [look: burnt_01] [look: default] [look: scavenger_01] [look: scavenger_02] [style: 6th Street] ...
+    interior_dex_01                                 3 paints   2 looks  [look: default] [look: q001_dex_limo]
+    interior_01                                     3 paints   1 looks  [look: mq304]
+  Mirrors: front left [base.mirror] (Base): 1 options
+    mirror_fl_01                                   21 paints  27 looks  [look: burnt_01] [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] ...
+  Mirrors: front right [base.mirror.mirror_fr] (Base): 1 options
+    mirror_fr_01                                   21 paints  27 looks  [look: burnt_01] [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] ...
+  Windshield: back [base.window] (Base): 1 options
+    window_b_01                                     3 paints  27 looks  [look: burnt_01] [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] ...
+  Windshield: front [base.window.window_f] (Base): 1 options
+    window_f_01                                     3 paints  27 looks  [look: burnt_01] [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_generic_01                                 7 paints  25 looks  [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] [look: scavenger_02] ...
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 4 options
+    wheel_01                                        7 paints  16 looks  [look: default] [look: mq304] [look: q001_dex_limo] [style: 6th Street] [style: Combat cab] ...
+    quartz_wheel_03                                 5 paints   4 looks  [style: Deathrace] [style: Urban] [style: Valentinos 02]
+    wheel_02                                        1 paints   3 looks  [style: Poor]
+    wheel_02 + quartz_wheel_03                      1 paints   2 looks  [look: scavenger_01] [look: scavenger_02]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 2 options
+    door_01 + door_02                              21 paints  23 looks  [look: default] [look: mq304] [look: scavenger_01] [look: scavenger_02] [style: 6th Street] ...
+    door_01                                        21 paints   2 looks  [look: default] [look: q001_dex_limo]
+  Side windows [window.window] (window_front_left_a, window_front_right_a, window_back_left_a, window_back_right_a): 1 options
+    window_01                                       3 paints  25 looks  [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] [look: scavenger_02] ...
+
+KITS (14)
+  door_fl_6th_street_sticker_01                  1 parts   3 looks  [style: 6th Street] [style: Deathrace] [style: Valentinos]
+                                                 made to sit on Doors
+  kit_6th_street_body_doors                      9 parts   1 looks  [style: Combat cab]
+                                                 made to sit on Body, Doors
+  kit_6th_street_body_trunk                      3 parts   3 looks  [style: 6th Street] [style: Combat cab] [style: Deathrace]
+                                                 made to sit on Body, Trunk
+  kit_6th_street_body_trunk_2                    2 parts   1 looks  [style: 6th Street]
+                                                 made to sit on Trunk
+  door_fr_stickers_maelstrom_01                  1 parts   2 looks  [style: Combat cab] [style: Maelstrom]
+                                                 made to sit on Doors
+  kit_maelstrom_body_doors_hood_trunk            6 parts   1 looks  [style: Maelstrom]
+                                                 made to sit on Body, Doors, Hood, Trunk
+  body_sticker_scavengers_01                     1 parts   1 looks  [look: scavenger_01]
+                                                 made to sit on Body
+  door_bl_sticker_scavengers_01                  1 parts   2 looks  [look: scavenger_01] [look: scavenger_02]
+                                                 made to sit on Doors
+  kit_scavengers_doors                           2 parts   1 looks  [look: scavenger_02]
+                                                 made to sit on Doors
+  hood_02_sticker                                1 parts   2 looks  [style: 6th Street] [style: Deathrace]
+                                                 made to sit on Hood
+  stickers_sensors_01                            1 parts  27 looks  [look: burnt_01] [look: default] [look: mq304] [look: q001_dex_limo] [look: scavenger_01] ...
+                                                 made to sit on Body
+  kit_valentinos_body_doors                      2 parts   1 looks  [style: Valentinos]
+                                                 made to sit on Body, Doors
+  kit_valentinos_body_doors_hood_trunk           7 parts   1 looks  [style: Valentinos 02]
+                                                 made to sit on Body, Doors, Hood, Trunk
+  kit_valentinos_doors_trunk                     4 parts   2 looks  [style: Valentinos] [style: Valentinos 02]
+                                                 made to sit on Doors, Trunk

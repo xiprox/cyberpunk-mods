@@ -1,0 +1,124 @@
+Archer Hella (archer_hella), from base\vehicles\standard\v_standard2_archer_hella__basic_01.ent
+generated 2026-11-06
+
+STYLES (7; a style's other looks are its factory paints)
+  combatcab_01     Combat cab   base combatcab_01
+                                paints: q304_combatcab_01
+                                kits: kit_6th_street_interior, hood_sticker_6th_street, kit_6th_street_body_doors_trunk, door_br_sticker_6th_street, kit_combatcab_body_doors_hood, door_br_sticker_combatcab_02, trunk_player_01
+  poor_1           Poor         base poor_1
+                                paints: poor_1_1, poor_1_2, poor_1_3, poor_1_4, poor_1_5, poor_1_6, poor_1_7, 6th_street_01
+                                kits: kit_6th_street_interior, hood_sticker_6th_street, kit_6th_street_body_doors_trunk, door_br_sticker_6th_street, trunk_player_01
+  poor_2           Poor 2       base poor_2
+                                paints: poor_2_1, poor_2_2, poor_2_3, poor_2_4
+                                kits: kit_6th_street_interior, kit_6th_street_body_doors_trunk, door_br_sticker_6th_street, trunk_player_01
+  poor_3           Poor 3       base poor_3
+                                paints: poor_3_1, poor_3_2, poor_3_3, poor_3_4
+                                kits: kit_6th_street_interior, kit_6th_street_body_doors_trunk, door_br_sticker_6th_street, trunk_player_01
+  poor_4           Poor 4       base poor_4
+                                paints: poor_4_1, poor_4_2
+                                kits: kit_6th_street_interior, kit_6th_street_body_doors_trunk, door_br_sticker_6th_street, trunk_player_01
+  suburban_1       Suburban     base suburban_1
+                                paints: suburban_2, suburban_1_1, suburban_1_2, suburban_1_3, suburban_1_4, suburban_2_1, suburban_2_2, suburban_2_3, suburban_2_4, ep_10
+  player_01        V's own      base player_01
+                                kits: trunk_player_01, kit_player_body_bumper_doors, kit_player_body
+WRECKS (not sold; parts from them still count): after_accident_01, burnt_01, player_burnt_01
+
+SLOTS
+  Front bumper (bumper_front): 3 options
+    bumper_f_01                                  22 paints, default police_02      36 looks  [look: deathrace_01] [look: default] [look: kurtz_3] [look: player_damaged_01] [look: police_01] [look: scavenger_1] ...
+    junk_bumper_f_01                              3 paints, default default         8 looks  [style: Poor 3] [style: Poor 4]
+    police_bumper_f_01                            2 paints, default default         2 looks  [look: kurtz_1] [look: kurtz_2]
+  Rear bumper (bumper_back): 3 options
+    bumper_b_01                                  22 paints, default default        32 looks  [look: deathrace_01] [look: default] [look: kurtz_3] [look: police_01] [style: Combat cab] [style: Poor] ...
+    junk_bumper_b_01                              3 paints, default default        11 looks  [look: player_damaged_01] [look: scavenger_2] [style: V's own] [style: Poor 2] [style: Poor 4]
+    police_bumper_b_01                            1 paints, default default         2 looks  [look: kurtz_1] [look: kurtz_2]
+  Hood (hood_a): 1 options
+    hood_01                                      23 paints, default primer_black   37 looks  [look: deathrace_01] [look: default] [look: kurtz_1] [look: kurtz_2] [look: kurtz_3] [look: player_damaged_01] ...
+  Trunk (trunk_a): 1 options
+    trunk_01                                     23 paints, default primer_black   46 looks  [look: deathrace_01] [look: default] [look: kurtz_1] [look: kurtz_2] [look: kurtz_3] [look: player_damaged_01] ...
+  Body (Base): 2 options
+    body_01                                      24 paints, default suburban_03    44 looks  [look: deathrace_01] [look: default] [look: player_damaged_01] [look: scavenger_1] [look: scavenger_2] [style: Combat cab] ...
+    police_body_01                                1 paints, default default         6 looks  [look: deathrace_burnt_01] [look: kurtz_1] [look: kurtz_2] [look: kurtz_3] [look: police_01] [look: police_burnt_01]
+  Rims (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 5 options
+    wheel_01                                      0 paints, default default        25 looks  [look: default] [style: Combat cab] [style: Poor 2] [style: Poor 3] [style: Suburban] [wreck: after_accident_01]
+    wheel_03                                      3 paints, default default        11 looks  [look: kurtz_1] [look: scavenger_1] [style: Poor]
+    wheel_police_02                               6 paints, default default         5 looks  [car: Villefort Cortes] [look: deathrace_01] [look: kurtz_2] [look: kurtz_3] [look: police_01] [look: scavenger_2]
+    police_wheel_01                               0 paints, default default         3 looks  [style: Poor 4]
+    wheel_01                                      3 paints, default default         2 looks  [car: Quadra Turbo-R] [look: player_damaged_01] [style: V's own]
+  Tires (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 5 options
+    tire_01                                       3 paints, default default        25 looks  [look: default] [style: Combat cab] [style: Poor 2] [style: Poor 3] [style: Suburban] [wreck: after_accident_01]
+    tire_standard_01                              0 paints, default default        11 looks  [look: kurtz_1] [look: scavenger_1] [style: Poor]
+    tire_police_01                                0 paints, default default         5 looks  [car: Villefort Cortes] [look: deathrace_01] [look: kurtz_2] [look: kurtz_3] [look: police_01] [look: scavenger_2]
+    police_tire_01                                0 paints, default default         3 looks  [style: Poor 4]
+    tire_01                                       1 paints, default default         2 looks  [car: Quadra Turbo-R] [look: player_damaged_01] [style: V's own]
+  Doors (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                      24 paints, default police_01      46 looks  [look: deathrace_01] [look: default] [look: kurtz_1] [look: kurtz_2] [look: kurtz_3] [look: player_damaged_01] ...
+  Side windows (window_front_left_a, window_front_right_a, window_back_left_a, window_back_right_a): 2 options
+    window_01                                     3 paints, default default        44 looks  [look: deathrace_01] [look: default] [look: kurtz_2] [look: kurtz_3] [look: player_damaged_01] [look: scavenger_1] ...
+    police_window_01_armored + window_01          0 paints, default default         2 looks  [look: kurtz_1] [look: police_01]
+
+KITS (add-ons: decorative parts that always appear together)
+  door_br_sticker_6th_street                   1 parts, 27 looks  [look: kurtz_2] [look: scavenger_1] [look: scavenger_2] [style: Combat cab] [style: Poor] [style: Poor 2] ...
+  hood_sticker_6th_street                      1 parts, 12 looks  [look: scavenger_1] [style: Combat cab] [style: Poor]
+  kit_6th_street_body_doors_trunk              4 parts, 26 looks  [look: scavenger_1] [look: scavenger_2] [style: Combat cab] [style: Poor] [style: Poor 2] [style: Poor 3] ...
+    body_stickers_6th_street                   on Base
+    door_bl_sticker_6th_street                 on door_bl_a
+    trunk_sticker_01                           on trunk_a
+    trunk_sticker_02                           on trunk_a
+  kit_6th_street_interior                      5 parts, 29 looks  [look: kurtz_1] [look: kurtz_2] [look: kurtz_3] [look: scavenger_1] [look: scavenger_2] [style: Combat cab] ...
+    glove_box_6th_street_sticker_01            on v_standard2_archer_hella__int01_glove_box_01
+    interior_6th_street_sticker_02             on interior_01
+    interior_6th_street_sticker_03             on interior_01
+    interior_6th_street_sticker_04             on interior_01
+    interior_6th_street_sticker_05             on interior_01
+  door_br_sticker_combatcab_02                 1 parts,  3 looks  [look: kurtz_2] [style: Combat cab]
+  kit_combatcab_body_doors_hood                6 parts,  2 looks  [style: Combat cab]
+    body_stickers_combatcab_01                 on Base
+    body_stickers_combatcab_03                 on Base
+    door_bl_sticker_combatcab_01               on door_bl_a
+    door_fl_sticker_combatcab_01               on door_fl_a
+    door_fr_sticker_combatcab_02               on door_fr_a
+    hood_sticker_combatcab_01                  on hood_a
+  body_stickers_kurtz_01                       1 parts,  2 looks  [look: kurtz_1] [look: kurtz_3]
+  light_device_medium_02                       1 parts,  5 looks  [look: deathrace_01] [look: kurtz_1] [look: kurtz_2] [look: kurtz_3] [look: police_01]
+  kit_player_body                              2 parts,  3 looks  [look: player_damaged_01] [style: V's own] [wreck: player_burnt_01]
+    body_player_01                             on Base
+    body_player_stripe_01                      on body_player_01
+  kit_player_body_bumper_doors                 7 parts,  2 looks  [look: player_damaged_01] [style: V's own]
+    attachment_antenna_1_n_roof_radar_cables   on Base
+    braindance_cartridge_a_cover_stripe_a      on Base
+    bumper_f_player_01                         on bumper_f_01
+    door_bl_player_stripe_01                   on door_bl_a
+    door_br_player_stripe_01                   on door_br_shadow
+    door_fl_player_stripe_01                   on door_fl_a
+    door_fr_player_stripe_01                   on door_fr_a
+  trunk_player_01                              1 parts, 28 looks  [look: player_damaged_01] [look: scavenger_1] [look: scavenger_2] [style: Combat cab] [style: V's own] [style: Poor] ...
+  kit_police_body                              3 parts,  3 looks  [look: deathrace_burnt_01] [look: police_01] [look: police_burnt_01]
+    light_device_medium_03                     on v_standard2_archer_hella_police__ext01_body_01
+    sensor_medium_03                           on v_standard2_archer_hella_police__ext01_body_01
+    police_vehicle_lights_01                   on v_standard2_archer_hella_police__ext01_body_01
+  kit_police_doors                             2 parts,  3 looks  [look: deathrace_01] [look: kurtz_1] [look: police_01]
+    police_door_bl_01                          on door_bl_a
+    police_door_br_01                          on door_br_a
+  kit_police_doors_2                           4 parts,  1 looks  [look: police_01]
+    police_door_fl_01_decal_police             on door_fl_a
+    police_door_fr_01_decal_police             on door_fr_a
+    police_door_fl_01                          on door_fl_a
+    police_door_fr_01                          on door_fr_a
+  kit_police_hood_trunk                        4 parts,  3 looks  [look: kurtz_1] [look: kurtz_2] [look: police_01]
+    police_hood_01                             on hood_a
+    police_hood_01_decal_police                on hood_a
+    police_trunk_01                            on trunk_a
+    police_trunk_01_decal_police               on trunk_a
+  police_interior_01                           1 parts,  2 looks  [look: police_01] [look: police_burnt_01]
+  kit_scavengers_body                          3 parts,  2 looks  [look: scavenger_1] [look: scavenger_2]
+    body_sticker_scavengers_06                 on Base
+    body_sticker_scavengers_02                 on body_01
+    body_sticker_scavengers_03                 on body_01
+  kit_scavengers_body_doors                    2 parts,  1 looks  [look: scavenger_2]
+    body_sticker_scavengers_05                 on Base
+    door_bl_sticker_scavengers_01              on door_bl_a
+  kit_scavengers_body_hood                     3 parts,  1 looks  [look: scavenger_1]
+    body_sticker_scavengers_01                 on body_01
+    body_sticker_scavengers_04                 on body_01
+    hood_sticker_scavengers_01                 on hood_a

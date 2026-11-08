@@ -1,0 +1,28 @@
+{
+  "camera_forward": {
+    "x": -0.2,
+    "y": 1,
+    "z": 0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 400.1,
+    "x": -3539.6,
+    "y": -3664.4,
+    "z": 109.3
+  },
+  "nearest": {
+    "distance": 1.2,
+    "id": "the_church_garage",
+    "name": "The church garage"
+  },
+  "note": "",
+  "player": {
+    "x": -3462.2,
+    "y": -4055.4,
+    "yaw": 11.2,
+    "z": 74.2
+  },
+  "stamp": "20261106-185946",
+  "time": "2026-11-06 18:59:46"
+}

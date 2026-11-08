@@ -1,0 +1,923 @@
+{
+ "id": "kaukaz_bratsk_corp_bud_03_ep1",
+ "label": "Bratsk U4020",
+ "entity": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk_corp_bud_03.ent",
+ "family": "v_utility4_kaukaz_bratsk_corp_bud",
+ "garage": false,
+ "default_look": "corpbud",
+ "records": [
+  "Vehicle.v_utility4_kaukaz_bratsk_corp_bud_03"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "ep1\\vehicles\\appearances\\utility\\kaukaz_bratsk_corpbud.app"
+ ],
+ "styles": [
+  {
+   "id": "kaukaz_bratsk_corpbud_machine_truck",
+   "code": "kaukaz_bratsk_corpbud_machine_truck",
+   "label": "Kaukaz bratsk corpbud machine truck",
+   "base_look": "kaukaz_bratsk_corpbud_machine_truck",
+   "looks": [
+    "kaukaz_bratsk_corpbud_machine_truck"
+   ],
+   "options": {
+    "base.body": "a97d84a8",
+    "base.interior": "4f43d78c",
+    "wheel.tire": "0cc9e858",
+    "door.door": "efec10a1",
+    "bumper_front_d.bumper": "5b9ace75",
+    "wheel_b.tire": "6674b951"
+   },
+   "kits": [
+    "sticker_b028",
+    "sticker_c310"
+   ]
+  }
+ ],
+ "wrecks": [],
+ "slots": [
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "a97d84a8",
+     "code": "body_corp_01",
+     "vehicle": "Bratsk U4020",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_body_corp_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "corpbud_01",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "militech_01",
+      "corpbud_01"
+     ],
+     "looks": [
+      "kaukaz_bratsk_corpbud:concrete_truck",
+      "kaukaz_bratsk_corpbud:dumpster_truck",
+      "kaukaz_bratsk_corpbud_machine_truck"
+     ],
+     "origins": [
+      "look:concrete_truck",
+      "look:dumpster_truck",
+      "style:kaukaz_bratsk_corpbud_machine_truck"
+     ]
+    },
+    {
+     "id": "de1705a5",
+     "code": "body_01",
+     "vehicle": "Bratsk U4020",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "kaukaz_bratsk_corpbud:damaged_q305"
+     ],
+     "origins": [
+      "look:damaged_q305"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "4f43d78c",
+     "code": "interior_02",
+     "vehicle": "Bratsk U4020",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__int01_interior_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "nomad_camp",
+      "poor_01"
+     ],
+     "looks": [
+      "kaukaz_bratsk_corpbud:concrete_truck",
+      "kaukaz_bratsk_corpbud:dumpster_truck",
+      "kaukaz_bratsk_corpbud_machine_truck"
+     ],
+     "origins": [
+      "look:concrete_truck",
+      "look:dumpster_truck",
+      "style:kaukaz_bratsk_corpbud_machine_truck"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "0cc9e858",
+     "code": "tire_02",
+     "vehicle": "Bratsk U4020",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_02.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_02.mesh",
+      "bl": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_02.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+      "bl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tyre_dirt",
+      "tyre_clean",
+      "tyre_dirt_02",
+      "tyre_dirt_03_cracks"
+     ],
+     "looks": [
+      "kaukaz_bratsk_corpbud:concrete_truck",
+      "kaukaz_bratsk_corpbud:damaged_q305",
+      "kaukaz_bratsk_corpbud:dumpster_truck",
+      "kaukaz_bratsk_corpbud_machine_truck"
+     ],
+     "origins": [
+      "look:concrete_truck",
+      "look:damaged_q305",
+      "look:dumpster_truck",
+      "style:kaukaz_bratsk_corpbud_machine_truck"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a",
+    "door_<c>_a_corpbud"
+   ],
+   "options": [
+    {
+     "id": "efec10a1",
+     "code": "door_02",
+     "vehicle": "Bratsk U4020",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fl_02.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fr_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "corpbud",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "militech_01",
+      "corpbud"
+     ],
+     "looks": [
+      "kaukaz_bratsk_corpbud:concrete_truck",
+      "kaukaz_bratsk_corpbud:dumpster_truck",
+      "kaukaz_bratsk_corpbud_machine_truck"
+     ],
+     "origins": [
+      "look:concrete_truck",
+      "look:dumpster_truck",
+      "style:kaukaz_bratsk_corpbud_machine_truck"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_front_b.bumper",
+   "label": "Front bumper (b)",
+   "kind": "bumper",
+   "group": "bumper_front_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_02"
+   ],
+   "options": [
+    {
+     "id": "f7871644",
+     "code": "bumper_f_04",
+     "vehicle": "Bratsk U4020",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_bumper_f_04.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "corpbud",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "militech_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "corpbud"
+     ],
+     "looks": [
+      "kaukaz_bratsk_corpbud:dumpster_truck"
+     ],
+     "origins": [
+      "look:dumpster_truck"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_front_d.bumper",
+   "label": "Front bumper (d)",
+   "kind": "bumper",
+   "group": "bumper_front_d",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front_d"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "5b9ace75",
+     "code": "bumper_f_03",
+     "vehicle": "Bratsk U4020",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_bumper_f_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "corpbud",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "militech_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "corpbud"
+     ],
+     "looks": [
+      "kaukaz_bratsk_corpbud:concrete_truck",
+      "kaukaz_bratsk_corpbud_machine_truck"
+     ],
+     "origins": [
+      "look:concrete_truck",
+      "style:kaukaz_bratsk_corpbud_machine_truck"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.tire",
+   "label": "Tires (b)",
+   "kind": "tire",
+   "group": "wheel_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "wheel_front_left_b",
+    "wheel_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "6674b951",
+     "code": "tire_02",
+     "vehicle": "Bratsk U4020",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_02.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tyre_dirt",
+      "tyre_clean",
+      "tyre_dirt_02",
+      "tyre_dirt_03_cracks"
+     ],
+     "looks": [
+      "kaukaz_bratsk_corpbud:concrete_truck",
+      "kaukaz_bratsk_corpbud:damaged_q305",
+      "kaukaz_bratsk_corpbud:dumpster_truck",
+      "kaukaz_bratsk_corpbud_machine_truck"
+     ],
+     "origins": [
+      "look:concrete_truck",
+      "look:damaged_q305",
+      "look:dumpster_truck",
+      "style:kaukaz_bratsk_corpbud_machine_truck"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "sticker_b028",
+   "family": "sticker",
+   "code": "body_corpbud_sticker_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_utility4_kaukaz_bratsk__ext01_body_corpbud_sticker_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_body_corpbud_sticker_01.mesh",
+     "code": "body_corpbud_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_bratsk_corpbud:concrete_truck",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "kaukaz_bratsk_corpbud:concrete_truck",
+    "kaukaz_bratsk_corpbud:dumpster_truck",
+    "kaukaz_bratsk_corpbud_machine_truck"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:concrete_truck",
+    "look:dumpster_truck",
+    "style:kaukaz_bratsk_corpbud_machine_truck"
+   ]
+  },
+  {
+   "id": "sticker_ec55",
+   "family": "sticker",
+   "code": "kit_sticker_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_utility4_kaukaz_bratsk__ext01_dumpster_corpbud_sticker_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_dumpster_corpbud_sticker_01.mesh",
+     "code": "dumpster_corpbud_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_dumpster",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_bratsk_corpbud:dumpster_truck",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_utility4_kaukaz_bratsk__ext01_dumpster_corpbud_sticker_02",
+     "mesh": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_dumpster_corpbud_sticker_02.mesh",
+     "code": "dumpster_corpbud_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_dumpster",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_bratsk_corpbud:dumpster_truck",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "kaukaz_bratsk_corpbud:dumpster_truck"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:dumpster_truck"
+   ]
+  },
+  {
+   "id": "sticker_c310",
+   "family": "sticker",
+   "code": "kit_sticker_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_utility4_kaukaz_bratsk__ext01_door_fl_corpbud_sticker_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fl_corpbud_sticker_01.mesh",
+     "code": "door_fl_corpbud_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a_corpbud",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_bratsk_corpbud:concrete_truck",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_utility4_kaukaz_bratsk__ext01_door_fr_corpbud_sticker_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fr_corpbud_sticker_01.mesh",
+     "code": "door_fr_corpbud_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_bratsk_corpbud:concrete_truck",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "kaukaz_bratsk_corpbud:concrete_truck",
+    "kaukaz_bratsk_corpbud:damaged_q305",
+    "kaukaz_bratsk_corpbud:dumpster_truck",
+    "kaukaz_bratsk_corpbud_machine_truck"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:concrete_truck",
+    "look:damaged_q305",
+    "look:dumpster_truck",
+    "style:kaukaz_bratsk_corpbud_machine_truck"
+   ]
+  }
+ ],
+ "looks": {
+  "kaukaz_bratsk_corpbud_machine_truck": {
+   "app": "ep1\\vehicles\\appearances\\utility\\kaukaz_bratsk_corpbud.app",
+   "app_look": "machine_truck",
+   "style": "kaukaz_bratsk_corpbud_machine_truck",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f_a_01"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b_01"
+    },
+    "base.window.window_f_c": {
+     "all": "window_f_c_01"
+    },
+    "base.window.window_f_d": {
+     "all": "window_f_d_01"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a_corpbud",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl_corpbud",
+     "fr": "window_fr"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_01_fl_b",
+     "fr": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.8163,
+   0.4821,
+   0.4415,
+   -0.1726
+  ],
+  "b": [
+   0.8163,
+   0.4821,
+   0.4415,
+   -0.1726
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "064b23eb",
+   "rim": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_wheel_fl_a_02.mesh",
+   "tire": "ep1\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+   "code": "wheel_fl_a_02",
+   "tire_code": "tire_02",
+   "from": "Bratsk U4020",
+   "radius": 0.8163,
+   "width": 0.4821,
+   "rim_radius": 0.4415,
+   "tire_center": -0.1726,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 8,
+   "paints": [
+    "corpbud"
+   ],
+   "default_paint": "corpbud",
+   "kind": "car",
+   "look_names": [
+    "kaukaz_bratsk_corpbud:concrete_truck",
+    "kaukaz_bratsk_corpbud:damaged_q305",
+    "kaukaz_bratsk_corpbud:dumpster_truck",
+    "kaukaz_bratsk_corpbud_machine_truck"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Bratsk U4020"
+  ]
+ ]
+}

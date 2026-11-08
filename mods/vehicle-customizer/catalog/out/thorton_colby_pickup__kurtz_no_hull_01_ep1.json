@@ -1,0 +1,4848 @@
+{
+ "id": "thorton_colby_pickup__kurtz_no_hull_01_ep1",
+ "label": "Colby BARGHEST",
+ "entity": "ep1\\vehicles\\standard\\v_standard25_thorton_colby_pickup__kurtz_no_hull_01.ent",
+ "family": "v_standard25_thorton_colby_pickup",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.kurtz_thorton_no_hull_1",
+  "Vehicle.v_standard25_thorton_colby_pickup_kurtz_no_hull"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\thorton_colby_pickup.app",
+  "ep1\\vehicles\\appearances\\standard\\thorton_colby_pickup_kurtz.app"
+ ],
+ "styles": [
+  {
+   "id": "thorton_colby_pickup_kurtz_kurtz_01",
+   "code": "thorton_colby_pickup_kurtz_kurtz_01",
+   "label": "Thorton colby pickup kurtz kurtz",
+   "base_look": "thorton_colby_pickup_kurtz_kurtz_01",
+   "looks": [
+    "thorton_colby_pickup_kurtz_kurtz_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "dfea93bc",
+    "bumper_back.bumper": "b59b5356",
+    "hood_a.hood": "36f0f4e5",
+    "trunk_a.trunk": "70d5e7dc",
+    "base.body": "20209e2a",
+    "base.exhaust": "5dc8db4a",
+    "base.interior": "605db312",
+    "base.roof": "a26ff97a",
+    "base.wheel": "5b6917e9",
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": "fd44163e",
+    "wheel.tire": "727721e8",
+    "wheel.wheel": "6a4af2d5",
+    "door.door": "a667d0db",
+    "window.window": "524df4cb"
+   },
+   "kits": [
+    "kurtz_09cc",
+    "kurtz_1dc4",
+    "kurtz_29c8",
+    "kurtz_5c34",
+    "kurtz_5c34",
+    "kurtz_7138",
+    "kurtz_c55c",
+    "kurtz_cac8",
+    "kurtz_e3be"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+   "code": "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+   "label": "Thorton colby pickup kurtz kurtz 01 no hull",
+   "base_look": "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+   "looks": [
+    "thorton_colby_pickup_kurtz_kurtz_01_no_hull"
+   ],
+   "options": {
+    "bumper_front.bumper": "dfea93bc",
+    "bumper_back.bumper": "b59b5356",
+    "hood_a.hood": "36f0f4e5",
+    "trunk_a.trunk": "70d5e7dc",
+    "base.body": "20209e2a",
+    "base.exhaust": "5dc8db4a",
+    "base.interior": "605db312",
+    "base.roof": "a26ff97a",
+    "base.wheel": "5b6917e9",
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": "fd44163e",
+    "wheel.tire": "727721e8",
+    "wheel.wheel": "6a4af2d5",
+    "door.door": "a667d0db",
+    "window.window": "524df4cb"
+   },
+   "kits": [
+    "kurtz_09cc",
+    "kurtz_1dc4",
+    "kurtz_7138",
+    "kurtz_cac8",
+    "kurtz_e3be"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_kurtz_kurtz_02",
+   "code": "thorton_colby_pickup_kurtz_kurtz_02",
+   "label": "Thorton colby pickup kurtz kurtz 02",
+   "base_look": "thorton_colby_pickup_kurtz_kurtz_02",
+   "looks": [
+    "thorton_colby_pickup_kurtz_kurtz_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "dfea93bc",
+    "bumper_back.bumper": "b59b5356",
+    "hood_a.hood": "36f0f4e5",
+    "trunk_a.trunk": "70d5e7dc",
+    "base.body": "20209e2a",
+    "base.exhaust": "5dc8db4a",
+    "base.interior": "605db312",
+    "base.roof": "a26ff97a",
+    "base.wheel": "5b6917e9",
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": "fd44163e",
+    "wheel.tire": "727721e8",
+    "wheel.wheel": "6a4af2d5",
+    "door.door": "a667d0db",
+    "window.window": "524df4cb"
+   },
+   "kits": [
+    "kurtz_09cc",
+    "kurtz_1dc4",
+    "kurtz_285c",
+    "kurtz_285c",
+    "kurtz_29c8",
+    "kurtz_5c34",
+    "kurtz_5c34",
+    "kurtz_5e90",
+    "kurtz_7138",
+    "kurtz_934f",
+    "kurtz_c55c",
+    "kurtz_cac8",
+    "kurtz_e3be"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_kurtz_kurtz_03",
+   "code": "thorton_colby_pickup_kurtz_kurtz_03",
+   "label": "Thorton colby pickup kurtz kurtz 03",
+   "base_look": "thorton_colby_pickup_kurtz_kurtz_03",
+   "looks": [
+    "thorton_colby_pickup_kurtz_kurtz_03"
+   ],
+   "options": {
+    "bumper_front.bumper": "dfea93bc",
+    "bumper_back.bumper": "b59b5356",
+    "hood_a.hood": "36f0f4e5",
+    "trunk_a.trunk": "70d5e7dc",
+    "base.body": "20209e2a",
+    "base.exhaust": "5dc8db4a",
+    "base.interior": "605db312",
+    "base.roof": "a26ff97a",
+    "base.wheel": "5b6917e9",
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": "fd44163e",
+    "wheel.tire": "727721e8",
+    "wheel.wheel": "6a4af2d5",
+    "door.door": "a667d0db",
+    "window.window": "524df4cb"
+   },
+   "kits": [
+    "kurtz_09cc",
+    "kurtz_1dc4",
+    "kurtz_285c",
+    "kurtz_285c",
+    "kurtz_29c8",
+    "kurtz_7138",
+    "kurtz_c55c",
+    "kurtz_cac8",
+    "kurtz_e3be"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_kurtz_militia_01_no_hull",
+   "code": "thorton_colby_pickup_kurtz_militia_01_no_hull",
+   "label": "Thorton colby pickup kurtz militia 01 no hull",
+   "base_look": "thorton_colby_pickup_kurtz_militia_01_no_hull",
+   "looks": [
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ],
+   "options": {
+    "bumper_front.bumper": "dfea93bc",
+    "bumper_back.bumper": "b59b5356",
+    "hood_a.hood": "36f0f4e5",
+    "trunk_a.trunk": "70d5e7dc",
+    "base.body": "20209e2a",
+    "base.exhaust": "5dc8db4a",
+    "base.interior": "605db312",
+    "base.roof": "a26ff97a",
+    "base.wheel": "5b6917e9",
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": "fd44163e",
+    "wheel.tire": "727721e8",
+    "wheel.wheel": "6a4af2d5",
+    "door.door": "a667d0db",
+    "window.window": "524df4cb"
+   },
+   "kits": [
+    "kurtz_09cc",
+    "kurtz_1dc4",
+    "kurtz_5e90",
+    "kurtz_7138",
+    "kurtz_934f",
+    "kurtz_bde7",
+    "kurtz_cac8",
+    "kurtz_e3be"
+   ]
+  }
+ ],
+ "wrecks": [
+  "thorton_colby_pickup_kurtz_burnt_01_no_hull"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01",
+    "bumper_f_01_unbreakable"
+   ],
+   "options": [
+    {
+     "id": "dfea93bc",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_primer_black",
+      "suburban_04a",
+      "suburban_04b",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_06",
+      "suburban_05",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "jake_estevez",
+      "kurtz_01",
+      "kurtz_q302",
+      "kurtz_03",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:ma_bls_ina_se1_44",
+      "look:militia_01",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01",
+    "bumper_b_01_unbreakable"
+   ],
+   "options": [
+    {
+     "id": "b59b5356",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_q302",
+     "paints": [
+      "poor_primer_black",
+      "suburban_04a",
+      "suburban_04b",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_06",
+      "suburban_05",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "jake_estevez",
+      "kurtz_01",
+      "kurtz_q302",
+      "kurtz_03",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01",
+      "thorton_colby_pickup_kurtz:burnt_01",
+      "thorton_colby_pickup_kurtz:burnt_01_cd",
+      "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_burnt_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_01_cd",
+      "look:burnt_01_cd_no_hull",
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:ma_bls_ina_se1_44",
+      "look:militia_01",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull",
+      "wreck:thorton_colby_pickup_kurtz_burnt_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "a5054b56",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_primer_black",
+      "suburban_04a",
+      "suburban_04b",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_06",
+      "suburban_05",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "jake_estevez"
+     ],
+     "looks": [
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:ma_bls_ina_se1_44",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01"
+     ]
+    },
+    {
+     "id": "36f0f4e5",
+     "code": "hood_01",
+     "vehicle": "v_standard2_thorton_colby_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_q302",
+     "paints": [
+      "poor_primer_black",
+      "suburban_04a",
+      "suburban_04b",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_06",
+      "suburban_05",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "jake_estevez",
+      "kurtz_01",
+      "kurtz_q302",
+      "kurtz_03",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:militia_01",
+      "look:player_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "70d5e7dc",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_06",
+     "paints": [
+      "poor_primer_black",
+      "suburban_04a",
+      "suburban_04b",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_06",
+      "suburban_05",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "jake_estevez",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:ma_bls_ina_se1_44",
+      "look:militia_01",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "56869c89",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_primer_black",
+      "suburban_04a",
+      "suburban_04b",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_06",
+      "suburban_05",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "jake_estevez",
+      "kurtz_01",
+      "kurtz_q302",
+      "kurtz_03",
+      "kurtz_04",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup:burnt_01",
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:ma_bls_ina_se1_44",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01"
+     ]
+    },
+    {
+     "id": "20209e2a",
+     "code": "body_01",
+     "vehicle": "v_standard2_thorton_colby_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_body_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_q302",
+     "paints": [
+      "poor_primer_black",
+      "suburban_04a",
+      "suburban_04b",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_06",
+      "suburban_05",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "jake_estevez",
+      "kurtz_01",
+      "kurtz_q302",
+      "kurtz_03",
+      "kurtz_04",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_kurtz:burnt_01",
+      "thorton_colby_pickup_kurtz:burnt_01_cd",
+      "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_burnt_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_01_cd",
+      "look:burnt_01_cd_no_hull",
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:militia_01",
+      "look:player_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull",
+      "wreck:thorton_colby_pickup_kurtz_burnt_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.exhaust",
+   "label": "Exhaust",
+   "kind": "exhaust",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "exhaust_02"
+   ],
+   "options": [
+    {
+     "id": "5dc8db4a",
+     "code": "exhaust_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_exhaust_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "jake_estevez"
+     ],
+     "looks": [
+      "thorton_colby_pickup:burnt_01",
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01",
+      "thorton_colby_pickup_kurtz:burnt_01",
+      "thorton_colby_pickup_kurtz:burnt_01_cd",
+      "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_burnt_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_01_cd",
+      "look:burnt_01_cd_no_hull",
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:ma_bls_ina_se1_44",
+      "look:militia_01",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull",
+      "wreck:thorton_colby_pickup_kurtz_burnt_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01",
+    "interior_02",
+    "kurtz__int01_interior_02"
+   ],
+   "options": [
+    {
+     "id": "4f2075a7",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_primer_black",
+      "suburban_04a",
+      "suburban_04b",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_06",
+      "suburban_05",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "jake_estevez"
+     ],
+     "looks": [
+      "thorton_colby_pickup:burnt_01",
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:ma_bls_ina_se1_44",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01"
+     ]
+    },
+    {
+     "id": "605db312",
+     "code": "interior_02",
+     "vehicle": "v_standard2_thorton_colby_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__int01_interior_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_03",
+     "paints": [
+      "kurtz_01",
+      "kurtz_02",
+      "player_01",
+      "kurtz_03",
+      "kurtz_04",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_kurtz:burnt_01",
+      "thorton_colby_pickup_kurtz:burnt_01_cd",
+      "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_burnt_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_01_cd",
+      "look:burnt_01_cd_no_hull",
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:militia_01",
+      "look:player_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull",
+      "wreck:thorton_colby_pickup_kurtz_burnt_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.roof",
+   "label": "Roof",
+   "kind": "roof",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.0114,
+     0.0,
+     0.0012
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard2_thorton_colby_kurtz_roof_devices_01"
+   ],
+   "options": [
+    {
+     "id": "a26ff97a",
+     "code": "roof_devices_01",
+     "vehicle": "v_standard2_thorton_colby_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_roof_devices_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_roof_devices_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_q302",
+     "paints": [
+      "kurtz_q302",
+      "kurtz_03",
+      "kurtz_02",
+      "militia_01",
+      "militia_02"
+     ],
+     "looks": [
+      "thorton_colby_pickup_kurtz:burnt_01",
+      "thorton_colby_pickup_kurtz:burnt_01_cd",
+      "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_burnt_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_01_cd",
+      "look:burnt_01_cd_no_hull",
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:militia_01",
+      "look:player_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull",
+      "wreck:thorton_colby_pickup_kurtz_burnt_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.wheel",
+   "label": "Wheel (Base): v standard2 thorton colby kurtz front left cover",
+   "kind": "wheel",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.0094,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01"
+   ],
+   "options": [
+    {
+     "id": "5b6917e9",
+     "code": "fl_wheel_cover_01",
+     "vehicle": "v_standard2_thorton_colby_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_fl_wheel_cover_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_fl_wheel_cover_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_q302",
+     "paints": [
+      "kurtz_q302",
+      "kurtz_03",
+      "kurtz_02",
+      "militia_01",
+      "militia_02"
+     ],
+     "looks": [
+      "thorton_colby_pickup_kurtz:burnt_01",
+      "thorton_colby_pickup_kurtz:burnt_01_cd",
+      "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_burnt_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_01_cd",
+      "look:burnt_01_cd_no_hull",
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:militia_01",
+      "look:player_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull",
+      "wreck:thorton_colby_pickup_kurtz_burnt_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover",
+   "label": "Wheel (Base): v standard2 thorton colby kurtz front right cover",
+   "kind": "wheel",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.0069,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard2_thorton_colby_kurtz_fr_wheel_cover_01"
+   ],
+   "options": [
+    {
+     "id": "fd44163e",
+     "code": "fr_wheel_cover_01",
+     "vehicle": "v_standard2_thorton_colby_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_fr_wheel_cover_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_fr_wheel_cover_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_q302",
+     "paints": [
+      "kurtz_q302",
+      "kurtz_03",
+      "kurtz_02",
+      "militia_01",
+      "militia_02"
+     ],
+     "looks": [
+      "thorton_colby_pickup_kurtz:burnt_01",
+      "thorton_colby_pickup_kurtz:burnt_01_cd",
+      "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_burnt_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:burnt_01_cd",
+      "look:burnt_01_cd_no_hull",
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:militia_01",
+      "look:player_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull",
+      "wreck:thorton_colby_pickup_kurtz_burnt_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_thorton_colby_pickup_nomad__ext01_window_f_01",
+    "window_b"
+   ],
+   "options": [
+    {
+     "id": "7309bdac",
+     "code": "window_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_window_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup:burnt_01",
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:ma_bls_ina_se1_44",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01"
+     ]
+    },
+    {
+     "id": "bddf5b28",
+     "code": "window_f_01",
+     "vehicle": "v_standard2_thorton_colby_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_colby_pickup_kurtz:burnt_01_cd",
+      "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01"
+     ],
+     "origins": [
+      "look:burnt_01_cd",
+      "look:burnt_01_cd_no_hull",
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "2c1035c0",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dirt_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:ma_bls_ina_se1_44",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01"
+     ]
+    },
+    {
+     "id": "727721e8",
+     "code": "v_standard25_thorton_colby_kurtz_tire_kurtz_01",
+     "vehicle": "v_standard2_thorton_colby_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01_shadow.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01_shadow.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:militia_01",
+      "look:player_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_<c>_02",
+    "wheel_<c>_03"
+   ],
+   "options": [
+    {
+     "id": "6a4af2d5",
+     "code": "v_standard25_thorton_colby_kurtz_wheel_kurtz_01",
+     "vehicle": "v_standard2_thorton_colby_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_wheel_kurtz_fr_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_wheel_kurtz_fr_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_wheel_kurtz_fr_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_wheel_kurtz_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "kurtz_02",
+      "kurtz_03",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:militia_01",
+      "look:player_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ]
+    },
+    {
+     "id": "54cab2bd",
+     "code": "wheel_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_bl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_bl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black_poor",
+     "paints": [
+      "poor_01",
+      "black",
+      "black_poor"
+     ],
+     "looks": [
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_2"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_2"
+     ]
+    },
+    {
+     "id": "88eb7f95",
+     "code": "wheel_03",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_fl_03.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_fl_03.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_bl_03.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_bl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black"
+     ],
+     "looks": [
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:valentino_01"
+     ],
+     "origins": [
+      "look:ma_bls_ina_se1_44",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:valentino_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "a667d0db",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_q302",
+     "paints": [
+      "jake_estevez",
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "suburban_01",
+      "suburban_02",
+      "poor_04",
+      "poor_05",
+      "poor_primer_black",
+      "suburban_03",
+      "suburban_04a",
+      "suburban_04b",
+      "suburban_05",
+      "suburban_06",
+      "aldecados_01",
+      "player_01",
+      "aldecados_02",
+      "aldecados_03",
+      "aldecados_04",
+      "aldecados_05",
+      "wraith_02",
+      "wraith_03",
+      "wraith_04",
+      "wraith_05",
+      "wraith_01",
+      "kurtz_01",
+      "kurtz_q302",
+      "kurtz_03",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01",
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01",
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:ma_bls_ina_se1_44",
+      "look:militia_01",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_thorton_colby_pickup_nomad__ext01_window_<c>_01",
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "524df4cb",
+     "code": "window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_window_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup:default_01",
+      "thorton_colby_pickup:jake_estevez_01",
+      "thorton_colby_pickup:ma_bls_ina_se1_44",
+      "thorton_colby_pickup:player_01",
+      "thorton_colby_pickup:poor_1",
+      "thorton_colby_pickup:poor_1_1",
+      "thorton_colby_pickup:poor_1_2",
+      "thorton_colby_pickup:poor_1_3",
+      "thorton_colby_pickup:poor_1_4",
+      "thorton_colby_pickup:q301_no_wheels_01",
+      "thorton_colby_pickup:q301_no_wheels_02",
+      "thorton_colby_pickup:suburban_1",
+      "thorton_colby_pickup:suburban_1_1",
+      "thorton_colby_pickup:suburban_1_2",
+      "thorton_colby_pickup:suburban_2",
+      "thorton_colby_pickup:valentino_01",
+      "thorton_colby_pickup_kurtz:kurtz_04",
+      "thorton_colby_pickup_kurtz:kurtz_q302",
+      "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+      "thorton_colby_pickup_kurtz:militia_01",
+      "thorton_colby_pickup_kurtz:player_01",
+      "thorton_colby_pickup_kurtz_kurtz_01",
+      "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "thorton_colby_pickup_kurtz_kurtz_02",
+      "thorton_colby_pickup_kurtz_kurtz_03",
+      "thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:jake_estevez_01",
+      "look:kurtz_04",
+      "look:kurtz_q302",
+      "look:kurtz_q302_custom_lighting",
+      "look:ma_bls_ina_se1_44",
+      "look:militia_01",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:q301_no_wheels_01",
+      "look:q301_no_wheels_02",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_2",
+      "look:valentino_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01",
+      "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+      "style:thorton_colby_pickup_kurtz_kurtz_02",
+      "style:thorton_colby_pickup_kurtz_kurtz_03",
+      "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+     ]
+    },
+    {
+     "id": "9370ffc3",
+     "code": "window_01",
+     "vehicle": "Colby \"Vulture\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01",
+      "player_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_kurtz:cd_kurtz_04",
+      "thorton_colby_pickup_kurtz:cd_kurtz_05",
+      "thorton_colby_pickup_kurtz:cd_militia_01"
+     ],
+     "origins": [
+      "look:cd_kurtz_04",
+      "look:cd_kurtz_05",
+      "look:cd_militia_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "6th_street_b87e",
+   "family": "6th_street",
+   "code": "kit_6th_street_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_thorton_colby_pickup__ext01_body_stickers_6th_street_estevez_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_body_stickers_6th_street_estevez_01.mesh",
+     "code": "body_stickers_6th_street_estevez_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup:jake_estevez_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_thorton_colby_pickup__ext01_body_stickers_6th_street_estevez_02",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_body_stickers_6th_street_estevez_02.mesh",
+     "code": "body_stickers_6th_street_estevez_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup:jake_estevez_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup:jake_estevez_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:jake_estevez_01"
+   ]
+  },
+  {
+   "id": "kurtz_285c",
+   "family": "kurtz",
+   "code": "back_hull_stickers_kurtz_02",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "back_hull_stickers_kurtz_02",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_stickers_kurtz_02.mesh",
+     "code": "back_hull_stickers_kurtz_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_back_hull_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz_kurtz_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:burnt_01",
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz:player_01",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03"
+   ],
+   "made_for": [
+    "kit:kurtz_7138"
+   ],
+   "needs": [],
+   "origins": [
+    "look:burnt_01",
+    "look:cd_militia_01",
+    "look:kurtz_04",
+    "look:militia_01",
+    "look:player_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_kurtz_03"
+   ]
+  },
+  {
+   "id": "kurtz_5e90",
+   "family": "kurtz",
+   "code": "back_hull_stickers_kurtz_02_2",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "stickers_kurtz_02",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_stickers_kurtz_02.mesh",
+     "code": "back_hull_stickers_kurtz_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_back_hull_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz_kurtz_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:burnt_01",
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ],
+   "made_for": [
+    "kit:kurtz_7138"
+   ],
+   "needs": [],
+   "origins": [
+    "look:burnt_01",
+    "look:cd_militia_01",
+    "look:militia_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ]
+  },
+  {
+   "id": "kurtz_285c",
+   "family": "kurtz",
+   "code": "back_hull_stickers_kurtz_03",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "back_hull_stickers_kurtz_03",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_stickers_kurtz_03.mesh",
+     "code": "back_hull_stickers_kurtz_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_back_hull_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz_kurtz_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03"
+   ],
+   "made_for": [
+    "kit:kurtz_7138"
+   ],
+   "needs": [],
+   "origins": [
+    "look:kurtz_04",
+    "look:militia_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_kurtz_03"
+   ]
+  },
+  {
+   "id": "kurtz_29c8",
+   "family": "kurtz",
+   "code": "back_hull_top_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_thorton_colby_kurtz_back_hull_top_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_top_01.mesh",
+     "code": "back_hull_top_01",
+     "paint": "kurtz_q302",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.017,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_top_01_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:burnt_01",
+    "thorton_colby_pickup_kurtz:burnt_01_cd",
+    "thorton_colby_pickup_kurtz:cd_kurtz_05",
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:kurtz_q302",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz:player_01",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_01",
+    "look:burnt_01_cd",
+    "look:cd_kurtz_05",
+    "look:cd_militia_01",
+    "look:kurtz_04",
+    "look:kurtz_q302",
+    "look:kurtz_q302_custom_lighting",
+    "look:militia_01",
+    "look:player_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_kurtz_03"
+   ]
+  },
+  {
+   "id": "kurtz_5c34",
+   "family": "kurtz",
+   "code": "back_hull_top_stickers_kurtz_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "back_hull_top_stickers_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_top_stickers_kurtz_01.mesh",
+     "code": "back_hull_top_stickers_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_back_hull_top_01",
+     "slot": null,
+     "position": [
+      -0.017,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:cd_kurtz_05",
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:kurtz_q302",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_02"
+   ],
+   "made_for": [
+    "kit:kurtz_29c8"
+   ],
+   "needs": [],
+   "origins": [
+    "look:cd_kurtz_05",
+    "look:cd_militia_01",
+    "look:kurtz_q302",
+    "look:kurtz_q302_custom_lighting",
+    "look:militia_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_02"
+   ]
+  },
+  {
+   "id": "kurtz_5c34",
+   "family": "kurtz",
+   "code": "back_hull_top_stickers_kurtz_02",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "back_hull_top_stickers_kurtz_02",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_top_stickers_kurtz_02.mesh",
+     "code": "back_hull_top_stickers_kurtz_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_back_hull_top_01",
+     "slot": null,
+     "position": [
+      -0.017,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:burnt_01",
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_02"
+   ],
+   "made_for": [
+    "kit:kurtz_29c8"
+   ],
+   "needs": [],
+   "origins": [
+    "look:burnt_01",
+    "look:cd_militia_01",
+    "look:kurtz_04",
+    "look:kurtz_q302_custom_lighting",
+    "look:militia_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_02"
+   ]
+  },
+  {
+   "id": "kurtz_c55c",
+   "family": "kurtz",
+   "code": "back_hull_top_stickers_kurtz_03",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "back_hull_top_stickers_kurtz_3",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_top_stickers_kurtz_03.mesh",
+     "code": "back_hull_top_stickers_kurtz_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_back_hull_top_01",
+     "slot": null,
+     "position": [
+      -0.017,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03"
+   ],
+   "made_for": [
+    "kit:kurtz_29c8"
+   ],
+   "needs": [],
+   "origins": [
+    "look:kurtz_04",
+    "look:kurtz_q302_custom_lighting",
+    "look:militia_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_kurtz_03"
+   ]
+  },
+  {
+   "id": "kurtz_2742",
+   "family": "kurtz",
+   "code": "bumper_f_stickers_kurtz_01",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "bumper_f_stickers_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_bumper_f_stickers_kurtz_01.mesh",
+     "code": "bumper_f_stickers_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_f_01_unbreakable",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:bumper_front"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "look:kurtz_q302_custom_lighting"
+   ]
+  },
+  {
+   "id": "kurtz_934f",
+   "family": "kurtz",
+   "code": "bumper_front_cover_stickers_01",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "cover_stickers_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_bumper_front_cover_stickers_01.mesh",
+     "code": "bumper_front_cover_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_f_01_unbreakable",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz_kurtz_02",
+     "parent": "vehicle_slots:bumper_front"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "look:cd_militia_01",
+    "look:militia_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ]
+  },
+  {
+   "id": "kurtz_1dc4",
+   "family": "kurtz",
+   "code": "grate_f_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "grate_front",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_grate_f_01.mesh",
+     "code": "grate_f_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:burnt_01",
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:kurtz_q302",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz:player_01",
+    "thorton_colby_pickup_kurtz_burnt_01_no_hull",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03",
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_01",
+    "look:kurtz_04",
+    "look:kurtz_q302",
+    "look:kurtz_q302_custom_lighting",
+    "look:militia_01",
+    "look:player_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_kurtz_03",
+    "style:thorton_colby_pickup_kurtz_militia_01_no_hull",
+    "wreck:thorton_colby_pickup_kurtz_burnt_01_no_hull"
+   ]
+  },
+  {
+   "id": "kurtz_09cc",
+   "family": "kurtz",
+   "code": "hood_scoop_01",
+   "where": [
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_thorton_colby_kurtz_hood_scoop_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_hood_scoop_01.mesh",
+     "code": "hood_scoop_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup:default_01",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup:default_01",
+    "thorton_colby_pickup:jake_estevez_01",
+    "thorton_colby_pickup:ma_bls_ina_se1_44",
+    "thorton_colby_pickup:player_01",
+    "thorton_colby_pickup:poor_1",
+    "thorton_colby_pickup:poor_1_1",
+    "thorton_colby_pickup:poor_1_2",
+    "thorton_colby_pickup:poor_1_3",
+    "thorton_colby_pickup:poor_1_4",
+    "thorton_colby_pickup:q301_no_wheels_01",
+    "thorton_colby_pickup:q301_no_wheels_02",
+    "thorton_colby_pickup:suburban_1",
+    "thorton_colby_pickup:suburban_1_1",
+    "thorton_colby_pickup:suburban_1_2",
+    "thorton_colby_pickup:suburban_2",
+    "thorton_colby_pickup:valentino_01",
+    "thorton_colby_pickup_kurtz:cd_kurtz_04",
+    "thorton_colby_pickup_kurtz:cd_kurtz_05",
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:kurtz_q302",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz:player_01",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03",
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ],
+   "made_for": [
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:cd_kurtz_04",
+    "look:cd_kurtz_05",
+    "look:cd_militia_01",
+    "look:default_01",
+    "look:jake_estevez_01",
+    "look:kurtz_04",
+    "look:kurtz_q302",
+    "look:kurtz_q302_custom_lighting",
+    "look:ma_bls_ina_se1_44",
+    "look:militia_01",
+    "look:player_01",
+    "look:poor_1",
+    "look:poor_1_1",
+    "look:poor_1_2",
+    "look:poor_1_3",
+    "look:poor_1_4",
+    "look:q301_no_wheels_01",
+    "look:q301_no_wheels_02",
+    "look:suburban_1",
+    "look:suburban_1_1",
+    "look:suburban_1_2",
+    "look:suburban_2",
+    "look:valentino_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_kurtz_03",
+    "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ]
+  },
+  {
+   "id": "kurtz_2211",
+   "family": "kurtz",
+   "code": "kit_kurtz_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "window_f_ml_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_f_ml_a_01.mesh",
+     "code": "crystaldome_f_ml_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.0073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ml_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_f_ml_b_01.mesh",
+     "code": "crystaldome_f_ml_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.0073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_f_mr_a_01.mesh",
+     "code": "crystaldome_f_mr_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.0073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_f_mr_b_01.mesh",
+     "code": "crystaldome_f_mr_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.0073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ol_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_f_ol_a_01.mesh",
+     "code": "crystaldome_f_ol_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.0073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ol_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_f_ol_b_01.mesh",
+     "code": "crystaldome_f_ol_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.0073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_or_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_f_or_a_01.mesh",
+     "code": "crystaldome_f_or_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.0073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_or_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_f_or_b_01.mesh",
+     "code": "crystaldome_f_or_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.0073
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:burnt_01_cd",
+    "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+    "thorton_colby_pickup_kurtz:cd_kurtz_04",
+    "thorton_colby_pickup_kurtz:cd_kurtz_05",
+    "thorton_colby_pickup_kurtz:cd_militia_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_01_cd",
+    "look:burnt_01_cd_no_hull",
+    "look:cd_kurtz_04",
+    "look:cd_kurtz_05",
+    "look:cd_militia_01"
+   ]
+  },
+  {
+   "id": "kurtz_bde7",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_2",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "position_lights_bl_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_position_lights_front_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_position_lights_front_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -1.0025,
+      -2.3148,
+      0.0613
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_militia_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "position_lights_br_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_position_lights_front_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_position_lights_front_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      1.003,
+      -2.3148,
+      0.0613
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      1.0,
+      -8.742278367890322e-08
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_militia_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:cd_militia_01",
+    "look:militia_01",
+    "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ]
+  },
+  {
+   "id": "kurtz_1796",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_3",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "wheel_stickers_kurtz_fr_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_wheel_stickers_kurtz_fr_01.mesh",
+     "code": "v_standard25_thorton_colby_kurtz_wheel_stickers_kurtz_fr_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "wheel_01_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_militia_01",
+     "parent": "vehicle_slots:wheel_front_right"
+    },
+    {
+     "name": "window_f_stickers_02",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_f_stickers_kurtz_02.mesh",
+     "code": "window_f_stickers_kurtz_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_militia_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:cd_militia_01"
+   ],
+   "made_for": [
+    "slot:base.window",
+    "slot:wheel.wheel"
+   ],
+   "needs": [],
+   "origins": [
+    "look:cd_militia_01"
+   ]
+  },
+  {
+   "id": "kurtz_e3be",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_bumper",
+   "where": [
+    "body",
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_04",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_01.mesh",
+     "code": "sensor_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_fr_wheel_cover_01",
+     "slot": null,
+     "position": [
+      1.0129000000000001,
+      1.5603,
+      0.2603
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_01_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_sensor_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_01.mesh",
+     "code": "sensor_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01",
+     "slot": null,
+     "position": [
+      -1.0292000000000001,
+      1.5443,
+      0.1799
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_thorton_colby_kurtz_bumper_front_cover_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_bumper_front_cover_01.mesh",
+     "code": "bumper_front_cover_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_f_01_unbreakable",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_bumper_front_cover_01_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:bumper_front"
+    },
+    {
+     "name": "wheel_stickers_kurtz_fl_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_wheel_stickers_kurtz_fr_01.mesh",
+     "code": "v_standard25_thorton_colby_kurtz_wheel_stickers_kurtz_fr_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "wheel_01_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:wheel_front_left"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:cd_kurtz_04",
+    "thorton_colby_pickup_kurtz:cd_kurtz_05",
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:kurtz_q302",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz:player_01",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03",
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ],
+   "made_for": [
+    "slot:base.wheel",
+    "slot:base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover",
+    "slot:bumper_front.bumper",
+    "slot:wheel.wheel"
+   ],
+   "needs": [],
+   "origins": [
+    "look:cd_kurtz_04",
+    "look:cd_kurtz_05",
+    "look:cd_militia_01",
+    "look:kurtz_04",
+    "look:kurtz_q302",
+    "look:kurtz_q302_custom_lighting",
+    "look:militia_01",
+    "look:player_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_kurtz_03",
+    "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ]
+  },
+  {
+   "id": "kurtz_cac8",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "frame_left",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_left_window_frame_01.mesh",
+     "code": "left_window_frame_01",
+     "paint": "kurtz_q302",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "frame_right",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_right_window_frame_01.mesh",
+     "code": "right_window_frame_01",
+     "paint": "kurtz_q302",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "metal_grate_fl",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_grate_fl_01.mesh",
+     "code": "grate_fl_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "metal_grate_fr",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_grate_fr_01.mesh",
+     "code": "grate_fr_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "v_standard2_thorton_colby_kurtz_left_door_cover_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_left_door_cover_02.mesh",
+     "code": "left_door_cover_02",
+     "paint": "kurtz_q302",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard2_thorton_colby_kurtz_right_door_cover_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_right_door_cover_02.mesh",
+     "code": "right_door_cover_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_right_door_cover_01_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:kurtz_q302",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz:player_01",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03",
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:window.window"
+   ],
+   "needs": [],
+   "origins": [
+    "look:kurtz_04",
+    "look:kurtz_q302",
+    "look:kurtz_q302_custom_lighting",
+    "look:militia_01",
+    "look:player_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_kurtz_03",
+    "style:thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ]
+  },
+  {
+   "id": "kurtz_c315",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_doors_2",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "crystaldome_fl_b_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_fl_b_a_01.mesh",
+     "code": "crystaldome_fl_b_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "crystaldome_fl_b_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_fl_b_b_01.mesh",
+     "code": "crystaldome_fl_b_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "crystaldome_fl_f_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_fl_f_a_01.mesh",
+     "code": "crystaldome_fl_f_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "crystaldome_fl_f_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_fl_f_b_01.mesh",
+     "code": "crystaldome_fl_f_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "crystaldome_fr_b_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_fr_b_a_01.mesh",
+     "code": "crystaldome_fr_b_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "crystaldome_fr_b_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_fr_b_b_01.mesh",
+     "code": "crystaldome_fr_b_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "crystaldome_fr_f_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_fr_f_a_01.mesh",
+     "code": "crystaldome_fr_f_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "crystaldome_fr_f_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__ext01_crystaldome_fr_f_b_01.mesh",
+     "code": "crystaldome_fr_f_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "v_standard2_thorton_colby_kurtz_left_door_cover_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_left_door_cover_01.mesh",
+     "code": "left_door_cover_01",
+     "paint": "kurtz_q302",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_left_door_cover_01_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard2_thorton_colby_kurtz_right_door_cover_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_right_door_cover_01.mesh",
+     "code": "right_door_cover_01",
+     "paint": "kurtz_q302",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_right_door_cover_01_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "window_f_stickers_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_f_stickers_kurtz_01.mesh",
+     "code": "window_f_stickers_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup_nomad__ext01_window_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:cd_kurtz_05",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:cd_kurtz_04",
+    "thorton_colby_pickup_kurtz:cd_kurtz_05",
+    "thorton_colby_pickup_kurtz:cd_militia_01"
+   ],
+   "made_for": [
+    "slot:base.window",
+    "slot:door.door",
+    "slot:window.window"
+   ],
+   "needs": [],
+   "origins": [
+    "look:cd_kurtz_04",
+    "look:cd_kurtz_05",
+    "look:cd_militia_01"
+   ]
+  },
+  {
+   "id": "kurtz_7138",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_interior",
+   "where": [
+    "body",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "additional_parts_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__int01_additional_parts_01.mesh",
+     "code": "additional_parts_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "kurtz__int01_interior_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "back_hull_stickers_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_stickers_kurtz_01.mesh",
+     "code": "back_hull_stickers_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_back_hull_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "bag_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__int01_bag_01.mesh",
+     "code": "bag_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "kurtz__int01_interior_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_stickers_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_body_stickers_kurtz_01.mesh",
+     "code": "body_stickers_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "grate_b_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_grate_b_01.mesh",
+     "code": "grate_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "hull_antenna",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_antenna_01.mesh",
+     "code": "back_hull_antenna_01",
+     "paint": "kurtz_q302",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_antenna_01_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "interior_device_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz__int01_interior_device_01.mesh",
+     "code": "interior_device_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "kurtz__int01_interior_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_02.mesh",
+     "code": "electric_device_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_fr_wheel_cover_01",
+     "slot": null,
+     "position": [
+      1.0129000000000001,
+      1.5603,
+      0.2603
+     ],
+     "rotation": [
+      -0.5,
+      -0.5,
+      0.5,
+      0.5
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_02_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_03.mesh",
+     "code": "electric_device_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.5843,
+      -2.7681,
+      0.1595
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_6421",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_03.mesh",
+     "code": "electric_device_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.6948,
+      -2.7681,
+      0.1595
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_sensor_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02.mesh",
+     "code": "sensor_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01",
+     "slot": null,
+     "position": [
+      -1.0192,
+      1.5443,
+      0.1799
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_sensor_medium_05",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_03.mesh",
+     "code": "light_device_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01",
+     "slot": null,
+     "position": [
+      -1.0292000000000001,
+      1.5443,
+      0.1799
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_01_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_thorton_colby_kurtz_back_hull_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_01.mesh",
+     "code": "back_hull_01",
+     "paint": "kurtz_q302",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard2_thorton_colby_kurtz_back_hull_01_shadow.mesh",
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_thorton_colby_kurtz_roof_devices_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03.mesh",
+     "code": "sensor_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.01
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_kurtz:burnt_01",
+    "thorton_colby_pickup_kurtz:burnt_01_cd",
+    "thorton_colby_pickup_kurtz:burnt_01_cd_no_hull",
+    "thorton_colby_pickup_kurtz:cd_kurtz_04",
+    "thorton_colby_pickup_kurtz:cd_kurtz_05",
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:kurtz_q302",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz:player_01",
+    "thorton_colby_pickup_kurtz_burnt_01_no_hull",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03",
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ],
+   "made_for": [
+    "slot:base.wheel",
+    "slot:base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover"
+   ],
+   "needs": [],
+   "origins": [
+    "look:burnt_01",
+    "look:burnt_01_cd",
+    "look:burnt_01_cd_no_hull",
+    "look:cd_kurtz_04",
+    "look:cd_kurtz_05",
+    "look:cd_militia_01",
+    "look:kurtz_04",
+    "look:kurtz_q302",
+    "look:kurtz_q302_custom_lighting",
+    "look:militia_01",
+    "look:player_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01",
+    "style:thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "style:thorton_colby_pickup_kurtz_kurtz_02",
+    "style:thorton_colby_pickup_kurtz_kurtz_03",
+    "style:thorton_colby_pickup_kurtz_militia_01_no_hull",
+    "wreck:thorton_colby_pickup_kurtz_burnt_01_no_hull"
+   ]
+  }
+ ],
+ "looks": {
+  "thorton_colby_pickup_kurtz_kurtz_01_no_hull": {
+   "app": "ep1\\vehicles\\appearances\\standard\\thorton_colby_pickup_kurtz.app",
+   "app_look": "kurtz_01_no_hull",
+   "style": "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01_unbreakable"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_unbreakable"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "base.interior": {
+     "all": "kurtz__int01_interior_02"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_02"
+    },
+    "base.roof": {
+     "all": "v_standard2_thorton_colby_kurtz_roof_devices_01"
+    },
+    "base.wheel": {
+     "all": "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01"
+    },
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": {
+     "all": "v_standard2_thorton_colby_kurtz_fr_wheel_cover_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_kurtz_burnt_01_no_hull": {
+   "app": "ep1\\vehicles\\appearances\\standard\\thorton_colby_pickup_kurtz.app",
+   "app_look": "burnt_01_no_hull",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01_unbreakable"
+    },
+    "base.interior": {
+     "all": "kurtz__int01_interior_02"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_02"
+    },
+    "base.roof": {
+     "all": "v_standard2_thorton_colby_kurtz_roof_devices_01"
+    },
+    "base.wheel": {
+     "all": "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01"
+    },
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": {
+     "all": "v_standard2_thorton_colby_kurtz_fr_wheel_cover_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_kurtz_militia_01_no_hull": {
+   "app": "ep1\\vehicles\\appearances\\standard\\thorton_colby_pickup_kurtz.app",
+   "app_look": "militia_01_no_hull",
+   "style": "thorton_colby_pickup_kurtz_militia_01_no_hull",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01_unbreakable"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_unbreakable"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "base.interior": {
+     "all": "kurtz__int01_interior_02"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_02"
+    },
+    "base.roof": {
+     "all": "v_standard2_thorton_colby_kurtz_roof_devices_01"
+    },
+    "base.wheel": {
+     "all": "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01"
+    },
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": {
+     "all": "v_standard2_thorton_colby_kurtz_fr_wheel_cover_01"
+    },
+    "base.wheel.fl_cover_lights": {
+     "all": "fl_cover_lights_01"
+    },
+    "base.wheel.fr_cover_lights": {
+     "all": "fr_cover_lights_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_kurtz_kurtz_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\thorton_colby_pickup_kurtz.app",
+   "app_look": "kurtz_02",
+   "style": "thorton_colby_pickup_kurtz_kurtz_02",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01_unbreakable"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_unbreakable"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "base.interior": {
+     "all": "kurtz__int01_interior_02"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_02"
+    },
+    "base.roof": {
+     "all": "v_standard2_thorton_colby_kurtz_roof_devices_01"
+    },
+    "base.wheel": {
+     "all": "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01"
+    },
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": {
+     "all": "v_standard2_thorton_colby_kurtz_fr_wheel_cover_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_kurtz_kurtz_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\thorton_colby_pickup_kurtz.app",
+   "app_look": "kurtz_03",
+   "style": "thorton_colby_pickup_kurtz_kurtz_03",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01_unbreakable"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_unbreakable"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "base.interior": {
+     "all": "kurtz__int01_interior_02"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_02"
+    },
+    "base.roof": {
+     "all": "v_standard2_thorton_colby_kurtz_roof_devices_01"
+    },
+    "base.wheel": {
+     "all": "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01"
+    },
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": {
+     "all": "v_standard2_thorton_colby_kurtz_fr_wheel_cover_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_kurtz_kurtz_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\thorton_colby_pickup_kurtz.app",
+   "app_look": "kurtz_01",
+   "style": "thorton_colby_pickup_kurtz_kurtz_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01_unbreakable"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_unbreakable"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "base.interior": {
+     "all": "kurtz__int01_interior_02"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_02"
+    },
+    "base.roof": {
+     "all": "v_standard2_thorton_colby_kurtz_roof_devices_01"
+    },
+    "base.wheel": {
+     "all": "v_standard2_thorton_colby_kurtz_fl_wheel_cover_01"
+    },
+    "base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover": {
+     "all": "v_standard2_thorton_colby_kurtz_fr_wheel_cover_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3936,
+   0.3487,
+   0.3258,
+   0.0096
+  ],
+  "b": [
+   0.3936,
+   0.3487,
+   0.3258,
+   0.0096
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "6d0fb485",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_bl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_02",
+   "tire_code": "tire_bl_01",
+   "from": "Colby BARGHEST",
+   "radius": 0.3936,
+   "width": 0.3704,
+   "rim_radius": 0.2403,
+   "tire_center": -0.0552,
+   "axles": [
+    "b"
+   ],
+   "looks": 11,
+   "paints": [
+    "poor_01",
+    "black",
+    "black_poor"
+   ],
+   "default_paint": "black_poor",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby_pickup:default_01",
+    "thorton_colby_pickup:jake_estevez_01",
+    "thorton_colby_pickup:player_01",
+    "thorton_colby_pickup:poor_1",
+    "thorton_colby_pickup:poor_1_1",
+    "thorton_colby_pickup:poor_1_2",
+    "thorton_colby_pickup:poor_1_3",
+    "thorton_colby_pickup:poor_1_4",
+    "thorton_colby_pickup:q301_no_wheels_01",
+    "thorton_colby_pickup:q301_no_wheels_02",
+    "thorton_colby_pickup:suburban_2"
+   ]
+  },
+  {
+   "id": "4fe7dacd",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_02",
+   "tire_code": "tire_fl_01",
+   "from": "Colby BARGHEST",
+   "radius": 0.3936,
+   "width": 0.3616,
+   "rim_radius": 0.2403,
+   "tire_center": -0.0437,
+   "axles": [
+    "f"
+   ],
+   "looks": 11,
+   "paints": [
+    "poor_01",
+    "black",
+    "black_poor"
+   ],
+   "default_paint": "black_poor",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby_pickup:default_01",
+    "thorton_colby_pickup:jake_estevez_01",
+    "thorton_colby_pickup:player_01",
+    "thorton_colby_pickup:poor_1",
+    "thorton_colby_pickup:poor_1_1",
+    "thorton_colby_pickup:poor_1_2",
+    "thorton_colby_pickup:poor_1_3",
+    "thorton_colby_pickup:poor_1_4",
+    "thorton_colby_pickup:q301_no_wheels_01",
+    "thorton_colby_pickup:q301_no_wheels_02",
+    "thorton_colby_pickup:suburban_2"
+   ]
+  },
+  {
+   "id": "cc5c7b18",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_fl_03.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_03",
+   "tire_code": "tire_fl_01",
+   "from": "Colby BARGHEST",
+   "radius": 0.3936,
+   "width": 0.3616,
+   "rim_radius": 0.2435,
+   "tire_center": -0.0437,
+   "axles": [
+    "f"
+   ],
+   "looks": 5,
+   "paints": [
+    "black"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby_pickup:ma_bls_ina_se1_44",
+    "thorton_colby_pickup:suburban_1",
+    "thorton_colby_pickup:suburban_1_1",
+    "thorton_colby_pickup:suburban_1_2",
+    "thorton_colby_pickup:valentino_01"
+   ]
+  },
+  {
+   "id": "81c06a98",
+   "rim": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_wheel_bl_03.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_03",
+   "tire_code": "tire_bl_01",
+   "from": "Colby BARGHEST",
+   "radius": 0.3936,
+   "width": 0.3704,
+   "rim_radius": 0.2435,
+   "tire_center": -0.0552,
+   "axles": [
+    "b"
+   ],
+   "looks": 5,
+   "paints": [
+    "black"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby_pickup:ma_bls_ina_se1_44",
+    "thorton_colby_pickup:suburban_1",
+    "thorton_colby_pickup:suburban_1_1",
+    "thorton_colby_pickup:suburban_1_2",
+    "thorton_colby_pickup:valentino_01"
+   ]
+  },
+  {
+   "id": "2e741c9e",
+   "rim": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_wheel_kurtz_fr_01.mesh",
+   "tire": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_kurtz\\entities\\meshes\\v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01_shadow.mesh",
+   "code": "v_standard25_thorton_colby_kurtz_wheel_kurtz_fr_01",
+   "tire_code": "v_standard25_thorton_colby_kurtz_tire_kurtz_fr_01",
+   "from": "Colby BARGHEST",
+   "radius": 0.3936,
+   "width": 0.3487,
+   "rim_radius": 0.3258,
+   "tire_center": 0.0096,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 26,
+   "paints": [
+    "kurtz_02",
+    "kurtz_03",
+    "militia_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby_pickup_kurtz:cd_kurtz_04",
+    "thorton_colby_pickup_kurtz:cd_kurtz_05",
+    "thorton_colby_pickup_kurtz:cd_militia_01",
+    "thorton_colby_pickup_kurtz:kurtz_04",
+    "thorton_colby_pickup_kurtz:kurtz_q302",
+    "thorton_colby_pickup_kurtz:kurtz_q302_custom_lighting",
+    "thorton_colby_pickup_kurtz:militia_01",
+    "thorton_colby_pickup_kurtz:player_01",
+    "thorton_colby_pickup_kurtz_kurtz_01",
+    "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+    "thorton_colby_pickup_kurtz_kurtz_02",
+    "thorton_colby_pickup_kurtz_kurtz_03",
+    "thorton_colby_pickup_kurtz_militia_01_no_hull"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "thorton_colby_pickup_kurtz_kurtz_01_no_hull",
+   "Colby BARGHEST"
+  ],
+  [
+   "thorton_colby_pickup_kurtz_militia_01_no_hull",
+   "Colby BARGHEST"
+  ]
+ ]
+}

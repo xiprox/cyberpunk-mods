@@ -1,0 +1,1510 @@
+{
+ "id": "herrera_outlaw_basic_01",
+ "label": "Outlaw",
+ "entity": "base\\vehicles\\sport\\v_sport1_herrera_outlaw_basic_01.ent",
+ "family": "v_sport1_herrera_outlaw_basic",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_sport1_herrera_outlaw_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "premium_01",
+   "code": "premium_01",
+   "label": "Premium",
+   "base_look": "herrera_outlaw__basic_premium_01",
+   "looks": [
+    "herrera_outlaw__basic_premium_01",
+    "herrera_outlaw__basic_premium_02",
+    "herrera_outlaw__basic_premium_03",
+    "herrera_outlaw__basic_premium_04",
+    "herrera_outlaw__basic_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "c4a681c9",
+    "bumper_back.bumper": "978863ff",
+    "hood_a.hood": "8cc4ea73",
+    "trunk_a.trunk": "ffbb8363",
+    "base.body": "b4450d8a",
+    "base.interior": "b6a9af84",
+    "wheel.wheel": "2588014d",
+    "door.door": "08ac4a8d"
+   },
+   "kits": []
+  },
+  {
+   "id": "premium_05",
+   "code": "premium_05",
+   "label": "Premium 05",
+   "base_look": "herrera_outlaw__basic_premium_05",
+   "looks": [
+    "herrera_outlaw__basic_premium_05",
+    "herrera_outlaw__basic_premium_06",
+    "herrera_outlaw__basic_premium_07",
+    "herrera_outlaw__basic_premium_08",
+    "herrera_outlaw__basic_premium_09",
+    "herrera_outlaw__basic_mafia_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "c4a681c9",
+    "bumper_back.bumper": "978863ff",
+    "hood_a.hood": "8cc4ea73",
+    "trunk_a.trunk": "ffbb8363",
+    "base.body": "b4450d8a",
+    "base.interior": "b6a9af84",
+    "wheel.wheel": "10f7b49d",
+    "door.door": "08ac4a8d"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "herrera_outlaw__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "c4a681c9",
+     "code": "bumper_f_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "anthracite_blue",
+      "black",
+      "blue",
+      "burgundy",
+      "green",
+      "mafia_01",
+      "orange",
+      "red",
+      "arctic_white",
+      "player_01"
+     ],
+     "looks": [
+      "herrera_outlaw__basic_mafia_01",
+      "herrera_outlaw__basic_player_01",
+      "herrera_outlaw__basic_premium_01",
+      "herrera_outlaw__basic_premium_02",
+      "herrera_outlaw__basic_premium_03",
+      "herrera_outlaw__basic_premium_04",
+      "herrera_outlaw__basic_premium_05",
+      "herrera_outlaw__basic_premium_06",
+      "herrera_outlaw__basic_premium_07",
+      "herrera_outlaw__basic_premium_08",
+      "herrera_outlaw__basic_premium_09"
+     ],
+     "origins": [
+      "style:premium_01",
+      "style:premium_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "978863ff",
+     "code": "bumper_b_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "anthacite_blue",
+      "black",
+      "blue",
+      "burgundy",
+      "green",
+      "mafia_01",
+      "orange",
+      "red",
+      "arctic_white"
+     ],
+     "looks": [
+      "herrera_outlaw__basic_mafia_01",
+      "herrera_outlaw__basic_player_01",
+      "herrera_outlaw__basic_premium_01",
+      "herrera_outlaw__basic_premium_02",
+      "herrera_outlaw__basic_premium_03",
+      "herrera_outlaw__basic_premium_04",
+      "herrera_outlaw__basic_premium_05",
+      "herrera_outlaw__basic_premium_06",
+      "herrera_outlaw__basic_premium_07",
+      "herrera_outlaw__basic_premium_08",
+      "herrera_outlaw__basic_premium_09"
+     ],
+     "origins": [
+      "style:premium_01",
+      "style:premium_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "8cc4ea73",
+     "code": "hood_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "red",
+      "anthracite_blue",
+      "blue",
+      "burgundy",
+      "orange",
+      "arctic_white",
+      "black",
+      "green",
+      "mafia_01"
+     ],
+     "looks": [
+      "herrera_outlaw__basic_mafia_01",
+      "herrera_outlaw__basic_player_01",
+      "herrera_outlaw__basic_premium_01",
+      "herrera_outlaw__basic_premium_02",
+      "herrera_outlaw__basic_premium_03",
+      "herrera_outlaw__basic_premium_04",
+      "herrera_outlaw__basic_premium_05",
+      "herrera_outlaw__basic_premium_06",
+      "herrera_outlaw__basic_premium_07",
+      "herrera_outlaw__basic_premium_08",
+      "herrera_outlaw__basic_premium_09"
+     ],
+     "origins": [
+      "style:premium_01",
+      "style:premium_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "ffbb8363",
+     "code": "trunk_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "red",
+      "anthracite_blue",
+      "blue",
+      "burgundy",
+      "orange",
+      "arctic_white",
+      "black",
+      "green",
+      "mafia_01"
+     ],
+     "looks": [
+      "herrera_outlaw__basic_mafia_01",
+      "herrera_outlaw__basic_player_01",
+      "herrera_outlaw__basic_premium_01",
+      "herrera_outlaw__basic_premium_02",
+      "herrera_outlaw__basic_premium_03",
+      "herrera_outlaw__basic_premium_04",
+      "herrera_outlaw__basic_premium_05",
+      "herrera_outlaw__basic_premium_06",
+      "herrera_outlaw__basic_premium_07",
+      "herrera_outlaw__basic_premium_08",
+      "herrera_outlaw__basic_premium_09"
+     ],
+     "origins": [
+      "style:premium_01",
+      "style:premium_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "b4450d8a",
+     "code": "body_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "red",
+      "anthracite_blue",
+      "blue",
+      "burgundy",
+      "orange",
+      "black",
+      "green",
+      "mafia_01",
+      "arctic_white"
+     ],
+     "looks": [
+      "herrera_outlaw__basic_burnt_01",
+      "herrera_outlaw__basic_mafia_01",
+      "herrera_outlaw__basic_player_01",
+      "herrera_outlaw__basic_premium_01",
+      "herrera_outlaw__basic_premium_02",
+      "herrera_outlaw__basic_premium_03",
+      "herrera_outlaw__basic_premium_04",
+      "herrera_outlaw__basic_premium_05",
+      "herrera_outlaw__basic_premium_06",
+      "herrera_outlaw__basic_premium_07",
+      "herrera_outlaw__basic_premium_08",
+      "herrera_outlaw__basic_premium_09"
+     ],
+     "origins": [
+      "style:premium_01",
+      "style:premium_05",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "b6a9af84",
+     "code": "interior_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__int01_interior_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__int01_interior_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "int_red_black",
+     "paints": [
+      "mafia_01",
+      "int_beige",
+      "int_anthracite",
+      "int_brown_black",
+      "int_red_black",
+      "int_white_black"
+     ],
+     "looks": [
+      "herrera_outlaw__basic_burnt_01",
+      "herrera_outlaw__basic_mafia_01",
+      "herrera_outlaw__basic_player_01",
+      "herrera_outlaw__basic_premium_01",
+      "herrera_outlaw__basic_premium_02",
+      "herrera_outlaw__basic_premium_03",
+      "herrera_outlaw__basic_premium_04",
+      "herrera_outlaw__basic_premium_05",
+      "herrera_outlaw__basic_premium_06",
+      "herrera_outlaw__basic_premium_07",
+      "herrera_outlaw__basic_premium_08",
+      "herrera_outlaw__basic_premium_09"
+     ],
+     "origins": [
+      "style:premium_01",
+      "style:premium_05",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "10f7b49d",
+     "code": "wheel_outlaw_02",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_02.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_02.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "herrera_outlaw__basic_mafia_01",
+      "herrera_outlaw__basic_premium_05",
+      "herrera_outlaw__basic_premium_06",
+      "herrera_outlaw__basic_premium_07",
+      "herrera_outlaw__basic_premium_08",
+      "herrera_outlaw__basic_premium_09"
+     ],
+     "origins": [
+      "style:premium_05"
+     ]
+    },
+    {
+     "id": "2588014d",
+     "code": "wheel_outlaw",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "herrera_outlaw__basic_player_01",
+      "herrera_outlaw__basic_premium_01",
+      "herrera_outlaw__basic_premium_02",
+      "herrera_outlaw__basic_premium_03",
+      "herrera_outlaw__basic_premium_04"
+     ],
+     "origins": [
+      "style:premium_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "08ac4a8d",
+     "code": "door_a_01 + door_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_fr_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_fr_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "red",
+      "anthracite_blue",
+      "blue",
+      "burgundy",
+      "orange",
+      "arctic_white",
+      "black",
+      "green",
+      "mafia_01"
+     ],
+     "looks": [
+      "herrera_outlaw__basic_mafia_01",
+      "herrera_outlaw__basic_player_01",
+      "herrera_outlaw__basic_premium_01",
+      "herrera_outlaw__basic_premium_02",
+      "herrera_outlaw__basic_premium_03",
+      "herrera_outlaw__basic_premium_04",
+      "herrera_outlaw__basic_premium_05",
+      "herrera_outlaw__basic_premium_06",
+      "herrera_outlaw__basic_premium_07",
+      "herrera_outlaw__basic_premium_08",
+      "herrera_outlaw__basic_premium_09"
+     ],
+     "origins": [
+      "style:premium_01",
+      "style:premium_05"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [],
+ "looks": {
+  "herrera_outlaw__basic_player_01": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "player_01",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_premium_03": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "premium_03",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_premium_01": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "premium_01",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_premium_06": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "premium_06",
+   "style": "premium_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_premium_09": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "premium_09",
+   "style": "premium_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_premium_04": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "premium_04",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_premium_02": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "premium_02",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_premium_08": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "premium_08",
+   "style": "premium_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_premium_07": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "premium_07",
+   "style": "premium_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_premium_05": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "premium_05",
+   "style": "premium_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_mafia_01": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "mafia_01",
+   "style": "premium_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "herrera_outlaw__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\sport\\herrera_outlaw__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {},
+ "wheel_sets": [],
+ "record_looks": [
+  [
+   "herrera_outlaw__basic_player_01",
+   "Outlaw"
+  ]
+ ]
+}

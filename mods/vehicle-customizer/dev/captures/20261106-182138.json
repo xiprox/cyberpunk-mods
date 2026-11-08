@@ -1,0 +1,38 @@
+{
+  "camera_forward": {
+    "x": 0.1,
+    "y": -1,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 20.6,
+    "x": -26,
+    "y": -1035.6,
+    "z": 7.6
+  },
+  "look_object": {
+    "class": "FuseBox",
+    "entity_id": "8696722050233953113ULL",
+    "name": "LocKey#2013",
+    "position": {
+      "x": -26,
+      "y": -1036.1,
+      "z": 7.4
+    }
+  },
+  "nearest": {
+    "distance": 19.9,
+    "id": "scrapyard_in_arroyo",
+    "name": "Scrapyard in Arroyo"
+  },
+  "note": "",
+  "player": {
+    "x": -27.9,
+    "y": -1015.1,
+    "yaw": -174.7,
+    "z": 7.4
+  },
+  "stamp": "20261106-182138",
+  "time": "2026-11-06 18:21:38"
+}

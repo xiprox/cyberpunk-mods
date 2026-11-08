@@ -1,0 +1,8 @@
+10:43:08 runner on; job dump; waiting for the save to load
+10:43:28 world loaded; job dump
+10:43:28 step 1: screenshot of the loaded world
+10:43:28 SHOT world
+10:43:30 step 2: dump every vehicle record
+10:43:30 vehicle records in TweakDB: 1390
+10:43:30 PASS dump of vehicle records — 1390 records written, 1390 with an entity file hash
+10:43:31 DONE 1 passed, 0 failed

@@ -1,0 +1,2718 @@
+{
+ "id": "thorton_colby_ep1__basic_01",
+ "label": "Colby C125",
+ "entity": "ep1\\vehicles\\standard\\v_standard2_thorton_colby_ep1__basic_01.ent",
+ "family": "v_standard2_thorton_colby",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard2_thorton_colby_scavengers",
+  "Vehicle.v_standard2_thorton_colby_scavengers_courier_expanded",
+  "Vehicle.v_standard2_thorton_colby_scavengers_quest"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\thorton_colby__basic.app",
+  "ep1\\vehicles\\appearances\\standard\\thorton_colby__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "scavenger_01",
+   "code": "scavenger_01",
+   "label": "Scavenger",
+   "base_look": "thorton_colby__basic_scavenger_01",
+   "looks": [
+    "thorton_colby__basic_scavenger_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "971ce815",
+    "bumper_back.bumper": "d52ebeb3",
+    "trunk_a.trunk": "55039144",
+    "base.body": "528b20c1",
+    "base.interior": "19f0b30f",
+    "base.window": "148caa96",
+    "base.window.window_br": "8b74658f",
+    "wheel.tire": "b2efc610",
+    "wheel.wheel": "31338055",
+    "door.door": "2297d30b",
+    "door.door.mirror": "b9bc6332"
+   },
+   "kits": [
+    "scavengers_16e6",
+    "scavengers_ff23"
+   ]
+  },
+  {
+   "id": "scavenger_02",
+   "code": "scavenger_02",
+   "label": "Scavenger 02",
+   "base_look": "thorton_colby__basic_scavenger_02",
+   "looks": [
+    "thorton_colby__basic_scavenger_02"
+   ],
+   "options": {
+    "trunk_a.trunk": "55039144",
+    "base.body": "528b20c1",
+    "base.interior": "19f0b30f",
+    "base.window": "148caa96",
+    "base.window.window_br": "8b74658f",
+    "wheel.tire": "b2efc610",
+    "wheel.wheel": "31338055",
+    "door.door": "2297d30b",
+    "door.door.mirror": "b9bc6332"
+   },
+   "kits": [
+    "scavengers_463d",
+    "scavengers_ff23"
+   ]
+  }
+ ],
+ "wrecks": [
+  "thorton_colby__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "ca00ed5c",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "primer_red",
+      "valentinos_01",
+      "valentinos_02",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "primer_black",
+      "primer_gray",
+      "family_car"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01"
+     ]
+    },
+    {
+     "id": "971ce815",
+     "code": "junk_bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_junk_bumper_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "color_02",
+     "paints": [
+      "color_02",
+      "color_03"
+     ],
+     "looks": [
+      "thorton_colby__basic:muamar_reyes_car",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic_scavenger_01"
+     ],
+     "origins": [
+      "look:muamar_reyes_car",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "style:scavenger_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "cd9e9c6e",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "primer_red",
+      "valentinos_01",
+      "valentinos_02",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "primer_black",
+      "primer_gray",
+      "family_car"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01"
+     ]
+    },
+    {
+     "id": "d52ebeb3",
+     "code": "junk_bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_junk_bumper_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "color_03",
+     "paints": [
+      "color_02",
+      "color_03"
+     ],
+     "looks": [
+      "thorton_colby__basic:muamar_reyes_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic_scavenger_01"
+     ],
+     "origins": [
+      "look:muamar_reyes_car",
+      "look:player_01",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "style:scavenger_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "386cc4fe",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "deafult",
+      "primer_red",
+      "valentinos_01",
+      "valentinos_02",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "primer_black",
+      "primer_gray",
+      "family_car"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:muamar_reyes_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:muamar_reyes_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "55039144",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_trunk_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "primer_red",
+      "valentinos_01",
+      "valentinos_02",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "primer_black",
+      "primer_gray",
+      "family_car",
+      "deafult"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:muamar_reyes_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01",
+      "thorton_colby__basic_scavenger_01",
+      "thorton_colby__basic_scavenger_02"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:muamar_reyes_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01",
+      "style:scavenger_01",
+      "style:scavenger_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "528b20c1",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_04",
+     "paints": [
+      "primer_red",
+      "valentinos_01",
+      "valentinos_02",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "primer_black",
+      "primer_gray",
+      "family_car"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:muamar_reyes_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01",
+      "thorton_colby__basic_burnt_01",
+      "thorton_colby__basic_scavenger_01",
+      "thorton_colby__basic_scavenger_02"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:muamar_reyes_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01",
+      "style:scavenger_01",
+      "style:scavenger_02",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "19f0b30f",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "family_car",
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "valentinos_01"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:muamar_reyes_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01",
+      "thorton_colby__basic_burnt_01",
+      "thorton_colby__basic_scavenger_01",
+      "thorton_colby__basic_scavenger_02"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:muamar_reyes_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01",
+      "style:scavenger_01",
+      "style:scavenger_02",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield: back left",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_bl"
+   ],
+   "options": [
+    {
+     "id": "148caa96",
+     "code": "window_bl_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_window_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tinted",
+      "dark",
+      "poor_01"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:muamar_reyes_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01",
+      "thorton_colby__basic_burnt_01",
+      "thorton_colby__basic_scavenger_01",
+      "thorton_colby__basic_scavenger_02"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:muamar_reyes_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01",
+      "style:scavenger_01",
+      "style:scavenger_02",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_br",
+   "label": "Windshield: back right",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_br"
+   ],
+   "options": [
+    {
+     "id": "8b74658f",
+     "code": "window_br_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_window_br_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tinted",
+      "dark"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:muamar_reyes_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01",
+      "thorton_colby__basic_burnt_01",
+      "thorton_colby__basic_scavenger_01",
+      "thorton_colby__basic_scavenger_02"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:muamar_reyes_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01",
+      "style:scavenger_01",
+      "style:scavenger_02",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.07,
+     0.0,
+     0.0
+    ],
+    [
+     0.07,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.7933533191680908,
+     0.0,
+     0.0,
+     0.6087614893913269
+    ],
+    [
+     -0.20791170001029968,
+     0.0,
+     0.0,
+     0.9781476259231567
+    ],
+    [
+     0.3907311260700226,
+     0.0,
+     0.0,
+     0.9205048084259033
+    ],
+    [
+     -0.1736481785774231,
+     0.0,
+     0.0,
+     0.9848077297210693
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "b2efc610",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "clean_white_letters",
+      "dusty",
+      "muddy",
+      "whitewall"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01",
+      "thorton_colby__basic_scavenger_01",
+      "thorton_colby__basic_scavenger_02"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01",
+      "style:scavenger_01",
+      "style:scavenger_02"
+     ]
+    },
+    {
+     "id": "00cdde4c",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01",
+      "clean_white_letters",
+      "dusty",
+      "muddy",
+      "whitewall"
+     ],
+     "looks": [
+      "thorton_colby__basic:muamar_reyes_car"
+     ],
+     "origins": [
+      "look:muamar_reyes_car"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.07,
+     0.0,
+     0.0
+    ],
+    [
+     0.07,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.7933533191680908,
+     0.0,
+     0.0,
+     0.6087614893913269
+    ],
+    [
+     -0.20791170001029968,
+     0.0,
+     0.0,
+     0.9781476259231567
+    ],
+    [
+     0.3907311260700226,
+     0.0,
+     0.0,
+     0.9205048084259033
+    ],
+    [
+     -0.1736481785774231,
+     0.0,
+     0.0,
+     0.9848077297210693
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_<c>_01",
+    "wheel_<c>_02",
+    "wheel_<c>_03",
+    "wheel_<c>_04",
+    "wheel_<c>_05",
+    "wheel_<c>_06"
+   ],
+   "options": [
+    {
+     "id": "fb737b85",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "valentinos_01"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4"
+     ]
+    },
+    {
+     "id": "259540ad",
+     "code": "wheel_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wheel_02_black",
+      "wheel_02_green",
+      "wheel_02_gray"
+     ],
+     "looks": [
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4"
+     ],
+     "origins": [
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4"
+     ]
+    },
+    {
+     "id": "f373c41d",
+     "code": "wheel_04",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_04.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_04.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_04.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_04.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "silver",
+     "paints": [
+      "black_poor",
+      "red",
+      "silver",
+      "silver_poor",
+      "valentinos_01"
+     ],
+     "looks": [
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01"
+     ],
+     "origins": [
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01"
+     ]
+    },
+    {
+     "id": "31338055",
+     "code": "wheel_06",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_06.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_06.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_06.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_06.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_colby__basic_scavenger_01",
+      "thorton_colby__basic_scavenger_02"
+     ],
+     "origins": [
+      "style:scavenger_01",
+      "style:scavenger_02"
+     ]
+    },
+    {
+     "id": "b97246c5",
+     "code": "wheel_03",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_03.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_03.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_03.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "chrome_01",
+      "golden_01",
+      "poor_01",
+      "poor_02",
+      "clean_04",
+      "clean_01",
+      "clean_02",
+      "clean_red"
+     ],
+     "looks": [
+      "thorton_colby__basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    },
+    {
+     "id": "e0f8bf5d",
+     "code": "wheel_05 + wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_05.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_05.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "thorton_colby__basic:muamar_reyes_car"
+     ],
+     "origins": [
+      "look:muamar_reyes_car"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors: a",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "2297d30b",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_02",
+     "paints": [
+      "primer_red",
+      "valentinos_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "primer_black",
+      "primer_gray",
+      "family_car",
+      "poor_04",
+      "urban_01",
+      "urban_02",
+      "valentinos_02"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01",
+      "thorton_colby__basic_scavenger_01",
+      "thorton_colby__basic_scavenger_02"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01",
+      "style:scavenger_01",
+      "style:scavenger_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door.mirror",
+   "label": "Doors: mirror",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "mirror_<c>"
+   ],
+   "options": [
+    {
+     "id": "b9bc6332",
+     "code": "door_mirror_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_mirror_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_mirror_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "primer_gray",
+     "paints": [
+      "poor_01",
+      "family_car",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "suburban_01",
+      "primer_black",
+      "primer_gray",
+      "urban_01",
+      "urban_02",
+      "primer_red",
+      "valentinos_01",
+      "valentinos_02"
+     ],
+     "looks": [
+      "thorton_colby__basic:default_01",
+      "thorton_colby__basic:family_car",
+      "thorton_colby__basic:player_01",
+      "thorton_colby__basic:poor_1",
+      "thorton_colby__basic:poor_1_1",
+      "thorton_colby__basic:poor_1_2",
+      "thorton_colby__basic:poor_1_3",
+      "thorton_colby__basic:poor_1_4",
+      "thorton_colby__basic:poor_2",
+      "thorton_colby__basic:poor_2_1",
+      "thorton_colby__basic:poor_2_2",
+      "thorton_colby__basic:poor_2_3",
+      "thorton_colby__basic:poor_2_4",
+      "thorton_colby__basic:suburban_1",
+      "thorton_colby__basic:suburban_1_1",
+      "thorton_colby__basic:suburban_1_2",
+      "thorton_colby__basic:suburban_1_3",
+      "thorton_colby__basic:suburban_1_4",
+      "thorton_colby__basic:suburban_2",
+      "thorton_colby__basic:suburban_2_1",
+      "thorton_colby__basic:suburban_2_2",
+      "thorton_colby__basic:suburban_2_3",
+      "thorton_colby__basic:suburban_2_4",
+      "thorton_colby__basic:urban_01",
+      "thorton_colby__basic:urban_01_1",
+      "thorton_colby__basic:valentinos_01",
+      "thorton_colby__basic_scavenger_01",
+      "thorton_colby__basic_scavenger_02"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:family_car",
+      "look:player_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "look:urban_01",
+      "look:urban_01_1",
+      "look:valentinos_01",
+      "style:scavenger_01",
+      "style:scavenger_02"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "scavengers_ff23",
+   "family": "scavengers",
+   "code": "kit_scavengers_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_thorton_colby__ext01_body_sticker_scavengers_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_body_sticker_scavengers_02.mesh",
+     "code": "body_sticker_scavengers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic_scavenger_02",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_thorton_colby__ext01_body_sticker_scavengers_04",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_body_sticker_scavengers_04.mesh",
+     "code": "body_sticker_scavengers_04",
+     "paint": "color",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic_scavenger_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby__basic_scavenger_01",
+    "thorton_colby__basic_scavenger_02"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:scavenger_01",
+    "style:scavenger_02"
+   ]
+  },
+  {
+   "id": "scavengers_16e6",
+   "family": "scavengers",
+   "code": "kit_scavengers_body_2",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_thorton_colby__ext01_body_sticker_scavengers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_body_sticker_scavengers_01.mesh",
+     "code": "body_sticker_scavengers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic_scavenger_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_thorton_colby__ext01_body_sticker_scavengers_05",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_body_sticker_scavengers_05.mesh",
+     "code": "body_sticker_scavengers_05",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic_scavenger_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby__basic_scavenger_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:scavenger_01"
+   ]
+  },
+  {
+   "id": "scavengers_463d",
+   "family": "scavengers",
+   "code": "kit_scavengers_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_thorton_colby__ext01_body_sticker_scavengers_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_body_sticker_scavengers_03.mesh",
+     "code": "body_sticker_scavengers_03",
+     "paint": "color",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic_scavenger_02",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_thorton_colby__ext01_door_fr_sticker_scavengers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fr_sticker_scavengers_01.mesh",
+     "code": "door_fr_sticker_scavengers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic_scavenger_02",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby__basic_scavenger_02"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:scavenger_02"
+   ]
+  },
+  {
+   "id": "sticker_0738",
+   "family": "sticker",
+   "code": "stickers_bumper_b_01",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "stikcers_bumper_b",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_stickers_bumper_b_01.mesh",
+     "code": "stickers_bumper_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:family_car",
+     "parent": "vehicle_slots:bumper_back"
+    }
+   ],
+   "looks": [
+    "thorton_colby__basic:family_car",
+    "thorton_colby__basic:valentinos_01"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "look:family_car",
+    "look:valentinos_01"
+   ]
+  },
+  {
+   "id": "valentinos_d00e",
+   "family": "valentinos",
+   "code": "kit_valentinos_body_bumper_doors_hood",
+   "where": [
+    "body",
+    "bumper",
+    "doors",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "body_sticker_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_body_sticker_valentinos_01.mesh",
+     "code": "body_sticker_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_fl_sticker_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fl_sticker_valentinos_01.mesh",
+     "code": "door_fl_sticker_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fl_sticker_valentinos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fl_sticker_valentinos_02.mesh",
+     "code": "door_fl_sticker_valentinos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fl_sticker_valentinos_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fl_sticker_valentinos_03.mesh",
+     "code": "door_fl_sticker_valentinos_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_sticker_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fr_sticker_valentinos_01.mesh",
+     "code": "door_fr_sticker_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "door_fr_sticker_valentinos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fr_sticker_valentinos_02.mesh",
+     "code": "door_fr_sticker_valentinos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "door_fr_sticker_valentinos_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_door_fr_sticker_valentinos_03.mesh",
+     "code": "door_fr_sticker_valentinos_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "fuelcap_sticker_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_fuelcap_sticker_valentinos_01.mesh",
+     "code": "fuelcap_sticker_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "fuel_cap",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:fuel_cap"
+    },
+    {
+     "name": "sticker_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_hood_sticker_valentinos_01.mesh",
+     "code": "hood_sticker_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0115
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "sticker_valentions_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_bumper_b_sticker_valentions_01.mesh",
+     "code": "bumper_b_sticker_valentions_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby__basic:valentinos_01",
+     "parent": "vehicle_slots:bumper_back"
+    }
+   ],
+   "looks": [
+    "thorton_colby__basic:valentinos_01"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper",
+    "slot:door.door",
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:valentinos_01"
+   ]
+  }
+ ],
+ "looks": {
+  "thorton_colby__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_bl"
+    },
+    "base.window.window_br": {
+     "all": "window_br"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    }
+   }
+  },
+  "thorton_colby__basic_scavenger_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\thorton_colby__basic.app",
+   "app_look": "scavenger_02",
+   "style": "scavenger_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_bl"
+    },
+    "base.window.window_br": {
+     "all": "window_br"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_06",
+     "fr": "wheel_fr_06",
+     "bl": "wheel_bl_06",
+     "br": "wheel_br_06"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    }
+   }
+  },
+  "thorton_colby__basic_scavenger_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\thorton_colby__basic.app",
+   "app_look": "scavenger_01",
+   "style": "scavenger_01",
+   "wreck": false,
+   "parts": {
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_bl"
+    },
+    "base.window.window_br": {
+     "all": "window_br"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_06",
+     "fr": "wheel_fr_06",
+     "bl": "wheel_bl_06",
+     "br": "wheel_br_06"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3569,
+   0.3064,
+   0.2573,
+   0.0121
+  ],
+  "b": [
+   0.3569,
+   0.3064,
+   0.2573,
+   0.0121
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "fc917e12",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Colby CST40",
+   "radius": 0.3569,
+   "width": 0.3064,
+   "rim_radius": 0.2626,
+   "tire_center": 0.0121,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 34,
+   "paints": [
+    "poor_01",
+    "poor_02",
+    "valentinos_01"
+   ],
+   "default_paint": "poor_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby__basic:default_01",
+    "thorton_colby__basic:family_car",
+    "thorton_colby__basic:poor_1",
+    "thorton_colby__basic:poor_1_1",
+    "thorton_colby__basic:poor_1_2",
+    "thorton_colby__basic:poor_1_3",
+    "thorton_colby__basic:poor_1_4",
+    "thorton_colby__basic:poor_2",
+    "thorton_colby__basic:poor_2_1",
+    "thorton_colby__basic:poor_2_2",
+    "thorton_colby__basic:poor_2_3",
+    "thorton_colby__basic:poor_2_4",
+    "thorton_colby__basic:suburban_2",
+    "thorton_colby__basic:suburban_2_1",
+    "thorton_colby__basic:suburban_2_2",
+    "thorton_colby__basic:suburban_2_3",
+    "thorton_colby__basic:suburban_2_4"
+   ]
+  },
+  {
+   "id": "9dd21a15",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_02",
+   "tire_code": "tire_fl_01",
+   "from": "Colby CST40",
+   "radius": 0.3569,
+   "width": 0.3064,
+   "rim_radius": 0.2625,
+   "tire_center": 0.0121,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 10,
+   "paints": [
+    "wheel_02_black",
+    "wheel_02_green",
+    "wheel_02_gray"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby__basic:suburban_1",
+    "thorton_colby__basic:suburban_1_1",
+    "thorton_colby__basic:suburban_1_2",
+    "thorton_colby__basic:suburban_1_3",
+    "thorton_colby__basic:suburban_1_4"
+   ]
+  },
+  {
+   "id": "5dbd1f1e",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Hella EC-D i360",
+   "radius": 0.3724,
+   "width": 0.3244,
+   "rim_radius": 0.2874,
+   "tire_center": -0.0736,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby__basic:muamar_reyes_car"
+   ]
+  },
+  {
+   "id": "1a180b86",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_05.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_05",
+   "tire_code": "tire_fl_01",
+   "from": "Colby CST40",
+   "radius": 0.3569,
+   "width": 0.3064,
+   "rim_radius": 0.2539,
+   "tire_center": 0.0121,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby__basic:muamar_reyes_car"
+   ]
+  },
+  {
+   "id": "e3406a1b",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_04.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_04",
+   "tire_code": "tire_fl_01",
+   "from": "Colby CST40",
+   "radius": 0.3569,
+   "width": 0.3064,
+   "rim_radius": 0.2712,
+   "tire_center": 0.0121,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 6,
+   "paints": [
+    "black_poor",
+    "red",
+    "silver",
+    "silver_poor",
+    "valentinos_01"
+   ],
+   "default_paint": "silver",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby__basic:urban_01",
+    "thorton_colby__basic:urban_01_1",
+    "thorton_colby__basic:valentinos_01"
+   ]
+  },
+  {
+   "id": "763f0138",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_03.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_03",
+   "tire_code": "tire_fl_01",
+   "from": "Colby CST40",
+   "radius": 0.3569,
+   "width": 0.3064,
+   "rim_radius": 0.2622,
+   "tire_center": 0.0121,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 2,
+   "paints": [
+    "chrome_01",
+    "golden_01",
+    "poor_01",
+    "poor_02",
+    "clean_04",
+    "clean_01",
+    "clean_02",
+    "clean_red"
+   ],
+   "default_paint": "poor_02",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby__basic:player_01"
+   ]
+  },
+  {
+   "id": "052f0b99",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_06.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_06",
+   "tire_code": "tire_fl_01",
+   "from": "Colby CST40",
+   "radius": 0.3569,
+   "width": 0.3064,
+   "rim_radius": 0.2573,
+   "tire_center": 0.0121,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 4,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby__basic_scavenger_01",
+    "thorton_colby__basic_scavenger_02"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Colby C125"
+  ]
+ ]
+}

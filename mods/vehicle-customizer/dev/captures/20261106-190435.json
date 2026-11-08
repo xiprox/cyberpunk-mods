@@ -1,0 +1,38 @@
+{
+  "camera_forward": {
+    "x": 0.6,
+    "y": -0.8,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 30.7,
+    "x": -1130.9,
+    "y": -5596.5,
+    "z": 93.9
+  },
+  "look_object": {
+    "class": "FakeDoor",
+    "entity_id": "5253917322645025082ULL",
+    "name": "LocKey#69",
+    "position": {
+      "x": -1132,
+      "y": -5596.8,
+      "z": 93
+    }
+  },
+  "nearest": {
+    "distance": 35.7,
+    "id": "lone_garage_5",
+    "name": "Lone garage"
+  },
+  "note": "",
+  "player": {
+    "x": -1150.2,
+    "y": -5572.6,
+    "yaw": -141.2,
+    "z": 92.9
+  },
+  "stamp": "20261106-190435",
+  "time": "2026-11-06 19:04:35"
+}

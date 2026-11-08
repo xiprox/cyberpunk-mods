@@ -1,0 +1,7 @@
+# Development only (vehicle-customizer/RECORD.md, tool probes of 2026-11-07): the tool, a copy of the turret gun
+# (Items.Preset_HMG_Default) without its weight: OnAttach gave GLP.HoldingHMG and three stamina packages, which
+# the user had taken out ("you don't want sprint when working with the car", but remove them anyway). It never
+# fires (dev/r6/scripts/VehicleCustomizerDev/ProbeTool.reds). Picked up, dropped on a weapon switch, as the gun.
+Items.VC_ProbeTool:
+  $base: Items.Preset_HMG_Default
+  OnAttach: []

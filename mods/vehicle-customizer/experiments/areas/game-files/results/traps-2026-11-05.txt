@@ -1,0 +1,40 @@
+﻿-- Hella, V's look: parts that hang off another part (bound to it rather than to a mount point) --
+  body_player_stripe_01                    hangs off body_player_01
+  bumper_f_player_01                       hangs off bumper_f_01
+  door_bl_player_stripe_01                 hangs off door_bl_a
+  door_br_player_stripe_01                 hangs off door_br_shadow
+  door_fl_player_stripe_01                 hangs off door_fl_a
+  door_fr_player_stripe_01                 hangs off door_fr_a
+  door_mirror_fl_01                        hangs off door_fl_a
+  door_mirror_fr_01                        hangs off door_fr_a
+  fuel_cap                                 hangs off fuel_cap
+  hood_a                                   hangs off hood_a
+  steering_wheel                           hangs off steering_wheel
+  trunk_a                                  hangs off trunk_a
+  v_common__int01_light_02                 hangs off interior_01
+  v_standard2_archer_hella__ext01_trunk_player_01 hangs off trunk_a
+
+-- Hella, 6th Street look: stickers and what they hang off --
+  body_stickers_6th_street                 hangs off Base
+  door_bl_sticker_6th_street               hangs off door_bl_a
+  door_br_sticker_6th_street               hangs off door_br_a
+  glove_box_6th_street_sticker_01          hangs off v_standard2_archer_hella__int01_glove_box_01
+  hood_sticker_6th_street                  hangs off hood_a
+  interior_6th_street_sticker_02           hangs off interior_01
+  interior_6th_street_sticker_03           hangs off interior_01
+  interior_6th_street_sticker_04           hangs off interior_01
+  interior_6th_street_sticker_05           hangs off interior_01
+  trunk_sticker_01                         hangs off trunk_a
+  trunk_sticker_02                         hangs off trunk_a
+
+-- across all cars: parts that hang off a swappable part --
+  {'trunk_a': 1720, 'bumper_b_01': 608, 'door_fl_a': 1001, 'door_fr_a': 1310, 'hood_a': 1457, 'bumper_f_01': 155, 'door_bl_a': 249, 'door_br_a': 255}
+
+-- mount points holding more than one visible part in one look (Hella, V's look) --
+  door_fl_a                ['door_fl_player_stripe_01', 'door_mirror_fl_01']
+  door_fr_a                ['door_fr_player_stripe_01', 'door_mirror_fr_01']
+  trunk_a                  ['trunk_a', 'v_standard2_archer_hella__ext01_trunk_player_01']
+  wheel_back_left          ['tire_01_bl_a', 'wheel_01_bl_a']
+  wheel_back_right         ['tire_01_br_a', 'wheel_01_br_a']
+  wheel_front_left         ['tire_01_fl_a', 'wheel_01_fl_a']
+  wheel_front_right        ['tire_01_fr_a', 'wheel_01_fr_a']

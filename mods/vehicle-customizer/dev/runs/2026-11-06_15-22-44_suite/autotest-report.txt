@@ -1,0 +1,127 @@
+15:23:02 runner on; job suite; waiting for the save to load
+15:23:07 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+15:23:17 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+15:23:27 the run script says the start screen is gone
+15:23:27 waiting at the menu: start screen closed, newest save known (modded), menu here, 1 tries
+15:23:27 main menu continued the newest save; waiting for the world
+15:23:49 world loaded; job suite
+15:23:49   engine: ready: 96 catalogs, 480 pool records, 69 look files watched
+15:23:49   engine: build 1: Vehicle.vc_archer_hella__basic_01_1 called in archer_hella__basic_player_01; 2 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 1 kit parts added
+15:23:49   engine: attached: Vehicle.vc_archer_hella__basic_01_1 in archer_hella__basic_player_01, switching to its build's look
+15:23:49   engine: kept Vehicle.vc_archer_hella__basic_01_1's look archer_hella__basic_player_01 against the game's reset
+15:23:49   engine: build 2: Vehicle.vc_archer_hella__basic_01_1 rebuilt in archer_hella__basic_poor_2__vc_a; 2 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 1 kit parts added
+15:23:49 step 1: engine, catalogs and save lock
+15:23:49 PASS engine is running - build 2: Vehicle.vc_archer_hella__basic_01_1 rebuilt in archer_hella__basic_poor_2__vc_a; 2 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 1 kit parts added
+15:23:49 PASS catalogs loaded by TweakXL - 96 catalogs
+15:23:49 PASS the Hella's styles - 8 styles
+15:23:49 PASS a kit's positions read as vectors - first at -0.8779, 1.1949, 0.2988
+15:23:49 PASS the pool copy's record exists - Vehicle.vc_archer_hella__basic_01_3
+15:23:49 PASS saving is locked for the run - true
+15:23:49 PASS the old test is out of the game
+15:23:50 step 2: turn V away from their own car
+15:23:52 step 3: spawn the pool copy in front of V
+15:23:52   spawned entity 10789226ULL 8 m ahead of V
+15:23:53   engine: build 3: Vehicle.vc_archer_hella__basic_01_3 called in archer_hella__basic_player_01; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:23:53   engine: attached: Vehicle.vc_archer_hella__basic_01_3 in archer_hella__basic_player_01
+15:23:53   done waiting for the copy to appear (0.1 s)
+15:23:58 step 4: check the copy as it came
+15:23:58 PASS the copy is our record
+15:23:58 PASS copy as spawned - archer_hella__basic_player_01; ok (0 parts checked)
+15:23:58 SHOT 01_as_spawned
+15:24:03 step 5: choose the Suburban style
+15:24:03   engine: build 4: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:24:03   done waiting for the car to be rebuilt (look still archer_hella__basic_player_01) (0.1 s)
+15:24:08 step 6: check the Suburban style
+15:24:08 PASS Suburban look on a twin - archer_hella__basic_suburban_1__vc_a
+15:24:08 PASS the engine finds the Suburban style in the catalog - catalog archer_hella__basic_01, look archer_hella__basic_suburban_1, style suburban_1, body option 0853e347 with 21 paints, primer_red offered
+15:24:08 PASS Suburban style - archer_hella__basic_suburban_1__vc_a; ok (0 parts checked)
+15:24:08 SHOT 02_suburban
+15:24:13 step 7: choose the junk front bumper
+15:24:13   engine: build 5: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 1 parts swapped, 1 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:24:13   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:24:15 step 8: choose the Quadra Turbo-R rims
+15:24:15   engine: build 6: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 5 parts swapped, 1 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:24:15   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:24:17 step 9: choose the Quadra Turbo-R tires
+15:24:17   engine: build 7: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 9 parts swapped, 1 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:24:17   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:24:22 step 10: check the parts
+15:24:22 PASS junk bumper, Turbo-R rims and tires - archer_hella__basic_suburban_1__vc_b; ok (9 parts checked)
+15:24:22 SHOT 03_parts
+15:24:27 step 11: paint the whole car primer red
+15:24:27   engine: build 8: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 9 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:24:27   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:24:32 step 12: check the paint
+15:24:32 PASS whole car primer red - archer_hella__basic_suburban_1__vc_a; ok (22 parts checked)
+15:24:32 SHOT 04_primer_red
+15:24:37 step 13: paint the hood stickerbomb_01
+15:24:37   engine: build 9: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 10 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:24:37   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:24:42 step 14: check the hood
+15:24:42 PASS hood stickerbomb_01 over the red - archer_hella__basic_suburban_1__vc_b; ok (22 parts checked)
+15:24:42 SHOT 05_hood
+15:24:47 step 15: add the police body (a slot the Suburban lacks)
+15:24:47   engine: build 10: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 10 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:24:47   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:24:49 step 16: add the police light bar
+15:24:49   engine: build 11: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 10 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 0 wheel parts fitted, 3 kit parts added
+15:24:49   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:24:51 step 17: add the scavenger stickers
+15:24:51   engine: build 12: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 10 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 0 wheel parts fitted, 6 kit parts added
+15:24:51   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:24:56 step 18: check the kits
+15:24:56 PASS police shell, light bar, scavenger stickers - archer_hella__basic_suburban_1__vc_a; ok (32 parts checked)
+15:24:56 SHOT 06_kits
+15:25:01 step 19: lift the light bar 0.3 m and turn it 20 degrees
+15:25:04 step 20: check the moved light bar
+15:25:04 PASS light bar moved live - archer_hella__basic_suburban_1__vc_a; ok (32 parts checked)
+15:25:04 SHOT 07_moved
+15:25:09 step 21: the spotlight alone: up 15 cm, pitched 20 and rolled 10 degrees
+15:25:13 step 22: check the spotlight
+15:25:13 PASS one kit part moved on its own - archer_hella__basic_suburban_1__vc_a; ok (32 parts checked)
+15:25:13 PASS the part's move is saved - look=archer_hella__basic_suburban_1;paint=primer_red;slot=bumper_front.bumper:4f41bb5f:;slot=wheel.wheel:307348bd:;slot=wheel.tire:d184d620:;slot=hood_a.hood:07b2949c:stickerbomb_01;slot=base.body.police_body:df85ca17:;kit=police_9afe:0:0:0.300:20;kit=scavengers_00af:0:0:0:0;part=police_9afe:0:0:0:0.150:0:20:10
+15:25:13 SHOT 07b_part_moved
+15:25:18 step 23: rebuild in place
+15:25:18   engine: build 13: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 10 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 0 wheel parts fitted, 6 kit parts added
+15:25:18   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:25:23 step 24: check it all came through the rebuild
+15:25:23 PASS after a rebuild in place - archer_hella__basic_suburban_1__vc_b; ok (32 parts checked)
+15:25:23 PASS the light bar's offset is saved - look=archer_hella__basic_suburban_1;paint=primer_red;slot=bumper_front.bumper:4f41bb5f:;slot=wheel.wheel:307348bd:;slot=wheel.tire:d184d620:;slot=hood_a.hood:07b2949c:stickerbomb_01;slot=base.body.police_body:df85ca17:;kit=police_9afe:0:0:0.300:20;kit=scavengers_00af:0:0:0:0;part=police_9afe:0:0:0:0.150:0:20:10
+15:25:23 SHOT 08_rebuilt
+15:25:28 step 25: the game's look reset, as when V gets in
+15:25:28   engine: kept Vehicle.vc_archer_hella__basic_01_3's look archer_hella__basic_suburban_1__vc_b against the game's reset
+15:25:32 step 26: check the look was kept
+15:25:32 PASS look kept against the reset - archer_hella__basic_suburban_1__vc_b -> archer_hella__basic_suburban_1__vc_b
+15:25:32 PASS after the reset - archer_hella__basic_suburban_1__vc_b; ok (32 parts checked)
+15:25:33 step 27: a co-op partner's build arrives for this car
+15:25:33   engine: a partner's build for Vehicle.vc_archer_hella__basic_01_3: look=archer_hella__basic_poor_1;slot=bumper_back.bumper:da1ad5f5:;slot=base.body.police_body:df85ca17:
+15:25:33   engine: build 14: Vehicle.vc_archer_hella__basic_01_3 rebuilt as a partner's car in archer_hella__basic_poor_1__vc_a; 1 parts swapped, 1 repainted, 1 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:25:33   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:25:38 step 28: check the car wears the partner's build
+15:25:38 PASS partner's look on a twin - archer_hella__basic_poor_1__vc_a
+15:25:38 PASS the engine treats it as a partner's car
+15:25:38 PASS partner's build - archer_hella__basic_poor_1__vc_a; ok (2 parts checked)
+15:25:38 SHOT 09_partner_build
+15:25:43 step 29: the partner clears it: back to our own build
+15:25:43   engine: a partner's build for Vehicle.vc_archer_hella__basic_01_3: 
+15:25:43   engine: build 15: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 10 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 0 wheel parts fitted, 6 kit parts added
+15:25:43   done waiting for the car to be rebuilt (look still archer_hella__basic_poor_1__vc_a) (0.1 s)
+15:25:48 step 30: check our own build is back
+15:25:48 PASS our look again - archer_hella__basic_suburban_1__vc_a
+15:25:48 PASS our own build again - archer_hella__basic_suburban_1__vc_a; ok (32 parts checked)
+15:25:49 step 31: take the spawned copy away
+15:25:52 step 32: unlock and call the copy
+15:25:52 PASS unlock the copy
+15:25:52   the game answered true to the call
+15:25:52   engine: build 16: Vehicle.vc_archer_hella__basic_01_3 called in archer_hella__basic_player_01; 11 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 6 kit parts added
+15:25:52   engine: attached: Vehicle.vc_archer_hella__basic_01_3 in archer_hella__basic_player_01, switching to its build's look
+15:25:52   engine: build 17: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 10 parts swapped, 9 repainted, 1 added where the look has none, 0 failed, 0 wheel parts fitted, 6 kit parts added
+15:25:52   done waiting for the called copy to appear (0.2 s)
+15:25:54 step 33: wait for the called copy to drive up
+15:27:24 NOTE step 33: gave up waiting for the called copy to come within 30 m
+15:27:29 step 34: check the called copy
+15:27:29 PASS called copy in its build's look - archer_hella__basic_suburban_1__vc_a
+15:27:29 PASS called copy - archer_hella__basic_suburban_1__vc_a; ok (32 parts checked)
+15:27:29 SHOT 10_called
+15:27:34 step 35: send it away and clear the build
+15:27:36 DONE 31 passed, 0 failed

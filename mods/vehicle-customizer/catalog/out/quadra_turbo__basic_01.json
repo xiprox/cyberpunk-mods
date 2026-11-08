@@ -1,0 +1,5411 @@
+{
+ "id": "quadra_turbo__basic_01",
+ "label": "Turbo-R 740",
+ "entity": "base\\vehicles\\sport\\v_sport1_quadra_turbo__basic_01.ent",
+ "family": "v_sport1_quadra_turbo",
+ "garage": true,
+ "default_look": "player",
+ "records": [
+  "Vehicle.v_sport1_quadra_turbo_player",
+  "Vehicle.v_sport1_quadra_turbo_r_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "quadra_turbo_basic_player",
+   "code": "quadra_turbo_basic_player",
+   "label": "Quadra turbo basic player",
+   "base_look": "quadra_turbo_basic_player",
+   "looks": [
+    "quadra_turbo_basic_player",
+    "quadra_turbo_basic_rebecca",
+    "quadra_turbo_basic_entropism",
+    "quadra_turbo_basic_neokitsch",
+    "quadra_turbo_basic_neomilitarism"
+   ],
+   "options": {
+    "bumper_front.bumper": "4ffd4195",
+    "bumper_back.bumper": "8fd40bb3",
+    "hood_a.hood": "b6a8d28f",
+    "trunk_a.trunk": "9fdf4737",
+    "base.body": "c03aa29e",
+    "base.interior": "232987f8",
+    "base.window": "175f8af2",
+    "base.window.window_b": "ba4fdfcc",
+    "base.window.window_c": "8d49c83c",
+    "wheel.tire": "280e6a20",
+    "wheel.wheel": "3e790665",
+    "door.door": "3c5a8aed",
+    "door.door.door_mirror": "a3014f5b",
+    "door_c.door": "74891517",
+    "window.door": "b9656b8d"
+   },
+   "kits": [
+    "player_c756"
+   ]
+  },
+  {
+   "id": "quadra_turbo_basic_tygerclaws_01",
+   "code": "quadra_turbo_basic_tygerclaws_01",
+   "label": "Quadra turbo basic tygerclaws",
+   "base_look": "quadra_turbo_basic_tygerclaws_01",
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "97c85322",
+    "bumper_back.bumper": "82bd22ec",
+    "hood_a.hood": "b6db50a8",
+    "trunk_a.trunk": "61313030",
+    "base.body": "76ff1d31",
+    "base.interior": "232987f8",
+    "base.window": "175f8af2",
+    "base.window.window_b": "ba4fdfcc",
+    "base.window.window_c": "8d49c83c",
+    "wheel.tire": "3b6fbedc",
+    "wheel.wheel": "9268eac3",
+    "door.door": "3c5a8aed",
+    "door.door.door_mirror": "a3014f5b",
+    "door_c.door": "74891517",
+    "window.door": "b9656b8d"
+   },
+   "kits": [
+    "tyger_08a2",
+    "tyger_3338",
+    "tyger_95b8",
+    "tyger_b53d"
+   ]
+  },
+  {
+   "id": "quadra_turbo_basic_tygerclaws_02",
+   "code": "quadra_turbo_basic_tygerclaws_02",
+   "label": "Quadra turbo basic tygerclaws 02",
+   "base_look": "quadra_turbo_basic_tygerclaws_02",
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "97c85322",
+    "bumper_back.bumper": "82bd22ec",
+    "hood_a.hood": "b6db50a8",
+    "trunk_a.trunk": "61313030",
+    "base.body": "76ff1d31",
+    "base.interior": "232987f8",
+    "base.window": "175f8af2",
+    "base.window.window_b": "ba4fdfcc",
+    "base.window.window_c": "8d49c83c",
+    "wheel.tire": "3b6fbedc",
+    "wheel.wheel": "9268eac3",
+    "door.door": "3c5a8aed",
+    "door.door.door_mirror": "a3014f5b",
+    "door_c.door": "74891517",
+    "window.door": "b9656b8d"
+   },
+   "kits": [
+    "tyger_45db",
+    "tyger_4b78",
+    "tyger_6d9e",
+    "tyger_95b8"
+   ]
+  },
+  {
+   "id": "quadra_turbo_basic_tygerclaws_03",
+   "code": "quadra_turbo_basic_tygerclaws_03",
+   "label": "Quadra turbo basic tygerclaws 03",
+   "base_look": "quadra_turbo_basic_tygerclaws_03",
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_03"
+   ],
+   "options": {
+    "bumper_front.bumper": "97c85322",
+    "bumper_back.bumper": "82bd22ec",
+    "hood_a.hood": "b6db50a8",
+    "trunk_a.trunk": "61313030",
+    "base.body": "76ff1d31",
+    "base.interior": "232987f8",
+    "base.window": "175f8af2",
+    "base.window.window_b": "ba4fdfcc",
+    "base.window.window_c": "8d49c83c",
+    "wheel.tire": "3b6fbedc",
+    "wheel.wheel": "9268eac3",
+    "door.door": "3c5a8aed",
+    "door.door.door_mirror": "a3014f5b",
+    "door_c.door": "74891517",
+    "window.door": "b9656b8d"
+   },
+   "kits": [
+    "tyger_2f97",
+    "tyger_3338",
+    "tyger_6d9e",
+    "tyger_95b8",
+    "tyger_af5e"
+   ]
+  },
+  {
+   "id": "quadra_turbo_basic_tygerclaws_04",
+   "code": "quadra_turbo_basic_tygerclaws_04",
+   "label": "Quadra turbo basic tygerclaws 04",
+   "base_look": "quadra_turbo_basic_tygerclaws_04",
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_04"
+   ],
+   "options": {
+    "bumper_front.bumper": "97c85322",
+    "bumper_back.bumper": "82bd22ec",
+    "hood_a.hood": "b6db50a8",
+    "trunk_a.trunk": "61313030",
+    "base.body": "76ff1d31",
+    "base.interior": "232987f8",
+    "base.window": "175f8af2",
+    "base.window.window_b": "ba4fdfcc",
+    "base.window.window_c": "8d49c83c",
+    "wheel.tire": "3b6fbedc",
+    "wheel.wheel": "9268eac3",
+    "door.door": "3c5a8aed",
+    "door.door.door_mirror": "a3014f5b",
+    "door_c.door": "74891517",
+    "window.door": "b9656b8d"
+   },
+   "kits": [
+    "tyger_3338",
+    "tyger_6d9e",
+    "tyger_95b8",
+    "tyger_af5e"
+   ]
+  },
+  {
+   "id": "quadra_turbo_basic_tygerclaws_05",
+   "code": "quadra_turbo_basic_tygerclaws_05",
+   "label": "Quadra turbo basic tygerclaws 05",
+   "base_look": "quadra_turbo_basic_tygerclaws_05",
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_05"
+   ],
+   "options": {
+    "bumper_front.bumper": "97c85322",
+    "bumper_back.bumper": "82bd22ec",
+    "hood_a.hood": "b6db50a8",
+    "trunk_a.trunk": "61313030",
+    "base.body": "76ff1d31",
+    "base.interior": "232987f8",
+    "base.window": "175f8af2",
+    "base.window.window_b": "ba4fdfcc",
+    "base.window.window_c": "8d49c83c",
+    "wheel.tire": "3b6fbedc",
+    "wheel.wheel": "9268eac3",
+    "door.door": "3c5a8aed",
+    "door.door.door_mirror": "a3014f5b",
+    "door_c.door": "74891517",
+    "window.door": "b9656b8d"
+   },
+   "kits": [
+    "tyger_1b39",
+    "tyger_3338",
+    "tyger_45db",
+    "tyger_6d9e",
+    "tyger_8712",
+    "tyger_95b8",
+    "tyger_af5e"
+   ]
+  },
+  {
+   "id": "quadra_turbo_basic_tygerclaws_06",
+   "code": "quadra_turbo_basic_tygerclaws_06",
+   "label": "Quadra turbo basic tygerclaws 06",
+   "base_look": "quadra_turbo_basic_tygerclaws_06",
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_06"
+   ],
+   "options": {
+    "bumper_front.bumper": "97c85322",
+    "bumper_back.bumper": "82bd22ec",
+    "hood_a.hood": "b6db50a8",
+    "trunk_a.trunk": "61313030",
+    "base.body": "76ff1d31",
+    "base.interior": "232987f8",
+    "base.window": "175f8af2",
+    "base.window.window_b": "ba4fdfcc",
+    "base.window.window_c": "8d49c83c",
+    "wheel.tire": "3b6fbedc",
+    "wheel.wheel": "9268eac3",
+    "door.door": "3c5a8aed",
+    "door.door.door_mirror": "a3014f5b",
+    "door_c.door": "74891517",
+    "window.door": "b9656b8d"
+   },
+   "kits": [
+    "tyger_1b39",
+    "tyger_3338",
+    "tyger_8712",
+    "tyger_95b8",
+    "tyger_b53d"
+   ]
+  },
+  {
+   "id": "quadra_turbo_basic_urban_01",
+   "code": "quadra_turbo_basic_urban_01",
+   "label": "Quadra turbo basic urban",
+   "base_look": "quadra_turbo_basic_urban_01",
+   "looks": [
+    "quadra_turbo_basic_urban_01",
+    "quadra_turbo_basic_urban_03",
+    "quadra_turbo_basic_urban_04",
+    "quadra_turbo_basic_urban_05",
+    "quadra_turbo_basic_urban_06",
+    "quadra_turbo_basic_urban_07",
+    "quadra_turbo_basic_urban_08",
+    "quadra_turbo_basic_urban_09",
+    "quadra_turbo_basic_urban_10",
+    "quadra_turbo_basic_default",
+    "quadra_turbo_basic_poor_01",
+    "quadra_turbo_basic_poor_02",
+    "quadra_turbo_basic_poor_03",
+    "quadra_turbo_basic_poor_04",
+    "quadra_turbo_basic_poor_05",
+    "quadra_turbo_basic_player_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "97c85322",
+    "bumper_back.bumper": "82bd22ec",
+    "hood_a.hood": "b6db50a8",
+    "trunk_a.trunk": "61313030",
+    "base.body": "76ff1d31",
+    "base.interior": "232987f8",
+    "base.window": "175f8af2",
+    "base.window.window_b": "ba4fdfcc",
+    "base.window.window_c": "8d49c83c",
+    "wheel.tire": "3b6fbedc",
+    "wheel.wheel": "9268eac3",
+    "door.door": "3c5a8aed",
+    "door.door.door_mirror": "a3014f5b",
+    "door_c.door": "74891517",
+    "window.door": "b9656b8d"
+   },
+   "kits": [
+    "tyger_95b8"
+   ]
+  }
+ ],
+ "wrecks": [
+  "quadra_turbo_basic_burnt_01",
+  "quadra_turbo_basic_burnt_player_01",
+  "quadra_turbo_basic_player_q001_damaged"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01",
+    "bumper_f_02"
+   ],
+   "options": [
+    {
+     "id": "97c85322",
+     "code": "bumper_f_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "player_q001_damage"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01"
+     ]
+    },
+    {
+     "id": "4ffd4195",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player",
+      "player_q001_damage",
+      "rebecca",
+      "neomilitarism",
+      "entropism",
+      "neokitsch"
+     ],
+     "looks": [
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_rebecca"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "82bd22ec",
+     "code": "bumper_b_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_b_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_b_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "player_q001_damage"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01"
+     ]
+    },
+    {
+     "id": "8fd40bb3",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player",
+      "player_q001_damage",
+      "rebecca",
+      "neomilitarism",
+      "entropism",
+      "neokitsch"
+     ],
+     "looks": [
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_rebecca"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "b6db50a8",
+     "code": "hood_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_hood_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_hood_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "player_q001_damage"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01"
+     ]
+    },
+    {
+     "id": "b6a8d28f",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player",
+      "player_q001_damage",
+      "rebecca",
+      "neomilitarism",
+      "entropism",
+      "neokitsch"
+     ],
+     "looks": [
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_rebecca"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "61313030",
+     "code": "trunk_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_trunk_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_trunk_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "player_q001_damage"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01"
+     ]
+    },
+    {
+     "id": "9fdf4737",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player",
+      "player_q001_damage",
+      "rebecca",
+      "neomilitarism",
+      "entropism",
+      "neokitsch"
+     ],
+     "looks": [
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_rebecca"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01",
+    "body_02"
+   ],
+   "options": [
+    {
+     "id": "76ff1d31",
+     "code": "body_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_body_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "player_q001_damage"
+     ],
+     "looks": [
+      "quadra_turbo_basic_burnt_01",
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01",
+      "wreck:quadra_turbo_basic_burnt_01"
+     ]
+    },
+    {
+     "id": "c03aa29e",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_body_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player",
+      "player_q001_damage",
+      "rebecca",
+      "entropism",
+      "neomilitarism",
+      "neokitsch"
+     ],
+     "looks": [
+      "quadra_turbo_basic_burnt_player_01",
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_rebecca"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "wreck:quadra_turbo_basic_burnt_player_01",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01",
+    "interior_02"
+   ],
+   "options": [
+    {
+     "id": "232987f8",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "urban_10",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_06"
+     ],
+     "looks": [
+      "quadra_turbo_basic_burnt_01",
+      "quadra_turbo_basic_burnt_player_01",
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_rebecca",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01",
+      "wreck:quadra_turbo_basic_burnt_01",
+      "wreck:quadra_turbo_basic_burnt_player_01",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield: a",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_a"
+   ],
+   "options": [
+    {
+     "id": "175f8af2",
+     "code": "window_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_window_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_01"
+     ],
+     "looks": [
+      "quadra_turbo_basic_burnt_01",
+      "quadra_turbo_basic_burnt_player_01",
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_rebecca",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01",
+      "wreck:quadra_turbo_basic_burnt_01",
+      "wreck:quadra_turbo_basic_burnt_player_01",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_b",
+   "label": "Windshield: back",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_b"
+   ],
+   "options": [
+    {
+     "id": "ba4fdfcc",
+     "code": "window_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_window_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_01"
+     ],
+     "looks": [
+      "quadra_turbo_basic_burnt_01",
+      "quadra_turbo_basic_burnt_player_01",
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_rebecca",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01",
+      "wreck:quadra_turbo_basic_burnt_01",
+      "wreck:quadra_turbo_basic_burnt_player_01",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_c",
+   "label": "Windshield: c",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_c"
+   ],
+   "options": [
+    {
+     "id": "8d49c83c",
+     "code": "window_c_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_window_c_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_01"
+     ],
+     "looks": [
+      "quadra_turbo_basic_burnt_01",
+      "quadra_turbo_basic_burnt_player_01",
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_rebecca",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01",
+      "wreck:quadra_turbo_basic_burnt_01",
+      "wreck:quadra_turbo_basic_burnt_player_01",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a",
+    "tire_02_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "3b6fbedc",
+     "code": "tire_01 + tire_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tygerclaws_03",
+      "tygerclaws_05",
+      "dusty_01"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01"
+     ]
+    },
+    {
+     "id": "280e6a20",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tygerclaws_03",
+      "tygerclaws_05",
+      "dusty_01"
+     ],
+     "looks": [
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_rebecca"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_02_<c>",
+    "wheel_02_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "9268eac3",
+     "code": "wheel_01 + wheel_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "turbo_urban05",
+      "turbo_urban02",
+      "chrome",
+      "black_blue",
+      "neomilitarism",
+      "entropism"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01"
+     ]
+    },
+    {
+     "id": "3e790665",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player",
+     "paints": [
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "turbo_urban05",
+      "turbo_urban02",
+      "chrome",
+      "black_blue",
+      "neomilitarism",
+      "entropism"
+     ],
+     "looks": [
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_rebecca"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors: a",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "3c5a8aed",
+     "code": "door_l_01 + door_r_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_l_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_r_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_l_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_r_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "player_q001_damage",
+      "rebecca",
+      "neomilitarism",
+      "entropism",
+      "neokitsch"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_rebecca",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door.door_mirror",
+   "label": "Doors: mirror",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_mirror_<c>"
+   ],
+   "options": [
+    {
+     "id": "a3014f5b",
+     "code": "door_l_mirror_01 + door_r_mirror_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_l_mirror_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_r_mirror_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_l_mirror_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_r_mirror_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_05",
+      "tygerclaws_06",
+      "player_q001_damage",
+      "rebecca",
+      "neomilitarism",
+      "entropism",
+      "neokitsch"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_rebecca",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_c.door",
+   "label": "Doors (c)",
+   "kind": "door",
+   "group": "door_c",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_c",
+    "door_front_right_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_floor_<c>"
+   ],
+   "options": [
+    {
+     "id": "74891517",
+     "code": "door_l_floor_01 + door_r_floor_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_l_floor_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_r_floor_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "urban_10",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "player",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_06"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_rebecca",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.door",
+   "label": "Door (window)",
+   "kind": "door",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "b9656b8d",
+     "code": "door_l_window_01 + door_r_window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_l_window_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_r_window_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_01"
+     ],
+     "looks": [
+      "quadra_turbo_basic_default",
+      "quadra_turbo_basic_entropism",
+      "quadra_turbo_basic_neokitsch",
+      "quadra_turbo_basic_neomilitarism",
+      "quadra_turbo_basic_player",
+      "quadra_turbo_basic_player_02",
+      "quadra_turbo_basic_player_q001_damaged",
+      "quadra_turbo_basic_poor_01",
+      "quadra_turbo_basic_poor_02",
+      "quadra_turbo_basic_poor_03",
+      "quadra_turbo_basic_poor_04",
+      "quadra_turbo_basic_poor_05",
+      "quadra_turbo_basic_rebecca",
+      "quadra_turbo_basic_tygerclaws_01",
+      "quadra_turbo_basic_tygerclaws_02",
+      "quadra_turbo_basic_tygerclaws_03",
+      "quadra_turbo_basic_tygerclaws_04",
+      "quadra_turbo_basic_tygerclaws_05",
+      "quadra_turbo_basic_tygerclaws_06",
+      "quadra_turbo_basic_urban_01",
+      "quadra_turbo_basic_urban_03",
+      "quadra_turbo_basic_urban_04",
+      "quadra_turbo_basic_urban_05",
+      "quadra_turbo_basic_urban_06",
+      "quadra_turbo_basic_urban_07",
+      "quadra_turbo_basic_urban_08",
+      "quadra_turbo_basic_urban_09",
+      "quadra_turbo_basic_urban_10"
+     ],
+     "origins": [
+      "style:quadra_turbo_basic_player",
+      "style:quadra_turbo_basic_tygerclaws_01",
+      "style:quadra_turbo_basic_tygerclaws_02",
+      "style:quadra_turbo_basic_tygerclaws_03",
+      "style:quadra_turbo_basic_tygerclaws_04",
+      "style:quadra_turbo_basic_tygerclaws_05",
+      "style:quadra_turbo_basic_tygerclaws_06",
+      "style:quadra_turbo_basic_urban_01",
+      "wreck:quadra_turbo_basic_player_q001_damaged"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "player_c756",
+   "family": "player",
+   "code": "kit_player_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_stickers_player_01",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_l_player_stickers_01.mesh",
+     "code": "door_l_player_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_player",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_stickers_player",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_r_player_stickers_01.mesh",
+     "code": "door_r_player_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_player",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_entropism",
+    "quadra_turbo_basic_neokitsch",
+    "quadra_turbo_basic_neomilitarism",
+    "quadra_turbo_basic_player",
+    "quadra_turbo_basic_player_q001_damaged",
+    "quadra_turbo_basic_rebecca"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_player",
+    "wreck:quadra_turbo_basic_player_q001_damaged"
+   ]
+  },
+  {
+   "id": "tyger_2f97",
+   "family": "tyger",
+   "code": "bumper_stickers_tygerclaws_04",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "bumper_b_stickers_tygerclaws_04",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_stickers_tygerclaws_04.mesh",
+     "code": "bumper_stickers_tygerclaws_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_03",
+     "parent": "vehicle_slots:bumper_back"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_03"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_03"
+   ]
+  },
+  {
+   "id": "tyger_af5e",
+   "family": "tyger",
+   "code": "door_fl_stickers_tygerclaws_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_stickers_tygerclaws_01",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_fl_stickers_tygerclaws_01.mesh",
+     "code": "door_fl_stickers_tygerclaws_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_03",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_03",
+    "quadra_turbo_basic_tygerclaws_04",
+    "quadra_turbo_basic_tygerclaws_05"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_03",
+    "style:quadra_turbo_basic_tygerclaws_04",
+    "style:quadra_turbo_basic_tygerclaws_05"
+   ]
+  },
+  {
+   "id": "tyger_6d9e",
+   "family": "tyger",
+   "code": "door_fr_stickers_tygerclaws_02",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_stickers_tygerclaws_02",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_fr_stickers_tygerclaws_02.mesh",
+     "code": "door_fr_stickers_tygerclaws_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_02",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_02",
+    "quadra_turbo_basic_tygerclaws_03",
+    "quadra_turbo_basic_tygerclaws_04",
+    "quadra_turbo_basic_tygerclaws_05"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_02",
+    "style:quadra_turbo_basic_tygerclaws_03",
+    "style:quadra_turbo_basic_tygerclaws_04",
+    "style:quadra_turbo_basic_tygerclaws_05"
+   ]
+  },
+  {
+   "id": "tyger_95b8",
+   "family": "tyger",
+   "code": "kit_tyger_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_tygerclaws_02",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_body_stickers_tygerclaws_02.mesh",
+     "code": "body_stickers_tygerclaws_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_stickers_tygerclaws_03",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_body_stickers_tygerclaws_03.mesh",
+     "code": "body_stickers_tygerclaws_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_stickers_tygerclaws_05",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_body_stickers_tygerclaws_05.mesh",
+     "code": "body_stickers_tygerclaws_05",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_default",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_burnt_01",
+    "quadra_turbo_basic_default",
+    "quadra_turbo_basic_player_02",
+    "quadra_turbo_basic_poor_01",
+    "quadra_turbo_basic_poor_02",
+    "quadra_turbo_basic_poor_03",
+    "quadra_turbo_basic_poor_04",
+    "quadra_turbo_basic_poor_05",
+    "quadra_turbo_basic_tygerclaws_01",
+    "quadra_turbo_basic_tygerclaws_02",
+    "quadra_turbo_basic_tygerclaws_03",
+    "quadra_turbo_basic_tygerclaws_04",
+    "quadra_turbo_basic_tygerclaws_05",
+    "quadra_turbo_basic_tygerclaws_06",
+    "quadra_turbo_basic_urban_01",
+    "quadra_turbo_basic_urban_03",
+    "quadra_turbo_basic_urban_04",
+    "quadra_turbo_basic_urban_05",
+    "quadra_turbo_basic_urban_06",
+    "quadra_turbo_basic_urban_07",
+    "quadra_turbo_basic_urban_08",
+    "quadra_turbo_basic_urban_09",
+    "quadra_turbo_basic_urban_10"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_01",
+    "style:quadra_turbo_basic_tygerclaws_02",
+    "style:quadra_turbo_basic_tygerclaws_03",
+    "style:quadra_turbo_basic_tygerclaws_04",
+    "style:quadra_turbo_basic_tygerclaws_05",
+    "style:quadra_turbo_basic_tygerclaws_06",
+    "style:quadra_turbo_basic_urban_01",
+    "wreck:quadra_turbo_basic_burnt_01"
+   ]
+  },
+  {
+   "id": "tyger_1b39",
+   "family": "tyger",
+   "code": "kit_tyger_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_tygerclaws_04",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_body_stickers_tygerclaws_04.mesh",
+     "code": "body_stickers_tygerclaws_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_05",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_fr_stickers_tygerclaws_01",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo_ext01_door_fr_stickers_tygerclaws_01.mesh",
+     "code": "door_fr_stickers_tygerclaws_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_05",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_05",
+    "quadra_turbo_basic_tygerclaws_06"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_05",
+    "style:quadra_turbo_basic_tygerclaws_06"
+   ]
+  },
+  {
+   "id": "tyger_08a2",
+   "family": "tyger",
+   "code": "kit_tyger_body_interior_trunk",
+   "where": [
+    "body",
+    "interior",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_tygerclaws_01",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_body_stickers_tygerclaws_01.mesh",
+     "code": "body_stickers_tygerclaws_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "trunk_stickers_tygerclaws_01",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_trunk_stickers_tygerclaws_01.mesh",
+     "code": "trunk_stickers_tygerclaws_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "tygerclaws_stickers_04",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__int01_tygerclaws_stickers_04.mesh",
+     "code": "tygerclaws_stickers_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_01"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_01"
+   ]
+  },
+  {
+   "id": "tyger_b53d",
+   "family": "tyger",
+   "code": "kit_tyger_bumper",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "bumper_b_stickers_tygerclaws_02",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_stickers_tygerclaws_02.mesh",
+     "code": "bumper_stickers_tygerclaws_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_01",
+     "parent": "vehicle_slots:bumper_back"
+    },
+    {
+     "name": "bumper_b_stickers_tygerclaws_03",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_stickers_tygerclaws_03.mesh",
+     "code": "bumper_stickers_tygerclaws_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_01",
+     "parent": "vehicle_slots:bumper_back"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_01",
+    "quadra_turbo_basic_tygerclaws_06"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_01",
+    "style:quadra_turbo_basic_tygerclaws_06"
+   ]
+  },
+  {
+   "id": "tyger_45db",
+   "family": "tyger",
+   "code": "kit_tyger_bumper_interior",
+   "where": [
+    "bumper",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "bumper_b_stickers_tygerclaws_01",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_stickers_tygerclaws_01.mesh",
+     "code": "bumper_stickers_tygerclaws_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_02",
+     "parent": "vehicle_slots:bumper_back"
+    },
+    {
+     "name": "tygerclaws_stickers_03",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__int01_tygerclaws_stickers_03.mesh",
+     "code": "tygerclaws_stickers_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_02",
+    "quadra_turbo_basic_tygerclaws_05"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_02",
+    "style:quadra_turbo_basic_tygerclaws_05"
+   ]
+  },
+  {
+   "id": "tyger_4b78",
+   "family": "tyger",
+   "code": "kit_tyger_bumper_trunk",
+   "where": [
+    "bumper",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "bumper_f_stickers_tygerclaws_01",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_bumper_f_stickers_tygerclaws_01.mesh",
+     "code": "bumper_f_stickers_tygerclaws_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_f_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_02",
+     "parent": "vehicle_slots:bumper_front"
+    },
+    {
+     "name": "trunk_stickers_tygerclaws_03",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_trunk_stickers_tygerclaws_03.mesh",
+     "code": "trunk_stickers_tygerclaws_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_02",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_02"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_02"
+   ]
+  },
+  {
+   "id": "tyger_8712",
+   "family": "tyger",
+   "code": "trunk_stickers_tygerclaws_02",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "trunk_stickers_tygerclaws_02",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_trunk_stickers_tygerclaws_02.mesh",
+     "code": "trunk_stickers_tygerclaws_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_06",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_06"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_06"
+   ]
+  },
+  {
+   "id": "tyger_8712",
+   "family": "tyger",
+   "code": "trunk_stickers_tygerclaws_04",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "trunk_stickers_tygerclaws_04",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_trunk_stickers_tygerclaws_04.mesh",
+     "code": "trunk_stickers_tygerclaws_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_05",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_05"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_05"
+   ]
+  },
+  {
+   "id": "tyger_3338",
+   "family": "tyger",
+   "code": "tygerclaws_stickers_01",
+   "where": [
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "tygerclaws_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__int01_tygerclaws_stickers_01.mesh",
+     "code": "tygerclaws_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_01",
+    "quadra_turbo_basic_tygerclaws_05"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_01",
+    "style:quadra_turbo_basic_tygerclaws_05"
+   ]
+  },
+  {
+   "id": "tyger_3338",
+   "family": "tyger",
+   "code": "tygerclaws_stickers_02",
+   "where": [
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "tygerclaws_stickers_02",
+     "mesh": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__int01_tygerclaws_stickers_02.mesh",
+     "code": "tygerclaws_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_turbo_basic_tygerclaws_03",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "quadra_turbo_basic_tygerclaws_03",
+    "quadra_turbo_basic_tygerclaws_04",
+    "quadra_turbo_basic_tygerclaws_06"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:quadra_turbo_basic_tygerclaws_03",
+    "style:quadra_turbo_basic_tygerclaws_04",
+    "style:quadra_turbo_basic_tygerclaws_06"
+   ]
+  }
+ ],
+ "looks": {
+  "quadra_turbo_basic_poor_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "poor_01",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_urban_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "urban_01",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_urban_09": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "urban_09",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_urban_04": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "urban_04",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_urban_06": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "urban_06",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_poor_03": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "poor_03",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_urban_10": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "urban_10",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_poor_05": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "poor_05",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_urban_08": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "urban_08",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_urban_05": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "urban_05",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_poor_02": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "poor_02",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_urban_07": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "urban_07",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_urban_03": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "urban_03",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_poor_04": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "poor_04",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_player_02": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "player_02",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_player_q001_damaged": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "player_q001_damaged",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_tygerclaws_05": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "tygerclaws_05",
+   "style": "quadra_turbo_basic_tygerclaws_05",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.body.body_bottom_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_bottom_light_01"
+    },
+    "base.body.body_windshied_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_windshied_light_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "door.door.v_sport1_quadra_turbo_ext01_door_l_light": {
+     "fl": "v_sport1_quadra_turbo_ext01_door_l_light_01",
+     "fr": "v_sport1_quadra_turbo_ext01_door_r_light_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_tygerclaws_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "tygerclaws_01",
+   "style": "quadra_turbo_basic_tygerclaws_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.body.body_bottom_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_bottom_light_01"
+    },
+    "base.body.body_windshied_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_windshied_light_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "door.door.v_sport1_quadra_turbo_ext01_door_l_light": {
+     "fl": "v_sport1_quadra_turbo_ext01_door_l_light_01",
+     "fr": "v_sport1_quadra_turbo_ext01_door_r_light_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_tygerclaws_03": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "tygerclaws_03",
+   "style": "quadra_turbo_basic_tygerclaws_03",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.body.body_bottom_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_bottom_light_01"
+    },
+    "base.body.body_windshied_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_windshied_light_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "door.door.v_sport1_quadra_turbo_ext01_door_l_light": {
+     "fl": "v_sport1_quadra_turbo_ext01_door_l_light_01",
+     "fr": "v_sport1_quadra_turbo_ext01_door_r_light_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_player": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "player",
+   "style": "quadra_turbo_basic_player",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_tygerclaws_04": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "tygerclaws_04",
+   "style": "quadra_turbo_basic_tygerclaws_04",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.body.body_bottom_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_bottom_light_01"
+    },
+    "base.body.body_windshied_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_windshied_light_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "door.door.v_sport1_quadra_turbo_ext01_door_l_light": {
+     "fl": "v_sport1_quadra_turbo_ext01_door_l_light_01",
+     "fr": "v_sport1_quadra_turbo_ext01_door_r_light_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_tygerclaws_06": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "tygerclaws_06",
+   "style": "quadra_turbo_basic_tygerclaws_06",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.body.body_bottom_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_bottom_light_01"
+    },
+    "base.body.body_windshied_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_windshied_light_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "door.door.v_sport1_quadra_turbo_ext01_door_l_light": {
+     "fl": "v_sport1_quadra_turbo_ext01_door_l_light_01",
+     "fr": "v_sport1_quadra_turbo_ext01_door_r_light_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_tygerclaws_02": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "tygerclaws_02",
+   "style": "quadra_turbo_basic_tygerclaws_02",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.body.body_bottom_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_bottom_light_01"
+    },
+    "base.body.body_windshied_light": {
+     "all": "v_sport1_quadra_turbo__ext01_body_windshied_light_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "door.door.v_sport1_quadra_turbo_ext01_door_l_light": {
+     "fl": "v_sport1_quadra_turbo_ext01_door_l_light_01",
+     "fr": "v_sport1_quadra_turbo_ext01_door_r_light_01"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_burnt_player_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "burnt_player_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "quadra_turbo_basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    }
+   }
+  },
+  "quadra_turbo_basic_rebecca": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "rebecca",
+   "style": "quadra_turbo_basic_player",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_entropism": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "entropism",
+   "style": "quadra_turbo_basic_player",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_neomilitarism": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "neomilitarism",
+   "style": "quadra_turbo_basic_player",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_default": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "default",
+   "style": "quadra_turbo_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_02_bl_a",
+     "br": "wheel_02_br"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_02"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_02"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  },
+  "quadra_turbo_basic_neokitsch": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_turbo_basic.app",
+   "app_look": "neokitsch",
+   "style": "quadra_turbo_basic_player",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_a"
+    },
+    "base.window.window_b": {
+     "all": "window_b"
+    },
+    "base.window.window_c": {
+     "all": "window_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.bumper_b_light_l": {
+     "all": "bumper_b_light_l"
+    },
+    "bumper_back.bumper.bumper_b_light_r": {
+     "all": "bumper_b_light_r"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_floor_fl",
+     "fr": "door_floor_fr"
+    },
+    "door_b.door": {
+     "fl": "door_hinge_fl",
+     "fr": "door_hinge_fr"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3477,
+   0.3381,
+   0.2653,
+   -0.0716
+  ],
+  "b": [
+   0.3786,
+   0.4213,
+   0.2802,
+   -0.1367
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "07082344",
+   "rim": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Turbo-R 740",
+   "radius": 0.3786,
+   "width": 0.639,
+   "rim_radius": 0.2803,
+   "tire_center": -0.1116,
+   "axles": [
+    "b"
+   ],
+   "looks": 6,
+   "paints": [
+    "player",
+    "neomilitarism",
+    "entropism"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_turbo_basic_entropism",
+    "quadra_turbo_basic_neokitsch",
+    "quadra_turbo_basic_neomilitarism",
+    "quadra_turbo_basic_player",
+    "quadra_turbo_basic_player_q001_damaged",
+    "quadra_turbo_basic_rebecca"
+   ]
+  },
+  {
+   "id": "24b4fd3c",
+   "rim": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Turbo-R 740",
+   "radius": 0.3477,
+   "width": 0.3381,
+   "rim_radius": 0.2653,
+   "tire_center": -0.0716,
+   "axles": [
+    "f"
+   ],
+   "looks": 28,
+   "paints": [
+    "player",
+    "tygerclaws_01",
+    "tygerclaws_04",
+    "tygerclaws_05",
+    "tygerclaws_06",
+    "turbo_urban05",
+    "turbo_urban02",
+    "chrome",
+    "black_blue",
+    "neomilitarism",
+    "entropism"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_turbo_basic_default",
+    "quadra_turbo_basic_entropism",
+    "quadra_turbo_basic_neokitsch",
+    "quadra_turbo_basic_neomilitarism",
+    "quadra_turbo_basic_player",
+    "quadra_turbo_basic_player_02",
+    "quadra_turbo_basic_player_q001_damaged",
+    "quadra_turbo_basic_poor_01",
+    "quadra_turbo_basic_poor_02",
+    "quadra_turbo_basic_poor_03",
+    "quadra_turbo_basic_poor_04",
+    "quadra_turbo_basic_poor_05",
+    "quadra_turbo_basic_rebecca",
+    "quadra_turbo_basic_tygerclaws_01",
+    "quadra_turbo_basic_tygerclaws_02",
+    "quadra_turbo_basic_tygerclaws_03",
+    "quadra_turbo_basic_tygerclaws_04",
+    "quadra_turbo_basic_tygerclaws_05",
+    "quadra_turbo_basic_tygerclaws_06",
+    "quadra_turbo_basic_urban_01",
+    "quadra_turbo_basic_urban_03",
+    "quadra_turbo_basic_urban_04",
+    "quadra_turbo_basic_urban_05",
+    "quadra_turbo_basic_urban_06",
+    "quadra_turbo_basic_urban_07",
+    "quadra_turbo_basic_urban_08",
+    "quadra_turbo_basic_urban_09",
+    "quadra_turbo_basic_urban_10"
+   ]
+  },
+  {
+   "id": "45882302",
+   "rim": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_02.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_bl_02",
+   "tire_code": "tire_bl_02",
+   "from": "Turbo-R 740",
+   "radius": 0.3786,
+   "width": 0.4213,
+   "rim_radius": 0.2802,
+   "tire_center": -0.1367,
+   "axles": [
+    "b"
+   ],
+   "looks": 22,
+   "paints": [
+    "tygerclaws_03",
+    "tygerclaws_04",
+    "tygerclaws_05",
+    "tygerclaws_06",
+    "black_blue",
+    "chrome",
+    "turbo_urban02",
+    "turbo_urban05"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_turbo_basic_default",
+    "quadra_turbo_basic_player_02",
+    "quadra_turbo_basic_poor_01",
+    "quadra_turbo_basic_poor_02",
+    "quadra_turbo_basic_poor_03",
+    "quadra_turbo_basic_poor_04",
+    "quadra_turbo_basic_poor_05",
+    "quadra_turbo_basic_tygerclaws_01",
+    "quadra_turbo_basic_tygerclaws_02",
+    "quadra_turbo_basic_tygerclaws_03",
+    "quadra_turbo_basic_tygerclaws_04",
+    "quadra_turbo_basic_tygerclaws_05",
+    "quadra_turbo_basic_tygerclaws_06",
+    "quadra_turbo_basic_urban_01",
+    "quadra_turbo_basic_urban_03",
+    "quadra_turbo_basic_urban_04",
+    "quadra_turbo_basic_urban_05",
+    "quadra_turbo_basic_urban_06",
+    "quadra_turbo_basic_urban_07",
+    "quadra_turbo_basic_urban_08",
+    "quadra_turbo_basic_urban_09",
+    "quadra_turbo_basic_urban_10"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "quadra_turbo_basic_player",
+   "Turbo-R V-Tech"
+  ],
+  [
+   "quadra_turbo_basic_player_02",
+   "Turbo-R 740"
+  ]
+ ]
+}

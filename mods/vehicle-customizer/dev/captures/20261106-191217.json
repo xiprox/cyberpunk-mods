@@ -1,0 +1,38 @@
+{
+  "camera_forward": {
+    "x": -0.3,
+    "y": 1,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 22.6,
+    "x": -1857,
+    "y": -4272.6,
+    "z": 74.3
+  },
+  "look_object": {
+    "class": "forklift",
+    "entity_id": "15048249757136307265ULL",
+    "name": "Gameplay-Devices-DisplayNames-Forklift",
+    "position": {
+      "x": -1856.6,
+      "y": -4271.8,
+      "z": 74
+    }
+  },
+  "nearest": {
+    "distance": 18.2,
+    "id": "badlands_gas_station",
+    "name": "Badlands gas station"
+  },
+  "note": "",
+  "player": {
+    "x": -1850.7,
+    "y": -4294.3,
+    "yaw": 16.1,
+    "z": 74.1
+  },
+  "stamp": "20261106-191217",
+  "time": "2026-11-06 19:12:17"
+}

@@ -1,0 +1,28 @@
+{
+  "camera_forward": {
+    "x": 0.5,
+    "y": -0.9,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 399.9,
+    "x": -1096.4,
+    "y": -4561.2,
+    "z": 42.8
+  },
+  "nearest": {
+    "distance": 25.1,
+    "id": "badlands_lot",
+    "name": "Badlands lot"
+  },
+  "note": "",
+  "player": {
+    "x": -1302.7,
+    "y": -4219.2,
+    "yaw": -148.9,
+    "z": 62.3
+  },
+  "stamp": "20261106-183038",
+  "time": "2026-11-06 18:30:38"
+}

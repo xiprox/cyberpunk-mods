@@ -1,0 +1,6016 @@
+{
+ "id": "makigai_tanishi_basic_01_ep1",
+ "label": "Tanishi T400",
+ "entity": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi_basic_01.ent",
+ "family": "v_standard3_makigai_tanishi_basic",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard3_makigai_tanishi_player_mr_hands"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "makigai_tanishi_basic_cargo_01",
+   "code": "makigai_tanishi_basic_cargo_01",
+   "label": "Makigai tanishi basic cargo",
+   "base_look": "makigai_tanishi_basic_cargo_01",
+   "looks": [
+    "makigai_tanishi_basic_cargo_01",
+    "makigai_tanishi_basic_cargo_04"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd678a81",
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "0f2d94b0",
+    "wheel.wheel": "a5cd2a2d",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": [
+    "antenna_39b6"
+   ]
+  },
+  {
+   "id": "makigai_tanishi_basic_cargo_02",
+   "code": "makigai_tanishi_basic_cargo_02",
+   "label": "Makigai tanishi basic cargo 02",
+   "base_look": "makigai_tanishi_basic_cargo_02",
+   "looks": [
+    "makigai_tanishi_basic_cargo_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd678a81",
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.tank": "dc270b69",
+    "base.tank.drug_lab_equipment_c_tank_a4074": "9ec79572",
+    "base.tank.drug_lab_tank_big_center_a": "3586662d",
+    "base.tank.drug_lab_tank_big_top_a": "2f131689",
+    "base.tank.drug_lab_tank_big_top_b": "6d327ee7",
+    "base.tank.drug_lab_tank_big_top_c": "316493b6",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "0f2d94b0",
+    "wheel.wheel": "a5cd2a2d",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": [
+    "antenna_39b6"
+   ]
+  },
+  {
+   "id": "makigai_tanishi_basic_cargo_03",
+   "code": "makigai_tanishi_basic_cargo_03",
+   "label": "Makigai tanishi basic cargo 03",
+   "base_look": "makigai_tanishi_basic_cargo_03",
+   "looks": [
+    "makigai_tanishi_basic_cargo_03"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd678a81",
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.tank": "cda6f97e",
+    "base.tank.drug_lab_equipment_c_tank_a4074": "09ce05fb",
+    "base.tank.drug_lab_tank_big_center_a": "a67c7ba6",
+    "base.tank.drug_lab_tank_big_top_a": "1357bca8",
+    "base.tank.drug_lab_tank_big_top_b": "a2bef0fe",
+    "base.tank.drug_lab_tank_big_top_c": "0bbbebd4",
+    "base.tank.gas_tank_e": "aa033ca6",
+    "base.tank.gas_tank_e6425": "b1c77813",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "0f2d94b0",
+    "wheel.wheel": "a5cd2a2d",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": [
+    "antenna_39b6"
+   ]
+  },
+  {
+   "id": "makigai_tanishi_basic_poor_01",
+   "code": "makigai_tanishi_basic_poor_01",
+   "label": "Makigai tanishi basic poor",
+   "base_look": "makigai_tanishi_basic_poor_01",
+   "looks": [
+    "makigai_tanishi_basic_poor_01",
+    "makigai_tanishi_basic_poor_03",
+    "makigai_tanishi_basic_poor_05"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd678a81",
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "573406a8",
+    "wheel.wheel": "6dc63b45",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": []
+  },
+  {
+   "id": "makigai_tanishi_basic_poor_02",
+   "code": "makigai_tanishi_basic_poor_02",
+   "label": "Makigai tanishi basic poor 02",
+   "base_look": "makigai_tanishi_basic_poor_02",
+   "looks": [
+    "makigai_tanishi_basic_poor_02",
+    "makigai_tanishi_basic_poor_04",
+    "makigai_tanishi_basic_poor_06",
+    "makigai_tanishi_basic_poor_07",
+    "makigai_tanishi_basic_poor_13",
+    "makigai_tanishi_basic_poor_14",
+    "makigai_tanishi_basic_poor_15"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd678a81",
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "573406a8",
+    "wheel.wheel": "2a344825",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": []
+  },
+  {
+   "id": "makigai_tanishi_basic_poor_08",
+   "code": "makigai_tanishi_basic_poor_08",
+   "label": "Makigai tanishi basic poor 08",
+   "base_look": "makigai_tanishi_basic_poor_08",
+   "looks": [
+    "makigai_tanishi_basic_poor_08",
+    "makigai_tanishi_basic_poor_09",
+    "makigai_tanishi_basic_poor_10",
+    "makigai_tanishi_basic_poor_11",
+    "makigai_tanishi_basic_poor_12"
+   ],
+   "options": {
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "573406a8",
+    "wheel.wheel": "6dc63b45",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": []
+  },
+  {
+   "id": "makigai_tanishi_basic_suburban_01",
+   "code": "makigai_tanishi_basic_suburban_01",
+   "label": "Makigai tanishi basic suburban",
+   "base_look": "makigai_tanishi_basic_suburban_01",
+   "looks": [
+    "makigai_tanishi_basic_suburban_01",
+    "makigai_tanishi_basic_suburban_02",
+    "makigai_tanishi_basic_suburban_03",
+    "makigai_tanishi_basic_suburban_04",
+    "makigai_tanishi_basic_player_mr_hands"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd678a81",
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "573406a8",
+    "wheel.wheel": "2a344825",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": [
+    "antenna_39b6"
+   ]
+  },
+  {
+   "id": "makigai_tanishi_basic_suburban_05",
+   "code": "makigai_tanishi_basic_suburban_05",
+   "label": "Makigai tanishi basic suburban 05",
+   "base_look": "makigai_tanishi_basic_suburban_05",
+   "looks": [
+    "makigai_tanishi_basic_suburban_05",
+    "makigai_tanishi_basic_suburban_06",
+    "makigai_tanishi_basic_suburban_07",
+    "makigai_tanishi_basic_suburban_08"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd678a81",
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "573406a8",
+    "wheel.wheel": "79e80f7d",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": [
+    "antenna_39b6"
+   ]
+  },
+  {
+   "id": "makigai_tanishi_basic_suburban_09",
+   "code": "makigai_tanishi_basic_suburban_09",
+   "label": "Makigai tanishi basic suburban 09",
+   "base_look": "makigai_tanishi_basic_suburban_09",
+   "looks": [
+    "makigai_tanishi_basic_suburban_09",
+    "makigai_tanishi_basic_suburban_10"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd678a81",
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.trunk": "90271136",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "573406a8",
+    "wheel.wheel": "2a344825",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": []
+  },
+  {
+   "id": "makigai_tanishi_basic_urban_01",
+   "code": "makigai_tanishi_basic_urban_01",
+   "label": "Makigai tanishi basic urban",
+   "base_look": "makigai_tanishi_basic_urban_01",
+   "looks": [
+    "makigai_tanishi_basic_urban_01",
+    "makigai_tanishi_basic_urban_02",
+    "makigai_tanishi_basic_urban_03",
+    "makigai_tanishi_basic_urban_04",
+    "makigai_tanishi_basic_urban_05",
+    "makigai_tanishi_basic_urban_06",
+    "makigai_tanishi_basic_urban_07",
+    "makigai_tanishi_basic_urban_08",
+    "makigai_tanishi_basic_urban_09",
+    "makigai_tanishi_basic_urban_10"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd678a81",
+    "bumper_back.bumper": "6ceb206f",
+    "hood_a.hood": "88acee7d",
+    "trunk_a.trunk": "75277345",
+    "base.body": "e67f2a08",
+    "base.interior": "538784bc",
+    "base.window": "8cb603f5",
+    "base.window.window_br": "83b22dca",
+    "base.window.window_f": "72bff612",
+    "wheel.tire": "573406a8",
+    "wheel.wheel": "79e80f7d",
+    "door.door": "1fe69191",
+    "door.mirror": "4715d6eb"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "makigai_tanishi_basic_burnt_01",
+  "makigai_tanishi_basic_burnt_hfs_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01_a"
+   ],
+   "options": [
+    {
+     "id": "dd678a81",
+     "code": "f_bumper_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_f_bumper_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_f_bumper_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_04",
+     "paints": [
+      "player_01",
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic:player_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "look:player_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+   ],
+   "options": [
+    {
+     "id": "6ceb206f",
+     "code": "b_bumper_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_b_bumper_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_b_bumper_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_04",
+     "paints": [
+      "player_01",
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic:player_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "look:player_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "88acee7d",
+     "code": "hood_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_hood_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_04",
+     "paints": [
+      "player_01",
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic:player_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "look:player_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "75277345",
+     "code": "trunk_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_trunk_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_08",
+     "paints": [
+      "player_01",
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic:player_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "look:player_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard3_makigai_tanishi__ext01_body_01"
+   ],
+   "options": [
+    {
+     "id": "e67f2a08",
+     "code": "body_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_body_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_08",
+     "paints": [
+      "player_01",
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic_burnt_01",
+      "makigai_tanishi_basic_burnt_hfs_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01",
+      "wreck:makigai_tanishi_basic_burnt_01",
+      "wreck:makigai_tanishi_basic_burnt_hfs_01"
+     ]
+    },
+    {
+     "id": "1f8c51e6",
+     "code": "body_player_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_body_player_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_body_player_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_01",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:burnt_player_01",
+      "makigai_tanishi_basic:player_01"
+     ],
+     "origins": [
+      "look:burnt_player_01",
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard3_makigai_tanishi__ext01_interior_01"
+   ],
+   "options": [
+    {
+     "id": "538784bc",
+     "code": "interior_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_08",
+     "paints": [
+      "player_01",
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic_burnt_01",
+      "makigai_tanishi_basic_burnt_hfs_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01",
+      "wreck:makigai_tanishi_basic_burnt_01",
+      "wreck:makigai_tanishi_basic_burnt_hfs_01"
+     ]
+    },
+    {
+     "id": "0a2c656a",
+     "code": "interior_player_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_interior_player_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_interior_player_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic:burnt_player_01",
+      "makigai_tanishi_basic:player_01"
+     ],
+     "origins": [
+      "look:burnt_player_01",
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.mirror",
+   "label": "Mirrors",
+   "kind": "mirror",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.822,
+     0.479,
+     0.2584
+    ]
+   ],
+   "rotations": [
+    [
+     0.026176953688263893,
+     0.0,
+     0.0,
+     0.999657392501831
+    ]
+   ],
+   "roles": [
+    "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+   ],
+   "options": [
+    {
+     "id": "98d148f5",
+     "code": "mirror_fl_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_mirror_fl_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_mirror_fl_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "player_01",
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:burnt_player_01",
+      "makigai_tanishi_basic:player_01"
+     ],
+     "origins": [
+      "look:burnt_player_01",
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank",
+   "label": "Tank: drug lab equipment c a",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.338,
+     -0.7501,
+     0.19
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "drug_lab_equipment_c_tank_a",
+    "gas_tank_b"
+   ],
+   "options": [
+    {
+     "id": "cda6f97e",
+     "code": "drug_lab_equipment_c_tank_a",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\drug_lab_equipment_c_tank_a.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic_cargo_03"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    },
+    {
+     "id": "dc270b69",
+     "code": "gas_tank_b",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_b.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "device"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_cargo_02"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank.drug_lab_equipment_c_tank_a4074",
+   "label": "Tank: drug lab equipment c a4074",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.4512,
+     -0.7501,
+     0.19
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.48480966687202454,
+     0.874619722366333
+    ]
+   ],
+   "roles": [
+    "drug_lab_equipment_c_tank_a4074",
+    "gas_tank_b2872"
+   ],
+   "options": [
+    {
+     "id": "09ce05fb",
+     "code": "drug_lab_equipment_c_tank_a",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\drug_lab_equipment_c_tank_a.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic_cargo_03"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    },
+    {
+     "id": "9ec79572",
+     "code": "gas_tank_b",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_b.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "device"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_cargo_02"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank.drug_lab_tank_big_center_a",
+   "label": "Tank: drug lab big center a",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.2905,
+     -1.0649,
+     0.0943
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "drug_lab_tank_big_center_a",
+    "gas_tank_b5351"
+   ],
+   "options": [
+    {
+     "id": "a67c7ba6",
+     "code": "drug_lab_tank_big_center_a",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\drug_lab_tank_big_center_a.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic_cargo_03"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    },
+    {
+     "id": "3586662d",
+     "code": "gas_tank_b",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_b.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "device"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_cargo_02"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank.drug_lab_tank_big_top_a",
+   "label": "Tank: drug lab big top a",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.2905,
+     -1.0649,
+     0.4757
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "drug_lab_tank_big_top_a",
+    "gas_tank_b5622"
+   ],
+   "options": [
+    {
+     "id": "1357bca8",
+     "code": "drug_lab_tank_big_top_a",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\drug_lab_tank_big_top_a.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic_cargo_03"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    },
+    {
+     "id": "2f131689",
+     "code": "gas_tank_b",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_b.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "device"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_cargo_02"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank.drug_lab_tank_big_top_b",
+   "label": "Tank: drug lab big top back",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.2201,
+     -0.9941,
+     0.4739
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "drug_lab_tank_big_top_b",
+    "gas_tank_c"
+   ],
+   "options": [
+    {
+     "id": "a2bef0fe",
+     "code": "drug_lab_tank_big_top_b",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\drug_lab_tank_big_top_b.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic_cargo_03"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    },
+    {
+     "id": "6d327ee7",
+     "code": "gas_tank_c",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_c.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "device"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_cargo_02"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank.drug_lab_tank_big_top_c",
+   "label": "Tank: drug lab big top c",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.0038,
+     -1.3703,
+     0.0945
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     -0.9869002103805542,
+     0.16133172810077667
+    ]
+   ],
+   "roles": [
+    "drug_lab_tank_big_top_c",
+    "gas_tank_c0615"
+   ],
+   "options": [
+    {
+     "id": "0bbbebd4",
+     "code": "drug_lab_tank_big_top_c",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\drug_lab_tank_big_top_c.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic_cargo_03"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    },
+    {
+     "id": "316493b6",
+     "code": "gas_tank_c",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_c.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "device"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_cargo_02"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank.gas_tank_e",
+   "label": "Tank: gas e",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.3605,
+     -1.4278,
+     0.0998
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "gas_tank_e"
+   ],
+   "options": [
+    {
+     "id": "aa033ca6",
+     "code": "gas_tank_e",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_e.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "green",
+      "device"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_cargo_03"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank.gas_tank_e6425",
+   "label": "Tank: gas e6425",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.3418,
+     -1.4297,
+     0.0947
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.20897452533245087,
+     0.9779210686683655
+    ]
+   ],
+   "roles": [
+    "gas_tank_e6425"
+   ],
+   "options": [
+    {
+     "id": "b1c77813",
+     "code": "gas_tank_e",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_e.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "green",
+      "device"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_cargo_03"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_cover_01",
+    "trunk_cover_02"
+   ],
+   "options": [
+    {
+     "id": "90271136",
+     "code": "trunk_cover_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_trunk_cover_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_trunk_cover_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_suburban_09"
+     ]
+    },
+    {
+     "id": "68724c69",
+     "code": "trunk_cover_02",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_trunk_cover_02.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_trunk_cover_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic_burnt_hfs_01"
+     ],
+     "origins": [
+      "wreck:makigai_tanishi_basic_burnt_hfs_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield: back left",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard3_makigai_tanishi__ext01_window_bl_01"
+   ],
+   "options": [
+    {
+     "id": "8cb603f5",
+     "code": "window_bl_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_window_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor",
+      "black_tint"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic_burnt_01",
+      "makigai_tanishi_basic_burnt_hfs_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01",
+      "wreck:makigai_tanishi_basic_burnt_01",
+      "wreck:makigai_tanishi_basic_burnt_hfs_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_br",
+   "label": "Windshield: back right",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard3_makigai_tanishi__ext01_window_br_01"
+   ],
+   "options": [
+    {
+     "id": "83b22dca",
+     "code": "window_br_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_window_br_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor",
+      "black_tint"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic_burnt_01",
+      "makigai_tanishi_basic_burnt_hfs_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01",
+      "wreck:makigai_tanishi_basic_burnt_01",
+      "wreck:makigai_tanishi_basic_burnt_hfs_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_f",
+   "label": "Windshield: front",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard3_makigai_tanishi__ext01_window_f_01"
+   ],
+   "options": [
+    {
+     "id": "72bff612",
+     "code": "window_f_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black_tint",
+      "green_tint",
+      "red_tint"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic_burnt_01",
+      "makigai_tanishi_basic_burnt_hfs_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01",
+      "wreck:makigai_tanishi_basic_burnt_01",
+      "wreck:makigai_tanishi_basic_burnt_hfs_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0484,
+     0.0,
+     0.0
+    ],
+    [
+     -0.049,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a",
+    "tire_<c>_b_01"
+   ],
+   "options": [
+    {
+     "id": "573406a8",
+     "code": "tire_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01_shadowmesh.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01_shadowmesh.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01_shadowmesh.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tire_clean",
+      "tire_dirty",
+      "tire_wall_yellow",
+      "tire_wall_player"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01"
+     ]
+    },
+    {
+     "id": "0f2d94b0",
+     "code": "tire_a_01",
+     "vehicle": "Hellhound",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01_shadowmesh.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01_shadowmesh.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01_shadowmesh.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    },
+    {
+     "id": "75ed22b2",
+     "code": "tire_01 + tire_02",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_02.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_02.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01_shadowmesh.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01_shadowmesh.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_02_shadow.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "tire_wall_player",
+     "paints": [
+      "tire_clean",
+      "tire_dirty",
+      "tire_wall_yellow",
+      "tire_wall_player"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims: a",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_<c>_b_01"
+   ],
+   "options": [
+    {
+     "id": "2a344825",
+     "code": "wheel_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wheel_white",
+     "paints": [
+      "wheel_black",
+      "wheel_white",
+      "wheel_gray",
+      "wheel_white_dirty",
+      "wheel_black_dirty",
+      "wheel_gray_dirty"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_09"
+     ]
+    },
+    {
+     "id": "79e80f7d",
+     "code": "wheel_03",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_03.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_03.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_03.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "black",
+      "silver"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:player_01",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:player_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_urban_01"
+     ]
+    },
+    {
+     "id": "6dc63b45",
+     "code": "wheel_02",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_02.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_02.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_02.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wheel_01",
+      "wheel_02"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_08"
+     ]
+    },
+    {
+     "id": "a5cd2a2d",
+     "code": "wheel_a_01",
+     "vehicle": "Hellhound",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player_01",
+      "police_01"
+     ],
+     "looks": [
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04"
+     ],
+     "origins": [
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel.wheel_b",
+   "label": "Rims: back",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     -0.2525,
+     0.0,
+     0.0
+    ],
+    [
+     -0.2564,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "5a61be5b",
+     "code": "wheel_03",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "bl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_03.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "silver",
+     "paints": [
+      "black",
+      "silver"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a",
+    "v_standard3_makigai_tanishi__ext01_door_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "1fe69191",
+     "code": "door_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_door_fl_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_door_fl_01_shadowmesh.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_door_fr_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_08",
+     "paints": [
+      "player_01",
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01"
+     ]
+    },
+    {
+     "id": "3d80c6e1",
+     "code": "door_player_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_door_fl_player_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_door_fr_player_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_door_fl_player_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_door_fr_player_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_tanishi_basic:player_01"
+     ],
+     "origins": [
+      "look:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.mirror",
+   "label": "Mirrors",
+   "kind": "mirror",
+   "group": "door",
+   "corners": [
+    "fl"
+   ],
+   "mounts": [
+    "door_front_left_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.005122000351548195,
+     4.500000432017259e-05,
+     -0.008700001053512096,
+     0.9999490976333618
+    ]
+   ],
+   "roles": [
+    "v_standard3_makigai_tanishi__ext01_mirror_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "4715d6eb",
+     "code": "mirror_fl_01",
+     "vehicle": "v_standard3_makigai_tanishi",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_mirror_fl_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_mirror_fl_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_08",
+     "paints": [
+      "player_01",
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "makigai_tanishi_basic:hfs_01",
+      "makigai_tanishi_basic_cargo_01",
+      "makigai_tanishi_basic_cargo_02",
+      "makigai_tanishi_basic_cargo_03",
+      "makigai_tanishi_basic_cargo_04",
+      "makigai_tanishi_basic_player_mr_hands",
+      "makigai_tanishi_basic_poor_01",
+      "makigai_tanishi_basic_poor_02",
+      "makigai_tanishi_basic_poor_03",
+      "makigai_tanishi_basic_poor_04",
+      "makigai_tanishi_basic_poor_05",
+      "makigai_tanishi_basic_poor_06",
+      "makigai_tanishi_basic_poor_07",
+      "makigai_tanishi_basic_poor_08",
+      "makigai_tanishi_basic_poor_09",
+      "makigai_tanishi_basic_poor_10",
+      "makigai_tanishi_basic_poor_11",
+      "makigai_tanishi_basic_poor_12",
+      "makigai_tanishi_basic_poor_13",
+      "makigai_tanishi_basic_poor_14",
+      "makigai_tanishi_basic_poor_15",
+      "makigai_tanishi_basic_suburban_01",
+      "makigai_tanishi_basic_suburban_02",
+      "makigai_tanishi_basic_suburban_03",
+      "makigai_tanishi_basic_suburban_04",
+      "makigai_tanishi_basic_suburban_05",
+      "makigai_tanishi_basic_suburban_06",
+      "makigai_tanishi_basic_suburban_07",
+      "makigai_tanishi_basic_suburban_08",
+      "makigai_tanishi_basic_suburban_09",
+      "makigai_tanishi_basic_suburban_10",
+      "makigai_tanishi_basic_urban_01",
+      "makigai_tanishi_basic_urban_02",
+      "makigai_tanishi_basic_urban_03",
+      "makigai_tanishi_basic_urban_04",
+      "makigai_tanishi_basic_urban_05",
+      "makigai_tanishi_basic_urban_06",
+      "makigai_tanishi_basic_urban_07",
+      "makigai_tanishi_basic_urban_08",
+      "makigai_tanishi_basic_urban_09",
+      "makigai_tanishi_basic_urban_10"
+     ],
+     "origins": [
+      "look:hfs_01",
+      "style:makigai_tanishi_basic_cargo_01",
+      "style:makigai_tanishi_basic_cargo_02",
+      "style:makigai_tanishi_basic_cargo_03",
+      "style:makigai_tanishi_basic_poor_01",
+      "style:makigai_tanishi_basic_poor_02",
+      "style:makigai_tanishi_basic_poor_08",
+      "style:makigai_tanishi_basic_suburban_01",
+      "style:makigai_tanishi_basic_suburban_05",
+      "style:makigai_tanishi_basic_suburban_09",
+      "style:makigai_tanishi_basic_urban_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "antenna_39b6",
+   "family": "antenna",
+   "code": "antenna_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "antenna_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_antenna_01.mesh",
+     "code": "antenna_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard3_makigai_tanishi__ext01_body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_tanishi_basic_suburban_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "makigai_tanishi_basic_cargo_01",
+    "makigai_tanishi_basic_cargo_02",
+    "makigai_tanishi_basic_cargo_03",
+    "makigai_tanishi_basic_cargo_04",
+    "makigai_tanishi_basic_player_mr_hands",
+    "makigai_tanishi_basic_suburban_01",
+    "makigai_tanishi_basic_suburban_02",
+    "makigai_tanishi_basic_suburban_03",
+    "makigai_tanishi_basic_suburban_04",
+    "makigai_tanishi_basic_suburban_05",
+    "makigai_tanishi_basic_suburban_06",
+    "makigai_tanishi_basic_suburban_07",
+    "makigai_tanishi_basic_suburban_08"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:makigai_tanishi_basic_cargo_01",
+    "style:makigai_tanishi_basic_cargo_02",
+    "style:makigai_tanishi_basic_cargo_03",
+    "style:makigai_tanishi_basic_suburban_01",
+    "style:makigai_tanishi_basic_suburban_05"
+   ]
+  },
+  {
+   "id": "nomad_416e",
+   "family": "nomad",
+   "code": "kit_nomad_trunk",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_04",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_04.mesh",
+     "code": "electric_device_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_cover_02",
+     "slot": null,
+     "position": [
+      -0.0398,
+      -0.2979,
+      1.215
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_tanishi_basic_burnt_hfs_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_4134",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_04.mesh",
+     "code": "electric_device_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_cover_02",
+     "slot": null,
+     "position": [
+      -0.0398,
+      -0.0501,
+      1.215
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_tanishi_basic_burnt_hfs_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_01.mesh",
+     "code": "electric_device_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "trunk_cover_02",
+     "slot": null,
+     "position": [
+      0.2593,
+      -0.1576,
+      1.1564
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_tanishi_basic_burnt_hfs_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_03.mesh",
+     "code": "electric_device_medium_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_cover_02",
+     "slot": null,
+     "position": [
+      0.4407,
+      0.1276,
+      1.2449
+     ],
+     "rotation": [
+      -0.7071068286895752,
+      0.0,
+      0.0,
+      0.7071068286895752
+     ],
+     "shadow": null,
+     "look": "makigai_tanishi_basic_burnt_hfs_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_7374",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_03.mesh",
+     "code": "electric_device_medium_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_cover_02",
+     "slot": null,
+     "position": [
+      -0.0204,
+      0.1276,
+      1.2449
+     ],
+     "rotation": [
+      -0.7071068286895752,
+      0.0,
+      0.0,
+      0.7071068286895752
+     ],
+     "shadow": null,
+     "look": "makigai_tanishi_basic_burnt_hfs_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "makigai_tanishi_basic_burnt_hfs_01"
+   ],
+   "made_for": [
+    "slot:base.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "wreck:makigai_tanishi_basic_burnt_hfs_01"
+   ]
+  },
+  {
+   "id": "player_e6c0",
+   "family": "player",
+   "code": "kit_player_body_interior",
+   "where": [
+    "body",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "rollbar_player_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_body_rollbar_player_01.mesh",
+     "code": "body_rollbar_player_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard3_makigai_tanishi__ext01_body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_body_rollbar_player_01_shadow.mesh",
+     "look": "makigai_tanishi_basic:player_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard3_makigai_tanishi__ext01_bolts_player_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_bolts_player_01.mesh",
+     "code": "bolts_player_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard3_makigai_tanishi__ext01_body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_tanishi_basic:player_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard3_makigai_tanishi__ext01_seat_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_seat_player_01.mesh",
+     "code": "seat_player_01",
+     "paint": "poor_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard3_makigai_tanishi__ext01_interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0712,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_tanishi_basic:player_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "makigai_tanishi_basic:burnt_player_01",
+    "makigai_tanishi_basic:player_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_player_01",
+    "look:player_01"
+   ]
+  }
+ ],
+ "looks": {
+  "makigai_tanishi_basic_poor_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_01",
+   "style": "makigai_tanishi_basic_poor_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_01",
+   "style": "makigai_tanishi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_01",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_burnt_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_02",
+   "style": "makigai_tanishi_basic_poor_02",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_02",
+   "style": "makigai_tanishi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_03",
+   "style": "makigai_tanishi_basic_poor_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_03",
+   "style": "makigai_tanishi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_06": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_06",
+   "style": "makigai_tanishi_basic_suburban_05",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_05": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_05",
+   "style": "makigai_tanishi_basic_suburban_05",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_04": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_04",
+   "style": "makigai_tanishi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_07": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_07",
+   "style": "makigai_tanishi_basic_suburban_05",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_10": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_10",
+   "style": "makigai_tanishi_basic_suburban_09",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    },
+    "base.trunk": {
+     "all": "trunk_cover_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_09": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_09",
+   "style": "makigai_tanishi_basic_suburban_09",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    },
+    "base.trunk": {
+     "all": "trunk_cover_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_02",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_04": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_04",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_03",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_04": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_04",
+   "style": "makigai_tanishi_basic_poor_02",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_cargo_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "cargo_01",
+   "style": "makigai_tanishi_basic_cargo_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_b_01",
+     "br": "wheel_br_b_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_b_01",
+     "fr": "tire_fr_b_01",
+     "bl": "tire_bl_b_01",
+     "br": "tire_br_b_01"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_cargo_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "cargo_03",
+   "style": "makigai_tanishi_basic_cargo_03",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_b_01",
+     "br": "wheel_br_b_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_b_01",
+     "fr": "tire_fr_b_01",
+     "bl": "tire_bl_b_01",
+     "br": "tire_br_b_01"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    },
+    "base.tank": {
+     "all": "drug_lab_equipment_c_tank_a"
+    },
+    "base.tank.drug_lab_equipment_c_tank_a4074": {
+     "all": "drug_lab_equipment_c_tank_a4074"
+    },
+    "base.tank.drug_lab_tank_big_center_a": {
+     "all": "drug_lab_tank_big_center_a"
+    },
+    "base.tank.drug_lab_tank_big_top_a": {
+     "all": "drug_lab_tank_big_top_a"
+    },
+    "base.tank.drug_lab_tank_big_top_b": {
+     "all": "drug_lab_tank_big_top_b"
+    },
+    "base.tank.drug_lab_tank_big_top_c": {
+     "all": "drug_lab_tank_big_top_c"
+    },
+    "base.tank.drug_lab_tank_big_center_a0073": {
+     "all": "drug_lab_tank_big_center_a0073"
+    },
+    "base.tank.gas_tank_e": {
+     "all": "gas_tank_e"
+    },
+    "base.tank.gas_tank_e6425": {
+     "all": "gas_tank_e6425"
+    }
+   }
+  },
+  "makigai_tanishi_basic_cargo_04": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "cargo_04",
+   "style": "makigai_tanishi_basic_cargo_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_b_01",
+     "br": "wheel_br_b_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_b_01",
+     "fr": "tire_fr_b_01",
+     "bl": "tire_bl_b_01",
+     "br": "tire_br_b_01"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_cargo_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "cargo_02",
+   "style": "makigai_tanishi_basic_cargo_02",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_b_01",
+     "br": "wheel_br_b_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_b_01",
+     "fr": "tire_fr_b_01",
+     "bl": "tire_bl_b_01",
+     "br": "tire_br_b_01"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    },
+    "base.tank": {
+     "all": "gas_tank_b"
+    },
+    "base.tank.drug_lab_equipment_c_tank_a4074": {
+     "all": "gas_tank_b2872"
+    },
+    "base.tank.drug_lab_tank_big_center_a": {
+     "all": "gas_tank_b5351"
+    },
+    "base.tank.drug_lab_tank_big_top_a": {
+     "all": "gas_tank_b5622"
+    },
+    "base.tank.drug_lab_tank_big_top_b": {
+     "all": "gas_tank_c"
+    },
+    "base.tank.drug_lab_tank_big_top_c": {
+     "all": "gas_tank_c0615"
+    }
+   }
+  },
+  "makigai_tanishi_basic_burnt_hfs_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "burnt_hfs_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "base.trunk": {
+     "all": "trunk_cover_02"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_05": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_05",
+   "style": "makigai_tanishi_basic_poor_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_06": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_06",
+   "style": "makigai_tanishi_basic_poor_02",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_05": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_05",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_07": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_07",
+   "style": "makigai_tanishi_basic_poor_02",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_08": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_08",
+   "style": "makigai_tanishi_basic_poor_08",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_10": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_10",
+   "style": "makigai_tanishi_basic_poor_08",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_09": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_09",
+   "style": "makigai_tanishi_basic_poor_08",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_11": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_11",
+   "style": "makigai_tanishi_basic_poor_08",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_13": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_13",
+   "style": "makigai_tanishi_basic_poor_02",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_suburban_08": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "suburban_08",
+   "style": "makigai_tanishi_basic_suburban_05",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_15": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_15",
+   "style": "makigai_tanishi_basic_poor_02",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_07": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_07",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_09": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_09",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_10": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_10",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_12": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_12",
+   "style": "makigai_tanishi_basic_poor_08",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_poor_14": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "poor_14",
+   "style": "makigai_tanishi_basic_poor_02",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_08": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_08",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_urban_06": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "urban_06",
+   "style": "makigai_tanishi_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  },
+  "makigai_tanishi_basic_player_mr_hands": {
+   "app": "ep1\\vehicles\\appearances\\standard\\makigai_tanishi_basic.app",
+   "app_look": "player_mr_hands",
+   "style": "makigai_tanishi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.body": {
+     "all": "v_standard3_makigai_tanishi__ext01_body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01_a"
+    },
+    "bumper_back.bumper": {
+     "all": "v_standard3_makigai_tanishi__ext01_b_bumper_01"
+    },
+    "door.door": {
+     "fl": "v_standard3_makigai_tanishi__ext01_door_fl_01",
+     "fr": "door_fr_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_makigai_tanishi__ext01_interior_01"
+    },
+    "base.window": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_bl_01"
+    },
+    "base.window.window_br": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_br_01"
+    },
+    "base.window.window_f": {
+     "all": "v_standard3_makigai_tanishi__ext01_window_f_01"
+    },
+    "door.mirror": {
+     "fl": "v_standard3_makigai_tanishi__ext01_mirror_fl_01"
+    },
+    "window.window": {
+     "fl": "v_standard3_makigai_tanishi__ext01_window_fl_01",
+     "fr": "v_standard3_makigai_tanishi__ext01_window_fr_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4428,
+   0.3729,
+   0.2321,
+   0.0
+  ],
+  "b": [
+   0.4428,
+   0.3729,
+   0.2321,
+   0.0
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "b891e82b",
+   "rim": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_03.mesh",
+   "tire": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_02_shadow.mesh",
+   "code": "wheel_03",
+   "tire_code": "tire_02",
+   "from": "Tanishi T400",
+   "radius": 0.4452,
+   "width": 0.5105,
+   "rim_radius": 0.2397,
+   "tire_center": -0.0784,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [
+    "black",
+    "silver"
+   ],
+   "default_paint": "silver",
+   "kind": "car",
+   "look_names": [
+    "makigai_tanishi_basic:player_01"
+   ]
+  },
+  {
+   "id": "a71b7ae4",
+   "rim": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_03.mesh",
+   "tire": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01_shadowmesh.mesh",
+   "code": "wheel_03",
+   "tire_code": "tire_01",
+   "from": "Tanishi T400",
+   "radius": 0.4428,
+   "width": 0.3729,
+   "rim_radius": 0.2397,
+   "tire_center": 0.0,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 29,
+   "paints": [
+    "black",
+    "silver"
+   ],
+   "default_paint": "black",
+   "kind": "car",
+   "look_names": [
+    "makigai_tanishi_basic:player_01",
+    "makigai_tanishi_basic_suburban_05",
+    "makigai_tanishi_basic_suburban_06",
+    "makigai_tanishi_basic_suburban_07",
+    "makigai_tanishi_basic_suburban_08",
+    "makigai_tanishi_basic_urban_01",
+    "makigai_tanishi_basic_urban_02",
+    "makigai_tanishi_basic_urban_03",
+    "makigai_tanishi_basic_urban_04",
+    "makigai_tanishi_basic_urban_05",
+    "makigai_tanishi_basic_urban_06",
+    "makigai_tanishi_basic_urban_07",
+    "makigai_tanishi_basic_urban_08",
+    "makigai_tanishi_basic_urban_09",
+    "makigai_tanishi_basic_urban_10"
+   ]
+  },
+  {
+   "id": "abb9f4a1",
+   "rim": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_02.mesh",
+   "tire": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01_shadowmesh.mesh",
+   "code": "wheel_02",
+   "tire_code": "tire_01",
+   "from": "Tanishi T400",
+   "radius": 0.4428,
+   "width": 0.3729,
+   "rim_radius": 0.2391,
+   "tire_center": 0.0,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 16,
+   "paints": [
+    "wheel_01",
+    "wheel_02"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "makigai_tanishi_basic_poor_01",
+    "makigai_tanishi_basic_poor_03",
+    "makigai_tanishi_basic_poor_05",
+    "makigai_tanishi_basic_poor_08",
+    "makigai_tanishi_basic_poor_09",
+    "makigai_tanishi_basic_poor_10",
+    "makigai_tanishi_basic_poor_11",
+    "makigai_tanishi_basic_poor_12"
+   ]
+  },
+  {
+   "id": "28c3040a",
+   "rim": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_wheel_01.mesh",
+   "tire": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\standard\\v_standard3_makigai_tanishi\\entities\\meshes\\v_standard3_makigai_tanishi__ext01_tire_01_shadowmesh.mesh",
+   "code": "wheel_01",
+   "tire_code": "tire_01",
+   "from": "Tanishi T400",
+   "radius": 0.4428,
+   "width": 0.3729,
+   "rim_radius": 0.2321,
+   "tire_center": 0.0,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 30,
+   "paints": [
+    "wheel_black",
+    "wheel_white",
+    "wheel_gray",
+    "wheel_white_dirty",
+    "wheel_black_dirty",
+    "wheel_gray_dirty"
+   ],
+   "default_paint": "wheel_white",
+   "kind": "car",
+   "look_names": [
+    "makigai_tanishi_basic:hfs_01",
+    "makigai_tanishi_basic_player_mr_hands",
+    "makigai_tanishi_basic_poor_02",
+    "makigai_tanishi_basic_poor_04",
+    "makigai_tanishi_basic_poor_06",
+    "makigai_tanishi_basic_poor_07",
+    "makigai_tanishi_basic_poor_13",
+    "makigai_tanishi_basic_poor_14",
+    "makigai_tanishi_basic_poor_15",
+    "makigai_tanishi_basic_suburban_01",
+    "makigai_tanishi_basic_suburban_02",
+    "makigai_tanishi_basic_suburban_03",
+    "makigai_tanishi_basic_suburban_04",
+    "makigai_tanishi_basic_suburban_09",
+    "makigai_tanishi_basic_suburban_10"
+   ]
+  },
+  {
+   "id": "ca267fca",
+   "rim": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01_shadowmesh.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Hellhound",
+   "radius": 0.5072,
+   "width": 0.3622,
+   "rim_radius": 0.3038,
+   "tire_center": -0.0676,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 8,
+   "paints": [
+    "player_01",
+    "police_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "makigai_tanishi_basic_cargo_01",
+    "makigai_tanishi_basic_cargo_02",
+    "makigai_tanishi_basic_cargo_03",
+    "makigai_tanishi_basic_cargo_04"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "makigai_tanishi_basic_player_mr_hands",
+   "Tanishi T400"
+  ]
+ ]
+}

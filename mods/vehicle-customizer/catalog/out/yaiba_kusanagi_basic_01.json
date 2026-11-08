@@ -1,0 +1,2528 @@
+{
+ "id": "yaiba_kusanagi_basic_01",
+ "label": "ASM-R250 Muramasa",
+ "entity": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi_basic_01.ent",
+ "family": "v_sportbike1_yaiba_kusanagi_basic",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_sportbike1_yaiba_kusanagi_player",
+  "Vehicle.v_sportbike1_yaiba_kusanagi_player_02",
+  "Vehicle.v_sportbike1_yaiba_kusanagi_player_03",
+  "Vehicle.v_sportbike1_yaiba_kusanagi_tyger_player",
+  "Vehicle.v_sportbike1_yaiba_muramasa_naked",
+  "Vehicle.v_sportbike1_yaiba_muramasa_naked_as",
+  "Vehicle.v_sportbike1_yaiba_muramasa_naked_as_nr",
+  "Vehicle.v_sportbike1_yaiba_muramasa_naked_as_ns",
+  "Vehicle.v_sportbike1_yaiba_muramasa_naked_as_ns_nr",
+  "Vehicle.v_sportbike1_yaiba_muramasa_naked_nr",
+  "Vehicle.v_sportbike1_yaiba_muramasa_naked_ns",
+  "Vehicle.v_sportbike1_yaiba_muramasa_naked_ns_nr",
+  "Vehicle.v_sportbike1_yaiba_muramasa_regular",
+  "Vehicle.v_sportbike1_yaiba_muramasa_regular_as",
+  "Vehicle.v_sportbike1_yaiba_muramasa_regular_as_nr",
+  "Vehicle.v_sportbike1_yaiba_muramasa_regular_as_ns",
+  "Vehicle.v_sportbike1_yaiba_muramasa_regular_as_ns_nr",
+  "Vehicle.v_sportbike1_yaiba_muramasa_regular_nr",
+  "Vehicle.v_sportbike1_yaiba_muramasa_regular_ns",
+  "Vehicle.v_sportbike1_yaiba_muramasa_regular_ns_nr"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "yaiba_kusanagi_basic_animals_01",
+   "code": "yaiba_kusanagi_basic_animals_01",
+   "label": "Yaiba kusanagi basic animals",
+   "base_look": "yaiba_kusanagi_basic_animals_01",
+   "looks": [
+    "yaiba_kusanagi_basic_animals_01",
+    "yaiba_kusanagi_basic_tyger_01"
+   ],
+   "options": {
+    "base.body": "f5e4ef38",
+    "base.seat": "8c9e7c30",
+    "wheel.tire": "9738ddac",
+    "wheel.wheel": "1af83cc5"
+   },
+   "kits": [
+    "sticker_eb5f"
+   ]
+  },
+  {
+   "id": "yaiba_kusanagi_basic_animals_02",
+   "code": "yaiba_kusanagi_basic_animals_02",
+   "label": "Yaiba kusanagi basic animals 02",
+   "base_look": "yaiba_kusanagi_basic_animals_02",
+   "looks": [
+    "yaiba_kusanagi_basic_animals_02",
+    "yaiba_kusanagi_basic_animals_03"
+   ],
+   "options": {
+    "base.body": "f5e4ef38",
+    "base.seat": "cb4c9337",
+    "wheel.tire": "9738ddac",
+    "wheel.wheel": "1af83cc5"
+   },
+   "kits": [
+    "sticker_eb5f"
+   ]
+  },
+  {
+   "id": "yaiba_kusanagi_basic_asm_r250_naked",
+   "code": "yaiba_kusanagi_basic_asm_r250_naked",
+   "label": "Yaiba kusanagi basic asm r250 naked",
+   "base_look": "yaiba_kusanagi_basic_asm_r250_naked",
+   "looks": [
+    "yaiba_kusanagi_basic_asm_r250_naked",
+    "yaiba_kusanagi_basic_asm_r250_regular",
+    "yaiba_kusanagi_basic_asm_r250_naked_ns",
+    "yaiba_kusanagi_basic_asm_r250_regular_ns"
+   ],
+   "options": {
+    "base.body": "6e2ba1b1",
+    "wheel.tire": "75c98702",
+    "wheel.wheel": "49bad395"
+   },
+   "kits": []
+  },
+  {
+   "id": "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+   "code": "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+   "label": "Yaiba kusanagi basic asm r250 naked as ns",
+   "base_look": "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+   "looks": [
+    "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+    "yaiba_kusanagi_basic_asm_r250_naked_as",
+    "yaiba_kusanagi_basic_asm_r250_regular_as",
+    "yaiba_kusanagi_basic_asm_r250_regular_as_ns"
+   ],
+   "options": {
+    "base.body": "6e2ba1b1",
+    "base.seat": "398793df",
+    "wheel.tire": "75c98702",
+    "wheel.wheel": "49bad395"
+   },
+   "kits": []
+  },
+  {
+   "id": "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+   "code": "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+   "label": "Yaiba kusanagi basic asm r250 naked as ns nr",
+   "base_look": "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+   "looks": [
+    "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+    "yaiba_kusanagi_basic_asm_r250_naked_as_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_as_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr"
+   ],
+   "options": {
+    "base.body": "6e2ba1b1",
+    "base.seat": "398793df",
+    "wheel.tire": "75c98702",
+    "wheel.wheel": "074629ed"
+   },
+   "kits": []
+  },
+  {
+   "id": "yaiba_kusanagi_basic_asm_r250_naked_nr",
+   "code": "yaiba_kusanagi_basic_asm_r250_naked_nr",
+   "label": "Yaiba kusanagi basic asm r250 naked nr",
+   "base_look": "yaiba_kusanagi_basic_asm_r250_naked_nr",
+   "looks": [
+    "yaiba_kusanagi_basic_asm_r250_naked_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_nr",
+    "yaiba_kusanagi_basic_asm_r250_naked_ns_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_ns_nr"
+   ],
+   "options": {
+    "base.body": "6e2ba1b1",
+    "wheel.tire": "75c98702",
+    "wheel.wheel": "074629ed"
+   },
+   "kits": []
+  },
+  {
+   "id": "yaiba_kusanagi_basic_player_02",
+   "code": "yaiba_kusanagi_basic_player_02",
+   "label": "Yaiba kusanagi basic player 02",
+   "base_look": "yaiba_kusanagi_basic_player_02",
+   "looks": [
+    "yaiba_kusanagi_basic_player_02"
+   ],
+   "options": {
+    "base.body": "f5e4ef38",
+    "base.seat": "79b7717b",
+    "wheel.tire": "9738ddac",
+    "wheel.wheel": "1af83cc5"
+   },
+   "kits": [
+    "player_5c3a",
+    "player_db08",
+    "sticker_eb5f"
+   ]
+  },
+  {
+   "id": "yaiba_kusanagi_basic_player_03",
+   "code": "yaiba_kusanagi_basic_player_03",
+   "label": "Yaiba kusanagi basic player 03",
+   "base_look": "yaiba_kusanagi_basic_player_03",
+   "looks": [
+    "yaiba_kusanagi_basic_player_03"
+   ],
+   "options": {
+    "base.body": "f5e4ef38",
+    "base.seat": "13ff4074",
+    "wheel.tire": "9738ddac",
+    "wheel.wheel": "1af83cc5"
+   },
+   "kits": [
+    "player_5c3a",
+    "player_db08",
+    "sticker_eb5f"
+   ]
+  },
+  {
+   "id": "yaiba_kusanagi_basic_suburban_01",
+   "code": "yaiba_kusanagi_basic_suburban_01",
+   "label": "Yaiba kusanagi basic suburban",
+   "base_look": "yaiba_kusanagi_basic_suburban_01",
+   "looks": [
+    "yaiba_kusanagi_basic_suburban_01",
+    "yaiba_kusanagi_basic_suburban_02",
+    "yaiba_kusanagi_basic_suburban_03",
+    "yaiba_kusanagi_basic_suburban_04",
+    "yaiba_kusanagi_basic_suburban_05",
+    "yaiba_kusanagi_basic_mox_01",
+    "yaiba_kusanagi_basic_mox_02",
+    "yaiba_kusanagi_basic_player_01"
+   ],
+   "options": {
+    "base.body": "c5b83ddf",
+    "wheel.tire": "9738ddac",
+    "wheel.wheel": "1af83cc5",
+    "trunk.trunk": "386b9d28",
+    "wing_left.wing": "bd4ac446",
+    "wing_right.wing": "ca783bdb"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "yaiba_kusanagi_basic_burnt_animals_01",
+  "yaiba_kusanagi_basic_burnt_animals_02",
+  "yaiba_kusanagi_basic_burnt_asm_r250_naked",
+  "yaiba_kusanagi_basic_burnt_asm_r250_regular",
+  "yaiba_kusanagi_basic_burnt_default_01",
+  "yaiba_kusanagi_basic_burnt_player_02",
+  "yaiba_kusanagi_basic_burnt_player_03"
+ ],
+ "slots": [
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+   ],
+   "options": [
+    {
+     "id": "6e2ba1b1",
+     "code": "asm_r250_body_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_body_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "yaiba_kusanagi_basic_asm_r250_naked",
+      "yaiba_kusanagi_basic_asm_r250_naked_as",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_ns",
+      "yaiba_kusanagi_basic_asm_r250_naked_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular",
+      "yaiba_kusanagi_basic_asm_r250_regular_as",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_ns",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_ns",
+      "yaiba_kusanagi_basic_asm_r250_regular_ns_nr",
+      "yaiba_kusanagi_basic_burnt_asm_r250_naked",
+      "yaiba_kusanagi_basic_burnt_asm_r250_regular"
+     ],
+     "origins": [
+      "style:yaiba_kusanagi_basic_asm_r250_naked",
+      "style:yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+      "style:yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+      "style:yaiba_kusanagi_basic_asm_r250_naked_nr",
+      "wreck:yaiba_kusanagi_basic_burnt_asm_r250_naked",
+      "wreck:yaiba_kusanagi_basic_burnt_asm_r250_regular"
+     ]
+    },
+    {
+     "id": "f5e4ef38",
+     "code": "body_02",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_body_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "blue",
+     "paints": [
+      "blue",
+      "black",
+      "green",
+      "yellow",
+      "mox_01",
+      "mox_02",
+      "rogue_01",
+      "player_02",
+      "player_03"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic:q108_rogue",
+      "yaiba_kusanagi_basic_animals_01",
+      "yaiba_kusanagi_basic_animals_02",
+      "yaiba_kusanagi_basic_animals_03",
+      "yaiba_kusanagi_basic_burnt_animals_01",
+      "yaiba_kusanagi_basic_burnt_animals_02",
+      "yaiba_kusanagi_basic_burnt_player_02",
+      "yaiba_kusanagi_basic_burnt_player_03",
+      "yaiba_kusanagi_basic_player_02",
+      "yaiba_kusanagi_basic_player_03",
+      "yaiba_kusanagi_basic_tyger_01"
+     ],
+     "origins": [
+      "look:q108_rogue",
+      "style:yaiba_kusanagi_basic_animals_01",
+      "style:yaiba_kusanagi_basic_animals_02",
+      "style:yaiba_kusanagi_basic_player_02",
+      "style:yaiba_kusanagi_basic_player_03",
+      "wreck:yaiba_kusanagi_basic_burnt_animals_01",
+      "wreck:yaiba_kusanagi_basic_burnt_animals_02",
+      "wreck:yaiba_kusanagi_basic_burnt_player_02",
+      "wreck:yaiba_kusanagi_basic_burnt_player_03"
+     ]
+    },
+    {
+     "id": "c5b83ddf",
+     "code": "body_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "blue",
+      "red_bright",
+      "black",
+      "green",
+      "mox_01",
+      "mox_02",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "rogue_01"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic:default",
+      "yaiba_kusanagi_basic_burnt_default_01",
+      "yaiba_kusanagi_basic_mox_01",
+      "yaiba_kusanagi_basic_mox_02",
+      "yaiba_kusanagi_basic_player_01",
+      "yaiba_kusanagi_basic_suburban_01",
+      "yaiba_kusanagi_basic_suburban_02",
+      "yaiba_kusanagi_basic_suburban_03",
+      "yaiba_kusanagi_basic_suburban_04",
+      "yaiba_kusanagi_basic_suburban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:yaiba_kusanagi_basic_suburban_01",
+      "wreck:yaiba_kusanagi_basic_burnt_default_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat",
+   "label": "Seats",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_common__ext01_seat_01",
+    "v_common__ext01_seat_player_03",
+    "v_sportbike1_yaiba_kusanagi__ext01_seat"
+   ],
+   "options": [
+    {
+     "id": "398793df",
+     "code": "asm_r250_seat_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_seat_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "yaiba_kusanagi_basic_asm_r250_naked_as",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_as",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_ns",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr"
+     ],
+     "origins": [
+      "style:yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+      "style:yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr"
+     ]
+    },
+    {
+     "id": "cb4c9337",
+     "code": "seat_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_seat_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_seat_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "red",
+     "paints": [
+      "blue",
+      "red",
+      "rogue_01"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic:q108_rogue",
+      "yaiba_kusanagi_basic_animals_02",
+      "yaiba_kusanagi_basic_animals_03",
+      "yaiba_kusanagi_basic_burnt_animals_02"
+     ],
+     "origins": [
+      "look:q108_rogue",
+      "style:yaiba_kusanagi_basic_animals_02",
+      "wreck:yaiba_kusanagi_basic_burnt_animals_02"
+     ]
+    },
+    {
+     "id": "8c9e7c30",
+     "code": "seat_02",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_seat_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_seat_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "yellow",
+     "paints": [
+      "blue",
+      "red",
+      "yellow",
+      "rogue_01"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic_animals_01",
+      "yaiba_kusanagi_basic_burnt_animals_01",
+      "yaiba_kusanagi_basic_tyger_01"
+     ],
+     "origins": [
+      "style:yaiba_kusanagi_basic_animals_01",
+      "wreck:yaiba_kusanagi_basic_burnt_animals_01"
+     ]
+    },
+    {
+     "id": "79b7717b",
+     "code": "seat_player_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_seat_player_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_seat_player_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "yaiba_kusanagi_basic_burnt_player_02",
+      "yaiba_kusanagi_basic_player_02"
+     ],
+     "origins": [
+      "style:yaiba_kusanagi_basic_player_02",
+      "wreck:yaiba_kusanagi_basic_burnt_player_02"
+     ]
+    },
+    {
+     "id": "13ff4074",
+     "code": "seat_player_02",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_seat_player_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_seat_player_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_03",
+     "paints": [
+      "player_03"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic_burnt_player_03",
+      "yaiba_kusanagi_basic_player_03"
+     ],
+     "origins": [
+      "style:yaiba_kusanagi_basic_player_03",
+      "wreck:yaiba_kusanagi_basic_burnt_player_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "f",
+    "b"
+   ],
+   "mounts": [
+    "wheel_front",
+    "wheel_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_<c>_01",
+    "tire_r_01"
+   ],
+   "options": [
+    {
+     "id": "75c98702",
+     "code": "asm_r250_tire_01 + asm_r250_tire_r_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_tire_f_01.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_tire_r_01.mesh"
+     },
+     "shadows": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_f_01_shadow.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_r_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "yaiba_kusanagi_basic_asm_r250_naked",
+      "yaiba_kusanagi_basic_asm_r250_naked_as",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_ns",
+      "yaiba_kusanagi_basic_asm_r250_naked_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular",
+      "yaiba_kusanagi_basic_asm_r250_regular_as",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_ns",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_ns",
+      "yaiba_kusanagi_basic_asm_r250_regular_ns_nr"
+     ],
+     "origins": [
+      "style:yaiba_kusanagi_basic_asm_r250_naked",
+      "style:yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+      "style:yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+      "style:yaiba_kusanagi_basic_asm_r250_naked_nr"
+     ]
+    },
+    {
+     "id": "9738ddac",
+     "code": "tire_01 + tire_r_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_f_01.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_r_01.mesh"
+     },
+     "shadows": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_f_01_shadow.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_r_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "no_decal",
+      "blue",
+      "tire_02"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic:default",
+      "yaiba_kusanagi_basic:q108_rogue",
+      "yaiba_kusanagi_basic_animals_01",
+      "yaiba_kusanagi_basic_animals_02",
+      "yaiba_kusanagi_basic_animals_03",
+      "yaiba_kusanagi_basic_mox_01",
+      "yaiba_kusanagi_basic_mox_02",
+      "yaiba_kusanagi_basic_player_01",
+      "yaiba_kusanagi_basic_player_02",
+      "yaiba_kusanagi_basic_player_03",
+      "yaiba_kusanagi_basic_suburban_01",
+      "yaiba_kusanagi_basic_suburban_02",
+      "yaiba_kusanagi_basic_suburban_03",
+      "yaiba_kusanagi_basic_suburban_04",
+      "yaiba_kusanagi_basic_suburban_05",
+      "yaiba_kusanagi_basic_tyger_01"
+     ],
+     "origins": [
+      "look:default",
+      "look:q108_rogue",
+      "style:yaiba_kusanagi_basic_animals_01",
+      "style:yaiba_kusanagi_basic_animals_02",
+      "style:yaiba_kusanagi_basic_player_02",
+      "style:yaiba_kusanagi_basic_player_03",
+      "style:yaiba_kusanagi_basic_suburban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "f",
+    "b"
+   ],
+   "mounts": [
+    "wheel_front",
+    "wheel_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_sportbike1_yaiba_kusanagi__ext01_wheel_<c>_010871",
+    "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+   ],
+   "options": [
+    {
+     "id": "1af83cc5",
+     "code": "wheel_01 + wheel_r_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_wheel_f_01.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_wheel_r_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "red",
+      "yellow",
+      "mox_01",
+      "player_02",
+      "player_03"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic:default",
+      "yaiba_kusanagi_basic:q108_rogue",
+      "yaiba_kusanagi_basic_animals_01",
+      "yaiba_kusanagi_basic_animals_02",
+      "yaiba_kusanagi_basic_animals_03",
+      "yaiba_kusanagi_basic_mox_01",
+      "yaiba_kusanagi_basic_mox_02",
+      "yaiba_kusanagi_basic_player_01",
+      "yaiba_kusanagi_basic_player_02",
+      "yaiba_kusanagi_basic_player_03",
+      "yaiba_kusanagi_basic_suburban_01",
+      "yaiba_kusanagi_basic_suburban_02",
+      "yaiba_kusanagi_basic_suburban_03",
+      "yaiba_kusanagi_basic_suburban_04",
+      "yaiba_kusanagi_basic_suburban_05",
+      "yaiba_kusanagi_basic_tyger_01"
+     ],
+     "origins": [
+      "look:default",
+      "look:q108_rogue",
+      "style:yaiba_kusanagi_basic_animals_01",
+      "style:yaiba_kusanagi_basic_animals_02",
+      "style:yaiba_kusanagi_basic_player_02",
+      "style:yaiba_kusanagi_basic_player_03",
+      "style:yaiba_kusanagi_basic_suburban_01"
+     ]
+    },
+    {
+     "id": "49bad395",
+     "code": "asm_r250_wheel_01 + asm_r250_wheel_r_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_wheel_f_01.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_wheel_r_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "yaiba_kusanagi_basic_asm_r250_naked",
+      "yaiba_kusanagi_basic_asm_r250_naked_as",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+      "yaiba_kusanagi_basic_asm_r250_naked_ns",
+      "yaiba_kusanagi_basic_asm_r250_regular",
+      "yaiba_kusanagi_basic_asm_r250_regular_as",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_ns",
+      "yaiba_kusanagi_basic_asm_r250_regular_ns"
+     ],
+     "origins": [
+      "style:yaiba_kusanagi_basic_asm_r250_naked",
+      "style:yaiba_kusanagi_basic_asm_r250_naked_as_ns"
+     ]
+    },
+    {
+     "id": "074629ed",
+     "code": "asm_r250_wheel_02 + asm_r250_wheel_r_02",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_wheel_f_02.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_wheel_r_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "yaiba_kusanagi_basic_asm_r250_naked_as_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_nr",
+      "yaiba_kusanagi_basic_asm_r250_naked_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_nr",
+      "yaiba_kusanagi_basic_asm_r250_regular_ns_nr"
+     ],
+     "origins": [
+      "style:yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+      "style:yaiba_kusanagi_basic_asm_r250_naked_nr"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_sportbike1_yaiba_kusanagi__ext01_trunk_016781"
+   ],
+   "options": [
+    {
+     "id": "386b9d28",
+     "code": "trunk_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black",
+      "green",
+      "mox_01",
+      "mox_02",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "rogue_01"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic:default",
+      "yaiba_kusanagi_basic_mox_01",
+      "yaiba_kusanagi_basic_mox_02",
+      "yaiba_kusanagi_basic_player_01",
+      "yaiba_kusanagi_basic_suburban_01",
+      "yaiba_kusanagi_basic_suburban_02",
+      "yaiba_kusanagi_basic_suburban_03",
+      "yaiba_kusanagi_basic_suburban_04",
+      "yaiba_kusanagi_basic_suburban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:yaiba_kusanagi_basic_suburban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wing_left.wing",
+   "label": "Wings",
+   "kind": "wing",
+   "group": "wing_left",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "wing_left"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_sportbike1_yaiba_kusanagi__ext01_wing_l_013431"
+   ],
+   "options": [
+    {
+     "id": "bd4ac446",
+     "code": "wing_l_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_wing_l_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "green",
+      "mox_01",
+      "mox_02",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "rogue_01"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic:default",
+      "yaiba_kusanagi_basic_mox_01",
+      "yaiba_kusanagi_basic_mox_02",
+      "yaiba_kusanagi_basic_player_01",
+      "yaiba_kusanagi_basic_suburban_01",
+      "yaiba_kusanagi_basic_suburban_02",
+      "yaiba_kusanagi_basic_suburban_03",
+      "yaiba_kusanagi_basic_suburban_04",
+      "yaiba_kusanagi_basic_suburban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:yaiba_kusanagi_basic_suburban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wing_right.wing",
+   "label": "Wings",
+   "kind": "wing",
+   "group": "wing_right",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "wing_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_sportbike1_yaiba_kusanagi__ext01_wing_r_015372"
+   ],
+   "options": [
+    {
+     "id": "ca783bdb",
+     "code": "wing_r_01",
+     "vehicle": "v_sportbike1_yaiba_kusanagi",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_wing_r_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "green",
+      "mox_01",
+      "mox_02",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "rogue_01"
+     ],
+     "looks": [
+      "yaiba_kusanagi_basic:default",
+      "yaiba_kusanagi_basic_mox_01",
+      "yaiba_kusanagi_basic_mox_02",
+      "yaiba_kusanagi_basic_player_01",
+      "yaiba_kusanagi_basic_suburban_01",
+      "yaiba_kusanagi_basic_suburban_02",
+      "yaiba_kusanagi_basic_suburban_03",
+      "yaiba_kusanagi_basic_suburban_04",
+      "yaiba_kusanagi_basic_suburban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:yaiba_kusanagi_basic_suburban_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "player_5c3a",
+   "family": "player",
+   "code": "lights_player_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "lights_player_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_lights_player_01.mesh",
+     "code": "lights_player_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_common__ext01_seat_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "yaiba_kusanagi_basic_player_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "yaiba_kusanagi_basic_burnt_player_02",
+    "yaiba_kusanagi_basic_player_02"
+   ],
+   "made_for": [
+    "slot:base.seat"
+   ],
+   "needs": [],
+   "origins": [
+    "style:yaiba_kusanagi_basic_player_02",
+    "wreck:yaiba_kusanagi_basic_burnt_player_02"
+   ]
+  },
+  {
+   "id": "player_5c3a",
+   "family": "player",
+   "code": "lights_player_02",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "lights_player_02",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_lights_player_02.mesh",
+     "code": "lights_player_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_common__ext01_seat_player_03",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "yaiba_kusanagi_basic_player_03",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "yaiba_kusanagi_basic_burnt_player_03",
+    "yaiba_kusanagi_basic_player_03"
+   ],
+   "made_for": [
+    "slot:base.seat"
+   ],
+   "needs": [],
+   "origins": [
+    "style:yaiba_kusanagi_basic_player_03",
+    "wreck:yaiba_kusanagi_basic_burnt_player_03"
+   ]
+  },
+  {
+   "id": "player_db08",
+   "family": "player",
+   "code": "stickers_player_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "stickers_player_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_stickers_player_01.mesh",
+     "code": "stickers_player_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "yaiba_kusanagi_basic_player_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "yaiba_kusanagi_basic_burnt_player_02",
+    "yaiba_kusanagi_basic_burnt_player_03",
+    "yaiba_kusanagi_basic_player_02",
+    "yaiba_kusanagi_basic_player_03"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:yaiba_kusanagi_basic_player_02",
+    "style:yaiba_kusanagi_basic_player_03",
+    "wreck:yaiba_kusanagi_basic_burnt_player_02",
+    "wreck:yaiba_kusanagi_basic_burnt_player_03"
+   ]
+  },
+  {
+   "id": "sticker_eb5f",
+   "family": "sticker",
+   "code": "kit_sticker_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_common__ext01_stickers_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_stickers_01.mesh",
+     "code": "stickers_01",
+     "paint": "decal_nodraw",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "yaiba_kusanagi_basic_animals_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common__ext01_stickers_02",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_stickers_02.mesh",
+     "code": "stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "yaiba_kusanagi_basic_animals_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "yaiba_kusanagi_basic:q108_rogue",
+    "yaiba_kusanagi_basic_animals_01",
+    "yaiba_kusanagi_basic_animals_02",
+    "yaiba_kusanagi_basic_animals_03",
+    "yaiba_kusanagi_basic_burnt_animals_01",
+    "yaiba_kusanagi_basic_burnt_animals_02",
+    "yaiba_kusanagi_basic_burnt_player_02",
+    "yaiba_kusanagi_basic_burnt_player_03",
+    "yaiba_kusanagi_basic_player_02",
+    "yaiba_kusanagi_basic_player_03",
+    "yaiba_kusanagi_basic_tyger_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:q108_rogue",
+    "style:yaiba_kusanagi_basic_animals_01",
+    "style:yaiba_kusanagi_basic_animals_02",
+    "style:yaiba_kusanagi_basic_player_02",
+    "style:yaiba_kusanagi_basic_player_03",
+    "wreck:yaiba_kusanagi_basic_burnt_animals_01",
+    "wreck:yaiba_kusanagi_basic_burnt_animals_02",
+    "wreck:yaiba_kusanagi_basic_burnt_player_02",
+    "wreck:yaiba_kusanagi_basic_burnt_player_03"
+   ]
+  }
+ ],
+ "looks": {
+  "yaiba_kusanagi_basic_mox_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "mox_01",
+   "style": "yaiba_kusanagi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "trunk.trunk": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_trunk_016781"
+    },
+    "wing_left.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_l_013431"
+    },
+    "wing_right.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_r_015372"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_animals_03": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "animals_03",
+   "style": "yaiba_kusanagi_basic_animals_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_mox_02": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "mox_02",
+   "style": "yaiba_kusanagi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "trunk.trunk": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_trunk_016781"
+    },
+    "wing_left.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_l_013431"
+    },
+    "wing_right.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_r_015372"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_animals_02": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "animals_02",
+   "style": "yaiba_kusanagi_basic_animals_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_animals_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "animals_01",
+   "style": "yaiba_kusanagi_basic_animals_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_tyger_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "tyger_01",
+   "style": "yaiba_kusanagi_basic_animals_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_player_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "player_01",
+   "style": "yaiba_kusanagi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "trunk.trunk": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_trunk_016781"
+    },
+    "wing_left.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_l_013431"
+    },
+    "wing_right.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_r_015372"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_suburban_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "suburban_01",
+   "style": "yaiba_kusanagi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "trunk.trunk": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_trunk_016781"
+    },
+    "wing_left.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_l_013431"
+    },
+    "wing_right.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_r_015372"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_burnt_animals_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "burnt_animals_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_burnt_animals_02": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "burnt_animals_02",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_burnt_default_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "burnt_default_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_suburban_05": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "suburban_05",
+   "style": "yaiba_kusanagi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "trunk.trunk": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_trunk_016781"
+    },
+    "wing_left.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_l_013431"
+    },
+    "wing_right.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_r_015372"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_suburban_04": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "suburban_04",
+   "style": "yaiba_kusanagi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "trunk.trunk": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_trunk_016781"
+    },
+    "wing_left.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_l_013431"
+    },
+    "wing_right.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_r_015372"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_suburban_03": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "suburban_03",
+   "style": "yaiba_kusanagi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "trunk.trunk": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_trunk_016781"
+    },
+    "wing_left.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_l_013431"
+    },
+    "wing_right.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_r_015372"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_suburban_02": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "suburban_02",
+   "style": "yaiba_kusanagi_basic_suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "trunk.trunk": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_trunk_016781"
+    },
+    "wing_left.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_l_013431"
+    },
+    "wing_right.wing": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_wing_r_015372"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_player_02": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "player_02",
+   "style": "yaiba_kusanagi_basic_player_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_player_03": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "player_03",
+   "style": "yaiba_kusanagi_basic_player_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_player_03"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_burnt_player_03": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "burnt_player_03",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_player_03"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_burnt_player_02": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "burnt_player_02",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.seat": {
+     "all": "v_common__ext01_seat_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_naked": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_naked",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "base.body.body_cover": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_cover"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_naked_as_ns_nr",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_cover": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_cover"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_seat"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_naked_as_ns": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_naked_as_ns",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_cover": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_cover"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_seat"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_naked_nr": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_naked_nr",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_nr",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "base.body.body_cover": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_cover"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_regular_as": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_regular_as",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_seat"
+    },
+    "axle_back.fender": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_axle_b_fender"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_regular": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_regular",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "axle_back.fender": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_axle_b_fender"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_naked_as_nr": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_naked_as_nr",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_cover": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_cover"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_seat"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_naked_ns": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_naked_ns",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "base.body.body_cover": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_cover"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_naked_as": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_naked_as",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_cover": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_cover"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_seat"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_naked_ns_nr": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_naked_ns_nr",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_nr",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "base.body.body_cover": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_cover"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_regular_as_nr": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_regular_as_nr",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_seat"
+    },
+    "axle_back.fender": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_axle_b_fender"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_regular_ns": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_regular_ns",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "axle_back.fender": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_axle_b_fender"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_regular_as_ns": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_regular_as_ns",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_seat"
+    },
+    "axle_back.fender": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_axle_b_fender"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_regular_as_ns_nr",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "base.seat": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_seat"
+    },
+    "axle_back.fender": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_axle_b_fender"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_regular_ns_nr": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_regular_ns_nr",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_nr",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "axle_back.fender": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_axle_b_fender"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_asm_r250_regular_nr": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "asm_r250_regular_nr",
+   "style": "yaiba_kusanagi_basic_asm_r250_naked_nr",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "wheel.wheel": {
+     "f": "v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871",
+     "b": "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_r_01"
+    },
+    "axle_back.fender": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_axle_b_fender"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_burnt_asm_r250_naked": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "burnt_asm_r250_naked",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "base.body.body_cover": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_cover"
+    }
+   }
+  },
+  "yaiba_kusanagi_basic_burnt_asm_r250_regular": {
+   "app": "base\\vehicles\\appearances\\sportbike\\yaiba_kusanagi_basic.app",
+   "app_look": "burnt_asm_r250_regular",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_011080"
+    },
+    "base.body.body_stitches": {
+     "all": "body_stitches_01"
+    },
+    "base.body.body_stoplight": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_body_stoplight"
+    },
+    "axle_back.fender": {
+     "all": "v_sportbike1_yaiba_kusanagi__ext01_axle_b_fender"
+    }
+   }
+  }
+ },
+ "wheel_kind": "bike",
+ "wheel_ref": {
+  "f": [
+   0.3098,
+   0.1617,
+   0.2315,
+   0.0
+  ],
+  "b": [
+   0.3516,
+   0.2679,
+   0.2626,
+   0.0003
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "3c960d34",
+   "rim": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_wheel_r_01.mesh",
+   "tire": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_r_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_r_01_shadow.mesh",
+   "code": "wheel_r_01",
+   "tire_code": "tire_r_01",
+   "from": "ASM-R250 Muramasa",
+   "radius": 0.3516,
+   "width": 0.2679,
+   "rim_radius": 0.2626,
+   "tire_center": 0.0003,
+   "axles": [
+    "b"
+   ],
+   "looks": 16,
+   "paints": [
+    "blue",
+    "red",
+    "yellow",
+    "mox_01",
+    "player_02",
+    "player_03"
+   ],
+   "default_paint": "default",
+   "kind": "bike",
+   "look_names": [
+    "yaiba_kusanagi_basic:default",
+    "yaiba_kusanagi_basic:q108_rogue",
+    "yaiba_kusanagi_basic_animals_01",
+    "yaiba_kusanagi_basic_animals_02",
+    "yaiba_kusanagi_basic_animals_03",
+    "yaiba_kusanagi_basic_mox_01",
+    "yaiba_kusanagi_basic_mox_02",
+    "yaiba_kusanagi_basic_player_01",
+    "yaiba_kusanagi_basic_player_02",
+    "yaiba_kusanagi_basic_player_03",
+    "yaiba_kusanagi_basic_suburban_01",
+    "yaiba_kusanagi_basic_suburban_02",
+    "yaiba_kusanagi_basic_suburban_03",
+    "yaiba_kusanagi_basic_suburban_04",
+    "yaiba_kusanagi_basic_suburban_05",
+    "yaiba_kusanagi_basic_tyger_01"
+   ]
+  },
+  {
+   "id": "e8384b9c",
+   "rim": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_wheel_f_01.mesh",
+   "tire": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_f_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_f_01_shadow.mesh",
+   "code": "wheel_f_01",
+   "tire_code": "tire_f_01",
+   "from": "ASM-R250 Muramasa",
+   "radius": 0.3098,
+   "width": 0.1617,
+   "rim_radius": 0.2315,
+   "tire_center": 0.0,
+   "axles": [
+    "f"
+   ],
+   "looks": 16,
+   "paints": [
+    "red",
+    "yellow",
+    "mox_01",
+    "player_02",
+    "player_03"
+   ],
+   "default_paint": "default",
+   "kind": "bike",
+   "look_names": [
+    "yaiba_kusanagi_basic:default",
+    "yaiba_kusanagi_basic:q108_rogue",
+    "yaiba_kusanagi_basic_animals_01",
+    "yaiba_kusanagi_basic_animals_02",
+    "yaiba_kusanagi_basic_animals_03",
+    "yaiba_kusanagi_basic_mox_01",
+    "yaiba_kusanagi_basic_mox_02",
+    "yaiba_kusanagi_basic_player_01",
+    "yaiba_kusanagi_basic_player_02",
+    "yaiba_kusanagi_basic_player_03",
+    "yaiba_kusanagi_basic_suburban_01",
+    "yaiba_kusanagi_basic_suburban_02",
+    "yaiba_kusanagi_basic_suburban_03",
+    "yaiba_kusanagi_basic_suburban_04",
+    "yaiba_kusanagi_basic_suburban_05",
+    "yaiba_kusanagi_basic_tyger_01"
+   ]
+  },
+  {
+   "id": "26cdc732",
+   "rim": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_wheel_r_01.mesh",
+   "tire": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_tire_r_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_r_01_shadow.mesh",
+   "code": "asm_r250_wheel_r_01",
+   "tire_code": "asm_r250_tire_r_01",
+   "from": "ASM-R250 Muramasa",
+   "radius": 0.3456,
+   "width": 0.2653,
+   "rim_radius": 0.2315,
+   "tire_center": -0.0001,
+   "axles": [
+    "b"
+   ],
+   "looks": 8,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "bike",
+   "look_names": [
+    "yaiba_kusanagi_basic_asm_r250_naked",
+    "yaiba_kusanagi_basic_asm_r250_naked_as",
+    "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+    "yaiba_kusanagi_basic_asm_r250_naked_ns",
+    "yaiba_kusanagi_basic_asm_r250_regular",
+    "yaiba_kusanagi_basic_asm_r250_regular_as",
+    "yaiba_kusanagi_basic_asm_r250_regular_as_ns",
+    "yaiba_kusanagi_basic_asm_r250_regular_ns"
+   ]
+  },
+  {
+   "id": "b8629572",
+   "rim": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_wheel_f_01.mesh",
+   "tire": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_tire_f_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_f_01_shadow.mesh",
+   "code": "asm_r250_wheel_f_01",
+   "tire_code": "asm_r250_tire_f_01",
+   "from": "ASM-R250 Muramasa",
+   "radius": 0.3099,
+   "width": 0.1643,
+   "rim_radius": 0.2314,
+   "tire_center": 0.0001,
+   "axles": [
+    "f"
+   ],
+   "looks": 8,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "bike",
+   "look_names": [
+    "yaiba_kusanagi_basic_asm_r250_naked",
+    "yaiba_kusanagi_basic_asm_r250_naked_as",
+    "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+    "yaiba_kusanagi_basic_asm_r250_naked_ns",
+    "yaiba_kusanagi_basic_asm_r250_regular",
+    "yaiba_kusanagi_basic_asm_r250_regular_as",
+    "yaiba_kusanagi_basic_asm_r250_regular_as_ns",
+    "yaiba_kusanagi_basic_asm_r250_regular_ns"
+   ]
+  },
+  {
+   "id": "92f519a3",
+   "rim": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_wheel_f_02.mesh",
+   "tire": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_tire_f_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_f_01_shadow.mesh",
+   "code": "asm_r250_wheel_f_02",
+   "tire_code": "asm_r250_tire_f_01",
+   "from": "ASM-R250 Muramasa",
+   "radius": 0.3099,
+   "width": 0.1643,
+   "rim_radius": 0.2313,
+   "tire_center": 0.0001,
+   "axles": [
+    "f"
+   ],
+   "looks": 8,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "bike",
+   "look_names": [
+    "yaiba_kusanagi_basic_asm_r250_naked_as_nr",
+    "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+    "yaiba_kusanagi_basic_asm_r250_naked_nr",
+    "yaiba_kusanagi_basic_asm_r250_naked_ns_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_as_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_ns_nr"
+   ]
+  },
+  {
+   "id": "781babcb",
+   "rim": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_wheel_r_02.mesh",
+   "tire": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_tire_r_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sportbike\\v_sportbike1_yaiba_kusanagi\\entities\\meshes\\v_sportbike1_yaiba_kusanagi__ext01_tire_r_01_shadow.mesh",
+   "code": "asm_r250_wheel_r_02",
+   "tire_code": "asm_r250_tire_r_01",
+   "from": "ASM-R250 Muramasa",
+   "radius": 0.3456,
+   "width": 0.2653,
+   "rim_radius": 0.2315,
+   "tire_center": -0.0001,
+   "axles": [
+    "b"
+   ],
+   "looks": 8,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "bike",
+   "look_names": [
+    "yaiba_kusanagi_basic_asm_r250_naked_as_nr",
+    "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+    "yaiba_kusanagi_basic_asm_r250_naked_nr",
+    "yaiba_kusanagi_basic_asm_r250_naked_ns_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_as_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_nr",
+    "yaiba_kusanagi_basic_asm_r250_regular_ns_nr"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "yaiba_kusanagi_basic_asm_r250_naked",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_naked_as",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_naked_as_nr",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_naked_as_ns",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_naked_nr",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_naked_ns",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_naked_ns_nr",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_regular",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_regular_as",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_regular_as_nr",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_regular_as_ns",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_regular_nr",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_regular_ns",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_asm_r250_regular_ns_nr",
+   "ASM-R250 Muramasa"
+  ],
+  [
+   "yaiba_kusanagi_basic_player_01",
+   "Kusanagi CT-3X"
+  ],
+  [
+   "yaiba_kusanagi_basic_player_02",
+   "Kusanagi \"Peacekeeper\""
+  ],
+  [
+   "yaiba_kusanagi_basic_player_03",
+   "Kusanagi \"Akashita\""
+  ],
+  [
+   "yaiba_kusanagi_basic_tyger_01",
+   "Kusanagi \"Mizuchi\""
+  ]
+ ]
+}

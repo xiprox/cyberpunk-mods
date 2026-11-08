@@ -1,0 +1,41 @@
+{
+  "camera_forward": {
+    "x": -0.2,
+    "y": 1,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 12.5,
+    "x": -2463.2,
+    "y": -931,
+    "z": 9.7
+  },
+  "look_object": {
+    "class": "Door",
+    "entity_id": "8845490707000422800ULL",
+    "name": "LocKey#73",
+    "position": {
+      "x": -2460.5,
+      "y": -930.8,
+      "z": 8.2
+    }
+  },
+  "nearest": {
+    "distance": 30.9,
+    "gig": "sts_hey_spr_03",
+    "gig_state": "Succeeded",
+    "gig_state_from": "id sts_hey_spr_03",
+    "id": "wellsprings_body_shop",
+    "name": "Wellsprings body shop"
+  },
+  "note": "",
+  "player": {
+    "x": -2460.5,
+    "y": -943.1,
+    "yaw": 12.2,
+    "z": 8.1
+  },
+  "stamp": "20261106-185332",
+  "time": "2026-11-06 18:53:32"
+}

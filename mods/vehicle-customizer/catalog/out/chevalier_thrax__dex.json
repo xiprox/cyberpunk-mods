@@ -1,0 +1,3663 @@
+{
+ "id": "chevalier_thrax__dex",
+ "label": "Thrax 388 Jefferson",
+ "entity": "base\\vehicles\\standard\\v_standard2_chevalier_thrax__dex.ent",
+ "family": "v_standard2_chevalier_thrax",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard2_chevalier_thrax_dex"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\chevalier_thrax__basic.app",
+  "base\\vehicles\\appearances\\standard\\chevalier_thrax__dex_limo.app",
+  "ep1\\vehicles\\appearances\\standard\\chevalier_thrax__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "dex_limo_q001_dex_limo",
+   "code": "dex_limo_q001_dex_limo",
+   "label": "Dex limo q001 dex limo",
+   "base_look": "chevalier_thrax__dex_limo_q001_dex_limo",
+   "looks": [
+    "chevalier_thrax__dex_limo_q001_dex_limo"
+   ],
+   "options": {
+    "bumper_front.bumper": "8c29b058",
+    "bumper_back.bumper": "4d7dcd52",
+    "hood_a.hood": "74d2069a",
+    "trunk_a.trunk": "0ee55df8",
+    "base.body": "efde60e5",
+    "base.interior": "effc4519",
+    "base.mirror": "b3b04d9c",
+    "base.mirror.mirror_fr": "504b2fe4",
+    "base.window": "b5207288",
+    "base.window.window_f": "431743b1",
+    "wheel.tire": "983820d8",
+    "wheel.wheel": "1841557d",
+    "door.door": "bbd7d1b5",
+    "window.window": "254a2a0d"
+   },
+   "kits": [
+    "sticker_aef3"
+   ]
+  }
+ ],
+ "wrecks": [
+  "chevalier_thrax__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "8c29b058",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "6th_street_black_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "rich_01",
+      "maelstrom_red_01",
+      "maelstrom_01",
+      "6th_street_grey_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "combat_cab_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "4d7dcd52",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "6th_street_black_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "rich_01",
+      "maelstrom_red_01",
+      "maelstrom_01",
+      "6th_street_grey_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "combat_cab_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "74d2069a",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "6th_street_black_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "rich_01",
+      "maelstrom_red_01",
+      "maelstrom_01",
+      "6th_street_grey_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "combat_cab_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "0ee55df8",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "6th_street_black_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "rich_01",
+      "maelstrom_red_01",
+      "maelstrom_01",
+      "6th_street_grey_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "combat_cab_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "efde60e5",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "6th_street_black_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "rich_01",
+      "maelstrom_red_01",
+      "maelstrom_01",
+      "6th_street_grey_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "combat_cab_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:burnt_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__basic_burnt_01",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:burnt_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "414216c3",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "combat_cab_01",
+      "valentinos_01",
+      "valentinos_02"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:burnt_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__basic_burnt_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:burnt_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "effc4519",
+     "code": "interior_dex_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__int01_interior_dex_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "combat_cab_01",
+      "valentinos_01",
+      "valentinos_02"
+     ],
+     "looks": [
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:default",
+      "style:dex_limo_q001_dex_limo"
+     ]
+    },
+    {
+     "id": "fc9ea63a",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "combat_cab_01",
+      "valentinos_01",
+      "valentinos_02"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:mq304"
+     ],
+     "origins": [
+      "look:mq304"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.mirror",
+   "label": "Mirrors: front left",
+   "kind": "mirror",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard2_chevalier_thrax__ext01_mirror_fl_01"
+   ],
+   "options": [
+    {
+     "id": "b3b04d9c",
+     "code": "mirror_fl_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_mirror_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "6th_street_black_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "rich_01",
+      "maelstrom_red_01",
+      "maelstrom_01",
+      "6th_street_grey_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "combat_cab_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:burnt_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__basic_burnt_01",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:burnt_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.mirror.mirror_fr",
+   "label": "Mirrors: front right",
+   "kind": "mirror",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard2_chevalier_thrax__ext01_mirror_fr_01"
+   ],
+   "options": [
+    {
+     "id": "504b2fe4",
+     "code": "mirror_fr_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_mirror_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "6th_street_black_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "rich_01",
+      "maelstrom_red_01",
+      "maelstrom_01",
+      "6th_street_grey_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "combat_cab_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:burnt_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__basic_burnt_01",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:burnt_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield: back",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_b"
+   ],
+   "options": [
+    {
+     "id": "b5207288",
+     "code": "window_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_window_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "deathrace_01",
+      "black_01",
+      "black_02"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:burnt_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__basic_burnt_01",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:burnt_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_f",
+   "label": "Windshield: front",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f"
+   ],
+   "options": [
+    {
+     "id": "431743b1",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "deathrace_1",
+      "black_01",
+      "black_02"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:burnt_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__basic_burnt_01",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:burnt_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "983820d8",
+     "code": "tire_generic_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "clean_letter_white",
+      "dusty",
+      "muddy",
+      "dusty_letter_white",
+      "muddy_letter_white",
+      "valentinos_02"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "1841557d",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dirty_01",
+      "valentinos_01",
+      "maelstrom_red_01",
+      "maelstrom_green_01",
+      "maelstrom_red_01_dusty",
+      "valentinos_01_dusty",
+      "maelstrom_green_dusty"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:combat_cab_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:valentinos_01",
+      "style:dex_limo_q001_dex_limo"
+     ]
+    },
+    {
+     "id": "132977e5",
+     "code": "quartz_wheel_03",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax_quartz__ext01_wheel_fl_03.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax_quartz__ext01_wheel_fl_03.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax_quartz__ext01_wheel_bl_03.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax_quartz__ext01_wheel_bl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "red",
+      "silver_poor",
+      "silver",
+      "black_poor"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_02"
+     ],
+     "origins": [
+      "look:deathrace_01",
+      "look:player_01",
+      "look:urban_01",
+      "look:valentinos_02"
+     ]
+    },
+    {
+     "id": "05e3e9fd",
+     "code": "wheel_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "maelstrom_red_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03"
+     ]
+    },
+    {
+     "id": "58830e45",
+     "code": "wheel_02 + quartz_wheel_03",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax_quartz__ext01_wheel_bl_03.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax_quartz__ext01_wheel_bl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "maelstrom_red_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02"
+     ],
+     "origins": [
+      "look:scavenger_01",
+      "look:scavenger_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "4d871d67",
+     "code": "door_01 + door_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_bl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_br_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fr_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_br_02_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_bl_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "6th_street_black_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "rich_01",
+      "maelstrom_red_01",
+      "maelstrom_01",
+      "6th_street_grey_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "combat_cab_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02"
+     ]
+    },
+    {
+     "id": "bbd7d1b5",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fr_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "6th_street_black_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "rich_01",
+      "maelstrom_red_01",
+      "maelstrom_01",
+      "6th_street_grey_01",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_01",
+      "urban_02",
+      "combat_cab_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:default",
+      "style:dex_limo_q001_dex_limo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a",
+    "window_back_left_a",
+    "window_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "254a2a0d",
+     "code": "window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_window_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_window_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_window_br_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "deathrace_01",
+      "black_01",
+      "black_02"
+     ],
+     "looks": [
+      "chevalier_thrax__basic:6th_street_01",
+      "chevalier_thrax__basic:combat_cab_01",
+      "chevalier_thrax__basic:deathrace_01",
+      "chevalier_thrax__basic:default",
+      "chevalier_thrax__basic:maelstrom_01",
+      "chevalier_thrax__basic:mafia_01",
+      "chevalier_thrax__basic:mq304",
+      "chevalier_thrax__basic:player_01",
+      "chevalier_thrax__basic:poor_01",
+      "chevalier_thrax__basic:poor_02",
+      "chevalier_thrax__basic:poor_03",
+      "chevalier_thrax__basic:scavenger_01",
+      "chevalier_thrax__basic:scavenger_02",
+      "chevalier_thrax__basic:suburban_01",
+      "chevalier_thrax__basic:suburban_02",
+      "chevalier_thrax__basic:suburban_03",
+      "chevalier_thrax__basic:suburban_04",
+      "chevalier_thrax__basic:suburban_05",
+      "chevalier_thrax__basic:suburban_06",
+      "chevalier_thrax__basic:suburban_07",
+      "chevalier_thrax__basic:urban_01",
+      "chevalier_thrax__basic:valentinos_01",
+      "chevalier_thrax__basic:valentinos_02",
+      "chevalier_thrax__dex_limo:default",
+      "chevalier_thrax__dex_limo_q001_dex_limo"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:combat_cab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:maelstrom_01",
+      "look:mafia_01",
+      "look:mq304",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:scavenger_01",
+      "look:scavenger_02",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:urban_01",
+      "look:valentinos_01",
+      "look:valentinos_02",
+      "style:dex_limo_q001_dex_limo"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "6th_street_9eb2",
+   "family": "6th_street",
+   "code": "door_fl_6th_street_sticker_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_fl_6th_street_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fl_6th_street_sticker_01.mesh",
+     "code": "door_fl_6th_street_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:6th_street_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:6th_street_01",
+    "chevalier_thrax__basic:deathrace_01",
+    "chevalier_thrax__basic:valentinos_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:deathrace_01",
+    "look:valentinos_01"
+   ]
+  },
+  {
+   "id": "6th_street_1634",
+   "family": "6th_street",
+   "code": "kit_6th_street_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_cc_checker_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_cc_checker_sticker_01.mesh",
+     "code": "body_cc_checker_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_cc_checker_sticker_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_cc_checker_sticker_02.mesh",
+     "code": "body_cc_checker_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_cc_roof_stripes_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_cc_roof_stripes_01.mesh",
+     "code": "body_cc_roof_stripes_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_bl_cc_checker_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_bl_cc_checker_sticker_01.mesh",
+     "code": "door_bl_cc_checker_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_br_cc_checker_sticker_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_br_cc_checker_sticker_02.mesh",
+     "code": "door_br_cc_checker_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_fl_cc_checker_sticker_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fl_cc_checker_sticker_02.mesh",
+     "code": "door_fl_cc_checker_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_fr_cc_checker_sticker_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fr_cc_checker_sticker_03.mesh",
+     "code": "door_fr_cc_checker_sticker_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__int01_interior_6th_street_sticker_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__int01_interior_6th_street_sticker_02.mesh",
+     "code": "interior_6th_street_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__int01_interior_6th_street_sticker_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__int01_interior_6th_street_sticker_03.mesh",
+     "code": "interior_6th_street_sticker_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:combat_cab_01"
+   ],
+   "made_for": [
+    "slot:base.body",
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:combat_cab_01"
+   ]
+  },
+  {
+   "id": "6th_street_4736",
+   "family": "6th_street",
+   "code": "kit_6th_street_body_trunk",
+   "where": [
+    "body",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_sticker_6th_street",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_sticker_6th_street.mesh",
+     "code": "body_sticker_6th_street",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_sticker_6th_street_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_sticker_6th_street_01.mesh",
+     "code": "body_sticker_6th_street_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_trunk_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_trunk_sticker_01.mesh",
+     "code": "trunk_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:6th_street_01",
+    "chevalier_thrax__basic:combat_cab_01",
+    "chevalier_thrax__basic:deathrace_01"
+   ],
+   "made_for": [
+    "slot:base.body",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:combat_cab_01",
+    "look:deathrace_01"
+   ]
+  },
+  {
+   "id": "6th_street_87c1",
+   "family": "6th_street",
+   "code": "kit_6th_street_body_trunk_2",
+   "where": [
+    "body",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_trunk_sticker_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_trunk_sticker_02.mesh",
+     "code": "trunk_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:6th_street_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__int01_interior_6th_street_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__int01_interior_6th_street_sticker_01.mesh",
+     "code": "interior_6th_street_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:6th_street_01"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01"
+   ]
+  },
+  {
+   "id": "maelstrom_4d97",
+   "family": "maelstrom",
+   "code": "door_fr_stickers_maelstrom_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_fr_stickers_maelstrom_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fr_stickers_maelstrom_01.mesh",
+     "code": "door_fr_stickers_maelstrom_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:combat_cab_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:combat_cab_01",
+    "chevalier_thrax__basic:maelstrom_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:combat_cab_01",
+    "look:maelstrom_01"
+   ]
+  },
+  {
+   "id": "maelstrom_9928",
+   "family": "maelstrom",
+   "code": "kit_maelstrom_body_doors_hood_trunk",
+   "where": [
+    "body",
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_stickers_maelstrom_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_stickers_maelstrom_01.mesh",
+     "code": "body_stickers_maelstrom_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:maelstrom_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_bl_stickers_maelstrom_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_bl_stickers_maelstrom_01.mesh",
+     "code": "door_bl_stickers_maelstrom_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:maelstrom_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_br_stickers_maelstrom_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_br_stickers_maelstrom_01.mesh",
+     "code": "door_br_stickers_maelstrom_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:maelstrom_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_fl_stickers_maelstrom_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fl_stickers_maelstrom_01.mesh",
+     "code": "door_fl_stickers_maelstrom_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      -0.0046,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:maelstrom_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_hood_stickers_maelstrom_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_hood_stickers_maelstrom_01.mesh",
+     "code": "hood_stickers_maelstrom_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:maelstrom_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_trunk_stickers_maelstrom_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_trunk_stickers_maelstrom_01.mesh",
+     "code": "trunk_stickers_maelstrom_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:maelstrom_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:maelstrom_01"
+   ],
+   "made_for": [
+    "slot:base.body",
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:maelstrom_01"
+   ]
+  },
+  {
+   "id": "scavengers_6428",
+   "family": "scavengers",
+   "code": "body_sticker_scavengers_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_sticker_scavengers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_sticker_scavengers_01.mesh",
+     "code": "body_sticker_scavengers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:scavenger_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:scavenger_01"
+   ],
+   "made_for": [
+    "slot:base.body"
+   ],
+   "needs": [],
+   "origins": [
+    "look:scavenger_01"
+   ]
+  },
+  {
+   "id": "scavengers_6b10",
+   "family": "scavengers",
+   "code": "door_bl_sticker_scavengers_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_bl_sticker_scavengers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_bl_sticker_scavengers_01.mesh",
+     "code": "door_bl_sticker_scavengers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:scavenger_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:scavenger_01",
+    "chevalier_thrax__basic:scavenger_02"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:scavenger_01",
+    "look:scavenger_02"
+   ]
+  },
+  {
+   "id": "scavengers_90bd",
+   "family": "scavengers",
+   "code": "kit_scavengers_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_br_stickers_scavengers_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_br_stickers_scavengers_02.mesh",
+     "code": "door_br_stickers_scavengers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:scavenger_02",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_fr_stickers_scavengers_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fr_stickers_scavengers_02.mesh",
+     "code": "door_fr_stickers_scavengers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:scavenger_02",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:scavenger_02"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:scavenger_02"
+   ]
+  },
+  {
+   "id": "sticker_4edc",
+   "family": "sticker",
+   "code": "hood_02_sticker",
+   "where": [
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_hood_02_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_hood_02_sticker.mesh",
+     "code": "hood_02_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:6th_street_01",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:6th_street_01",
+    "chevalier_thrax__basic:deathrace_01"
+   ],
+   "made_for": [
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:deathrace_01"
+   ]
+  },
+  {
+   "id": "sticker_aef3",
+   "family": "sticker",
+   "code": "stickers_sensors_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_stickers_sensors_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_stickers_sensors_01.mesh",
+     "code": "stickers_sensors_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:default",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:6th_street_01",
+    "chevalier_thrax__basic:burnt_01",
+    "chevalier_thrax__basic:combat_cab_01",
+    "chevalier_thrax__basic:deathrace_01",
+    "chevalier_thrax__basic:default",
+    "chevalier_thrax__basic:maelstrom_01",
+    "chevalier_thrax__basic:mafia_01",
+    "chevalier_thrax__basic:mq304",
+    "chevalier_thrax__basic:player_01",
+    "chevalier_thrax__basic:poor_01",
+    "chevalier_thrax__basic:poor_02",
+    "chevalier_thrax__basic:poor_03",
+    "chevalier_thrax__basic:scavenger_01",
+    "chevalier_thrax__basic:scavenger_02",
+    "chevalier_thrax__basic:suburban_01",
+    "chevalier_thrax__basic:suburban_02",
+    "chevalier_thrax__basic:suburban_03",
+    "chevalier_thrax__basic:suburban_04",
+    "chevalier_thrax__basic:suburban_05",
+    "chevalier_thrax__basic:suburban_06",
+    "chevalier_thrax__basic:suburban_07",
+    "chevalier_thrax__basic:urban_01",
+    "chevalier_thrax__basic:valentinos_01",
+    "chevalier_thrax__basic:valentinos_02",
+    "chevalier_thrax__basic_burnt_01",
+    "chevalier_thrax__dex_limo:default",
+    "chevalier_thrax__dex_limo_q001_dex_limo"
+   ],
+   "made_for": [
+    "slot:base.body"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:burnt_01",
+    "look:combat_cab_01",
+    "look:deathrace_01",
+    "look:default",
+    "look:maelstrom_01",
+    "look:mafia_01",
+    "look:mq304",
+    "look:player_01",
+    "look:poor_01",
+    "look:poor_02",
+    "look:poor_03",
+    "look:scavenger_01",
+    "look:scavenger_02",
+    "look:suburban_01",
+    "look:suburban_02",
+    "look:suburban_03",
+    "look:suburban_04",
+    "look:suburban_05",
+    "look:suburban_06",
+    "look:suburban_07",
+    "look:urban_01",
+    "look:valentinos_01",
+    "look:valentinos_02",
+    "style:dex_limo_q001_dex_limo",
+    "wreck:burnt_01"
+   ]
+  },
+  {
+   "id": "valentinos_2768",
+   "family": "valentinos",
+   "code": "kit_valentinos_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_stickers_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_stickers_valentinos_01.mesh",
+     "code": "body_stickers_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_fr_stickers_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fr_stickers_valentinos_01.mesh",
+     "code": "door_fr_stickers_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:valentinos_01"
+   ],
+   "made_for": [
+    "slot:base.body",
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:valentinos_01"
+   ]
+  },
+  {
+   "id": "valentinos_20d9",
+   "family": "valentinos",
+   "code": "kit_valentinos_body_doors_hood_trunk",
+   "where": [
+    "body",
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_stickers_valentinos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_stickers_valentinos_02.mesh",
+     "code": "body_stickers_valentinos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_02",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_body_stickers_valentinos_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_body_stickers_valentinos_03.mesh",
+     "code": "body_stickers_valentinos_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_02",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_br_stickers_valentinos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_br_stickers_valentinos_02.mesh",
+     "code": "door_br_stickers_valentinos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_02",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_fr_stickers_valentinos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fr_stickers_valentinos_02.mesh",
+     "code": "door_fr_stickers_valentinos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_02",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_hood_stickers_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_hood_stickers_valentinos_01.mesh",
+     "code": "hood_stickers_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0091
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_02",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_trunk_stickers_valentinos_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_trunk_stickers_valentinos_03.mesh",
+     "code": "trunk_stickers_valentinos_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_02",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_trunk_stickers_valentinos_04",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_trunk_stickers_valentinos_04.mesh",
+     "code": "trunk_stickers_valentinos_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_02",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:valentinos_02"
+   ],
+   "made_for": [
+    "slot:base.body",
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:valentinos_02"
+   ]
+  },
+  {
+   "id": "valentinos_1493",
+   "family": "valentinos",
+   "code": "kit_valentinos_doors_trunk",
+   "where": [
+    "doors",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_bl_stickers_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_bl_stickers_valentinos_01.mesh",
+     "code": "door_bl_stickers_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_door_fl_stickers_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_door_fl_stickers_valentinos_01.mesh",
+     "code": "door_fl_stickers_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_trunk_stickers_valentinos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_trunk_stickers_valentinos_01.mesh",
+     "code": "trunk_stickers_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "v_standard2_chevalier_thrax__ext01_trunk_stickers_valentinos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_trunk_stickers_valentinos_02.mesh",
+     "code": "trunk_stickers_valentinos_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "chevalier_thrax__basic:valentinos_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "chevalier_thrax__basic:valentinos_01",
+    "chevalier_thrax__basic:valentinos_02"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:valentinos_01",
+    "look:valentinos_02"
+   ]
+  }
+ ],
+ "looks": {
+  "chevalier_thrax__dex_limo_q001_dex_limo": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_thrax__dex_limo.app",
+   "app_look": "q001_dex_limo",
+   "style": "dex_limo_q001_dex_limo",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.mirror": {
+     "all": "v_standard2_chevalier_thrax__ext01_mirror_fl_01"
+    },
+    "base.mirror.mirror_fr": {
+     "all": "v_standard2_chevalier_thrax__ext01_mirror_fr_01"
+    },
+    "base.bumper": {
+     "all": "bumper_b_01_lights"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "chevalier_thrax__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\chevalier_thrax__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.mirror": {
+     "all": "v_standard2_chevalier_thrax__ext01_mirror_fl_01"
+    },
+    "base.mirror.mirror_fr": {
+     "all": "v_standard2_chevalier_thrax__ext01_mirror_fr_01"
+    },
+    "base.bumper": {
+     "all": "bumper_b_01_lights"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4237,
+   0.3284,
+   0.328,
+   -0.0479
+  ],
+  "b": [
+   0.4237,
+   0.4154,
+   0.328,
+   0.0489
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "c7c69d44",
+   "rim": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_generic_bl_01",
+   "from": "Thrax 388 Jefferson",
+   "radius": 0.4237,
+   "width": 0.4154,
+   "rim_radius": 0.328,
+   "tire_center": 0.0489,
+   "axles": [
+    "b"
+   ],
+   "looks": 17,
+   "paints": [
+    "dirty_01",
+    "valentinos_01",
+    "maelstrom_red_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_thrax__basic:6th_street_01",
+    "chevalier_thrax__basic:combat_cab_01",
+    "chevalier_thrax__basic:default",
+    "chevalier_thrax__basic:maelstrom_01",
+    "chevalier_thrax__basic:mafia_01",
+    "chevalier_thrax__basic:mq304",
+    "chevalier_thrax__basic:suburban_01",
+    "chevalier_thrax__basic:suburban_02",
+    "chevalier_thrax__basic:suburban_03",
+    "chevalier_thrax__basic:suburban_04",
+    "chevalier_thrax__basic:suburban_05",
+    "chevalier_thrax__basic:suburban_06",
+    "chevalier_thrax__basic:suburban_07",
+    "chevalier_thrax__basic:valentinos_01",
+    "chevalier_thrax__dex_limo:default",
+    "chevalier_thrax__dex_limo_q001_dex_limo"
+   ]
+  },
+  {
+   "id": "5960c7bc",
+   "rim": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_generic_fl_01",
+   "from": "Thrax 388 Jefferson",
+   "radius": 0.4237,
+   "width": 0.3284,
+   "rim_radius": 0.328,
+   "tire_center": -0.0479,
+   "axles": [
+    "f"
+   ],
+   "looks": 17,
+   "paints": [
+    "dirty_01",
+    "valentinos_01",
+    "maelstrom_red_01",
+    "maelstrom_green_01",
+    "maelstrom_red_01_dusty",
+    "valentinos_01_dusty",
+    "maelstrom_green_dusty"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_thrax__basic:6th_street_01",
+    "chevalier_thrax__basic:combat_cab_01",
+    "chevalier_thrax__basic:default",
+    "chevalier_thrax__basic:maelstrom_01",
+    "chevalier_thrax__basic:mafia_01",
+    "chevalier_thrax__basic:mq304",
+    "chevalier_thrax__basic:suburban_01",
+    "chevalier_thrax__basic:suburban_02",
+    "chevalier_thrax__basic:suburban_03",
+    "chevalier_thrax__basic:suburban_04",
+    "chevalier_thrax__basic:suburban_05",
+    "chevalier_thrax__basic:suburban_06",
+    "chevalier_thrax__basic:suburban_07",
+    "chevalier_thrax__basic:valentinos_01",
+    "chevalier_thrax__dex_limo:default",
+    "chevalier_thrax__dex_limo_q001_dex_limo"
+   ]
+  },
+  {
+   "id": "fd26bd2c",
+   "rim": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax_quartz__ext01_wheel_bl_03.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_01_shadow.mesh",
+   "code": "quartz_wheel_bl_03",
+   "tire_code": "tire_generic_bl_01",
+   "from": "Thrax 388 Jefferson",
+   "radius": 0.4237,
+   "width": 0.4154,
+   "rim_radius": 0.3275,
+   "tire_center": 0.0489,
+   "axles": [
+    "b"
+   ],
+   "looks": 6,
+   "paints": [
+    "valentinos_01",
+    "red",
+    "silver_poor",
+    "silver",
+    "black_poor"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_thrax__basic:deathrace_01",
+    "chevalier_thrax__basic:player_01",
+    "chevalier_thrax__basic:scavenger_01",
+    "chevalier_thrax__basic:scavenger_02",
+    "chevalier_thrax__basic:urban_01",
+    "chevalier_thrax__basic:valentinos_02"
+   ]
+  },
+  {
+   "id": "1debb964",
+   "rim": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax_quartz__ext01_wheel_fl_03.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01_shadow.mesh",
+   "code": "quartz_wheel_fl_03",
+   "tire_code": "tire_generic_fl_01",
+   "from": "Thrax 388 Jefferson",
+   "radius": 0.4237,
+   "width": 0.3284,
+   "rim_radius": 0.3237,
+   "tire_center": -0.0479,
+   "axles": [
+    "f"
+   ],
+   "looks": 4,
+   "paints": [
+    "valentinos_01",
+    "red",
+    "silver_poor",
+    "silver",
+    "black_poor"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_thrax__basic:deathrace_01",
+    "chevalier_thrax__basic:player_01",
+    "chevalier_thrax__basic:urban_01",
+    "chevalier_thrax__basic:valentinos_02"
+   ]
+  },
+  {
+   "id": "6a6a58a7",
+   "rim": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01_shadow.mesh",
+   "code": "wheel_fl_02",
+   "tire_code": "tire_generic_fl_01",
+   "from": "Thrax 388 Jefferson",
+   "radius": 0.4237,
+   "width": 0.3284,
+   "rim_radius": 0.3119,
+   "tire_center": -0.0479,
+   "axles": [
+    "f"
+   ],
+   "looks": 5,
+   "paints": [
+    "maelstrom_red_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_thrax__basic:poor_01",
+    "chevalier_thrax__basic:poor_02",
+    "chevalier_thrax__basic:poor_03",
+    "chevalier_thrax__basic:scavenger_01",
+    "chevalier_thrax__basic:scavenger_02"
+   ]
+  },
+  {
+   "id": "67a04397",
+   "rim": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_tire_generic_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_bl_01_shadow.mesh",
+   "code": "wheel_bl_02",
+   "tire_code": "tire_generic_bl_01",
+   "from": "Thrax 388 Jefferson",
+   "radius": 0.4237,
+   "width": 0.4154,
+   "rim_radius": 0.3145,
+   "tire_center": 0.0489,
+   "axles": [
+    "b"
+   ],
+   "looks": 3,
+   "paints": [
+    "maelstrom_red_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_thrax__basic:poor_01",
+    "chevalier_thrax__basic:poor_02",
+    "chevalier_thrax__basic:poor_03"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Thrax 388 Jefferson"
+  ]
+ ]
+}

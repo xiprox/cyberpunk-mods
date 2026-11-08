@@ -1,0 +1,1305 @@
+{
+ "id": "kaukaz_zeya__container_01",
+ "label": "Zeya U420",
+ "entity": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya__container_01.ent",
+ "family": "v_utility4_kaukaz_zeya",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_utility4_kaukaz_zeya_container",
+  "Vehicle.v_utility4_kaukaz_zeya_container_dogtown",
+  "Vehicle.v_utility4_kaukaz_zeya_container_locked_doors"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\utility\\kaukaz_zeya__basic.app",
+  "ep1\\vehicles\\appearances\\utility\\kaukaz_zeya_kurtz.app"
+ ],
+ "styles": [
+  {
+   "id": "zeya_container_01",
+   "code": "zeya_container_01",
+   "label": "Zeya container",
+   "base_look": "kaukaz_zeya__basic_zeya_container_01",
+   "looks": [
+    "kaukaz_zeya__basic_zeya_container_01",
+    "kaukaz_zeya__basic_zeya_container_02",
+    "kaukaz_zeya__basic_zeya_container_03"
+   ],
+   "options": {
+    "base.body": "a7384cca",
+    "base.body.bed": "a7dc52a8",
+    "wheel.tire": "f797b9b8",
+    "door.door": "b74ad589"
+   },
+   "kits": [
+    "sticker_282d"
+   ]
+  }
+ ],
+ "wrecks": [
+  "kaukaz_zeya__basic_zeya_burnt_container_01"
+ ],
+ "slots": [
+  {
+   "id": "base.body",
+   "label": "Body: main",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "a7384cca",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "dark_blue",
+     "paints": [
+      "hazmat_01",
+      "yellow",
+      "maroon",
+      "blue_white_orange",
+      "dark_blue",
+      "green_gold"
+     ],
+     "looks": [
+      "kaukaz_zeya__basic:default",
+      "kaukaz_zeya__basic:zeya_barrels_01",
+      "kaukaz_zeya__basic:zeya_barrels_02",
+      "kaukaz_zeya__basic:zeya_barrels_03",
+      "kaukaz_zeya__basic:zeya_basic_01",
+      "kaukaz_zeya__basic:zeya_basic_01_blue",
+      "kaukaz_zeya__basic:zeya_basic_01_green",
+      "kaukaz_zeya__basic:zeya_basic_01_red",
+      "kaukaz_zeya__basic:zeya_basic_01_yellow",
+      "kaukaz_zeya__basic:zeya_basic_02",
+      "kaukaz_zeya__basic:zeya_basic_03",
+      "kaukaz_zeya__basic:zeya_burnt_01",
+      "kaukaz_zeya__basic:zeya_burnt_barrels_01",
+      "kaukaz_zeya__basic:zeya_burnt_freight_01",
+      "kaukaz_zeya__basic:zeya_burnt_full_01",
+      "kaukaz_zeya__basic:zeya_freight_01",
+      "kaukaz_zeya__basic:zeya_freight_02",
+      "kaukaz_zeya__basic:zeya_freight_03",
+      "kaukaz_zeya__basic:zeya_freight_04",
+      "kaukaz_zeya__basic:zeya_full_01",
+      "kaukaz_zeya__basic:zeya_full_02",
+      "kaukaz_zeya__basic:zeya_full_03",
+      "kaukaz_zeya__basic:zeya_hazmat_01",
+      "kaukaz_zeya__basic_zeya_burnt_container_01",
+      "kaukaz_zeya__basic_zeya_container_01",
+      "kaukaz_zeya__basic_zeya_container_02",
+      "kaukaz_zeya__basic_zeya_container_03",
+      "kaukaz_zeya_kurtz:zeya_kurtz_1",
+      "kaukaz_zeya_kurtz:zeya_kurtz_2",
+      "kaukaz_zeya_kurtz:zeya_kurtz_3"
+     ],
+     "origins": [
+      "look:default",
+      "look:zeya_barrels_01",
+      "look:zeya_barrels_02",
+      "look:zeya_barrels_03",
+      "look:zeya_basic_01",
+      "look:zeya_basic_01_blue",
+      "look:zeya_basic_01_green",
+      "look:zeya_basic_01_red",
+      "look:zeya_basic_01_yellow",
+      "look:zeya_basic_02",
+      "look:zeya_basic_03",
+      "look:zeya_burnt_01",
+      "look:zeya_burnt_barrels_01",
+      "look:zeya_burnt_freight_01",
+      "look:zeya_burnt_full_01",
+      "look:zeya_freight_01",
+      "look:zeya_freight_02",
+      "look:zeya_freight_03",
+      "look:zeya_freight_04",
+      "look:zeya_full_01",
+      "look:zeya_full_02",
+      "look:zeya_full_03",
+      "look:zeya_hazmat_01",
+      "look:zeya_kurtz_1",
+      "look:zeya_kurtz_2",
+      "look:zeya_kurtz_3",
+      "style:zeya_container_01",
+      "wreck:zeya_burnt_container_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.bed",
+   "label": "Body: bed",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bed_01"
+   ],
+   "options": [
+    {
+     "id": "a7dc52a8",
+     "code": "body_bed01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_bed01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "dark_blue",
+     "paints": [
+      "hazmat_01",
+      "yellow",
+      "maroon",
+      "blue_white_orange",
+      "dark_blue",
+      "green_gold"
+     ],
+     "looks": [
+      "kaukaz_zeya__basic:default",
+      "kaukaz_zeya__basic:zeya_barrels_01",
+      "kaukaz_zeya__basic:zeya_barrels_02",
+      "kaukaz_zeya__basic:zeya_barrels_03",
+      "kaukaz_zeya__basic:zeya_basic_01",
+      "kaukaz_zeya__basic:zeya_basic_01_blue",
+      "kaukaz_zeya__basic:zeya_basic_01_green",
+      "kaukaz_zeya__basic:zeya_basic_01_red",
+      "kaukaz_zeya__basic:zeya_basic_01_yellow",
+      "kaukaz_zeya__basic:zeya_basic_02",
+      "kaukaz_zeya__basic:zeya_basic_03",
+      "kaukaz_zeya__basic:zeya_burnt_01",
+      "kaukaz_zeya__basic:zeya_burnt_barrels_01",
+      "kaukaz_zeya__basic:zeya_burnt_freight_01",
+      "kaukaz_zeya__basic:zeya_burnt_full_01",
+      "kaukaz_zeya__basic:zeya_freight_01",
+      "kaukaz_zeya__basic:zeya_freight_02",
+      "kaukaz_zeya__basic:zeya_freight_03",
+      "kaukaz_zeya__basic:zeya_freight_04",
+      "kaukaz_zeya__basic_zeya_burnt_container_01",
+      "kaukaz_zeya__basic_zeya_container_01",
+      "kaukaz_zeya__basic_zeya_container_02",
+      "kaukaz_zeya__basic_zeya_container_03"
+     ],
+     "origins": [
+      "look:default",
+      "look:zeya_barrels_01",
+      "look:zeya_barrels_02",
+      "look:zeya_barrels_03",
+      "look:zeya_basic_01",
+      "look:zeya_basic_01_blue",
+      "look:zeya_basic_01_green",
+      "look:zeya_basic_01_red",
+      "look:zeya_basic_01_yellow",
+      "look:zeya_basic_02",
+      "look:zeya_basic_03",
+      "look:zeya_burnt_01",
+      "look:zeya_burnt_barrels_01",
+      "look:zeya_burnt_freight_01",
+      "look:zeya_burnt_full_01",
+      "look:zeya_freight_01",
+      "look:zeya_freight_02",
+      "look:zeya_freight_03",
+      "look:zeya_freight_04",
+      "style:zeya_container_01",
+      "wreck:zeya_burnt_container_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.cab",
+   "label": "Body: cab",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "cab_01"
+   ],
+   "options": [
+    {
+     "id": "6bb71bfb",
+     "code": "body_cab_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_cab_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_cab_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "hazmat_01",
+     "paints": [
+      "hazmat_01",
+      "yellow",
+      "maroon",
+      "blue_white_orange",
+      "dark_blue",
+      "green_gold"
+     ],
+     "looks": [
+      "kaukaz_zeya__basic:zeya_burnt_full_01",
+      "kaukaz_zeya__basic:zeya_full_01",
+      "kaukaz_zeya__basic:zeya_full_02",
+      "kaukaz_zeya__basic:zeya_full_03",
+      "kaukaz_zeya__basic:zeya_hazmat_01",
+      "kaukaz_zeya_kurtz:zeya_kurtz_1",
+      "kaukaz_zeya_kurtz:zeya_kurtz_2",
+      "kaukaz_zeya_kurtz:zeya_kurtz_3"
+     ],
+     "origins": [
+      "look:zeya_burnt_full_01",
+      "look:zeya_full_01",
+      "look:zeya_full_02",
+      "look:zeya_full_03",
+      "look:zeya_hazmat_01",
+      "look:zeya_kurtz_1",
+      "look:zeya_kurtz_2",
+      "look:zeya_kurtz_3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "f797b9b8",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "dusty",
+     "paints": [
+      "dusty",
+      "muddy"
+     ],
+     "looks": [
+      "kaukaz_zeya__basic:default",
+      "kaukaz_zeya__basic:zeya_barrels_01",
+      "kaukaz_zeya__basic:zeya_barrels_02",
+      "kaukaz_zeya__basic:zeya_barrels_03",
+      "kaukaz_zeya__basic:zeya_basic_01",
+      "kaukaz_zeya__basic:zeya_basic_01_blue",
+      "kaukaz_zeya__basic:zeya_basic_01_green",
+      "kaukaz_zeya__basic:zeya_basic_01_red",
+      "kaukaz_zeya__basic:zeya_basic_01_yellow",
+      "kaukaz_zeya__basic:zeya_basic_02",
+      "kaukaz_zeya__basic:zeya_basic_03",
+      "kaukaz_zeya__basic:zeya_freight_01",
+      "kaukaz_zeya__basic:zeya_freight_02",
+      "kaukaz_zeya__basic:zeya_freight_03",
+      "kaukaz_zeya__basic:zeya_freight_04",
+      "kaukaz_zeya__basic:zeya_full_01",
+      "kaukaz_zeya__basic:zeya_full_02",
+      "kaukaz_zeya__basic:zeya_full_03",
+      "kaukaz_zeya__basic:zeya_hazmat_01",
+      "kaukaz_zeya__basic_zeya_container_01",
+      "kaukaz_zeya__basic_zeya_container_02",
+      "kaukaz_zeya__basic_zeya_container_03",
+      "kaukaz_zeya_kurtz:zeya_kurtz_1",
+      "kaukaz_zeya_kurtz:zeya_kurtz_2",
+      "kaukaz_zeya_kurtz:zeya_kurtz_3"
+     ],
+     "origins": [
+      "look:default",
+      "look:zeya_barrels_01",
+      "look:zeya_barrels_02",
+      "look:zeya_barrels_03",
+      "look:zeya_basic_01",
+      "look:zeya_basic_01_blue",
+      "look:zeya_basic_01_green",
+      "look:zeya_basic_01_red",
+      "look:zeya_basic_01_yellow",
+      "look:zeya_basic_02",
+      "look:zeya_basic_03",
+      "look:zeya_freight_01",
+      "look:zeya_freight_02",
+      "look:zeya_freight_03",
+      "look:zeya_freight_04",
+      "look:zeya_full_01",
+      "look:zeya_full_02",
+      "look:zeya_full_03",
+      "look:zeya_hazmat_01",
+      "look:zeya_kurtz_1",
+      "look:zeya_kurtz_2",
+      "look:zeya_kurtz_3",
+      "style:zeya_container_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "b74ad589",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "dark_blue",
+     "paints": [
+      "yellow",
+      "maroon",
+      "blue_white_orange",
+      "dark_blue",
+      "green_gold",
+      "hazmat_01"
+     ],
+     "looks": [
+      "kaukaz_zeya__basic:default",
+      "kaukaz_zeya__basic:zeya_barrels_01",
+      "kaukaz_zeya__basic:zeya_barrels_02",
+      "kaukaz_zeya__basic:zeya_barrels_03",
+      "kaukaz_zeya__basic:zeya_basic_01",
+      "kaukaz_zeya__basic:zeya_basic_01_blue",
+      "kaukaz_zeya__basic:zeya_basic_01_green",
+      "kaukaz_zeya__basic:zeya_basic_01_red",
+      "kaukaz_zeya__basic:zeya_basic_01_yellow",
+      "kaukaz_zeya__basic:zeya_basic_02",
+      "kaukaz_zeya__basic:zeya_basic_03",
+      "kaukaz_zeya__basic:zeya_freight_01",
+      "kaukaz_zeya__basic:zeya_freight_02",
+      "kaukaz_zeya__basic:zeya_freight_03",
+      "kaukaz_zeya__basic:zeya_freight_04",
+      "kaukaz_zeya__basic:zeya_full_01",
+      "kaukaz_zeya__basic:zeya_full_02",
+      "kaukaz_zeya__basic:zeya_full_03",
+      "kaukaz_zeya__basic:zeya_hazmat_01",
+      "kaukaz_zeya__basic_zeya_container_01",
+      "kaukaz_zeya__basic_zeya_container_02",
+      "kaukaz_zeya__basic_zeya_container_03",
+      "kaukaz_zeya_kurtz:zeya_kurtz_1",
+      "kaukaz_zeya_kurtz:zeya_kurtz_2",
+      "kaukaz_zeya_kurtz:zeya_kurtz_3"
+     ],
+     "origins": [
+      "look:default",
+      "look:zeya_barrels_01",
+      "look:zeya_barrels_02",
+      "look:zeya_barrels_03",
+      "look:zeya_basic_01",
+      "look:zeya_basic_01_blue",
+      "look:zeya_basic_01_green",
+      "look:zeya_basic_01_red",
+      "look:zeya_basic_01_yellow",
+      "look:zeya_basic_02",
+      "look:zeya_basic_03",
+      "look:zeya_freight_01",
+      "look:zeya_freight_02",
+      "look:zeya_freight_03",
+      "look:zeya_freight_04",
+      "look:zeya_full_01",
+      "look:zeya_full_02",
+      "look:zeya_full_03",
+      "look:zeya_hazmat_01",
+      "look:zeya_kurtz_1",
+      "look:zeya_kurtz_2",
+      "look:zeya_kurtz_3",
+      "style:zeya_container_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "kurtz_7398",
+   "family": "kurtz",
+   "code": "kit_kurtz_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "stickers_kurtz_1",
+     "mesh": "ep1\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_cab_kurtz_01.mesh",
+     "code": "body_cab_kurtz_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.259,
+      0.9638
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_zeya_kurtz:zeya_kurtz_1",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "stickers_kurtz_2",
+     "mesh": "ep1\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_cab_kurtz_02.mesh",
+     "code": "body_cab_kurtz_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_zeya_kurtz:zeya_kurtz_1",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "stickers_kurtz_3",
+     "mesh": "ep1\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_cab_kurtz_03.mesh",
+     "code": "body_cab_kurtz_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.2642,
+      0.9755
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_zeya_kurtz:zeya_kurtz_1",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "kaukaz_zeya_kurtz:zeya_kurtz_1",
+    "kaukaz_zeya_kurtz:zeya_kurtz_2",
+    "kaukaz_zeya_kurtz:zeya_kurtz_3"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:zeya_kurtz_1",
+    "look:zeya_kurtz_2",
+    "look:zeya_kurtz_3"
+   ]
+  },
+  {
+   "id": "sticker_9d0f",
+   "family": "sticker",
+   "code": "kit_sticker_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "stickers_body",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__stickers_biohaz_body_01.mesh",
+     "code": "stickers_biohaz_body_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_zeya__basic:zeya_hazmat_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "stickers_bumper",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__stickers_biohaz_bumper_b_01.mesh",
+     "code": "stickers_biohaz_bumper_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_zeya__basic:zeya_hazmat_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "kaukaz_zeya__basic:zeya_hazmat_01",
+    "kaukaz_zeya_kurtz:zeya_kurtz_2",
+    "kaukaz_zeya_kurtz:zeya_kurtz_3"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:zeya_hazmat_01",
+    "look:zeya_kurtz_2",
+    "look:zeya_kurtz_3"
+   ]
+  },
+  {
+   "id": "sticker_282d",
+   "family": "sticker",
+   "code": "kit_sticker_body_interior",
+   "where": [
+    "body",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "body_01_decal_lidar",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_01_decal_lidar.mesh",
+     "code": "body_01_decal_lidar",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_zeya__basic:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_01_stickers",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_body_01_stickers.mesh",
+     "code": "body_01_stickers",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_zeya__basic:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "interior_01_decals",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__int01_interior_01_decals.mesh",
+     "code": "interior_01_decals",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_zeya__basic:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "interior_01_sticker",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__int01_interior_01_sticker.mesh",
+     "code": "interior_01_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_zeya__basic:default",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "kaukaz_zeya__basic:default",
+    "kaukaz_zeya__basic:zeya_barrels_01",
+    "kaukaz_zeya__basic:zeya_barrels_02",
+    "kaukaz_zeya__basic:zeya_barrels_03",
+    "kaukaz_zeya__basic:zeya_basic_01",
+    "kaukaz_zeya__basic:zeya_basic_01_blue",
+    "kaukaz_zeya__basic:zeya_basic_01_green",
+    "kaukaz_zeya__basic:zeya_basic_01_red",
+    "kaukaz_zeya__basic:zeya_basic_01_yellow",
+    "kaukaz_zeya__basic:zeya_basic_02",
+    "kaukaz_zeya__basic:zeya_basic_03",
+    "kaukaz_zeya__basic:zeya_burnt_01",
+    "kaukaz_zeya__basic:zeya_burnt_barrels_01",
+    "kaukaz_zeya__basic:zeya_burnt_freight_01",
+    "kaukaz_zeya__basic:zeya_burnt_full_01",
+    "kaukaz_zeya__basic:zeya_freight_01",
+    "kaukaz_zeya__basic:zeya_freight_02",
+    "kaukaz_zeya__basic:zeya_freight_03",
+    "kaukaz_zeya__basic:zeya_freight_04",
+    "kaukaz_zeya__basic:zeya_full_01",
+    "kaukaz_zeya__basic:zeya_full_02",
+    "kaukaz_zeya__basic:zeya_full_03",
+    "kaukaz_zeya__basic:zeya_hazmat_01",
+    "kaukaz_zeya__basic_zeya_burnt_container_01",
+    "kaukaz_zeya__basic_zeya_container_01",
+    "kaukaz_zeya__basic_zeya_container_02",
+    "kaukaz_zeya__basic_zeya_container_03",
+    "kaukaz_zeya_kurtz:zeya_kurtz_1",
+    "kaukaz_zeya_kurtz:zeya_kurtz_2",
+    "kaukaz_zeya_kurtz:zeya_kurtz_3"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "look:zeya_barrels_01",
+    "look:zeya_barrels_02",
+    "look:zeya_barrels_03",
+    "look:zeya_basic_01",
+    "look:zeya_basic_01_blue",
+    "look:zeya_basic_01_green",
+    "look:zeya_basic_01_red",
+    "look:zeya_basic_01_yellow",
+    "look:zeya_basic_02",
+    "look:zeya_basic_03",
+    "look:zeya_burnt_01",
+    "look:zeya_burnt_barrels_01",
+    "look:zeya_burnt_freight_01",
+    "look:zeya_burnt_full_01",
+    "look:zeya_freight_01",
+    "look:zeya_freight_02",
+    "look:zeya_freight_03",
+    "look:zeya_freight_04",
+    "look:zeya_full_01",
+    "look:zeya_full_02",
+    "look:zeya_full_03",
+    "look:zeya_hazmat_01",
+    "look:zeya_kurtz_1",
+    "look:zeya_kurtz_2",
+    "look:zeya_kurtz_3",
+    "style:zeya_container_01",
+    "wreck:zeya_burnt_container_01"
+   ]
+  }
+ ],
+ "looks": {
+  "kaukaz_zeya__basic_zeya_container_01": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_zeya__basic.app",
+   "app_look": "zeya_container_01",
+   "style": "zeya_container_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_f": {
+     "all": "window_f_02"
+    },
+    "base.window.window_f_2": {
+     "all": "window_f_03"
+    },
+    "base.window.window_f_2_2": {
+     "all": "window_f_04"
+    },
+    "base.window.window_f_2_2_2": {
+     "all": "window_f_05"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.bed": {
+     "all": "bed_01"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front_a.bumper": {
+     "all": "bumper_f_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "mirror_front_left.mirror": {
+     "all": "mirror_fl_01"
+    },
+    "mirror_front_right.mirror": {
+     "all": "mirror_fr_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "kaukaz_zeya__basic_zeya_container_02": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_zeya__basic.app",
+   "app_look": "zeya_container_02",
+   "style": "zeya_container_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_f": {
+     "all": "window_f_02"
+    },
+    "base.window.window_f_2": {
+     "all": "window_f_03"
+    },
+    "base.window.window_f_2_2": {
+     "all": "window_f_04"
+    },
+    "base.window.window_f_2_2_2": {
+     "all": "window_f_05"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.bed": {
+     "all": "bed_01"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front_a.bumper": {
+     "all": "bumper_f_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "mirror_front_left.mirror": {
+     "all": "mirror_fl_01"
+    },
+    "mirror_front_right.mirror": {
+     "all": "mirror_fr_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "kaukaz_zeya__basic_zeya_container_03": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_zeya__basic.app",
+   "app_look": "zeya_container_03",
+   "style": "zeya_container_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_f": {
+     "all": "window_f_02"
+    },
+    "base.window.window_f_2": {
+     "all": "window_f_03"
+    },
+    "base.window.window_f_2_2": {
+     "all": "window_f_04"
+    },
+    "base.window.window_f_2_2_2": {
+     "all": "window_f_05"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.bed": {
+     "all": "bed_01"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front_a.bumper": {
+     "all": "bumper_f_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "mirror_front_left.mirror": {
+     "all": "mirror_fl_01"
+    },
+    "mirror_front_right.mirror": {
+     "all": "mirror_fr_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "kaukaz_zeya__basic_zeya_burnt_container_01": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_zeya__basic.app",
+   "app_look": "zeya_burnt_container_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_f": {
+     "all": "window_f_02"
+    },
+    "base.window.window_f_2": {
+     "all": "window_f_03"
+    },
+    "base.window.window_f_2_2": {
+     "all": "window_f_04"
+    },
+    "base.window.window_f_2_2_2": {
+     "all": "window_f_05"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.bed": {
+     "all": "bed_01"
+    },
+    "bumper_front_c.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front_a.bumper": {
+     "all": "bumper_f_02"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "mirror_front_left.mirror": {
+     "all": "mirror_fl_01"
+    },
+    "mirror_front_right.mirror": {
+     "all": "mirror_fr_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4366,
+   0.4463,
+   0.3271,
+   -0.0696
+  ],
+  "b": [
+   0.4366,
+   0.4465,
+   0.3247,
+   -0.0694
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "fd633fac",
+   "rim": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Zeya U420",
+   "radius": 0.4366,
+   "width": 0.4463,
+   "rim_radius": 0.3271,
+   "tire_center": -0.0696,
+   "axles": [
+    "f"
+   ],
+   "looks": 25,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "kaukaz_zeya__basic:default",
+    "kaukaz_zeya__basic:zeya_barrels_01",
+    "kaukaz_zeya__basic:zeya_barrels_02",
+    "kaukaz_zeya__basic:zeya_barrels_03",
+    "kaukaz_zeya__basic:zeya_basic_01",
+    "kaukaz_zeya__basic:zeya_basic_01_blue",
+    "kaukaz_zeya__basic:zeya_basic_01_green",
+    "kaukaz_zeya__basic:zeya_basic_01_red",
+    "kaukaz_zeya__basic:zeya_basic_01_yellow",
+    "kaukaz_zeya__basic:zeya_basic_02",
+    "kaukaz_zeya__basic:zeya_basic_03",
+    "kaukaz_zeya__basic:zeya_freight_01",
+    "kaukaz_zeya__basic:zeya_freight_02",
+    "kaukaz_zeya__basic:zeya_freight_03",
+    "kaukaz_zeya__basic:zeya_freight_04",
+    "kaukaz_zeya__basic:zeya_full_01",
+    "kaukaz_zeya__basic:zeya_full_02",
+    "kaukaz_zeya__basic:zeya_full_03",
+    "kaukaz_zeya__basic:zeya_hazmat_01",
+    "kaukaz_zeya__basic_zeya_container_01",
+    "kaukaz_zeya__basic_zeya_container_02",
+    "kaukaz_zeya__basic_zeya_container_03",
+    "kaukaz_zeya_kurtz:zeya_kurtz_1",
+    "kaukaz_zeya_kurtz:zeya_kurtz_2",
+    "kaukaz_zeya_kurtz:zeya_kurtz_3"
+   ]
+  },
+  {
+   "id": "3116e5f4",
+   "rim": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_kaukaz_zeya\\entities\\meshes\\v_utility4_kakauz_zeya__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Zeya U420",
+   "radius": 0.4366,
+   "width": 0.4465,
+   "rim_radius": 0.3247,
+   "tire_center": -0.0694,
+   "axles": [
+    "b"
+   ],
+   "looks": 25,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "kaukaz_zeya__basic:default",
+    "kaukaz_zeya__basic:zeya_barrels_01",
+    "kaukaz_zeya__basic:zeya_barrels_02",
+    "kaukaz_zeya__basic:zeya_barrels_03",
+    "kaukaz_zeya__basic:zeya_basic_01",
+    "kaukaz_zeya__basic:zeya_basic_01_blue",
+    "kaukaz_zeya__basic:zeya_basic_01_green",
+    "kaukaz_zeya__basic:zeya_basic_01_red",
+    "kaukaz_zeya__basic:zeya_basic_01_yellow",
+    "kaukaz_zeya__basic:zeya_basic_02",
+    "kaukaz_zeya__basic:zeya_basic_03",
+    "kaukaz_zeya__basic:zeya_freight_01",
+    "kaukaz_zeya__basic:zeya_freight_02",
+    "kaukaz_zeya__basic:zeya_freight_03",
+    "kaukaz_zeya__basic:zeya_freight_04",
+    "kaukaz_zeya__basic:zeya_full_01",
+    "kaukaz_zeya__basic:zeya_full_02",
+    "kaukaz_zeya__basic:zeya_full_03",
+    "kaukaz_zeya__basic:zeya_hazmat_01",
+    "kaukaz_zeya__basic_zeya_container_01",
+    "kaukaz_zeya__basic_zeya_container_02",
+    "kaukaz_zeya__basic_zeya_container_03",
+    "kaukaz_zeya_kurtz:zeya_kurtz_1",
+    "kaukaz_zeya_kurtz:zeya_kurtz_2",
+    "kaukaz_zeya_kurtz:zeya_kurtz_3"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Zeya U420"
+  ]
+ ]
+}

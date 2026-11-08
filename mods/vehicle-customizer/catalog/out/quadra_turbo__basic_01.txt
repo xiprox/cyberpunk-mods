@@ -1,0 +1,90 @@
+Turbo-R 740 (quadra_turbo__basic_01), from base\vehicles\sport\v_sport1_quadra_turbo__basic_01.ent
+records: Vehicle.v_sport1_quadra_turbo_player, Vehicle.v_sport1_quadra_turbo_r_player
+generated 2026-11-08
+
+STYLES (8; a style's other looks are its factory paints)
+  quadra_turbo_basic_player Quadra turbo basic player 5 looks
+                                            paints: quadra_turbo_basic_rebecca, quadra_turbo_basic_entropism, quadra_turbo_basic_neokitsch, quadra_turbo_basic_neomilitarism
+                                            kits: kit_player_doors
+  quadra_turbo_basic_tygerclaws_01 Quadra turbo basic tygerclaws 1 looks
+                                            kits: kit_tyger_body_interior_trunk, tygerclaws_stickers_02, kit_tyger_body, kit_tyger_bumper
+  quadra_turbo_basic_tygerclaws_02 Quadra turbo basic tygerclaws 02 1 looks
+                                            kits: kit_tyger_bumper_interior, kit_tyger_bumper_trunk, door_fr_stickers_tygerclaws_02, kit_tyger_body
+  quadra_turbo_basic_tygerclaws_03 Quadra turbo basic tygerclaws 03 1 looks
+                                            kits: bumper_stickers_tygerclaws_04, tygerclaws_stickers_02, door_fr_stickers_tygerclaws_02, kit_tyger_body, door_fl_stickers_tygerclaws_01
+  quadra_turbo_basic_tygerclaws_04 Quadra turbo basic tygerclaws 04 1 looks
+                                            kits: tygerclaws_stickers_02, door_fr_stickers_tygerclaws_02, kit_tyger_body, door_fl_stickers_tygerclaws_01
+  quadra_turbo_basic_tygerclaws_05 Quadra turbo basic tygerclaws 05 1 looks
+                                            kits: kit_tyger_body_doors, tygerclaws_stickers_02, kit_tyger_bumper_interior, door_fr_stickers_tygerclaws_02, trunk_stickers_tygerclaws_04, kit_tyger_body, door_fl_stickers_tygerclaws_01
+  quadra_turbo_basic_tygerclaws_06 Quadra turbo basic tygerclaws 06 1 looks
+                                            kits: kit_tyger_body_doors, tygerclaws_stickers_02, trunk_stickers_tygerclaws_04, kit_tyger_body, kit_tyger_bumper
+  quadra_turbo_basic_urban_01 Quadra turbo basic urban 16 looks
+                                            paints: quadra_turbo_basic_urban_03, quadra_turbo_basic_urban_04, quadra_turbo_basic_urban_05, quadra_turbo_basic_urban_06, quadra_turbo_basic_urban_07, quadra_turbo_basic_urban_08, quadra_turbo_basic_urban_09, quadra_turbo_basic_urban_10, quadra_turbo_basic_default, quadra_turbo_basic_poor_01, quadra_turbo_basic_poor_02, quadra_turbo_basic_poor_03, quadra_turbo_basic_poor_04, quadra_turbo_basic_poor_05, quadra_turbo_basic_player_02
+                                            kits: kit_tyger_body
+WRECKS: quadra_turbo_basic_burnt_01, quadra_turbo_basic_burnt_player_01, quadra_turbo_basic_player_q001_damaged
+
+SLOTS (15)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_02                                    23 paints  22 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05] ...
+    bumper_f_01                                     6 paints   6 looks  [style: Quadra turbo basic player] [wreck: quadra_turbo_basic_player_q001_damaged]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_02                                    23 paints  22 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05] ...
+    bumper_b_01                                     6 paints   6 looks  [style: Quadra turbo basic player] [wreck: quadra_turbo_basic_player_q001_damaged]
+  Hood [hood_a.hood] (hood_a): 2 options
+    hood_02                                        23 paints  22 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05] ...
+    hood_01                                         6 paints   6 looks  [style: Quadra turbo basic player] [wreck: quadra_turbo_basic_player_q001_damaged]
+  Trunk [trunk_a.trunk] (trunk_a): 2 options
+    trunk_02                                       23 paints  22 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05] ...
+    trunk_01                                        6 paints   6 looks  [style: Quadra turbo basic player] [wreck: quadra_turbo_basic_player_q001_damaged]
+  Body [base.body] (Base): 2 options
+    body_02                                        23 paints  23 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05] ...
+    body_01                                         6 paints   7 looks  [style: Quadra turbo basic player] [wreck: quadra_turbo_basic_burnt_player_01] [wreck: quadra_turbo_basic_player_q001_damaged]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    13 paints  30 looks  [style: Quadra turbo basic player] [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] ...
+  Windshield: a [base.window] (Base): 1 options
+    window_a_01                                     3 paints  30 looks  [style: Quadra turbo basic player] [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] ...
+  Windshield: back [base.window.window_b] (Base): 1 options
+    window_b_01                                     3 paints  30 looks  [style: Quadra turbo basic player] [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] ...
+  Windshield: c [base.window.window_c] (Base): 1 options
+    window_c_01                                     3 paints  30 looks  [style: Quadra turbo basic player] [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01 + tire_02                               3 paints  22 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05] ...
+    tire_01                                         3 paints   6 looks  [style: Quadra turbo basic player] [wreck: quadra_turbo_basic_player_q001_damaged]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_01 + wheel_02                            11 paints  22 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05] ...
+    wheel_01                                       11 paints   6 looks  [style: Quadra turbo basic player] [wreck: quadra_turbo_basic_player_q001_damaged]
+  Doors: a [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_l_01 + door_r_01                          27 paints  28 looks  [style: Quadra turbo basic player] [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] ...
+  Doors: mirror [door.door.door_mirror] (door_front_left_a, door_front_right_a): 1 options
+    door_l_mirror_01 + door_r_mirror_01            27 paints  28 looks  [style: Quadra turbo basic player] [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] ...
+  Doors (c) [door_c.door] (door_front_left_c, door_front_right_c): 1 options
+    door_l_floor_01 + door_r_floor_01              13 paints  28 looks  [style: Quadra turbo basic player] [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] ...
+  Door (window) [window.door] (window_front_left_a, window_front_right_a): 1 options
+    door_l_window_01 + door_r_window_01             3 paints  28 looks  [style: Quadra turbo basic player] [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] ...
+
+KITS (14)
+  kit_player_doors                               2 parts   6 looks  [style: Quadra turbo basic player] [wreck: quadra_turbo_basic_player_q001_damaged]
+                                                 made to sit on Doors: a
+  bumper_stickers_tygerclaws_04                  1 parts   1 looks  [style: Quadra turbo basic tygerclaws 03]
+                                                 made to sit on Rear bumper
+  door_fl_stickers_tygerclaws_01                 1 parts   3 looks  [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05]
+                                                 made to sit on Doors: a
+  door_fr_stickers_tygerclaws_02                 1 parts   4 looks  [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05]
+                                                 made to sit on Doors: a
+  kit_tyger_body                                 3 parts  23 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 05] ...
+  kit_tyger_body_doors                           2 parts   2 looks  [style: Quadra turbo basic tygerclaws 05] [style: Quadra turbo basic tygerclaws 06]
+                                                 made to sit on Doors: a
+  kit_tyger_body_interior_trunk                  3 parts   1 looks  [style: Quadra turbo basic tygerclaws]
+                                                 made to sit on Trunk
+  kit_tyger_bumper                               2 parts   2 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 06]
+                                                 made to sit on Rear bumper
+  kit_tyger_bumper_interior                      2 parts   2 looks  [style: Quadra turbo basic tygerclaws 02] [style: Quadra turbo basic tygerclaws 05]
+                                                 made to sit on Rear bumper
+  kit_tyger_bumper_trunk                         2 parts   1 looks  [style: Quadra turbo basic tygerclaws 02]
+                                                 made to sit on Front bumper, Trunk
+  trunk_stickers_tygerclaws_02                   1 parts   1 looks  [style: Quadra turbo basic tygerclaws 06]
+                                                 made to sit on Trunk
+  trunk_stickers_tygerclaws_04                   1 parts   1 looks  [style: Quadra turbo basic tygerclaws 05]
+                                                 made to sit on Trunk
+  tygerclaws_stickers_01                         1 parts   2 looks  [style: Quadra turbo basic tygerclaws] [style: Quadra turbo basic tygerclaws 05]
+  tygerclaws_stickers_02                         1 parts   3 looks  [style: Quadra turbo basic tygerclaws 03] [style: Quadra turbo basic tygerclaws 04] [style: Quadra turbo basic tygerclaws 06]

@@ -1,0 +1,32 @@
+Mackinaw Larimore (thorton_mackinaw_larimore_01), from base\vehicles\standard\v_standard3_thorton_mackinaw_larimore_01.ent
+records: Vehicle.mws_thorton_mackinaw_country_poor, Vehicle.v_standard3_thorton_mackinaw_country, Vehicle.v_standard3_thorton_mackinaw_country_poor, Vehicle.v_standard3_thorton_mackinaw_country_premium
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  v_standard3_thorton_mackinaw_larimore_suburban_02 V standard3 thorton mackinaw larimore suburban 02 20 looks
+                                            paints: v_standard3_thorton_mackinaw_larimore_suburban_03, v_standard3_thorton_mackinaw_larimore_suburban_04, v_standard3_thorton_mackinaw_larimore_suburban_05, v_standard3_thorton_mackinaw_larimore_suburban_06, v_standard3_thorton_mackinaw_larimore_suburban_07, v_standard3_thorton_mackinaw_larimore_suburban_08, v_standard3_thorton_mackinaw_larimore_poor_01, v_standard3_thorton_mackinaw_larimore_poor_02, v_standard3_thorton_mackinaw_larimore_poor_03, v_standard3_thorton_mackinaw_larimore_poor_04, v_standard3_thorton_mackinaw_larimore_poor_05, v_standard3_thorton_mackinaw_larimore_poor_06, v_standard3_thorton_mackinaw_larimore_urban_01, v_standard3_thorton_mackinaw_larimore_urban_02, v_standard3_thorton_mackinaw_larimore_urban_03, v_standard3_thorton_mackinaw_larimore_urban_04, v_standard3_thorton_mackinaw_larimore_urban_05, v_standard3_thorton_mackinaw_larimore_urban_06, v_standard3_thorton_mackinaw_larimore_player_01
+WRECKS: v_standard3_thorton_mackinaw_larimore_burnt_01
+
+SLOTS (10)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_b_01                                    22 paints  21 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02]
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_c_01                                    22 paints  21 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        22 paints  21 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02]
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       22 paints  21 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02]
+  Body [base.body] (Base): 1 options
+    body_01                                        22 paints  22 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02] [wreck: v_standard3_thorton_mackinaw_larimore_burnt_01]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    10 paints  22 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02] [wreck: v_standard3_thorton_mackinaw_larimore_burnt_01]
+  Trunk [base.trunk] (Base): 1 options
+    trunk_02                                       22 paints  21 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01 + door_a_01                            22 paints  21 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02]
+  Front bumper (d) [bumper_front_d.bumper] (bumper_front_d): 1 options
+    bumper_a_01                                    22 paints  21 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02]
+  Doors (b) [door_b.door] (door_back_left_b, door_back_right_b): 1 options
+    door_01                                        22 paints  21 looks  [car: v_standard3_thorton_mackinaw_suv] [look: default] [style: V standard3 thorton mackinaw larimore suburban 02]
+
+KITS (0)

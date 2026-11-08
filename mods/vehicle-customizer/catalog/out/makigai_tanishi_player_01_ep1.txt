@@ -1,0 +1,79 @@
+Tanishi "Kuma" (makigai_tanishi_player_01_ep1), from ep1\vehicles\standard\v_standard3_makigai_tanishi_player_01.ent
+records: Vehicle.v_standard3_makigai_tanishi_player
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  makigai_tanishi_basic_player_01 Makigai tanishi basic player 1 looks
+                                            kits: kit_player_body_interior
+WRECKS: makigai_tanishi_basic_burnt_player_01
+
+SLOTS (24)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    f_bumper_01                                    36 paints  37 looks  [car: v_standard3_makigai_tanishi] [look: cargo_01] [look: cargo_02] [look: cargo_03] [look: cargo_04] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    b_bumper_01                                    36 paints  42 looks  [car: v_standard3_makigai_tanishi] [look: cargo_01] [look: cargo_02] [look: cargo_03] [look: cargo_04] ...
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        36 paints  42 looks  [car: v_standard3_makigai_tanishi] [look: cargo_01] [look: cargo_02] [look: cargo_03] [look: cargo_04] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       36 paints  42 looks  [car: v_standard3_makigai_tanishi] [look: cargo_01] [look: cargo_02] [look: cargo_03] [look: cargo_04] ...
+  Body [base.body] (Base): 2 options
+    body_01                                        36 paints  43 looks  [car: v_standard3_makigai_tanishi] [look: burnt_01] [look: burnt_hfs_01] [look: cargo_01] [look: cargo_02] ...
+    body_player_01                                  1 paints   2 looks  [car: v_standard3_makigai_tanishi] [style: Makigai tanishi basic player] [wreck: makigai_tanishi_basic_burnt_player_01]
+  Interior [base.interior] (Base): 2 options
+    interior_01                                    36 paints  43 looks  [car: v_standard3_makigai_tanishi] [look: burnt_01] [look: burnt_hfs_01] [look: cargo_01] [look: cargo_02] ...
+    interior_player_01                              0 paints   2 looks  [car: v_standard3_makigai_tanishi] [style: Makigai tanishi basic player] [wreck: makigai_tanishi_basic_burnt_player_01]
+  Mirrors [base.mirror] (Base): 1 options
+    mirror_fl_01                                   36 paints   2 looks  [car: v_standard3_makigai_tanishi] [style: Makigai tanishi basic player] [wreck: makigai_tanishi_basic_burnt_player_01]
+  Tank: drug lab equipment c a [base.tank] (Base): 2 options
+    drug_lab_equipment_c_tank_a                     0 paints   1 looks  [look: cargo_03]
+    gas_tank_b                                      1 paints   1 looks  [look: cargo_02]
+  Tank: drug lab equipment c a4074 [base.tank.drug_lab_equipment_c_tank_a4074] (Base): 2 options
+    drug_lab_equipment_c_tank_a                     0 paints   1 looks  [look: cargo_03]
+    gas_tank_b                                      1 paints   1 looks  [look: cargo_02]
+  Tank: drug lab big center a [base.tank.drug_lab_tank_big_center_a] (Base): 2 options
+    drug_lab_tank_big_center_a                      0 paints   1 looks  [look: cargo_03]
+    gas_tank_b                                      1 paints   1 looks  [look: cargo_02]
+  Tank: drug lab big top a [base.tank.drug_lab_tank_big_top_a] (Base): 2 options
+    drug_lab_tank_big_top_a                         0 paints   1 looks  [look: cargo_03]
+    gas_tank_b                                      1 paints   1 looks  [look: cargo_02]
+  Tank: drug lab big top back [base.tank.drug_lab_tank_big_top_b] (Base): 2 options
+    drug_lab_tank_big_top_b                         0 paints   1 looks  [look: cargo_03]
+    gas_tank_c                                      1 paints   1 looks  [look: cargo_02]
+  Tank: drug lab big top c [base.tank.drug_lab_tank_big_top_c] (Base): 2 options
+    drug_lab_tank_big_top_c                         0 paints   1 looks  [look: cargo_03]
+    gas_tank_c                                      1 paints   1 looks  [look: cargo_02]
+  Tank: gas e [base.tank.gas_tank_e] (Base): 1 options
+    gas_tank_e                                      2 paints   1 looks  [look: cargo_03]
+  Tank: gas e6425 [base.tank.gas_tank_e6425] (Base): 1 options
+    gas_tank_e                                      2 paints   1 looks  [look: cargo_03]
+  Trunk [base.trunk] (Base): 2 options
+    trunk_cover_01                                  0 paints   2 looks  [car: v_standard3_makigai_tanishi] [look: suburban_09] [look: suburban_10]
+    trunk_cover_02                                  0 paints   1 looks  [car: v_standard3_makigai_tanishi] [look: burnt_hfs_01]
+  Windshield: back left [base.window] (Base): 1 options
+    window_bl_01                                    2 paints  43 looks  [car: v_standard3_makigai_tanishi] [look: burnt_01] [look: burnt_hfs_01] [look: cargo_01] [look: cargo_02] ...
+  Windshield: back right [base.window.window_br] (Base): 1 options
+    window_br_01                                    2 paints  43 looks  [car: v_standard3_makigai_tanishi] [look: burnt_01] [look: burnt_hfs_01] [look: cargo_01] [look: cargo_02] ...
+  Windshield: front [base.window.window_f] (Base): 1 options
+    window_f_01                                     3 paints  43 looks  [car: v_standard3_makigai_tanishi] [look: burnt_01] [look: burnt_hfs_01] [look: cargo_01] [look: cargo_02] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    tire_01                                         4 paints  37 looks  [car: v_standard3_makigai_tanishi] [look: hfs_01] [look: player_mr_hands] [look: poor_01] [look: poor_02] ...
+    tire_a_01                                       0 paints   4 looks  [car: Hellhound] [look: cargo_01] [look: cargo_02] [look: cargo_03] [look: cargo_04]
+    tire_01 + tire_02                               4 paints   1 looks  [car: v_standard3_makigai_tanishi] [style: Makigai tanishi basic player]
+  Rims: a [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 4 options
+    wheel_01                                        6 paints  15 looks  [car: v_standard3_makigai_tanishi] [look: hfs_01] [look: player_mr_hands] [look: poor_02] [look: poor_04] ...
+    wheel_03                                        2 paints  15 looks  [car: v_standard3_makigai_tanishi] [look: suburban_05] [look: suburban_06] [look: suburban_07] [look: suburban_08] ...
+    wheel_02                                        2 paints   8 looks  [car: v_standard3_makigai_tanishi] [look: poor_01] [look: poor_03] [look: poor_05] [look: poor_08] ...
+    wheel_a_01                                      2 paints   4 looks  [car: Hellhound] [look: cargo_01] [look: cargo_02] [look: cargo_03] [look: cargo_04]
+  Rims: back [wheel.wheel.wheel_b] (wheel_back_left, wheel_back_right): 1 options
+    wheel_03                                        2 paints   1 looks  [car: v_standard3_makigai_tanishi] [style: Makigai tanishi basic player]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 2 options
+    door_01                                        36 paints  41 looks  [car: v_standard3_makigai_tanishi] [look: cargo_01] [look: cargo_02] [look: cargo_03] [look: cargo_04] ...
+    door_player_01                                  0 paints   1 looks  [car: v_standard3_makigai_tanishi] [style: Makigai tanishi basic player]
+  Mirrors [door.mirror] (door_front_left_a): 1 options
+    mirror_fl_01                                   36 paints  41 looks  [car: v_standard3_makigai_tanishi] [look: cargo_01] [look: cargo_02] [look: cargo_03] [look: cargo_04] ...
+
+KITS (3)
+  antenna_01                                     1 parts  13 looks  [look: cargo_01] [look: cargo_02] [look: cargo_03] [look: cargo_04] [look: player_mr_hands] ...
+  kit_nomad_trunk                                5 parts   1 looks  [look: burnt_hfs_01]
+                                                 made to sit on Trunk
+  kit_player_body_interior                       3 parts   2 looks  [style: Makigai tanishi basic player] [wreck: makigai_tanishi_basic_burnt_player_01]

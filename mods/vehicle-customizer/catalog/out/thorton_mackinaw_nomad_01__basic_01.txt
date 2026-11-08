@@ -1,0 +1,33 @@
+Mackinaw "Beast" (thorton_mackinaw_nomad_01__basic_01), from base\vehicles\standard\v_standard3_thorton_mackinaw_nomad_01__basic_01.ent
+records: Vehicle.v_standard3_thorton_mackinaw_02_player, Vehicle.v_standard3_thorton_mackinaw_ncu_player
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  thorton_mackinaw_nomad_deathrace_01 Thorton mackinaw nomad deathrace 2 looks
+                                            paints: thorton_mackinaw_nomad_saguaro_01
+                                            kits: speedometer_01, kit_nomad_body
+  thorton_mackinaw_nomad_panams_truck Thorton mackinaw nomad panams truck 2 looks
+                                            paints: thorton_mackinaw_nomad_panams_truck_q103
+                                            kits: kit_nomad_body_2, kit_nomad_body
+WRECKS: thorton_mackinaw_nomad_burnt_01
+
+SLOTS (6)
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_c_01                                     2 paints   5 looks  [look: default] [style: Thorton mackinaw nomad deathrace] [style: Thorton mackinaw nomad panams truck]
+  Trunk: a [trunk_a.trunk] (trunk_a): 1 options
+    trunk_a_01                                      2 paints   5 looks  [look: default] [style: Thorton mackinaw nomad deathrace] [style: Thorton mackinaw nomad panams truck]
+  Trunk: back [trunk_a.trunk.trunk_b] (trunk_a): 1 options
+    trunk_b_01                                      2 paints   5 looks  [look: default] [style: Thorton mackinaw nomad deathrace] [style: Thorton mackinaw nomad panams truck]
+  Body [base.body] (Base): 1 options
+    body_01                                         2 paints   6 looks  [look: default] [style: Thorton mackinaw nomad deathrace] [style: Thorton mackinaw nomad panams truck] [wreck: thorton_mackinaw_nomad_burnt_01]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_01                                        1 paints   3 looks  [look: default] [style: Thorton mackinaw nomad panams truck]
+    wheel_01                                        5 paints   2 looks  [car: Mackinaw MTL1] [style: Thorton mackinaw nomad deathrace]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a): 1 options
+    door_01                                         3 paints   5 looks  [look: default] [style: Thorton mackinaw nomad deathrace] [style: Thorton mackinaw nomad panams truck]
+
+KITS (3)
+  kit_nomad_body                                 9 parts   6 looks  [look: default] [style: Thorton mackinaw nomad deathrace] [style: Thorton mackinaw nomad panams truck] [wreck: thorton_mackinaw_nomad_burnt_01]
+  kit_nomad_body_2                               6 parts   3 looks  [look: default] [style: Thorton mackinaw nomad panams truck]
+                                                 made to sit on kit_nomad_body, door.door.window_a, window.door
+  speedometer_01                                 1 parts   4 looks  [look: default] [style: Thorton mackinaw nomad deathrace] [wreck: thorton_mackinaw_nomad_burnt_01]

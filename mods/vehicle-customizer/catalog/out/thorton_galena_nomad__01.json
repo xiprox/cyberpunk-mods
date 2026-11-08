@@ -1,0 +1,3845 @@
+{
+ "id": "thorton_galena_nomad__01",
+ "label": "Galena \"Gecko\"",
+ "entity": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad__01.ent",
+ "family": "v_standard2_thorton_galena_nomad",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard2_thorton_galena_nomad_player",
+  "Vehicle.v_standard2_thorton_galena_nomad_player_missiles"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app"
+ ],
+ "styles": [
+  {
+   "id": "thorton_galena_nomad_aldecados_01",
+   "code": "thorton_galena_nomad_aldecados_01",
+   "label": "Thorton galena nomad aldecados",
+   "base_look": "thorton_galena_nomad_aldecados_01",
+   "looks": [
+    "thorton_galena_nomad_aldecados_01",
+    "thorton_galena_nomad_wraiths_01",
+    "thorton_galena_nomad_wraiths_01_missiles",
+    "thorton_galena_nomad_aldecados_01_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body": "9ac02d33",
+    "base.body.detachable_hide_body_2": "4a064759",
+    "base.interior": "493e2fc7",
+    "base.spoiler": "c33b8a05",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a8f",
+    "nomad_6a90",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_aldecados_02",
+   "code": "thorton_galena_nomad_aldecados_02",
+   "label": "Thorton galena nomad aldecados 02",
+   "base_look": "thorton_galena_nomad_aldecados_02",
+   "looks": [
+    "thorton_galena_nomad_aldecados_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body_2": "4a064759",
+    "base.interior": "493e2fc7",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "3945b1d5",
+    "wheel.wheel.wheel_b": "6bb1cedb",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a90",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_aldecados_03",
+   "code": "thorton_galena_nomad_aldecados_03",
+   "label": "Thorton galena nomad aldecados 03",
+   "base_look": "thorton_galena_nomad_aldecados_03",
+   "looks": [
+    "thorton_galena_nomad_aldecados_03",
+    "thorton_galena_nomad_aldecados_03_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body": "9ac02d33",
+    "base.interior": "493e2fc7",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "6c56a91d",
+    "wheel.wheel.wheel_b": "6bb1cedb",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a8f",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_aldecados_04",
+   "code": "thorton_galena_nomad_aldecados_04",
+   "label": "Thorton galena nomad aldecados 04",
+   "base_look": "thorton_galena_nomad_aldecados_04",
+   "looks": [
+    "thorton_galena_nomad_aldecados_04",
+    "thorton_galena_nomad_aldecados_04_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body": "9ac02d33",
+    "base.interior": "493e2fc7",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a8f",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_player_01",
+   "code": "thorton_galena_nomad_player_01",
+   "label": "Thorton galena nomad player",
+   "base_look": "thorton_galena_nomad_player_01",
+   "looks": [
+    "thorton_galena_nomad_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body": "9ac02d33",
+    "base.interior": "493e2fc7",
+    "base.spoiler": "c33b8a05",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "3945b1d5",
+    "wheel.wheel.wheel_b": "6bb1cedb",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a8f",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_player_01_missiles",
+   "code": "thorton_galena_nomad_player_01_missiles",
+   "label": "Thorton galena nomad player 01 missiles",
+   "base_look": "thorton_galena_nomad_player_01_missiles",
+   "looks": [
+    "thorton_galena_nomad_player_01_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body": "9ac02d33",
+    "base.interior": "493e2fc7",
+    "base.spoiler": "c33b8a05",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a8f",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_scorpion_01",
+   "code": "thorton_galena_nomad_scorpion_01",
+   "label": "Thorton galena nomad scorpion",
+   "base_look": "thorton_galena_nomad_scorpion_01",
+   "looks": [
+    "thorton_galena_nomad_scorpion_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body": "9ac02d33",
+    "base.body.detachable_hide_body_2": "4a064759",
+    "base.interior": "493e2fc7",
+    "base.spoiler": "c33b8a05",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_56b1",
+    "nomad_6a8f",
+    "nomad_6a90",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_wraiths_02",
+   "code": "thorton_galena_nomad_wraiths_02",
+   "label": "Thorton galena nomad wraiths 02",
+   "base_look": "thorton_galena_nomad_wraiths_02",
+   "looks": [
+    "thorton_galena_nomad_wraiths_02",
+    "thorton_galena_nomad_aldecados_05"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body_2": "4a064759",
+    "base.interior": "493e2fc7",
+    "base.spoiler": "c33b8a05",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a90",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_wraiths_03",
+   "code": "thorton_galena_nomad_wraiths_03",
+   "label": "Thorton galena nomad wraiths 03",
+   "base_look": "thorton_galena_nomad_wraiths_03",
+   "looks": [
+    "thorton_galena_nomad_wraiths_03",
+    "thorton_galena_nomad_wraiths_03_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body": "9ac02d33",
+    "base.interior": "493e2fc7",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "3945b1d5",
+    "wheel.wheel.wheel_b": "6bb1cedb",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a8f",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_wraiths_04",
+   "code": "thorton_galena_nomad_wraiths_04",
+   "label": "Thorton galena nomad wraiths 04",
+   "base_look": "thorton_galena_nomad_wraiths_04",
+   "looks": [
+    "thorton_galena_nomad_wraiths_04",
+    "thorton_galena_nomad_wraiths_04_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body": "9ac02d33",
+    "base.body.detachable_hide_body_2": "4a064759",
+    "base.interior": "493e2fc7",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "6c56a91d",
+    "wheel.wheel.wheel_b": "6bb1cedb",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a8f",
+    "nomad_6a90",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  },
+  {
+   "id": "thorton_galena_nomad_wraiths_05",
+   "code": "thorton_galena_nomad_wraiths_05",
+   "label": "Thorton galena nomad wraiths 05",
+   "base_look": "thorton_galena_nomad_wraiths_05",
+   "looks": [
+    "thorton_galena_nomad_wraiths_05"
+   ],
+   "options": {
+    "bumper_front.bumper": "c5f86960",
+    "bumper_back.bumper": "bb7a1c9a",
+    "trunk_a.trunk": "d547a430",
+    "base.body.body": "4149990b",
+    "base.body.detachable_hide_body_2": "4a064759",
+    "base.interior": "493e2fc7",
+    "base.spoiler": "c33b8a05",
+    "base.window": "cf1acf60",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "door.door": "633bf10f",
+    "window.window": "05a15ddf"
+   },
+   "kits": [
+    "nomad_2cc4",
+    "nomad_6a90",
+    "nomad_7bab"
+   ]
+  }
+ ],
+ "wrecks": [
+  "thorton_galena_nomad_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "c5f86960",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "player_01"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "bb7a1c9a",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "d547a430",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "scorpion_01",
+      "player_01"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.body",
+   "label": "Body: main",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "4149990b",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "scorpion_01",
+      "aldecados_01",
+      "wraiths_01",
+      "player_01",
+      "aldecados_02",
+      "aldecados_03",
+      "wraiths_02",
+      "wraiths_03",
+      "wraiths_04",
+      "wraiths_05",
+      "aldecados_04",
+      "aldecados_05"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_burnt_01",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05",
+      "wreck:thorton_galena_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.detachable_hide_body",
+   "label": "Body: detachable hide",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "detachable_hide_body_2"
+   ],
+   "options": [
+    {
+     "id": "9ac02d33",
+     "code": "body_cable_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_body_cable_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.detachable_hide_body_2",
+   "label": "Body: detachable hide",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "detachable_hide_body_01"
+   ],
+   "options": [
+    {
+     "id": "4a064759",
+     "code": "body_cable_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_body_cable_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "493e2fc7",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wraiths_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "scorpion_01"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_burnt_01",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05",
+      "wreck:thorton_galena_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.spoiler",
+   "label": "Spoiler",
+   "kind": "spoiler",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "spoiler_01"
+   ],
+   "options": [
+    {
+     "id": "c33b8a05",
+     "code": "spoiler_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_spoiler_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_spoiler_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "scorpion_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "scorpion_01",
+      "player_01"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f"
+   ],
+   "options": [
+    {
+     "id": "cf1acf60",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "player_01"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_burnt_01",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05",
+      "wreck:thorton_galena_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "e5843c98",
+     "code": "tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "muddy_white_01",
+     "paints": [
+      "muddy_red",
+      "muddy_cyan",
+      "muddy_yellow",
+      "muddy_red_02",
+      "muddy_gray",
+      "muddy_red_03",
+      "muddy_green",
+      "muddy_white_01",
+      "dusty_gray"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims: a",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard2_chevalier_thrax__ext01_wheel_<c>_01",
+    "wheel_01_<c>_a",
+    "wheel_02_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "e7cc1925",
+     "code": "wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black_dusty",
+     "paints": [
+      "deathrace_01",
+      "silver_01",
+      "brown_01",
+      "black_dusty",
+      "red",
+      "cyan",
+      "black",
+      "silver_dusty",
+      "red_dusty",
+      "black_dusty_light"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_05"
+     ]
+    },
+    {
+     "id": "3945b1d5",
+     "code": "wheel_01 + wheel_a_01",
+     "vehicle": "Mackinaw MTL1",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black_dusty",
+     "paints": [
+      "clean_01",
+      "black_dirt",
+      "green_dirt",
+      "silver_dusty_01",
+      "black_dusty"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_wraiths_03"
+     ]
+    },
+    {
+     "id": "6c56a91d",
+     "code": "wheel_a_01 + wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "silver_01",
+     "paints": [
+      "deathrace_01",
+      "silver_01",
+      "brown_01",
+      "black_dusty",
+      "red",
+      "cyan",
+      "black",
+      "silver_dusty",
+      "red_dusty",
+      "black_dusty_light"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_wraiths_04"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel.wheel_b",
+   "label": "Rims: back",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     -0.002,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0704,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_02_<c>_b",
+    "wheel_<c>_a_01"
+   ],
+   "options": [
+    {
+     "id": "6bb1cedb",
+     "code": "wheel_a_01 + wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "maelstrom_red_01_dusty",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01",
+      "red_01",
+      "wraiths_01_dusty",
+      "aldecados_01_dusty",
+      "aldecados_01_dusty_light",
+      "red_01_dusty",
+      "deathrace_01_dusty"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "633bf10f",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "scorpion_01",
+      "player_01",
+      "aldecados_02",
+      "aldecados_03",
+      "wraiths_02",
+      "wraiths_03",
+      "wraiths_04",
+      "wraiths_05",
+      "aldecados_04",
+      "aldecados_05"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "05a15ddf",
+     "code": "window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_window_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_window_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_window_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "player_01"
+     ],
+     "looks": [
+      "thorton_galena_nomad_aldecados_01",
+      "thorton_galena_nomad_aldecados_01_missiles",
+      "thorton_galena_nomad_aldecados_02",
+      "thorton_galena_nomad_aldecados_03",
+      "thorton_galena_nomad_aldecados_03_missiles",
+      "thorton_galena_nomad_aldecados_04",
+      "thorton_galena_nomad_aldecados_04_missiles",
+      "thorton_galena_nomad_aldecados_05",
+      "thorton_galena_nomad_player_01",
+      "thorton_galena_nomad_player_01_missiles",
+      "thorton_galena_nomad_scorpion_01",
+      "thorton_galena_nomad_wraiths_01",
+      "thorton_galena_nomad_wraiths_01_missiles",
+      "thorton_galena_nomad_wraiths_02",
+      "thorton_galena_nomad_wraiths_03",
+      "thorton_galena_nomad_wraiths_03_missiles",
+      "thorton_galena_nomad_wraiths_04",
+      "thorton_galena_nomad_wraiths_04_missiles",
+      "thorton_galena_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:thorton_galena_nomad_aldecados_01",
+      "style:thorton_galena_nomad_aldecados_02",
+      "style:thorton_galena_nomad_aldecados_03",
+      "style:thorton_galena_nomad_aldecados_04",
+      "style:thorton_galena_nomad_player_01",
+      "style:thorton_galena_nomad_player_01_missiles",
+      "style:thorton_galena_nomad_scorpion_01",
+      "style:thorton_galena_nomad_wraiths_02",
+      "style:thorton_galena_nomad_wraiths_03",
+      "style:thorton_galena_nomad_wraiths_04",
+      "style:thorton_galena_nomad_wraiths_05"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "nomad_6a8f",
+   "family": "nomad",
+   "code": "electric_device_medium_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "detachable_body_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_01.mesh",
+     "code": "electric_device_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.1016,
+      -0.2219,
+      0.8162
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_01_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_galena_nomad_aldecados_01",
+    "thorton_galena_nomad_aldecados_01_missiles",
+    "thorton_galena_nomad_aldecados_03",
+    "thorton_galena_nomad_aldecados_03_missiles",
+    "thorton_galena_nomad_aldecados_04",
+    "thorton_galena_nomad_aldecados_04_missiles",
+    "thorton_galena_nomad_player_01",
+    "thorton_galena_nomad_player_01_missiles",
+    "thorton_galena_nomad_scorpion_01",
+    "thorton_galena_nomad_wraiths_01",
+    "thorton_galena_nomad_wraiths_01_missiles",
+    "thorton_galena_nomad_wraiths_03",
+    "thorton_galena_nomad_wraiths_03_missiles",
+    "thorton_galena_nomad_wraiths_04",
+    "thorton_galena_nomad_wraiths_04_missiles"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:thorton_galena_nomad_aldecados_01",
+    "style:thorton_galena_nomad_aldecados_03",
+    "style:thorton_galena_nomad_aldecados_04",
+    "style:thorton_galena_nomad_player_01",
+    "style:thorton_galena_nomad_player_01_missiles",
+    "style:thorton_galena_nomad_scorpion_01",
+    "style:thorton_galena_nomad_wraiths_03",
+    "style:thorton_galena_nomad_wraiths_04"
+   ]
+  },
+  {
+   "id": "nomad_56b1",
+   "family": "nomad",
+   "code": "fuelcap_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "fuel_cap",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_fuelcap_01.mesh",
+     "code": "fuelcap_01",
+     "paint": "scorpion_01",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.6814,
+      -1.3655,
+      0.3918
+     ],
+     "rotation": [
+      -0.010732931084930897,
+      0.2553582191467285,
+      -0.002834910061210394,
+      0.966782808303833
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_scorpion_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_galena_nomad_scorpion_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:thorton_galena_nomad_scorpion_01"
+   ]
+  },
+  {
+   "id": "nomad_7bab",
+   "family": "nomad",
+   "code": "kit_nomad_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_nomad_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_body_stickers_nomad_01.mesh",
+     "code": "body_stickers_nomad_01",
+     "paint": "stickers_a",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_04",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02.mesh",
+     "code": "sensor_medium_02",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.6068,
+      1.8684,
+      0.116
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_05",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03.mesh",
+     "code": "sensor_medium_03",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.3572,
+      1.6378,
+      0.1825
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_06",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.4858,
+      1.8356,
+      -0.3253
+     ],
+     "rotation": [
+      -0.19970452785491943,
+      -0.03345561400055885,
+      0.16180050373077393,
+      0.9658257961273193
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_07",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.5904,
+      1.7716,
+      -0.3253
+     ],
+     "rotation": [
+      -0.18400828540325165,
+      -0.08451110124588013,
+      0.40871885418891907,
+      0.8899144530296326
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_08",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.4945,
+      1.7343,
+      -0.4221
+     ],
+     "rotation": [
+      -0.35752221941947937,
+      -0.0968037024140358,
+      0.24276310205459595,
+      0.8965896368026733
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_09",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.5756,
+      1.7751,
+      -0.3253
+     ],
+     "rotation": [
+      -0.18428730964660645,
+      0.08390092849731445,
+      -0.40576791763305664,
+      0.8912639021873474
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_10",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.4784,
+      1.7452,
+      -0.4221
+     ],
+     "rotation": [
+      -0.3505549430847168,
+      0.11960062384605408,
+      -0.29993289709091187,
+      0.8791172504425049
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_body_11",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.4771,
+      1.8481,
+      -0.3253
+     ],
+     "rotation": [
+      -0.19981427490711212,
+      0.03279371187090874,
+      -0.1585993468761444,
+      0.966356635093689
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "fx_cutout",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\galena_nomad_fx_cutout.mesh",
+     "code": "galena_nomad_fx_cutout",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ml_a",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_crystaldome_f_ml_a_01.mesh",
+     "code": "crystaldome_f_ml_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ml_b",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_crystaldome_f_ml_b_01.mesh",
+     "code": "crystaldome_f_ml_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_a",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_crystaldome_f_mr_a_01.mesh",
+     "code": "crystaldome_f_mr_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_b",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_crystaldome_f_mr_b_01.mesh",
+     "code": "crystaldome_f_mr_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ol_a",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_crystaldome_f_ol_a_01.mesh",
+     "code": "crystaldome_f_ol_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ol_b",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_crystaldome_f_ol_b_01.mesh",
+     "code": "crystaldome_f_ol_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_or_a",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_crystaldome_f_or_a_01.mesh",
+     "code": "crystaldome_f_or_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_or_b",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_crystaldome_f_or_b_01.mesh",
+     "code": "crystaldome_f_or_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_galena_nomad_aldecados_01",
+    "thorton_galena_nomad_aldecados_01_missiles",
+    "thorton_galena_nomad_aldecados_02",
+    "thorton_galena_nomad_aldecados_03",
+    "thorton_galena_nomad_aldecados_03_missiles",
+    "thorton_galena_nomad_aldecados_04",
+    "thorton_galena_nomad_aldecados_04_missiles",
+    "thorton_galena_nomad_aldecados_05",
+    "thorton_galena_nomad_burnt_01",
+    "thorton_galena_nomad_player_01",
+    "thorton_galena_nomad_player_01_missiles",
+    "thorton_galena_nomad_scorpion_01",
+    "thorton_galena_nomad_wraiths_01",
+    "thorton_galena_nomad_wraiths_01_missiles",
+    "thorton_galena_nomad_wraiths_02",
+    "thorton_galena_nomad_wraiths_03",
+    "thorton_galena_nomad_wraiths_03_missiles",
+    "thorton_galena_nomad_wraiths_04",
+    "thorton_galena_nomad_wraiths_04_missiles",
+    "thorton_galena_nomad_wraiths_05"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:thorton_galena_nomad_aldecados_01",
+    "style:thorton_galena_nomad_aldecados_02",
+    "style:thorton_galena_nomad_aldecados_03",
+    "style:thorton_galena_nomad_aldecados_04",
+    "style:thorton_galena_nomad_player_01",
+    "style:thorton_galena_nomad_player_01_missiles",
+    "style:thorton_galena_nomad_scorpion_01",
+    "style:thorton_galena_nomad_wraiths_02",
+    "style:thorton_galena_nomad_wraiths_03",
+    "style:thorton_galena_nomad_wraiths_04",
+    "style:thorton_galena_nomad_wraiths_05",
+    "wreck:thorton_galena_nomad_burnt_01"
+   ]
+  },
+  {
+   "id": "nomad_6a90",
+   "family": "nomad",
+   "code": "light_device_medium_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "detachable_body_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_01.mesh",
+     "code": "light_device_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.1992,
+      0.2441,
+      0.8145
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_01_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_galena_nomad_aldecados_01",
+    "thorton_galena_nomad_aldecados_01_missiles",
+    "thorton_galena_nomad_aldecados_02",
+    "thorton_galena_nomad_aldecados_03",
+    "thorton_galena_nomad_aldecados_03_missiles",
+    "thorton_galena_nomad_aldecados_04",
+    "thorton_galena_nomad_aldecados_04_missiles",
+    "thorton_galena_nomad_aldecados_05",
+    "thorton_galena_nomad_player_01",
+    "thorton_galena_nomad_player_01_missiles",
+    "thorton_galena_nomad_scorpion_01",
+    "thorton_galena_nomad_wraiths_01",
+    "thorton_galena_nomad_wraiths_01_missiles",
+    "thorton_galena_nomad_wraiths_02",
+    "thorton_galena_nomad_wraiths_03",
+    "thorton_galena_nomad_wraiths_03_missiles",
+    "thorton_galena_nomad_wraiths_04",
+    "thorton_galena_nomad_wraiths_04_missiles"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:thorton_galena_nomad_aldecados_01",
+    "style:thorton_galena_nomad_aldecados_02",
+    "style:thorton_galena_nomad_aldecados_03",
+    "style:thorton_galena_nomad_aldecados_04",
+    "style:thorton_galena_nomad_player_01",
+    "style:thorton_galena_nomad_player_01_missiles",
+    "style:thorton_galena_nomad_scorpion_01",
+    "style:thorton_galena_nomad_wraiths_02",
+    "style:thorton_galena_nomad_wraiths_03",
+    "style:thorton_galena_nomad_wraiths_04"
+   ]
+  },
+  {
+   "id": "nomad_6a90",
+   "family": "nomad",
+   "code": "light_device_medium_02",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "detachable_body_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02.mesh",
+     "code": "light_device_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.3791,
+      0.804
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02_shadow.mesh",
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_galena_nomad_aldecados_01",
+    "thorton_galena_nomad_aldecados_01_missiles",
+    "thorton_galena_nomad_aldecados_02",
+    "thorton_galena_nomad_aldecados_05",
+    "thorton_galena_nomad_scorpion_01",
+    "thorton_galena_nomad_wraiths_01",
+    "thorton_galena_nomad_wraiths_01_missiles",
+    "thorton_galena_nomad_wraiths_02",
+    "thorton_galena_nomad_wraiths_04",
+    "thorton_galena_nomad_wraiths_04_missiles",
+    "thorton_galena_nomad_wraiths_05"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:thorton_galena_nomad_aldecados_01",
+    "style:thorton_galena_nomad_aldecados_02",
+    "style:thorton_galena_nomad_scorpion_01",
+    "style:thorton_galena_nomad_wraiths_02",
+    "style:thorton_galena_nomad_wraiths_04",
+    "style:thorton_galena_nomad_wraiths_05"
+   ]
+  },
+  {
+   "id": "nomad_2cc4",
+   "family": "nomad",
+   "code": "roofhatch_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "roofhatch_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_roofhatch_01.mesh",
+     "code": "roofhatch_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.1552,
+      -0.7228,
+      0.7789
+     ],
+     "rotation": [
+      0.030580170452594757,
+      0.037475209683179855,
+      0.0007457261090166867,
+      0.9988293051719666
+     ],
+     "shadow": null,
+     "look": "thorton_galena_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_galena_nomad_aldecados_01",
+    "thorton_galena_nomad_aldecados_01_missiles",
+    "thorton_galena_nomad_aldecados_02",
+    "thorton_galena_nomad_aldecados_03",
+    "thorton_galena_nomad_aldecados_03_missiles",
+    "thorton_galena_nomad_aldecados_04",
+    "thorton_galena_nomad_aldecados_04_missiles",
+    "thorton_galena_nomad_aldecados_05",
+    "thorton_galena_nomad_burnt_01",
+    "thorton_galena_nomad_player_01",
+    "thorton_galena_nomad_player_01_missiles",
+    "thorton_galena_nomad_wraiths_01",
+    "thorton_galena_nomad_wraiths_01_missiles",
+    "thorton_galena_nomad_wraiths_02",
+    "thorton_galena_nomad_wraiths_03",
+    "thorton_galena_nomad_wraiths_03_missiles",
+    "thorton_galena_nomad_wraiths_04",
+    "thorton_galena_nomad_wraiths_04_missiles",
+    "thorton_galena_nomad_wraiths_05"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:thorton_galena_nomad_aldecados_01",
+    "style:thorton_galena_nomad_aldecados_02",
+    "style:thorton_galena_nomad_aldecados_03",
+    "style:thorton_galena_nomad_aldecados_04",
+    "style:thorton_galena_nomad_player_01",
+    "style:thorton_galena_nomad_player_01_missiles",
+    "style:thorton_galena_nomad_wraiths_02",
+    "style:thorton_galena_nomad_wraiths_03",
+    "style:thorton_galena_nomad_wraiths_04",
+    "style:thorton_galena_nomad_wraiths_05",
+    "wreck:thorton_galena_nomad_burnt_01"
+   ]
+  }
+ ],
+ "looks": {
+  "thorton_galena_nomad_wraiths_02": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "wraiths_02",
+   "style": "thorton_galena_nomad_wraiths_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_scorpion_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "scorpion_01",
+   "style": "thorton_galena_nomad_scorpion_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    },
+    "base.wheel": {
+     "all": "detachable_body_scorpion_0332"
+    },
+    "base.wheel.detachable_body_scorpion": {
+     "all": "detachable_body_scorpion_5857"
+    },
+    "base.wheel.detachable_body_scorpion_2": {
+     "all": "detachable_body_scorpion_8626"
+    }
+   }
+  },
+  "thorton_galena_nomad_aldecados_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "aldecados_01",
+   "style": "thorton_galena_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_player_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "player_01",
+   "style": "thorton_galena_nomad_player_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_02_fl_a",
+     "fr": "wheel_02_fr_a",
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "wheel_02_br_a"
+    },
+    "wheel.wheel.wheel_b": {
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_02_br_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_wraiths_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "wraiths_01",
+   "style": "thorton_galena_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_aldecados_02": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "aldecados_02",
+   "style": "thorton_galena_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_02_fl_a",
+     "fr": "wheel_02_fr_a",
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "wheel_02_br_a"
+    },
+    "wheel.wheel.wheel_b": {
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_02_br_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_wraiths_05": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "wraiths_05",
+   "style": "thorton_galena_nomad_wraiths_05",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_wraiths_03": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "wraiths_03",
+   "style": "thorton_galena_nomad_wraiths_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_02_fl_a",
+     "fr": "wheel_02_fr_a",
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "wheel_02_br_a"
+    },
+    "wheel.wheel.wheel_b": {
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_02_br_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_aldecados_05": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "aldecados_05",
+   "style": "thorton_galena_nomad_wraiths_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_aldecados_03": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "aldecados_03",
+   "style": "thorton_galena_nomad_aldecados_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "wheel_02_br_a"
+    },
+    "wheel.wheel.wheel_b": {
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_02_br_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_wraiths_04": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "wraiths_04",
+   "style": "thorton_galena_nomad_wraiths_04",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "wheel_02_br_a"
+    },
+    "wheel.wheel.wheel_b": {
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_02_br_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_aldecados_04": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "aldecados_04",
+   "style": "thorton_galena_nomad_aldecados_04",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_wraiths_03_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "wraiths_03_missiles",
+   "style": "thorton_galena_nomad_wraiths_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_02_fl_a",
+     "fr": "wheel_02_fr_a",
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "wheel_02_br_a"
+    },
+    "wheel.wheel.wheel_b": {
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_02_br_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_player_01_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "player_01_missiles",
+   "style": "thorton_galena_nomad_player_01_missiles",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_wraiths_01_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "wraiths_01_missiles",
+   "style": "thorton_galena_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_aldecados_03_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "aldecados_03_missiles",
+   "style": "thorton_galena_nomad_aldecados_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "wheel_02_br_a"
+    },
+    "wheel.wheel.wheel_b": {
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_02_br_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_aldecados_01_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "aldecados_01_missiles",
+   "style": "thorton_galena_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_wraiths_04_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "wraiths_04_missiles",
+   "style": "thorton_galena_nomad_wraiths_04",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.body.detachable_hide_body_2": {
+     "all": "detachable_hide_body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "wheel_02_br_a"
+    },
+    "wheel.wheel.wheel_b": {
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_02_br_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    }
+   }
+  },
+  "thorton_galena_nomad_aldecados_04_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_galena_nomad.app",
+   "app_look": "aldecados_04_missiles",
+   "style": "thorton_galena_nomad_aldecados_04",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "barcode"
+    },
+    "base.body.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights"
+    },
+    "base.body.detachable_hide_body": {
+     "all": "detachable_hide_body_2"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3226,
+   0.2104,
+   0.2361,
+   -0.1246
+  ],
+  "b": [
+   0.331,
+   0.3468,
+   0.2351,
+   -0.1348
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "b24d0f7e",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_bl_a_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2351,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 11,
+   "paints": [
+    "aldecados_01",
+    "wraiths_01",
+    "deathrace_01",
+    "red_01",
+    "wraiths_01_dusty",
+    "aldecados_01_dusty",
+    "aldecados_01_dusty_light",
+    "red_01_dusty",
+    "deathrace_01_dusty"
+   ],
+   "default_paint": "aldecados_01_dusty_light",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena_nomad_aldecados_01",
+    "thorton_galena_nomad_aldecados_01_missiles",
+    "thorton_galena_nomad_aldecados_04",
+    "thorton_galena_nomad_aldecados_04_missiles",
+    "thorton_galena_nomad_aldecados_05",
+    "thorton_galena_nomad_player_01_missiles",
+    "thorton_galena_nomad_scorpion_01",
+    "thorton_galena_nomad_wraiths_01",
+    "thorton_galena_nomad_wraiths_01_missiles",
+    "thorton_galena_nomad_wraiths_02",
+    "thorton_galena_nomad_wraiths_05"
+   ]
+  },
+  {
+   "id": "d92da616",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.3226,
+   "width": 0.2104,
+   "rim_radius": 0.2361,
+   "tire_center": -0.1246,
+   "axles": [
+    "f"
+   ],
+   "looks": 15,
+   "paints": [
+    "deathrace_01",
+    "silver_01",
+    "brown_01",
+    "black_dusty",
+    "red",
+    "cyan",
+    "black",
+    "silver_dusty",
+    "red_dusty",
+    "black_dusty_light"
+   ],
+   "default_paint": "black_dusty",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena_nomad_aldecados_01",
+    "thorton_galena_nomad_aldecados_01_missiles",
+    "thorton_galena_nomad_aldecados_03",
+    "thorton_galena_nomad_aldecados_03_missiles",
+    "thorton_galena_nomad_aldecados_04",
+    "thorton_galena_nomad_aldecados_04_missiles",
+    "thorton_galena_nomad_aldecados_05",
+    "thorton_galena_nomad_player_01_missiles",
+    "thorton_galena_nomad_scorpion_01",
+    "thorton_galena_nomad_wraiths_01",
+    "thorton_galena_nomad_wraiths_01_missiles",
+    "thorton_galena_nomad_wraiths_02",
+    "thorton_galena_nomad_wraiths_04",
+    "thorton_galena_nomad_wraiths_04_missiles",
+    "thorton_galena_nomad_wraiths_05"
+   ]
+  },
+  {
+   "id": "03afd29a",
+   "rim": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Mackinaw MTL1",
+   "radius": 0.3226,
+   "width": 0.2104,
+   "rim_radius": 0.2906,
+   "tire_center": -0.1246,
+   "axles": [
+    "f"
+   ],
+   "looks": 4,
+   "paints": [
+    "clean_01",
+    "black_dirt",
+    "green_dirt",
+    "silver_dusty_01",
+    "black_dusty"
+   ],
+   "default_paint": "black_dusty",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena_nomad_aldecados_02",
+    "thorton_galena_nomad_player_01",
+    "thorton_galena_nomad_wraiths_03",
+    "thorton_galena_nomad_wraiths_03_missiles"
+   ]
+  },
+  {
+   "id": "c6980bde",
+   "rim": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Thrax 388 Jefferson",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.328,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 8,
+   "paints": [
+    "dirty_01",
+    "valentinos_01",
+    "maelstrom_red_01",
+    "maelstrom_green_01",
+    "maelstrom_red_01_dusty",
+    "valentinos_01_dusty",
+    "maelstrom_green_dusty"
+   ],
+   "default_paint": "maelstrom_red_01_dusty",
+   "kind": "car",
+   "look_names": [
+    "thorton_galena_nomad_aldecados_02",
+    "thorton_galena_nomad_aldecados_03",
+    "thorton_galena_nomad_aldecados_03_missiles",
+    "thorton_galena_nomad_player_01",
+    "thorton_galena_nomad_wraiths_03",
+    "thorton_galena_nomad_wraiths_03_missiles",
+    "thorton_galena_nomad_wraiths_04",
+    "thorton_galena_nomad_wraiths_04_missiles"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "thorton_galena_nomad_player_01",
+   "Galena \"Gecko\""
+  ],
+  [
+   "thorton_galena_nomad_player_01_missiles",
+   "Galena \"Locust\""
+  ]
+ ]
+}

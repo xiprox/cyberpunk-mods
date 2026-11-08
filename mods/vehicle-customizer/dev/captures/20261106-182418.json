@@ -1,0 +1,42 @@
+{
+  "camera_forward": {
+    "x": -0.9,
+    "y": -0.3,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 15.9,
+    "x": -153.6,
+    "y": -4419.9,
+    "z": 59.5
+  },
+  "look_object": {
+    "class": "NPCPuppet",
+    "entity_id": "9013270ULL",
+    "name": "",
+    "position": {
+      "x": -153.7,
+      "y": -4420.1,
+      "z": 58.9
+    },
+    "record": "Character.ina_02_melee_med"
+  },
+  "nearest": {
+    "distance": 9.6,
+    "gig": "sts_bls_ina_02",
+    "gig_state": "Succeeded",
+    "gig_state_from": "id sts_bls_ina_02",
+    "id": "big_petes_place",
+    "name": "Big Pete's place"
+  },
+  "note": "",
+  "player": {
+    "x": -138.7,
+    "y": -4414.5,
+    "yaw": 110,
+    "z": 58.9
+  },
+  "stamp": "20261106-182418",
+  "time": "2026-11-06 18:24:18"
+}

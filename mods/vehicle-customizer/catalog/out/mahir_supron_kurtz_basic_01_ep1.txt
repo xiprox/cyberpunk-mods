@@ -1,0 +1,65 @@
+Supron "Trailbruiser" (mahir_supron_kurtz_basic_01_ep1), from ep1\vehicles\standard\v_standard3_mahir_supron_kurtz_basic_01.ent
+records: Vehicle.v_standard3_mahir_supron_kurtz_player
+generated 2026-11-08
+
+STYLES (4; a style's other looks are its factory paints)
+  mahir_supron_kurtz_basic_base_01 Mahir supron kurtz basic base 1 looks
+                                            kits: kit_kurtz_body_interior, kit_kurtz_body_2, kit_kurtz_body_doors, kit_kurtz_body_3, kit_kurtz_body_5, kit_kurtz_body
+  mahir_supron_kurtz_basic_kurtz_01 Mahir supron kurtz basic kurtz 1 looks
+                                            kits: kit_kurtz_body_interior, kit_kurtz_body_2, kit_kurtz_body_7, kit_kurtz_body_doors, kit_kurtz_body_3, kit_kurtz_body_5, kit_kurtz_body, window_f_stickers_01
+  mahir_supron_kurtz_basic_kurtz_militia_01 Mahir supron kurtz basic kurtz militia 1 looks
+                                            kits: kit_kurtz_body_interior, kit_kurtz_body_6, kit_kurtz_body_doors, kit_kurtz_body_3, kit_kurtz_body_5, kit_kurtz_body, window_f_stickers_01
+  mahir_supron_kurtz_basic_player_01 Mahir supron kurtz basic player 1 looks
+                                            kits: kit_kurtz_body_interior, kit_kurtz_body_2, kit_kurtz_body_7, kit_kurtz_body_doors, kit_kurtz_body_3
+WRECKS: mahir_supron_kurtz_basic_burnt_01, mahir_supron_kurtz_basic_burnt_player_01
+
+SLOTS (11)
+  Body: main [base.body] (Base): 1 options
+    body_base_01                                    4 paints   9 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] ...
+  Body: v standard25 mahir supron kurtz ext01 front kurtz [base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz] (Base): 2 options
+    v_standard25_mahir_supron_kurtz_body_front_kur  5 paints   7 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] ...
+    v_standard25_mahir_supron_kurtz_body_front_kur  3 paints   2 looks  [car: v_standard3_mahir_supron_kurtz] [style: Mahir supron kurtz basic player] [wreck: mahir_supron_kurtz_basic_burnt_player_01]
+  Body: v standard25 mahir supron kurtz ext01 kurtz [base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz] (Base): 2 options
+    v_standard25_mahir_supron_kurtz_body_kurtz_01   5 paints   7 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] ...
+    v_standard25_mahir_supron_kurtz_body_kurtz_03   1 paints   2 looks  [car: v_standard3_mahir_supron_kurtz] [style: Mahir supron kurtz basic player] [wreck: mahir_supron_kurtz_basic_burnt_player_01]
+  Interior [base.interior] (Base): 1 options
+    interior_kurtz_01                               2 paints   9 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] ...
+  Roof: v standard25 mahir supron kurtz ext01 kurtz [base.roof] (Base): 1 options
+    v_standard25_mahir_supron_kurtz_roof_kurtz_01   5 paints   9 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] ...
+  Roof: v standard25 mahir supron kurtz ext01 parts [base.roof.v_standard25_mahir_supron_kurtz_ext01_roof_parts] (Base): 2 options
+    v_standard25_mahir_supron_kurtz_roof_parts_01   1 paints   3 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [style: Mahir supron kurtz basic player] [wreck: mahir_supron_kurtz_basic_burnt_player_01]
+    v_standard25_mahir_supron_kurtz_roof_lights_mi  0 paints   2 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_militia_02] [style: Mahir supron kurtz basic kurtz militia]
+  Windshield [base.window] (Base): 2 options
+    window_kurtz_f_01                               0 paints   4 looks  [car: v_standard3_mahir_supron_kurtz] [style: Mahir supron kurtz basic base] [style: Mahir supron kurtz basic kurtz] [style: Mahir supron kurtz basic kurtz militia] [style: Mahir supron kurtz basic player]
+    window_f_02                                     0 paints   3 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02]
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_kurtz_01                                   0 paints   6 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] ...
+    tire_03                                         3 paints   1 looks  [car: v_standard3_mahir_supron_kurtz] [style: Mahir supron kurtz basic player]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 4 options
+    wheel_kurtz_02                                  0 paints   3 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02]
+    wheel_kurtz_01 + wheel_kurtz_02                 1 paints   2 looks  [car: v_standard3_mahir_supron_kurtz] [style: Mahir supron kurtz basic base] [style: Mahir supron kurtz basic kurtz militia]
+    wheel_kurtz_01                                  1 paints   1 looks  [car: v_standard3_mahir_supron_kurtz] [style: Mahir supron kurtz basic kurtz]
+    wheel_kurtz_03                                  1 paints   1 looks  [car: v_standard3_mahir_supron_kurtz] [style: Mahir supron kurtz basic player]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                         4 paints   7 looks  [car: v_standard3_mahir_supron_kurtz] [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] ...
+  Window (door) [door.window] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 2 options
+    window_kurtz_01                                 0 paints   2 looks  [car: v_standard3_mahir_supron_kurtz] [style: Mahir supron kurtz basic kurtz] [style: Mahir supron kurtz basic player]
+    window_kurtz_01 + window_kurtz_02               0 paints   2 looks  [car: v_standard3_mahir_supron_kurtz] [style: Mahir supron kurtz basic base] [style: Mahir supron kurtz basic kurtz militia]
+
+KITS (10)
+  kit_kurtz_body                                 6 parts   7 looks  [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] [style: Mahir supron kurtz basic kurtz] ...
+  kit_kurtz_body_2                               2 parts   4 looks  [look: kurtz_02] [style: Mahir supron kurtz basic base] [style: Mahir supron kurtz basic kurtz] [style: Mahir supron kurtz basic player]
+  kit_kurtz_body_3                               10 parts   4 looks  [style: Mahir supron kurtz basic base] [style: Mahir supron kurtz basic kurtz] [style: Mahir supron kurtz basic kurtz militia] [style: Mahir supron kurtz basic player]
+                                                 made to sit on Windshield, Window (door)
+  kit_kurtz_body_4                               4 parts   3 looks  [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02]
+                                                 made to sit on Windshield, window.window
+  kit_kurtz_body_5                               2 parts   3 looks  [style: Mahir supron kurtz basic base] [style: Mahir supron kurtz basic kurtz] [style: Mahir supron kurtz basic kurtz militia]
+                                                 made to sit on Rims
+  kit_kurtz_body_6                               5 parts   2 looks  [look: kurtz_militia_02] [style: Mahir supron kurtz basic kurtz militia]
+  kit_kurtz_body_7                               5 parts   2 looks  [style: Mahir supron kurtz basic kurtz] [style: Mahir supron kurtz basic player]
+                                                 made to sit on Window (door)
+  kit_kurtz_body_doors                           7 parts   7 looks  [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] [style: Mahir supron kurtz basic kurtz] ...
+                                                 made to sit on Doors, window.window
+  kit_kurtz_body_interior                        7 parts   9 looks  [look: kurtz_02] [look: kurtz_03] [look: kurtz_militia_02] [style: Mahir supron kurtz basic base] [style: Mahir supron kurtz basic kurtz] ...
+  window_f_stickers_01                           1 parts   2 looks  [style: Mahir supron kurtz basic kurtz] [style: Mahir supron kurtz basic kurtz militia]
+                                                 made to sit on Windshield

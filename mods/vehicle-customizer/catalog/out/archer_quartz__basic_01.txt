@@ -1,0 +1,67 @@
+Quartz EC-T2 r660 (archer_quartz__basic_01), from base\vehicles\standard\v_standard2_archer_quartz__basic_01.ent
+records: Vehicle.v_standard2_archer_quartz_base_player, Vehicle.v_standard2_archer_quartz_player
+generated 2026-11-08
+
+STYLES (10; a style's other looks are its factory paints)
+  kerry                    Kerry            1 looks
+  poor_1                   Poor             6 looks
+                                            paints: poor_1_1, poor_1_2, poor_1_3, poor_1_4, poor_1_5
+  poor_2                   Poor 2           5 looks
+                                            paints: poor_2_1, poor_2_2, poor_2_3, poor_2_4
+  poor_3                   Poor 3           4 looks
+                                            paints: poor_3_1, poor_3_2, poor_3_3
+  poor_3_4                 Poor 3 4         1 looks
+                                            kits: bumper_b_a_tygerclaw_sticker_01
+  suburban_1               Suburban         4 looks
+                                            paints: suburban_1_1, suburban_1_2, suburban_1_3
+  tygerclaws_01            Tygerclaws       1 looks
+                                            kits: bumper_b_a_tygerclaw_sticker_01, kit_tyger_doors_interior, kit_tyger_body
+  tygerclaws_02            Tygerclaws 02    1 looks
+                                            kits: bumper_b_a_tygerclaw_sticker_01, interior_tygerclaws_stickers_01, kit_tyger_body
+  urban_1                  Urban            7 looks
+                                            paints: urban_1_1, urban_1_2, urban_1_3, urban_1_5, urban_1_6, mox_01
+  player_01                V's own          1 looks
+WRECKS: burnt_01
+
+SLOTS (13)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_b_01                                  25 paints  26 looks  [look: archer_basic_01] [style: Kerry] [style: Poor] [style: Poor 3] [style: Poor 3 4] ...
+    junk_bumper_f_01                                2 paints   6 looks  [style: V's own] [style: Poor 2]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_b_01                                  25 paints  21 looks  [look: archer_basic_01] [style: Kerry] [style: Poor] [style: Suburban] [style: Tygerclaws] ...
+    junk_bumper_b_01                                2 paints  11 looks  [style: V's own] [style: Poor 2] [style: Poor 3] [style: Poor 3 4]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        25 paints  32 looks  [look: archer_basic_01] [style: Kerry] [style: V's own] [style: Poor] [style: Poor 2] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       25 paints  26 looks  [look: archer_basic_01] [style: Kerry] [style: Poor] [style: Poor 3] [style: Poor 3 4] ...
+  Body [base.body] (Base): 1 options
+    body_01                                        25 paints  33 looks  [look: archer_basic_01] [style: Kerry] [style: V's own] [style: Poor] [style: Poor 2] ...
+  Bumper (Base): body [base.bumper] (Base): 1 options
+    bumper_f_a_01                                  25 paints  33 looks  [look: archer_basic_01] [style: Kerry] [style: V's own] [style: Poor] [style: Poor 2] ...
+  Bumper (Base): body [base.bumper.body] (Base): 1 options
+    bumper_b_a_01                                  25 paints  33 looks  [look: archer_basic_01] [style: Kerry] [style: V's own] [style: Poor] [style: Poor 2] ...
+  Exhaust [base.exhaust] (Base): 1 options
+    exhaust_01                                      2 paints  33 looks  [look: archer_basic_01] [style: Kerry] [style: V's own] [style: Poor] [style: Poor 2] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     7 paints  33 looks  [look: archer_basic_01] [style: Kerry] [style: V's own] [style: Poor] [style: Poor 2] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         5 paints  31 looks  [look: archer_basic_01] [style: Kerry] [style: Poor] [style: Poor 2] [style: Poor 3] ...
+    tire_a_01                                       9 paints   1 looks  [car: Galena "Gecko"] [style: V's own]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 5 options
+    wheel_03                                        8 paints   9 looks  [style: Poor 3] [style: Poor 3 4] [style: Suburban]
+    wheel_01                                        1 paints   8 looks  [look: archer_basic_01] [style: Kerry] [style: Poor]
+    wheel_02                                        5 paints   8 looks  [style: Tygerclaws 02] [style: Urban]
+    police_hella_wheel_01                           1 paints   6 looks  [style: Poor 2] [style: Tygerclaws]
+    wheel_01                                        4 paints   1 looks  [car: Quartz "Specter"] [style: V's own]
+  Doors: a [door.door] (door_front_left_a, door_front_right_a): 2 options
+    door_01                                        26 paints  31 looks  [look: archer_basic_01] [style: V's own] [style: Poor] [style: Poor 2] [style: Poor 3] ...
+    door_poor_01 + door_01                          1 paints   1 looks  [style: Kerry]
+  Doors: mirror [door.door.mirror] (door_front_left_a, door_front_right_a): 1 options
+    door_mirror_01                                 25 paints  31 looks  [look: archer_basic_01] [style: V's own] [style: Poor] [style: Poor 2] [style: Poor 3] ...
+
+KITS (4)
+  bumper_b_a_tygerclaw_sticker_01                1 parts   3 looks  [style: Poor 3 4] [style: Tygerclaws] [style: Tygerclaws 02]
+  interior_tygerclaws_stickers_01                1 parts   1 looks  [style: Tygerclaws 02]
+  kit_tyger_body                                 4 parts   2 looks  [style: Tygerclaws] [style: Tygerclaws 02]
+  kit_tyger_doors_interior                       2 parts   1 looks  [style: Tygerclaws]
+                                                 made to sit on Doors: a

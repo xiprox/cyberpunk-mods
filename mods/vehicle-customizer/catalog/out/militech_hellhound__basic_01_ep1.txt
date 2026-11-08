@@ -1,0 +1,43 @@
+Hellhound (militech_hellhound__basic_01_ep1), from ep1\vehicles\standard\v_standard3_militech_hellhound__basic_01.ent
+records: Vehicle.v_standard3_militech_hellhound_player
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  max_tac_01               Max tac          4 looks
+                                            paints: max_tac_02, max_tac_03, player_01
+                                            kits: body_stickers_maxtac_01, kit_police_doors_hood_trunk
+WRECKS: burnt
+
+SLOTS (11)
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                         5 paints   8 looks  [look: militech_hellhound__basic_q305_hologrom_red] [look: police_01] [look: police_02] [look: police_03] [style: Max tac]
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                        5 paints   8 looks  [look: militech_hellhound__basic_q305_hologrom_red] [look: police_01] [look: police_02] [look: police_03] [style: Max tac]
+  Body [base.body] (Base): 1 options
+    body_01                                         5 paints  10 looks  [look: burnt_police] [look: militech_hellhound__basic_q305_hologrom_red] [look: police_01] [look: police_02] [look: police_03] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     2 paints   9 looks  [look: burnt_police] [look: police_01] [look: police_02] [look: police_03] [style: Max tac] ...
+  Windshield [base.window] (Base): 1 options
+    window_f_01                                     5 paints  10 looks  [look: burnt_police] [look: militech_hellhound__basic_q305_hologrom_red] [look: police_01] [look: police_02] [look: police_03] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_a_01                                       0 paints   5 looks  [look: militech_hellhound__basic_q305_hologrom_red] [style: Max tac]
+    tire_01                                         0 paints   3 looks  [car: v_utility4_militech_behemoth] [look: police_01] [look: police_02] [look: police_03]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_a_01                                      2 paints   5 looks  [look: militech_hellhound__basic_q305_hologrom_red] [style: Max tac]
+    wheel_a_01 + wheel_police_01                    2 paints   3 looks  [look: police_01] [look: police_02] [look: police_03]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_a_01                                       5 paints   8 looks  [look: militech_hellhound__basic_q305_hologrom_red] [look: police_01] [look: police_02] [look: police_03] [style: Max tac]
+  Door (hatch_door) [hatch_door.door] (hatch_door): 1 options
+    hatch_door_01                                   4 paints  10 looks  [look: burnt_police] [look: militech_hellhound__basic_q305_hologrom_red] [look: police_01] [look: police_02] [look: police_03] ...
+  Tires (b) [wheel_b.tire] (wheel_front_left_b, wheel_front_right_b): 2 options
+    tire_a_01                                       0 paints   5 looks  [look: militech_hellhound__basic_q305_hologrom_red] [style: Max tac]
+    tire_01                                         0 paints   3 looks  [car: v_utility4_militech_behemoth] [look: police_01] [look: police_02] [look: police_03]
+  Rims (b) [wheel_b.wheel] (wheel_front_left_b, wheel_front_right_b): 1 options
+    wheel_a_01                                      2 paints   8 looks  [look: militech_hellhound__basic_q305_hologrom_red] [look: police_01] [look: police_02] [look: police_03] [style: Max tac]
+
+KITS (3)
+  body_stickers_maxtac_01                        1 parts  10 looks  [look: burnt_police] [look: militech_hellhound__basic_q305_hologrom_red] [look: police_01] [look: police_02] [look: police_03] ...
+  kit_police_body                                6 parts   4 looks  [look: burnt_police] [look: police_01] [look: police_02] [look: police_03]
+                                                 made to sit on base.body.police_body_lights
+  kit_police_doors_hood_trunk                    10 parts   8 looks  [look: militech_hellhound__basic_q305_hologrom_red] [look: police_01] [look: police_02] [look: police_03] [style: Max tac]
+                                                 made to sit on Doors, Hood, Trunk

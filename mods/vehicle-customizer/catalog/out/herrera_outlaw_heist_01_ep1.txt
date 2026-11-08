@@ -1,0 +1,29 @@
+Outlaw "Weiler" (herrera_outlaw_heist_01_ep1), from ep1\vehicles\sport\v_sport1_herrera_outlaw_heist_01.ent
+records: Vehicle.v_sport1_herrera_outlaw_heist_player
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  heist_heist_01           Heist heist      1 looks
+  heist_player_01          Heist player     1 looks
+WRECKS: heist_burnt_01
+
+SLOTS (8)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                    10 paints   2 looks  [car: v_sport1_herrera_outlaw] [style: Heist heist] [style: Heist player]
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                     9 paints   2 looks  [car: v_sport1_herrera_outlaw] [style: Heist heist] [style: Heist player]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                         9 paints   2 looks  [car: v_sport1_herrera_outlaw] [style: Heist heist] [style: Heist player]
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                        9 paints   2 looks  [car: v_sport1_herrera_outlaw] [style: Heist heist] [style: Heist player]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     6 paints   3 looks  [car: v_sport1_herrera_outlaw] [style: Heist heist] [style: Heist player] [wreck: heist_burnt_01]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_outlaw_heist                              0 paints   1 looks  [car: v_sport1_herrera_outlaw] [style: Heist heist]
+    wheel_type66                                    0 paints   1 looks  [car: v_sport1_herrera_outlaw] [style: Heist player]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_a_01 + door_01                             9 paints   2 looks  [car: v_sport1_herrera_outlaw] [style: Heist heist] [style: Heist player]
+  Wheel (brake) [brake.wheel] (brake_front_left, brake_front_right, brake_back_left, brake_back_right): 1 options
+    wheel_center_01                                 8 paints   1 looks  [car: Cortes V5000 Valor] [style: Heist player]
+
+KITS (0)

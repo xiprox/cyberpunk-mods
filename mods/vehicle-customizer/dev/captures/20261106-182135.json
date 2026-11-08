@@ -1,0 +1,28 @@
+{
+  "camera_forward": {
+    "x": -0.5,
+    "y": -0.9,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 399.9,
+    "x": -207.8,
+    "y": -1356.1,
+    "z": -23.3
+  },
+  "nearest": {
+    "distance": 30.4,
+    "id": "scrapyard_in_arroyo",
+    "name": "Scrapyard in Arroyo"
+  },
+  "note": "",
+  "player": {
+    "x": -17.5,
+    "y": -1005.7,
+    "yaw": 151.5,
+    "z": 7.3
+  },
+  "stamp": "20261106-182135",
+  "time": "2026-11-06 18:21:35"
+}

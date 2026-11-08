@@ -1,0 +1,39 @@
+{
+  "camera_forward": {
+    "x": 0.6,
+    "y": -0.8,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 18.2,
+    "x": -110.6,
+    "y": -4203.8,
+    "z": 42.7
+  },
+  "look_object": {
+    "class": "NPCPuppet",
+    "entity_id": "9011176ULL",
+    "name": "",
+    "position": {
+      "x": -110.4,
+      "y": -4204,
+      "z": 42.2
+    },
+    "record": "Character.bls_se_wraiths_grunt2_melee2_crowbar_wa"
+  },
+  "nearest": {
+    "distance": 38.4,
+    "id": "lone_garage_2",
+    "name": "Lone garage"
+  },
+  "note": "",
+  "player": {
+    "x": -120.7,
+    "y": -4188.6,
+    "yaw": -146.4,
+    "z": 41.9
+  },
+  "stamp": "20261106-190242",
+  "time": "2026-11-06 19:02:42"
+}

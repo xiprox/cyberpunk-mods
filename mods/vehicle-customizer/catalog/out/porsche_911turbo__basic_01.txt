@@ -1,0 +1,34 @@
+911 Turbo (930) (porsche_911turbo__basic_01), from base\vehicles\sport\v_sport2_porsche_911turbo__basic_01.ent
+records: Vehicle.v_sport2_porsche_911turbo_player
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  johnny                   Johnny           2 looks
+                                            paints: q108_atlantis
+                                            kits: kit_sticker_body_hood, kit_sticker_doors
+WRECKS: burnt_01
+
+SLOTS (6)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_01                                     0 paints   3 looks  [look: default] [style: Johnny]
+    bumper_f_02                                     0 paints   1 looks  [look: cabrio_01]
+  Hood [hood_a.hood] (hood_a): 2 options
+    hood_01                                         1 paints   4 looks  [look: default] [style: Johnny] [wreck: burnt_01]
+    hood_02                                         1 paints   2 looks  [look: cabrio_01] [look: cabrio_burnt_01]
+  Body [base.body] (Base): 2 options
+    body_01                                         0 paints   4 looks  [look: default] [style: Johnny] [wreck: burnt_01]
+    body_02                                         0 paints   2 looks  [look: cabrio_01] [look: cabrio_burnt_01]
+  Interior [base.interior] (Base): 2 options
+    interior_01                                     0 paints   4 looks  [look: default] [style: Johnny] [wreck: burnt_01]
+    interior_03                                     0 paints   2 looks  [look: cabrio_01] [look: cabrio_burnt_01]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_01                                        0 paints   3 looks  [look: default] [style: Johnny]
+    wheel_01 + wheel_02                             0 paints   1 looks  [look: cabrio_01]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 2 options
+    door_01                                         0 paints   4 looks  [look: default] [style: Johnny] [wreck: burnt_01]
+    door_02                                         0 paints   2 looks  [look: cabrio_01] [look: cabrio_burnt_01]
+
+KITS (3)
+  kit_sticker_body_hood                          3 parts   4 looks  [look: default] [style: Johnny] [wreck: burnt_01]
+  kit_sticker_doors                              2 parts   6 looks  [look: cabrio_01] [look: cabrio_burnt_01] [look: default] [style: Johnny] [wreck: burnt_01]
+  kit_sticker_doors_hood_trunk                   4 parts   2 looks  [look: cabrio_01] [look: cabrio_burnt_01]

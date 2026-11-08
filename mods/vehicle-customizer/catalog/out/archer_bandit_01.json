@@ -1,0 +1,553 @@
+{
+ "id": "archer_bandit_01",
+ "label": "Quartz \"Bandit\"",
+ "entity": "base\\vehicles\\standard\\v_standard2_archer_bandit_01.ent",
+ "family": "v_standard2_archer_bandit",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard2_archer_bandit_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\archer_bandit.app"
+ ],
+ "styles": [
+  {
+   "id": "archer_bandit_bandit_01",
+   "code": "archer_bandit_bandit_01",
+   "label": "Archer bandit bandit",
+   "base_look": "archer_bandit_bandit_01",
+   "looks": [
+    "archer_bandit_bandit_01",
+    "archer_bandit_bandit_02"
+   ],
+   "options": {
+    "base.body": "0ada66c8",
+    "door.door": "88342189",
+    "door.door.mirror": "d9b29646"
+   },
+   "kits": [
+    "nomad_bf64"
+   ]
+  }
+ ],
+ "wrecks": [
+  "archer_bandit_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "0ada66c8",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "bandit_01",
+     "paints": [
+      "bandit_01",
+      "bandit_02"
+     ],
+     "looks": [
+      "archer_bandit_bandit_01",
+      "archer_bandit_bandit_02",
+      "archer_bandit_burnt_01"
+     ],
+     "origins": [
+      "style:archer_bandit_bandit_01",
+      "wreck:archer_bandit_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors: a",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "88342189",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "bandit_01",
+     "paints": [
+      "bandit_01",
+      "bandit_02"
+     ],
+     "looks": [
+      "archer_bandit_bandit_01",
+      "archer_bandit_bandit_02"
+     ],
+     "origins": [
+      "style:archer_bandit_bandit_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door.mirror",
+   "label": "Doors: mirror",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "mirror_<c>"
+   ],
+   "options": [
+    {
+     "id": "d9b29646",
+     "code": "door_mirror_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_door_mirror_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_door_mirror_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "bandit_01",
+     "paints": [
+      "bandit_01",
+      "bandit_02"
+     ],
+     "looks": [
+      "archer_bandit_bandit_01",
+      "archer_bandit_bandit_02"
+     ],
+     "origins": [
+      "style:archer_bandit_bandit_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "nomad_bf64",
+   "family": "nomad",
+   "code": "kit_nomad_doors_hood",
+   "where": [
+    "doors",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "attachments_generator_f_int",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_02.mesh",
+     "code": "electric_device_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "hood_a_02",
+     "slot": null,
+     "position": [
+      -0.0002,
+      0.2666,
+      -0.185
+     ],
+     "rotation": [
+      -0.678697407245636,
+      -0.1927185356616974,
+      0.6790236830711365,
+      0.20287030935287476
+     ],
+     "shadow": null,
+     "look": "archer_bandit_bandit_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "door_fl__sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_door_fl__sticker_01.mesh",
+     "code": "door_fl_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_bandit_bandit_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_door_fr_sticker_01.mesh",
+     "code": "door_fr_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_bandit_bandit_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "archer_bandit_bandit_01",
+    "archer_bandit_bandit_02"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "style:archer_bandit_bandit_01"
+   ]
+  }
+ ],
+ "looks": {
+  "archer_bandit_bandit_01": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_bandit.app",
+   "app_look": "bandit_01",
+   "style": "archer_bandit_bandit_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_bl": {
+     "all": "window_bl"
+    },
+    "base.window.window_br": {
+     "all": "window_br"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.bumper": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_a": {
+     "all": "bumper_f_a_02"
+    },
+    "base.exhaust": {
+     "all": "exhaust_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a_02"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_02_fl_a",
+     "fr": "tire_02_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_02_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_05",
+     "fr": "wheel_fr_05",
+     "bl": "wheel_bl_05",
+     "br": "wheel_br_05"
+    }
+   }
+  },
+  "archer_bandit_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_bandit.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_bl": {
+     "all": "window_bl"
+    },
+    "base.window.window_br": {
+     "all": "window_br"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.bumper": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_a": {
+     "all": "bumper_f_a_02"
+    },
+    "base.exhaust": {
+     "all": "exhaust_02"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    }
+   }
+  },
+  "archer_bandit_bandit_02": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_bandit.app",
+   "app_look": "bandit_02",
+   "style": "archer_bandit_bandit_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_bl": {
+     "all": "window_bl"
+    },
+    "base.window.window_br": {
+     "all": "window_br"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.bumper": {
+     "all": "bumper_b_01_a"
+    },
+    "base.bumper.bumper_f_a": {
+     "all": "bumper_f_a_02"
+    },
+    "base.exhaust": {
+     "all": "exhaust_02"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a_02"
+    },
+    "base.interior": {
+     "all": "interior_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_02_fl_a",
+     "fr": "tire_02_fr_a",
+     "bl": "tire_02_bl_a",
+     "br": "tire_02_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_05",
+     "fr": "wheel_fr_05",
+     "bl": "wheel_bl_05",
+     "br": "wheel_br_05"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3559,
+   0.3183,
+   0.2881,
+   -0.1416
+  ],
+  "b": [
+   0.3559,
+   0.3183,
+   0.2881,
+   -0.1416
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "1158379f",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_wheel_fl_05.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_bandit\\meshes\\v_standard2_archer_bandit__ext01_tire_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_fl_05",
+   "tire_code": "tire_fl_02",
+   "from": "Quartz \"Bandit\"",
+   "radius": 0.3559,
+   "width": 0.3183,
+   "rim_radius": 0.2881,
+   "tire_center": -0.1416,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 4,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "archer_bandit_bandit_01",
+    "archer_bandit_bandit_02"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Quartz \"Bandit\""
+  ]
+ ]
+}

@@ -1,0 +1,1145 @@
+{
+ "id": "militech_behemoth_basic_01",
+ "label": "Behemoth",
+ "entity": "base\\vehicles\\utility\\v_utility4_militech_behemoth_basic_01.ent",
+ "family": "v_utility4_militech_behemoth_basic",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_utility4_militech_behemoth",
+  "Vehicle.v_utility4_militech_behemoth_border_patrol",
+  "Vehicle.v_utility4_militech_behemoth_kangtao",
+  "Vehicle.v_utility4_militech_behemoth_quest"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\utility\\militech_behemoth_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "militech_behemoth_basic_arasaka",
+   "code": "militech_behemoth_basic_arasaka",
+   "label": "Militech behemoth basic arasaka",
+   "base_look": "militech_behemoth_basic_arasaka",
+   "looks": [
+    "militech_behemoth_basic_arasaka"
+   ],
+   "options": {
+    "bumper_front.bumper": "898a991b",
+    "base.body": "c7542498",
+    "wheel.wheel": "e7a9a83d",
+    "door.door": "a814e36d",
+    "wheel_b.wheel": "9e7866b2"
+   },
+   "kits": [
+    "militech_51c3"
+   ]
+  },
+  {
+   "id": "militech_behemoth_basic_base_01",
+   "code": "militech_behemoth_basic_base_01",
+   "label": "Militech behemoth basic base",
+   "base_look": "militech_behemoth_basic_base_01",
+   "looks": [
+    "militech_behemoth_basic_base_01",
+    "militech_behemoth_basic_camo_01",
+    "militech_behemoth_basic_brown_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "898a991b",
+    "base.body": "c7542498",
+    "wheel.wheel": "f893e03f",
+    "door.door": "a814e36d",
+    "wheel_b.wheel": "9e7866b2"
+   },
+   "kits": []
+  },
+  {
+   "id": "militech_behemoth_basic_border_patrol_01",
+   "code": "militech_behemoth_basic_border_patrol_01",
+   "label": "Militech behemoth basic border patrol",
+   "base_look": "militech_behemoth_basic_border_patrol_01",
+   "looks": [
+    "militech_behemoth_basic_border_patrol_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "898a991b",
+    "base.body": "c7542498",
+    "wheel.wheel": "f893e03f",
+    "door.door": "a814e36d",
+    "wheel_b.wheel": "9e7866b2"
+   },
+   "kits": [
+    "militech_f0d8"
+   ]
+  },
+  {
+   "id": "militech_behemoth_basic_kang_tao",
+   "code": "militech_behemoth_basic_kang_tao",
+   "label": "Militech behemoth basic kang tao",
+   "base_look": "militech_behemoth_basic_kang_tao",
+   "looks": [
+    "militech_behemoth_basic_kang_tao"
+   ],
+   "options": {
+    "bumper_front.bumper": "898a991b",
+    "base.body": "c7542498",
+    "wheel.wheel": "f893e03f",
+    "door.door": "a814e36d",
+    "wheel_b.wheel": "9e7866b2"
+   },
+   "kits": [
+    "militech_51c3"
+   ]
+  }
+ ],
+ "wrecks": [
+  "militech_behemoth_basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "898a991b",
+     "code": "bumper_f_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "brown_01",
+      "camo_01",
+      "border_patrol_01"
+     ],
+     "looks": [
+      "militech_behemoth_basic:default",
+      "militech_behemoth_basic:flatbed_01",
+      "militech_behemoth_basic:flatbed_burnt_01",
+      "militech_behemoth_basic_arasaka",
+      "militech_behemoth_basic_base_01",
+      "militech_behemoth_basic_border_patrol_01",
+      "militech_behemoth_basic_brown_01",
+      "militech_behemoth_basic_burnt_01",
+      "militech_behemoth_basic_camo_01",
+      "militech_behemoth_basic_kang_tao"
+     ],
+     "origins": [
+      "look:default",
+      "look:flatbed_01",
+      "look:flatbed_burnt_01",
+      "style:militech_behemoth_basic_arasaka",
+      "style:militech_behemoth_basic_base_01",
+      "style:militech_behemoth_basic_border_patrol_01",
+      "style:militech_behemoth_basic_kang_tao",
+      "wreck:militech_behemoth_basic_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "c7542498",
+     "code": "body_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "kang_tao",
+      "brown_01",
+      "camo_01",
+      "border_patrol_01"
+     ],
+     "looks": [
+      "militech_behemoth_basic:default",
+      "militech_behemoth_basic:flatbed_01",
+      "militech_behemoth_basic:flatbed_burnt_01",
+      "militech_behemoth_basic_arasaka",
+      "militech_behemoth_basic_base_01",
+      "militech_behemoth_basic_border_patrol_01",
+      "militech_behemoth_basic_brown_01",
+      "militech_behemoth_basic_burnt_01",
+      "militech_behemoth_basic_camo_01",
+      "militech_behemoth_basic_kang_tao"
+     ],
+     "origins": [
+      "look:default",
+      "look:flatbed_01",
+      "look:flatbed_burnt_01",
+      "style:militech_behemoth_basic_arasaka",
+      "style:militech_behemoth_basic_base_01",
+      "style:militech_behemoth_basic_border_patrol_01",
+      "style:militech_behemoth_basic_kang_tao",
+      "wreck:militech_behemoth_basic_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_utility4_militech_behemoth__ext01_wheel_<c>_04",
+    "v_utility4_militech_behemoth__ext01_wheel_fl_04_b",
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "f893e03f",
+     "code": "wheel_03 + wheel_04",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_03.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_03.mesh",
+      "bl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_04.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_04.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_behemoth_basic:flatbed_01",
+      "militech_behemoth_basic_base_01",
+      "militech_behemoth_basic_border_patrol_01",
+      "militech_behemoth_basic_brown_01",
+      "militech_behemoth_basic_camo_01",
+      "militech_behemoth_basic_kang_tao"
+     ],
+     "origins": [
+      "look:flatbed_01",
+      "style:militech_behemoth_basic_base_01",
+      "style:militech_behemoth_basic_border_patrol_01",
+      "style:militech_behemoth_basic_kang_tao"
+     ]
+    },
+    {
+     "id": "b425ef4d",
+     "code": "wheel_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_behemoth_basic:default"
+     ],
+     "origins": [
+      "look:default"
+     ]
+    },
+    {
+     "id": "e7a9a83d",
+     "code": "wheel_04",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_04.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_04.mesh",
+      "bl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_04.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_04.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_behemoth_basic_arasaka"
+     ],
+     "origins": [
+      "style:militech_behemoth_basic_arasaka"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "a814e36d",
+     "code": "door_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "kang_tao",
+      "arasaka",
+      "brown_01",
+      "camo_01",
+      "border_patrol_01"
+     ],
+     "looks": [
+      "militech_behemoth_basic:default",
+      "militech_behemoth_basic:flatbed_01",
+      "militech_behemoth_basic_arasaka",
+      "militech_behemoth_basic_base_01",
+      "militech_behemoth_basic_border_patrol_01",
+      "militech_behemoth_basic_brown_01",
+      "militech_behemoth_basic_burnt_01",
+      "militech_behemoth_basic_camo_01",
+      "militech_behemoth_basic_kang_tao"
+     ],
+     "origins": [
+      "look:default",
+      "look:flatbed_01",
+      "style:militech_behemoth_basic_arasaka",
+      "style:militech_behemoth_basic_base_01",
+      "style:militech_behemoth_basic_border_patrol_01",
+      "style:militech_behemoth_basic_kang_tao",
+      "wreck:militech_behemoth_basic_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.wheel",
+   "label": "Rims (b)",
+   "kind": "wheel",
+   "group": "wheel_b",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left_b",
+    "wheel_back_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_fl_b",
+    "wheel_01_fr_b"
+   ],
+   "options": [
+    {
+     "id": "9e7866b2",
+     "code": "wheel_04",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "bl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_04.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_04.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_behemoth_basic:flatbed_01",
+      "militech_behemoth_basic_arasaka",
+      "militech_behemoth_basic_base_01",
+      "militech_behemoth_basic_border_patrol_01",
+      "militech_behemoth_basic_brown_01",
+      "militech_behemoth_basic_camo_01",
+      "militech_behemoth_basic_kang_tao"
+     ],
+     "origins": [
+      "look:flatbed_01",
+      "style:militech_behemoth_basic_arasaka",
+      "style:militech_behemoth_basic_base_01",
+      "style:militech_behemoth_basic_border_patrol_01",
+      "style:militech_behemoth_basic_kang_tao"
+     ]
+    },
+    {
+     "id": "32846298",
+     "code": "wheel_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "bl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_behemoth_basic:default"
+     ],
+     "origins": [
+      "look:default"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "militech_51c3",
+   "family": "militech",
+   "code": "kit_militech_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_utility4_militech_behemoth__stickers_corporate_body_01",
+     "mesh": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__stickers_corporate_body_01.mesh",
+     "code": "stickers_corporate_body_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_arasaka",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_utility4_militech_behemoth__stickers_corporate_container_01",
+     "mesh": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__stickers_corporate_container_01.mesh",
+     "code": "stickers_corporate_container_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_arasaka",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_basic_arasaka",
+    "militech_behemoth_basic_kang_tao"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:militech_behemoth_basic_arasaka",
+    "style:militech_behemoth_basic_kang_tao"
+   ]
+  },
+  {
+   "id": "militech_f0d8",
+   "family": "militech",
+   "code": "kit_militech_body_2",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_utility4_militech_behemoth__body_stickers_border_patrol",
+     "mesh": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__body_stickers_border_patrol.mesh",
+     "code": "body_stickers_border_patrol",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_border_patrol_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_utility4_militech_behemoth__container_stickers_border_patrol",
+     "mesh": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__container_stickers_border_patrol.mesh",
+     "code": "container_stickers_border_patrol",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_border_patrol_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_basic_border_patrol_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:militech_behemoth_basic_border_patrol_01"
+   ]
+  }
+ ],
+ "looks": {
+  "militech_behemoth_basic_kang_tao": {
+   "app": "base\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+   "app_look": "kang_tao",
+   "style": "militech_behemoth_basic_kang_tao",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_fl_b",
+     "br": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_fl_b",
+     "br": "tire_01_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "militech_behemoth_basic_arasaka": {
+   "app": "base\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+   "app_look": "arasaka",
+   "style": "militech_behemoth_basic_arasaka",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_fl_b",
+     "br": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_fl_b",
+     "br": "tire_01_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "v_utility4_militech_behemoth__ext01_wheel_fl_04",
+     "fr": "v_utility4_militech_behemoth__ext01_wheel_fl_04_b",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "militech_behemoth_basic_base_01": {
+   "app": "base\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+   "app_look": "base_01",
+   "style": "militech_behemoth_basic_base_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_fl_b",
+     "br": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_fl_b",
+     "br": "tire_01_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "militech_behemoth_basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "militech_behemoth_basic_brown_01": {
+   "app": "base\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+   "app_look": "brown_01",
+   "style": "militech_behemoth_basic_base_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_fl_b",
+     "br": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_fl_b",
+     "br": "tire_01_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "militech_behemoth_basic_camo_01": {
+   "app": "base\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+   "app_look": "camo_01",
+   "style": "militech_behemoth_basic_base_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_fl_b",
+     "br": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_fl_b",
+     "br": "tire_01_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "militech_behemoth_basic_border_patrol_01": {
+   "app": "base\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+   "app_look": "border_patrol_01",
+   "style": "militech_behemoth_basic_border_patrol_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_fl_b",
+     "br": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_fl_b",
+     "br": "tire_01_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.6884,
+   0.467,
+   0.3899,
+   -0.0108
+  ],
+  "b": [
+   0.6884,
+   0.467,
+   0.3884,
+   -0.0108
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "c2845878",
+   "rim": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Behemoth",
+   "radius": 0.6884,
+   "width": 0.467,
+   "rim_radius": 0.3854,
+   "tire_center": -0.0108,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "militech_behemoth_basic:default"
+   ]
+  },
+  {
+   "id": "f14bb8df",
+   "rim": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_04.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_04",
+   "tire_code": "tire_fl_01",
+   "from": "Behemoth",
+   "radius": 0.6884,
+   "width": 0.467,
+   "rim_radius": 0.3884,
+   "tire_center": -0.0108,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 8,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "militech_behemoth_basic:flatbed_01",
+    "militech_behemoth_basic_arasaka",
+    "militech_behemoth_basic_base_01",
+    "militech_behemoth_basic_border_patrol_01",
+    "militech_behemoth_basic_brown_01",
+    "militech_behemoth_basic_camo_01",
+    "militech_behemoth_basic_kang_tao"
+   ]
+  },
+  {
+   "id": "6b3b1252",
+   "rim": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_fl_03.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_03",
+   "tire_code": "tire_fl_01",
+   "from": "Behemoth",
+   "radius": 0.6884,
+   "width": 0.467,
+   "rim_radius": 0.3899,
+   "tire_center": -0.0108,
+   "axles": [
+    "f"
+   ],
+   "looks": 6,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "militech_behemoth_basic:flatbed_01",
+    "militech_behemoth_basic_base_01",
+    "militech_behemoth_basic_border_patrol_01",
+    "militech_behemoth_basic_brown_01",
+    "militech_behemoth_basic_camo_01",
+    "militech_behemoth_basic_kang_tao"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Behemoth"
+  ]
+ ]
+}

@@ -1,0 +1,64 @@
+Supron FS3-T (mahir_supron_01__basic_01), from base\vehicles\standard\v_standard25_mahir_supron_01__basic_01.ent
+records: Vehicle.v_standard25_mahir_supron_gt_player, Vehicle.v_standard25_mahir_supron_player
+generated 2026-11-08
+
+STYLES (7; a style's other looks are its factory paints)
+  aldecaldos_01            Aldecaldos       1 looks
+                                            kits: kit_aldecaldos_body_doors, door_fr_01_aldecaldos_sticker_01
+  poor_01                  Poor             5 looks
+                                            paints: poor_02, poor_03, poor_04, poor_05
+                                            kits: door_fr_01_aldecaldos_sticker_01
+  poor_06                  Poor 06          5 looks
+                                            paints: poor_07, poor_08, poor_09, poor_10
+                                            kits: door_fr_01_aldecaldos_sticker_01
+  suburban_01              Suburban         7 looks
+                                            paints: suburban_02, suburban_03, suburban_04, suburban_05, suburban_06, suburban_07
+                                            kits: door_fr_01_aldecaldos_sticker_01
+  tap_tap                  Tap tap          1 looks
+                                            kits: door_fr_01_aldecaldos_sticker_01, kit_sticker_body_bumper_doors_hood_trunk
+  urban_01                 Urban            8 looks
+                                            paints: urban_02, urban_03, urban_04, urban_05, urban_06, urban_07, mox_01
+                                            kits: door_fr_01_aldecaldos_sticker_01
+  player_01                V's own          1 looks
+                                            kits: door_fr_01_aldecaldos_sticker_01
+WRECKS: burnt_01
+
+SLOTS (11)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_01                                    22 paints  23 looks  [look: default] [look: suburban_rave_ow_01] [style: Poor 06] [style: Suburban] [style: Tap tap] ...
+    junk_bumper_f_01                                3 paints   7 looks  [style: Aldecaldos] [style: V's own] [style: Poor]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    22 paints  23 looks  [look: default] [look: suburban_rave_ow_01] [style: Poor 06] [style: Suburban] [style: Tap tap] ...
+    junk_bumper_b_01                                3 paints   7 looks  [style: Aldecaldos] [style: V's own] [style: Poor]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        22 paints  23 looks  [look: default] [look: suburban_rave_ow_01] [style: Poor 06] [style: Suburban] [style: Tap tap] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_a                                        23 paints  30 looks  [look: default] [look: suburban_rave_ow_01] [style: Aldecaldos] [style: V's own] [style: Poor] ...
+  Body [base.body] (Base): 1 options
+    body_01                                        24 paints  31 looks  [look: default] [look: suburban_rave_ow_01] [style: Aldecaldos] [style: V's own] [style: Poor] ...
+  Exhaust [base.exhaust] (Base): 1 options
+    exhaust_01                                     21 paints  31 looks  [look: default] [look: suburban_rave_ow_01] [style: Aldecaldos] [style: V's own] [style: Poor] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    21 paints  31 looks  [look: default] [look: suburban_rave_ow_01] [style: Aldecaldos] [style: V's own] [style: Poor] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 4 options
+    tire_01                                         6 paints  11 looks  [car: Galena G240] [style: Aldecaldos] [style: Poor] [style: Poor 06]
+    tire_01                                         0 paints  10 looks  [look: default] [look: suburban_rave_ow_01] [style: Suburban] [style: Tap tap]
+    tire_wide_02                                    6 paints   8 looks  [car: Galena G240] [style: Urban]
+    tire_01                                         5 paints   1 looks  [car: Quartz EC-T2 r660] [style: V's own]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 4 options
+    wheel_police_01                                 0 paints  11 looks  [car: Galena G240] [style: Aldecaldos] [style: Poor] [style: Poor 06]
+    wheel_a_01                                      1 paints  10 looks  [look: default] [look: suburban_rave_ow_01] [style: Suburban] [style: Tap tap]
+    wheel_wide_type66_01                            0 paints   8 looks  [car: Galena G240] [style: Urban]
+    wheel_01                                        1 paints   1 looks  [car: Quartz EC-T2 r660] [style: V's own]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                        24 paints  30 looks  [look: default] [look: suburban_rave_ow_01] [style: Aldecaldos] [style: V's own] [style: Poor] ...
+  Trunk (b) [trunk_b.trunk] (trunk_b): 1 options
+    trunk_b                                        23 paints  30 looks  [look: default] [look: suburban_rave_ow_01] [style: Aldecaldos] [style: V's own] [style: Poor] ...
+
+KITS (3)
+  door_fr_01_aldecaldos_sticker_01               1 parts  30 looks  [look: default] [look: suburban_rave_ow_01] [style: Aldecaldos] [style: V's own] [style: Poor] ...
+                                                 made to sit on Doors
+  kit_aldecaldos_body_doors                      2 parts   1 looks  [style: Aldecaldos]
+                                                 made to sit on Doors
+  kit_sticker_body_bumper_doors_hood_trunk       9 parts   1 looks  [style: Tap tap]
+                                                 made to sit on Front bumper, Doors, Hood, Trunk, Trunk (b)

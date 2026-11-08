@@ -1,0 +1,31 @@
+{
+  "camera_forward": {
+    "x": 0,
+    "y": 1,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 399.9,
+    "x": -247,
+    "y": 2027.4,
+    "z": 10.1
+  },
+  "nearest": {
+    "distance": 10.7,
+    "gig": "sts_wbr_jpn_02",
+    "gig_state": "Active",
+    "gig_state_from": "id sts_wbr_jpn_02",
+    "id": "workshop_with_the_mechanical_press",
+    "name": "Workshop with the mechanical press"
+  },
+  "note": "",
+  "player": {
+    "x": -248.6,
+    "y": 1628.8,
+    "yaw": -0.2,
+    "z": 41.2
+  },
+  "stamp": "20261106-174103",
+  "time": "2026-11-06 17:41:03"
+}

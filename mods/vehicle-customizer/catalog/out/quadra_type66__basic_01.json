@@ -1,0 +1,4634 @@
+{
+ "id": "quadra_type66__basic_01",
+ "label": "Type-66 Avenger",
+ "entity": "base\\vehicles\\sport\\v_sport2_quadra_type66__basic_01.ent",
+ "family": "v_sport2_quadra_type66",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_sport2_quadra_type66_02_player",
+  "Vehicle.v_sport2_quadra_type66_avenger_player",
+  "Vehicle.v_sport2_quadra_type66_base_player",
+  "Vehicle.v_sport2_quadra_type66_gt_player",
+  "Vehicle.v_sport2_quadra_type66_nomad_ncu_player",
+  "Vehicle.v_sport2_quadra_type66_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+  "base\\vehicles\\appearances\\sport\\quadra_type66_vtech.app"
+ ],
+ "styles": [
+  {
+   "id": "bulleat",
+   "code": "bulleat",
+   "label": "Bulleat",
+   "base_look": "quadra_type66__basic_bulleat",
+   "looks": [
+    "quadra_type66__basic_bulleat"
+   ],
+   "options": {
+    "bumper_front.bumper": "b0c354f3",
+    "bumper_front.bumper.bumper_f": "8887a53e",
+    "bumper_back.bumper": "4d80f161",
+    "hood_a.hood": "d916abfd",
+    "trunk_a.trunk": "da8ee7a5",
+    "base.body": "912cc6b4",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.wheel": "8a27c825",
+    "door.door": "3ff0b471",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": [
+    "sticker_2164"
+   ]
+  },
+  {
+   "id": "jen_rowley",
+   "code": "jen_rowley",
+   "label": "Jen rowley",
+   "base_look": "quadra_type66__basic_jen_rowley",
+   "looks": [
+    "quadra_type66__basic_jen_rowley"
+   ],
+   "options": {
+    "bumper_front.bumper": "fc2ef0cd",
+    "bumper_front.bumper.bumper_f": "df96d840",
+    "bumper_back.bumper": "4d80f161",
+    "hood_a.hood": "d916abfd",
+    "hood_a.hood.hood_deathrace": "7fb5f4e0",
+    "trunk_a.trunk": "da8ee7a5",
+    "base.body": "912cc6b4",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.tire": "8e1d7968",
+    "wheel.wheel": "d52d1ae5",
+    "door.door": "3ff0b471",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": [
+    "sticker_2164",
+    "sticker_ddab"
+   ]
+  },
+  {
+   "id": "poor_02",
+   "code": "poor_02",
+   "label": "Poor 02",
+   "base_look": "quadra_type66__basic_poor_02",
+   "looks": [
+    "quadra_type66__basic_poor_02",
+    "quadra_type66__basic_poor_03",
+    "quadra_type66__basic_poor_04"
+   ],
+   "options": {
+    "bumper_front.bumper": "b0c354f3",
+    "bumper_front.bumper.bumper_f": "8887a53e",
+    "bumper_back.bumper": "4d80f161",
+    "hood_a.hood": "d916abfd",
+    "trunk_a.trunk": "da8ee7a5",
+    "base.body": "912cc6b4",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.tire": "864ec3d8",
+    "wheel.wheel": "669abd0d",
+    "door.door": "3ff0b471",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": []
+  },
+  {
+   "id": "poor_11",
+   "code": "poor_11",
+   "label": "Poor 11",
+   "base_look": "quadra_type66__basic_poor_11",
+   "looks": [
+    "quadra_type66__basic_poor_11"
+   ],
+   "options": {
+    "bumper_front.bumper": "b0c354f3",
+    "bumper_front.bumper.bumper_f": "8887a53e",
+    "bumper_back.bumper": "4d80f161",
+    "hood_a.hood": "c276a1f8",
+    "trunk_a.trunk": "da8ee7a5",
+    "base.body": "912cc6b4",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.tire": "db7655d0",
+    "wheel.wheel": "c8a072cd",
+    "door.door": "3ff0b471",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": []
+  },
+  {
+   "id": "quadra_type66_vtech_avenger_04",
+   "code": "quadra_type66_vtech_avenger_04",
+   "label": "Quadra type66 vtech avenger 04",
+   "base_look": "quadra_type66_vtech_avenger_04",
+   "looks": [
+    "quadra_type66_vtech_avenger_04",
+    "quadra_type66_vtech_avenger_06",
+    "quadra_type66_vtech_vtech"
+   ],
+   "options": {
+    "bumper_front.bumper": "1dcf72f6",
+    "bumper_front.bumper.bumper_f": "4aaeb047",
+    "bumper_back.bumper": "cc709570",
+    "hood_a.hood": "184bfc38",
+    "trunk_a.trunk": "6b5cfe8e",
+    "base.body": "36dac829",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.tire": "1d593208",
+    "wheel.wheel": "687c1235",
+    "door.door": "01d7a859",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": []
+  },
+  {
+   "id": "quadra_type66_vtech_khm_01",
+   "code": "quadra_type66_vtech_khm_01",
+   "label": "Quadra type66 vtech khm",
+   "base_look": "quadra_type66_vtech_khm_01",
+   "looks": [
+    "quadra_type66_vtech_khm_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "1dcf72f6",
+    "bumper_front.bumper.bumper_f": "4aaeb047",
+    "bumper_back.bumper": "cc709570",
+    "hood_a.hood": "184bfc38",
+    "trunk_a.trunk": "6b5cfe8e",
+    "base.body": "36dac829",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.tire": "3dba2b98",
+    "wheel.wheel": "033ec5dd",
+    "door.door": "01d7a859",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": []
+  },
+  {
+   "id": "quadra_type66_vtech_noralee",
+   "code": "quadra_type66_vtech_noralee",
+   "label": "Quadra type66 vtech noralee",
+   "base_look": "quadra_type66_vtech_noralee",
+   "looks": [
+    "quadra_type66_vtech_noralee"
+   ],
+   "options": {
+    "bumper_front.bumper": "1dcf72f6",
+    "bumper_front.bumper.bumper_f": "4aaeb047",
+    "bumper_back.bumper": "cc709570",
+    "hood_a.hood": "184bfc38",
+    "trunk_a.trunk": "6b5cfe8e",
+    "base.body": "36dac829",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.wheel": "10f7b49d",
+    "door.door": "01d7a859",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": []
+  },
+  {
+   "id": "rogue_01",
+   "code": "rogue_01",
+   "label": "Rogue",
+   "base_look": "quadra_type66__basic_rogue_01",
+   "looks": [
+    "quadra_type66__basic_rogue_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "b0c354f3",
+    "bumper_front.bumper.bumper_f": "8887a53e",
+    "bumper_back.bumper": "4d80f161",
+    "hood_a.hood": "d916abfd",
+    "trunk_a.trunk": "da8ee7a5",
+    "base.body": "912cc6b4",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.tire": "864ec3d8",
+    "wheel.wheel": "669abd0d",
+    "door.door": "3ff0b471",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": [
+    "sticker_10a1"
+   ]
+  },
+  {
+   "id": "sampson",
+   "code": "sampson",
+   "label": "Sampson",
+   "base_look": "quadra_type66__basic_sampson",
+   "looks": [
+    "quadra_type66__basic_sampson"
+   ],
+   "options": {
+    "bumper_front.bumper": "fc2ef0cd",
+    "bumper_front.bumper.bumper_f": "df96d840",
+    "bumper_back.bumper": "6a737662",
+    "hood_a.hood": "d916abfd",
+    "hood_a.hood.hood_deathrace": "7fb5f4e0",
+    "trunk_a.trunk": "da8ee7a5",
+    "base.body": "912cc6b4",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.tire": "85c316f0",
+    "wheel.wheel": "0e08a427",
+    "door.door": "3ff0b471",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": []
+  },
+  {
+   "id": "suburban_01",
+   "code": "suburban_01",
+   "label": "Suburban",
+   "base_look": "quadra_type66__basic_suburban_01",
+   "looks": [
+    "quadra_type66__basic_suburban_01",
+    "quadra_type66__basic_suburban_02",
+    "quadra_type66__basic_suburban_03",
+    "quadra_type66__basic_suburban_04",
+    "quadra_type66__basic_suburban_05",
+    "quadra_type66__basic_suburban_06"
+   ],
+   "options": {
+    "bumper_front.bumper": "b0c354f3",
+    "bumper_front.bumper.bumper_f": "8887a53e",
+    "bumper_back.bumper": "4d80f161",
+    "hood_a.hood": "d916abfd",
+    "trunk_a.trunk": "da8ee7a5",
+    "base.body": "912cc6b4",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.tire": "864ec3d8",
+    "wheel.wheel": "791f6095",
+    "door.door": "3ff0b471",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": []
+  },
+  {
+   "id": "urban_01",
+   "code": "urban_01",
+   "label": "Urban",
+   "base_look": "quadra_type66__basic_urban_01",
+   "looks": [
+    "quadra_type66__basic_urban_01",
+    "quadra_type66__basic_urban_02",
+    "quadra_type66__basic_urban_03",
+    "quadra_type66__basic_urban_04",
+    "quadra_type66__basic_urban_05",
+    "quadra_type66__basic_player_urban_03"
+   ],
+   "options": {
+    "bumper_front.bumper": "b0c354f3",
+    "bumper_front.bumper.bumper_f": "8887a53e",
+    "bumper_back.bumper": "4d80f161",
+    "hood_a.hood": "d916abfd",
+    "hood_a.hood.hood_deathrace": "7fb5f4e0",
+    "trunk_a.trunk": "da8ee7a5",
+    "base.body": "912cc6b4",
+    "base.interior": "8835e85a",
+    "base.window": "41df3c81",
+    "wheel.tire": "864ec3d8",
+    "wheel.wheel": "791f6095",
+    "door.door": "3ff0b471",
+    "door.mirror": "60951c40",
+    "door_b.door": "b516105a",
+    "window_b.window": "10b3dc42"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "quadra_type66__basic_burnt_01",
+  "quadra_type66_vtech_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper: main",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01",
+    "bumper_f_deathrace_03"
+   ],
+   "options": [
+    {
+     "id": "b0c354f3",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_03",
+     "paints": [
+      "sampson",
+      "poor_11",
+      "poor_03",
+      "poor_02",
+      "poor_04",
+      "special_02",
+      "special_01",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "rogue_01",
+      "urban_satin_black"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:poor_02",
+      "style:poor_11",
+      "style:rogue_01",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "1dcf72f6",
+     "code": "vtech_bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "avenger_03",
+     "paints": [
+      "avenger_06",
+      "avenger_05",
+      "avenger_04",
+      "avenger_03",
+      "avenger_02",
+      "avenger_01"
+     ],
+     "looks": [
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee"
+     ]
+    },
+    {
+     "id": "fc2ef0cd",
+     "code": "deathrace_bumper_f_03",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_bumper_f_03.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_bumper_f_03_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "sampson",
+      "special_01",
+      "special_02"
+     ],
+     "looks": [
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_sampson"
+     ],
+     "origins": [
+      "style:jen_rowley",
+      "style:sampson"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_front.bumper.bumper_f",
+   "label": "Front bumper: main",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_02",
+    "bumper_f_deathrace_04"
+   ],
+   "options": [
+    {
+     "id": "8887a53e",
+     "code": "bumper_f_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_bumper_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "sampson",
+      "poor_11",
+      "poor_03",
+      "poor_02",
+      "poor_04",
+      "special_02",
+      "special_01",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "rogue_01",
+      "urban_satin_black"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:poor_02",
+      "style:poor_11",
+      "style:rogue_01",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "4aaeb047",
+     "code": "vtech_bumper_f_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_bumper_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "avenger_03",
+     "paints": [
+      "avenger_06",
+      "avenger_05",
+      "avenger_04",
+      "avenger_03",
+      "avenger_02",
+      "avenger_01"
+     ],
+     "looks": [
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee"
+     ]
+    },
+    {
+     "id": "df96d840",
+     "code": "deathrace_bumper_f_04",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_bumper_f_04.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_bumper_f_04_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "sampson"
+     ],
+     "looks": [
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_sampson"
+     ],
+     "origins": [
+      "style:jen_rowley",
+      "style:sampson"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01",
+    "bumper_b_deathrace_01"
+   ],
+   "options": [
+    {
+     "id": "4d80f161",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "sampson",
+      "poor_11",
+      "poor_03",
+      "poor_02",
+      "poor_04",
+      "special_02",
+      "special_01",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "rogue_01",
+      "urban_satin_black"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:poor_11",
+      "style:rogue_01",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "cc709570",
+     "code": "vtech_bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "avenger_03",
+     "paints": [
+      "avenger_06",
+      "avenger_05",
+      "avenger_04",
+      "avenger_03",
+      "avenger_02",
+      "avenger_01"
+     ],
+     "looks": [
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee"
+     ]
+    },
+    {
+     "id": "6a737662",
+     "code": "deathrace_bumper_b_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_bumper_b_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_bumper_b_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "sampson"
+     ],
+     "looks": [
+      "quadra_type66__basic_sampson"
+     ],
+     "origins": [
+      "style:sampson"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood: a",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "d916abfd",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_satin_black",
+     "paints": [
+      "sampson",
+      "poor_11",
+      "poor_03",
+      "poor_02",
+      "poor_04",
+      "special_02",
+      "special_01",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "rogue_01",
+      "urban_satin_black"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:rogue_01",
+      "style:sampson",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "184bfc38",
+     "code": "vtech_hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "avenger_03",
+     "paints": [
+      "avenger_06",
+      "avenger_05",
+      "avenger_04",
+      "avenger_03",
+      "avenger_02",
+      "avenger_01"
+     ],
+     "looks": [
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee"
+     ]
+    },
+    {
+     "id": "c276a1f8",
+     "code": "hood_poor_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_hood_poor_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_11"
+     ],
+     "looks": [
+      "quadra_type66__basic_poor_11"
+     ],
+     "origins": [
+      "style:poor_11"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood.hood_deathrace",
+   "label": "Hood: deathrace",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_deathrace_02"
+   ],
+   "options": [
+    {
+     "id": "7fb5f4e0",
+     "code": "deathrace_hood_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_hood_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_03",
+     "paints": [
+      "samspon",
+      "urban_01",
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05",
+      "special_01"
+     ],
+     "looks": [
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "style:jen_rowley",
+      "style:sampson",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "da8ee7a5",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "sampson",
+      "poor_11",
+      "poor_03",
+      "poor_02",
+      "poor_04",
+      "special_02",
+      "special_01",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "rogue_01",
+      "urban_satin_black"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:poor_11",
+      "style:rogue_01",
+      "style:sampson",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "6b5cfe8e",
+     "code": "vtech_trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "avenger_03",
+     "paints": [
+      "avenger_06",
+      "avenger_05",
+      "avenger_04",
+      "avenger_03",
+      "avenger_02",
+      "avenger_01"
+     ],
+     "looks": [
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "912cc6b4",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "sampson",
+      "poor_11",
+      "poor_03",
+      "poor_02",
+      "poor_04",
+      "special_02",
+      "special_01",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "rogue_01",
+      "urban_satin_black"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_burnt_01",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:poor_11",
+      "style:rogue_01",
+      "style:sampson",
+      "style:suburban_01",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "36dac829",
+     "code": "vtech_body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "avenger_03",
+     "paints": [
+      "avenger_06",
+      "avenger_05",
+      "avenger_04",
+      "avenger_03",
+      "avenger_02",
+      "avenger_01"
+     ],
+     "looks": [
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_burnt_01",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee",
+      "wreck:quadra_type66_vtech_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "8835e85a",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_02",
+     "paints": [
+      "suburban_01",
+      "poor_02",
+      "poor_11",
+      "suburban_02",
+      "suburban_03",
+      "avenger_01"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_burnt_01",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05",
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_burnt_01",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:poor_11",
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee",
+      "style:rogue_01",
+      "style:sampson",
+      "style:suburban_01",
+      "style:urban_01",
+      "wreck:burnt_01",
+      "wreck:quadra_type66_vtech_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f"
+   ],
+   "options": [
+    {
+     "id": "41df3c81",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "sampson",
+      "poor_01"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_burnt_01",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05",
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_burnt_01",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:poor_11",
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee",
+      "style:rogue_01",
+      "style:sampson",
+      "style:suburban_01",
+      "style:urban_01",
+      "wreck:burnt_01",
+      "wreck:quadra_type66_vtech_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a",
+    "tire_deathrace_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "864ec3d8",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:poor_02",
+      "style:rogue_01",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "1d593208",
+     "code": "vtech_tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_fl_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_avenger_04"
+     ]
+    },
+    {
+     "id": "85c316f0",
+     "code": "deathrace_tire_a_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_fl_a_02.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_fl_a_02.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_bl_a_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_bl_a_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_fl_a_02_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_fl_a_02_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_bl_a_02_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_bl_a_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66__basic_sampson"
+     ],
+     "origins": [
+      "style:sampson"
+     ]
+    },
+    {
+     "id": "db7655d0",
+     "code": "tire_standard_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_standard_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_standard_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_standard_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_standard_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66__basic_poor_11"
+     ],
+     "origins": [
+      "style:poor_11"
+     ]
+    },
+    {
+     "id": "8e1d7968",
+     "code": "tire_standard_01 + vtech_tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_standard_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_standard_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66__basic_jen_rowley"
+     ],
+     "origins": [
+      "style:jen_rowley"
+     ]
+    },
+    {
+     "id": "3dba2b98",
+     "code": "vtech_tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66_vtech_khm_01"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_khm_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_deathrace_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "791f6095",
+     "code": "wheel_type66",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_type66_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_type66_fl.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_type66_bl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_type66_bl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "669abd0d",
+     "code": "wheel_cortes_b2",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_cortes_b2_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_cortes_b2_fl.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_cortes_b2_bl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_cortes_b2_bl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_rogue_01"
+     ],
+     "origins": [
+      "style:poor_02",
+      "style:rogue_01"
+     ]
+    },
+    {
+     "id": "687c1235",
+     "code": "vtech_wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark",
+      "white_red",
+      "gray_yellow"
+     ],
+     "looks": [
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_avenger_04"
+     ]
+    },
+    {
+     "id": "0e08a427",
+     "code": "deathrace_wheel_01 + deathrace_wheel_a_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_wheel_bl_a_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_wheel_bl_a_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66__basic_sampson"
+     ],
+     "origins": [
+      "style:sampson"
+     ]
+    },
+    {
+     "id": "033ec5dd",
+     "code": "vtech_wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_bl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_bl_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "orange",
+     "paints": [
+      "orange"
+     ],
+     "looks": [
+      "quadra_type66_vtech_khm_01"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_khm_01"
+     ]
+    },
+    {
+     "id": "8a27c825",
+     "code": "wheel_01",
+     "vehicle": "911 Turbo (930)",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66__basic_bulleat"
+     ],
+     "origins": [
+      "style:bulleat"
+     ]
+    },
+    {
+     "id": "10f7b49d",
+     "code": "wheel_outlaw_02",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_02.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_02.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66_vtech_noralee"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_noralee"
+     ]
+    },
+    {
+     "id": "c8a072cd",
+     "code": "wheel_quadra_turbo_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_quadra_turbo_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_quadra_turbo_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_quadra_turbo_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_quadra_turbo_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66__basic_poor_11"
+     ],
+     "origins": [
+      "style:poor_11"
+     ]
+    },
+    {
+     "id": "d52d1ae5",
+     "code": "wheel_quadra_turbo_01 + vtech_wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_quadra_turbo_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_quadra_turbo_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "quadra_type66__basic_jen_rowley"
+     ],
+     "origins": [
+      "style:jen_rowley"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "3ff0b471",
+     "code": "door_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fr_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fr_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "rogue_01",
+      "sampson",
+      "poor_11",
+      "poor_02",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "special_01",
+      "special_02",
+      "urban_01",
+      "urban_satin_black",
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "poor_03",
+      "poor_04"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:poor_11",
+      "style:rogue_01",
+      "style:sampson",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "01d7a859",
+     "code": "vtech_door_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_door_fr_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fr_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "avenger_03",
+     "paints": [
+      "avenger_03",
+      "avenger_04",
+      "avenger_05",
+      "avenger_01",
+      "avenger_02",
+      "avenger_06"
+     ],
+     "looks": [
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.mirror",
+   "label": "Mirrors",
+   "kind": "mirror",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "mirror_<c>"
+   ],
+   "options": [
+    {
+     "id": "60951c40",
+     "code": "mirror_l_01 + mirror_r_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_mirror_l_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_mirror_r_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_mirror_l_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_mirror_r_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "sampson",
+     "paints": [
+      "sampson",
+      "poor_11",
+      "poor_03",
+      "poor_02",
+      "poor_04",
+      "special_02",
+      "special_01",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "rogue_01",
+      "urban_satin_black"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05",
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:poor_11",
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee",
+      "style:rogue_01",
+      "style:sampson",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_b.door",
+   "label": "Doors (b)",
+   "kind": "door",
+   "group": "door_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_b",
+    "door_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "b516105a",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fl_b_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fr_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "rogue_01",
+      "poor_11",
+      "poor_02",
+      "suburban_01"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05",
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:poor_11",
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee",
+      "style:rogue_01",
+      "style:sampson",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window_b.window",
+   "label": "Side windows (b)",
+   "kind": "window",
+   "group": "window_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "window_front_left_b",
+    "window_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "10b3dc42",
+     "code": "window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_window_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "sampson",
+      "poor_01"
+     ],
+     "looks": [
+      "quadra_type66__basic:default",
+      "quadra_type66__basic_bulleat",
+      "quadra_type66__basic_jen_rowley",
+      "quadra_type66__basic_player_urban_03",
+      "quadra_type66__basic_poor_02",
+      "quadra_type66__basic_poor_03",
+      "quadra_type66__basic_poor_04",
+      "quadra_type66__basic_poor_11",
+      "quadra_type66__basic_rogue_01",
+      "quadra_type66__basic_sampson",
+      "quadra_type66__basic_suburban_01",
+      "quadra_type66__basic_suburban_02",
+      "quadra_type66__basic_suburban_03",
+      "quadra_type66__basic_suburban_04",
+      "quadra_type66__basic_suburban_05",
+      "quadra_type66__basic_suburban_06",
+      "quadra_type66__basic_urban_01",
+      "quadra_type66__basic_urban_02",
+      "quadra_type66__basic_urban_03",
+      "quadra_type66__basic_urban_04",
+      "quadra_type66__basic_urban_05",
+      "quadra_type66_vtech_avenger_04",
+      "quadra_type66_vtech_avenger_06",
+      "quadra_type66_vtech_khm_01",
+      "quadra_type66_vtech_noralee",
+      "quadra_type66_vtech_vtech"
+     ],
+     "origins": [
+      "look:default",
+      "style:bulleat",
+      "style:jen_rowley",
+      "style:poor_02",
+      "style:poor_11",
+      "style:quadra_type66_vtech_avenger_04",
+      "style:quadra_type66_vtech_khm_01",
+      "style:quadra_type66_vtech_noralee",
+      "style:rogue_01",
+      "style:sampson",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "sticker_10a1",
+   "family": "sticker",
+   "code": "body_hood_decal_01",
+   "where": [
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "hood_sticker_rogue",
+     "mesh": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_body_hood_decal_01.mesh",
+     "code": "body_hood_decal_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_type66__basic_rogue_01",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "quadra_type66__basic_rogue_01"
+   ],
+   "made_for": [
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "style:rogue_01"
+   ]
+  },
+  {
+   "id": "sticker_ddab",
+   "family": "sticker",
+   "code": "body_roof_sticker_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "flag_roof_sticker_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_body_roof_sticker_01.mesh",
+     "code": "body_roof_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_type66__basic_jen_rowley",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "quadra_type66__basic_jen_rowley"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:jen_rowley"
+   ]
+  },
+  {
+   "id": "sticker_2164",
+   "family": "sticker",
+   "code": "kit_sticker_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_a_number_sticker",
+     "mesh": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fl_a_number_sticker.mesh",
+     "code": "door_fl_a_number_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_type66__basic_jen_rowley",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_a_number_sticker",
+     "mesh": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_door_fr_a_number_sticker.mesh",
+     "code": "door_fr_a_number_sticker",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "quadra_type66__basic_jen_rowley",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "quadra_type66__basic_bulleat",
+    "quadra_type66__basic_jen_rowley"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:bulleat",
+    "style:jen_rowley"
+   ]
+  }
+ ],
+ "looks": {
+  "quadra_type66__basic_urban_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "urban_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.hood.hood_deathrace": {
+     "all": "hood_deathrace_02"
+    }
+   }
+  },
+  "quadra_type66__basic_suburban_06": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "suburban_06",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_urban_05": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "urban_05",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.hood.hood_deathrace": {
+     "all": "hood_deathrace_02"
+    }
+   }
+  },
+  "quadra_type66__basic_suburban_05": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "suburban_05",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_urban_04": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "urban_04",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.hood.hood_deathrace": {
+     "all": "hood_deathrace_02"
+    }
+   }
+  },
+  "quadra_type66__basic_suburban_04": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "suburban_04",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_urban_03": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "urban_03",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.hood.hood_deathrace": {
+     "all": "hood_deathrace_02"
+    }
+   }
+  },
+  "quadra_type66__basic_urban_02": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "urban_02",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.hood.hood_deathrace": {
+     "all": "hood_deathrace_02"
+    }
+   }
+  },
+  "quadra_type66_vtech_avenger_04": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66_vtech.app",
+   "app_look": "avenger_04",
+   "style": "quadra_type66_vtech_avenger_04",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66_vtech_avenger_06": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66_vtech.app",
+   "app_look": "avenger_06",
+   "style": "quadra_type66_vtech_avenger_04",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_jen_rowley": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "jen_rowley",
+   "style": "jen_rowley",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_deathrace_03"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_deathrace_04"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.hood.hood_deathrace": {
+     "all": "hood_deathrace_02"
+    }
+   }
+  },
+  "quadra_type66__basic_poor_03": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "poor_03",
+   "style": "poor_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_poor_11": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "poor_11",
+   "style": "poor_11",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_poor_04": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "poor_04",
+   "style": "poor_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_bulleat": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "bulleat",
+   "style": "bulleat",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66_vtech_khm_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66_vtech.app",
+   "app_look": "khm_01",
+   "style": "quadra_type66_vtech_khm_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_rogue_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "rogue_01",
+   "style": "rogue_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_suburban_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "suburban_01",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_sampson": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "sampson",
+   "style": "sampson",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_deathrace": {
+     "all": "body_02_deathrace"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_deathrace_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_deathrace_03"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_deathrace_04"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_deathrace_b": {
+     "all": "trunk_deathrace_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_deathrace_01_fl_a",
+     "fr": "tire_deathrace_01_fr_a",
+     "bl": "tire_deathrace_01_bl_a",
+     "br": "tire_deathrace_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_deathrace_01_fl_a",
+     "fr": "wheel_deathrace_01_fr_a",
+     "bl": "wheel_deathrace_01_bl_a",
+     "br": "wheel_deathrace_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.hood.hood_deathrace": {
+     "all": "hood_deathrace_02"
+    },
+    "base.fender": {
+     "all": "deathrace_fender_flares"
+    },
+    "base.spoiler": {
+     "all": "deathrace_spoiler_01"
+    }
+   }
+  },
+  "quadra_type66__basic_suburban_03": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "suburban_03",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_poor_02": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "poor_02",
+   "style": "poor_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_suburban_02": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "suburban_02",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66_vtech_vtech": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66_vtech.app",
+   "app_look": "vtech",
+   "style": "quadra_type66_vtech_avenger_04",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66_vtech_noralee": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66_vtech.app",
+   "app_look": "noralee",
+   "style": "quadra_type66_vtech_noralee",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    }
+   }
+  },
+  "quadra_type66__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "quadra_type66_vtech_burnt_01": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66_vtech.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "quadra_type66__basic_player_urban_03": {
+   "app": "base\\vehicles\\appearances\\sport\\quadra_type66__basic.app",
+   "app_look": "player_urban_03",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.bumper_f": {
+     "all": "bumper_f_02"
+    },
+    "window_b.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl",
+     "fr": "mirror_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.hood.hood_deathrace": {
+     "all": "hood_deathrace_02"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4058,
+   0.3566,
+   0.3316,
+   -0.0435
+  ],
+  "b": [
+   0.415,
+   0.4912,
+   0.3441,
+   -0.0513
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "1ae69794",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_cortes_b2_bl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_cortes_b2_bl",
+   "tire_code": "tire_bl_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.415,
+   "width": 0.4912,
+   "rim_radius": 0.3296,
+   "tire_center": -0.0513,
+   "axles": [
+    "b"
+   ],
+   "looks": 4,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66__basic_poor_02",
+    "quadra_type66__basic_poor_03",
+    "quadra_type66__basic_poor_04",
+    "quadra_type66__basic_rogue_01"
+   ]
+  },
+  {
+   "id": "01b2db4c",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_cortes_b2_fl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_cortes_b2_fl",
+   "tire_code": "tire_fl_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.4058,
+   "width": 0.3566,
+   "rim_radius": 0.3204,
+   "tire_center": -0.0435,
+   "axles": [
+    "f"
+   ],
+   "looks": 4,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66__basic_poor_02",
+    "quadra_type66__basic_poor_03",
+    "quadra_type66__basic_poor_04",
+    "quadra_type66__basic_rogue_01"
+   ]
+  },
+  {
+   "id": "a11120ef",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_fl_a_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_fl_a_02_shadow.mesh",
+   "code": "deathrace_wheel_fl_01",
+   "tire_code": "deathrace_tire_fl_a_02",
+   "from": "Type-66 Avenger",
+   "radius": 0.4146,
+   "width": 0.3557,
+   "rim_radius": 0.2776,
+   "tire_center": -0.0555,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66__basic_sampson"
+   ]
+  },
+  {
+   "id": "3c287022",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_wheel_bl_a_02.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_bl_a_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_deathrace__ext01_tire_bl_a_02_shadow.mesh",
+   "code": "deathrace_wheel_bl_a_02",
+   "tire_code": "deathrace_tire_bl_a_02",
+   "from": "Type-66 Avenger",
+   "radius": 0.4245,
+   "width": 0.5553,
+   "rim_radius": 0.3155,
+   "tire_center": -0.1222,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66__basic_sampson"
+   ]
+  },
+  {
+   "id": "11b911ae",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_quadra_turbo_bl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_standard_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_quadra_turbo_bl_01",
+   "tire_code": "tire_standard_bl_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.4146,
+   "width": 0.464,
+   "rim_radius": 0.2802,
+   "tire_center": -0.0453,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66__basic_poor_11"
+   ]
+  },
+  {
+   "id": "6fc79836",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_quadra_turbo_fl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_standard_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_quadra_turbo_fl_01",
+   "tire_code": "tire_standard_fl_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.4041,
+   "width": 0.3549,
+   "rim_radius": 0.2802,
+   "tire_center": -0.0399,
+   "axles": [
+    "f"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66__basic_jen_rowley",
+    "quadra_type66__basic_poor_11"
+   ]
+  },
+  {
+   "id": "03f9cebf",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_type66_fl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_type66_fl",
+   "tire_code": "tire_fl_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.4058,
+   "width": 0.3566,
+   "rim_radius": 0.3316,
+   "tire_center": -0.0435,
+   "axles": [
+    "f"
+   ],
+   "looks": 13,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66__basic:default",
+    "quadra_type66__basic_player_urban_03",
+    "quadra_type66__basic_suburban_01",
+    "quadra_type66__basic_suburban_02",
+    "quadra_type66__basic_suburban_03",
+    "quadra_type66__basic_suburban_04",
+    "quadra_type66__basic_suburban_05",
+    "quadra_type66__basic_suburban_06",
+    "quadra_type66__basic_urban_01",
+    "quadra_type66__basic_urban_02",
+    "quadra_type66__basic_urban_03",
+    "quadra_type66__basic_urban_04",
+    "quadra_type66__basic_urban_05"
+   ]
+  },
+  {
+   "id": "fee6233f",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_wheel_type66_bl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_type66_bl",
+   "tire_code": "tire_bl_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.415,
+   "width": 0.4912,
+   "rim_radius": 0.3441,
+   "tire_center": -0.0513,
+   "axles": [
+    "b"
+   ],
+   "looks": 13,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66__basic:default",
+    "quadra_type66__basic_player_urban_03",
+    "quadra_type66__basic_suburban_01",
+    "quadra_type66__basic_suburban_02",
+    "quadra_type66__basic_suburban_03",
+    "quadra_type66__basic_suburban_04",
+    "quadra_type66__basic_suburban_05",
+    "quadra_type66__basic_suburban_06",
+    "quadra_type66__basic_urban_01",
+    "quadra_type66__basic_urban_02",
+    "quadra_type66__basic_urban_03",
+    "quadra_type66__basic_urban_04",
+    "quadra_type66__basic_urban_05"
+   ]
+  },
+  {
+   "id": "c0d5ad14",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_bl_a_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "vtech_wheel_bl_a_01",
+   "tire_code": "vtech_tire_bl_a_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.4113,
+   "width": 0.488,
+   "rim_radius": 0.3447,
+   "tire_center": -0.2011,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 6,
+   "paints": [
+    "orange"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66__basic_jen_rowley",
+    "quadra_type66_vtech_avenger_04",
+    "quadra_type66_vtech_avenger_06",
+    "quadra_type66_vtech_khm_01",
+    "quadra_type66_vtech_vtech"
+   ]
+  },
+  {
+   "id": "1fd5cf84",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01_shadow.mesh",
+   "code": "vtech_wheel_fl_a_01",
+   "tire_code": "vtech_tire_fl_a_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.4118,
+   "width": 0.371,
+   "rim_radius": 0.3274,
+   "tire_center": -0.1371,
+   "axles": [
+    "f"
+   ],
+   "looks": 3,
+   "paints": [
+    "dark",
+    "white_red",
+    "gray_yellow"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "quadra_type66_vtech_avenger_04",
+    "quadra_type66_vtech_avenger_06",
+    "quadra_type66_vtech_vtech"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "quadra_type66__basic_bulleat",
+   "Type-66 \"BULITT\""
+  ],
+  [
+   "quadra_type66__basic_jen_rowley",
+   "Type-66 \"Jen Rowley\""
+  ],
+  [
+   "quadra_type66__basic_player_urban_03",
+   "Type-66 680 TS"
+  ],
+  [
+   "quadra_type66__basic_sampson",
+   "Type-66 \"Cthulhu\""
+  ],
+  [
+   "quadra_type66__basic_suburban_06",
+   "Type-66 640 TS"
+  ],
+  [
+   "quadra_type66_vtech_noralee",
+   "Type-66 Avenger"
+  ]
+ ]
+}

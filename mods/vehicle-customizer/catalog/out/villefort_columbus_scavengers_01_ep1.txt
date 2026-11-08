@@ -1,0 +1,100 @@
+Columbus V340-F Freight (villefort_columbus_scavengers_01_ep1), from ep1\vehicles\standard\v_standard25_villefort_columbus_scavengers_01.ent
+records: Vehicle.v_standard25_villefort_columbus_scavengers, Vehicle.v_standard25_villefort_columbus_scavengers_courier, Vehicle.v_sts_ep1_01_villefort_columbus_scavengers
+generated 2026-11-08
+
+STYLES (3; a style's other looks are its factory paints)
+  medical_cargo_01         Medical cargo    1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body
+  v_standard25_villefort_columbus_songbird_scavenger_01 V standard25 villefort columbus songbird scavenger 1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body, door_fr_scavengers_sticker_01, kit_scavengers_body_doors_hood
+  v_standard25_villefort_columbus_songbird_scavenger_02 V standard25 villefort columbus songbird scavenger 02 1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body, door_fr_scavengers_sticker_01, kit_scavengers_doors
+WRECKS: burnt_01
+
+SLOTS (14)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_a_01                                  23 paints  34 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: arasaka_01] [look: corpo_01] [look: default] ...
+    jammer_bumper_f_01                              1 paints   5 looks  [car: Columbus V340-F Freight] [look: aldecaldos_01] [look: jammer_truck] [look: q_104_jammer_holo] [look: q_104_rescuevan_holo] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    23 paints  33 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: arasaka_01] [look: corpo_01] [look: default] ...
+    jammer_bumper_b_01                              1 paints   4 looks  [car: Columbus V340-F Freight] [look: aldecaldos_01] [look: jammer_truck] [look: q_104_rescuevan_holo] [look: sq004_saul_rescue_van]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        23 paints  40 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_a_01                                     23 paints  40 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+  Body: main [base.body] (Base): 1 options
+    body_01                                        23 paints  41 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+  Body: wheel covers [base.body.body_wheel_covers] (Base): 2 options
+    body_wheel_covers_01                           23 paints  12 looks  [car: Columbus V340-F Freight] [look: arasaka_01] [look: corpo_01] [look: default] [look: growl_fm] ...
+    body_undercarriage_lights_01                    0 paints   1 looks  [car: Columbus V340-F Freight] [look: tygerclaws_01]
+  Bumper (Base) [base.bumper] (Base): 1 options
+    bumper_f_b_01                                  23 paints  41 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+  Interior [base.interior] (Base): 2 options
+    interior_01                                    20 paints  38 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+    interior_01                                     0 paints   1 looks  [car: Columbus V340-F Freight] [look: poor_05]
+  Windshield [base.window] (Base): 2 options
+    window_f_01                                     1 paints  40 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+    window_f_01                                     1 paints   1 looks  [car: Columbus V340-F Freight] [look: poor_05]
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         3 paints  39 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+    tire_a_01                                       9 paints   1 looks  [car: Galena "Gecko"] [look: jammer_truck]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 8 options
+    wheel_01                                        1 paints  20 looks  [car: Columbus V340-F Freight] [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] ...
+    wheel_cortes_b2_01                              1 paints   9 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: judys_van] [look: poor_02] [look: poor_05] ...
+    wheel_bratsk_a_01                               1 paints   5 looks  [car: Columbus V340-F Freight] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] [look: q_104_rescuevan_holo] ...
+    wheel_quadra66_b2_01                            1 paints   2 looks  [car: Columbus V340-F Freight] [look: player_01] [look: tygerclaws_01]
+    wheel_01 + wheel_a_01                           5 paints   1 looks  [car: Mackinaw MTL1] [look: jammer_truck]
+    wheel_01 + wheel_cortes_b2_01                   1 paints   1 looks  [car: Columbus V340-F Freight] [style: V standard25 villefort columbus songbird scavenger 02]
+    wheel_bratsk_a_01 + wheel_cortes_b2_01          1 paints   1 looks  [car: Columbus V340-F Freight] [style: V standard25 villefort columbus songbird scavenger]
+    wheel_quadra66_b2_01 + wheel_bratsk_a_01        1 paints   1 looks  [car: Columbus V340-F Freight] [look: growl_fm]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                        23 paints  39 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+  Trunk (b) [trunk_b.trunk] (trunk_b): 1 options
+    trunk_b_01                                     23 paints  40 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+  Side windows [window.window] (window_front_left_a, window_front_right_a): 2 options
+    window_01                                       1 paints  39 looks  [car: Columbus V340-F Freight] [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] ...
+    window_01                                       1 paints   1 looks  [car: Columbus V340-F Freight] [look: poor_05]
+
+KITS (24)
+  6th_street_door_br_stickers_01                 1 parts  38 looks  [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] [look: default] ...
+                                                 made to sit on Doors
+  kit_6th_street_body_doors_interior_trunk       5 parts   1 looks  [look: 6th_street_01]
+                                                 made to sit on Interior, Doors, Trunk
+  kit_aldecaldos_body_doors                      3 parts   1 looks  [look: aldecaldos_01]
+                                                 made to sit on Doors
+  kit_arasaka_body_doors_interior                6 parts   2 looks  [look: arasaka_01] [look: corpo_01]
+                                                 made to sit on Interior, Doors
+  trunk_b_arasaka_sticker_01                     1 parts   4 looks  [look: 6th_street_01] [look: arasaka_01] [look: corpo_01] [look: growl_fm]
+                                                 made to sit on Trunk (b)
+  kit_netwatch_body                              2 parts   7 looks  [look: aldecaldos_01] [look: growl_fm] [look: jammer_truck] [look: netwatch_van] [look: q_104_jammer_holo] ...
+  electric_device_04                             1 parts   3 looks  [look: 6th_street_01] [look: jammer_truck] [look: tygerclaws_01]
+  kit_nomad_body                                 2 parts  41 looks  [look: 6th_street_01] [look: aldecaldos_01] [look: arasaka_01] [look: corpo_01] [look: default] ...
+  kit_nomad_bumper                               2 parts   4 looks  [look: aldecaldos_01] [look: jammer_truck] [look: q_104_rescuevan_holo] [look: sq004_saul_rescue_van]
+                                                 made to sit on Rear bumper
+  door_fr_scavengers_sticker_01                  1 parts   2 looks  [style: V standard25 villefort columbus songbird scavenger] [style: V standard25 villefort columbus songbird scavenger 02]
+                                                 made to sit on Doors
+  kit_scavengers_body_doors_hood                 4 parts   1 looks  [style: V standard25 villefort columbus songbird scavenger]
+                                                 made to sit on Doors, Hood
+  kit_scavengers_doors                           3 parts   1 looks  [style: V standard25 villefort columbus songbird scavenger 02]
+                                                 made to sit on Doors
+  body_stickers_rcs_02                           1 parts   2 looks  [look: destroyed_01] [look: rcs_van]
+  door_fr_jammer_stickers_01                     1 parts   2 looks  [look: aldecaldos_01] [look: jammer_truck]
+                                                 made to sit on Doors
+  fuelcap_kangtao_sticker_01                     1 parts   2 looks  [look: kangtao_01] [look: tygerclaws_01]
+  judy_trunk_b_stickers                          1 parts   3 looks  [look: 6th_street_01] [look: growl_fm] [look: judys_van]
+                                                 made to sit on Trunk (b)
+  kit_sticker_body_doors                         4 parts   1 looks  [look: judys_van]
+                                                 made to sit on Doors
+  kit_sticker_body_doors_interior                5 parts   1 looks  [look: kangtao_01]
+                                                 made to sit on Interior, Doors
+  kit_sticker_doors                              2 parts   1 looks  [look: growl_fm]
+                                                 made to sit on Doors
+  kit_sticker_doors_2                            4 parts   1 looks  [look: rcs_van]
+                                                 made to sit on Doors
+  kit_sticker_doors_hood                         3 parts   1 looks  [look: jammer_truck]
+                                                 made to sit on Doors, Hood
+  trunk_b_kangtao_sticker_01                     1 parts   2 looks  [look: growl_fm] [look: kangtao_01]
+                                                 made to sit on Trunk (b)
+  body_tygerclaw_stickers_01                     1 parts   1 looks  [look: tygerclaws_01]
+  trunk_b_tygerclaw_sticker_01                   1 parts   2 looks  [look: growl_fm] [look: tygerclaws_01]
+                                                 made to sit on Trunk (b)

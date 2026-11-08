@@ -1,0 +1,33 @@
+Behemoth (militech_behemoth_basic_01), from base\vehicles\utility\v_utility4_militech_behemoth_basic_01.ent
+records: Vehicle.v_utility4_militech_behemoth, Vehicle.v_utility4_militech_behemoth_border_patrol, Vehicle.v_utility4_militech_behemoth_kangtao, Vehicle.v_utility4_militech_behemoth_quest
+generated 2026-11-08
+
+STYLES (4; a style's other looks are its factory paints)
+  militech_behemoth_basic_arasaka Militech behemoth basic arasaka 1 looks
+                                            kits: kit_militech_body
+  militech_behemoth_basic_base_01 Militech behemoth basic base 3 looks
+                                            paints: militech_behemoth_basic_camo_01, militech_behemoth_basic_brown_01
+  militech_behemoth_basic_border_patrol_01 Militech behemoth basic border patrol 1 looks
+                                            kits: kit_militech_body_2
+  militech_behemoth_basic_kang_tao Militech behemoth basic kang tao 1 looks
+                                            kits: kit_militech_body
+WRECKS: militech_behemoth_basic_burnt_01
+
+SLOTS (5)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                     3 paints  10 looks  [car: v_utility4_militech_behemoth] [look: default] [look: flatbed_01] [look: flatbed_burnt_01] [style: Militech behemoth basic arasaka] ...
+  Body [base.body] (Base): 1 options
+    body_01                                         4 paints  10 looks  [car: v_utility4_militech_behemoth] [look: default] [look: flatbed_01] [look: flatbed_burnt_01] [style: Militech behemoth basic arasaka] ...
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    wheel_03 + wheel_04                             0 paints   6 looks  [car: v_utility4_militech_behemoth] [look: flatbed_01] [style: Militech behemoth basic base] [style: Militech behemoth basic border patrol] [style: Militech behemoth basic kang tao]
+    wheel_01                                        0 paints   1 looks  [car: v_utility4_militech_behemoth] [look: default]
+    wheel_04                                        0 paints   1 looks  [car: v_utility4_militech_behemoth] [style: Militech behemoth basic arasaka]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                         5 paints   9 looks  [car: v_utility4_militech_behemoth] [look: default] [look: flatbed_01] [style: Militech behemoth basic arasaka] [style: Militech behemoth basic base] ...
+  Rims (b) [wheel_b.wheel] (wheel_back_left_b, wheel_back_right_b): 2 options
+    wheel_04                                        0 paints   7 looks  [car: v_utility4_militech_behemoth] [look: flatbed_01] [style: Militech behemoth basic arasaka] [style: Militech behemoth basic base] [style: Militech behemoth basic border patrol] ...
+    wheel_01                                        0 paints   1 looks  [car: v_utility4_militech_behemoth] [look: default]
+
+KITS (2)
+  kit_militech_body                              2 parts   2 looks  [style: Militech behemoth basic arasaka] [style: Militech behemoth basic kang tao]
+  kit_militech_body_2                            2 parts   1 looks  [style: Militech behemoth basic border patrol]

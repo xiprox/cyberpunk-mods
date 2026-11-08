@@ -1,0 +1,113 @@
+Columbus V340-F Freight (villefort_columbus_01__basic_01), from base\vehicles\standard\v_standard25_villefort_columbus_01__basic_01.ent
+records: Vehicle.v_standard25_villefort_columbus_player
+generated 2026-11-08
+
+STYLES (15; a style's other looks are its factory paints)
+  6th_street_01            6th Street       1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_6th_street_body_doors_interior_trunk, trunk_b_arasaka_sticker_01, kit_nomad_body, electric_device_04, judy_trunk_b_stickers
+  aldecaldos_01            Aldecaldos       1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_aldecaldos_body_doors, kit_netwatch_body, kit_nomad_body, kit_nomad_bumper, door_fr_jammer_stickers_01
+  arasaka_01               Arasaka          2 looks
+                                            paints: corpo_01
+                                            kits: 6th_street_door_br_stickers_01, trunk_b_arasaka_sticker_01, kit_arasaka_body_doors_interior, kit_nomad_body
+  growl_fm                 Growl fm         1 looks
+                                            kits: 6th_street_door_br_stickers_01, trunk_b_arasaka_sticker_01, kit_netwatch_body, kit_nomad_body, kit_sticker_doors, judy_trunk_b_stickers, trunk_b_kangtao_sticker_01, trunk_b_tygerclaw_sticker_01
+  jammer_truck             Jammer truck     1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_netwatch_body, kit_nomad_body, kit_nomad_bumper, electric_device_04, kit_sticker_doors_hood, door_fr_jammer_stickers_01
+  judys_van                Judys van        1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body, judy_trunk_b_stickers, kit_sticker_body_doors
+  kangtao_01               Kangtao          1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body, trunk_b_kangtao_sticker_01, kit_sticker_body_doors_interior, fuelcap_kangtao_sticker_01
+  netwatch_van             Netwatch van     1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_netwatch_body, kit_nomad_body
+  poor_01                  Poor             3 looks
+                                            paints: poor_03, poor_04
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body
+  poor_02                  Poor 02          5 looks
+                                            paints: poor_05, suburban_01, suburban_01_2, medical_cargo_01
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body
+  rcs_van                  Rcs van          1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body, kit_sticker_doors_2, body_stickers_rcs_02
+  sq004_saul_rescue_van    Sq004 saul rescue van 1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_netwatch_body, kit_nomad_body, kit_nomad_bumper
+  suburban_02              Suburban 02      5 looks
+                                            paints: suburban_02_2, suburban_02_3, suburban_02_4, suburban_02_5
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body
+  tygerclaws_01            Tygerclaws       1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body, electric_device_04, fuelcap_kangtao_sticker_01, body_tygerclaw_stickers_01, trunk_b_tygerclaw_sticker_01
+  player_01                V's own          1 looks
+                                            kits: 6th_street_door_br_stickers_01, kit_nomad_body
+WRECKS: burnt_01
+
+SLOTS (12)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_a_01                                  23 paints  28 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+    jammer_bumper_f_01                              1 paints   5 looks  [look: q_104_jammer_holo] [look: q_104_rescuevan_holo] [style: Aldecaldos] [style: Jammer truck] [style: Sq004 saul rescue van]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    23 paints  28 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+    jammer_bumper_b_01                              1 paints   4 looks  [look: q_104_rescuevan_holo] [style: Aldecaldos] [style: Jammer truck] [style: Sq004 saul rescue van]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        23 paints  33 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_a_01                                     23 paints  33 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+  Body: main [base.body] (Base): 1 options
+    body_01                                        23 paints  34 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+  Body: wheel covers [base.body.body_wheel_covers] (Base): 2 options
+    body_wheel_covers_01                           23 paints  12 looks  [look: default] [style: Arasaka] [style: Growl fm] [style: Kangtao] [style: Netwatch van] ...
+    body_undercarriage_lights_01                    0 paints   1 looks  [style: Tygerclaws]
+  Bumper (Base) [base.bumper] (Base): 1 options
+    bumper_f_b_01                                  23 paints  34 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    20 paints  32 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         3 paints  32 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+    tire_a_01                                       9 paints   1 looks  [car: Galena "Gecko"] [style: Jammer truck]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 6 options
+    wheel_01                                        1 paints  17 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+    wheel_cortes_b2_01                              1 paints   7 looks  [style: 6th Street] [style: Judys van] [style: Poor 02]
+    wheel_bratsk_a_01                               1 paints   5 looks  [look: q_104_rescuevan_holo] [style: Aldecaldos] [style: Arasaka] [style: Sq004 saul rescue van]
+    wheel_quadra66_b2_01                            1 paints   2 looks  [style: V's own] [style: Tygerclaws]
+    wheel_01 + wheel_a_01                           5 paints   1 looks  [car: Mackinaw MTL1] [style: Jammer truck]
+    wheel_quadra66_b2_01 + wheel_bratsk_a_01        1 paints   1 looks  [style: Growl fm]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                        23 paints  32 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+  Trunk (b) [trunk_b.trunk] (trunk_b): 1 options
+    trunk_b_01                                     23 paints  33 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+
+KITS (21)
+  6th_street_door_br_stickers_01                 1 parts  31 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+                                                 made to sit on Doors
+  kit_6th_street_body_doors_interior_trunk       5 parts   1 looks  [style: 6th Street]
+                                                 made to sit on Interior, Doors, Trunk
+  kit_aldecaldos_body_doors                      3 parts   1 looks  [style: Aldecaldos]
+                                                 made to sit on Doors
+  kit_arasaka_body_doors_interior                6 parts   2 looks  [style: Arasaka]
+                                                 made to sit on Interior, Doors
+  trunk_b_arasaka_sticker_01                     1 parts   4 looks  [style: 6th Street] [style: Arasaka] [style: Growl fm]
+                                                 made to sit on Trunk (b)
+  kit_netwatch_body                              2 parts   7 looks  [look: q_104_jammer_holo] [look: q_104_rescuevan_holo] [style: Aldecaldos] [style: Growl fm] [style: Jammer truck] ...
+  electric_device_04                             1 parts   3 looks  [style: 6th Street] [style: Jammer truck] [style: Tygerclaws]
+  kit_nomad_body                                 2 parts  34 looks  [look: default] [look: destroyed_01] [look: destroyed_02] [look: destroyed_03] [look: destroyed_04] ...
+  kit_nomad_bumper                               2 parts   4 looks  [look: q_104_rescuevan_holo] [style: Aldecaldos] [style: Jammer truck] [style: Sq004 saul rescue van]
+                                                 made to sit on Rear bumper
+  body_stickers_rcs_02                           1 parts   2 looks  [look: destroyed_01] [style: Rcs van]
+  door_fr_jammer_stickers_01                     1 parts   2 looks  [style: Aldecaldos] [style: Jammer truck]
+                                                 made to sit on Doors
+  fuelcap_kangtao_sticker_01                     1 parts   2 looks  [style: Kangtao] [style: Tygerclaws]
+  judy_trunk_b_stickers                          1 parts   3 looks  [style: 6th Street] [style: Growl fm] [style: Judys van]
+                                                 made to sit on Trunk (b)
+  kit_sticker_body_doors                         4 parts   1 looks  [style: Judys van]
+                                                 made to sit on Doors
+  kit_sticker_body_doors_interior                5 parts   1 looks  [style: Kangtao]
+                                                 made to sit on Interior, Doors
+  kit_sticker_doors                              2 parts   1 looks  [style: Growl fm]
+                                                 made to sit on Doors
+  kit_sticker_doors_2                            4 parts   1 looks  [style: Rcs van]
+                                                 made to sit on Doors
+  kit_sticker_doors_hood                         3 parts   1 looks  [style: Jammer truck]
+                                                 made to sit on Doors, Hood
+  trunk_b_kangtao_sticker_01                     1 parts   2 looks  [style: Growl fm] [style: Kangtao]
+                                                 made to sit on Trunk (b)
+  body_tygerclaw_stickers_01                     1 parts   1 looks  [style: Tygerclaws]
+  trunk_b_tygerclaw_sticker_01                   1 parts   2 looks  [style: Growl fm] [style: Tygerclaws]
+                                                 made to sit on Trunk (b)

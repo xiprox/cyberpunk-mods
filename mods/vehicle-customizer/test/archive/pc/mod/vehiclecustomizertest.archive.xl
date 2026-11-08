@@ -1,0 +1,17 @@
+# Vehicle customizer test (vehicle-customizer/RECORD.md).
+# Adds twin looks, <look>__vc_a and <look>__vc_b, to the Hella's entity file, both pointing at the same look,
+# so switching between them rebuilds a car where it stands. Only the look list is patched.
+# Built by experiments/areas/game-files/make-twin-looks.py.
+#
+# The archive also holds vehicle_customizer_test\hella_kit_patch.app (make-kit-patch.py), which added the Nomad
+# kit to every look of every Hella of the basic family, traffic included. It worked and is switched off here so
+# its lamps don't cover the bumper; to switch it back on, add under patch:
+#    vehicle_customizer_test\hella_kit_patch.app:
+#      - base\vehicles\appearances\standard\archer_hella__basic.app
+resource:
+  patch:
+    vehicle_customizer_test\hella_twin_looks.ent:
+      props:
+        - appearances
+      targets:
+        - base\vehicles\standard\v_standard2_archer_hella__basic_01.ent

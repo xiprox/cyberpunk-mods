@@ -1,0 +1,40 @@
+{
+  "camera_forward": {
+    "x": 0.9,
+    "y": 0.4,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 10.8,
+    "x": -2457.1,
+    "y": -910.1,
+    "z": 8.7
+  },
+  "look_object": {
+    "class": "CleaningMachine",
+    "entity_id": "6593688590499900164ULL",
+    "name": "Gameplay-Devices-DisplayNames-IndustrialCleaningMachine",
+    "position": {
+      "x": -2456.7,
+      "y": -910.1,
+      "z": 8.2
+    }
+  },
+  "nearest": {
+    "distance": 6,
+    "gig": "sts_hey_spr_03",
+    "gig_state_from": "not found in the journal",
+    "id": "wellsprings_body_shop",
+    "name": "Wellsprings body shop"
+  },
+  "note": "",
+  "player": {
+    "x": -2467.3,
+    "y": -913.9,
+    "yaw": -69.3,
+    "z": 8.2
+  },
+  "stamp": "20261106-184521",
+  "time": "2026-11-06 18:45:21"
+}

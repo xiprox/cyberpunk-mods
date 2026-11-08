@@ -1,0 +1,2542 @@
+{
+ "id": "rayfield_caliburn__basic_01",
+ "label": "Caliburn \"Murkmobile\"",
+ "entity": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn__basic_01.ent",
+ "family": "v_sport1_rayfield_caliburn",
+ "garage": true,
+ "default_look": "premium_01",
+ "records": [
+  "Vehicle.v_sport1_rayfield_caliburn_02_player",
+  "Vehicle.v_sport1_rayfield_caliburn_mordred_player",
+  "Vehicle.v_sport1_rayfield_caliburn_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "mordred",
+   "code": "mordred",
+   "label": "Mordred",
+   "base_look": "rayfield_caliburn__basic_mordred",
+   "looks": [
+    "rayfield_caliburn__basic_mordred"
+   ],
+   "options": {
+    "bumper_front.bumper": "7a8b654a",
+    "bumper_back.bumper": "d6ff74a4",
+    "hood_a.trunk": "cb92d1ce",
+    "base.body": "6527b6f5",
+    "base.body.body_lights": "00517ef9",
+    "base.interior": "af28962c",
+    "wheel.wheel": "37091291",
+    "door.door": "7973878d",
+    "door.door.door_b": "47b116f0",
+    "wing_a.wing": "5e18cd9b",
+    "wing_b.wing": "9d494666",
+    "wing_c.wing": "a0e23cec"
+   },
+   "kits": []
+  },
+  {
+   "id": "premium_01",
+   "code": "premium_01",
+   "label": "Premium",
+   "base_look": "rayfield_caliburn__basic_premium_01",
+   "looks": [
+    "rayfield_caliburn__basic_premium_01",
+    "rayfield_caliburn__basic_premium_03",
+    "rayfield_caliburn__basic_player_01",
+    "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+    "rayfield_caliburn__basic_player_01_customizable"
+   ],
+   "options": {
+    "bumper_front.bumper": "71054dfd",
+    "bumper_back.bumper": "e875e1eb",
+    "hood_a.trunk": "863b8ea1",
+    "trunk_a.hood": "adb3fea5",
+    "base.body": "8f378c82",
+    "base.body.body_lights": "0a535b46",
+    "base.interior": "af28962c",
+    "wheel.wheel": "72c8f57d",
+    "door.door": "7973878d",
+    "door.door.door_b": "47b116f0",
+    "wing_a.wing": "8812c614",
+    "wing_b.wing": "9d494666",
+    "wing_c.wing": "a0e23cec"
+   },
+   "kits": []
+  },
+  {
+   "id": "premium_00",
+   "code": "premium_00",
+   "label": "Premium 00",
+   "base_look": "rayfield_caliburn__basic_premium_00",
+   "looks": [
+    "rayfield_caliburn__basic_premium_00",
+    "rayfield_caliburn__basic_premium_06"
+   ],
+   "options": {
+    "bumper_front.bumper": "71054dfd",
+    "bumper_back.bumper": "e875e1eb",
+    "hood_a.trunk": "863b8ea1",
+    "trunk_a.hood": "adb3fea5",
+    "base.body": "8f378c82",
+    "base.body.body_lights": "0a535b46",
+    "base.interior": "af28962c",
+    "wheel.wheel": "3a45c74d",
+    "door.door": "7973878d",
+    "door.door.door_b": "47b116f0",
+    "wing_a.wing": "8812c614",
+    "wing_b.wing": "9d494666",
+    "wing_c.wing": "a0e23cec"
+   },
+   "kits": []
+  },
+  {
+   "id": "premium_02",
+   "code": "premium_02",
+   "label": "Premium 02",
+   "base_look": "rayfield_caliburn__basic_premium_02",
+   "looks": [
+    "rayfield_caliburn__basic_premium_02",
+    "rayfield_caliburn__basic_premium_04"
+   ],
+   "options": {
+    "bumper_front.bumper": "71054dfd",
+    "bumper_back.bumper": "e875e1eb",
+    "hood_a.trunk": "863b8ea1",
+    "trunk_a.hood": "adb3fea5",
+    "base.body": "8f378c82",
+    "base.body.body_lights": "0a535b46",
+    "base.interior": "af28962c",
+    "wheel.wheel": "54d044f5",
+    "door.door": "7973878d",
+    "door.door.door_b": "47b116f0",
+    "wing_a.wing": "8812c614",
+    "wing_b.wing": "9d494666",
+    "wing_c.wing": "a0e23cec"
+   },
+   "kits": []
+  },
+  {
+   "id": "premium_05",
+   "code": "premium_05",
+   "label": "Premium 05",
+   "base_look": "rayfield_caliburn__basic_premium_05",
+   "looks": [
+    "rayfield_caliburn__basic_premium_05"
+   ],
+   "options": {
+    "bumper_front.bumper": "71054dfd",
+    "bumper_back.bumper": "e875e1eb",
+    "hood_a.trunk": "863b8ea1",
+    "trunk_a.hood": "adb3fea5",
+    "base.body": "8f378c82",
+    "base.body.body_lights": "0a535b46",
+    "base.interior": "af28962c",
+    "wheel.wheel": "dd11132d",
+    "door.door": "7973878d",
+    "door.door.door_b": "47b116f0",
+    "wing_a.wing": "8812c614",
+    "wing_b.wing": "9d494666",
+    "wing_c.wing": "a0e23cec"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "rayfield_caliburn__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "71054dfd",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05"
+     ]
+    },
+    {
+     "id": "7a8b654a",
+     "code": "bumper_f_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_bumper_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_08"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic_mordred"
+     ],
+     "origins": [
+      "style:mordred"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "e875e1eb",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05"
+     ]
+    },
+    {
+     "id": "d6ff74a4",
+     "code": "bumper_b_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_bumper_b_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_bumper_b_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "premium_08",
+     "paints": [
+      "premium_08"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic_mordred"
+     ],
+     "origins": [
+      "style:mordred"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "863b8ea1",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05"
+     ]
+    },
+    {
+     "id": "cb92d1ce",
+     "code": "trunk_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_trunk_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "premium_08",
+     "paints": [
+      "premium_08"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic_mordred"
+     ],
+     "origins": [
+      "style:mordred"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "adb3fea5",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body: main",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "8f378c82",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_burnt_01",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "6527b6f5",
+     "code": "body_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_body_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_body_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic_mordred"
+     ],
+     "origins": [
+      "style:mordred"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.body_lights",
+   "label": "Body: lights",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+   ],
+   "options": [
+    {
+     "id": "0a535b46",
+     "code": "body_lights_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_body_lights_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_burnt_01",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "00517ef9",
+     "code": "body_lights_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_body_lights_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "rayfield_caliburn__basic_mordred"
+     ],
+     "origins": [
+      "style:mordred"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "af28962c",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "premium_01",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_burnt_01",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_mordred",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:mordred",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_05_<c>_a",
+    "wheel_<c>_05_a"
+   ],
+   "options": [
+    {
+     "id": "72c8f57d",
+     "code": "vtech_wheel_a_01",
+     "vehicle": "Type-66 Avenger",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "white_red",
+     "paints": [
+      "dark",
+      "white_red",
+      "gray_yellow"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_03"
+     ],
+     "origins": [
+      "style:premium_01"
+     ]
+    },
+    {
+     "id": "3a45c74d",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:premium_00"
+     ]
+    },
+    {
+     "id": "54d044f5",
+     "code": "wheel_outlaw_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_02.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_02.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_04"
+     ],
+     "origins": [
+      "style:premium_02"
+     ]
+    },
+    {
+     "id": "37091291",
+     "code": "wheel_04 + vtech_wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_fl_04.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_fl_04.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "rayfield_caliburn__basic_mordred"
+     ],
+     "origins": [
+      "style:mordred"
+     ]
+    },
+    {
+     "id": "dd11132d",
+     "code": "wheel_outlaw",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "rayfield_caliburn__basic_premium_05"
+     ],
+     "origins": [
+      "style:premium_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors: a",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "7973878d",
+     "code": "door_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_door_fr_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_door_fr_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01",
+      "customizable",
+      "premium_08"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_mordred",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:mordred",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door.door_b",
+   "label": "Doors: back",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "47b116f0",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_door_fl_b_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_door_fr_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_mordred",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:mordred",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wing_a.wing",
+   "label": "Wings",
+   "kind": "wing",
+   "group": "wing_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "wing_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wing_a_01",
+    "wing_a_02"
+   ],
+   "options": [
+    {
+     "id": "8812c614",
+     "code": "wing_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wing_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wing_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01",
+      "customizable"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05"
+     ]
+    },
+    {
+     "id": "5e18cd9b",
+     "code": "wing_a_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wing_a_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wing_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "rayfield_caliburn__basic_mordred"
+     ],
+     "origins": [
+      "style:mordred"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wing_b.wing",
+   "label": "Wings (b)",
+   "kind": "wing",
+   "group": "wing_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "wing_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wing_b_01",
+    "wing_b_02"
+   ],
+   "options": [
+    {
+     "id": "9d494666",
+     "code": "wing_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wing_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wing_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01",
+      "customizable",
+      "premium_08"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_mordred",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:mordred",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wing_c.wing",
+   "label": "Wings (c)",
+   "kind": "wing",
+   "group": "wing_c",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "wing_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wing_c_01",
+    "wing_c_02"
+   ],
+   "options": [
+    {
+     "id": "a0e23cec",
+     "code": "wing_c_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wing_c_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wing_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "premium_01",
+      "premium_02",
+      "premium_03",
+      "premium_04",
+      "premium_05",
+      "premium_06",
+      "premium_07",
+      "orbital_air_01",
+      "customizable",
+      "premium_08"
+     ],
+     "looks": [
+      "rayfield_caliburn__basic:default",
+      "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+      "rayfield_caliburn__basic_mordred",
+      "rayfield_caliburn__basic_player_01",
+      "rayfield_caliburn__basic_player_01_customizable",
+      "rayfield_caliburn__basic_premium_00",
+      "rayfield_caliburn__basic_premium_01",
+      "rayfield_caliburn__basic_premium_02",
+      "rayfield_caliburn__basic_premium_03",
+      "rayfield_caliburn__basic_premium_04",
+      "rayfield_caliburn__basic_premium_05",
+      "rayfield_caliburn__basic_premium_06"
+     ],
+     "origins": [
+      "look:default",
+      "style:mordred",
+      "style:premium_00",
+      "style:premium_01",
+      "style:premium_02",
+      "style:premium_05"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [],
+ "looks": {
+  "rayfield_caliburn__basic_player_01": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "player_01",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_premium_04": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "premium_04",
+   "style": "premium_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_premium_03": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "premium_03",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_premium_02": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "premium_02",
+   "style": "premium_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_premium_06": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "premium_06",
+   "style": "premium_00",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_premium_05": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "premium_05",
+   "style": "premium_05",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_premium_00": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "premium_00",
+   "style": "premium_00",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_ma_bls_ina_se1_40": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "ma_bls_ina_se1_40",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_premium_01": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "premium_01",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_player_01_customizable": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "player_01_customizable",
+   "style": "premium_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "trunk_a.hood": {
+     "all": "trunk_a"
+    },
+    "trunk_a.window": {
+     "all": "window_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_01"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_01"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "rayfield_caliburn__basic_mordred": {
+   "app": "base\\vehicles\\appearances\\sport\\rayfield_caliburn__basic.app",
+   "app_look": "mordred",
+   "style": "mordred",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "v_sport1_rayfield_caliburn__ext01_body_lights_01"
+    },
+    "base.window": {
+     "all": "window_f_a"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door.door.door_lightbar": {
+     "fl": "door_fl_lightbar_01",
+     "fr": "door_fr_lightbar_01"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "hood_a.trunk": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_05_a",
+     "fr": "tire_fr_05_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_05_a",
+     "fr": "wheel_05_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wing_a.wing": {
+     "all": "wing_a_02"
+    },
+    "wing_b.wing": {
+     "all": "wing_b_02"
+    },
+    "wing_c.wing": {
+     "all": "wing_c_02"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3786,
+   0.3472,
+   0.3274,
+   -0.1092
+  ],
+  "b": [
+   0.395,
+   0.4665,
+   0.3274,
+   -0.1207
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "45acca94",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Caliburn \"Murkmobile\"",
+   "radius": 0.395,
+   "width": 0.4665,
+   "rim_radius": 0.3474,
+   "tire_center": -0.1207,
+   "axles": [
+    "b"
+   ],
+   "looks": 3,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_caliburn__basic:default",
+    "rayfield_caliburn__basic_premium_00",
+    "rayfield_caliburn__basic_premium_06"
+   ]
+  },
+  {
+   "id": "d0ece6cc",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Caliburn \"Murkmobile\"",
+   "radius": 0.3786,
+   "width": 0.3472,
+   "rim_radius": 0.3562,
+   "tire_center": -0.1092,
+   "axles": [
+    "f"
+   ],
+   "looks": 3,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_caliburn__basic:default",
+    "rayfield_caliburn__basic_premium_00",
+    "rayfield_caliburn__basic_premium_06"
+   ]
+  },
+  {
+   "id": "0a55bfdd",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01_shadow.mesh",
+   "code": "vtech_wheel_fl_a_01",
+   "tire_code": "tire_bl_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.395,
+   "width": 0.4665,
+   "rim_radius": 0.3274,
+   "tire_center": -0.1207,
+   "axles": [
+    "b"
+   ],
+   "looks": 6,
+   "paints": [
+    "dark",
+    "white_red",
+    "gray_yellow"
+   ],
+   "default_paint": "white_red",
+   "kind": "car",
+   "look_names": [
+    "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+    "rayfield_caliburn__basic_mordred",
+    "rayfield_caliburn__basic_player_01",
+    "rayfield_caliburn__basic_player_01_customizable",
+    "rayfield_caliburn__basic_premium_01",
+    "rayfield_caliburn__basic_premium_03"
+   ]
+  },
+  {
+   "id": "d6c0e009",
+   "rim": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01_shadow.mesh",
+   "code": "vtech_wheel_fl_a_01",
+   "tire_code": "tire_fl_01",
+   "from": "Type-66 Avenger",
+   "radius": 0.3786,
+   "width": 0.3472,
+   "rim_radius": 0.3274,
+   "tire_center": -0.1092,
+   "axles": [
+    "f"
+   ],
+   "looks": 5,
+   "paints": [
+    "dark",
+    "white_red",
+    "gray_yellow"
+   ],
+   "default_paint": "white_red",
+   "kind": "car",
+   "look_names": [
+    "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+    "rayfield_caliburn__basic_player_01",
+    "rayfield_caliburn__basic_player_01_customizable",
+    "rayfield_caliburn__basic_premium_01",
+    "rayfield_caliburn__basic_premium_03"
+   ]
+  },
+  {
+   "id": "9b805c22",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_outlaw_fl",
+   "tire_code": "tire_fl_01",
+   "from": "Caliburn \"Murkmobile\"",
+   "radius": 0.3786,
+   "width": 0.3472,
+   "rim_radius": 0.3526,
+   "tire_center": -0.1092,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_caliburn__basic_premium_05"
+   ]
+  },
+  {
+   "id": "e93bc8f2",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_outlaw_bl",
+   "tire_code": "tire_bl_01",
+   "from": "Caliburn \"Murkmobile\"",
+   "radius": 0.395,
+   "width": 0.4665,
+   "rim_radius": 0.3448,
+   "tire_center": -0.1207,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_caliburn__basic_premium_05"
+   ]
+  },
+  {
+   "id": "516cfe7d",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_02.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_outlaw_bl_02",
+   "tire_code": "tire_bl_01",
+   "from": "Caliburn \"Murkmobile\"",
+   "radius": 0.395,
+   "width": 0.4665,
+   "rim_radius": 0.3427,
+   "tire_center": -0.1207,
+   "axles": [
+    "b"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_caliburn__basic_premium_02",
+    "rayfield_caliburn__basic_premium_04"
+   ]
+  },
+  {
+   "id": "cdafc9dd",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_02.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_outlaw_fl_02",
+   "tire_code": "tire_fl_01",
+   "from": "Caliburn \"Murkmobile\"",
+   "radius": 0.3786,
+   "width": 0.3472,
+   "rim_radius": 0.3554,
+   "tire_center": -0.1092,
+   "axles": [
+    "f"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_caliburn__basic_premium_02",
+    "rayfield_caliburn__basic_premium_04"
+   ]
+  },
+  {
+   "id": "a326434b",
+   "rim": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_wheel_fl_04.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_rayfield_caliburn\\entities\\meshes\\v_sport1_rayfield_caliburn__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_04",
+   "tire_code": "tire_fl_01",
+   "from": "Caliburn \"Murkmobile\"",
+   "radius": 0.3786,
+   "width": 0.3472,
+   "rim_radius": 0.3159,
+   "tire_center": -0.1092,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "rayfield_caliburn__basic_mordred"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "rayfield_caliburn__basic_ma_bls_ina_se1_40",
+   "Caliburn \"Murkmobile\""
+  ],
+  [
+   "rayfield_caliburn__basic_mordred",
+   "Caliburn \"Mordred\""
+  ],
+  [
+   "rayfield_caliburn__basic_player_01",
+   "Caliburn"
+  ]
+ ]
+}

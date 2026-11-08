@@ -1,0 +1,83 @@
+﻿base\vehicles\appearances\sportbike\arch_nemesis_basic.app
+looks: ['burnt_sport_01', 'burnt_standard_01', 'burnt_tygerclaws_01', 'jackie', 'jackie_tuned_up', 'player_01', 'player_02', 'player_03', 'q101_troy_01', 'sport_black_02', 'sport_blue_01', 'sport_blue_03_neon', 'sport_gray_02', 'sport_green_02_neon', 'sport_neon_01', 'sport_orange_01', 'sport_red_01', 'sport_white_01', 'sport_yellow_02', 'standard_black_03', 'standard_blue_04', 'standard_camo_01', 'standard_camo_02_dark', 'standard_gray_01', 'standard_green_03', 'standard_silver_01', 'tygerclaws_boss_01', 'tygerclaws_green_01', 'tygerclaws_pink_01', 'tygerclaws_red_02', 'tygerclaws_violet_01']
+
+-- the looks with 'player' in the name --
+  player_01
+     fairing_a_01           ('entPhysicalMeshComponent', 'yellow', 'v_sportbike2_arch_nemesis__ext01_fairing_f_a_01.mesh')
+     fairing_a_01_shadow    ('entMeshComponent', 'default', 'v_sportbike2_arch_nemesis__ext01_fairing_f_a_01_shadow.mesh')
+     body_a_01              ('entPhysicalSkinnedMeshComponent', 'yellow', 'v_sportbike2_arch_nemesis__ext01_body_a_01.mesh')
+     body_b_01              None
+     tire_f_01              ('entPhysicalMeshComponent', 'default', 'v_sportbike2_arch_nemesis__ext01_tire_f_01.mesh')
+     tire_b_01              ('entPhysicalMeshComponent', 'default', 'v_sportbike2_arch_nemesis__ext01_tire_b_01.mesh')
+     wheel_f_01             ('entPhysicalMeshComponent', 'black', 'v_sportbike2_arch_nemesis__ext01_wheel_f_01.mesh')
+     wheel_b_01             ('entPhysicalMeshComponent', 'black', 'v_sportbike2_arch_nemesis__ext01_wheel_b_01.mesh')
+  player_02
+     fairing_a_01           ('entPhysicalMeshComponent', 'troy_01', 'v_sportbike2_arch_nemesis__ext01_fairing_f_b_01.mesh')
+     fairing_a_01_shadow    ('entMeshComponent', 'default', 'v_sportbike2_arch_nemesis__ext01_fairing_f_b_01_shadow.mesh')
+     body_a_01              ('entPhysicalSkinnedMeshComponent', 'troy_01', 'v_sportbike2_arch_nemesis__ext01_body_a_01.mesh')
+     body_b_01              ('entPhysicalMeshComponent', 'troy_01', 'v_sportbike2_arch_nemesis__ext01_body_b_01.mesh')
+     tire_f_01              ('entPhysicalMeshComponent', 'black', 'v_sportbike2_arch_nemesis__ext01_tire_f_01.mesh')
+     tire_b_01              ('entPhysicalMeshComponent', 'black', 'v_sportbike2_arch_nemesis__ext01_tire_b_01.mesh')
+     wheel_f_01             ('entPhysicalMeshComponent', 'black', 'v_sportbike2_arch_nemesis__ext01_wheel_f_01.mesh')
+     wheel_b_01             ('entPhysicalMeshComponent', 'black', 'v_sportbike2_arch_nemesis__ext01_wheel_b_01.mesh')
+  player_03
+     fairing_a_01           ('entPhysicalMeshComponent', 'pink_01', 'v_sportbike2_arch_nemesis__ext01_fairing_f_c_01.mesh')
+     fairing_a_01_shadow    ('entMeshComponent', 'default', 'v_sportbike2_arch_nemesis__ext01_fairing_f_c_01_shadow.mesh')
+     body_a_01              ('entPhysicalSkinnedMeshComponent', 'pink_01', 'v_sportbike2_arch_nemesis__ext01_body_a_01.mesh')
+     body_b_01              None
+     tire_f_01              ('entPhysicalMeshComponent', 'fluo_blue', 'v_sportbike2_arch_nemesis__ext01_tire_f_01.mesh')
+     tire_b_01              ('entPhysicalMeshComponent', 'fluo_blue', 'v_sportbike2_arch_nemesis__ext01_tire_b_01.mesh')
+     wheel_f_01             ('entPhysicalMeshComponent', 'violet', 'v_sportbike2_arch_nemesis__ext01_wheel_f_01.mesh')
+     wheel_b_01             ('entPhysicalMeshComponent', 'violet', 'v_sportbike2_arch_nemesis__ext01_wheel_b_01.mesh')
+
+-- every fairing and what uses it --
+  fairing_a_01
+     base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_a_01.mesh
+        looks (10): ['jackie_tuned_up', 'jackie', 'player_01', 'standard_silver_01', 'standard_black_03']
+        paints: ['silver', 'jackie_tuned_up', 'yellow', 'camo_01', 'blue_03_neon', 'orange_01', 'gray_02', 'gray_01', 'green_02_neon', 'blue_04', 'red_01', 'yellow_02', 'neon_01', 'green_03', 'camo_02_dark', 'black_02', 'black_03', 'chrome_01', 'pink_01', 'red_02', 'burnt_01']
+     base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_b_01.mesh
+        looks (12): ['sport_blue_01', 'sport_blue_03_neon', 'sport_gray_02', 'sport_green_02_neon', 'sport_black_02']
+        paints: ['white', 'blue', 'camo_01', 'blue_03_neon', 'orange_01', 'gray_02', 'gray_01', 'green_02_neon', 'blue_04', 'red_01', 'yellow_02', 'neon_01', 'green_03', 'camo_02_dark', 'black_02', 'black_03', 'chrome_01', 'pink_01', 'red_02', 'burnt_01', 'troy_01', 'lina_02']
+     base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_c_01.mesh
+        looks (6): ['tygerclaws_green_01', 'tygerclaws_pink_01', 'tygerclaws_red_02', 'tygerclaws_violet_01', 'tygerclaws_boss_01']
+        paints: ['violet', 'tygerclaws_boss_01', 'green', 'camo_01', 'blue_03_neon', 'chrome_01', 'orange_01', 'pink_01', 'gray_02', 'gray_01', 'green_02_neon', 'blue_04', 'red_02', 'red_01', 'yellow_02', 'neon_01', 'green_03', 'camo_02_dark', 'black_02', 'black_03', 'burnt_01']
+  fairing_a_01_shadow
+     base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_a_01_shadow.mesh
+        looks (10): ['jackie_tuned_up', 'jackie', 'player_01', 'standard_silver_01', 'standard_black_03']
+        paints: []
+     base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_b_01_shadow.mesh
+        looks (12): ['sport_blue_01', 'sport_blue_03_neon', 'sport_gray_02', 'sport_green_02_neon', 'sport_black_02']
+        paints: []
+     base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_c_01_shadow.mesh
+        looks (6): ['tygerclaws_green_01', 'tygerclaws_pink_01', 'tygerclaws_red_02', 'tygerclaws_violet_01', 'tygerclaws_boss_01']
+        paints: []
+
+-- paints on the body --
+  base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_body_a_01.mesh
+    ['violet', 'white', 'jackie_tuned_up', 'jackie', 'tygerclaws_boss_01', 'blue', 'yellow', 'green', 'camo_01', 'blue_03_neon', 'orange_01', 'gray_02', 'gray_01', 'green_02_neon', 'blue_04', 'red_01', 'neon_01', 'green_03', 'camo_02_dark', 'black_02', 'black_03', 'yellow_02', 'chrome_01', 'pink_01', 'red_02', 'burnt_01', 'troy_01', 'lina_01']
+
+-- all parts of the first player look --
+  None                               entAppearanceProxyMeshComponent    default          arch_nemesis_basic_player_01.mesh
+  axle_f_01                          entPhysicalSkinnedMeshComponent    yellow           v_sportbike2_arch_nemesis__ext01_axle_f_a_01.mesh
+  axle_f_01_shadow                   entMeshComponent                   default          v_sportbike2_arch_nemesis__ext01_axle_f_a_01_shadow.mesh
+  body_a_01                          entPhysicalSkinnedMeshComponent    yellow           v_sportbike2_arch_nemesis__ext01_body_a_01.mesh
+  body_a_01_shadow                   entMeshComponent                   default          v_sportbike2_arch_nemesis__ext01_body_a_01_shadow.mesh
+  body_b_brakelight_01               entPhysicalMeshComponent           default          v_sportbike2_arch_nemesis__ext01_sport_brakelight_01.mesh
+  fairing_a_01                       entPhysicalMeshComponent           yellow           v_sportbike2_arch_nemesis__ext01_fairing_f_a_01.mesh
+  fairing_a_01_shadow                entMeshComponent                   default          v_sportbike2_arch_nemesis__ext01_fairing_f_a_01_shadow.mesh
+  fuelcap_01                         entPhysicalMeshComponent           cameleon         v_sportbike2_arch_nemesis__ext01_fuelcap_01.mesh
+  fuelport_standard                  entMeshComponent                   default          fuelport_standard.mesh
+  handlebar_01                       entPhysicalSkinnedMeshComponent    black_yellow     v_sportbike2_arch_nemesis__ext01_axle_f_b_01.mesh
+  handlebar_01_shadow                entMeshComponent                   default          v_sportbike2_arch_nemesis__ext01_axle_f_b_01_shadow.mesh
+  license_plate_small                entMeshComponent                   default          license_plate_angle_01.mesh
+  tire_b_01                          entPhysicalMeshComponent           default          v_sportbike2_arch_nemesis__ext01_tire_b_01.mesh
+  tire_b_01_shadow                   entMeshComponent                   default          v_sportbike2_arch_nemesis__ext01_tire_b_01_shadow.mesh
+  tire_f_01                          entPhysicalMeshComponent           default          v_sportbike2_arch_nemesis__ext01_tire_f_01.mesh
+  tire_f_01_shadow                   entMeshComponent                   default          v_sportbike2_arch_nemesis__ext01_tire_f_01_shadow.mesh
+  v_sportbike2_arch_nemesis__ext01_axle_b_01 entPhysicalSkinnedMeshComponent    default          v_sportbike2_arch_nemesis__ext01_axle_b_01.mesh
+  v_sportbike2_arch_nemesis__ext01_axle_b_01_shadow entMeshComponent                   default          v_sportbike2_arch_nemesis__ext01_axle_b_01_shadow.mesh
+  wheel_b_01                         entPhysicalMeshComponent           black            v_sportbike2_arch_nemesis__ext01_wheel_b_01.mesh
+  wheel_f_01                         entPhysicalMeshComponent           black            v_sportbike2_arch_nemesis__ext01_wheel_f_01.mesh
+
+-- which appearance names the bike's entity lists --
+  ep1\vehicles\sportbike\v_sportbike2_arch_nemesis_lina_01.ent  count 2  player: []

@@ -1,0 +1,129 @@
+Merrimac MSL3 (thorton_merrimac_01_basic_01_ep1), from ep1\vehicles\standard\v_standard25_thorton_merrimac_01_basic_01.ent
+records: Vehicle.ncpd_suv_thorton_merrimac_maxtac, Vehicle.v_standard25_thorton_merrimac, Vehicle.v_standard25_thorton_merrimac_courier, Vehicle.v_standard25_thorton_merrimac_maxtac, Vehicle.v_standard25_thorton_merrimac_poor, Vehicle.v_standard25_thorton_merrimac_premium, Vehicle.v_standard25_thorton_merrimac_reed, Vehicle.v_standard25_thorton_merrimac_web
+generated 2026-11-08
+
+STYLES (12; a style's other looks are its factory paints)
+  thorton_merrimac_basic_maxtac_e422 Thorton merrimac basic maxtac e422 2 looks
+                                            paints: thorton_merrimac_basic_maxtac_e307
+                                            kits: kit_max_tac_doors_hood_trunk, bumper_b_police_stickers_01
+  thorton_merrimac_basic_maxtac_p054 Thorton merrimac basic maxtac p054 1 looks
+                                            kits: kit_max_tac_doors_hood_trunk, bumper_b_police_stickers_01
+  thorton_merrimac_basic_player_01 Thorton merrimac basic player 1 looks
+                                            kits: kit_player_doors_hood, kit_player_body
+  thorton_merrimac_basic_poor_01 Thorton merrimac basic poor 2 looks
+                                            paints: thorton_merrimac_basic_poor_12
+                                            kits: antenna_01, bumper_b_police_stickers_01
+  thorton_merrimac_basic_poor_04 Thorton merrimac basic poor 04 2 looks
+                                            paints: thorton_merrimac_basic_poor_05
+                                            kits: antenna_01, kit_max_tac_doors_hood_trunk, bumper_b_police_stickers_01
+  thorton_merrimac_basic_poor_10 Thorton merrimac basic poor 10 2 looks
+                                            paints: thorton_merrimac_basic_poor_11
+                                            kits: bumper_b_police_stickers_01
+  thorton_merrimac_basic_q301_no_wheels_01 Thorton merrimac basic q301 no wheels 1 looks
+                                            kits: bumper_b_police_stickers_01
+  thorton_merrimac_basic_reed_01 Thorton merrimac basic reed 1 looks
+                                            kits: bumper_b_police_stickers_01
+  thorton_merrimac_basic_suburban_01 Thorton merrimac basic suburban 10 looks
+                                            paints: thorton_merrimac_basic_suburban_03, thorton_merrimac_basic_suburban_06, thorton_merrimac_basic_suburban_07, thorton_merrimac_basic_suburban_08, thorton_merrimac_basic_suburban_10, thorton_merrimac_basic_poor_03, thorton_merrimac_basic_poor_06, thorton_merrimac_basic_poor_07, thorton_merrimac_basic_poor_08
+                                            kits: bumper_b_police_stickers_01
+  thorton_merrimac_basic_urban_01 Thorton merrimac basic urban 11 looks
+                                            paints: thorton_merrimac_basic_urban_02, thorton_merrimac_basic_urban_04, thorton_merrimac_basic_urban_05, thorton_merrimac_basic_urban_06, thorton_merrimac_basic_urban_10, thorton_merrimac_basic_web_01, thorton_merrimac_basic_poor_02, thorton_merrimac_basic_poor_09, thorton_merrimac_basic_suburban_02, thorton_merrimac_basic_suburban_09
+                                            kits: bumper_b_police_stickers_01
+  thorton_merrimac_basic_urban_03 Thorton merrimac basic urban 03 2 looks
+                                            paints: thorton_merrimac_basic_urban_09
+                                            kits: bumper_b_police_stickers_01
+  thorton_merrimac_basic_urban_07 Thorton merrimac basic urban 07 4 looks
+                                            paints: thorton_merrimac_basic_urban_08, thorton_merrimac_basic_suburban_04, thorton_merrimac_basic_suburban_05
+                                            kits: bumper_b_police_stickers_01
+WRECKS: thorton_merrimac_basic_burnt_01, thorton_merrimac_basic_burnt_maxtac_01, thorton_merrimac_basic_burnt_player_01
+
+SLOTS (23)
+  Front bumper: main [bumper_front.bumper] (bumper_front): 3 options
+    bumper_f_01                                    37 paints  36 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic poor 04] ...
+    bumper_f_02                                     1 paints   2 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic poor]
+    bumper_f_player_01                              0 paints   1 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player]
+  Front bumper: maxtac [bumper_front.bumper.bumper_f_maxtac] (bumper_front): 2 options
+    bumper_f_maxtac_01                              0 paints   2 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic maxtac e422]
+    bumper_f_police_01                              0 paints   1 looks  [car: v_standard25_thorton_merrimac] [look: police_01]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    37 paints  39 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic poor] ...
+    bumper_b_player_01                              0 paints   1 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player]
+  Hood [hood_a.hood] (hood_a): 3 options
+    hood_01                                        37 paints  37 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic poor] ...
+    hood_02                                        36 paints   2 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic poor 10]
+    hood_player_01                                  0 paints   1 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player]
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       37 paints  39 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic poor] ...
+  Body: main [base.body] (Base): 2 options
+    body_01                                        37 paints  42 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+    body_player_01                                  0 paints   2 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player] [wreck: thorton_merrimac_basic_burnt_player_01]
+  Body: maxtac [base.body.body_maxtac] (Base): 2 options
+    body_maxtac_01                                  0 paints   4 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [wreck: thorton_merrimac_basic_burnt_maxtac_01]
+    body_police_01                                  0 paints   2 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01]
+  Exhaust [base.exhaust] (Base): 2 options
+    exhaust_01                                      0 paints  42 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+    exhaust_player_01                               0 paints   2 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player] [wreck: thorton_merrimac_basic_burnt_player_01]
+  Interior [base.interior] (Base): 2 options
+    interior_01                                    35 paints  42 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+    interior_player_01                              0 paints   2 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player] [wreck: thorton_merrimac_basic_burnt_player_01]
+  Seats: front right [base.seat] (Base): 2 options
+    seats_fr_01                                    35 paints  43 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+    seats_fr_02                                    13 paints   1 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic reed]
+  Seats: back [base.seat.seats_b] (Base): 2 options
+    seats_b_01                                     34 paints  37 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player] [style: Thorton merrimac basic poor] [style: Thorton merrimac basic poor 04] [style: Thorton merrimac basic poor 10] ...
+    seats_b_02                                     14 paints   7 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+  Seats: front left [base.seat.seats_fl] (Base): 1 options
+    seats_fl_01                                    35 paints  43 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+  Windshield: back left [base.window] (Base): 1 options
+    window_bl_02                                    4 paints  44 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+  Windshield: back left [base.window.window_bl] (Base): 2 options
+    window_bl_03                                    4 paints  42 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+    window_b_player_01                              0 paints   2 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player] [wreck: thorton_merrimac_basic_burnt_player_01]
+  Windshield: back right [base.window.window_br] (Base): 1 options
+    window_br_02                                    4 paints  44 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+  Windshield: back right [base.window.window_br_2] (Base): 1 options
+    window_br_03                                    4 paints  42 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+  Windshield: front [base.window.window_f] (Base): 1 options
+    window_f_01                                     6 paints  44 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [look: police_burnt_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    tire_02                                         5 paints  22 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic poor] ...
+    tire_01                                         6 paints  17 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic urban] [style: Thorton merrimac basic urban 03] [style: Thorton merrimac basic urban 07]
+    tire_player_01                                  0 paints   1 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 7 options
+    wheel_02                                        1 paints  14 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic poor] [style: Thorton merrimac basic q301 no wheels] [style: Thorton merrimac basic reed] [style: Thorton merrimac basic suburban]
+    wheel_01                                        7 paints  11 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic urban]
+    wheel_01                                        6 paints   4 looks  [car: v_utilty4_chevalier_centurion] [style: Thorton merrimac basic poor 04] [style: Thorton merrimac basic poor 10]
+    wheel_bandit_04                                 0 paints   4 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic urban 07]
+    wheel_03                                        1 paints   3 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054]
+    wheel_outlaw_05                                 0 paints   2 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic urban 03]
+    wheel_player_01                                 0 paints   1 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                        38 paints  40 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic player] ...
+  Tires (b) [wheel_b.tire] (wheel_back_left_b, wheel_back_right_b): 3 options
+    tire_02                                         5 paints  22 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic poor] ...
+    tire_01                                         6 paints  17 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic urban] [style: Thorton merrimac basic urban 03] [style: Thorton merrimac basic urban 07]
+    tire_player_01                                  0 paints   1 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player]
+  Rims (b) [wheel_b.wheel] (wheel_back_left_b, wheel_back_right_b): 7 options
+    wheel_02                                        1 paints  14 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic poor] [style: Thorton merrimac basic q301 no wheels] [style: Thorton merrimac basic reed] [style: Thorton merrimac basic suburban]
+    wheel_01                                        7 paints  11 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic urban]
+    wheel_01                                        6 paints   4 looks  [car: v_utilty4_chevalier_centurion] [style: Thorton merrimac basic poor 04] [style: Thorton merrimac basic poor 10]
+    wheel_03                                        1 paints   4 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054]
+    wheel_bandit_04                                 0 paints   4 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic urban 07]
+    wheel_outlaw_05                                 0 paints   2 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic urban 03]
+    wheel_player_01                                 0 paints   1 looks  [car: v_standard25_thorton_merrimac] [style: Thorton merrimac basic player]
+  Side windows [window.window] (window_front_left_a, window_front_right_a, window_back_left_a, window_back_right_a): 1 options
+    window_01                                       4 paints  40 looks  [car: v_standard25_thorton_merrimac] [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic player] ...
+
+KITS (7)
+  antenna_01                                     1 parts   4 looks  [style: Thorton merrimac basic poor] [style: Thorton merrimac basic poor 04]
+  kit_max_tac_doors_hood_trunk                   7 parts   5 looks  [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic poor 04]
+                                                 made to sit on Doors, Hood, Trunk
+  kit_player_body                                3 parts   2 looks  [style: Thorton merrimac basic player] [wreck: thorton_merrimac_basic_burnt_player_01]
+  kit_player_doors_hood                          3 parts   1 looks  [style: Thorton merrimac basic player]
+                                                 made to sit on Doors, Hood
+  bumper_b_police_stickers_01                    1 parts  39 looks  [look: police_01] [style: Thorton merrimac basic maxtac e422] [style: Thorton merrimac basic maxtac p054] [style: Thorton merrimac basic poor] [style: Thorton merrimac basic poor 04] ...
+                                                 made to sit on Rear bumper
+  kit_police_body                                4 parts   2 looks  [look: police_01] [look: police_burnt_01]
+                                                 made to sit on Body: maxtac
+  kit_police_body_doors_hood_trunk               15 parts   1 looks  [look: police_01]
+                                                 made to sit on Doors, Hood, Trunk

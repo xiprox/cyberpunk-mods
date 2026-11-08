@@ -1,0 +1,28 @@
+{
+  "camera_forward": {
+    "x": -0.7,
+    "y": -0.7,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 399.9,
+    "x": -387.4,
+    "y": -4471.3,
+    "z": 14.8
+  },
+  "nearest": {
+    "distance": 20.7,
+    "id": "lone_garage_2",
+    "name": "Lone garage"
+  },
+  "note": "",
+  "player": {
+    "x": -94.7,
+    "y": -4200.2,
+    "yaw": 132.8,
+    "z": 41.8
+  },
+  "stamp": "20261106-190249",
+  "time": "2026-11-06 19:02:49"
+}

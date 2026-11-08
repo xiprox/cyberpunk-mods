@@ -1,0 +1,117 @@
+﻿3432 sectors to read
+0/3432 points=0 t=0s
+200/3432 points=1572 t=1s
+400/3432 points=3777 t=2s
+600/3432 points=6199 t=4s
+800/3432 points=10200 t=6s
+1000/3432 points=13619 t=8s
+1200/3432 points=17767 t=9s
+1400/3432 points=21572 t=11s
+1600/3432 points=26340 t=14s
+1800/3432 points=27994 t=15s
+2000/3432 points=29222 t=15s
+2200/3432 points=35345 t=16s
+2400/3432 points=43344 t=17s
+2600/3432 points=52883 t=18s
+2800/3432 points=53916 t=19s
+3000/3432 points=55106 t=20s
+3200/3432 points=56800 t=21s
+3400/3432 points=58159 t=21s
+read 3432 sectors; {'no node data': 58, 'parse': 27} t=22s
+35 lifts and garage buildings
+building ( -3997.3, -6507.6,  75.5) Exterior people= 11 bls_ina_building_a_garage_q000_ProxyMesh locs=['se2\\loc_q000_roadhouse_town', '_external\\proxy\\2246217744\\loc_q000_roadhouse_town_env_ext_arch.mesh'] site={'tires': 1, 'carparts': 1, 'building': 1}
+building ( -3963.0, -6483.7,  75.8) Exterior people=  2 q000_town_garage_ProxyMesh               locs=['se2\\loc_q000_roadhouse_town', '_external\\proxy\\2246217744\\loc_q000_roadhouse_town_env_ext_arch.mesh'] site={'tires': 3, 'building': 1, 'tools': 35}
+building ( -3949.9, -6485.2,  75.4) Exterior people=  3 bls_ina_building_a_garage_orange_ProxyMe locs=['se2\\loc_q000_roadhouse_town', '_external\\proxy\\2246217744\\loc_q000_roadhouse_town_env_ext_arch.mesh'] site={'tires': 3, 'building': 1, 'tools': 35}
+building ( -3463.0, -4056.3,  75.0) Exterior people=  6 q000_church_garage_ProxyMesh             locs=['c_city_center\\corpo_plaza\\loc_arasaka_tower', 'se5\\loc_q000_hideout_barn'] site={'tires': 10, 'tools': 19, 'building': 1}
+building ( -2870.9, -4691.2,  21.5) Exterior people=  0 ext_workshop_ProxyMesh                   locs=['se1\\loc_sts_bls_ina_09'] site=None
+building ( -1127.0, -5599.7,  93.0) Exterior people=  0 bls_ina_building_a_garage_orange_ProxyMe locs=[] site={'tires': 2, 'building': 1}
+building (   -99.1, -4220.4,  42.5) Exterior people=  1 bls_ina_building_a_garage_ProxyMesh      locs=[] site=None
+building (   329.8, -2075.8,  -1.3) Exterior people=  1 bls_ina_building_a_garage_005_ProxyMesh  locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_glorias_house', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] site=None
+building (   364.4, -2004.1,  -3.6) Exterior people=  0 bls_ina_building_a_garage_015_ProxyMesh  locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_glorias_house', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] site={'tires': 5, 'tools': 2, 'carparts': 6, 'building': 1}
+building (   375.6, -1980.6,  -3.3) Exterior people=  0 bls_ina_building_a_garage_v2_001_ProxyMe locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_glorias_house', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] site={'tires': 1, 'carparts': 3}
+building (   379.7, -1952.9,  -4.6) Exterior people=  1 bls_ina_building_a_garage_009_ProxyMesh  locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_glorias_house', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] site={'tires': 4, 'building': 3}
+building (   383.6, -1965.9,  -3.4) Exterior people=  1 bls_ina_building_a_garage_v4_006_ProxyMe locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_glorias_house', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] site={'tires': 1, 'carparts': 3}
+building (   390.1, -1959.8,  -3.4) Exterior people=  2 bls_ina_building_a_garage_v4_005_ProxyMe locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_glorias_house', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] site={'tires': 1, 'carparts': 3}
+building (   402.0, -2003.2,  -0.8) Exterior people= 10 bls_ina_building_a_garage_v4_007_ProxyMe locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_glorias_house', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] site={'tires': 1, 'carparts': 3}
+building (   412.1, -2007.5,  -0.8) Exterior people= 10 bls_ina_building_a_garage_001_ProxyMesh  locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_glorias_house', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] site={'tires': 2, 'carparts': 1, 'building': 2}
+building (   509.4, -1820.5,  28.5) Exterior people=  2 bls_ina_building_a_garage_v4_002_ProxyMe locs=[] site=None
+building (  3201.6,   670.7, 105.3) Exterior people=  0 bls_ina_building_a_garage_ProxyMesh      locs=['se1\\loc_ma_bls_ina_se1_44'] site={'tires': 2, 'building': 1}
+building (  4253.8,  -428.7, 148.1) Exterior people=  0 bls_ina_building_a_garage_ProxyMesh      locs=[] site={'building': 1, 'tools': 1}
+lift     ( -2312.8,   471.5,   7.3) Exterior people=  0 activated_trap_car_lift                  locs=['c_city_center\\downtown\\loc_sts_cct_dtn_04', 'c_city_center\\downtown\\loc_cct_dtn_glamdoc_01'] site={'tools': 11, 'tires': 9, 'lift': 1}
+lift     ( -1599.8,  3022.6,   8.2) Exterior people=  5 {sq031_dev_distract_forklift}            locs=['c_watson\\northside\\loc_sq031_ruinedship', 'c_watson\\northside\\loc_sts_wat_nid_05'] site={'tools': 3, 'lift': 1}
+lift     ( -1578.1,   635.7,   9.3) Exterior people=  6 activated_trap_car_lift                  locs=[] site={'tools': 1, 'tires': 3, 'carparts': 2}
+lift     ( -1439.1, -1293.8,  46.8) Exterior people=  1 {gle_06_dvc_lift_car}                    locs=['c_heywood\\glen\\loc_sts_hey_gle_06'] site={'tools': 32, 'lift': 1, 'carparts': 1, 'tires': 14}
+lift     ( -1285.5, -4237.4,  62.7) Exterior people=  1 activated_trap_car_lift                  locs=['se5\\loc_ma_bls_ina_se5_14'] site={'tires': 5, 'lift': 1, 'tools': 1, 'carparts': 10}
+lift     ( -1219.1,  2263.2,   7.0) Exterior people=  2 activated_trap_car_lift                  locs=['c_watson\\northside\\loc_sts_wat_nid_01', 'c_watson\\kabuki\\loc_sts_wat_kab_05_client_signal'] site={'tools': 43, 'lift': 1, 'tires': 2, 'carparts': 1}
+lift     (  -635.5, -1155.1,   7.8) Exterior people=  4 activated_trap_car_lift                  locs=['c_santo_domingo\\arroyo\\loc_sts_std_arr_06', 'c_santo_domingo\\arroyo\\loc_sq024_mariannes_garage'] site={'tools': 22, 'lift': 1, 'tires': 1}
+lift     (  -243.1,  1619.6,  41.2) Exterior people=  0 activated_trap_car_lift                  locs=['c_westbrook\\japan_town\\loc_sts_wbr_jpn_02_monoblade_workshop'] site={'tools': 47, 'lift': 1, 'tires': 1}
+lift     (  -148.2, -4416.0,  58.8) Exterior people= 23 {ina_02_dvc_activated_trap_car_}01       locs=['se1\\loc_sts_bls_ina_02'] site={'lift': 1, 'tools': 8, 'tires': 3}
+lift     (   -28.7, -1036.8,   7.5) Exterior people=  4 activated_trap_car_lift_002              locs=['_external\\proxy\\1108877003\\loc_megabuilding_h7_module_1_ext.mesh'] site=None
+lift     (   -23.2, -1032.9,   7.5) Exterior people=  4 activated_trap_car_lift_003              locs=['_external\\proxy\\1108877003\\loc_megabuilding_h7_module_1_ext.mesh'] site=None
+lift     (   254.8, -1089.1,  21.4) Exterior people=  0 {rcr_04_dvc_car_lift}                    locs=['c_santo_domingo\\rancho_coronado\\loc_sts_std_rcr_04', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_05'] site={'lift': 1, 'tools': 30, 'carparts': 2, 'tires': 5}
+lift     (  1369.5, -1690.5,  49.3) Exterior people=  1 {ina_11_car_lift}                        locs=['sw5\\loc_sts_bls_ina_11', 'ne3\\loc_q101_landfill'] site=None
+lift     (  1409.9, -1655.2,  49.3) Exterior people=  0 {ina_11_car_lift}_001                    locs=['sw5\\loc_sts_bls_ina_11', 'ne3\\loc_q101_landfill'] site=None
+lift     (  1417.9, -1677.3,  49.2) Exterior people=  0 {ina_11_car_lift}_002                    locs=['sw5\\loc_sts_bls_ina_11', 'ne3\\loc_q101_landfill'] site={'tires': 12, 'tools': 11, 'lift': 3, 'carparts': 277}
+lift     (  2987.3, -2405.0, 118.5) Exterior people=  3 {sq004_dvc_factory_carjack}              locs=['se5\\loc_sq004_raffen_shiv_camp', '_external\\proxy\\3545037619\\loc_sq0004_raffen_shiv_camp_main_building.mesh'] site={'tires': 2, 'tools': 11, 'lift': 1, 'carparts': 2}
+lift     (  2991.4, -2357.5, 118.4) Exterior people=  5 {sq004_dvc_forklift_}_002                locs=['se5\\loc_sq004_raffen_shiv_camp', '_external\\proxy\\3545037619\\loc_sq0004_raffen_shiv_camp_main_building.mesh'] site={'tires': 11, 'lift': 1, 'tools': 5}
+537 sites
+ 38.5 (  1402.0, -1698.1,  50.0) {'tires': 12, 'tools': 11, 'lift': 3, 'carparts': 277} people=0 ['Exterior', 'Interior'] locs=['sw5\\loc_sts_bls_ina_11', 'ne3\\loc_q101_landfill'] variants=['during_sts', 'interior_tr_on']
+ 34.0 (   -23.8,  -993.9,   8.1) {'tires': 48, 'tools': 2, 'lift': 2, 'carparts': 167} people=0 ['Exterior'] locs=['_external\\proxy\\1108877003\\loc_megabuilding_h7_module_1_ext.mesh'] variants=['assets_variant', 'during_ma_std_arr_12', 'final_loot', 'gps_path']
+ 30.0 ( -2461.5,  -912.2,   9.2) {'tires': 9, 'tools': 42, 'shutter': 2, 'carparts': 6} people=3 ['Exterior', 'Interior'] locs=['c_heywood\\wellsprings\\loc_sts_hey_spr_03'] variants=['assets_variant', 'devices_hide', 'garage_car', 'loot']
+ 29.0 ( -1030.8, -1714.5,  12.1) {'tires': 20, 'tools': 18, 'carparts': 7} people=18 ['Exterior'] locs=['c_santo_domingo\\arroyo\\loc_sts_std_arr_12_warehouse'] variants=['DLC', 'bodies', 'devices', 'final_loot']
+ 29.0 ( -1433.4, -1287.7,  48.1) {'tools': 32, 'lift': 1, 'carparts': 1, 'tires': 14} people=1 ['Exterior', 'Interior'] locs=['c_heywood\\glen\\loc_sts_hey_gle_06'] variants=['bodies', 'loot', 'post_sts_variant']
+ 26.0 ( -2076.7,  -964.6,   9.0) {'tools': 40, 'carparts': 5, 'tires': 9} people=41 ['Exterior', 'Interior', 'Quest'] locs=['c_heywood\\wellsprings\\loc_sts_hey_spr_01'] variants=['loot', 'vending']
+ 25.0 (   264.8, -1086.8,  22.1) {'lift': 1, 'tools': 30, 'carparts': 2, 'tires': 5} people=0 ['Exterior', 'Interior'] locs=['c_santo_domingo\\rancho_coronado\\loc_sts_std_rcr_04', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_05'] variants=[]
+ 25.0 ( -1033.9,  1357.0,   7.9) {'tools': 58, 'tires': 3, 'shutter': 7, 'mechanic': 3} people=77 ['Exterior', 'Interior', 'Quest'] locs=['c_watson\\kabuki\\loc_sts_wat_kab_07_casino_bar', 'c_watson\\kabuki\\loc_wat_kab_ripper_doc_01'] variants=['lockdown', 'loot', 'music_default']
+ 24.0 ( -1977.7, -1024.8,   8.6) {'tools': 12, 'tires': 9, 'carparts': 3} people=0 ['Exterior'] locs=['c_heywood\\wellsprings\\loc_sts_hey_spr_01'] variants=['bodies', 'gps_path']
+ 23.0 ( -1859.5, -4278.4,  75.1) {'tools': 36, 'tires': 13, 'carparts': 1} people=36 ['Exterior', 'Interior'] locs=['se1\\loc_q104_gas_station'] variants=['default', 'q104', 'q104_station', 'vending_machine_boxes_01']
+ 22.0 ( -1326.5,  1562.2,  18.4) {'tools': 8, 'tires': 9, 'carparts': 7} people=6 ['Exterior'] locs=['c_city_center\\corpo_plaza\\loc_q101_arasaka_rooftop', 'c_watson\\little_china\\loc_mq024_sandra_apartment'] variants=['cloth_pile', 'final_loot', 'looot', 'loot']
+ 21.5 (   573.0, -2208.2,  35.4) {'tools': 13, 'tires': 6, 'carparts': 4} people=14 ['Exterior', 'Interior'] locs=['c_santo_domingo\\rancho_coronado\\loc_std_rcr_glamdoc_01', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] variants=['mq061_07_clear_landmark', 'var_mq008_party']
+ 21.0 (   871.2, -3601.2, 181.9) {'tires': 18, 'carparts': 9} people=3 ['Exterior'] locs=['sw2\\loc_sq021_farm_wrong'] variants=[]
+ 21.0 (  1559.2, -1985.8,  74.0) {'tires': 12, 'carparts': 24} people=0 ['Exterior'] locs=['ne3\\loc_q101_landfill'] variants=['q101_dex_corpse', 'q101_vfx', 'takemura_car']
+ 21.0 (  2176.4, -1776.4,  62.6) {'tires': 12, 'carparts': 109} people=1 ['Exterior'] locs=['se1\\loc_sts_bls_ina_06'] variants=[]
+ 21.0 (  1712.9,  -755.9,  51.1) {'tires': 4, 'tools': 24, 'carparts': 3} people=5 ['Exterior', 'Interior'] locs=['se1\\loc_q103_roadhouse'] variants=['final_loot', 'q104_01a_sceneEntities']
+ 20.5 ( -1278.2, -4235.0,  63.7) {'tires': 5, 'lift': 1, 'tools': 1, 'carparts': 10} people=1 ['Exterior'] locs=['se5\\loc_ma_bls_ina_se5_14'] variants=[]
+ 20.5 ( -1250.8, -3816.6,  54.3) {'tires': 8, 'tools': 7, 'carparts': 16} people=1 ['Exterior', 'Interior'] locs=['se5\\loc_ma_bls_ina_se5_09'] variants=['final_loot']
+ 20.5 ( -2322.5,   472.7,   8.9) {'tools': 11, 'tires': 9, 'lift': 1} people=0 ['Exterior'] locs=['c_city_center\\downtown\\loc_cct_dtn_glamdoc_01'] variants=['loot', 'mq304_bennet_meeting_hide', 'mq304_bennett_meeting_arena', 'on_off_switch']
+ 20.0 (  2107.5, -1738.2,  62.6) {'tires': 11, 'carparts': 53} people=0 ['Exterior'] locs=['se1\\loc_sts_bls_ina_06'] variants=['during_sts', 'loot']
+ 19.5 (  2988.9, -2355.2, 119.3) {'tires': 11, 'lift': 1, 'tools': 5} people=6 ['Exterior', 'Interior'] locs=['se5\\loc_sq004_raffen_shiv_camp', '_external\\proxy\\3545037619\\loc_sq0004_raffen_shiv_camp_main_building.mesh'] variants=['sq004_after_drone_start', 'var_navigation_pipe']
+ 19.5 (  2994.2, -2409.4, 118.5) {'tires': 2, 'tools': 11, 'lift': 1, 'carparts': 2} people=4 ['Exterior', 'Interior'] locs=['se5\\loc_sq004_raffen_shiv_camp', '_external\\proxy\\3545037619\\loc_sq0004_raffen_shiv_camp_main_building.mesh'] variants=['sandstorm', 'sq004_after_drone_start', 'var_navigation_pipe']
+ 19.5 (  2417.2,  -779.2,  68.0) {'tools': 13, 'tires': 7, 'carparts': 2} people=49 ['Exterior'] locs=['se1\\loc_sts_bls_ina_07_workshop'] variants=[]
+ 19.0 ( -1402.5, -3632.1,  55.7) {'tires': 8, 'carparts': 6, 'tools': 4} people=5 ['Exterior', 'Interior'] locs=['se1\\loc_sts_bls_ina_08'] variants=['bodies', 'clues', 'loot']
+ 19.0 (  2681.7, -1504.5,  65.0) {'tires': 10, 'carparts': 47} people=0 ['Exterior'] locs=[] variants=['default', 'ma_bls_ina_se1_07_clues']
+ 19.0 ( -1223.6,  2268.2,   9.3) {'tools': 43, 'lift': 1, 'tires': 2, 'carparts': 1} people=6 ['Exterior', 'Interior'] locs=['c_watson\\northside\\loc_sts_wat_nid_01', 'c_watson\\northside\\loc_sts_wat_nid_02'] variants=['dead_moxies_var', 'lockdown', 'loot', 'var_blood']
+ 18.5 (  1194.2,  -511.5,  33.6) {'tires': 9, 'tools': 1, 'carparts': 5} people=5 ['Exterior'] locs=['c_pacifica\\west_wind_estate\\loc_sq021_trailer_park', '_external\\proxy\\1108877003\\loc_megabuilding_h7_module_1_ext.mesh'] variants=['River_sex', 'Tower_Exposure_lock', 'fake_mirror', 'gate_on']
+ 18.0 ( -3442.0, -4063.1,  73.4) {'tires': 10, 'tools': 19, 'building': 1} people=0 ['Exterior'] locs=['c_city_center\\corpo_plaza\\loc_arasaka_tower', 'se5\\loc_q000_hideout_barn'] variants=['var_collision', 'var_gate']
+ 18.0 ( -2220.8, -1960.5,   6.7) {'tools': 45, 'tires': 1, 'carparts': 3} people=42 ['Exterior'] locs=['c_pacifica\\coastview\\loc_q110_pacifica_mall'] variants=['cyberpsycho_bodies', 'loot']
+ 18.0 (  -694.2,   977.5,  12.4) {'tires': 14, 'carparts': 2} people=5 ['Exterior'] locs=['c_westbrook\\japan_town\\loc_q112_market_area', 'c_westbrook\\japan_town\\loc_sts_wbr_jpn_12'] variants=['boddies', 'default', 'var_2020_deco']
+ 17.5 (  2135.8, -1785.7,  65.3) {'tires': 8, 'tools': 1, 'carparts': 92} people=4 ['Exterior'] locs=['se1\\loc_sts_bls_ina_06'] variants=['during_sts', 'loot']
+ 17.0 (   131.0, -2180.0,  15.3) {'tires': 8, 'carparts': 27} people=0 ['Exterior'] locs=[] variants=['gps_path', 'loot']
+ 17.0 (   147.5, -1984.2,   7.6) {'tires': 8, 'carparts': 34} people=2 ['Exterior'] locs=[] variants=[]
+ 17.0 (  1549.3, -1952.0,  73.9) {'tires': 8, 'carparts': 13} people=0 ['Exterior'] locs=['ne3\\loc_q101_landfill'] variants=['q101_dex_corpse', 'q101_vfx', 'takemura_car']
+ 17.0 (  -970.4, -1599.1,  10.2) {'tools': 2, 'tires': 7, 'carparts': 3} people=2 ['Exterior'] locs=['c_santo_domingo\\arroyo\\loc_sts_std_arr_12_warehouse', 'c_santo_domingo\\arroyo\\loc_sts_std_arr_12_motel'] variants=['money_cup', 'sit_chair']
+ 17.0 (  2151.8, -1730.3,  61.3) {'tires': 8, 'carparts': 9} people=0 ['Exterior'] locs=['se1\\loc_sts_bls_ina_06'] variants=[]
+ 17.0 (  2403.6,  -741.2,  67.0) {'tires': 8, 'carparts': 9} people=15 ['Exterior'] locs=['se1\\loc_sts_bls_ina_07_workshop'] variants=[]
+ 17.0 (  -833.0,  2701.3,  38.9) {'tires': 8, 'carparts': 6} people=0 ['Exterior'] locs=[] variants=['sq025_scared_boxes']
+ 16.5 (  -428.1,    73.9,  14.0) {'tires': 7, 'tools': 1, 'carparts': 6} people=11 ['Exterior'] locs=['c_westbrook\\japan_town\\loc_sq006_truck__99cfa307.envprobe', 'c_westbrook\\japan_town\\loc_sq006_truck__02caa8a8.envprobe'] variants=['loot']
+ 16.0 (  -919.6,  -115.4,   8.9) {'tires': 8, 'tools': 18} people=9 ['Exterior', 'Interior'] locs=['c_heywood\\vista_del_rey\\loc_sq025_delamain_garage', 'c_heywood\\vista_del_rey\\loc_sts_hey_rey_02'] variants=['drones', 'electricity', 'gps_path', 'reward_box']
+ 15.5 (  2109.7, -1814.1,  69.3) {'tools': 9, 'tires': 2, 'carparts': 167} people=4 ['Exterior', 'Interior'] locs=['se1\\loc_sts_bls_ina_06'] variants=['during_sts', 'loot']
+ 15.0 (   351.3, -2015.9,  -2.9) {'tires': 5, 'tools': 2, 'carparts': 6, 'building': 1} people=0 ['Exterior'] locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_glorias_house', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10'] variants=['gps_path']
+ 15.0 ( -3476.9, -4084.9,  72.6) {'tools': 14, 'tires': 5, 'carparts': 1} people=0 ['Exterior'] locs=['c_city_center\\corpo_plaza\\loc_arasaka_tower', 'se5\\loc_q000_hideout_barn'] variants=['var_collision', 'var_gate']
+ 15.0 (  -152.3, -2155.8,   6.2) {'tires': 5, 'tools': 2, 'carparts': 7} people=10 ['Exterior'] locs=['c_santo_domingo\\rancho_coronado\\loc_sq023_resturant', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_08'] variants=['mq061_07_clear_landmark']
+ 15.0 (  -635.2, -1155.6,   9.3) {'tools': 22, 'lift': 1, 'tires': 1} people=4 ['Exterior'] locs=['c_santo_domingo\\arroyo\\loc_sts_std_arr_06', 'c_santo_domingo\\arroyo\\loc_sq024_mariannes_garage'] variants=['assets_variant', 'before_DLC', 'gps_path']
+ 15.0 (  -787.7,   945.2,  13.3) {'tools': 10, 'tires': 2, 'mechanic': 2} people=5 ['Exterior'] locs=['c_westbrook\\japan_town\\loc_sts_wbr_jpn_12', 'c_westbrook\\japan_town\\loc_q112_market_area'] variants=['assets_variant', 'default', 'q001_bridge_blockade']
+ 15.0 (  -259.4,  1640.8,  38.7) {'tools': 47, 'lift': 1, 'tires': 1} people=1 ['Exterior', 'Interior'] locs=['c_westbrook\\japan_town\\loc_sts_wbr_jpn_02_monoblade_workshop'] variants=['loot']
+ 15.0 (   417.6,  -430.2,   3.8) {'tires': 7, 'tools': 20} people=14 ['Interior'] locs=['c_westbrook\\charter_hill\\loc_sts_wbr_hil_06', 'c_westbrook\\charter_hill\\loc_ma_wbr_hil_05'] variants=[]
+ 14.5 (   385.9, -2182.8,  20.2) {'tires': 5, 'tools': 1, 'carparts': 5} people=4 ['Exterior'] locs=[] variants=['checkpoints', 'gps_path', 'loot']
+ 14.5 (  2383.4, -1344.1,  64.2) {'tires': 5, 'tools': 7, 'carparts': 2} people=0 ['Exterior', 'Interior'] locs=['sw2\\loc_sq021_farm', '_external\\proxy\\3681172987\\loc_sq021_farm_env_shed_ext.mesh'] variants=['farm_braindance_2055', 'farm_meatman_2077', 'lights_barn', 'lights_house']
+ 14.5 (   923.3,  -766.6,  22.6) {'tires': 5, 'tools': 1, 'carparts': 8} people=0 ['Exterior'] locs=['c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_09'] variants=['covers']
+ 14.5 ( -1086.8,  2315.8,  17.1) {'tires': 5, 'tools': 1, 'carparts': 12} people=6 ['Exterior'] locs=['c_watson\\northside\\loc_sts_wat_nid_01', 'c_watson\\kabuki\\loc_sts_wat_kab_02_ripperdoc_lab'] variants=['final_loot', 'loot']
+ 14.0 ( -2037.2, -2082.8,  23.8) {'tires': 5, 'carparts': 8} people=9 ['Exterior'] locs=['c_city_center\\corpo_plaza\\loc_q101_arasaka_rooftop'] variants=['drug_deal', 'loot', 'safe']
+ 14.0 (  1672.5, -2051.8, 103.7) {'tires': 5, 'carparts': 5} people=0 ['Exterior'] locs=['ne3\\loc_q101_landfill'] variants=[]
+ 14.0 (  3452.2,  -380.0, 135.2) {'tools': 8, 'carparts': 2, 'mechanic': 1} people=39 ['Exterior', 'Quest'] locs=['se1\\loc_sq004_mobile_camp'] variants=['abandoned', 'assets_variant', 'combat', 'combat_interactive']
+ 13.5 (  -844.0, -1358.3,   8.4) {'tires': 4, 'tools': 1, 'carparts': 25} people=0 ['Exterior'] locs=['c_santo_domingo\\arroyo\\loc_sts_std_arr_10'] variants=['final_loot', 'sq023_chase_police_deco']
+ 13.5 (  -560.7,   696.8,  35.8) {'tires': 6, 'tools': 15} people=5 ['Exterior', 'Interior'] locs=['c_westbrook\\japan_town\\loc_q112_parade_area', 'c_westbrook\\japan_town\\loc_q105_dollhouse'] variants=[]
+ 13.0 (   312.7, -1915.2,  -5.1) {'tools': 12, 'tires': 4, 'carparts': 1} people=5 ['Exterior'] locs=['c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_10', 'c_santo_domingo\\rancho_coronado\\loc_ma_std_rcr_11'] variants=['blood', 'bodies', 'day', 'final_loot']
+ 13.0 (   727.4,  -565.1,  -2.7) {'tires': 10, 'carparts': 1} people=3 ['Exterior'] locs=['c_westbrook\\charter_hill\\loc_rosebud', 'c_santo_domingo\\arroyo\\loc_q103_meeting_point_panam'] variants=[]
+ 13.0 (  -152.0, -4426.2,  58.4) {'lift': 1, 'tools': 8, 'tires': 3} people=22 ['Exterior', 'Interior'] locs=['se1\\loc_sts_bls_ina_02'] variants=[]

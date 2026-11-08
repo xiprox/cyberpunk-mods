@@ -1,0 +1,972 @@
+{
+ "id": "herrera_outlaw_heist_01_ep1",
+ "label": "Outlaw \"Weiler\"",
+ "entity": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw_heist_01.ent",
+ "family": "v_sport1_herrera_outlaw_heist",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_sport1_herrera_outlaw_heist_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "ep1\\vehicles\\appearances\\sport\\herrera_outlaw__heist.app"
+ ],
+ "styles": [
+  {
+   "id": "heist_heist_01",
+   "code": "heist_heist_01",
+   "label": "Heist heist",
+   "base_look": "herrera_outlaw__heist_heist_01",
+   "looks": [
+    "herrera_outlaw__heist_heist_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "c4a681c9",
+    "bumper_back.bumper": "978863ff",
+    "hood_a.hood": "8cc4ea73",
+    "trunk_a.trunk": "ffbb8363",
+    "base.interior": "b6a9af84",
+    "wheel.wheel": "5bcdd37d",
+    "door.door": "08ac4a8d"
+   },
+   "kits": []
+  },
+  {
+   "id": "heist_player_01",
+   "code": "heist_player_01",
+   "label": "Heist player",
+   "base_look": "herrera_outlaw__heist_player_01",
+   "looks": [
+    "herrera_outlaw__heist_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "c4a681c9",
+    "bumper_back.bumper": "978863ff",
+    "hood_a.hood": "8cc4ea73",
+    "trunk_a.trunk": "ffbb8363",
+    "base.interior": "b6a9af84",
+    "wheel.wheel": "a369fcad",
+    "door.door": "08ac4a8d",
+    "brake.wheel": "ce5df489"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "herrera_outlaw__heist_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "c4a681c9",
+     "code": "bumper_f_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "anthracite_blue",
+      "black",
+      "blue",
+      "burgundy",
+      "green",
+      "mafia_01",
+      "orange",
+      "red",
+      "arctic_white",
+      "player_01"
+     ],
+     "looks": [
+      "herrera_outlaw__heist_heist_01",
+      "herrera_outlaw__heist_player_01"
+     ],
+     "origins": [
+      "style:heist_heist_01",
+      "style:heist_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "978863ff",
+     "code": "bumper_b_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "anthacite_blue",
+      "black",
+      "blue",
+      "burgundy",
+      "green",
+      "mafia_01",
+      "orange",
+      "red",
+      "arctic_white"
+     ],
+     "looks": [
+      "herrera_outlaw__heist_heist_01",
+      "herrera_outlaw__heist_player_01"
+     ],
+     "origins": [
+      "style:heist_heist_01",
+      "style:heist_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "8cc4ea73",
+     "code": "hood_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "red",
+      "anthracite_blue",
+      "blue",
+      "burgundy",
+      "orange",
+      "arctic_white",
+      "black",
+      "green",
+      "mafia_01"
+     ],
+     "looks": [
+      "herrera_outlaw__heist_heist_01",
+      "herrera_outlaw__heist_player_01"
+     ],
+     "origins": [
+      "style:heist_heist_01",
+      "style:heist_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "ffbb8363",
+     "code": "trunk_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "red",
+      "anthracite_blue",
+      "blue",
+      "burgundy",
+      "orange",
+      "arctic_white",
+      "black",
+      "green",
+      "mafia_01"
+     ],
+     "looks": [
+      "herrera_outlaw__heist_heist_01",
+      "herrera_outlaw__heist_player_01"
+     ],
+     "origins": [
+      "style:heist_heist_01",
+      "style:heist_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "b6a9af84",
+     "code": "interior_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "mafia_01",
+      "int_beige",
+      "int_anthracite",
+      "int_brown_black",
+      "int_red_black",
+      "int_white_black"
+     ],
+     "looks": [
+      "herrera_outlaw__heist_burnt_01",
+      "herrera_outlaw__heist_heist_01",
+      "herrera_outlaw__heist_player_01"
+     ],
+     "origins": [
+      "style:heist_heist_01",
+      "style:heist_player_01",
+      "wreck:heist_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "5bcdd37d",
+     "code": "wheel_outlaw_heist",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "fl": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_f_heist.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_f_heist.mesh",
+      "bl": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_b_heist.mesh",
+      "br": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_b_heist.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "herrera_outlaw__heist_heist_01"
+     ],
+     "origins": [
+      "style:heist_heist_01"
+     ]
+    },
+    {
+     "id": "a369fcad",
+     "code": "wheel_type66",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "fl": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\wheel_type66.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\wheel_type66.mesh",
+      "bl": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\wheel_type66.mesh",
+      "br": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\wheel_type66.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "herrera_outlaw__heist_player_01"
+     ],
+     "origins": [
+      "style:heist_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "08ac4a8d",
+     "code": "door_a_01 + door_01",
+     "vehicle": "v_sport1_herrera_outlaw",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_fr_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_fr_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "red",
+      "anthracite_blue",
+      "blue",
+      "burgundy",
+      "orange",
+      "arctic_white",
+      "black",
+      "green",
+      "mafia_01"
+     ],
+     "looks": [
+      "herrera_outlaw__heist_heist_01",
+      "herrera_outlaw__heist_player_01"
+     ],
+     "origins": [
+      "style:heist_heist_01",
+      "style:heist_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brake.wheel",
+   "label": "Wheel (brake)",
+   "kind": "wheel",
+   "group": "brake",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "brake_front_left",
+    "brake_front_right",
+    "brake_back_left",
+    "brake_back_right"
+   ],
+   "positions": [
+    [
+     0.138,
+     0.0,
+     0.0
+    ],
+    [
+     -0.1373,
+     0.0,
+     0.0
+    ],
+    [
+     0.0861,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0646,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     8.742278367890322e-08,
+     -1.0,
+     -8.742278367890322e-08,
+     7.642742707691767e-15
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -8.742278367890322e-08
+    ],
+    [
+     0.0,
+     0.0,
+     -1.0,
+     -8.742278367890322e-08
+    ]
+   ],
+   "roles": [
+    "wheel_cortes_<c>"
+   ],
+   "options": [
+    {
+     "id": "ce5df489",
+     "code": "wheel_center_01",
+     "vehicle": "Cortes V5000 Valor",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_center_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_center_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_center_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_bl_center_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "padre",
+     "paints": [
+      "delamain",
+      "kangtao_01",
+      "padre",
+      "chrome",
+      "copper",
+      "gunmetal",
+      "red",
+      "turquoise"
+     ],
+     "looks": [
+      "herrera_outlaw__heist_player_01"
+     ],
+     "origins": [
+      "style:heist_player_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [],
+ "looks": {
+  "herrera_outlaw__heist_burnt_01": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_outlaw__heist.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_b_heist"
+    },
+    "base.window.window_f_heist": {
+     "all": "window_f_heist"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "herrera_outlaw__heist_heist_01": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_outlaw__heist.app",
+   "app_look": "heist_01",
+   "style": "heist_heist_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.window": {
+     "all": "window_b_heist"
+    },
+    "base.window.window_f_heist": {
+     "all": "window_f_heist"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl_heist",
+     "fr": "window_fr_heist",
+     "bl": "window_bl_heist",
+     "br": "window_br_heist"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "herrera_outlaw__heist_player_01": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_outlaw__heist.app",
+   "app_look": "player_01",
+   "style": "heist_player_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.window": {
+     "all": "window_b_heist"
+    },
+    "base.window.window_f_heist": {
+     "all": "window_f_heist"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights_bc": {
+     "all": "body_lights_bc"
+    },
+    "base.body.body_lights_bo": {
+     "all": "body_lights_bo"
+    },
+    "base.body.roof_barcode": {
+     "all": "roof_barcode"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl_heist",
+     "fr": "window_fr_heist",
+     "bl": "window_bl_heist",
+     "br": "window_br_heist"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "brake.wheel": {
+     "fl": "wheel_cortes_fl",
+     "fr": "wheel_cortes_fr",
+     "bl": "wheel_cortes_bl",
+     "br": "wheel_cortes_br"
+    },
+    "brake.wheel.wheel_hellhound": {
+     "fl": "wheel_hellhound_fl",
+     "fr": "wheel_hellhound_fr",
+     "bl": "wheel_riptide_bl",
+     "br": "wheel_riptide_br"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4022,
+   0.3695,
+   0.2802,
+   0.0208
+  ],
+  "b": [
+   0.4022,
+   0.4883,
+   0.2802,
+   0.0471
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "b063f2da",
+   "rim": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\wheel_type66.mesh",
+   "tire": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_tire_b_heist_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_shadow.mesh",
+   "code": "wheel_type66",
+   "tire_code": "tire_b_heist_01",
+   "from": "Outlaw \"Weiler\"",
+   "radius": 0.4022,
+   "width": 0.4883,
+   "rim_radius": 0.2802,
+   "tire_center": 0.0471,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "herrera_outlaw__heist_player_01"
+   ]
+  },
+  {
+   "id": "88360e1e",
+   "rim": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\wheel_type66.mesh",
+   "tire": "ep1\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_tire_f_heist_01.mesh",
+   "rim_shadow": "base\\vehicles\\sport\\v_sport1_herrera_outlaw\\entities\\meshes\\v_sport1_herrera_outlaw__ext01_wheel_outlaw_fl_shadow.mesh",
+   "tire_shadow": "",
+   "code": "wheel_type66",
+   "tire_code": "tire_f_heist_01",
+   "from": "Outlaw \"Weiler\"",
+   "radius": 0.4022,
+   "width": 0.3695,
+   "rim_radius": 0.2802,
+   "tire_center": 0.0208,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "herrera_outlaw__heist_player_01"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "herrera_outlaw__heist_player_01",
+   "Outlaw \"Weiler\""
+  ]
+ ]
+}

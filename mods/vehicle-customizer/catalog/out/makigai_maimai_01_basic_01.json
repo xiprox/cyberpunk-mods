@@ -1,0 +1,3558 @@
+{
+ "id": "makigai_maimai_01_basic_01",
+ "label": "MaiMai P126",
+ "entity": "base\\vehicles\\standard\\v_standard2_makigai_maimai_01_basic_01.ent",
+ "family": "v_standard2_makigai_maimai_01_basic",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard2_makigai_maimai_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "gt_01",
+   "code": "gt_01",
+   "label": "Gt",
+   "base_look": "makigai_maimai__basic_gt_01",
+   "looks": [
+    "makigai_maimai__basic_gt_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "3e39e93a",
+    "bumper_back.bumper": "c2637724",
+    "hood_a.hood": "16a544a0",
+    "trunk_a.trunk": "26569a58",
+    "base.body": "1c4d727f",
+    "base.interior": "c51a7171",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "c689f515",
+    "door.door": "c3e55093",
+    "door.mirror": "87360596",
+    "door_b.door": "b3baea5e",
+    "door_c.door": "31f8e709"
+   },
+   "kits": [
+    "sticker_f456"
+   ]
+  },
+  {
+   "id": "poor_01",
+   "code": "poor_01",
+   "label": "Poor",
+   "base_look": "makigai_maimai__basic_poor_01",
+   "looks": [
+    "makigai_maimai__basic_poor_01",
+    "makigai_maimai__basic_poor_03",
+    "makigai_maimai__basic_poor_05",
+    "makigai_maimai__basic_poor_07"
+   ],
+   "options": {
+    "bumper_front.bumper": "f7b02e7b",
+    "bumper_back.bumper": "3ff40849",
+    "hood_a.hood": "d5e254d8",
+    "trunk_a.trunk": "e8e3301e",
+    "base.body": "1c4d727f",
+    "base.interior": "c51a7171",
+    "wheel.tire": "ac9a4888",
+    "wheel.wheel": "2d3964d5",
+    "door.door": "c3e55093",
+    "door.mirror": "87360596",
+    "door_b.door": "b3baea5e",
+    "door_c.door": "31f8e709"
+   },
+   "kits": []
+  },
+  {
+   "id": "poor_02",
+   "code": "poor_02",
+   "label": "Poor 02",
+   "base_look": "makigai_maimai__basic_poor_02",
+   "looks": [
+    "makigai_maimai__basic_poor_02",
+    "makigai_maimai__basic_poor_04",
+    "makigai_maimai__basic_poor_06"
+   ],
+   "options": {
+    "bumper_front.bumper": "f7b02e7b",
+    "bumper_back.bumper": "3ff40849",
+    "trunk_a.trunk": "26569a58",
+    "base.body": "1c4d727f",
+    "base.interior": "c51a7171",
+    "wheel.tire": "ac9a4888",
+    "wheel.wheel": "9b0d2e7d",
+    "door.door": "c3e55093",
+    "door.mirror": "87360596",
+    "door_b.door": "b3baea5e",
+    "door_c.door": "f7615451"
+   },
+   "kits": []
+  },
+  {
+   "id": "suburban_01",
+   "code": "suburban_01",
+   "label": "Suburban",
+   "base_look": "makigai_maimai__basic_suburban_01",
+   "looks": [
+    "makigai_maimai__basic_suburban_01",
+    "makigai_maimai__basic_suburban_02",
+    "makigai_maimai__basic_suburban_03",
+    "makigai_maimai__basic_suburban_04",
+    "makigai_maimai__basic_suburban_05",
+    "makigai_maimai__basic_suburban_06",
+    "makigai_maimai__basic_suburban_07"
+   ],
+   "options": {
+    "bumper_front.bumper": "abb8ddc6",
+    "bumper_back.bumper": "26a6d560",
+    "hood_a.hood": "d5e254d8",
+    "trunk_a.trunk": "e8e3301e",
+    "base.body": "1c4d727f",
+    "base.interior": "c51a7171",
+    "wheel.tire": "ac9a4888",
+    "wheel.wheel": "9b0d2e7d",
+    "door.door": "c3e55093",
+    "door.mirror": "87360596",
+    "door_b.door": "b3baea5e",
+    "door_c.door": "31f8e709"
+   },
+   "kits": []
+  },
+  {
+   "id": "urban_01",
+   "code": "urban_01",
+   "label": "Urban",
+   "base_look": "makigai_maimai__basic_urban_01",
+   "looks": [
+    "makigai_maimai__basic_urban_01",
+    "makigai_maimai__basic_urban_02",
+    "makigai_maimai__basic_urban_03",
+    "makigai_maimai__basic_urban_05",
+    "makigai_maimai__basic_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "3e39e93a",
+    "bumper_back.bumper": "c2637724",
+    "hood_a.hood": "16a544a0",
+    "trunk_a.trunk": "26569a58",
+    "base.body": "1c4d727f",
+    "base.interior": "c51a7171",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "c689f515",
+    "door.door": "c3e55093",
+    "door.mirror": "87360596",
+    "door_b.door": "b3baea5e",
+    "door_c.door": "31f8e709"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "makigai_maimai__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "abb8ddc6",
+     "code": "bumper_f_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07"
+     ],
+     "origins": [
+      "look:default",
+      "style:suburban_01"
+     ]
+    },
+    {
+     "id": "f7b02e7b",
+     "code": "junk_bumper_f_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_junk_bumper_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "color_02",
+      "color_03"
+     ],
+     "looks": [
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_poor_07"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_02"
+     ]
+    },
+    {
+     "id": "3e39e93a",
+     "code": "bumper_f_02",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_bumper_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_05",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "style:gt_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "26a6d560",
+     "code": "bumper_b_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07"
+     ],
+     "origins": [
+      "look:default",
+      "style:suburban_01"
+     ]
+    },
+    {
+     "id": "3ff40849",
+     "code": "junk_bumper_b_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_junk_bumper_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "color_02",
+      "color_03"
+     ],
+     "looks": [
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_poor_07"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_02"
+     ]
+    },
+    {
+     "id": "c2637724",
+     "code": "bumper_b_02",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_bumper_b_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_bumper_b_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_05",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "style:gt_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "d5e254d8",
+     "code": "hood_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_07",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07"
+     ],
+     "origins": [
+      "look:default",
+      "style:poor_01",
+      "style:suburban_01"
+     ]
+    },
+    {
+     "id": "16a544a0",
+     "code": "hood_02",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_hood_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_hood_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_05",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "style:gt_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "e8e3301e",
+     "code": "trunk_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_07",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07"
+     ],
+     "origins": [
+      "look:default",
+      "style:poor_01",
+      "style:suburban_01"
+     ]
+    },
+    {
+     "id": "26569a58",
+     "code": "trunk_02",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_trunk_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_trunk_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_05",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "style:gt_01",
+      "style:poor_02",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "1c4d727f",
+     "code": "body_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_body_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_burnt_01",
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_poor_07",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:poor_01",
+      "style:poor_02",
+      "style:suburban_01",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "c51a7171",
+     "code": "interior_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "urban_01",
+      "urban_02",
+      "urban_03"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_burnt_01",
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_poor_07",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:poor_01",
+      "style:poor_02",
+      "style:suburban_01",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.5807029604911804,
+     0.0,
+     0.0,
+     0.8141155242919922
+    ],
+    [
+     -0.838670551776886,
+     0.0,
+     0.0,
+     0.5446390509605408
+    ],
+    [
+     0.2503800094127655,
+     0.0,
+     0.0,
+     0.9681476354598999
+    ],
+    [
+     -0.4694715738296509,
+     0.0,
+     0.0,
+     0.882947564125061
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "ac9a4888",
+     "code": "tire_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_poor_07",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07"
+     ],
+     "origins": [
+      "look:default",
+      "style:poor_01",
+      "style:poor_02",
+      "style:suburban_01"
+     ]
+    },
+    {
+     "id": "3546ca88",
+     "code": "tire_01",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "clean_white_letters",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_white_letters",
+      "whitewall"
+     ],
+     "looks": [
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "style:gt_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.5807029604911804,
+     0.0,
+     0.0,
+     0.8141155242919922
+    ],
+    [
+     -0.838670551776886,
+     0.0,
+     0.0,
+     0.5446390509605408
+    ],
+    [
+     0.2503800094127655,
+     0.0,
+     0.0,
+     0.9681476354598999
+    ],
+    [
+     -0.4694715738296509,
+     0.0,
+     0.0,
+     0.882947564125061
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_<c>_02"
+   ],
+   "options": [
+    {
+     "id": "9b0d2e7d",
+     "code": "wheel_a_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_02",
+     "paints": [
+      "poor_01",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "urban_01",
+      "urban_02",
+      "urban_03"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07"
+     ],
+     "origins": [
+      "look:default",
+      "style:poor_02",
+      "style:suburban_01"
+     ]
+    },
+    {
+     "id": "c689f515",
+     "code": "wheel_02",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "silver",
+     "paints": [
+      "silver",
+      "silver_poor",
+      "black_poor",
+      "red",
+      "valentinos_01"
+     ],
+     "looks": [
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "style:gt_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "2d3964d5",
+     "code": "wheel_02",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "dirty_02",
+     "paints": [
+      "clean_02",
+      "clean_03",
+      "dirty_01",
+      "dirty_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_07"
+     ],
+     "origins": [
+      "style:poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "c3e55093",
+     "code": "door_a_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fr_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fr_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_poor_07",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:poor_01",
+      "style:poor_02",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.mirror",
+   "label": "Mirrors",
+   "kind": "mirror",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "mirror_<c>_01_a",
+    "mirror_<c>_01_b"
+   ],
+   "options": [
+    {
+     "id": "87360596",
+     "code": "mirror_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_mirror_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_mirror_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_mirror_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_mirror_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_05",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_poor_07",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:poor_01",
+      "style:poor_02",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_b.door",
+   "label": "Doors (b)",
+   "kind": "door",
+   "group": "door_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_b",
+    "door_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "b3baea5e",
+     "code": "door_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fl_b_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fr_b_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fl_b_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fr_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_06",
+      "makigai_maimai__basic_poor_07",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:poor_01",
+      "style:poor_02",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_c.door",
+   "label": "Doors (c)",
+   "kind": "door",
+   "group": "door_c",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_c",
+    "door_front_right_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_c"
+   ],
+   "options": [
+    {
+     "id": "31f8e709",
+     "code": "door_c_01",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fl_c_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fr_c_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fl_c_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_door_fr_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic:default",
+      "makigai_maimai__basic_gt_01",
+      "makigai_maimai__basic_player_01",
+      "makigai_maimai__basic_poor_01",
+      "makigai_maimai__basic_poor_03",
+      "makigai_maimai__basic_poor_05",
+      "makigai_maimai__basic_poor_07",
+      "makigai_maimai__basic_suburban_01",
+      "makigai_maimai__basic_suburban_02",
+      "makigai_maimai__basic_suburban_03",
+      "makigai_maimai__basic_suburban_04",
+      "makigai_maimai__basic_suburban_05",
+      "makigai_maimai__basic_suburban_06",
+      "makigai_maimai__basic_suburban_07",
+      "makigai_maimai__basic_urban_01",
+      "makigai_maimai__basic_urban_02",
+      "makigai_maimai__basic_urban_03",
+      "makigai_maimai__basic_urban_05"
+     ],
+     "origins": [
+      "look:default",
+      "style:gt_01",
+      "style:poor_01",
+      "style:suburban_01",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "f7615451",
+     "code": "door_c_02",
+     "vehicle": "v_standard2_makigai_maimai",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_door_fl_c_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_door_fr_c_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_door_fl_c_02_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext02_door_fr_c_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_04",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "makigai_maimai__basic_poor_02",
+      "makigai_maimai__basic_poor_04",
+      "makigai_maimai__basic_poor_06"
+     ],
+     "origins": [
+      "style:poor_02"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "sticker_f456",
+   "family": "sticker",
+   "code": "kit_sticker_body_bumper_hood_trunk",
+   "where": [
+    "body",
+    "bumper",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_makigai_maimai__ext01_stickers_gt_body_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_stickers_gt_body_01.mesh",
+     "code": "stickers_gt_body_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_maimai__basic_gt_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_makigai_maimai__ext01_stickers_gt_bumper_b_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_stickers_gt_bumper_b_01.mesh",
+     "code": "stickers_gt_bumper_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_maimai__basic_gt_01",
+     "parent": "vehicle_slots:bumper_back"
+    },
+    {
+     "name": "v_standard2_makigai_maimai__ext01_stickers_gt_bumper_f_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_stickers_gt_bumper_f_01.mesh",
+     "code": "stickers_gt_bumper_f_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_maimai__basic_gt_01",
+     "parent": "vehicle_slots:bumper_front"
+    },
+    {
+     "name": "v_standard2_makigai_maimai__ext01_stickers_gt_hood_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_stickers_gt_hood_01.mesh",
+     "code": "stickers_gt_hood_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_maimai__basic_gt_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "v_standard2_makigai_maimai__ext01_stickers_gt_trunk_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_stickers_gt_trunk_01.mesh",
+     "code": "stickers_gt_trunk_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "makigai_maimai__basic_gt_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "makigai_maimai__basic_gt_01"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper",
+    "slot:bumper_front.bumper",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:gt_01"
+   ]
+  }
+ ],
+ "looks": {
+  "makigai_maimai__basic_suburban_01": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "suburban_01",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_poor_05": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "poor_05",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_suburban_03": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "suburban_03",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_suburban_02": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "suburban_02",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_poor_04": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "poor_04",
+   "style": "poor_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_suburban_05": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "suburban_05",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_suburban_07": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "suburban_07",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_poor_03": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "poor_03",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_poor_01": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "poor_01",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_urban_02": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "urban_02",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_poor_07": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "poor_07",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_suburban_04": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "suburban_04",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_suburban_06": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "suburban_06",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_urban_05": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "urban_05",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_poor_02": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "poor_02",
+   "style": "poor_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_urban_01": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "urban_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_poor_06": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "poor_06",
+   "style": "poor_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_urban_03": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "urban_03",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_player_01": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "player_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_gt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "gt_01",
+   "style": "gt_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.window": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_fl_01_a",
+     "fr": "mirror_fr_01_b"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.spoiler": {
+     "all": "v_standard2_makigai_maimai__ext01_spoiler_gt_01"
+    }
+   }
+  },
+  "makigai_maimai__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\makigai_maimai__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.window.window_fl_c": {
+     "all": "window_fl_c"
+    },
+    "base.window.window_fr_c": {
+     "all": "window_fr_c"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.236,
+   0.195,
+   0.1695,
+   0.0004
+  ],
+  "b": [
+   0.236,
+   0.195,
+   0.1695,
+   0.0004
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "87387b3a",
+   "rim": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_01",
+   "from": "MaiMai P126",
+   "radius": 0.236,
+   "width": 0.195,
+   "rim_radius": 0.1695,
+   "tire_center": 0.0004,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 22,
+   "paints": [
+    "poor_01",
+    "suburban_01",
+    "suburban_02",
+    "suburban_03",
+    "suburban_04",
+    "urban_01",
+    "urban_02",
+    "urban_03"
+   ],
+   "default_paint": "suburban_02",
+   "kind": "car",
+   "look_names": [
+    "makigai_maimai__basic:default",
+    "makigai_maimai__basic_poor_02",
+    "makigai_maimai__basic_poor_04",
+    "makigai_maimai__basic_poor_06",
+    "makigai_maimai__basic_suburban_01",
+    "makigai_maimai__basic_suburban_02",
+    "makigai_maimai__basic_suburban_03",
+    "makigai_maimai__basic_suburban_04",
+    "makigai_maimai__basic_suburban_05",
+    "makigai_maimai__basic_suburban_06",
+    "makigai_maimai__basic_suburban_07"
+   ]
+  },
+  {
+   "id": "80e6aa6d",
+   "rim": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_makigai_maimai\\entities\\meshes\\v_standard2_makigai_maimai__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_02",
+   "tire_code": "tire_fl_01",
+   "from": "MaiMai P126",
+   "radius": 0.236,
+   "width": 0.195,
+   "rim_radius": 0.1688,
+   "tire_center": 0.0004,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 8,
+   "paints": [
+    "clean_02",
+    "clean_03",
+    "dirty_01",
+    "dirty_02"
+   ],
+   "default_paint": "dirty_02",
+   "kind": "car",
+   "look_names": [
+    "makigai_maimai__basic_poor_01",
+    "makigai_maimai__basic_poor_03",
+    "makigai_maimai__basic_poor_05",
+    "makigai_maimai__basic_poor_07"
+   ]
+  },
+  {
+   "id": "13b681dd",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_02",
+   "tire_code": "tire_fl_01",
+   "from": "Quartz EC-T2 r660",
+   "radius": 0.362,
+   "width": 0.2965,
+   "rim_radius": 0.2994,
+   "tire_center": -0.1137,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 12,
+   "paints": [
+    "silver",
+    "silver_poor",
+    "black_poor",
+    "red",
+    "valentinos_01"
+   ],
+   "default_paint": "silver",
+   "kind": "car",
+   "look_names": [
+    "makigai_maimai__basic_gt_01",
+    "makigai_maimai__basic_player_01",
+    "makigai_maimai__basic_urban_01",
+    "makigai_maimai__basic_urban_02",
+    "makigai_maimai__basic_urban_03",
+    "makigai_maimai__basic_urban_05"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "makigai_maimai__basic_player_01",
+   "MaiMai P126"
+  ]
+ ]
+}

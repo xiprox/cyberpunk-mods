@@ -1,0 +1,1341 @@
+{
+ "id": "yaiba_semimaru__basic_01",
+ "label": "ARV-Q340 Semimaru",
+ "entity": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru__basic_01.ent",
+ "family": "v_sport1_yaiba_semimaru",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_sport1_yaiba_semimaru_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sport\\yaiba_semimaru_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "yaiba_semimaru_basic_urban_01",
+   "code": "yaiba_semimaru_basic_urban_01",
+   "label": "Yaiba semimaru basic urban",
+   "base_look": "yaiba_semimaru_basic_urban_01",
+   "looks": [
+    "yaiba_semimaru_basic_urban_01",
+    "yaiba_semimaru_basic_urban_02",
+    "yaiba_semimaru_basic_urban_03",
+    "yaiba_semimaru_basic_urban_04",
+    "yaiba_semimaru_basic_urban_05"
+   ],
+   "options": {
+    "bumper_front.bumper": "492060d9",
+    "bumper_back.bumper": "5d6a57d7",
+    "hood_a.trunk": "160acac5",
+    "trunk_a.hood": "0cfe1d81",
+    "base.body": "59a53b0a",
+    "base.interior": "14756734",
+    "base.seat": "95437641",
+    "base.seat.seats_fr": "ac1a577a",
+    "wheel.wheel": "fe227755",
+    "door.door": "c03528fd",
+    "door.door.door_mirror": "b34558c5",
+    "brake.wheel": "c25291a5"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "yaiba_semimaru_basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "492060d9",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "5d6a57d7",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "160acac5",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "0cfe1d81",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "59a53b0a",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_body_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_burnt_01",
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01",
+      "wreck:yaiba_semimaru_basic_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "14756734",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "int_02",
+      "int_03"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_burnt_01",
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01",
+      "wreck:yaiba_semimaru_basic_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat",
+   "label": "Seats: front left",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seats_fl_01"
+   ],
+   "options": [
+    {
+     "id": "95437641",
+     "code": "seat_fl_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__int01_seat_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "int_02",
+      "int_03"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_burnt_01",
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01",
+      "wreck:yaiba_semimaru_basic_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat.seats_fr",
+   "label": "Seats: front right",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seats_fr_01"
+   ],
+   "options": [
+    {
+     "id": "ac1a577a",
+     "code": "seat_fr_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__int01_seat_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "int_02",
+      "int_03"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_burnt_01",
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01",
+      "wreck:yaiba_semimaru_basic_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "fe227755",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "chrome_01",
+      "chameleon_01"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors: a",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "c03528fd",
+     "code": "door_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_door_fr_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_door_fr_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door.door_mirror",
+   "label": "Doors: mirror",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_mirror_<c>"
+   ],
+   "options": [
+    {
+     "id": "b34558c5",
+     "code": "door_mirror_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_door_mirror_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_door_mirror_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_door_mirror_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_door_mirror_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brake.wheel",
+   "label": "Wheel (brake)",
+   "kind": "wheel",
+   "group": "brake",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "brake_front_left",
+    "brake_front_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_center_<c>"
+   ],
+   "options": [
+    {
+     "id": "c25291a5",
+     "code": "wheel_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_wheel_fr_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "orange_01",
+     "paints": [
+      "orange_01",
+      "chrome_01",
+      "gold_01"
+     ],
+     "looks": [
+      "yaiba_semimaru_basic_urban_01",
+      "yaiba_semimaru_basic_urban_02",
+      "yaiba_semimaru_basic_urban_03",
+      "yaiba_semimaru_basic_urban_04",
+      "yaiba_semimaru_basic_urban_05"
+     ],
+     "origins": [
+      "style:yaiba_semimaru_basic_urban_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [],
+ "looks": {
+  "yaiba_semimaru_basic_urban_04": {
+   "app": "base\\vehicles\\appearances\\sport\\yaiba_semimaru_basic.app",
+   "app_look": "urban_04",
+   "style": "yaiba_semimaru_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "brake.wheel": {
+     "fl": "wheel_center_fl",
+     "fr": "wheel_center_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.window": {
+     "fl": "window_fl_02",
+     "fr": "window_fr_02"
+    },
+    "trunk_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.window": {
+     "all": "window_back"
+    }
+   }
+  },
+  "yaiba_semimaru_basic_urban_02": {
+   "app": "base\\vehicles\\appearances\\sport\\yaiba_semimaru_basic.app",
+   "app_look": "urban_02",
+   "style": "yaiba_semimaru_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "brake.wheel": {
+     "fl": "wheel_center_fl",
+     "fr": "wheel_center_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.window": {
+     "fl": "window_fl_02",
+     "fr": "window_fr_02"
+    },
+    "trunk_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.window": {
+     "all": "window_back"
+    }
+   }
+  },
+  "yaiba_semimaru_basic_urban_05": {
+   "app": "base\\vehicles\\appearances\\sport\\yaiba_semimaru_basic.app",
+   "app_look": "urban_05",
+   "style": "yaiba_semimaru_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "brake.wheel": {
+     "fl": "wheel_center_fl",
+     "fr": "wheel_center_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.window": {
+     "fl": "window_fl_02",
+     "fr": "window_fr_02"
+    },
+    "trunk_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.window": {
+     "all": "window_back"
+    }
+   }
+  },
+  "yaiba_semimaru_basic_urban_03": {
+   "app": "base\\vehicles\\appearances\\sport\\yaiba_semimaru_basic.app",
+   "app_look": "urban_03",
+   "style": "yaiba_semimaru_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "brake.wheel": {
+     "fl": "wheel_center_fl",
+     "fr": "wheel_center_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.window": {
+     "fl": "window_fl_02",
+     "fr": "window_fr_02"
+    },
+    "trunk_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.window": {
+     "all": "window_back"
+    }
+   }
+  },
+  "yaiba_semimaru_basic_urban_01": {
+   "app": "base\\vehicles\\appearances\\sport\\yaiba_semimaru_basic.app",
+   "app_look": "urban_01",
+   "style": "yaiba_semimaru_basic_urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "brake.wheel": {
+     "fl": "wheel_center_fl",
+     "fr": "wheel_center_fr"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror": {
+     "fl": "door_mirror_fl",
+     "fr": "door_mirror_fr"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.window": {
+     "fl": "window_fl_02",
+     "fr": "window_fr_02"
+    },
+    "trunk_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.window": {
+     "all": "window_back"
+    }
+   }
+  },
+  "yaiba_semimaru_basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\sport\\yaiba_semimaru_basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.379,
+   0.3178,
+   0.3018,
+   -0.1033
+  ],
+  "b": [
+   0.4102,
+   0.4503,
+   0.2953,
+   -0.1561
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "adfebd64",
+   "rim": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "ARV-Q340 Semimaru",
+   "radius": 0.4102,
+   "width": 0.4503,
+   "rim_radius": 0.2953,
+   "tire_center": -0.1561,
+   "axles": [
+    "b"
+   ],
+   "looks": 5,
+   "paints": [
+    "orange_01",
+    "chrome_01",
+    "chameleon_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "yaiba_semimaru_basic_urban_01",
+    "yaiba_semimaru_basic_urban_02",
+    "yaiba_semimaru_basic_urban_03",
+    "yaiba_semimaru_basic_urban_04",
+    "yaiba_semimaru_basic_urban_05"
+   ]
+  },
+  {
+   "id": "32fb7324",
+   "rim": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_yaiba_semimaru\\entities\\meshes\\v_sport1_yaiba_semimaru__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "ARV-Q340 Semimaru",
+   "radius": 0.379,
+   "width": 0.3178,
+   "rim_radius": 0.3018,
+   "tire_center": -0.1033,
+   "axles": [
+    "f"
+   ],
+   "looks": 5,
+   "paints": [
+    "chrome_01",
+    "chameleon_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "yaiba_semimaru_basic_urban_01",
+    "yaiba_semimaru_basic_urban_02",
+    "yaiba_semimaru_basic_urban_03",
+    "yaiba_semimaru_basic_urban_04",
+    "yaiba_semimaru_basic_urban_05"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "yaiba_semimaru_basic_urban_01",
+   "ARV-Q340 Semimaru"
+  ]
+ ]
+}

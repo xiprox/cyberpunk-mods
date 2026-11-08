@@ -1,0 +1,30 @@
+Malina-mobile (arch_nemesis_lina_01_ep1), from ep1\vehicles\sportbike\v_sportbike2_arch_nemesis_lina_01.ent
+records: Vehicle.v_sportbike2_arch_linas_player
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  arch_nemesis_lina_lina_malina_02 Arch nemesis lina lina malina 02 1 looks
+                                            kits: body_lightstripe_01
+WRECKS: arch_nemesis_basic_burnt_tygerclaws_01
+
+SLOTS (6)
+  Body: back [base.body] (Base): 2 options
+    body_b_01                                      21 paints  14 looks  [car: v_sportbike2_arch_nemesis] [look: burnt_sport_01] [look: lina_malina_01] [look: player_02] [look: q101_troy_01] ...
+    body_c_01                                      21 paints   8 looks  [car: v_sportbike2_arch_nemesis] [look: player_03] [look: tygerclaws_boss_01] [look: tygerclaws_green_01] [look: tygerclaws_pink_01] ...
+  Body: cables [base.body.body_cables] (Base): 1 options
+    body_a_cables_01                               18 paints   4 looks  [car: v_sportbike2_arch_nemesis] [look: jackie_tuned_up] [look: lina_malina_01] [look: tygerclaws_boss_01] [style: Arch nemesis lina lina malina 02]
+  Exhaust [base.exhaust] (Base): 1 options
+    exhaust_01                                      2 paints   4 looks  [car: v_sportbike2_arch_nemesis] [look: jackie_tuned_up] [look: lina_malina_01] [look: tygerclaws_boss_01] [style: Arch nemesis lina lina malina 02]
+  Tires [wheel.tire] (wheel_front, wheel_back): 1 options
+    tire_01                                         8 paints  30 looks  [car: v_sportbike2_arch_nemesis] [look: jackie] [look: jackie_tuned_up] [look: lina_malina_01] [look: player_01] ...
+  Rims [wheel.wheel] (wheel_front, wheel_back): 1 options
+    wheel_01                                       20 paints  30 looks  [car: v_sportbike2_arch_nemesis] [look: jackie] [look: jackie_tuned_up] [look: lina_malina_01] [look: player_01] ...
+  Fairing [steering_wheel.fairing] (steering_wheel): 3 options
+    fairing_f_b_01                                 21 paints  13 looks  [car: v_sportbike2_arch_nemesis] [look: lina_malina_01] [look: player_02] [look: q101_troy_01] [look: sport_black_02] ...
+    fairing_f_a_01                                 20 paints  10 looks  [car: v_sportbike2_arch_nemesis] [look: jackie] [look: jackie_tuned_up] [look: player_01] [look: standard_black_03] ...
+    fairing_f_c_01                                 20 paints   7 looks  [car: v_sportbike2_arch_nemesis] [look: player_03] [look: tygerclaws_boss_01] [look: tygerclaws_green_01] [look: tygerclaws_pink_01] ...
+
+KITS (3)
+  body_a_stickers_01                             1 parts   2 looks  [look: jackie] [look: jackie_tuned_up]
+  body_a_stickers_02                             1 parts   2 looks  [look: jackie_tuned_up] [look: tygerclaws_boss_01]
+  body_lightstripe_01                            1 parts   8 looks  [look: lina_malina_01] [look: player_03] [look: tygerclaws_boss_01] [look: tygerclaws_green_01] [look: tygerclaws_pink_01] ...

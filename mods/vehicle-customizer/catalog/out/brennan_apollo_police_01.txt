@@ -1,0 +1,34 @@
+Apollo 650-S Scout (brennan_apollo_police_01), from base\vehicles\sportbike\v_sportbike3_brennan_apollo_police_01.ent
+records: Vehicle.ncpd_brennan_apollo_bike, Vehicle.v_sportbike3_brennan_apollo_police
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  brennan_apollo_basic_player_02 Brennan apollo basic player 02 1 looks
+                                            kits: engine_player_a_01
+  brennan_apollo_police_basic_police_01 Brennan apollo police basic police 1 looks
+                                            kits: kit_police_body_fairing
+WRECKS: brennan_apollo_basic_burnt_player_02, brennan_apollo_police_basic_burnt_police_01
+
+SLOTS (6)
+  Body: a police [base.body] (Base): 2 options
+    body_a_police_01                                1 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_police_01]
+    body_b_player_01                                0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo basic player 02] [wreck: brennan_apollo_basic_burnt_player_02]
+  Body: back police [base.body.body_b_police] (Base): 2 options
+    body_a_player_01                                0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo basic player 02] [wreck: brennan_apollo_basic_burnt_player_02]
+    body_b_police_01                                1 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_police_01]
+  Exhaust [base.exhaust] (Base): 2 options
+    exhaust_02                                      1 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_police_01]
+    exhaust_04                                      0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo basic player 02] [wreck: brennan_apollo_basic_burnt_player_02]
+  Fairing [base.fairing] (Base): 2 options
+    fairing_player_01                               0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo basic player 02] [wreck: brennan_apollo_basic_burnt_player_02]
+    fairing_police_01                               0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_police_01]
+  Wheel (axle_back_wheel) [axle_back_wheel.wheel] (axle_back_wheel): 2 options
+    wheel_b_02                                      1 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo basic player 02] [style: Brennan apollo police basic police]
+    wheel_b_kurtz_01                                1 paints   1 looks  [car: v_sportbike3_brennan_apollo] [wreck: brennan_apollo_police_basic_burnt_police_01]
+  Wheel (wheel_front_rot_set) [wheel_front_rot_set.wheel] (wheel_front_rot_set): 2 options
+    wheel_f_02                                      1 paints   3 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo basic player 02] [style: Brennan apollo police basic police] [wreck: brennan_apollo_basic_burnt_player_02]
+    wheel_f_kurtz_01                                1 paints   1 looks  [car: v_sportbike3_brennan_apollo] [wreck: brennan_apollo_police_basic_burnt_police_01]
+
+KITS (2)
+  engine_player_a_01                             1 parts   2 looks  [style: Brennan apollo basic player 02] [wreck: brennan_apollo_basic_burnt_player_02]
+  kit_police_body_fairing                        3 parts   2 looks  [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_police_01]

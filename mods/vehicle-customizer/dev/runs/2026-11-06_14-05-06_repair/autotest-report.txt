@@ -1,0 +1,48 @@
+14:05:25 runner on; job repair; waiting for the save to load
+14:05:30 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+14:05:40 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+14:05:50 the run script says the start screen is gone
+14:05:50 waiting at the menu: start screen closed, newest save known (modded), menu here, 1 tries
+14:05:50 main menu continued the newest save; waiting for the world
+14:06:12 world loaded; job repair
+14:06:12   engine: ready: 96 catalogs, 480 pool records, 69 look files watched
+14:06:12   engine: build 1: Vehicle.vc_archer_hella__basic_01_1 called in archer_hella__basic_player_01; 2 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 1 kit parts added
+14:06:12   engine: attached: Vehicle.vc_archer_hella__basic_01_1 in archer_hella__basic_player_01, switching to its build's look
+14:06:12   engine: kept Vehicle.vc_archer_hella__basic_01_1's look archer_hella__basic_player_01 against the game's reset
+14:06:12   engine: build 2: Vehicle.vc_archer_hella__basic_01_1 rebuilt in archer_hella__basic_poor_2__vc_a; 2 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 1 kit parts added
+14:06:12 step 1: engine, save lock, light
+14:06:12 PASS engine is running
+14:06:12 PASS saving is locked for the run
+14:06:13 step 2: turn V away from their own car
+14:06:15 step 3: spawn copy 3 in the Suburban style
+14:06:15   spawned entity 10789244ULL 8 m ahead of V
+14:06:15   engine: build 3: Vehicle.vc_archer_hella__basic_01_3 called in archer_hella__basic_player_01; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:06:15   engine: attached: Vehicle.vc_archer_hella__basic_01_3 in archer_hella__basic_player_01, switching to its build's look
+14:06:15   engine: build 4: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:06:15   done waiting for the copy to appear (0.1 s)
+14:06:18 step 4: wait for the style
+14:06:18   done waiting for the Suburban look (0.0 s)
+14:06:22 step 5: clean
+14:06:22 PASS clean copy - archer_hella__basic_suburban_1__vc_a; ok (0 parts checked)
+14:06:22 SHOT r1_clean
+14:06:27 step 6: dent it and knock its front bumper off
+14:06:27   dented; DetachPart(bumper_f_01) called
+14:06:31 step 7: damaged
+14:06:31 SHOT r2_damaged
+14:06:36 step 8: repair in place, no rebuild
+14:06:36   repair event, dents reset, glass reset
+14:06:40 step 9: repaired in place
+14:06:40 SHOT r3_repaired_in_place
+14:06:45 step 10: a while later
+14:06:45 SHOT r4_repaired_a_while_later
+14:06:53 step 11: dent it again, then rebuild
+14:06:56 step 12: dented again
+14:06:56 SHOT r5_dented_again
+14:07:01 step 13: rebuild in place
+14:07:01   engine: build 5: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 kit parts added
+14:07:01   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+14:07:06 step 14: after the rebuild
+14:07:06 PASS rebuilt while dented - archer_hella__basic_suburban_1__vc_b; ok (0 parts checked)
+14:07:07 SHOT r6_dented_then_rebuilt
+14:07:12 step 15: take it away
+14:07:13 DONE 4 passed, 0 failed

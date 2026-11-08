@@ -1,0 +1,1365 @@
+{
+ "id": "thorton_mackinaw_nomad_01__basic_01",
+ "label": "Mackinaw \"Beast\"",
+ "entity": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad_01__basic_01.ent",
+ "family": "v_standard3_thorton_mackinaw_nomad",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard3_thorton_mackinaw_02_player",
+  "Vehicle.v_standard3_thorton_mackinaw_ncu_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\thorton_mackinaw_nomad.app"
+ ],
+ "styles": [
+  {
+   "id": "thorton_mackinaw_nomad_deathrace_01",
+   "code": "thorton_mackinaw_nomad_deathrace_01",
+   "label": "Thorton mackinaw nomad deathrace",
+   "base_look": "thorton_mackinaw_nomad_deathrace_01",
+   "looks": [
+    "thorton_mackinaw_nomad_deathrace_01",
+    "thorton_mackinaw_nomad_saguaro_01"
+   ],
+   "options": {
+    "bumper_back.bumper": "45377cf5",
+    "trunk_a.trunk": "01ef1900",
+    "trunk_a.trunk.trunk_b": "25a22a54",
+    "base.body": "48844911",
+    "wheel.wheel": "7298bb6d",
+    "door.door": "94cbf000"
+   },
+   "kits": [
+    "nomad_31a7",
+    "nomad_d667"
+   ]
+  },
+  {
+   "id": "thorton_mackinaw_nomad_panams_truck",
+   "code": "thorton_mackinaw_nomad_panams_truck",
+   "label": "Thorton mackinaw nomad panams truck",
+   "base_look": "thorton_mackinaw_nomad_panams_truck",
+   "looks": [
+    "thorton_mackinaw_nomad_panams_truck",
+    "thorton_mackinaw_nomad_panams_truck_q103"
+   ],
+   "options": {
+    "bumper_back.bumper": "45377cf5",
+    "trunk_a.trunk": "01ef1900",
+    "trunk_a.trunk.trunk_b": "25a22a54",
+    "base.body": "48844911",
+    "wheel.wheel": "3a2dfefd",
+    "door.door": "94cbf000"
+   },
+   "kits": [
+    "nomad_a5f8",
+    "nomad_d667"
+   ]
+  }
+ ],
+ "wrecks": [
+  "thorton_mackinaw_nomad_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "45377cf5",
+     "code": "bumper_c_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_bumper_c_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_bumper_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "panam",
+     "paints": [
+      "deathrace_01",
+      "panam"
+     ],
+     "looks": [
+      "thorton_mackinaw_nomad:default",
+      "thorton_mackinaw_nomad_deathrace_01",
+      "thorton_mackinaw_nomad_panams_truck",
+      "thorton_mackinaw_nomad_panams_truck_q103",
+      "thorton_mackinaw_nomad_saguaro_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:thorton_mackinaw_nomad_deathrace_01",
+      "style:thorton_mackinaw_nomad_panams_truck"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk: a",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "01ef1900",
+     "code": "trunk_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_trunk_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_trunk_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "panam",
+     "paints": [
+      "deathrace_01",
+      "panam"
+     ],
+     "looks": [
+      "thorton_mackinaw_nomad:default",
+      "thorton_mackinaw_nomad_deathrace_01",
+      "thorton_mackinaw_nomad_panams_truck",
+      "thorton_mackinaw_nomad_panams_truck_q103",
+      "thorton_mackinaw_nomad_saguaro_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:thorton_mackinaw_nomad_deathrace_01",
+      "style:thorton_mackinaw_nomad_panams_truck"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk.trunk_b",
+   "label": "Trunk: back",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_b"
+   ],
+   "options": [
+    {
+     "id": "25a22a54",
+     "code": "trunk_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_trunk_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "panam",
+     "paints": [
+      "deathrace_01",
+      "panam"
+     ],
+     "looks": [
+      "thorton_mackinaw_nomad:default",
+      "thorton_mackinaw_nomad_deathrace_01",
+      "thorton_mackinaw_nomad_panams_truck",
+      "thorton_mackinaw_nomad_panams_truck_q103",
+      "thorton_mackinaw_nomad_saguaro_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:thorton_mackinaw_nomad_deathrace_01",
+      "style:thorton_mackinaw_nomad_panams_truck"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "48844911",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "deathrace_01",
+      "saguaro_01"
+     ],
+     "looks": [
+      "thorton_mackinaw_nomad:default",
+      "thorton_mackinaw_nomad_burnt_01",
+      "thorton_mackinaw_nomad_deathrace_01",
+      "thorton_mackinaw_nomad_panams_truck",
+      "thorton_mackinaw_nomad_panams_truck_q103",
+      "thorton_mackinaw_nomad_saguaro_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:thorton_mackinaw_nomad_deathrace_01",
+      "style:thorton_mackinaw_nomad_panams_truck",
+      "wreck:thorton_mackinaw_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_02_<c>",
+    "wheel_02_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "3a2dfefd",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black_dusty_01",
+     "paints": [
+      "black_dusty_01"
+     ],
+     "looks": [
+      "thorton_mackinaw_nomad:default",
+      "thorton_mackinaw_nomad_panams_truck",
+      "thorton_mackinaw_nomad_panams_truck_q103"
+     ],
+     "origins": [
+      "look:default",
+      "style:thorton_mackinaw_nomad_panams_truck"
+     ]
+    },
+    {
+     "id": "7298bb6d",
+     "code": "wheel_01",
+     "vehicle": "Mackinaw MTL1",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean_01",
+      "black_dirt",
+      "green_dirt",
+      "silver_dusty_01",
+      "black_dusty"
+     ],
+     "looks": [
+      "thorton_mackinaw_nomad_deathrace_01",
+      "thorton_mackinaw_nomad_saguaro_01"
+     ],
+     "origins": [
+      "style:thorton_mackinaw_nomad_deathrace_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "94cbf000",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_fr_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "panam",
+     "paints": [
+      "deathrace_01",
+      "panam",
+      "saguaro_01"
+     ],
+     "looks": [
+      "thorton_mackinaw_nomad:default",
+      "thorton_mackinaw_nomad_deathrace_01",
+      "thorton_mackinaw_nomad_panams_truck",
+      "thorton_mackinaw_nomad_panams_truck_q103",
+      "thorton_mackinaw_nomad_saguaro_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:thorton_mackinaw_nomad_deathrace_01",
+      "style:thorton_mackinaw_nomad_panams_truck"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "nomad_d667",
+   "family": "nomad",
+   "code": "kit_nomad_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "claire_details",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_claire_01.mesh",
+     "code": "claire_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_claire_01_shadow.mesh",
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detector_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.4596,
+      2.3659,
+      -0.134
+     ],
+     "rotation": [
+      -0.11111421883106232,
+      0.006960263010114431,
+      -0.0621294304728508,
+      0.9918393492698669
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detector_medium_1620",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.4609,
+      2.367,
+      -0.134
+     ],
+     "rotation": [
+      -0.11106209456920624,
+      -0.007747509982436895,
+      0.06915663927793503,
+      0.991374135017395
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "electric_device_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_small_01.mesh",
+     "code": "light_device_small_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.4389,
+      -0.446,
+      0.9055
+     ],
+     "rotation": [
+      0.05018153786659241,
+      -0.011165773496031761,
+      0.0005610576481558383,
+      0.9986775517463684
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_small_01_shadow.mesh",
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "mackinaw_nomad_vfx_cutout",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad_fx_cutout.mesh",
+     "code": "fx_cutout",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "panam_details",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_panam_01.mesh",
+     "code": "panam_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_panam_01_shadow.mesh",
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard3_thorton_mackinaw_nomad__ext01_tire_fl_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_tire_fl_01.mesh",
+     "code": "tire_fl_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.1966,
+      -1.2924,
+      0.4096
+     ],
+     "rotation": [
+      -0.22904479503631592,
+      0.23169249296188354,
+      0.6723578572273254,
+      0.6646744012832642
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard3_thorton_mackinaw_nomad__ext01_tire_fl_3214",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+     "code": "wheel_fl_01",
+     "paint": "silver_dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.1966,
+      -1.325,
+      0.4356
+     ],
+     "rotation": [
+      -0.22904479503631592,
+      0.23169249296188354,
+      0.6723578572273254,
+      0.6646744012832642
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_windshield_01.mesh",
+     "code": "windshield_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_mackinaw_nomad:default",
+    "thorton_mackinaw_nomad_burnt_01",
+    "thorton_mackinaw_nomad_deathrace_01",
+    "thorton_mackinaw_nomad_panams_truck",
+    "thorton_mackinaw_nomad_panams_truck_q103",
+    "thorton_mackinaw_nomad_saguaro_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "style:thorton_mackinaw_nomad_deathrace_01",
+    "style:thorton_mackinaw_nomad_panams_truck",
+    "wreck:thorton_mackinaw_nomad_burnt_01"
+   ]
+  },
+  {
+   "id": "nomad_a5f8",
+   "family": "nomad",
+   "code": "kit_nomad_body_2",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "window_bl_02",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_bl_window_02.mesh",
+     "code": "door_bl_window_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_bl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:window_back_left_a"
+    },
+    {
+     "name": "window_f_02",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_windshield_02.mesh",
+     "code": "windshield_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_f",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_fl_a_02",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_fl_window_a_02.mesh",
+     "code": "door_fl_window_a_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "window_fl_b_02",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_fl_window_b_02.mesh",
+     "code": "door_fl_window_b_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "window_fr_a_02",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_fr_window_a_02.mesh",
+     "code": "door_fr_window_a_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "window_fr_b_02",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_door_fr_window_b_02.mesh",
+     "code": "door_fr_window_b_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:window_front_right_a"
+    }
+   ],
+   "looks": [
+    "thorton_mackinaw_nomad:default",
+    "thorton_mackinaw_nomad_panams_truck",
+    "thorton_mackinaw_nomad_panams_truck_q103"
+   ],
+   "made_for": [
+    "kit:nomad_d667",
+    "slot:door.door.window_a",
+    "slot:window.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "style:thorton_mackinaw_nomad_panams_truck"
+   ]
+  },
+  {
+   "id": "nomad_31a7",
+   "family": "nomad",
+   "code": "speedometer_01",
+   "where": [
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "v_standard3_thorton_mackinaw_nomad__int01_speedometer_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__int01_speedometer_01.mesh",
+     "code": "speedometer_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard3_thorton_mackinaw_nomad__int01_interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_mackinaw_nomad:default",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_mackinaw_nomad:default",
+    "thorton_mackinaw_nomad_burnt_01",
+    "thorton_mackinaw_nomad_deathrace_01",
+    "thorton_mackinaw_nomad_saguaro_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "style:thorton_mackinaw_nomad_deathrace_01",
+    "wreck:thorton_mackinaw_nomad_burnt_01"
+   ]
+  }
+ ],
+ "looks": {
+  "thorton_mackinaw_nomad_deathrace_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_mackinaw_nomad.app",
+   "app_look": "deathrace_01",
+   "style": "thorton_mackinaw_nomad_deathrace_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_a.bumper": {
+     "all": "bumper_a_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a"
+    },
+    "door.door.window_a": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "window.door": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b",
+     "bl": "window_bl"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_b": {
+     "all": "trunk_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_02_fl_a",
+     "fr": "wheel_02_fr_a",
+     "bl": "wheel_02_bl",
+     "br": "wheel_02_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_thorton_mackinaw_nomad__int01_interior_01"
+    }
+   }
+  },
+  "thorton_mackinaw_nomad_panams_truck": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_mackinaw_nomad.app",
+   "app_look": "panams_truck",
+   "style": "thorton_mackinaw_nomad_panams_truck",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_a.bumper": {
+     "all": "bumper_a_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a"
+    },
+    "door.door.window_a": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "window.door": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b",
+     "bl": "window_bl"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_b": {
+     "all": "trunk_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_thorton_mackinaw_nomad__int01_interior_01"
+    }
+   }
+  },
+  "thorton_mackinaw_nomad_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_mackinaw_nomad.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "v_standard3_thorton_mackinaw_nomad__int01_interior_01"
+    }
+   }
+  },
+  "thorton_mackinaw_nomad_panams_truck_q103": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_mackinaw_nomad.app",
+   "app_look": "panams_truck_q103",
+   "style": "thorton_mackinaw_nomad_panams_truck",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_a.bumper": {
+     "all": "bumper_a_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a"
+    },
+    "door.door.window_a": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "window.door": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b",
+     "bl": "window_bl"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_b": {
+     "all": "trunk_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_thorton_mackinaw_nomad__int01_interior_01"
+    }
+   }
+  },
+  "thorton_mackinaw_nomad_saguaro_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_mackinaw_nomad.app",
+   "app_look": "saguaro_01",
+   "style": "thorton_mackinaw_nomad_deathrace_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front_d.bumper": {
+     "all": "bumper_f_01_b"
+    },
+    "bumper_front_a.bumper": {
+     "all": "bumper_a_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a"
+    },
+    "door.door.window_a": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "window.door": {
+     "fl": "window_fl_b",
+     "fr": "window_fr_b",
+     "bl": "window_bl"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_a.trunk.trunk_b": {
+     "all": "trunk_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_02_fl_a",
+     "fr": "wheel_02_fr_a",
+     "bl": "wheel_02_bl",
+     "br": "wheel_02_br_a"
+    },
+    "base.interior": {
+     "all": "v_standard3_thorton_mackinaw_nomad__int01_interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4279,
+   0.4041,
+   0.2608,
+   -0.0993
+  ],
+  "b": [
+   0.4296,
+   0.6739,
+   0.2608,
+   -0.2596
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "6c51a7d6",
+   "rim": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Mackinaw \"Beast\"",
+   "radius": 0.4296,
+   "width": 0.6739,
+   "rim_radius": 0.2608,
+   "tire_center": -0.2596,
+   "axles": [
+    "b"
+   ],
+   "looks": 3,
+   "paints": [
+    "black_dusty_01"
+   ],
+   "default_paint": "black_dusty_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_mackinaw_nomad:default",
+    "thorton_mackinaw_nomad_panams_truck",
+    "thorton_mackinaw_nomad_panams_truck_q103"
+   ]
+  },
+  {
+   "id": "a73372be",
+   "rim": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Mackinaw \"Beast\"",
+   "radius": 0.4279,
+   "width": 0.4041,
+   "rim_radius": 0.2608,
+   "tire_center": -0.0993,
+   "axles": [
+    "f"
+   ],
+   "looks": 3,
+   "paints": [
+    "black_dusty_01"
+   ],
+   "default_paint": "black_dusty_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_mackinaw_nomad:default",
+    "thorton_mackinaw_nomad_panams_truck",
+    "thorton_mackinaw_nomad_panams_truck_q103"
+   ]
+  },
+  {
+   "id": "f3cbc346",
+   "rim": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Mackinaw MTL1",
+   "radius": 0.4296,
+   "width": 0.6739,
+   "rim_radius": 0.2794,
+   "tire_center": -0.2596,
+   "axles": [
+    "b"
+   ],
+   "looks": 2,
+   "paints": [
+    "deathrace_01"
+   ],
+   "default_paint": "deathrace_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_mackinaw_nomad_deathrace_01",
+    "thorton_mackinaw_nomad_saguaro_01"
+   ]
+  },
+  {
+   "id": "1d12506e",
+   "rim": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw_nomad\\entities\\meshes\\v_standard3_thorton_mackinaw_nomad__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Mackinaw MTL1",
+   "radius": 0.4279,
+   "width": 0.4041,
+   "rim_radius": 0.2906,
+   "tire_center": -0.0993,
+   "axles": [
+    "f"
+   ],
+   "looks": 2,
+   "paints": [
+    "clean_01",
+    "black_dirt",
+    "green_dirt",
+    "silver_dusty_01",
+    "black_dusty"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_mackinaw_nomad_deathrace_01",
+    "thorton_mackinaw_nomad_saguaro_01"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Mackinaw \"Beast\""
+  ],
+  [
+   "thorton_mackinaw_nomad_saguaro_01",
+   "Mackinaw \"Saguaro\""
+  ]
+ ]
+}

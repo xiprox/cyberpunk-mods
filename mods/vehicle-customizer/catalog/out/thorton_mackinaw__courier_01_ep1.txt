@@ -1,0 +1,55 @@
+Mackinaw MTL1 (thorton_mackinaw__courier_01_ep1), from ep1\vehicles\standard\v_standard3_thorton_mackinaw__courier_01.ent
+records: Vehicle.v_standard3_thorton_mackinaw_cargo_courier
+generated 2026-11-08
+
+STYLES (4; a style's other looks are its factory paints)
+  cargo_cargo_01           Cargo cargo      1 looks
+  cargo_cargo_02           Cargo cargo 02   1 looks
+  cargo_cargo_03           Cargo cargo 03   1 looks
+  cargo_cargo_04           Cargo cargo 04   1 looks
+WRECKS: cargo_burnt_01
+
+SLOTS (16)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_b_01                                    19 paints  24 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_c_01                                    19 paints  23 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+    bumper_c_01                                     2 paints   1 looks  [car: Mackinaw "Beast"] [style: Cargo cargo 04]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        19 paints  24 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       19 paints  22 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+  Body [base.body] (Base): 1 options
+    body_01                                        19 paints  26 looks  [look: burnt_01] [look: default] [look: player_01] [look: player_02] [look: poor_1] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    10 paints  26 looks  [look: burnt_01] [look: default] [look: player_01] [look: player_02] [look: poor_1] ...
+  Tank: gas c [base.tank] (Base): 2 options
+    gas_tank_c                                      1 paints   2 looks  [style: Cargo cargo] [style: Cargo cargo 04]
+    drug_lab_equipment_c_tank_a                     0 paints   1 looks  [style: Cargo cargo 03]
+  Tank: fuel a [base.tank.fuel_tank_a] (Base): 2 options
+    fuel_tank_a                                     4 paints   1 looks  [style: Cargo cargo 03]
+    gas_tank_e                                      2 paints   1 looks  [style: Cargo cargo]
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         3 paints  19 looks  [look: default] [look: player_02] [look: poor_1] [look: poor_1_2] [look: poor_1_3] ...
+    tire_standard_01                                0 paints   1 looks  [car: Type-66 Avenger] [look: player_01]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    wheel_01                                        5 paints  21 looks  [look: default] [look: player_02] [look: poor_1] [look: poor_1_2] [look: poor_1_3] ...
+    wheel_01                                        1 paints   2 looks  [car: Mackinaw "Beast"] [style: Cargo cargo] [style: Cargo cargo 04]
+    wheel_quadra_turbo_01                           0 paints   1 looks  [car: Type-66 Avenger] [look: player_01]
+  Doors: a [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01 + door_a_01                            19 paints  24 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+  Doors: mirror [door.door.door_mirror] (door_front_left_a, door_front_right_a): 1 options
+    door_mirror_01                                  6 paints  24 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+  Doors: window a [door.door.window_a] (door_front_left_a, door_front_right_a): 2 options
+    door_window_a_01                                2 paints  20 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+    door_window_a_courier_01                        0 paints   4 looks  [style: Cargo cargo] [style: Cargo cargo 02] [style: Cargo cargo 03] [style: Cargo cargo 04]
+  Front bumper (d) [bumper_front_d.bumper] (bumper_front_d): 1 options
+    bumper_a_01                                    19 paints  24 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+  Doors (b) [door_b.door] (door_back_left_b, door_back_right_b): 1 options
+    door_01                                        19 paints  24 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+  Door (window) [window.door] (window_front_left_a, window_front_right_a, window_back_left_a, window_back_right_a): 2 options
+    door_window_01                                  2 paints  20 looks  [look: default] [look: player_01] [look: player_02] [look: poor_1] [look: poor_1_2] ...
+    door_window_courier_01                          0 paints   4 looks  [style: Cargo cargo] [style: Cargo cargo 02] [style: Cargo cargo 03] [style: Cargo cargo 04]
+
+KITS (1)
+  kit_sticker_body                               4 parts   1 looks  [look: valentinos_01]

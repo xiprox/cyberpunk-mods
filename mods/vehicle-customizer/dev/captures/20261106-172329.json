@@ -1,0 +1,40 @@
+{
+  "camera_forward": {
+    "x": -1,
+    "y": 0.1,
+    "z": -0.3
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 21.9,
+    "x": -1231.6,
+    "y": 2264.4,
+    "z": 7.1
+  },
+  "look_object": {
+    "class": "Door",
+    "entity_id": "8468345204304797318ULL",
+    "name": "LocKey#69",
+    "position": {
+      "x": -1231.2,
+      "y": 2264.7,
+      "z": 7
+    }
+  },
+  "nearest": {
+    "distance": 8.9,
+    "gig": "sts_wat_nid_01",
+    "gig_state_from": "not found in the journal",
+    "id": "hal_cantoss_workshop",
+    "name": "Hal Cantos's workshop"
+  },
+  "note": "",
+  "player": {
+    "x": -1210.3,
+    "y": 2262.3,
+    "yaw": 84.4,
+    "z": 11.5
+  },
+  "stamp": "20261106-172329",
+  "time": "2026-11-06 17:23:29"
+}

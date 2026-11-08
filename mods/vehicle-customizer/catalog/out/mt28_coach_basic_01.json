@@ -1,0 +1,693 @@
+{
+ "id": "mt28_coach_basic_01",
+ "label": "MT28 Coach",
+ "entity": "base\\vehicles\\special\\v_mahir_mt28_coach_basic_01.ent",
+ "family": "v_mahir_mt28_coach_basic",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_mahir_mt28_coach"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\special\\mahir_mt28_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "mahir_mt28_basic_cinematic_no_strut",
+   "code": "mahir_mt28_basic_cinematic_no_strut",
+   "label": "Mahir mt28 basic cinematic no strut",
+   "base_look": "mahir_mt28_basic_cinematic_no_strut",
+   "looks": [
+    "mahir_mt28_basic_cinematic_no_strut"
+   ],
+   "options": {
+    "base.window.window_strut": "d6dbafb1",
+    "base.window.windowstatic_right_2": "095d3ad5",
+    "window.window": "c6350e3b"
+   },
+   "kits": []
+  },
+  {
+   "id": "mahir_mt28_basic_coach_01",
+   "code": "mahir_mt28_basic_coach_01",
+   "label": "Mahir mt28 basic coach",
+   "base_look": "mahir_mt28_basic_coach_01",
+   "looks": [
+    "mahir_mt28_basic_coach_01",
+    "mahir_mt28_basic_coach_closed_01"
+   ],
+   "options": {
+    "base.window.window_strut": "b55c6a49",
+    "base.window.windowstatic_right_2": "095d3ad5",
+    "window.window": "c6350e3b"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [],
+ "slots": [
+  {
+   "id": "base.window.window_strut",
+   "label": "Windshield: strut",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_mahir_mt28_coach__int01_window_no_strut_0232",
+    "v_mahir_mt28_coach__int01_window_strut_01"
+   ],
+   "options": [
+    {
+     "id": "b55c6a49",
+     "code": "window_strut_01",
+     "vehicle": "v_mahir_mt28_coach",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__int01_window_strut_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_mt28_basic:coach_q204",
+      "mahir_mt28_basic:default",
+      "mahir_mt28_basic_coach_01",
+      "mahir_mt28_basic_coach_closed_01"
+     ],
+     "origins": [
+      "look:coach_q204",
+      "look:default",
+      "style:mahir_mt28_basic_coach_01"
+     ]
+    },
+    {
+     "id": "d6dbafb1",
+     "code": "window_no_strut_01",
+     "vehicle": "v_mahir_mt28_coach",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__int01_window_no_strut_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_mt28_basic_cinematic_no_strut"
+     ],
+     "origins": [
+      "style:mahir_mt28_basic_cinematic_no_strut"
+     ]
+    },
+    {
+     "id": "688304df",
+     "code": "window_strut_01_q204",
+     "vehicle": "v_mahir_mt28_coach",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__int01_window_strut_01_q204.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_mt28_basic:coach_q204_final"
+     ],
+     "origins": [
+      "look:coach_q204_final"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.windowstatic_right_2",
+   "label": "Windshield: windowstatic right",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "windowstatic_right_4"
+   ],
+   "options": [
+    {
+     "id": "095d3ad5",
+     "code": "window_fr_04",
+     "vehicle": "v_mahir_mt28_coach",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_window_fr_04.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "opaque"
+     ],
+     "looks": [
+      "mahir_mt28_basic:coach_q204",
+      "mahir_mt28_basic:default",
+      "mahir_mt28_basic_cinematic_no_strut",
+      "mahir_mt28_basic_coach_01",
+      "mahir_mt28_basic_coach_closed_01"
+     ],
+     "origins": [
+      "look:coach_q204",
+      "look:default",
+      "style:mahir_mt28_basic_cinematic_no_strut",
+      "style:mahir_mt28_basic_coach_01"
+     ]
+    },
+    {
+     "id": "51e2b013",
+     "code": "window_fr_04_q204",
+     "vehicle": "v_mahir_mt28_coach",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_window_fr_04_q204.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "opaque"
+     ],
+     "looks": [
+      "mahir_mt28_basic:coach_q204_final"
+     ],
+     "origins": [
+      "look:coach_q204_final"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fr"
+   ],
+   "mounts": [
+    "window_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "sliding_window"
+   ],
+   "options": [
+    {
+     "id": "c6350e3b",
+     "code": "window_sliding_fr_03",
+     "vehicle": "v_mahir_mt28_coach",
+     "meshes": {
+      "fr": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_window_sliding_fr_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "opaque"
+     ],
+     "looks": [
+      "mahir_mt28_basic:default",
+      "mahir_mt28_basic_cinematic_no_strut",
+      "mahir_mt28_basic_coach_01",
+      "mahir_mt28_basic_coach_closed_01"
+     ],
+     "origins": [
+      "look:default",
+      "style:mahir_mt28_basic_cinematic_no_strut",
+      "style:mahir_mt28_basic_coach_01"
+     ]
+    },
+    {
+     "id": "06fcba05",
+     "code": "window_sliding_fr_03_q204",
+     "vehicle": "v_mahir_mt28_coach",
+     "meshes": {
+      "fr": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_window_sliding_fr_03_q204.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "opaque"
+     ],
+     "looks": [
+      "mahir_mt28_basic:coach_q204",
+      "mahir_mt28_basic:coach_q204_final"
+     ],
+     "origins": [
+      "look:coach_q204",
+      "look:coach_q204_final"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [],
+ "looks": {
+  "mahir_mt28_basic_coach_01": {
+   "app": "base\\vehicles\\appearances\\special\\mahir_mt28_basic.app",
+   "app_look": "coach_01",
+   "style": "mahir_mt28_basic_coach_01",
+   "wreck": false,
+   "parts": {
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats"
+    },
+    "window.window": {
+     "fr": "SLIDING_WINDOW"
+    },
+    "base.window": {
+     "all": "windowstatic_left_01"
+    },
+    "base.window.windowstatic_left": {
+     "all": "windowstatic_left_02"
+    },
+    "base.window.windowstatic_left_2": {
+     "all": "windowstatic_left_03"
+    },
+    "base.window.windowstatic_left_2_2": {
+     "all": "windowstatic_left_04"
+    },
+    "base.window.windowstatic_left_2_2_2": {
+     "all": "windowstatic_left_05"
+    },
+    "base.window.windowstatic_left_large": {
+     "all": "windowstatic_left_large_01"
+    },
+    "base.window.windowstatic_left_large_2": {
+     "all": "windowstatic_left_large_02"
+    },
+    "base.window.windowstatic_left_large_2_2": {
+     "all": "windowstatic_left_large_03"
+    },
+    "base.window.windowstatic_left_right": {
+     "all": "windowstatic_left_right_02"
+    },
+    "base.window.windowstatic_left_right_2": {
+     "all": "windowstatic_left_right_03"
+    },
+    "base.window.windowstatic_left_right_2_2": {
+     "all": "windowstatic_left_right_05"
+    },
+    "base.window.windowstatic_right": {
+     "all": "windowstatic_right_01"
+    },
+    "base.window.windowstatic_right_2": {
+     "all": "windowstatic_right_4"
+    },
+    "base.window.windowstatic_right_large": {
+     "all": "windowstatic_right_large_01"
+    },
+    "base.window.windowstatic_right_large_2": {
+     "all": "windowstatic_right_large_02"
+    },
+    "base.window.windshield": {
+     "all": "windshield"
+    },
+    "base.window.window_strut": {
+     "all": "v_mahir_mt28_coach__int01_window_strut_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b",
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_01_fl_b",
+     "fr": "wheel_01_fr_b",
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    }
+   }
+  },
+  "mahir_mt28_basic_cinematic_no_strut": {
+   "app": "base\\vehicles\\appearances\\special\\mahir_mt28_basic.app",
+   "app_look": "cinematic_no_strut",
+   "style": "mahir_mt28_basic_cinematic_no_strut",
+   "wreck": false,
+   "parts": {
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats"
+    },
+    "window.window": {
+     "fr": "SLIDING_WINDOW"
+    },
+    "base.window": {
+     "all": "windowstatic_left_01"
+    },
+    "base.window.windowstatic_left": {
+     "all": "windowstatic_left_02"
+    },
+    "base.window.windowstatic_left_2": {
+     "all": "windowstatic_left_03"
+    },
+    "base.window.windowstatic_left_2_2": {
+     "all": "windowstatic_left_04"
+    },
+    "base.window.windowstatic_left_2_2_2": {
+     "all": "windowstatic_left_05"
+    },
+    "base.window.windowstatic_left_large": {
+     "all": "windowstatic_left_large_01"
+    },
+    "base.window.windowstatic_left_large_2": {
+     "all": "windowstatic_left_large_02"
+    },
+    "base.window.windowstatic_left_large_2_2": {
+     "all": "windowstatic_left_large_03"
+    },
+    "base.window.windowstatic_left_right": {
+     "all": "windowstatic_left_right_02"
+    },
+    "base.window.windowstatic_left_right_2": {
+     "all": "windowstatic_left_right_03"
+    },
+    "base.window.windowstatic_left_right_2_2": {
+     "all": "windowstatic_left_right_05"
+    },
+    "base.window.windowstatic_right": {
+     "all": "windowstatic_right_01"
+    },
+    "base.window.windowstatic_right_2": {
+     "all": "windowstatic_right_4"
+    },
+    "base.window.windowstatic_right_large": {
+     "all": "windowstatic_right_large_01"
+    },
+    "base.window.windowstatic_right_large_2": {
+     "all": "windowstatic_right_large_02"
+    },
+    "base.window.windshield": {
+     "all": "windshield"
+    },
+    "base.window.window_strut": {
+     "all": "v_mahir_mt28_coach__int01_window_no_strut_0232"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b",
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_01_fl_b",
+     "fr": "wheel_01_fr_b",
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    }
+   }
+  },
+  "mahir_mt28_basic_coach_closed_01": {
+   "app": "base\\vehicles\\appearances\\special\\mahir_mt28_basic.app",
+   "app_look": "coach_closed_01",
+   "style": "mahir_mt28_basic_coach_01",
+   "wreck": false,
+   "parts": {
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats"
+    },
+    "window.window": {
+     "fr": "SLIDING_WINDOW"
+    },
+    "base.window": {
+     "all": "windowstatic_left_01"
+    },
+    "base.window.windowstatic_left": {
+     "all": "windowstatic_left_02"
+    },
+    "base.window.windowstatic_left_2": {
+     "all": "windowstatic_left_03"
+    },
+    "base.window.windowstatic_left_2_2": {
+     "all": "windowstatic_left_04"
+    },
+    "base.window.windowstatic_left_2_2_2": {
+     "all": "windowstatic_left_05"
+    },
+    "base.window.windowstatic_left_large": {
+     "all": "windowstatic_left_large_01"
+    },
+    "base.window.windowstatic_left_large_2": {
+     "all": "windowstatic_left_large_02"
+    },
+    "base.window.windowstatic_left_large_2_2": {
+     "all": "windowstatic_left_large_03"
+    },
+    "base.window.windowstatic_left_right": {
+     "all": "windowstatic_left_right_02"
+    },
+    "base.window.windowstatic_left_right_2": {
+     "all": "windowstatic_left_right_03"
+    },
+    "base.window.windowstatic_left_right_2_2": {
+     "all": "windowstatic_left_right_05"
+    },
+    "base.window.windowstatic_right": {
+     "all": "windowstatic_right_01"
+    },
+    "base.window.windowstatic_right_2": {
+     "all": "windowstatic_right_4"
+    },
+    "base.window.windowstatic_right_large": {
+     "all": "windowstatic_right_large_01"
+    },
+    "base.window.windowstatic_right_large_2": {
+     "all": "windowstatic_right_large_02"
+    },
+    "base.window.windshield": {
+     "all": "windshield"
+    },
+    "base.window.window_strut": {
+     "all": "v_mahir_mt28_coach__int01_window_strut_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_lights": {
+     "all": "body_lights_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b",
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_01_fl_b",
+     "fr": "wheel_01_fr_b",
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4658,
+   0.4371,
+   0.386,
+   -0.0101
+  ],
+  "b": [
+   0.4658,
+   0.5707,
+   0.2908,
+   0.0639
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "c9e747dc",
+   "rim": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_wheel_bl.mesh",
+   "tire": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_tire_bl.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_tire_bl_shadow.mesh",
+   "code": "wheel_bl",
+   "tire_code": "tire_bl",
+   "from": "MT28 Coach",
+   "radius": 0.4658,
+   "width": 0.5707,
+   "rim_radius": 0.2908,
+   "tire_center": 0.0639,
+   "axles": [
+    "b"
+   ],
+   "looks": 6,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mahir_mt28_basic:coach_q204",
+    "mahir_mt28_basic:coach_q204_final",
+    "mahir_mt28_basic:default",
+    "mahir_mt28_basic_cinematic_no_strut",
+    "mahir_mt28_basic_coach_01",
+    "mahir_mt28_basic_coach_closed_01"
+   ]
+  },
+  {
+   "id": "86ec9494",
+   "rim": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_wheel_fl.mesh",
+   "tire": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_tire_fl.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\special\\v_mahir_mt28_coach\\entities\\meshes\\v_mahir_mt28_coach__ext01_tire_fl_shadow.mesh",
+   "code": "wheel_fl",
+   "tire_code": "tire_fl",
+   "from": "MT28 Coach",
+   "radius": 0.4658,
+   "width": 0.4371,
+   "rim_radius": 0.386,
+   "tire_center": -0.0101,
+   "axles": [
+    "f"
+   ],
+   "looks": 6,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mahir_mt28_basic:coach_q204",
+    "mahir_mt28_basic:coach_q204_final",
+    "mahir_mt28_basic:default",
+    "mahir_mt28_basic_cinematic_no_strut",
+    "mahir_mt28_basic_coach_01",
+    "mahir_mt28_basic_coach_closed_01"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "MT28 Coach"
+  ]
+ ]
+}

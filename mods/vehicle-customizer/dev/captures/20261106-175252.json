@@ -1,0 +1,30 @@
+{
+  "camera_forward": {
+    "x": 0.7,
+    "y": -0.7,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 399.9,
+    "x": -365.1,
+    "y": -1423.6,
+    "z": -6.7
+  },
+  "nearest": {
+    "distance": 19.9,
+    "gig": "sts_std_arr_06",
+    "gig_state_from": "not found in the journal",
+    "id": "6th_street_workshop_at_a_kang_tao_site",
+    "name": "6th Street workshop at a Kang Tao site"
+  },
+  "note": "",
+  "player": {
+    "x": -643.7,
+    "y": -1136.9,
+    "yaw": -135.8,
+    "z": 7.8
+  },
+  "stamp": "20261106-175252",
+  "time": "2026-11-06 17:52:52"
+}

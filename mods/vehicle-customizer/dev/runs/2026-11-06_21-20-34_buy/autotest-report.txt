@@ -1,0 +1,37 @@
+21:20:55 runner on; job buy; waiting for the save to load
+21:21:00 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+21:21:10 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+21:21:15 the run script says the start screen is gone
+21:21:15 main menu continued the newest save; waiting for the world
+21:21:38 world loaded; job buy
+21:21:38   engine: ready: 96 catalogs, 480 pool records, 96 entity files watched
+21:21:38   engine: build 1: Vehicle.vc_archer_quartz__basic_01_1 called in archer_quartz__basic_suburban_1_1; 3 parts swapped, 2 repainted, 0 added where the look has none, 0 failed, 4 wheel parts fitted, 0 kit parts added
+21:21:38   engine: attached: Vehicle.vc_archer_quartz__basic_01_1 in archer_quartz__basic_suburban_1_1, switching to its build's look
+21:21:38   engine: kept Vehicle.vc_archer_quartz__basic_01_1's look archer_quartz__basic_suburban_1_1 against the game's reset
+21:21:38   engine: build 2: Vehicle.vc_archer_quartz__basic_01_1 rebuilt in archer_quartz__basic_tygerclaws_01__vc_a; 3 parts swapped, 3 repainted, 0 added where the look has none, 0 failed, 4 wheel parts fitted, 0 kit parts added
+21:21:38 step 1: cars: archer_hella__basic_01, archer_quartz__basic_01, herrera_outlaw_basic_01, brennan_apollo_basic_01_ep1; screen closed
+21:21:38 SHOT start
+21:21:39 step 2: archer_hella__basic_01: pick a free copy (the screen's FreeCopy)
+21:21:39 PASS archer_hella__basic_01: a free copy - copy index 0, Vehicle.vc_archer_hella__basic_01_1, style combatcab_01 (archer_hella__basic_combatcab_01)
+21:21:40 step 3: archer_hella__basic_01: save its build
+21:21:40 PASS archer_hella__basic_01: build saved - look=archer_hella__basic_combatcab_01
+21:21:41 step 4: archer_hella__basic_01: unlock it in V's garage (the game's EnablePlayerVehicleID)
+21:21:41   unlock answered true
+21:21:43 step 5: archer_hella__basic_01: ask the garage whether it has it (IsVehiclePlayerUnlocked)
+21:21:43 PASS archer_hella__basic_01: in the garage
+21:21:44 step 6: archer_hella__basic_01: ask the garage about all 480 copies, as the screen did every second
+21:21:44   2 pool copies in the garage
+21:21:45 step 7: archer_hella__basic_01: select it (the screen's SetTarget)
+21:21:46 step 8: archer_hella__basic_01: bring it here (the screen's spawn in front of V)
+21:21:46   engine: Vehicle.vc_archer_hella__basic_01_1: spawn asked at -2381.8, -2255.5, 12, 7.0 m from V, w 0; spawner ready true
+21:21:46   engine: build 3: Vehicle.vc_archer_hella__basic_01_1 called in archer_hella__basic_player_01; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+21:21:46   engine: attached: Vehicle.vc_archer_hella__basic_01_1 in archer_hella__basic_player_01, switching to its build's look
+21:21:46   engine: build 4: Vehicle.vc_archer_hella__basic_01_1 rebuilt in archer_hella__basic_combatcab_01__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+21:21:46   done waiting for archer_hella__basic_01 to appear (0.2 s)
+21:21:46   engine: Vehicle.vc_archer_hella__basic_01_1 spawned in front of V; NightCoop share answered 0
+21:21:48 step 9: archer_hella__basic_01: did it appear
+21:21:48 PASS archer_hella__basic_01: spawned in front of V - 7.0 m from V
+21:21:48 SHOT archer_hella__basic_01_spawned
+21:21:50 step 10: archer_hella__basic_01: is the build still saved
+21:21:50 PASS archer_hella__basic_01: build kept - look=archer_hella__basic_combatcab_01
+21:21:51 step 11: archer_hella__basic_01: the screen's whole Buy, on the next free copy

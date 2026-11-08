@@ -1,0 +1,33 @@
+Bratsk U4020 (kaukaz_bratsk_extended__basic_01), from base\vehicles\utility\v_utility4_kaukaz_bratsk_extended__basic_01.ent
+records: Vehicle.v_utility4_kaukaz_bratsk_extended, Vehicle.v_utility4_kaukaz_bratsk_extended_locked_doors
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  kaukaz_bratsk_extended_sq027_basilsk_cargo_body Kaukaz bratsk extended sq027 basilsk cargo body 1 looks
+                                            kits: kit_militech_body_doors
+  kaukaz_bratsk_extended_sq027_basilsk_cargo_wings Kaukaz bratsk extended sq027 basilsk cargo wings 1 looks
+                                            kits: kit_militech_body_doors
+WRECKS: kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt, kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt
+
+SLOTS (9)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_02                                    17 paints   6 looks  [car: Bratsk U4020] [look: burnt_01] [look: default] [style: Kaukaz bratsk extended sq027 basilsk cargo body] [style: Kaukaz bratsk extended sq027 basilsk cargo wings] ...
+  Body: av militech basilisk ext01 [base.body.av_militech_basilisk_ext01_body] (Base): 1 options
+    body                                            2 paints   2 looks  [car: BASILISK] [style: Kaukaz bratsk extended sq027 basilsk cargo body] [wreck: kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt]
+  Body: av militech basilisk ext01 kit transport [base.body.av_militech_basilisk_ext01_body_kit_transport] (Base): 1 options
+    body_kit_transport                              2 paints   2 looks  [car: BASILISK] [style: Kaukaz bratsk extended sq027 basilsk cargo body] [wreck: kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt]
+  Trunk: av militech basilisk ext01 a [base.trunk] (Base): 1 options
+    trunk_a                                         2 paints   2 looks  [car: BASILISK] [style: Kaukaz bratsk extended sq027 basilsk cargo body] [wreck: kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt]
+  Trunk: av militech basilisk ext01 back [base.trunk.av_militech_basilisk_ext01_trunk_b] (Base): 1 options
+    trunk_b                                         2 paints   2 looks  [car: BASILISK] [style: Kaukaz bratsk extended sq027 basilsk cargo body] [wreck: kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt]
+  Wings: av militech basilisk ext01 left [base.wing] (Base): 1 options
+    wing_left                                       2 paints   2 looks  [car: BASILISK] [style: Kaukaz bratsk extended sq027 basilsk cargo wings] [wreck: kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt]
+  Wings: av militech basilisk ext01 left kit transport [base.wing.av_militech_basilisk_ext01_wing_left_kit_transport] (Base): 1 options
+    wing_left_kit_transport                         2 paints   2 looks  [car: BASILISK] [style: Kaukaz bratsk extended sq027 basilsk cargo wings] [wreck: kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt]
+  Wings: av militech basilisk ext01 right [base.wing.av_militech_basilisk_ext01_wing_right] (Base): 1 options
+    wing_right                                      2 paints   2 looks  [car: BASILISK] [style: Kaukaz bratsk extended sq027 basilsk cargo wings] [wreck: kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt]
+  Wings: av militech basilisk ext01 right kit transport [base.wing.av_militech_basilisk_ext01_wing_right_kit_transport] (Base): 1 options
+    wing_right_kit_transport                        2 paints   2 looks  [car: BASILISK] [style: Kaukaz bratsk extended sq027 basilsk cargo wings] [wreck: kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt]
+
+KITS (1)
+  kit_militech_body_doors                        4 parts   6 looks  [look: burnt_01] [look: default] [style: Kaukaz bratsk extended sq027 basilsk cargo body] [style: Kaukaz bratsk extended sq027 basilsk cargo wings] [wreck: kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt] ...

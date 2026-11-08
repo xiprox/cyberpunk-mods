@@ -1,0 +1,81 @@
+Emperor 620 Ragnar (chevalier_emperor_01__basic_01), from base\vehicles\standard\v_standard3_chevalier_emperor_01__basic_01.ent
+records: Vehicle.v_standard3_chevalier_emperor_player
+generated 2026-11-08
+
+STYLES (6; a style's other looks are its factory paints)
+  arasaka_q000_chase_01    Arasaka q000 chase 6 looks
+                                            paints: arasaka_q000_chase_02, arasaka_q000_chase_03, arasaka_01, zetatech_01, zetatech_02
+                                            kits: door_bl_stickers_01, door_fl_stickers_01, kit_sticker_doors, hood_a_stickers_01
+  autonomous_truck         Autonomous truck 1 looks
+                                            kits: door_bl_stickers_01
+  chevalier_emperor_nusa_nusa_01 Chevalier emperor nusa nusa 1 looks
+                                            kits: door_bl_stickers_01, door_fl_stickers_01, kit_sticker_body_doors
+  militech                 Militech         2 looks
+                                            paints: militech_camo_01
+                                            kits: light_device_medium_02, door_bl_stickers_01, door_fl_stickers_01, kit_sticker_doors, hood_a_stickers_01
+  netwatch_01              Netwatch         1 looks
+                                            kits: trunk_c_stickers_netwatch_01, trunk_a_stickers_netwatch_01, door_bl_stickers_01, door_fl_stickers_01, kit_sticker_doors
+  suburban_1               Suburban         14 looks
+                                            paints: suburban_1_2, suburban_1_3, suburban_1_4, suburban_1_5, suburban_1_6, urban_1, player_01, urban_1_3, urban_1_4, urban_1_5, urban_1_6, mobile_lab, deathrace_01
+                                            kits: door_bl_stickers_01
+WRECKS: burnt, mobile_lab_burnt
+
+SLOTS (19)
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_a_01                                      25 paints  31 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_a_01                                     25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Body [base.body] (Base): 1 options
+    body_01                                        25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Bumper (Base): a a [base.bumper] (Base): 1 options
+    bumper_f_01_a                                  25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Bumper (Base): back [base.bumper.bumper_b] (Base): 1 options
+    bumper_b_01_b                                  25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Bumper (Base): back a [base.bumper.bumper_b_a] (Base): 1 options
+    bumper_b_01_a                                  25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Bumper (Base): front back [base.bumper.bumper_f_b] (Base): 1 options
+    bumper_f_01_b                                  25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    11 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_generic_01                                 6 paints  31 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    wheel_01                                        2 paints  28 looks  [look: default1] [look: militech_q003] [look: q305_hologram] [look: q305_hologram_red] [style: Arasaka q000 chase] ...
+    wheel_bratsk_01                                 0 paints   2 looks  [look: autonomous_zetatech_01] [style: Autonomous truck]
+    police_wheel_police_01 + police_wheel_police_0  0 paints   1 looks  [look: police]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                        25 paints  32 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Front bumper (c) [bumper_front_c.bumper] (bumper_front_c): 1 options
+    bumper_f_01_c                                  25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Front bumper (d) [bumper_front_d.bumper] (bumper_front_d): 1 options
+    bumper_f_01_d                                  25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Hood (b) [hood_b.hood] (hood_b): 1 options
+    hood_b_01                                      25 paints  31 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Hood (c) [hood_c.hood] (hood_c): 1 options
+    hood_c_01                                      25 paints  31 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Trunk (b) [trunk_b.trunk] (trunk_b): 1 options
+    trunk_b_01                                     25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Trunk (c) [trunk_c.trunk] (trunk_c): 1 options
+    trunk_c_01                                     25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Trunk (d) [trunk_d.trunk] (trunk_d): 1 options
+    trunk_d_01                                     25 paints  33 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+  Door (window) [window.door] (window_front_left_a, window_front_right_a, window_back_left_a, window_back_right_a): 1 options
+    door_window_01                                  3 paints  32 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+
+KITS (10)
+  trunk_a_stickers_netwatch_01                   1 parts   2 looks  [look: police] [style: Netwatch]
+  trunk_c_stickers_netwatch_01                   1 parts   1 looks  [style: Netwatch]
+  light_device_medium_02                         1 parts   2 looks  [style: Militech]
+  kit_police_body_bumper_doors_hood_trunk        34 parts   1 looks  [look: police]
+                                                 made to sit on base.body.body_police, Doors, Hood, Hood (b), Hood (c), Door (window)
+  kit_police_trunk                               2 parts   2 looks  [look: police] [wreck: burnt]
+  door_bl_stickers_01                            1 parts  32 looks  [look: autonomous_zetatech_01] [look: default1] [look: militech_q003] [look: police] [look: q305_hologram] ...
+                                                 made to sit on Doors
+  door_fl_stickers_01                            1 parts  13 looks  [look: militech_q003] [look: q305_hologram] [look: q305_hologram_red] [style: Arasaka q000 chase] [style: Chevalier emperor nusa nusa] ...
+                                                 made to sit on Doors
+  hood_a_stickers_01                             1 parts   9 looks  [look: militech_q003] [style: Arasaka q000 chase] [style: Militech]
+                                                 made to sit on Hood
+  kit_sticker_body_doors                         5 parts   3 looks  [look: q305_hologram] [look: q305_hologram_red] [style: Chevalier emperor nusa nusa]
+                                                 made to sit on Doors
+  kit_sticker_doors                              2 parts  10 looks  [look: militech_q003] [style: Arasaka q000 chase] [style: Militech] [style: Netwatch]
+                                                 made to sit on Doors

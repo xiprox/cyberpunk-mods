@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<bindings>
+    <!-- The game leaves the radio key out of a passenger's input context. Only that action, not
+         VehicleAuxillary, which would also bring the siren and visual customization. -->
+    <context name="VehiclePassenger" append="true">
+        <action name="VehicleInsideWheel" map="VehicleInsideWheel_Button" />
+    </context>
+</bindings>

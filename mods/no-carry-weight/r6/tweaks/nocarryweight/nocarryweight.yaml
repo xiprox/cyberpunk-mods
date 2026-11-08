@@ -1,0 +1,10 @@
+# Raises V's carry capacity well past what an inventory normally weighs.
+# 1000 keeps the menus' weight readout short, at four digits.
+# This adds to the game's 200, so perks, cyberware and boosters still count.
+Character.Player_Primary_Stats_Base:
+  statModifiers:
+    - !append
+       $type: gamedataConstantStatModifier_Record
+       statType: BaseStats.CarryCapacity
+       modifierType: Additive
+       value: 1000

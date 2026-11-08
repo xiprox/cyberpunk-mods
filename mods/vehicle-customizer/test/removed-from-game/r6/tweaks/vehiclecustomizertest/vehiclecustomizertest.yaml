@@ -1,0 +1,33 @@
+# Temporary copies for the in-game test (vehicle-customizer/RECORD.md): two of V's Archer Hella,
+# and three vehicles V can't own in the game.
+# The VehicleCustomizerTest window adds them to the garage and removes them again.
+# Delete this folder once the test is over.
+
+# Looks exactly like the stock car, so changes on it can be compared with the stock one.
+Vehicle.v_standard2_archer_hella_player_vctest:
+  $base: Vehicle.v_standard2_archer_hella_player
+
+# Spawns with another of the Hella's looks, chosen only by this record. The name must be one of the
+# looks the Hella's entity file lists (experiments/areas/game-files/results/hella-looks-*.txt):
+# any other name gets a random look on every spawn, as deathrace_01 did in the first run.
+Vehicle.v_standard2_archer_hella_player_vctest_b:
+  $base: Vehicle.v_standard2_archer_hella_player
+  appearanceName: archer_hella__basic_6th_street_01
+
+# Two models the game never lets V own, from their traffic records, to see whether the garage takes them.
+Vehicle.v_utility4_kaukaz_bratsk_vctest:
+  $base: Vehicle.v_utility4_kaukaz_bratsk
+
+Vehicle.v_utility4_chevalier_centurion_vctest:
+  $base: Vehicle.v_utility4_chevalier_centurion
+
+# An AV, which the game never lets V fly, for use with a flight mod.
+Vehicle.av_rayfield_excalibur_vctest:
+  $base: Vehicle.av_rayfield_excalibur
+
+Vehicle.vehicle_list.list:
+  - !append Vehicle.v_standard2_archer_hella_player_vctest
+  - !append Vehicle.v_standard2_archer_hella_player_vctest_b
+  - !append Vehicle.v_utility4_kaukaz_bratsk_vctest
+  - !append Vehicle.v_utility4_chevalier_centurion_vctest
+  - !append Vehicle.av_rayfield_excalibur_vctest

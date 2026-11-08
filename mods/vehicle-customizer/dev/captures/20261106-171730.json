@@ -1,0 +1,31 @@
+{
+  "camera_forward": {
+    "x": -0.3,
+    "y": 0.8,
+    "z": -0.5
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 399.2,
+    "x": 131.9,
+    "y": -770.4,
+    "z": -163.9
+  },
+  "nearest": {
+    "distance": 9.1,
+    "gig": "sts_std_rcr_04",
+    "gig_state": "Active",
+    "gig_state_from": "id sts_std_rcr_04",
+    "id": "garage_no_66",
+    "name": "Garage no. 66"
+  },
+  "note": "",
+  "player": {
+    "x": 260.8,
+    "y": -1096,
+    "yaw": 21.6,
+    "z": 27.9
+  },
+  "stamp": "20261106-171730",
+  "time": "2026-11-06 17:17:30"
+}

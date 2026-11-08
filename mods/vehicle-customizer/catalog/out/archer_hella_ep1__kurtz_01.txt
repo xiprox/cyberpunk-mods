@@ -1,0 +1,97 @@
+Hella EC-D i360 (archer_hella_ep1__kurtz_01), from ep1\vehicles\standard\v_standard2_archer_hella_ep1__kurtz_01.ent
+records: Vehicle.v_standard2_archer_hella_kurtz
+generated 2026-11-08
+
+STYLES (3; a style's other looks are its factory paints)
+  archer_hella_kurtz_basic_kurtz_1 Archer hella kurtz basic kurtz 1 looks
+                                            kits: kit_6th_street_interior, body_stickers_kurtz_01, light_device_medium_02, kit_police_doors, kit_police_hood_trunk
+  archer_hella_kurtz_basic_kurtz_2 Archer hella kurtz basic kurtz 2 1 looks
+                                            kits: kit_6th_street_interior, door_br_sticker_6th_street, door_br_sticker_combatcab_02, light_device_medium_02, kit_police_hood_trunk
+  archer_hella_kurtz_basic_kurtz_3 Archer hella kurtz basic kurtz 3 1 looks
+                                            kits: kit_6th_street_interior, body_stickers_kurtz_01, light_device_medium_02
+WRECKS: burnt_01
+
+SLOTS (18)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_01                                    20 paints  38 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: default] ...
+    junk_bumper_f_01                                2 paints   8 looks  [look: poor_3] [look: poor_3_1] [look: poor_3_2] [look: poor_3_3] [look: poor_3_4] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    20 paints  34 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: default] ...
+    junk_bumper_b_01                                2 paints  11 looks  [look: player_01] [look: player_damaged_01] [look: poor_2] [look: poor_2_1] [look: poor_2_2] ...
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        21 paints  37 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: default] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       21 paints  46 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: default] ...
+  Body: main [base.body] (Base): 1 options
+    body_01                                        21 paints  50 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: deathrace_burnt_01] ...
+  Body: police [base.body.police_body] (Base): 2 options
+    police_body_01                                  0 paints   7 looks  [look: deathrace_01] [look: deathrace_burnt_01] [look: police_01] [look: police_burnt_01] [style: Archer hella kurtz basic kurtz] ...
+    body_player_01                                  0 paints   3 looks  [look: player_01] [look: player_burnt_01] [look: player_damaged_01]
+  Interior: trunk [base.interior] (Base): 1 options
+    interior_trunk_01                              15 paints  50 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: deathrace_burnt_01] ...
+  Interior: main [base.interior.interior] (Base): 2 options
+    interior_01                                    15 paints  49 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: deathrace_burnt_01] ...
+    interior_02                                    15 paints   1 looks  [look: ep_10]
+  Seats: front left a [base.seat] (Base): 1 options
+    seat_fl_a_01                                   15 paints   1 looks  [look: ep_10]
+  Seats: front right a [base.seat.seat_fr_a] (Base): 1 options
+    seat_fr_a_01                                   15 paints   1 looks  [look: ep_10]
+  Windshield: back [base.window] (Base): 1 options
+    window_b_01                                     2 paints  50 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: deathrace_burnt_01] ...
+  Windshield: back left [base.window.window_bl] (Base): 1 options
+    window_bl_02_01                                 2 paints  50 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: deathrace_burnt_01] ...
+  Windshield: back right [base.window.window_br] (Base): 1 options
+    window_br_02_01                                 2 paints  50 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: deathrace_burnt_01] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 5 options
+    tire_01                                         3 paints  25 looks  [look: after_accident_01] [look: combatcab_01] [look: default] [look: ep_10] [look: poor_2] ...
+    tire_standard_01                                0 paints  11 looks  [look: 6th_street_01] [look: poor_1] [look: poor_1_1] [look: poor_1_2] [look: poor_1_3] ...
+    tire_police_01                                  0 paints   5 looks  [car: Cortes V5000 Valor] [look: deathrace_01] [look: police_01] [look: scavenger_2] [style: Archer hella kurtz basic kurtz 2] ...
+    police_tire_01                                  0 paints   3 looks  [look: poor_4] [look: poor_4_1] [look: poor_4_2]
+    tire_01                                         1 paints   2 looks  [car: Turbo-R 740] [look: player_01] [look: player_damaged_01]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 5 options
+    wheel_01                                        0 paints  25 looks  [look: after_accident_01] [look: combatcab_01] [look: default] [look: ep_10] [look: poor_2] ...
+    wheel_03                                        3 paints  11 looks  [look: 6th_street_01] [look: poor_1] [look: poor_1_1] [look: poor_1_2] [look: poor_1_3] ...
+    wheel_police_02                                 6 paints   5 looks  [car: Cortes V5000 Valor] [look: deathrace_01] [look: police_01] [look: scavenger_2] [style: Archer hella kurtz basic kurtz 2] ...
+    police_wheel_01                                 0 paints   3 looks  [look: poor_4] [look: poor_4_1] [look: poor_4_2]
+    wheel_01                                        3 paints   2 looks  [car: Turbo-R 740] [look: player_01] [look: player_damaged_01]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                        21 paints  46 looks  [look: 6th_street_01] [look: after_accident_01] [look: combatcab_01] [look: deathrace_01] [look: default] ...
+  Seats [backrest_front_left.seat] (backrest_front_left): 1 options
+    seat_fl_b_01                                   15 paints   1 looks  [look: ep_10]
+  Seats [backrest_front_right.seat] (backrest_front_right): 1 options
+    seat_fr_b_01                                   15 paints   1 looks  [look: ep_10]
+
+KITS (18)
+  door_br_sticker_6th_street                     1 parts  27 looks  [look: 6th_street_01] [look: combatcab_01] [look: poor_1] [look: poor_1_1] [look: poor_1_2] ...
+                                                 made to sit on Doors
+  hood_sticker_6th_street                        1 parts  12 looks  [look: 6th_street_01] [look: combatcab_01] [look: poor_1] [look: poor_1_1] [look: poor_1_2] ...
+                                                 made to sit on Hood
+  kit_6th_street_body_doors_trunk                4 parts  26 looks  [look: 6th_street_01] [look: combatcab_01] [look: poor_1] [look: poor_1_1] [look: poor_1_2] ...
+                                                 made to sit on Doors, Trunk
+  kit_6th_street_interior                        5 parts  29 looks  [look: 6th_street_01] [look: combatcab_01] [look: poor_1] [look: poor_1_1] [look: poor_1_2] ...
+  door_br_sticker_combatcab_02                   1 parts   3 looks  [look: combatcab_01] [look: q304_combatcab_01] [style: Archer hella kurtz basic kurtz 2]
+                                                 made to sit on Doors
+  kit_combatcab_body_doors_hood                  6 parts   2 looks  [look: combatcab_01] [look: q304_combatcab_01]
+                                                 made to sit on Doors, Hood
+  body_stickers_kurtz_01                         1 parts   2 looks  [style: Archer hella kurtz basic kurtz] [style: Archer hella kurtz basic kurtz 3]
+  light_device_medium_02                         1 parts   5 looks  [look: deathrace_01] [look: police_01] [style: Archer hella kurtz basic kurtz] [style: Archer hella kurtz basic kurtz 2] [style: Archer hella kurtz basic kurtz 3]
+                                                 made to sit on bumper_front.bumper.police_bumper_f
+  body_player_stripe_01                          1 parts   3 looks  [look: player_01] [look: player_burnt_01] [look: player_damaged_01]
+                                                 made to sit on Body: police
+  kit_player_body_bumper_doors                   6 parts   2 looks  [look: player_01] [look: player_damaged_01]
+                                                 made to sit on Front bumper, Doors
+  trunk_player_01                                1 parts  28 looks  [look: 6th_street_01] [look: combatcab_01] [look: player_01] [look: player_damaged_01] [look: poor_1] ...
+                                                 made to sit on Trunk
+  kit_police_body                                3 parts   3 looks  [look: deathrace_burnt_01] [look: police_01] [look: police_burnt_01]
+                                                 made to sit on Body: police
+  kit_police_doors                               2 parts   3 looks  [look: deathrace_01] [look: police_01] [style: Archer hella kurtz basic kurtz]
+                                                 made to sit on Doors
+  kit_police_doors_2                             4 parts   1 looks  [look: police_01]
+                                                 made to sit on Doors
+  kit_police_hood_trunk                          4 parts   3 looks  [look: police_01] [style: Archer hella kurtz basic kurtz] [style: Archer hella kurtz basic kurtz 2]
+                                                 made to sit on Hood, Trunk
+  kit_scavengers_body                            3 parts   2 looks  [look: scavenger_1] [look: scavenger_2]
+  kit_scavengers_body_doors                      2 parts   1 looks  [look: scavenger_2]
+                                                 made to sit on Doors
+  kit_scavengers_body_hood                       3 parts   1 looks  [look: scavenger_1]
+                                                 made to sit on Hood

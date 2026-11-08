@@ -1,0 +1,40 @@
+{
+  "camera_forward": {
+    "x": 0.1,
+    "y": -1,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 18.9,
+    "x": -649,
+    "y": -1142.5,
+    "z": 7.8
+  },
+  "look_object": {
+    "class": "DisposalDevice",
+    "entity_id": "17144667294508858720ULL",
+    "name": "Gameplay-Devices-DisplayNames-GarbageDumpster",
+    "position": {
+      "x": -648.6,
+      "y": -1143.2,
+      "z": 7.6
+    }
+  },
+  "nearest": {
+    "distance": 35.3,
+    "gig": "sts_std_arr_06",
+    "gig_state_from": "not found in the journal",
+    "id": "6th_street_workshop_at_a_kang_tao_site",
+    "name": "6th Street workshop at a Kang Tao site"
+  },
+  "note": "",
+  "player": {
+    "x": -651.6,
+    "y": -1123.7,
+    "yaw": -172,
+    "z": 7.7
+  },
+  "stamp": "20261106-175238",
+  "time": "2026-11-06 17:52:38"
+}

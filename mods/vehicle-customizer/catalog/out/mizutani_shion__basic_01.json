@@ -1,0 +1,4462 @@
+{
+ "id": "mizutani_shion__basic_01",
+ "label": "Shion MZ1",
+ "entity": "base\\vehicles\\sport\\v_sport2_mizutani_shion__basic_01.ent",
+ "family": "v_sport2_mizutani_shion",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_sport2_mizutani_shion_base_player",
+  "Vehicle.v_sport2_mizutani_shion_player",
+  "Vehicle.v_sport2_mizutani_shion_targa_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "suburban_01",
+   "code": "suburban_01",
+   "label": "Suburban",
+   "base_look": "mizutani_shion__basic_suburban_01",
+   "looks": [
+    "mizutani_shion__basic_suburban_01",
+    "mizutani_shion__basic_suburban_02",
+    "mizutani_shion__basic_suburban_03",
+    "mizutani_shion__basic_suburban_04",
+    "mizutani_shion__basic_suburban_05",
+    "mizutani_shion__basic_suburban_06",
+    "mizutani_shion__basic_suburban_07",
+    "mizutani_shion__basic_poor_01",
+    "mizutani_shion__basic_poor_02",
+    "mizutani_shion__basic_poor_03",
+    "mizutani_shion__basic_poor_04",
+    "mizutani_shion__basic_poor_05"
+   ],
+   "options": {
+    "bumper_front.bumper": "70546ab5",
+    "bumper_back.bumper": "df1ba7db",
+    "hood_a.hood": "422da8a7",
+    "trunk_a.trunk": "724693ef",
+    "base.body": "d97c0bee",
+    "base.interior": "a0b98be8",
+    "base.window": "cbd6cb9b",
+    "wheel.tire": "29ae4380",
+    "wheel.wheel": "6632227d",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "window.window": "f2ea3f79"
+   },
+   "kits": [
+    "tyger_71be",
+    "tyger_b3f2"
+   ]
+  },
+  {
+   "id": "targa_01_q101",
+   "code": "targa_01_q101",
+   "label": "Targa 01 q101",
+   "base_look": "mizutani_shion__basic_targa_01_q101",
+   "looks": [
+    "mizutani_shion__basic_targa_01_q101",
+    "mizutani_shion__basic_targa_01",
+    "mizutani_shion__basic_targa_red",
+    "mizutani_shion__basic_targa_blue",
+    "mizutani_shion__basic_targa_black"
+   ],
+   "options": {
+    "bumper_front.bumper": "3fa6a415",
+    "bumper_back.bumper": "1a823937",
+    "hood_a.hood": "422da8a7",
+    "base.body": "11b1b31e",
+    "base.interior": "35cf4920",
+    "base.window": "3993513b",
+    "base.window.window_frame": "648d5394",
+    "wheel.tire": "b2b2c280",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "window.window": "f2ea3f79"
+   },
+   "kits": [
+    "tyger_71be"
+   ]
+  },
+  {
+   "id": "tygerclaws_01",
+   "code": "tygerclaws_01",
+   "label": "Tygerclaws",
+   "base_look": "mizutani_shion__basic_tygerclaws_01",
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "70546ab5",
+    "bumper_back.bumper": "df1ba7db",
+    "hood_a.hood": "422da8a7",
+    "trunk_a.trunk": "724693ef",
+    "base.body": "d97c0bee",
+    "base.interior": "a0b98be8",
+    "base.window": "cbd6cb9b",
+    "wheel.tire": "29ae4380",
+    "wheel.wheel": "6632227d",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "window.window": "f2ea3f79"
+   },
+   "kits": [
+    "tyger_03c3",
+    "tyger_2caf",
+    "tyger_71be",
+    "tyger_b3f2",
+    "tyger_dba8",
+    "tyger_e16a"
+   ]
+  },
+  {
+   "id": "tygerclaws_02",
+   "code": "tygerclaws_02",
+   "label": "Tygerclaws 02",
+   "base_look": "mizutani_shion__basic_tygerclaws_02",
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "70546ab5",
+    "bumper_back.bumper": "df1ba7db",
+    "hood_a.hood": "422da8a7",
+    "trunk_a.trunk": "724693ef",
+    "base.body": "d97c0bee",
+    "base.interior": "a0b98be8",
+    "base.window": "cbd6cb9b",
+    "wheel.tire": "10d045b8",
+    "wheel.wheel": "052b67fd",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "window.window": "f2ea3f79"
+   },
+   "kits": [
+    "tyger_2caf",
+    "tyger_71be",
+    "tyger_9628",
+    "tyger_b3f2",
+    "tyger_dba8",
+    "tyger_e16a"
+   ]
+  },
+  {
+   "id": "tygerclaws_03",
+   "code": "tygerclaws_03",
+   "label": "Tygerclaws 03",
+   "base_look": "mizutani_shion__basic_tygerclaws_03",
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_03"
+   ],
+   "options": {
+    "bumper_front.bumper": "70546ab5",
+    "bumper_back.bumper": "df1ba7db",
+    "hood_a.hood": "422da8a7",
+    "trunk_a.trunk": "724693ef",
+    "base.body": "d97c0bee",
+    "base.interior": "a0b98be8",
+    "base.window": "cbd6cb9b",
+    "wheel.tire": "10d045b8",
+    "wheel.wheel": "052b67fd",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "window.window": "f2ea3f79"
+   },
+   "kits": [
+    "tyger_2caf",
+    "tyger_71be",
+    "tyger_9628",
+    "tyger_b3f2",
+    "tyger_dba8",
+    "tyger_e16a",
+    "tyger_e16a"
+   ]
+  },
+  {
+   "id": "tygerclaws_04",
+   "code": "tygerclaws_04",
+   "label": "Tygerclaws 04",
+   "base_look": "mizutani_shion__basic_tygerclaws_04",
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_04"
+   ],
+   "options": {
+    "bumper_front.bumper": "70546ab5",
+    "bumper_back.bumper": "df1ba7db",
+    "hood_a.hood": "422da8a7",
+    "trunk_a.trunk": "724693ef",
+    "base.body": "d97c0bee",
+    "base.interior": "a0b98be8",
+    "base.window": "cbd6cb9b",
+    "wheel.tire": "29ae4380",
+    "wheel.wheel": "6632227d",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "window.window": "f2ea3f79"
+   },
+   "kits": [
+    "tyger_2caf",
+    "tyger_499d",
+    "tyger_71be",
+    "tyger_b3f2",
+    "tyger_e16a"
+   ]
+  },
+  {
+   "id": "urban_01",
+   "code": "urban_01",
+   "label": "Urban",
+   "base_look": "mizutani_shion__basic_urban_01",
+   "looks": [
+    "mizutani_shion__basic_urban_01",
+    "mizutani_shion__basic_urban_03",
+    "mizutani_shion__basic_urban_04",
+    "mizutani_shion__basic_urban_05",
+    "mizutani_shion__basic_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "70546ab5",
+    "bumper_back.bumper": "df1ba7db",
+    "hood_a.hood": "422da8a7",
+    "trunk_a.trunk": "724693ef",
+    "base.body": "d97c0bee",
+    "base.interior": "a0b98be8",
+    "base.window": "cbd6cb9b",
+    "wheel.tire": "10d045b8",
+    "wheel.wheel": "052b67fd",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "window.window": "f2ea3f79"
+   },
+   "kits": [
+    "sticker_a512",
+    "tyger_71be",
+    "tyger_b3f2"
+   ]
+  }
+ ],
+ "wrecks": [
+  "mizutani_shion__basic_burnt_01",
+  "mizutani_shion__basic_burnt_targa_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "70546ab5",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "targa_red",
+      "targa_black",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_02_glass",
+      "urban_blackhole",
+      "targa_01",
+      "targa_blue",
+      "carbon"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "3fa6a415",
+     "code": "targa_bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "targa_01",
+     "paints": [
+      "targa_red",
+      "targa_black",
+      "targa_01",
+      "targa_blue",
+      "takemura_01"
+     ],
+     "looks": [
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red"
+     ],
+     "origins": [
+      "style:targa_01_q101"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "df1ba7db",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "targa_red",
+      "targa_black",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_02_glass",
+      "urban_blackhole",
+      "targa_01",
+      "targa_blue",
+      "carbon"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "1a823937",
+     "code": "targa_bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "targa_01",
+     "paints": [
+      "targa_red",
+      "targa_black",
+      "targa_01",
+      "targa_blue",
+      "takemura_01"
+     ],
+     "looks": [
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red"
+     ],
+     "origins": [
+      "style:targa_01_q101"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "422da8a7",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_02_glass",
+      "urban_blackhole",
+      "carbon",
+      "targa_red",
+      "targa_black",
+      "targa_01",
+      "targa_blue",
+      "takemura_01"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:targa_01_q101",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "724693ef",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "targa_red",
+      "targa_black",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_02_glass",
+      "urban_blackhole",
+      "targa_01",
+      "targa_blue",
+      "carbon"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "d97c0bee",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "targa_red",
+      "targa_black",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_02_glass",
+      "urban_blackhole",
+      "targa_01",
+      "targa_blue",
+      "carbon"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_burnt_01",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "11b1b31e",
+     "code": "targa_body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "targa_01",
+     "paints": [
+      "targa_01",
+      "targa_blue",
+      "targa_red",
+      "targa_black",
+      "takemura_01"
+     ],
+     "looks": [
+      "mizutani_shion__basic_burnt_targa_01",
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red"
+     ],
+     "origins": [
+      "style:targa_01_q101",
+      "wreck:burnt_targa_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "a0b98be8",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_04",
+     "paints": [
+      "tygerclaws_01",
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "tygerclaws_04",
+      "tygerclaws_02",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "urban_01",
+      "urban_02"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_burnt_01",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "35cf4920",
+     "code": "targa_interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "targa_01",
+     "paints": [
+      "targa_01",
+      "targa_02"
+     ],
+     "looks": [
+      "mizutani_shion__basic_burnt_targa_01",
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red"
+     ],
+     "origins": [
+      "style:targa_01_q101",
+      "wreck:burnt_targa_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield: front",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f"
+   ],
+   "options": [
+    {
+     "id": "cbd6cb9b",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tygerclaws_03",
+      "tygerclaws_01",
+      "tygerclaws_04"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_burnt_01",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "3993513b",
+     "code": "targa_window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "neutral_tint",
+     "paints": [
+      "neutral_tint"
+     ],
+     "looks": [
+      "mizutani_shion__basic_burnt_targa_01",
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red"
+     ],
+     "origins": [
+      "style:targa_01_q101",
+      "wreck:burnt_targa_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_frame",
+   "label": "Windshield: frame",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_frame_01"
+   ],
+   "options": [
+    {
+     "id": "648d5394",
+     "code": "targa_window_frame_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_window_frame_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "targa_01",
+      "targa_blue",
+      "takemura_01"
+     ],
+     "looks": [
+      "mizutani_shion__basic_burnt_targa_01",
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red"
+     ],
+     "origins": [
+      "style:targa_01_q101",
+      "wreck:burnt_targa_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.507538378238678,
+     0.0,
+     0.0,
+     0.8616291284561157
+    ],
+    [
+     -0.948323667049408,
+     0.0,
+     0.0,
+     -0.3173045814037323
+    ],
+    [
+     -0.5948227643966675,
+     0.0,
+     0.0,
+     0.8038569688796997
+    ],
+    [
+     0.27563735842704773,
+     0.0,
+     0.0,
+     0.9612616896629333
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "29ae4380",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "tygerclaws_03",
+      "tygerclaws_01",
+      "tygerclaws_04"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_04"
+     ],
+     "origins": [
+      "look:default_01",
+      "style:suburban_01",
+      "style:tygerclaws_01",
+      "style:tygerclaws_04"
+     ]
+    },
+    {
+     "id": "10d045b8",
+     "code": "tire_02",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_02.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_02.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_02.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean_white_letter"
+     ],
+     "looks": [
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:urban_base_do_not_include",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "b2b2c280",
+     "code": "targa_tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red"
+     ],
+     "origins": [
+      "style:targa_01_q101"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.507538378238678,
+     0.0,
+     0.0,
+     0.8616291284561157
+    ],
+    [
+     -0.948323667049408,
+     0.0,
+     0.0,
+     -0.3173045814037323
+    ],
+    [
+     -0.5948227643966675,
+     0.0,
+     0.0,
+     0.8038569688796997
+    ],
+    [
+     0.27563735842704773,
+     0.0,
+     0.0,
+     0.9612616896629333
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_custom_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "6632227d",
+     "code": "wheel_shion",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_fl.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_bl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_bl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean_01",
+      "clean_02",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_04"
+     ],
+     "origins": [
+      "look:default_01",
+      "style:suburban_01",
+      "style:tygerclaws_01",
+      "style:tygerclaws_04"
+     ]
+    },
+    {
+     "id": "052b67fd",
+     "code": "wheel_shion_custom_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_custom_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_custom_fl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_custom_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_custom_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "custom_10",
+     "paints": [
+      "custom_02",
+      "custom_03",
+      "custom_01",
+      "custom_04",
+      "custom_05",
+      "custom_06",
+      "custom_07",
+      "custom_08",
+      "custom_09",
+      "custom_10",
+      "custom_11",
+      "custom_12"
+     ],
+     "looks": [
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:urban_base_do_not_include",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "71c129f5",
+     "code": "door_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "urban_01",
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05",
+      "urban_blackhole",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "poor_05",
+      "tygerclaws_02_glass",
+      "carbon",
+      "targa_red",
+      "targa_black",
+      "targa_01",
+      "targa_blue",
+      "targa",
+      "targa_02",
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01",
+      "player_01",
+      "wraiths_02",
+      "wraiths_03",
+      "wraiths_04",
+      "wraiths_05",
+      "aldecaldo_02",
+      "aldecaldo_03",
+      "aldecaldo_04",
+      "aldecaldo_05",
+      "wraiths_06",
+      "takemura_01",
+      "player_02",
+      "targa_red_player"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:targa_01_q101",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_c.door",
+   "label": "Doors (c)",
+   "kind": "door",
+   "group": "door_c",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_c",
+    "door_front_right_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_c"
+   ],
+   "options": [
+    {
+     "id": "90df2563",
+     "code": "door_c_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_c_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_c_01.mesh"
+     },
+     "shadows": {
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "targa_01",
+     "paints": [
+      "targa_red",
+      "targa_black",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_02_glass",
+      "urban_blackhole",
+      "targa_01",
+      "targa_blue",
+      "carbon",
+      "player_01",
+      "wraiths_01"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:targa_01_q101",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "f2ea3f79",
+     "code": "window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_window_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tygerclaws_03",
+      "tygerclaws_01",
+      "tygerclaws_04",
+      "neutral_tint"
+     ],
+     "looks": [
+      "mizutani_shion__basic:default_01",
+      "mizutani_shion__basic:urban_base_do_not_include",
+      "mizutani_shion__basic_player_01",
+      "mizutani_shion__basic_poor_01",
+      "mizutani_shion__basic_poor_02",
+      "mizutani_shion__basic_poor_03",
+      "mizutani_shion__basic_poor_04",
+      "mizutani_shion__basic_poor_05",
+      "mizutani_shion__basic_suburban_01",
+      "mizutani_shion__basic_suburban_02",
+      "mizutani_shion__basic_suburban_03",
+      "mizutani_shion__basic_suburban_04",
+      "mizutani_shion__basic_suburban_05",
+      "mizutani_shion__basic_suburban_06",
+      "mizutani_shion__basic_suburban_07",
+      "mizutani_shion__basic_targa_01",
+      "mizutani_shion__basic_targa_01_q101",
+      "mizutani_shion__basic_targa_black",
+      "mizutani_shion__basic_targa_blue",
+      "mizutani_shion__basic_targa_red",
+      "mizutani_shion__basic_tygerclaws_01",
+      "mizutani_shion__basic_tygerclaws_02",
+      "mizutani_shion__basic_tygerclaws_03",
+      "mizutani_shion__basic_tygerclaws_04",
+      "mizutani_shion__basic_urban_01",
+      "mizutani_shion__basic_urban_03",
+      "mizutani_shion__basic_urban_04",
+      "mizutani_shion__basic_urban_05"
+     ],
+     "origins": [
+      "look:default_01",
+      "look:urban_base_do_not_include",
+      "style:suburban_01",
+      "style:targa_01_q101",
+      "style:tygerclaws_01",
+      "style:tygerclaws_02",
+      "style:tygerclaws_03",
+      "style:tygerclaws_04",
+      "style:urban_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "sticker_a512",
+   "family": "sticker",
+   "code": "kit_sticker_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_mizutani_sticker_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_mizutani_sticker_01.mesh",
+     "code": "door_fl_mizutani_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_player_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_mizutani_sticker_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_mizutani_sticker_01.mesh",
+     "code": "door_fr_mizutani_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_player_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic:urban_base_do_not_include",
+    "mizutani_shion__basic_player_01",
+    "mizutani_shion__basic_urban_01",
+    "mizutani_shion__basic_urban_03",
+    "mizutani_shion__basic_urban_04",
+    "mizutani_shion__basic_urban_05"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:urban_base_do_not_include",
+    "style:urban_01"
+   ]
+  },
+  {
+   "id": "tyger_e16a",
+   "family": "tyger",
+   "code": "body_tygerclaws_sticker_03",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_tygerclaws_sticker_03",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_body_tygerclaws_sticker_03.mesh",
+     "code": "body_tygerclaws_sticker_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_tygerclaws_03",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_03",
+    "mizutani_shion__basic_tygerclaws_04"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:tygerclaws_03",
+    "style:tygerclaws_04"
+   ]
+  },
+  {
+   "id": "tyger_e16a",
+   "family": "tyger",
+   "code": "body_tygerclaws_stickers_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_tygerclaws_sticker_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_body_tygerclaws_stickers_01.mesh",
+     "code": "body_tygerclaws_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_tygerclaws_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_01",
+    "mizutani_shion__basic_tygerclaws_02",
+    "mizutani_shion__basic_tygerclaws_03"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:tygerclaws_01",
+    "style:tygerclaws_02",
+    "style:tygerclaws_03"
+   ]
+  },
+  {
+   "id": "tyger_499d",
+   "family": "tyger",
+   "code": "door_fl_tygerclaws_stickers_02",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_tygerclaws_stickers_02",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_tygerclaws_stickers_02.mesh",
+     "code": "door_fl_tygerclaws_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      -0.001,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_tygerclaws_04",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_04"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:tygerclaws_04"
+   ]
+  },
+  {
+   "id": "tyger_dba8",
+   "family": "tyger",
+   "code": "door_fl_tygerlaws_sticker_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_tygerlaws_sticker_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_tygerlaws_sticker_01.mesh",
+     "code": "door_fl_tygerlaws_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0017449992010369897,
+      0.0,
+      0.0,
+      0.9999985098838806
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_tygerclaws_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_01",
+    "mizutani_shion__basic_tygerclaws_03"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:tygerclaws_01",
+    "style:tygerclaws_03"
+   ]
+  },
+  {
+   "id": "tyger_dba8",
+   "family": "tyger",
+   "code": "door_fl_tygerlaws_sticker_03",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_tygerlaws_sticker_03",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_tygerlaws_sticker_03.mesh",
+     "code": "door_fl_tygerlaws_sticker_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      -0.0018,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_tygerclaws_02",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_02"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:tygerclaws_02"
+   ]
+  },
+  {
+   "id": "tyger_2caf",
+   "family": "tyger",
+   "code": "door_fr_a_tygerclaws_sticker_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_a_tygerclaws_sticker_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_a_tygerclaws_sticker_01.mesh",
+     "code": "door_fr_a_tygerclaws_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_tygerclaws_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_01",
+    "mizutani_shion__basic_tygerclaws_02",
+    "mizutani_shion__basic_tygerclaws_03",
+    "mizutani_shion__basic_tygerclaws_04"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:tygerclaws_01",
+    "style:tygerclaws_02",
+    "style:tygerclaws_03",
+    "style:tygerclaws_04"
+   ]
+  },
+  {
+   "id": "tyger_71be",
+   "family": "tyger",
+   "code": "door_fr_tygerclaws_stickers_02",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_tygerclaws_stickers_02",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_tygerclaws_stickers_02.mesh",
+     "code": "door_fr_tygerclaws_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic:default_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic:default_01",
+    "mizutani_shion__basic:urban_base_do_not_include",
+    "mizutani_shion__basic_player_01",
+    "mizutani_shion__basic_poor_01",
+    "mizutani_shion__basic_poor_02",
+    "mizutani_shion__basic_poor_03",
+    "mizutani_shion__basic_poor_04",
+    "mizutani_shion__basic_poor_05",
+    "mizutani_shion__basic_suburban_01",
+    "mizutani_shion__basic_suburban_02",
+    "mizutani_shion__basic_suburban_03",
+    "mizutani_shion__basic_suburban_04",
+    "mizutani_shion__basic_suburban_05",
+    "mizutani_shion__basic_suburban_06",
+    "mizutani_shion__basic_suburban_07",
+    "mizutani_shion__basic_targa_01",
+    "mizutani_shion__basic_targa_01_q101",
+    "mizutani_shion__basic_targa_black",
+    "mizutani_shion__basic_targa_blue",
+    "mizutani_shion__basic_targa_red",
+    "mizutani_shion__basic_tygerclaws_01",
+    "mizutani_shion__basic_tygerclaws_02",
+    "mizutani_shion__basic_tygerclaws_03",
+    "mizutani_shion__basic_tygerclaws_04",
+    "mizutani_shion__basic_urban_01",
+    "mizutani_shion__basic_urban_03",
+    "mizutani_shion__basic_urban_04",
+    "mizutani_shion__basic_urban_05"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:default_01",
+    "look:urban_base_do_not_include",
+    "style:suburban_01",
+    "style:targa_01_q101",
+    "style:tygerclaws_01",
+    "style:tygerclaws_02",
+    "style:tygerclaws_03",
+    "style:tygerclaws_04",
+    "style:urban_01"
+   ]
+  },
+  {
+   "id": "tyger_9628",
+   "family": "tyger",
+   "code": "kit_tyger_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_tygerclaws_sticker_05",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_body_tygerclaws_sticker_05.mesh",
+     "code": "body_tygerclaws_sticker_05",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_tygerclaws_02",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_tygerclaws_stickers_02",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_body_tygerclaws_stickers_02.mesh",
+     "code": "body_tygerclaws_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_tygerclaws_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_02",
+    "mizutani_shion__basic_tygerclaws_03"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:tygerclaws_02",
+    "style:tygerclaws_03"
+   ]
+  },
+  {
+   "id": "tyger_b3f2",
+   "family": "tyger",
+   "code": "kit_tyger_body_interior",
+   "where": [
+    "body",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "body_tygerclaws_stickers_04",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_body_tygerclaws_stickers_04.mesh",
+     "code": "body_tygerclaws_stickers_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic:default_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "interior_tygerclaws_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__int01_interior_tygerclaws_stickers_01.mesh",
+     "code": "interior_tygerclaws_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic:default_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "interior_tygerclaws_stickers_02",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__int01_interior_tygerclaws_stickers_02.mesh",
+     "code": "interior_tygerclaws_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic:default_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "roof_barcode_stickers",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_body_roof_barcode_01.mesh",
+     "code": "body_roof_barcode_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic:default_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic:default_01",
+    "mizutani_shion__basic:urban_base_do_not_include",
+    "mizutani_shion__basic_burnt_01",
+    "mizutani_shion__basic_player_01",
+    "mizutani_shion__basic_poor_01",
+    "mizutani_shion__basic_poor_02",
+    "mizutani_shion__basic_poor_03",
+    "mizutani_shion__basic_poor_04",
+    "mizutani_shion__basic_poor_05",
+    "mizutani_shion__basic_suburban_01",
+    "mizutani_shion__basic_suburban_02",
+    "mizutani_shion__basic_suburban_03",
+    "mizutani_shion__basic_suburban_04",
+    "mizutani_shion__basic_suburban_05",
+    "mizutani_shion__basic_suburban_06",
+    "mizutani_shion__basic_suburban_07",
+    "mizutani_shion__basic_tygerclaws_01",
+    "mizutani_shion__basic_tygerclaws_02",
+    "mizutani_shion__basic_tygerclaws_03",
+    "mizutani_shion__basic_tygerclaws_04",
+    "mizutani_shion__basic_urban_01",
+    "mizutani_shion__basic_urban_03",
+    "mizutani_shion__basic_urban_04",
+    "mizutani_shion__basic_urban_05"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:default_01",
+    "look:urban_base_do_not_include",
+    "style:suburban_01",
+    "style:tygerclaws_01",
+    "style:tygerclaws_02",
+    "style:tygerclaws_03",
+    "style:tygerclaws_04",
+    "style:urban_01",
+    "wreck:burnt_01"
+   ]
+  },
+  {
+   "id": "tyger_03c3",
+   "family": "tyger",
+   "code": "trunk_tygerclaws_stickers_01",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "trunk_tygerclaws_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_trunk_tygerclaws_stickers_01.mesh",
+     "code": "trunk_tygerclaws_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion__basic_tygerclaws_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion__basic_tygerclaws_01"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:tygerclaws_01"
+   ]
+  }
+ ],
+ "looks": {
+  "mizutani_shion__basic_suburban_05": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "suburban_05",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_urban_04": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "urban_04",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_custom_fl_01",
+     "fr": "wheel_custom_fr_01",
+     "bl": "wheel_custom_bl_01",
+     "br": "wheel_custom_br_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_suburban_07": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "suburban_07",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_targa_01_q101": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "targa_01_q101",
+   "style": "targa_01_q101",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel.wheel": {
+     "fl": "wheel_02_fl",
+     "fr": "wheel_02_fr",
+     "bl": "wheel_02_bl",
+     "br": "wheel_02_br"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_frame": {
+     "all": "window_frame_01"
+    }
+   }
+  },
+  "mizutani_shion__basic_player_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "player_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_custom_fl_01",
+     "fr": "wheel_custom_fr_01",
+     "bl": "wheel_custom_bl_01",
+     "br": "wheel_custom_br_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_poor_03": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "poor_03",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_suburban_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "suburban_01",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_suburban_03": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "suburban_03",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_poor_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "poor_01",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_tygerclaws_02": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "tygerclaws_02",
+   "style": "tygerclaws_02",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_custom_fl_01",
+     "fr": "wheel_custom_fr_01",
+     "bl": "wheel_custom_bl_01",
+     "br": "wheel_custom_br_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_poor_05": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "poor_05",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_suburban_04": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "suburban_04",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_tygerclaws_04": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "tygerclaws_04",
+   "style": "tygerclaws_04",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_suburban_06": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "suburban_06",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_urban_05": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "urban_05",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_custom_fl_01",
+     "fr": "wheel_custom_fr_01",
+     "bl": "wheel_custom_bl_01",
+     "br": "wheel_custom_br_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_poor_02": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "poor_02",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_suburban_02": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "suburban_02",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_urban_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "urban_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_custom_fl_01",
+     "fr": "wheel_custom_fr_01",
+     "bl": "wheel_custom_bl_01",
+     "br": "wheel_custom_br_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_tygerclaws_03": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "tygerclaws_03",
+   "style": "tygerclaws_03",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_custom_fl_01",
+     "fr": "wheel_custom_fr_01",
+     "bl": "wheel_custom_bl_01",
+     "br": "wheel_custom_br_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_urban_03": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "urban_03",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_custom_fl_01",
+     "fr": "wheel_custom_fr_01",
+     "bl": "wheel_custom_bl_01",
+     "br": "wheel_custom_br_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_poor_04": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "poor_04",
+   "style": "suburban_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_tygerclaws_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "tygerclaws_01",
+   "style": "tygerclaws_01",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_targa_blue": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "targa_blue",
+   "style": "targa_01_q101",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel.wheel": {
+     "fl": "wheel_02_fl",
+     "fr": "wheel_02_fr",
+     "bl": "wheel_02_bl",
+     "br": "wheel_02_br"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_frame": {
+     "all": "window_frame_01"
+    }
+   }
+  },
+  "mizutani_shion__basic_targa_black": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "targa_black",
+   "style": "targa_01_q101",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel.wheel": {
+     "fl": "wheel_02_fl",
+     "fr": "wheel_02_fr",
+     "bl": "wheel_02_bl",
+     "br": "wheel_02_br"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_frame": {
+     "all": "window_frame_01"
+    }
+   }
+  },
+  "mizutani_shion__basic_targa_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "targa_01",
+   "style": "targa_01_q101",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel.wheel": {
+     "fl": "wheel_02_fl",
+     "fr": "wheel_02_fr",
+     "bl": "wheel_02_bl",
+     "br": "wheel_02_br"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_frame": {
+     "all": "window_frame_01"
+    }
+   }
+  },
+  "mizutani_shion__basic_targa_red": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "targa_red",
+   "style": "targa_01_q101",
+   "wreck": false,
+   "parts": {
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel.wheel": {
+     "fl": "wheel_02_fl",
+     "fr": "wheel_02_fr",
+     "bl": "wheel_02_bl",
+     "br": "wheel_02_br"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_frame": {
+     "all": "window_frame_01"
+    }
+   }
+  },
+  "mizutani_shion__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion__basic_burnt_targa_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion__basic.app",
+   "app_look": "burnt_targa_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.window.window_frame": {
+     "all": "window_frame_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.4038,
+   0.3105,
+   0.3213,
+   -0.0874
+  ],
+  "b": [
+   0.3995,
+   0.4387,
+   0.3213,
+   -0.0632
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "be08d1b6",
+   "rim": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_bl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_shion_bl",
+   "tire_code": "tire_bl_01",
+   "from": "Shion MZ1",
+   "radius": 0.3995,
+   "width": 0.4387,
+   "rim_radius": 0.3213,
+   "tire_center": -0.0632,
+   "axles": [
+    "b"
+   ],
+   "looks": 15,
+   "paints": [
+    "clean_01",
+    "clean_02",
+    "tygerclaws_01",
+    "tygerclaws_02",
+    "tygerclaws_03",
+    "tygerclaws_04"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion__basic:default_01",
+    "mizutani_shion__basic_poor_01",
+    "mizutani_shion__basic_poor_02",
+    "mizutani_shion__basic_poor_03",
+    "mizutani_shion__basic_poor_04",
+    "mizutani_shion__basic_poor_05",
+    "mizutani_shion__basic_suburban_01",
+    "mizutani_shion__basic_suburban_02",
+    "mizutani_shion__basic_suburban_03",
+    "mizutani_shion__basic_suburban_04",
+    "mizutani_shion__basic_suburban_05",
+    "mizutani_shion__basic_suburban_06",
+    "mizutani_shion__basic_suburban_07",
+    "mizutani_shion__basic_tygerclaws_01",
+    "mizutani_shion__basic_tygerclaws_04"
+   ]
+  },
+  {
+   "id": "ba6e02c6",
+   "rim": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_fl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_shion_fl",
+   "tire_code": "tire_fl_01",
+   "from": "Shion MZ1",
+   "radius": 0.4038,
+   "width": 0.3105,
+   "rim_radius": 0.3213,
+   "tire_center": -0.0874,
+   "axles": [
+    "f"
+   ],
+   "looks": 15,
+   "paints": [
+    "clean_01",
+    "clean_02",
+    "tygerclaws_01",
+    "tygerclaws_02",
+    "tygerclaws_03",
+    "tygerclaws_04"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion__basic:default_01",
+    "mizutani_shion__basic_poor_01",
+    "mizutani_shion__basic_poor_02",
+    "mizutani_shion__basic_poor_03",
+    "mizutani_shion__basic_poor_04",
+    "mizutani_shion__basic_poor_05",
+    "mizutani_shion__basic_suburban_01",
+    "mizutani_shion__basic_suburban_02",
+    "mizutani_shion__basic_suburban_03",
+    "mizutani_shion__basic_suburban_04",
+    "mizutani_shion__basic_suburban_05",
+    "mizutani_shion__basic_suburban_06",
+    "mizutani_shion__basic_suburban_07",
+    "mizutani_shion__basic_tygerclaws_01",
+    "mizutani_shion__basic_tygerclaws_04"
+   ]
+  },
+  {
+   "id": "1bf6ce24",
+   "rim": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_custom_fl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_shion_custom_fl_01",
+   "tire_code": "targa_tire_fl_01",
+   "from": "Shion MZ1",
+   "radius": 0.3963,
+   "width": 0.3608,
+   "rim_radius": 0.2704,
+   "tire_center": -0.1339,
+   "axles": [
+    "f"
+   ],
+   "looks": 4,
+   "paints": [
+    "custom_02",
+    "custom_03",
+    "custom_01",
+    "custom_04",
+    "custom_05",
+    "custom_06",
+    "custom_07",
+    "custom_08",
+    "custom_09",
+    "custom_10",
+    "custom_11",
+    "custom_12"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion__basic_targa_01",
+    "mizutani_shion__basic_targa_black",
+    "mizutani_shion__basic_targa_blue",
+    "mizutani_shion__basic_targa_red"
+   ]
+  },
+  {
+   "id": "26b36429",
+   "rim": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_wheel_bl_02.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_01_shadow.mesh",
+   "code": "targa_wheel_bl_02",
+   "tire_code": "targa_tire_bl_01",
+   "from": "Shion MZ1",
+   "radius": 0.4005,
+   "width": 0.4789,
+   "rim_radius": 0.333,
+   "tire_center": -0.1336,
+   "axles": [
+    "b"
+   ],
+   "looks": 5,
+   "paints": [
+    "takemura_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion__basic_targa_01",
+    "mizutani_shion__basic_targa_01_q101",
+    "mizutani_shion__basic_targa_black",
+    "mizutani_shion__basic_targa_blue",
+    "mizutani_shion__basic_targa_red"
+   ]
+  },
+  {
+   "id": "edaa51ff",
+   "rim": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_custom_bl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_shion_custom_bl_01",
+   "tire_code": "tire_bl_02",
+   "from": "Shion MZ1",
+   "radius": 0.3982,
+   "width": 0.4653,
+   "rim_radius": 0.2808,
+   "tire_center": -0.0717,
+   "axles": [
+    "b"
+   ],
+   "looks": 8,
+   "paints": [
+    "custom_01",
+    "custom_02",
+    "custom_03",
+    "custom_04",
+    "custom_05",
+    "custom_06",
+    "custom_07",
+    "custom_08",
+    "custom_09",
+    "custom_10",
+    "custom_11",
+    "custom_12"
+   ],
+   "default_paint": "custom_10",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion__basic:urban_base_do_not_include",
+    "mizutani_shion__basic_player_01",
+    "mizutani_shion__basic_tygerclaws_02",
+    "mizutani_shion__basic_tygerclaws_03",
+    "mizutani_shion__basic_urban_01",
+    "mizutani_shion__basic_urban_03",
+    "mizutani_shion__basic_urban_04",
+    "mizutani_shion__basic_urban_05"
+   ]
+  },
+  {
+   "id": "739c61c7",
+   "rim": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_wheel_shion_custom_fl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_02.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_shion_custom_fl_01",
+   "tire_code": "tire_fl_02",
+   "from": "Shion MZ1",
+   "radius": 0.3971,
+   "width": 0.3256,
+   "rim_radius": 0.2704,
+   "tire_center": -0.087,
+   "axles": [
+    "f"
+   ],
+   "looks": 8,
+   "paints": [
+    "custom_02",
+    "custom_03",
+    "custom_01",
+    "custom_04",
+    "custom_05",
+    "custom_06",
+    "custom_07",
+    "custom_08",
+    "custom_09",
+    "custom_10",
+    "custom_11",
+    "custom_12"
+   ],
+   "default_paint": "custom_10",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion__basic:urban_base_do_not_include",
+    "mizutani_shion__basic_player_01",
+    "mizutani_shion__basic_tygerclaws_02",
+    "mizutani_shion__basic_tygerclaws_03",
+    "mizutani_shion__basic_urban_01",
+    "mizutani_shion__basic_urban_03",
+    "mizutani_shion__basic_urban_04",
+    "mizutani_shion__basic_urban_05"
+   ]
+  },
+  {
+   "id": "d9e58829",
+   "rim": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion_targa__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_tire_fl_01_shadow.mesh",
+   "code": "targa_wheel_fl_02",
+   "tire_code": "targa_tire_fl_01",
+   "from": "Shion MZ1",
+   "radius": 0.3963,
+   "width": 0.3608,
+   "rim_radius": 0.332,
+   "tire_center": -0.1339,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [
+    "takemura_01"
+   ],
+   "default_paint": "takemura_01",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion__basic_targa_01_q101"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "mizutani_shion__basic_player_01",
+   "Shion MZ2"
+  ],
+  [
+   "mizutani_shion__basic_suburban_07",
+   "Shion MZ1"
+  ],
+  [
+   "mizutani_shion__basic_targa_blue",
+   "Shion Targa MZT"
+  ]
+ ]
+}

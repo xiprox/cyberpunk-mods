@@ -1,0 +1,4523 @@
+{
+ "id": "mizutani_shion_nomad__basic_01",
+ "label": "Shion \"Samum\"",
+ "entity": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad__basic_01.ent",
+ "family": "v_sport2_mizutani_shion_nomad",
+ "garage": true,
+ "default_look": "wraiths_02",
+ "records": [
+  "Vehicle.v_sport2_mizutani_shion_nomad_02_player",
+  "Vehicle.v_sport2_mizutani_shion_nomad_player",
+  "Vehicle.v_sport2_mizutani_shion_nomad_player_missiles"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+  "ep1\\vehicles\\appearances\\sport\\mizutani_shion_nomad__technical.app"
+ ],
+ "styles": [
+  {
+   "id": "mizutani_shion_nomad_aldecados_01",
+   "code": "mizutani_shion_nomad_aldecados_01",
+   "label": "Mizutani shion nomad aldecados",
+   "base_look": "mizutani_shion_nomad_aldecados_01",
+   "looks": [
+    "mizutani_shion_nomad_aldecados_01",
+    "mizutani_shion_nomad_aldecados_03",
+    "mizutani_shion_nomad_aldecados_04",
+    "mizutani_shion_nomad_aldecados_05",
+    "mizutani_shion_nomad_wraiths_01",
+    "mizutani_shion_nomad_wraiths_05",
+    "mizutani_shion_nomad_deathrace_01",
+    "mizutani_shion_nomad_aldecados_03_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "3706d92d",
+    "bumper_back.bumper": "d40145c3",
+    "hood_a.hood": "4b26821f",
+    "trunk_a.trunk": "47503fc7",
+    "base.body": "d16ffef6",
+    "base.interior": "46d4b6e0",
+    "base.spoiler": "c7d69889",
+    "base.window": "272fe803",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "wheel.wheel.wheel": "d1d66eee",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "rotor_a.body": "0f7894ac",
+    "window.window": "1d744f29"
+   },
+   "kits": [
+    "nomad_3cb5",
+    "nomad_7baa",
+    "nomad_7bc4",
+    "nomad_ebe7"
+   ]
+  },
+  {
+   "id": "mizutani_shion_nomad_player_01",
+   "code": "mizutani_shion_nomad_player_01",
+   "label": "Mizutani shion nomad player",
+   "base_look": "mizutani_shion_nomad_player_01",
+   "looks": [
+    "mizutani_shion_nomad_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "3706d92d",
+    "bumper_back.bumper": "d40145c3",
+    "hood_a.hood": "4b26821f",
+    "trunk_a.trunk": "47503fc7",
+    "base.body": "d16ffef6",
+    "base.interior": "46d4b6e0",
+    "base.spoiler": "c7d69889",
+    "base.window": "272fe803",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "wheel.wheel.wheel": "b43cf2be",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "rotor_a.body": "0f7894ac",
+    "window.window": "1d744f29"
+   },
+   "kits": [
+    "nomad_3cb5",
+    "nomad_7baa",
+    "nomad_7bc4",
+    "nomad_ebe7"
+   ]
+  },
+  {
+   "id": "mizutani_shion_nomad_player_02",
+   "code": "mizutani_shion_nomad_player_02",
+   "label": "Mizutani shion nomad player 02",
+   "base_look": "mizutani_shion_nomad_player_02",
+   "looks": [
+    "mizutani_shion_nomad_player_02",
+    "mizutani_shion_nomad_aldecados_02",
+    "mizutani_shion_nomad_aldecados_02_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "3706d92d",
+    "bumper_back.bumper": "d40145c3",
+    "hood_a.hood": "4b26821f",
+    "trunk_a.trunk": "47503fc7",
+    "base.body": "d16ffef6",
+    "base.interior": "46d4b6e0",
+    "base.window": "272fe803",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "wheel.wheel.wheel": "b43cf2be",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "rotor_a.body": "0f7894ac",
+    "window.window": "1d744f29"
+   },
+   "kits": [
+    "nomad_3cb5",
+    "nomad_7baa",
+    "nomad_7bc4",
+    "nomad_ebe7"
+   ]
+  },
+  {
+   "id": "mizutani_shion_nomad_wraiths_02",
+   "code": "mizutani_shion_nomad_wraiths_02",
+   "label": "Mizutani shion nomad wraiths 02",
+   "base_look": "mizutani_shion_nomad_wraiths_02",
+   "looks": [
+    "mizutani_shion_nomad_wraiths_02",
+    "mizutani_shion_nomad_wraiths_04",
+    "mizutani_shion_nomad_wraiths_02_missiles",
+    "mizutani_shion_nomad_aldecados_05_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "3706d92d",
+    "bumper_back.bumper": "d40145c3",
+    "hood_a.hood": "4b26821f",
+    "trunk_a.trunk": "47503fc7",
+    "base.body": "d16ffef6",
+    "base.interior": "46d4b6e0",
+    "base.window": "272fe803",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "wheel.wheel.wheel": "d1d66eee",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "rotor_a.body": "0f7894ac",
+    "window.window": "1d744f29"
+   },
+   "kits": [
+    "nomad_3cb5",
+    "nomad_7baa",
+    "nomad_7bc4",
+    "nomad_ebe7"
+   ]
+  },
+  {
+   "id": "mizutani_shion_nomad_wraiths_03",
+   "code": "mizutani_shion_nomad_wraiths_03",
+   "label": "Mizutani shion nomad wraiths 03",
+   "base_look": "mizutani_shion_nomad_wraiths_03",
+   "looks": [
+    "mizutani_shion_nomad_wraiths_03",
+    "mizutani_shion_nomad_player_01_missiles",
+    "mizutani_shion_nomad_wraiths_03_missiles",
+    "mizutani_shion_nomad_wraiths_05_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "3706d92d",
+    "bumper_back.bumper": "d40145c3",
+    "hood_a.hood": "4b26821f",
+    "trunk_a.trunk": "47503fc7",
+    "base.body": "d16ffef6",
+    "base.interior": "46d4b6e0",
+    "base.trunk": "78eeac9c",
+    "base.window": "272fe803",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "e7cc1925",
+    "wheel.wheel.wheel": "d1d66eee",
+    "door.door": "71c129f5",
+    "door_c.door": "90df2563",
+    "rotor_a.body": "0f7894ac",
+    "window.window": "1d744f29"
+   },
+   "kits": [
+    "nomad_3cb5",
+    "nomad_7baa",
+    "nomad_7bc4",
+    "nomad_ebe7"
+   ]
+  }
+ ],
+ "wrecks": [
+  "mizutani_shion_nomad_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "3706d92d",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "wraiths_01",
+      "aldecados_01",
+      "deathrace_01",
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "d40145c3",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "wraiths_01",
+      "deathrace_01",
+      "aldecados_01",
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "4b26821f",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_04",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01",
+      "aldecados_02",
+      "aldecados_03",
+      "aldecados_04",
+      "wraiths_02",
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_01"
+   ],
+   "options": [
+    {
+     "id": "47503fc7",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_trunk_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "d16ffef6",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_04",
+     "paints": [
+      "aldecados_01",
+      "deathrace_01",
+      "wraiths_01",
+      "player_01",
+      "aldecados_02",
+      "aldecados_03",
+      "aldecados_04",
+      "aldecados_05",
+      "wraiths_02",
+      "wraiths_03",
+      "wraiths_04",
+      "wraiths_05",
+      "player_02"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:burnt_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_burnt_01",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03",
+      "wreck:mizutani_shion_nomad_burnt_01"
+     ]
+    },
+    {
+     "id": "cf46565d",
+     "code": "body_technical_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_body_technical_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "technical_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01"
+     ],
+     "origins": [
+      "look:technical_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     -0.0012,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "46d4b6e0",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "wraiths_01",
+      "deathrace_01",
+      "aldecados_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:burnt_01",
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_burnt_01",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03",
+      "wreck:mizutani_shion_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.spoiler",
+   "label": "Spoiler",
+   "kind": "spoiler",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "spoiler_01"
+   ],
+   "options": [
+    {
+     "id": "c7d69889",
+     "code": "spoiler_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_spoiler_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_spoiler_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_03",
+     "paints": [
+      "wraiths_01",
+      "aldecados_01",
+      "deathrace_01",
+      "player_01",
+      "aldecados_02",
+      "aldecados_03",
+      "aldecados_04",
+      "aldecados_05",
+      "wraiths_02",
+      "wraiths_03",
+      "wraiths_04"
+     ],
+     "looks": [
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_05"
+     ],
+     "origins": [
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.1961,
+     -0.359
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "spoiler_01"
+   ],
+   "options": [
+    {
+     "id": "78eeac9c",
+     "code": "trunk_b_01",
+     "vehicle": "Quartz \"Specter\"",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_trunk_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_quartz_nomad\\entities\\meshes\\v_standard2_archer_quartz_nomad__ext01_trunk_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wraiths_02",
+     "paints": [
+      "wraiths_01",
+      "wraiths_02",
+      "aldecaldos_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:technical_01",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f"
+   ],
+   "options": [
+    {
+     "id": "272fe803",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_window_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_window_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01",
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:burnt_01",
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_burnt_01",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03",
+      "wreck:mizutani_shion_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0214,
+     0.0,
+     0.0
+    ],
+    [
+     0.0214,
+     0.0,
+     0.0
+    ],
+    [
+     0.0379,
+     0.0,
+     0.0
+    ],
+    [
+     0.0366,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_<c>_a_01"
+   ],
+   "options": [
+    {
+     "id": "e5843c98",
+     "code": "tire_a_01",
+     "vehicle": "Galena \"Gecko\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "muddy_cyan",
+     "paints": [
+      "muddy_red",
+      "muddy_cyan",
+      "muddy_yellow",
+      "muddy_red_02",
+      "muddy_gray",
+      "muddy_red_03",
+      "muddy_green",
+      "muddy_white_01",
+      "dusty_gray"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims: a",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0143,
+     0.0,
+     0.0
+    ],
+    [
+     0.0143,
+     0.0,
+     0.0
+    ],
+    [
+     0.0354,
+     0.0,
+     0.0
+    ],
+    [
+     0.0354,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_<c>_a_01"
+   ],
+   "options": [
+    {
+     "id": "e7cc1925",
+     "code": "wheel_a_01",
+     "vehicle": "Galena \"Gecko\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "silver_dusty",
+     "paints": [
+      "deathrace_01",
+      "silver_01",
+      "brown_01",
+      "black_dusty",
+      "red",
+      "cyan",
+      "black",
+      "silver_dusty",
+      "red_dusty",
+      "black_dusty_light"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel.wheel",
+   "label": "Rims: main",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     -0.0047,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0047,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard2_chevalier_thrax__ext01_wheel_<c>_01",
+    "wheel_<c>_02"
+   ],
+   "options": [
+    {
+     "id": "d1d66eee",
+     "code": "wheel_01",
+     "vehicle": "Thrax 388 Jefferson",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "maelstrom_red_01_dusty",
+     "paints": [
+      "dirty_01",
+      "valentinos_01",
+      "maelstrom_red_01",
+      "maelstrom_green_01",
+      "maelstrom_red_01_dusty",
+      "valentinos_01_dusty",
+      "maelstrom_green_dusty"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    },
+    {
+     "id": "b43cf2be",
+     "code": "wheel_03",
+     "vehicle": "Hella EC-D i360",
+     "meshes": {
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_03.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "maelstrom_red_01",
+     "paints": [
+      "white_01",
+      "aldecados_02",
+      "wraiths_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_02"
+     ],
+     "origins": [
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "71c129f5",
+     "code": "door_a_01",
+     "vehicle": "Shion MZ1",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wraiths_05",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "urban_01",
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05",
+      "urban_blackhole",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "poor_05",
+      "tygerclaws_02_glass",
+      "carbon",
+      "targa_red",
+      "targa_black",
+      "targa_01",
+      "targa_blue",
+      "targa",
+      "targa_02",
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01",
+      "player_01",
+      "wraiths_02",
+      "wraiths_03",
+      "wraiths_04",
+      "wraiths_05",
+      "aldecaldo_02",
+      "aldecaldo_03",
+      "aldecaldo_04",
+      "aldecaldo_05",
+      "wraiths_06",
+      "takemura_01",
+      "player_02",
+      "targa_red_player"
+     ],
+     "looks": [
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    },
+    {
+     "id": "7cc90b9f",
+     "code": "door_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "ep1\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_door_fl_a_01.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_door_fr_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "targa_black",
+     "paints": [
+      "technical_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01"
+     ],
+     "origins": [
+      "look:technical_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_c.door",
+   "label": "Doors (c)",
+   "kind": "door",
+   "group": "door_c",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_c",
+    "door_front_right_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_c"
+   ],
+   "options": [
+    {
+     "id": "90df2563",
+     "code": "door_c_01",
+     "vehicle": "Shion MZ1",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fl_c_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion\\entities\\meshes\\v_sport2_mizutani_shion__ext01_door_fr_c_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wraiths_01",
+     "paints": [
+      "targa_red",
+      "targa_black",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "tygerclaws_01",
+      "tygerclaws_02",
+      "tygerclaws_03",
+      "tygerclaws_04",
+      "tygerclaws_02_glass",
+      "urban_blackhole",
+      "targa_01",
+      "targa_blue",
+      "carbon",
+      "player_01",
+      "wraiths_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rotor_a.body",
+   "label": "Body (rotor_a)",
+   "kind": "body",
+   "group": "rotor_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "rotor_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_rotor_01"
+   ],
+   "options": [
+    {
+     "id": "0f7894ac",
+     "code": "body_rotor_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_body_rotor_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01",
+      "player"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:burnt_01",
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_burnt_01",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03",
+      "wreck:mizutani_shion_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>"
+   ],
+   "options": [
+    {
+     "id": "1d744f29",
+     "code": "window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_window_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_window_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_window_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01",
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_shion_nomad__technical:technical_01",
+      "mizutani_shion_nomad_aldecados_01",
+      "mizutani_shion_nomad_aldecados_02",
+      "mizutani_shion_nomad_aldecados_02_missiles",
+      "mizutani_shion_nomad_aldecados_03",
+      "mizutani_shion_nomad_aldecados_03_missiles",
+      "mizutani_shion_nomad_aldecados_04",
+      "mizutani_shion_nomad_aldecados_05",
+      "mizutani_shion_nomad_aldecados_05_missiles",
+      "mizutani_shion_nomad_deathrace_01",
+      "mizutani_shion_nomad_player_01",
+      "mizutani_shion_nomad_player_01_missiles",
+      "mizutani_shion_nomad_player_02",
+      "mizutani_shion_nomad_wraiths_01",
+      "mizutani_shion_nomad_wraiths_02",
+      "mizutani_shion_nomad_wraiths_02_missiles",
+      "mizutani_shion_nomad_wraiths_03",
+      "mizutani_shion_nomad_wraiths_03_missiles",
+      "mizutani_shion_nomad_wraiths_04",
+      "mizutani_shion_nomad_wraiths_05",
+      "mizutani_shion_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "look:technical_01",
+      "style:mizutani_shion_nomad_aldecados_01",
+      "style:mizutani_shion_nomad_player_01",
+      "style:mizutani_shion_nomad_player_02",
+      "style:mizutani_shion_nomad_wraiths_02",
+      "style:mizutani_shion_nomad_wraiths_03"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "nomad_7bc4",
+   "family": "nomad",
+   "code": "kit_nomad_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_cable_a_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_body_cable_a_01.mesh",
+     "code": "body_cable_a_01",
+     "paint": "aldecados_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_l_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.709,
+      2.2624,
+      -0.3878
+     ],
+     "rotation": [
+      -0.20981933176517487,
+      -0.10233572870492935,
+      0.42625898122787476,
+      0.8739603757858276
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_l_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.6225,
+      2.3051,
+      -0.4043
+     ],
+     "rotation": [
+      -0.21561600267887115,
+      -0.01886395364999771,
+      0.0850898027420044,
+      0.9725809693336487
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_l_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.6065,
+      2.2526,
+      -0.4585
+     ],
+     "rotation": [
+      -0.38756632804870605,
+      -0.16851866245269775,
+      0.3613893985748291,
+      0.8311386704444885
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02.mesh",
+     "code": "sensor_medium_02",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.6857,
+      2.3473,
+      -0.1119
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_r_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.6158,
+      2.3051,
+      -0.4043
+     ],
+     "rotation": [
+      -0.21561600267887115,
+      0.01886395364999771,
+      -0.0850898027420044,
+      0.9725809693336487
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_r_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.6992,
+      2.2678,
+      -0.3878
+     ],
+     "rotation": [
+      -0.2041759192943573,
+      0.11317656189203262,
+      -0.4714142978191376,
+      0.8504538536071777
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_r_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.6158,
+      2.2071,
+      -0.4585
+     ],
+     "rotation": [
+      -0.3932114541530609,
+      0.15489012002944946,
+      -0.33216288685798645,
+      0.8432446718215942
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "engine",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_engine_01.mesh",
+     "code": "engine_01",
+     "paint": "aldecados_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "engine_overheating_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_engine_overheating_01.mesh",
+     "code": "engine_overheating_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "shion_fx_cutout",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\shion_nomad_fx_cutout.mesh",
+     "code": "shion_nomad_fx_cutout",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_light_device_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02.mesh",
+     "code": "light_device_medium_02",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.0163,
+      -0.3644,
+      0.5868
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_l_a",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_f_l_a_01.mesh",
+     "code": "crystaldome_f_l_a_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_l_b",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_f_l_b_01.mesh",
+     "code": "crystaldome_f_l_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_m_a",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_f_m_a_01.mesh",
+     "code": "crystaldome_f_m_a_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_m_b",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_f_m_b_01.mesh",
+     "code": "crystaldome_f_m_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_r_a",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_f_r_a_01.mesh",
+     "code": "crystaldome_f_r_a_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_r_b",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_f_r_b_01.mesh",
+     "code": "crystaldome_f_r_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mizutani_shion_nomad__technical:burnt_01",
+    "mizutani_shion_nomad__technical:technical_01",
+    "mizutani_shion_nomad_aldecados_01",
+    "mizutani_shion_nomad_aldecados_02",
+    "mizutani_shion_nomad_aldecados_02_missiles",
+    "mizutani_shion_nomad_aldecados_03",
+    "mizutani_shion_nomad_aldecados_03_missiles",
+    "mizutani_shion_nomad_aldecados_04",
+    "mizutani_shion_nomad_aldecados_05",
+    "mizutani_shion_nomad_aldecados_05_missiles",
+    "mizutani_shion_nomad_burnt_01",
+    "mizutani_shion_nomad_deathrace_01",
+    "mizutani_shion_nomad_player_01",
+    "mizutani_shion_nomad_player_01_missiles",
+    "mizutani_shion_nomad_player_02",
+    "mizutani_shion_nomad_wraiths_01",
+    "mizutani_shion_nomad_wraiths_02",
+    "mizutani_shion_nomad_wraiths_02_missiles",
+    "mizutani_shion_nomad_wraiths_03",
+    "mizutani_shion_nomad_wraiths_03_missiles",
+    "mizutani_shion_nomad_wraiths_04",
+    "mizutani_shion_nomad_wraiths_05",
+    "mizutani_shion_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_01",
+    "look:technical_01",
+    "style:mizutani_shion_nomad_aldecados_01",
+    "style:mizutani_shion_nomad_player_01",
+    "style:mizutani_shion_nomad_player_02",
+    "style:mizutani_shion_nomad_wraiths_02",
+    "style:mizutani_shion_nomad_wraiths_03",
+    "wreck:mizutani_shion_nomad_burnt_01"
+   ]
+  },
+  {
+   "id": "nomad_ebe7",
+   "family": "nomad",
+   "code": "kit_nomad_body_2",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_body_stickers_01.mesh",
+     "code": "body_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_light_device_small_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_small_01.mesh",
+     "code": "light_device_small_01",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.2047,
+      -1.1889,
+      0.5289
+     ],
+     "rotation": [
+      -0.06777320802211761,
+      -0.06777317821979523,
+      0.7038513422012329,
+      -0.7038514614105225
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_small_01_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mizutani_shion_nomad__technical:burnt_01",
+    "mizutani_shion_nomad_aldecados_01",
+    "mizutani_shion_nomad_aldecados_02",
+    "mizutani_shion_nomad_aldecados_02_missiles",
+    "mizutani_shion_nomad_aldecados_03",
+    "mizutani_shion_nomad_aldecados_03_missiles",
+    "mizutani_shion_nomad_aldecados_04",
+    "mizutani_shion_nomad_aldecados_05",
+    "mizutani_shion_nomad_aldecados_05_missiles",
+    "mizutani_shion_nomad_burnt_01",
+    "mizutani_shion_nomad_deathrace_01",
+    "mizutani_shion_nomad_player_01",
+    "mizutani_shion_nomad_player_01_missiles",
+    "mizutani_shion_nomad_player_02",
+    "mizutani_shion_nomad_wraiths_01",
+    "mizutani_shion_nomad_wraiths_02",
+    "mizutani_shion_nomad_wraiths_02_missiles",
+    "mizutani_shion_nomad_wraiths_03",
+    "mizutani_shion_nomad_wraiths_03_missiles",
+    "mizutani_shion_nomad_wraiths_04",
+    "mizutani_shion_nomad_wraiths_05",
+    "mizutani_shion_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_01",
+    "style:mizutani_shion_nomad_aldecados_01",
+    "style:mizutani_shion_nomad_player_01",
+    "style:mizutani_shion_nomad_player_02",
+    "style:mizutani_shion_nomad_wraiths_02",
+    "style:mizutani_shion_nomad_wraiths_03",
+    "wreck:mizutani_shion_nomad_burnt_01"
+   ]
+  },
+  {
+   "id": "nomad_7baa",
+   "family": "nomad",
+   "code": "kit_nomad_body_bumper_doors_hood",
+   "where": [
+    "body",
+    "bumper",
+    "doors",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "attachment_antenna_1_n_roof_radar_cables",
+     "mesh": "base\\vehicles\\common\\parts\\placeables\\attachment_antenna_1_n_roof_radar_cables.mesh",
+     "code": "attachment_antenna_1_n_roof_radar_cables",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      -0.3272,
+      -1.0653,
+      0.119
+     ],
+     "rotation": [
+      -0.4885718822479248,
+      -0.5071071982383728,
+      0.5103294253349304,
+      0.49366360902786255
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "bumper_b_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_bumper_b_stickers_01.mesh",
+     "code": "bumper_b_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:bumper_back"
+    },
+    {
+     "name": "detachable_sensor_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03.mesh",
+     "code": "sensor_medium_03",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.1697,
+      0.8326,
+      -0.0823
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03_shadow.mesh",
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "hood_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_hood_stickers_01.mesh",
+     "code": "hood_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "window_fl_b_a",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_fl_b_a_01.mesh",
+     "code": "crystaldome_fl_b_a_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "window_fl_b_b",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_fl_b_b_01.mesh",
+     "code": "crystaldome_fl_b_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "window_fl_f_a",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_fl_f_a_01.mesh",
+     "code": "crystaldome_fl_f_a_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "window_fl_f_b",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_fl_f_b_01.mesh",
+     "code": "crystaldome_fl_f_b_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "window_fr_b_a",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_fr_b_a_01.mesh",
+     "code": "crystaldome_fr_b_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "window_fr_b_b",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_fr_b_b_01.mesh",
+     "code": "crystaldome_fr_b_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "window_fr_f_a",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_fr_f_a_01.mesh",
+     "code": "crystaldome_fr_f_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "window_fr_f_b",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_crystaldome_fr_f_b_01.mesh",
+     "code": "crystaldome_fr_f_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion_nomad__technical:technical_01",
+    "mizutani_shion_nomad_aldecados_01",
+    "mizutani_shion_nomad_aldecados_02",
+    "mizutani_shion_nomad_aldecados_02_missiles",
+    "mizutani_shion_nomad_aldecados_03",
+    "mizutani_shion_nomad_aldecados_03_missiles",
+    "mizutani_shion_nomad_aldecados_04",
+    "mizutani_shion_nomad_aldecados_05",
+    "mizutani_shion_nomad_aldecados_05_missiles",
+    "mizutani_shion_nomad_deathrace_01",
+    "mizutani_shion_nomad_player_01",
+    "mizutani_shion_nomad_player_01_missiles",
+    "mizutani_shion_nomad_player_02",
+    "mizutani_shion_nomad_wraiths_01",
+    "mizutani_shion_nomad_wraiths_02",
+    "mizutani_shion_nomad_wraiths_02_missiles",
+    "mizutani_shion_nomad_wraiths_03",
+    "mizutani_shion_nomad_wraiths_03_missiles",
+    "mizutani_shion_nomad_wraiths_04",
+    "mizutani_shion_nomad_wraiths_05",
+    "mizutani_shion_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper",
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:window.window"
+   ],
+   "needs": [],
+   "origins": [
+    "look:technical_01",
+    "style:mizutani_shion_nomad_aldecados_01",
+    "style:mizutani_shion_nomad_player_01",
+    "style:mizutani_shion_nomad_player_02",
+    "style:mizutani_shion_nomad_wraiths_02",
+    "style:mizutani_shion_nomad_wraiths_03"
+   ]
+  },
+  {
+   "id": "nomad_3cb5",
+   "family": "nomad",
+   "code": "kit_nomad_body_doors_trunk",
+   "where": [
+    "body",
+    "doors",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_a_sticker_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_door_fl_a_sticker_01.mesh",
+     "code": "door_fl_a_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      -0.007,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_a_sticker_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_door_fr_a_stickers_01.mesh",
+     "code": "door_fr_a_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.008,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "trunk_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_trunk_stickers_01.mesh",
+     "code": "trunk_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "window_fl_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_window_fl_stickers_01.mesh",
+     "code": "window_fl_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "window_fr_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_window_fr_stickers_01.mesh",
+     "code": "window_fr_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion_nomad_aldecados_01",
+    "mizutani_shion_nomad_aldecados_02",
+    "mizutani_shion_nomad_aldecados_02_missiles",
+    "mizutani_shion_nomad_aldecados_03",
+    "mizutani_shion_nomad_aldecados_03_missiles",
+    "mizutani_shion_nomad_aldecados_04",
+    "mizutani_shion_nomad_aldecados_05",
+    "mizutani_shion_nomad_aldecados_05_missiles",
+    "mizutani_shion_nomad_deathrace_01",
+    "mizutani_shion_nomad_player_01",
+    "mizutani_shion_nomad_player_01_missiles",
+    "mizutani_shion_nomad_player_02",
+    "mizutani_shion_nomad_wraiths_01",
+    "mizutani_shion_nomad_wraiths_02",
+    "mizutani_shion_nomad_wraiths_02_missiles",
+    "mizutani_shion_nomad_wraiths_03",
+    "mizutani_shion_nomad_wraiths_03_missiles",
+    "mizutani_shion_nomad_wraiths_04",
+    "mizutani_shion_nomad_wraiths_05",
+    "mizutani_shion_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:trunk_a.trunk",
+    "slot:window.window"
+   ],
+   "needs": [],
+   "origins": [
+    "style:mizutani_shion_nomad_aldecados_01",
+    "style:mizutani_shion_nomad_player_01",
+    "style:mizutani_shion_nomad_player_02",
+    "style:mizutani_shion_nomad_wraiths_02",
+    "style:mizutani_shion_nomad_wraiths_03"
+   ]
+  },
+  {
+   "id": "nomad_0992",
+   "family": "nomad",
+   "code": "kit_nomad_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "detachable_v_common_nomad_part__ext01_electric_device_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_03.mesh",
+     "code": "electric_device_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0235,
+      -0.1803,
+      -0.0915
+     ],
+     "rotation": [
+      0.7131418585777283,
+      0.012232555076479912,
+      0.7008025050163269,
+      0.012447936460375786
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad__technical:technical_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "detachable_v_common_nomad_part__ext01_sensor_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_01.mesh",
+     "code": "sensor_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.016,
+      -0.2004,
+      -0.0369
+     ],
+     "rotation": [
+      -0.008725207298994064,
+      -0.017451738938689232,
+      0.0001522990205558017,
+      0.9998096823692322
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_01_shadow.mesh",
+     "look": "mizutani_shion_nomad__technical:technical_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "door_fl_a_technical_01",
+     "mesh": "ep1\\vehicles\\sport\\v_sport2_mizutani_shion_nomad\\entities\\meshes\\v_sport2_mizutani_shion_nomad__ext01_door_fl_a_technical_01.mesh",
+     "code": "door_fl_a_technical_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_shion_nomad__technical:technical_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "mizutani_shion_nomad__technical:technical_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:technical_01"
+   ]
+  }
+ ],
+ "looks": {
+  "mizutani_shion_nomad_player_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "player_01",
+   "style": "mizutani_shion_nomad_player_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_deathrace_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "deathrace_01",
+   "style": "mizutani_shion_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_wraiths_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "wraiths_01",
+   "style": "mizutani_shion_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_aldecados_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "aldecados_01",
+   "style": "mizutani_shion_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_burnt_01": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    }
+   }
+  },
+  "mizutani_shion_nomad_player_02": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "player_02",
+   "style": "mizutani_shion_nomad_player_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_aldecados_05": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "aldecados_05",
+   "style": "mizutani_shion_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_aldecados_03": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "aldecados_03",
+   "style": "mizutani_shion_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_aldecados_04": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "aldecados_04",
+   "style": "mizutani_shion_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_aldecados_02": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "aldecados_02",
+   "style": "mizutani_shion_nomad_player_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_wraiths_05": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "wraiths_05",
+   "style": "mizutani_shion_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_wraiths_04": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "wraiths_04",
+   "style": "mizutani_shion_nomad_wraiths_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_wraiths_03": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "wraiths_03",
+   "style": "mizutani_shion_nomad_wraiths_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.trunk": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_wraiths_02": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "wraiths_02",
+   "style": "mizutani_shion_nomad_wraiths_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_wraiths_03_missiles": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "wraiths_03_missiles",
+   "style": "mizutani_shion_nomad_wraiths_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.trunk": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_player_01_missiles": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "player_01_missiles",
+   "style": "mizutani_shion_nomad_wraiths_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.trunk": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_aldecados_03_missiles": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "aldecados_03_missiles",
+   "style": "mizutani_shion_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.spoiler": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_aldecados_05_missiles": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "aldecados_05_missiles",
+   "style": "mizutani_shion_nomad_wraiths_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_aldecados_02_missiles": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "aldecados_02_missiles",
+   "style": "mizutani_shion_nomad_player_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "wheel_bl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_wraiths_05_missiles": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "wraiths_05_missiles",
+   "style": "mizutani_shion_nomad_wraiths_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    },
+    "base.trunk": {
+     "all": "spoiler_01"
+    }
+   }
+  },
+  "mizutani_shion_nomad_wraiths_02_missiles": {
+   "app": "base\\vehicles\\appearances\\sport\\mizutani_shion_nomad.app",
+   "app_look": "wraiths_02_missiles",
+   "style": "mizutani_shion_nomad_wraiths_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "rotor_a.body": {
+     "all": "body_rotor_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.wheel.wheel": {
+     "bl": "v_standard2_chevalier_thrax__ext01_wheel_bl_01",
+     "br": "v_standard2_chevalier_thrax__ext01_wheel_br_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3226,
+   0.2104,
+   0.2361,
+   -0.1246
+  ],
+  "b": [
+   0.331,
+   0.3468,
+   0.328,
+   -0.1348
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "c6980bde",
+   "rim": "base\\vehicles\\standard\\v_standard2_chevalier_thrax\\entities\\meshes\\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Thrax 388 Jefferson",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.328,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 17,
+   "paints": [
+    "dirty_01",
+    "valentinos_01",
+    "maelstrom_red_01",
+    "maelstrom_green_01",
+    "maelstrom_red_01_dusty",
+    "valentinos_01_dusty",
+    "maelstrom_green_dusty"
+   ],
+   "default_paint": "maelstrom_red_01_dusty",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion_nomad__technical:technical_01",
+    "mizutani_shion_nomad_aldecados_01",
+    "mizutani_shion_nomad_aldecados_03",
+    "mizutani_shion_nomad_aldecados_03_missiles",
+    "mizutani_shion_nomad_aldecados_04",
+    "mizutani_shion_nomad_aldecados_05",
+    "mizutani_shion_nomad_aldecados_05_missiles",
+    "mizutani_shion_nomad_deathrace_01",
+    "mizutani_shion_nomad_player_01_missiles",
+    "mizutani_shion_nomad_wraiths_01",
+    "mizutani_shion_nomad_wraiths_02",
+    "mizutani_shion_nomad_wraiths_02_missiles",
+    "mizutani_shion_nomad_wraiths_03",
+    "mizutani_shion_nomad_wraiths_03_missiles",
+    "mizutani_shion_nomad_wraiths_04",
+    "mizutani_shion_nomad_wraiths_05",
+    "mizutani_shion_nomad_wraiths_05_missiles"
+   ]
+  },
+  {
+   "id": "d92da616",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.3226,
+   "width": 0.2104,
+   "rim_radius": 0.2361,
+   "tire_center": -0.1246,
+   "axles": [
+    "f"
+   ],
+   "looks": 21,
+   "paints": [
+    "deathrace_01",
+    "silver_01",
+    "brown_01",
+    "black_dusty",
+    "red",
+    "cyan",
+    "black",
+    "silver_dusty",
+    "red_dusty",
+    "black_dusty_light"
+   ],
+   "default_paint": "silver_dusty",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion_nomad__technical:technical_01",
+    "mizutani_shion_nomad_aldecados_01",
+    "mizutani_shion_nomad_aldecados_02",
+    "mizutani_shion_nomad_aldecados_02_missiles",
+    "mizutani_shion_nomad_aldecados_03",
+    "mizutani_shion_nomad_aldecados_03_missiles",
+    "mizutani_shion_nomad_aldecados_04",
+    "mizutani_shion_nomad_aldecados_05",
+    "mizutani_shion_nomad_aldecados_05_missiles",
+    "mizutani_shion_nomad_deathrace_01",
+    "mizutani_shion_nomad_player_01",
+    "mizutani_shion_nomad_player_01_missiles",
+    "mizutani_shion_nomad_player_02",
+    "mizutani_shion_nomad_wraiths_01",
+    "mizutani_shion_nomad_wraiths_02",
+    "mizutani_shion_nomad_wraiths_02_missiles",
+    "mizutani_shion_nomad_wraiths_03",
+    "mizutani_shion_nomad_wraiths_03_missiles",
+    "mizutani_shion_nomad_wraiths_04",
+    "mizutani_shion_nomad_wraiths_05",
+    "mizutani_shion_nomad_wraiths_05_missiles"
+   ]
+  },
+  {
+   "id": "8d60932a",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_03.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_fl_03",
+   "tire_code": "tire_bl_a_01",
+   "from": "Hella EC-D i360",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2494,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 4,
+   "paints": [
+    "white_01",
+    "aldecados_02",
+    "wraiths_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_shion_nomad_aldecados_02",
+    "mizutani_shion_nomad_aldecados_02_missiles",
+    "mizutani_shion_nomad_player_01",
+    "mizutani_shion_nomad_player_02"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "mizutani_shion_nomad_player_01",
+   "Shion \"Coyote\""
+  ],
+  [
+   "mizutani_shion_nomad_player_01_missiles",
+   "Shion \"Samum\""
+  ],
+  [
+   "mizutani_shion_nomad_player_02",
+   "Shion \"Bonewrecker\""
+  ]
+ ]
+}

@@ -1,0 +1,52 @@
+Quartz "Specter" (archer_quartz_nomad__01), from base\vehicles\standard\v_standard2_archer_quartz_nomad__01.ent
+records: Vehicle.v_standard2_archer_quartz_nomad_player, Vehicle.v_standard2_archer_quartz_nomad_player_02
+generated 2026-11-08
+
+STYLES (4; a style's other looks are its factory paints)
+  archer_quartz_nomad_aldecados_02 Archer quartz nomad aldecados 02 11 looks
+                                            paints: archer_quartz_nomad_aldecados_03, archer_quartz_nomad_aldecados_04, archer_quartz_nomad_aldecados_05, archer_quartz_nomad_aldecados_01_1, archer_quartz_nomad_wraiths_03, archer_quartz_nomad_wraiths_01_1, archer_quartz_nomad_wraiths_03_missiles, archer_quartz_nomad_aldecados_02_missiles, archer_quartz_nomad_aldecados_03_missiles, archer_quartz_nomad_aldecados_05_missiles
+                                            kits: kit_nomad_body, kit_nomad_body_doors_hood_trunk
+  archer_quartz_nomad_player_02 Archer quartz nomad player 02 1 looks
+                                            kits: kit_nomad_body, kit_nomad_body_doors_hood_trunk
+  archer_quartz_nomad_wraiths_01 Archer quartz nomad wraiths 8 looks
+                                            paints: archer_quartz_nomad_wraiths_02, archer_quartz_nomad_wraiths_05, archer_quartz_nomad_aldecados_01, archer_quartz_nomad_wraiths_01_missiles, archer_quartz_nomad_wraiths_02_missiles, archer_quartz_nomad_wraiths_05_missiles, archer_quartz_nomad_aldecados_01_missiles
+                                            kits: kit_nomad_body, kit_nomad_body_2, trunk_b_sticker_01, kit_nomad_body_doors_hood_trunk
+  archer_quartz_nomad_wraiths_04 Archer quartz nomad wraiths 04 3 looks
+                                            paints: archer_quartz_nomad_player_01, archer_quartz_nomad_player_01_missiles
+                                            kits: kit_nomad_body, kit_nomad_body_2, kit_nomad_body_doors_hood_trunk
+WRECKS: archer_quartz_nomad_burnt_01
+
+SLOTS (12)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                     5 paints  23 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                     2 paints  23 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                         5 paints  23 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_a_01                                      3 paints  23 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+  Body [base.body] (Base): 1 options
+    body_01                                        13 paints  24 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04] [wreck: archer_quartz_nomad_burnt_01]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     2 paints  24 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04] [wreck: archer_quartz_nomad_burnt_01]
+  Trunk [base.trunk] (Base): 1 options
+    trunk_b_01                                      3 paints  11 looks  [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+  Windshield [base.window.window_f] (Base): 1 options
+    window_f_01                                     2 paints  24 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04] [wreck: archer_quartz_nomad_burnt_01]
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_a_01                                       9 paints  23 looks  [car: Galena "Gecko"] [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+  Rims: a [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_01                                        4 paints  22 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+    wheel_01 + wheel_a_01                           5 paints   1 looks  [car: Mackinaw MTL1] [style: Archer quartz nomad player 02]
+  Rims: a1880 [wheel.wheel.wheel_a1880] (wheel_back_left, wheel_back_right): 1 options
+    wheel_01                                        7 paints   1 looks  [car: Thrax 388 Jefferson] [style: Archer quartz nomad player 02]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                         9 paints  23 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+
+KITS (4)
+  kit_nomad_body                                 13 parts  24 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04] [wreck: archer_quartz_nomad_burnt_01]
+  kit_nomad_body_2                               2 parts  11 looks  [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+  kit_nomad_body_doors_hood_trunk                7 parts  23 looks  [style: Archer quartz nomad aldecados 02] [style: Archer quartz nomad player 02] [style: Archer quartz nomad wraiths] [style: Archer quartz nomad wraiths 04]
+                                                 made to sit on Doors, Hood, Trunk, window.window
+  trunk_b_sticker_01                             1 parts   8 looks  [style: Archer quartz nomad wraiths]
+                                                 made to sit on Trunk

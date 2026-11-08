@@ -1,0 +1,15 @@
+Legatus 450 Aquila (chevalier_legatus_basic_01), from base\vehicles\utility\v_utility4_chevalier_legatus_basic_01.ent
+records: Vehicle.v_utility4_chevalier_legatus_player
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  chevalier_legatus_basic_legatus_01 Chevalier legatus basic legatus 1 looks
+  chevalier_legatus_basic_legatus_aquila_01 Chevalier legatus basic legatus aquila 1 looks
+WRECKS: chevalier_legatus_basic_burnt_01, chevalier_legatus_basic_burnt_aquila_01
+
+SLOTS (1)
+  Seats [base.seat.seats_f] (Base): 2 options
+    seats_f_01                                      0 paints   2 looks  [car: v_utility4_chevalier_legatus] [style: Chevalier legatus basic legatus aquila] [wreck: chevalier_legatus_basic_burnt_aquila_01]
+    seats_fl_01                                     0 paints   2 looks  [car: v_utility4_chevalier_legatus] [style: Chevalier legatus basic legatus] [wreck: chevalier_legatus_basic_burnt_01]
+
+KITS (0)

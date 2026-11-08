@@ -1,0 +1,40 @@
+{
+  "camera_forward": {
+    "x": -1,
+    "y": 0.2,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 9,
+    "x": 2989.8,
+    "y": -2358.1,
+    "z": 119.5
+  },
+  "look_object": {
+    "class": "ActivatedDeviceTrap",
+    "entity_id": "11030449514733452217ULL",
+    "name": "LocKey#21932",
+    "position": {
+      "x": 2991.4,
+      "y": -2357.5,
+      "z": 118.4
+    }
+  },
+  "nearest": {
+    "distance": 23.4,
+    "gig": "sq004",
+    "gig_state_from": "not found in the journal",
+    "id": "raffen_shiv_camp",
+    "name": "Raffen Shiv camp"
+  },
+  "note": "",
+  "player": {
+    "x": 2998.6,
+    "y": -2359.8,
+    "yaw": 79.1,
+    "z": 118.4
+  },
+  "stamp": "20261106-183317",
+  "time": "2026-11-06 18:33:17"
+}

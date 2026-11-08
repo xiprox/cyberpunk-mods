@@ -1,0 +1,64 @@
+Colby CST40 (thorton_colby__basic_01), from base\vehicles\standard\v_standard2_thorton_colby__basic_01.ent
+records: Vehicle.v_standard2_thorton_colby_gt_player, Vehicle.v_standard2_thorton_colby_player
+generated 2026-11-08
+
+STYLES (8; a style's other looks are its factory paints)
+  family_car               Family car       1 looks
+                                            kits: stickers_bumper_b_01
+  muamar_reyes_car         Muamar reyes car 1 looks
+  poor_2                   Poor 2           5 looks
+                                            paints: poor_2_1, poor_2_2, poor_2_3, poor_2_4
+  suburban_1               Suburban         5 looks
+                                            paints: suburban_1_1, suburban_1_2, suburban_1_3, suburban_1_4
+  suburban_2               Suburban 2       10 looks
+                                            paints: suburban_2_1, suburban_2_2, suburban_2_3, suburban_2_4, poor_1, poor_1_1, poor_1_2, poor_1_3, poor_1_4
+  urban_01                 Urban            2 looks
+                                            paints: urban_01_1
+  player_01                V's own          1 looks
+  valentinos_01            Valentinos       1 looks
+                                            kits: stickers_bumper_b_01, kit_valentinos_body_bumper_doors_hood
+WRECKS: burnt_01
+
+SLOTS (12)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_01                                    18 paints  21 looks  [look: default_01] [style: Family car] [style: V's own] [style: Suburban] [style: Suburban 2] ...
+    junk_bumper_f_01                                2 paints   7 looks  [look: scavenger_01] [style: Muamar reyes car] [style: Poor 2]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    18 paints  20 looks  [look: default_01] [style: Family car] [style: Suburban] [style: Suburban 2] [style: Urban] ...
+    junk_bumper_b_01                                2 paints   8 looks  [look: scavenger_01] [style: Muamar reyes car] [style: V's own] [style: Poor 2]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        19 paints  22 looks  [look: default_01] [style: Family car] [style: Muamar reyes car] [style: V's own] [style: Suburban] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       19 paints  29 looks  [look: default_01] [look: scavenger_01] [look: scavenger_02] [style: Family car] [style: Muamar reyes car] ...
+  Body [base.body] (Base): 1 options
+    body_01                                        18 paints  30 looks  [look: default_01] [look: scavenger_01] [look: scavenger_02] [style: Family car] [style: Muamar reyes car] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     9 paints  30 looks  [look: default_01] [look: scavenger_01] [look: scavenger_02] [style: Family car] [style: Muamar reyes car] ...
+  Windshield: back left [base.window] (Base): 1 options
+    window_bl_01                                    3 paints  30 looks  [look: default_01] [look: scavenger_01] [look: scavenger_02] [style: Family car] [style: Muamar reyes car] ...
+  Windshield: back right [base.window.window_br] (Base): 1 options
+    window_br_01                                    2 paints  30 looks  [look: default_01] [look: scavenger_01] [look: scavenger_02] [style: Family car] [style: Muamar reyes car] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         5 paints  28 looks  [look: default_01] [look: scavenger_01] [look: scavenger_02] [style: Family car] [style: V's own] ...
+    tire_01                                         5 paints   1 looks  [style: Muamar reyes car]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 6 options
+    wheel_01                                        3 paints  17 looks  [look: default_01] [style: Family car] [style: Poor 2] [style: Suburban 2]
+    wheel_02                                        3 paints   5 looks  [style: Suburban]
+    wheel_04                                        5 paints   3 looks  [style: Urban] [style: Valentinos]
+    wheel_06                                        0 paints   2 looks  [look: scavenger_01] [look: scavenger_02]
+    wheel_03                                        8 paints   1 looks  [style: V's own]
+    wheel_05 + wheel_01                             0 paints   1 looks  [style: Muamar reyes car]
+  Doors: a [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                        18 paints  28 looks  [look: default_01] [look: scavenger_01] [look: scavenger_02] [style: Family car] [style: V's own] ...
+  Doors: mirror [door.door.mirror] (door_front_left_a, door_front_right_a): 1 options
+    door_mirror_01                                 13 paints  28 looks  [look: default_01] [look: scavenger_01] [look: scavenger_02] [style: Family car] [style: V's own] ...
+
+KITS (5)
+  kit_scavengers_body                            2 parts   2 looks  [look: scavenger_01] [look: scavenger_02]
+  kit_scavengers_body_2                          2 parts   1 looks  [look: scavenger_01]
+  kit_scavengers_body_doors                      2 parts   1 looks  [look: scavenger_02]
+                                                 made to sit on Doors: a
+  stickers_bumper_b_01                           1 parts   2 looks  [style: Family car] [style: Valentinos]
+                                                 made to sit on Rear bumper
+  kit_valentinos_body_bumper_doors_hood          10 parts   1 looks  [style: Valentinos]
+                                                 made to sit on Rear bumper, Doors: a, Hood

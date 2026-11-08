@@ -1,0 +1,28 @@
+Zeya U420 (kaukaz_zeya__kurtz_01_ep1), from ep1\vehicles\utility\v_utility4_kaukaz_zeya__kurtz_01.ent
+records: Vehicle.v_utility4_kaukaz_zeya_kurtz
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  kaukaz_zeya_kurtz_zeya_kurtz_1 Kaukaz zeya kurtz zeya kurtz 1 looks
+                                            kits: kit_kurtz_body, kit_sticker_body_interior
+  kaukaz_zeya_kurtz_zeya_kurtz_2 Kaukaz zeya kurtz zeya kurtz 2 2 looks
+                                            paints: kaukaz_zeya_kurtz_zeya_kurtz_3
+                                            kits: kit_kurtz_body, kit_sticker_body_interior, kit_sticker_body
+WRECKS: zeya_burnt_full_01
+
+SLOTS (5)
+  Body: main [base.body] (Base): 1 options
+    body_01                                         6 paints  30 looks  [look: default] [look: zeya_barrels_01] [look: zeya_barrels_02] [look: zeya_barrels_03] [look: zeya_basic_01] ...
+  Body: bed [base.body.bed] (Base): 1 options
+    body_bed01                                      6 paints  23 looks  [look: default] [look: zeya_barrels_01] [look: zeya_barrels_02] [look: zeya_barrels_03] [look: zeya_basic_01] ...
+  Body: cab [base.body.cab] (Base): 1 options
+    body_cab_01                                     6 paints   8 looks  [look: zeya_full_01] [look: zeya_full_02] [look: zeya_full_03] [look: zeya_hazmat_01] [style: Kaukaz zeya kurtz zeya kurtz] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_01                                         2 paints  25 looks  [look: default] [look: zeya_barrels_01] [look: zeya_barrels_02] [look: zeya_barrels_03] [look: zeya_basic_01] ...
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                         6 paints  25 looks  [look: default] [look: zeya_barrels_01] [look: zeya_barrels_02] [look: zeya_barrels_03] [look: zeya_basic_01] ...
+
+KITS (3)
+  kit_kurtz_body                                 3 parts   3 looks  [style: Kaukaz zeya kurtz zeya kurtz] [style: Kaukaz zeya kurtz zeya kurtz 2]
+  kit_sticker_body                               2 parts   3 looks  [look: zeya_hazmat_01] [style: Kaukaz zeya kurtz zeya kurtz 2]
+  kit_sticker_body_interior                      4 parts  30 looks  [look: default] [look: zeya_barrels_01] [look: zeya_barrels_02] [look: zeya_barrels_03] [look: zeya_basic_01] ...

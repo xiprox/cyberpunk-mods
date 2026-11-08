@@ -1,0 +1,59 @@
+ASM-R250 Muramasa (yaiba_kusanagi_basic_01), from base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi_basic_01.ent
+records: Vehicle.v_sportbike1_yaiba_kusanagi_player, Vehicle.v_sportbike1_yaiba_kusanagi_player_02, Vehicle.v_sportbike1_yaiba_kusanagi_player_03, Vehicle.v_sportbike1_yaiba_kusanagi_tyger_player, Vehicle.v_sportbike1_yaiba_muramasa_naked, Vehicle.v_sportbike1_yaiba_muramasa_naked_as, Vehicle.v_sportbike1_yaiba_muramasa_naked_as_nr, Vehicle.v_sportbike1_yaiba_muramasa_naked_as_ns, Vehicle.v_sportbike1_yaiba_muramasa_naked_as_ns_nr, Vehicle.v_sportbike1_yaiba_muramasa_naked_nr, Vehicle.v_sportbike1_yaiba_muramasa_naked_ns, Vehicle.v_sportbike1_yaiba_muramasa_naked_ns_nr, Vehicle.v_sportbike1_yaiba_muramasa_regular, Vehicle.v_sportbike1_yaiba_muramasa_regular_as, Vehicle.v_sportbike1_yaiba_muramasa_regular_as_nr, Vehicle.v_sportbike1_yaiba_muramasa_regular_as_ns, Vehicle.v_sportbike1_yaiba_muramasa_regular_as_ns_nr, Vehicle.v_sportbike1_yaiba_muramasa_regular_nr, Vehicle.v_sportbike1_yaiba_muramasa_regular_ns, Vehicle.v_sportbike1_yaiba_muramasa_regular_ns_nr
+generated 2026-11-08
+
+STYLES (9; a style's other looks are its factory paints)
+  yaiba_kusanagi_basic_animals_01 Yaiba kusanagi basic animals 2 looks
+                                            paints: yaiba_kusanagi_basic_tyger_01
+                                            kits: kit_sticker_body
+  yaiba_kusanagi_basic_animals_02 Yaiba kusanagi basic animals 02 2 looks
+                                            paints: yaiba_kusanagi_basic_animals_03
+                                            kits: kit_sticker_body
+  yaiba_kusanagi_basic_asm_r250_naked Yaiba kusanagi basic asm r250 naked 4 looks
+                                            paints: yaiba_kusanagi_basic_asm_r250_regular, yaiba_kusanagi_basic_asm_r250_naked_ns, yaiba_kusanagi_basic_asm_r250_regular_ns
+  yaiba_kusanagi_basic_asm_r250_naked_as_ns Yaiba kusanagi basic asm r250 naked as ns 4 looks
+                                            paints: yaiba_kusanagi_basic_asm_r250_naked_as, yaiba_kusanagi_basic_asm_r250_regular_as, yaiba_kusanagi_basic_asm_r250_regular_as_ns
+  yaiba_kusanagi_basic_asm_r250_naked_as_ns_nr Yaiba kusanagi basic asm r250 naked as ns nr 4 looks
+                                            paints: yaiba_kusanagi_basic_asm_r250_naked_as_nr, yaiba_kusanagi_basic_asm_r250_regular_as_nr, yaiba_kusanagi_basic_asm_r250_regular_as_ns_nr
+  yaiba_kusanagi_basic_asm_r250_naked_nr Yaiba kusanagi basic asm r250 naked nr 4 looks
+                                            paints: yaiba_kusanagi_basic_asm_r250_regular_nr, yaiba_kusanagi_basic_asm_r250_naked_ns_nr, yaiba_kusanagi_basic_asm_r250_regular_ns_nr
+  yaiba_kusanagi_basic_player_02 Yaiba kusanagi basic player 02 1 looks
+                                            kits: lights_player_02, stickers_player_01, kit_sticker_body
+  yaiba_kusanagi_basic_player_03 Yaiba kusanagi basic player 03 1 looks
+                                            kits: lights_player_02, stickers_player_01, kit_sticker_body
+  yaiba_kusanagi_basic_suburban_01 Yaiba kusanagi basic suburban 8 looks
+                                            paints: yaiba_kusanagi_basic_suburban_02, yaiba_kusanagi_basic_suburban_03, yaiba_kusanagi_basic_suburban_04, yaiba_kusanagi_basic_suburban_05, yaiba_kusanagi_basic_mox_01, yaiba_kusanagi_basic_mox_02, yaiba_kusanagi_basic_player_01
+WRECKS: yaiba_kusanagi_basic_burnt_animals_01, yaiba_kusanagi_basic_burnt_animals_02, yaiba_kusanagi_basic_burnt_asm_r250_naked, yaiba_kusanagi_basic_burnt_asm_r250_regular, yaiba_kusanagi_basic_burnt_default_01, yaiba_kusanagi_basic_burnt_player_02, yaiba_kusanagi_basic_burnt_player_03
+
+SLOTS (7)
+  Body [base.body] (Base): 3 options
+    asm_r250_body_01                                0 paints  18 looks  [car: v_sportbike1_yaiba_kusanagi] [style: Yaiba kusanagi basic asm r250 naked] [style: Yaiba kusanagi basic asm r250 naked as ns] [style: Yaiba kusanagi basic asm r250 naked as ns nr] [style: Yaiba kusanagi basic asm r250 naked nr] ...
+    body_02                                         9 paints  11 looks  [car: v_sportbike1_yaiba_kusanagi] [look: q108_rogue] [style: Yaiba kusanagi basic animals] [style: Yaiba kusanagi basic animals 02] [style: Yaiba kusanagi basic player 02] ...
+    body_01                                        11 paints  10 looks  [car: v_sportbike1_yaiba_kusanagi] [look: default] [style: Yaiba kusanagi basic suburban] [wreck: yaiba_kusanagi_basic_burnt_default_01]
+  Seats [base.seat] (Base): 5 options
+    asm_r250_seat_01                                0 paints   8 looks  [car: v_sportbike1_yaiba_kusanagi] [style: Yaiba kusanagi basic asm r250 naked as ns] [style: Yaiba kusanagi basic asm r250 naked as ns nr]
+    seat_01                                         3 paints   4 looks  [car: v_sportbike1_yaiba_kusanagi] [look: q108_rogue] [style: Yaiba kusanagi basic animals 02] [wreck: yaiba_kusanagi_basic_burnt_animals_02]
+    seat_02                                         4 paints   3 looks  [car: v_sportbike1_yaiba_kusanagi] [style: Yaiba kusanagi basic animals] [wreck: yaiba_kusanagi_basic_burnt_animals_01]
+    seat_player_01                                  0 paints   2 looks  [car: v_sportbike1_yaiba_kusanagi] [style: Yaiba kusanagi basic player 02] [wreck: yaiba_kusanagi_basic_burnt_player_02]
+    seat_player_02                                  1 paints   2 looks  [car: v_sportbike1_yaiba_kusanagi] [style: Yaiba kusanagi basic player 03] [wreck: yaiba_kusanagi_basic_burnt_player_03]
+  Tires [wheel.tire] (wheel_front, wheel_back): 2 options
+    asm_r250_tire_01 + asm_r250_tire_r_01           0 paints  16 looks  [car: v_sportbike1_yaiba_kusanagi] [style: Yaiba kusanagi basic asm r250 naked] [style: Yaiba kusanagi basic asm r250 naked as ns] [style: Yaiba kusanagi basic asm r250 naked as ns nr] [style: Yaiba kusanagi basic asm r250 naked nr]
+    tire_01 + tire_r_01                             3 paints  16 looks  [car: v_sportbike1_yaiba_kusanagi] [look: default] [look: q108_rogue] [style: Yaiba kusanagi basic animals] [style: Yaiba kusanagi basic animals 02] ...
+  Rims [wheel.wheel] (wheel_front, wheel_back): 3 options
+    wheel_01 + wheel_r_01                           5 paints  16 looks  [car: v_sportbike1_yaiba_kusanagi] [look: default] [look: q108_rogue] [style: Yaiba kusanagi basic animals] [style: Yaiba kusanagi basic animals 02] ...
+    asm_r250_wheel_01 + asm_r250_wheel_r_01         0 paints   8 looks  [car: v_sportbike1_yaiba_kusanagi] [style: Yaiba kusanagi basic asm r250 naked] [style: Yaiba kusanagi basic asm r250 naked as ns]
+    asm_r250_wheel_02 + asm_r250_wheel_r_02         0 paints   8 looks  [car: v_sportbike1_yaiba_kusanagi] [style: Yaiba kusanagi basic asm r250 naked as ns nr] [style: Yaiba kusanagi basic asm r250 naked nr]
+  Trunk [trunk.trunk] (trunk): 1 options
+    trunk_01                                        9 paints   9 looks  [car: v_sportbike1_yaiba_kusanagi] [look: default] [style: Yaiba kusanagi basic suburban]
+  Wings [wing_left.wing] (wing_left): 1 options
+    wing_l_01                                       8 paints   9 looks  [car: v_sportbike1_yaiba_kusanagi] [look: default] [style: Yaiba kusanagi basic suburban]
+  Wings [wing_right.wing] (wing_right): 1 options
+    wing_r_01                                       8 paints   9 looks  [car: v_sportbike1_yaiba_kusanagi] [look: default] [style: Yaiba kusanagi basic suburban]
+
+KITS (4)
+  lights_player_01                               1 parts   2 looks  [style: Yaiba kusanagi basic player 02] [wreck: yaiba_kusanagi_basic_burnt_player_02]
+                                                 made to sit on Seats
+  lights_player_02                               1 parts   2 looks  [style: Yaiba kusanagi basic player 03] [wreck: yaiba_kusanagi_basic_burnt_player_03]
+                                                 made to sit on Seats
+  stickers_player_01                             1 parts   4 looks  [style: Yaiba kusanagi basic player 02] [style: Yaiba kusanagi basic player 03] [wreck: yaiba_kusanagi_basic_burnt_player_02] [wreck: yaiba_kusanagi_basic_burnt_player_03]
+  kit_sticker_body                               2 parts  11 looks  [look: q108_rogue] [style: Yaiba kusanagi basic animals] [style: Yaiba kusanagi basic animals 02] [style: Yaiba kusanagi basic player 02] [style: Yaiba kusanagi basic player 03] ...

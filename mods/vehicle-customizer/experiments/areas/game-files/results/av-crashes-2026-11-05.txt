@@ -1,0 +1,74 @@
+﻿[20:35:05.862] access violation (0xc0000005) in thread 28720, game started 05.11 20:29:38; the game's own crash handler runs next
+  at Cyberpunk2077.exe+0x6e8e3b, reading 0x0000000000000bc8
+  rax=000000addd3fd7f0 rbx=000001d4142f4c00 rcx=0000000000000000 rdx=0000000000000000
+  rsi=000001d00f581598 rdi=000000addd3fd840 rbp=000001d418015240 rsp=000000addd3fd7c0
+  r8 =000001d4142f4c00 r9 =000000addd3fd8e0 r10=000001d4142f4c00 r11=000000addd3fd8f8
+  r12=0000000000000000 r13=000001d00e1f0250 r14=000001e403b7bdf8 r15=0000000000000004
+  objects (a register -> the vtable its object starts with; crash_objects): rbx->Cyberpunk2077.exe+0x3075748, rsi->Cyberpunk2077.exe+0x30a68f0, rbp->Cyberpunk2077.exe+0x33ea900, r8->Cyberpunk2077.exe+0x3075748, r10->Cyberpunk2077.exe+0x3075748, r11->Cyberpunk2077.exe+0x2fdf609
+  #00 Cyberpunk2077.exe+0x6e8e3b
+  #01 Cyberpunk2077.exe+0x12eff82
+  #02 Cyberpunk2077.exe+0x9f74e8
+  #03 Cyberpunk2077.exe+0x9f747e
+  #04 Cyberpunk2077.exe+0x6ea99b
+  #05 Cyberpunk2077.exe+0x2fdf609
+  #06 Cyberpunk2077.exe+0x2c27100
+  #07 Cyberpunk2077.exe+0x23450d
+  #08 Cyberpunk2077.exe+0x7c4db4
+  #09 Cyberpunk2077.exe+0x7c4d04
+  #10 Cyberpunk2077.exe+0x1b9995
+  #11 Cyberpunk2077.exe+0x1f8925
+  #12 NightCoop.dll+0x25afa6
+  #13 Cyberpunk2077.exe+0x1bcff5
+  #14 Cyberpunk2077.exe+0x2430f7e
+  #15 Cyberpunk2077.exe+0x21acb1a
+  #16 Cyberpunk2077.exe+0x21adf7a
+  #17 Cyberpunk2077.exe+0x272ab0
+  #18 Cyberpunk2077.exe+0x26e110
+  #19 Cyberpunk2077.exe+0x26dd11
+  #20 Cyberpunk2077.exe+0x5d3d28
+  #21 Cyberpunk2077.exe+0x69c8cc
+  #22 Cyberpunk2077.exe+0x4bded1
+  #23 Cyberpunk2077.exe+0x5d56ce
+  #24 Cyberpunk2077.exe+0x5d4a83
+  #25 Cyberpunk2077.exe+0x5d50a5
+  #26 Cyberpunk2077.exe+0x5d5957
+  #27 Cyberpunk2077.exe+0x7b324a
+  #28 RED4ext.dll+0x82190
+  #29 Cyberpunk2077.exe+0x7b30e4
+  #30 Cyberpunk2077.exe+0x7b3097
+  #31 Cyberpunk2077.exe+0x7b3524
+  #32 Cyberpunk2077.exe+0x7b2ae5
+  #33 Cyberpunk2077.exe+0x19630ea
+  #34 KERNEL32.DLL+0x2dda7
+  #35 ntdll.dll+0x7ee4c
+
+[20:44:01.880] access violation (0xc0000005) in thread 31000, game started 05.11 20:40:08; the game's own crash handler runs next
+  at Cyberpunk2077.exe+0x6e8e3b, reading 0x0000000000000bc8
+  rax=000000057a1ff560 rbx=000001d13f5b68a0 rcx=0000000000000000 rdx=0000000000000000
+  rsi=000001ccebf75408 rdi=000000057a1ff5b0 rbp=000001d1122e76f0 rsp=000000057a1ff530
+  r8 =000001d13f5b68a0 r9 =000000057a1ff650 r10=000001d13f5b68a0 r11=000000057a1ff668
+  r12=0000000000000000 r13=000001ccfb18f350 r14=000001e108e6dac8 r15=0000000000000002
+  objects (a register -> the vtable its object starts with; crash_objects): rbx->Cyberpunk2077.exe+0x3075748, rsi->Cyberpunk2077.exe+0x30a68f0, rbp->Cyberpunk2077.exe+0x33ea900, r8->Cyberpunk2077.exe+0x3075748, r10->Cyberpunk2077.exe+0x3075748, r11->Cyberpunk2077.exe+0x2fdf609
+  #00 Cyberpunk2077.exe+0x6e8e3b
+  #01 Cyberpunk2077.exe+0x12eff82
+  #02 Cyberpunk2077.exe+0x9f74e8
+  #03 Cyberpunk2077.exe+0x9f747e
+  #04 Cyberpunk2077.exe+0x6ea99b
+  #05 Cyberpunk2077.exe+0x2fdf609
+  #06 Cyberpunk2077.exe+0x2c27100
+  #07 Cyberpunk2077.exe+0x23450d
+  #08 Cyberpunk2077.exe+0x7c4db4
+  #09 Cyberpunk2077.exe+0x7c4d04
+  #10 Cyberpunk2077.exe+0x1b9995
+  #11 Cyberpunk2077.exe+0x1f8925
+  #12 NightCoop.dll+0x25afa6
+  #13 Cyberpunk2077.exe+0x1bcff5
+  #14 Cyberpunk2077.exe+0x2430f7e
+  #15 Cyberpunk2077.exe+0x21acb1a
+  #16 Cyberpunk2077.exe+0x21adf7a
+  #17 Cyberpunk2077.exe+0x272ab0
+  #18 Cyberpunk2077.exe+0x2735e3
+  #19 Cyberpunk2077.exe+0xae322e
+  #20 Cyberpunk2077.exe+0x1aa20ca
+  #21 KERNEL32.DLL+0x2dda7
+  #22 ntdll.dll+0x7ee4c

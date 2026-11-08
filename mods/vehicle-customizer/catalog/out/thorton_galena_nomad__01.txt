@@ -1,0 +1,74 @@
+Galena "Gecko" (thorton_galena_nomad__01), from base\vehicles\standard\v_standard2_thorton_galena_nomad__01.ent
+records: Vehicle.v_standard2_thorton_galena_nomad_player, Vehicle.v_standard2_thorton_galena_nomad_player_missiles
+generated 2026-11-08
+
+STYLES (11; a style's other looks are its factory paints)
+  thorton_galena_nomad_aldecados_01 Thorton galena nomad aldecados 4 looks
+                                            paints: thorton_galena_nomad_wraiths_01, thorton_galena_nomad_wraiths_01_missiles, thorton_galena_nomad_aldecados_01_missiles
+                                            kits: roofhatch_01, electric_device_medium_01, light_device_medium_02, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_aldecados_02 Thorton galena nomad aldecados 02 1 looks
+                                            kits: roofhatch_01, light_device_medium_02, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_aldecados_03 Thorton galena nomad aldecados 03 2 looks
+                                            paints: thorton_galena_nomad_aldecados_03_missiles
+                                            kits: roofhatch_01, electric_device_medium_01, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_aldecados_04 Thorton galena nomad aldecados 04 2 looks
+                                            paints: thorton_galena_nomad_aldecados_04_missiles
+                                            kits: roofhatch_01, electric_device_medium_01, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_player_01 Thorton galena nomad player 1 looks
+                                            kits: roofhatch_01, electric_device_medium_01, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_player_01_missiles Thorton galena nomad player 01 missiles 1 looks
+                                            kits: roofhatch_01, electric_device_medium_01, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_scorpion_01 Thorton galena nomad scorpion 1 looks
+                                            kits: fuelcap_01, electric_device_medium_01, light_device_medium_02, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_wraiths_02 Thorton galena nomad wraiths 02 2 looks
+                                            paints: thorton_galena_nomad_aldecados_05
+                                            kits: roofhatch_01, light_device_medium_02, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_wraiths_03 Thorton galena nomad wraiths 03 2 looks
+                                            paints: thorton_galena_nomad_wraiths_03_missiles
+                                            kits: roofhatch_01, electric_device_medium_01, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_wraiths_04 Thorton galena nomad wraiths 04 2 looks
+                                            paints: thorton_galena_nomad_wraiths_04_missiles
+                                            kits: roofhatch_01, electric_device_medium_01, light_device_medium_02, light_device_medium_02, kit_nomad_body
+  thorton_galena_nomad_wraiths_05 Thorton galena nomad wraiths 05 1 looks
+                                            kits: roofhatch_01, light_device_medium_02, kit_nomad_body
+WRECKS: thorton_galena_nomad_burnt_01
+
+SLOTS (14)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                     3 paints  19 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                     2 paints  19 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                        4 paints  19 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  Body: main [base.body.body] (Base): 1 options
+    body_01                                        12 paints  20 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  Body: detachable hide [base.body.detachable_hide_body] (Base): 1 options
+    body_cable_b_01                                 2 paints  15 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] [style: Thorton galena nomad player 01 missiles] ...
+  Body: detachable hide [base.body.detachable_hide_body_2] (Base): 1 options
+    body_cable_a_01                                 2 paints  11 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad scorpion] [style: Thorton galena nomad wraiths 02] [style: Thorton galena nomad wraiths 04] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     3 paints  20 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  Spoiler [base.spoiler] (Base): 1 options
+    spoiler_01                                      4 paints  10 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad player] [style: Thorton galena nomad player 01 missiles] [style: Thorton galena nomad scorpion] [style: Thorton galena nomad wraiths 02] ...
+  Windshield [base.window] (Base): 1 options
+    window_f_01                                     3 paints  20 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_a_01                                       9 paints  19 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  Rims: a [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    wheel_a_01                                     10 paints  11 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player 01 missiles] [style: Thorton galena nomad scorpion] [style: Thorton galena nomad wraiths 02] ...
+    wheel_01 + wheel_a_01                           5 paints   4 looks  [car: Mackinaw MTL1] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad player] [style: Thorton galena nomad wraiths 03]
+    wheel_a_01 + wheel_01                          10 paints   4 looks  [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad wraiths 04]
+  Rims: back [wheel.wheel.wheel_b] (wheel_back_left, wheel_back_right): 1 options
+    wheel_a_01 + wheel_01                           9 paints   8 looks  [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad player] [style: Thorton galena nomad wraiths 03] [style: Thorton galena nomad wraiths 04]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                        12 paints  19 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  Side windows [window.window] (window_front_left_a, window_front_right_a): 1 options
+    window_01                                       3 paints  19 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+
+KITS (6)
+  electric_device_medium_01                      1 parts  15 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] [style: Thorton galena nomad player 01 missiles] ...
+  fuelcap_01                                     1 parts   1 looks  [style: Thorton galena nomad scorpion]
+  kit_nomad_body                                 18 parts  20 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  light_device_medium_01                         1 parts  18 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...
+  light_device_medium_02                         1 parts  11 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad scorpion] [style: Thorton galena nomad wraiths 02] [style: Thorton galena nomad wraiths 04] ...
+  roofhatch_01                                   1 parts  19 looks  [style: Thorton galena nomad aldecados] [style: Thorton galena nomad aldecados 02] [style: Thorton galena nomad aldecados 03] [style: Thorton galena nomad aldecados 04] [style: Thorton galena nomad player] ...

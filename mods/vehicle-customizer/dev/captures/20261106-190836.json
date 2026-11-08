@@ -1,0 +1,28 @@
+{
+  "camera_forward": {
+    "x": 0.1,
+    "y": -1,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 400.1,
+    "x": 2452.8,
+    "y": -1158.3,
+    "z": 87.5
+  },
+  "nearest": {
+    "distance": 21.9,
+    "id": "badlands_workshop",
+    "name": "Badlands workshop"
+  },
+  "note": "",
+  "player": {
+    "x": 2412.4,
+    "y": -760.9,
+    "yaw": -174.2,
+    "z": 66.3
+  },
+  "stamp": "20261106-190836",
+  "time": "2026-11-06 19:08:36"
+}

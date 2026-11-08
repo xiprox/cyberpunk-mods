@@ -1,0 +1,39 @@
+{
+  "camera_forward": {
+    "x": 0.2,
+    "y": -1,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 18.4,
+    "x": -1287.2,
+    "y": -4243.5,
+    "z": 62.9
+  },
+  "look_object": {
+    "class": "NPCPuppet",
+    "entity_id": "9009135ULL",
+    "name": "",
+    "position": {
+      "x": -1287.7,
+      "y": -4244.1,
+      "z": 62.7
+    },
+    "record": "Character.bls_se_wraiths_grunt1_ranged1_pulsar_wa"
+  },
+  "nearest": {
+    "distance": 13.3,
+    "id": "badlands_lot",
+    "name": "Badlands lot"
+  },
+  "note": "",
+  "player": {
+    "x": -1291.6,
+    "y": -4225.6,
+    "yaw": -166.3,
+    "z": 62.7
+  },
+  "stamp": "20261106-183120",
+  "time": "2026-11-06 18:31:20"
+}

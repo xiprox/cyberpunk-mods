@@ -1,0 +1,79 @@
+Shion MZ1 (mizutani_shion__basic_01), from base\vehicles\sport\v_sport2_mizutani_shion__basic_01.ent
+records: Vehicle.v_sport2_mizutani_shion_base_player, Vehicle.v_sport2_mizutani_shion_player, Vehicle.v_sport2_mizutani_shion_targa_player
+generated 2026-11-08
+
+STYLES (7; a style's other looks are its factory paints)
+  suburban_01              Suburban         12 looks
+                                            paints: suburban_02, suburban_03, suburban_04, suburban_05, suburban_06, suburban_07, poor_01, poor_02, poor_03, poor_04, poor_05
+                                            kits: door_fr_tygerclaws_stickers_02, kit_tyger_body_interior
+  targa_01_q101            Targa 01 q101    5 looks
+                                            paints: targa_01, targa_red, targa_blue, targa_black
+                                            kits: door_fr_tygerclaws_stickers_02
+  tygerclaws_01            Tygerclaws       1 looks
+                                            kits: trunk_tygerclaws_stickers_01, door_fr_a_tygerclaws_sticker_01, door_fr_tygerclaws_stickers_02, kit_tyger_body_interior, door_fl_tygerlaws_sticker_03, body_tygerclaws_stickers_01
+  tygerclaws_02            Tygerclaws 02    1 looks
+                                            kits: door_fr_a_tygerclaws_sticker_01, door_fr_tygerclaws_stickers_02, kit_tyger_body, kit_tyger_body_interior, door_fl_tygerlaws_sticker_03, body_tygerclaws_stickers_01
+  tygerclaws_03            Tygerclaws 03    1 looks
+                                            kits: door_fr_a_tygerclaws_sticker_01, door_fr_tygerclaws_stickers_02, kit_tyger_body, kit_tyger_body_interior, door_fl_tygerlaws_sticker_03, body_tygerclaws_stickers_01, body_tygerclaws_stickers_01
+  tygerclaws_04            Tygerclaws 04    1 looks
+                                            kits: door_fr_a_tygerclaws_sticker_01, door_fl_tygerclaws_stickers_02, door_fr_tygerclaws_stickers_02, kit_tyger_body_interior, body_tygerclaws_stickers_01
+  urban_01                 Urban            5 looks
+                                            paints: urban_03, urban_04, urban_05, player_01
+                                            kits: kit_sticker_doors, door_fr_tygerclaws_stickers_02, kit_tyger_body_interior
+WRECKS: burnt_01, burnt_targa_01
+
+SLOTS (13)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_01                                    28 paints  23 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Tygerclaws] [style: Tygerclaws 02] ...
+    targa_bumper_f_01                               5 paints   5 looks  [style: Targa 01 q101]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    28 paints  23 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Tygerclaws] [style: Tygerclaws 02] ...
+    targa_bumper_b_01                               5 paints   5 looks  [style: Targa 01 q101]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        29 paints  28 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Targa 01 q101] [style: Tygerclaws] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       28 paints  23 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Tygerclaws] [style: Tygerclaws 02] ...
+  Body [base.body] (Base): 2 options
+    body_01                                        28 paints  24 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Tygerclaws] [style: Tygerclaws 02] ...
+    targa_body_01                                   5 paints   6 looks  [style: Targa 01 q101] [wreck: burnt_targa_01]
+  Interior [base.interior] (Base): 2 options
+    interior_01                                    12 paints  24 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Tygerclaws] [style: Tygerclaws 02] ...
+    targa_interior_01                               2 paints   6 looks  [style: Targa 01 q101] [wreck: burnt_targa_01]
+  Windshield: front [base.window] (Base): 2 options
+    window_f_01                                     3 paints  24 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Tygerclaws] [style: Tygerclaws 02] ...
+    targa_window_f_01                               1 paints   6 looks  [style: Targa 01 q101] [wreck: burnt_targa_01]
+  Windshield: frame [base.window.window_frame] (Base): 1 options
+    targa_window_frame_01                           3 paints   6 looks  [style: Targa 01 q101] [wreck: burnt_targa_01]
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    tire_01                                         6 paints  15 looks  [look: default_01] [style: Suburban] [style: Tygerclaws] [style: Tygerclaws 04]
+    tire_02                                         1 paints   8 looks  [look: urban_base_do_not_include] [style: Tygerclaws 02] [style: Tygerclaws 03] [style: Urban]
+    targa_tire_01                                   0 paints   5 looks  [style: Targa 01 q101]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_shion                                     6 paints  15 looks  [look: default_01] [style: Suburban] [style: Tygerclaws] [style: Tygerclaws 04]
+    wheel_shion_custom_01                          12 paints   8 looks  [look: urban_base_do_not_include] [style: Tygerclaws 02] [style: Tygerclaws 03] [style: Urban]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_a_01                                      46 paints  28 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Targa 01 q101] [style: Tygerclaws] ...
+  Doors (c) [door_c.door] (door_front_left_c, door_front_right_c): 1 options
+    door_c_01                                      30 paints  28 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Targa 01 q101] [style: Tygerclaws] ...
+  Side windows [window.window] (window_front_left_a, window_front_right_a): 1 options
+    window_01                                       4 paints  28 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Targa 01 q101] [style: Tygerclaws] ...
+
+KITS (11)
+  kit_sticker_doors                              2 parts   6 looks  [look: urban_base_do_not_include] [style: Urban]
+                                                 made to sit on Doors
+  body_tygerclaws_sticker_03                     1 parts   2 looks  [style: Tygerclaws 03] [style: Tygerclaws 04]
+  body_tygerclaws_stickers_01                    1 parts   3 looks  [style: Tygerclaws] [style: Tygerclaws 02] [style: Tygerclaws 03]
+  door_fl_tygerclaws_stickers_02                 1 parts   1 looks  [style: Tygerclaws 04]
+                                                 made to sit on Doors
+  door_fl_tygerlaws_sticker_01                   1 parts   2 looks  [style: Tygerclaws] [style: Tygerclaws 03]
+                                                 made to sit on Doors
+  door_fl_tygerlaws_sticker_03                   1 parts   1 looks  [style: Tygerclaws 02]
+                                                 made to sit on Doors
+  door_fr_a_tygerclaws_sticker_01                1 parts   4 looks  [style: Tygerclaws] [style: Tygerclaws 02] [style: Tygerclaws 03] [style: Tygerclaws 04]
+                                                 made to sit on Doors
+  door_fr_tygerclaws_stickers_02                 1 parts  28 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Targa 01 q101] [style: Tygerclaws] ...
+                                                 made to sit on Doors
+  kit_tyger_body                                 2 parts   2 looks  [style: Tygerclaws 02] [style: Tygerclaws 03]
+  kit_tyger_body_interior                        4 parts  24 looks  [look: default_01] [look: urban_base_do_not_include] [style: Suburban] [style: Tygerclaws] [style: Tygerclaws 02] ...
+  trunk_tygerclaws_stickers_01                   1 parts   1 looks  [style: Tygerclaws]
+                                                 made to sit on Trunk

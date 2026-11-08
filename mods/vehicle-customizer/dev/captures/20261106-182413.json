@@ -1,0 +1,31 @@
+{
+  "camera_forward": {
+    "x": -0.5,
+    "y": 0.8,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 400,
+    "x": -330.7,
+    "y": -4069.9,
+    "z": 54.4
+  },
+  "nearest": {
+    "distance": 29.3,
+    "gig": "sts_bls_ina_02",
+    "gig_state": "Succeeded",
+    "gig_state_from": "id sts_bls_ina_02",
+    "id": "big_petes_place",
+    "name": "Big Pete's place"
+  },
+  "note": "",
+  "player": {
+    "x": -119.6,
+    "y": -4409.7,
+    "yaw": 31.8,
+    "z": 58.9
+  },
+  "stamp": "20261106-182413",
+  "time": "2026-11-06 18:24:13"
+}

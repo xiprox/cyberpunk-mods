@@ -1,0 +1,7 @@
+﻿deathrace_01           wheel slots=1  fr:es__ext01_wheel_fl_police_02  r_:tes__ext01_tire_fl_police_01
+player_01              wheel slots=4  fl:dra_turbo__ext01_wheel_bl_01  fr:dra_turbo__ext01_wheel_bl_01  bl:dra_turbo__ext01_wheel_bl_01  br:dra_turbo__ext01_wheel_bl_01  l_:adra_turbo__ext01_tire_bl_01  r_:adra_turbo__ext01_tire_bl_01  l_:adra_turbo__ext01_tire_bl_01  r_:adra_turbo__ext01_tire_bl_01
+player_damaged_01      wheel slots=4  fl:dra_turbo__ext01_wheel_bl_01  fr:dra_turbo__ext01_wheel_bl_01  bl:dra_turbo__ext01_wheel_bl_01  br:dra_turbo__ext01_wheel_bl_01  l_:adra_turbo__ext01_tire_bl_01  r_:adra_turbo__ext01_tire_bl_01  l_:adra_turbo__ext01_tire_bl_01  r_:adra_turbo__ext01_tire_bl_01
+police_01              wheel slots=1  fr:es__ext01_wheel_fl_police_02  r_:tes__ext01_tire_fl_police_01
+
+deathrace_01 {'hood_a': 'deathrace_01', 'bumper_f_01': 'deathrace_01', 'bumper_b_01': 'deathrace_01', 'body_01': 'deathrace_01'} bumper_f: v_standard2_archer_hella__ext01_bumper_f_01.mesh
+police_01 {'hood_a': 'police_02', 'bumper_f_01': 'police_02', 'bumper_b_01': 'police_02', 'body_01': 'police_02'} bumper_f: v_standard2_archer_hella__ext01_bumper_f_01.mesh

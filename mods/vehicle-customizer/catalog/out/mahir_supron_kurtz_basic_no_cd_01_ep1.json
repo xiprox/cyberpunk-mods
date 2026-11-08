@@ -1,0 +1,3042 @@
+{
+ "id": "mahir_supron_kurtz_basic_no_cd_01_ep1",
+ "label": "Supron BARGHEST",
+ "entity": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz_basic_no_cd_01.ent",
+ "family": "v_standard3_mahir_supron_kurtz_basic_no_cd",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.kurtz_mahir_supron_heat_3"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "ep1\\vehicles\\appearances\\standard\\mahir_supron_kurtz_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "mahir_supron_kurtz_basic_kurtz_02",
+   "code": "mahir_supron_kurtz_basic_kurtz_02",
+   "label": "Mahir supron kurtz basic kurtz 02",
+   "base_look": "mahir_supron_kurtz_basic_kurtz_02",
+   "looks": [
+    "mahir_supron_kurtz_basic_kurtz_02"
+   ],
+   "options": {
+    "base.body": "a2c15eb6",
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": "3cba3707",
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": "4e6c0fe7",
+    "base.interior": "265476f1",
+    "base.roof": "c8145bf8",
+    "base.roof.v_standard25_mahir_supron_kurtz_ext01_roof_parts": "690a5e99",
+    "base.window": "509f0a89",
+    "wheel.tire": "f2b10b58",
+    "wheel.wheel": "f543dd35",
+    "door.door": "199ab371"
+   },
+   "kits": [
+    "kurtz_08f5",
+    "kurtz_0c14",
+    "kurtz_936f",
+    "kurtz_964a",
+    "kurtz_cdd4"
+   ]
+  },
+  {
+   "id": "mahir_supron_kurtz_basic_kurtz_03",
+   "code": "mahir_supron_kurtz_basic_kurtz_03",
+   "label": "Mahir supron kurtz basic kurtz 03",
+   "base_look": "mahir_supron_kurtz_basic_kurtz_03",
+   "looks": [
+    "mahir_supron_kurtz_basic_kurtz_03"
+   ],
+   "options": {
+    "base.body": "a2c15eb6",
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": "3cba3707",
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": "4e6c0fe7",
+    "base.interior": "265476f1",
+    "base.roof": "c8145bf8",
+    "base.window": "509f0a89",
+    "wheel.tire": "f2b10b58",
+    "wheel.wheel": "f543dd35",
+    "door.door": "199ab371"
+   },
+   "kits": [
+    "kurtz_08f5",
+    "kurtz_936f",
+    "kurtz_964a",
+    "kurtz_cdd4"
+   ]
+  },
+  {
+   "id": "mahir_supron_kurtz_basic_kurtz_militia_02",
+   "code": "mahir_supron_kurtz_basic_kurtz_militia_02",
+   "label": "Mahir supron kurtz basic kurtz militia 02",
+   "base_look": "mahir_supron_kurtz_basic_kurtz_militia_02",
+   "looks": [
+    "mahir_supron_kurtz_basic_kurtz_militia_02"
+   ],
+   "options": {
+    "base.body": "a2c15eb6",
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": "3cba3707",
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": "4e6c0fe7",
+    "base.interior": "265476f1",
+    "base.roof": "c8145bf8",
+    "base.roof.v_standard25_mahir_supron_kurtz_ext01_roof_parts": "5798b108",
+    "base.window": "509f0a89",
+    "wheel.tire": "f2b10b58",
+    "wheel.wheel": "f543dd35",
+    "door.door": "199ab371"
+   },
+   "kits": [
+    "kurtz_08f5",
+    "kurtz_161e",
+    "kurtz_936f",
+    "kurtz_964a",
+    "kurtz_cdd4"
+   ]
+  },
+  {
+   "id": "mahir_supron_kurtz_basic_player_01",
+   "code": "mahir_supron_kurtz_basic_player_01",
+   "label": "Mahir supron kurtz basic player",
+   "base_look": "mahir_supron_kurtz_basic_player_01",
+   "looks": [
+    "mahir_supron_kurtz_basic_player_01"
+   ],
+   "options": {
+    "base.body": "a2c15eb6",
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": "f7587840",
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": "8bfb90d1",
+    "base.interior": "265476f1",
+    "base.roof": "c8145bf8",
+    "base.roof.v_standard25_mahir_supron_kurtz_ext01_roof_parts": "690a5e99",
+    "base.window": "3b3cf1f2",
+    "wheel.tire": "87384af8",
+    "wheel.wheel": "ddc7f325",
+    "door.door": "199ab371",
+    "door.window": "7326dcf9"
+   },
+   "kits": [
+    "kurtz_08f5",
+    "kurtz_0c14",
+    "kurtz_52a6",
+    "kurtz_936f",
+    "kurtz_9abb"
+   ]
+  }
+ ],
+ "wrecks": [
+  "mahir_supron_kurtz_basic_burnt_01",
+  "mahir_supron_kurtz_basic_burnt_player_01"
+ ],
+ "slots": [
+  {
+   "id": "base.body",
+   "label": "Body: main",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_mahir_supron__ext01_body_01"
+   ],
+   "options": [
+    {
+     "id": "a2c15eb6",
+     "code": "body_base_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_body_base_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_02",
+     "paints": [
+      "kurtz_02",
+      "player_01",
+      "kurtz_01",
+      "militia_01"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01",
+      "mahir_supron_kurtz_basic_burnt_01",
+      "mahir_supron_kurtz_basic_burnt_player_01",
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_kurtz_03",
+      "mahir_supron_kurtz_basic_kurtz_militia_02",
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_01",
+      "look:kurtz_militia_01",
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_kurtz_03",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02",
+      "style:mahir_supron_kurtz_basic_player_01",
+      "wreck:mahir_supron_kurtz_basic_burnt_01",
+      "wreck:mahir_supron_kurtz_basic_burnt_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz",
+   "label": "Body: v standard25 mahir supron kurtz ext01 front kurtz",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01",
+    "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_02"
+   ],
+   "options": [
+    {
+     "id": "3cba3707",
+     "code": "v_standard25_mahir_supron_kurtz_body_front_kurtz_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "kurtz_01",
+      "kurtz_02",
+      "player_01",
+      "militia_01",
+      "militia_02"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01",
+      "mahir_supron_kurtz_basic_burnt_01",
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_kurtz_03",
+      "mahir_supron_kurtz_basic_kurtz_militia_02"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_01",
+      "look:kurtz_militia_01",
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_kurtz_03",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02",
+      "wreck:mahir_supron_kurtz_basic_burnt_01"
+     ]
+    },
+    {
+     "id": "f7587840",
+     "code": "v_standard25_mahir_supron_kurtz_body_front_kurtz_02",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_02.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_01",
+     "paints": [
+      "player_01",
+      "militia_01",
+      "militia_02"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic_burnt_player_01",
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "style:mahir_supron_kurtz_basic_player_01",
+      "wreck:mahir_supron_kurtz_basic_burnt_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz",
+   "label": "Body: v standard25 mahir supron kurtz ext01 kurtz",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01",
+    "v_standard25_mahir_supron_kurtz_ext01_body_kurtz_03"
+   ],
+   "options": [
+    {
+     "id": "4e6c0fe7",
+     "code": "v_standard25_mahir_supron_kurtz_body_kurtz_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "kurtz_01",
+      "kurtz_02",
+      "player_01",
+      "militia_01",
+      "militia_02"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01",
+      "mahir_supron_kurtz_basic_burnt_01",
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_kurtz_03",
+      "mahir_supron_kurtz_basic_kurtz_militia_02"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_01",
+      "look:kurtz_militia_01",
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_kurtz_03",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02",
+      "wreck:mahir_supron_kurtz_basic_burnt_01"
+     ]
+    },
+    {
+     "id": "8bfb90d1",
+     "code": "v_standard25_mahir_supron_kurtz_body_kurtz_03",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_body_kurtz_03.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic_burnt_player_01",
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "style:mahir_supron_kurtz_basic_player_01",
+      "wreck:mahir_supron_kurtz_basic_burnt_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_kurtz_01"
+   ],
+   "options": [
+    {
+     "id": "265476f1",
+     "code": "interior_kurtz_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__int01_interior_kurtz_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player_01",
+      "militia_01"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01",
+      "mahir_supron_kurtz_basic_burnt_01",
+      "mahir_supron_kurtz_basic_burnt_player_01",
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_kurtz_03",
+      "mahir_supron_kurtz_basic_kurtz_militia_02",
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_01",
+      "look:kurtz_militia_01",
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_kurtz_03",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02",
+      "style:mahir_supron_kurtz_basic_player_01",
+      "wreck:mahir_supron_kurtz_basic_burnt_01",
+      "wreck:mahir_supron_kurtz_basic_burnt_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.roof",
+   "label": "Roof: v standard25 mahir supron kurtz ext01 kurtz",
+   "kind": "roof",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01"
+   ],
+   "options": [
+    {
+     "id": "c8145bf8",
+     "code": "v_standard25_mahir_supron_kurtz_roof_kurtz_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "kurtz_01",
+      "kurtz_02",
+      "player_01",
+      "militia_01",
+      "militia_02"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01",
+      "mahir_supron_kurtz_basic_burnt_01",
+      "mahir_supron_kurtz_basic_burnt_player_01",
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_kurtz_03",
+      "mahir_supron_kurtz_basic_kurtz_militia_02",
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_01",
+      "look:kurtz_militia_01",
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_kurtz_03",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02",
+      "style:mahir_supron_kurtz_basic_player_01",
+      "wreck:mahir_supron_kurtz_basic_burnt_01",
+      "wreck:mahir_supron_kurtz_basic_burnt_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.roof.v_standard25_mahir_supron_kurtz_ext01_roof_parts",
+   "label": "Roof: v standard25 mahir supron kurtz ext01 parts",
+   "kind": "roof",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "roof_lights_militia_01",
+    "v_standard25_mahir_supron_kurtz_ext01_roof_parts_01"
+   ],
+   "options": [
+    {
+     "id": "690a5e99",
+     "code": "v_standard25_mahir_supron_kurtz_roof_parts_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_roof_parts_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_roof_parts_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic_burnt_player_01",
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_player_01",
+      "wreck:mahir_supron_kurtz_basic_burnt_player_01"
+     ]
+    },
+    {
+     "id": "5798b108",
+     "code": "v_standard25_mahir_supron_kurtz_roof_lights_militia_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_roof_lights_militia_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron_kurtz_basic:kurtz_militia_01",
+      "mahir_supron_kurtz_basic_kurtz_militia_02"
+     ],
+     "origins": [
+      "look:kurtz_militia_01",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_01",
+    "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_02"
+   ],
+   "options": [
+    {
+     "id": "3b3cf1f2",
+     "code": "window_kurtz_f_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01",
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_01",
+      "look:kurtz_militia_01",
+      "style:mahir_supron_kurtz_basic_player_01"
+     ]
+    },
+    {
+     "id": "509f0a89",
+     "code": "window_f_02",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron__ext01_window_f_02.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron__ext01_window_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_kurtz_03",
+      "mahir_supron_kurtz_basic_kurtz_militia_02"
+     ],
+     "origins": [
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_kurtz_03",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "f2b10b58",
+     "code": "tire_kurtz_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_tire_kurtz_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_tire_kurtz_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_tire_kurtz_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_tire_kurtz_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01_shadow.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01_shadow.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01",
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_kurtz_03",
+      "mahir_supron_kurtz_basic_kurtz_militia_02"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_01",
+      "look:kurtz_militia_01",
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_kurtz_03",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02"
+     ]
+    },
+    {
+     "id": "87384af8",
+     "code": "tire_03",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_fl_03.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_fl_03.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_bl_03.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_bl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "style:mahir_supron_kurtz_basic_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02",
+    "v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_03",
+    "wheel_<c>_01",
+    "wheel_<c>_02",
+    "wheel_<c>_03",
+    "wheel_fl_02"
+   ],
+   "options": [
+    {
+     "id": "f543dd35",
+     "code": "wheel_kurtz_02",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_kurtz_03",
+      "mahir_supron_kurtz_basic_kurtz_militia_02"
+     ],
+     "origins": [
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_kurtz_03",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02"
+     ]
+    },
+    {
+     "id": "cd972873",
+     "code": "wheel_kurtz_01 + wheel_kurtz_02",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "militia_01"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_militia_01"
+     ]
+    },
+    {
+     "id": "51cd2945",
+     "code": "wheel_kurtz_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "militia_01"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic:kurtz_01"
+     ],
+     "origins": [
+      "look:kurtz_01"
+     ]
+    },
+    {
+     "id": "ddc7f325",
+     "code": "wheel_kurtz_03",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_03.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_03.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_03.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "silver_01",
+     "paints": [
+      "silver_01"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "style:mahir_supron_kurtz_basic_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_mahir_supron__ext01_door_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "199ab371",
+     "code": "door_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_fl_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_fr_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_bl_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_fl_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_fr_01_shadow.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_bl_01_shadow.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_01",
+     "paints": [
+      "kurtz_01",
+      "kurtz_02",
+      "player_01",
+      "militia_01"
+     ],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01",
+      "mahir_supron_kurtz_basic_kurtz_02",
+      "mahir_supron_kurtz_basic_kurtz_03",
+      "mahir_supron_kurtz_basic_kurtz_militia_02",
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_01",
+      "look:kurtz_militia_01",
+      "style:mahir_supron_kurtz_basic_kurtz_02",
+      "style:mahir_supron_kurtz_basic_kurtz_03",
+      "style:mahir_supron_kurtz_basic_kurtz_militia_02",
+      "style:mahir_supron_kurtz_basic_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.window",
+   "label": "Window (door)",
+   "kind": "window",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_mahir_supron_kurtz__ext01_window_<c>_kurtz_01",
+    "v_standard25_mahir_supron_kurtz__ext01_window_<c>_kurtz_02",
+    "window_<c>_6861"
+   ],
+   "options": [
+    {
+     "id": "7326dcf9",
+     "code": "window_kurtz_01",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_fl_kurtz_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_fr_kurtz_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_bl_kurtz_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_br_kurtz_01.mesh"
+     },
+     "shadows": {
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_bl_kurtz_02_shadow.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_br_kurtz_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron_kurtz_basic:kurtz_01",
+      "mahir_supron_kurtz_basic_player_01"
+     ],
+     "origins": [
+      "look:kurtz_01",
+      "style:mahir_supron_kurtz_basic_player_01"
+     ]
+    },
+    {
+     "id": "de1eba73",
+     "code": "window_kurtz_01 + window_kurtz_02",
+     "vehicle": "v_standard3_mahir_supron_kurtz",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_fl_kurtz_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_fr_kurtz_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_bl_kurtz_02.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_br_kurtz_02.mesh"
+     },
+     "shadows": {
+      "bl": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_bl_kurtz_02_shadow.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_br_kurtz_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mahir_supron_kurtz_basic:base_01",
+      "mahir_supron_kurtz_basic:kurtz_militia_01"
+     ],
+     "origins": [
+      "look:base_01",
+      "look:kurtz_militia_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "kurtz_cdd4",
+   "family": "kurtz",
+   "code": "kit_kurtz_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "detachable_sensor_l_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01",
+     "slot": null,
+     "position": [
+      -0.7493,
+      2.2962,
+      -0.1714
+     ],
+     "rotation": [
+      -0.22116106748580933,
+      0.10145169496536255,
+      0.26601362228393555,
+      0.932755172252655
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_l_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01",
+     "slot": null,
+     "position": [
+      -0.6185,
+      2.3465,
+      -0.1867
+     ],
+     "rotation": [
+      -0.19103924930095673,
+      0.1670246124267578,
+      -0.05715981870889664,
+      0.9655773043632507
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_r_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01",
+     "slot": null,
+     "position": [
+      0.7129,
+      2.2936,
+      -0.1719
+     ],
+     "rotation": [
+      -0.12114788591861725,
+      0.2110162377357483,
+      -0.3250422477722168,
+      0.9138615727424622
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_r_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01",
+     "slot": null,
+     "position": [
+      0.579,
+      2.3474,
+      -0.1798
+     ],
+     "rotation": [
+      -0.21428558230400085,
+      0.15820445120334625,
+      -0.017327608540654182,
+      0.9637182354927063
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "stickers_body_front_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_stickers_body_front_kurtz_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_stickers_body_front_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01_shadow",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "stickers_body_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_body_kurtz_stickers_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_body_kurtz_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic:base_01",
+    "mahir_supron_kurtz_basic:kurtz_01",
+    "mahir_supron_kurtz_basic:kurtz_militia_01",
+    "mahir_supron_kurtz_basic_burnt_01",
+    "mahir_supron_kurtz_basic_kurtz_02",
+    "mahir_supron_kurtz_basic_kurtz_03",
+    "mahir_supron_kurtz_basic_kurtz_militia_02"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:base_01",
+    "look:kurtz_01",
+    "look:kurtz_militia_01",
+    "style:mahir_supron_kurtz_basic_kurtz_02",
+    "style:mahir_supron_kurtz_basic_kurtz_03",
+    "style:mahir_supron_kurtz_basic_kurtz_militia_02",
+    "wreck:mahir_supron_kurtz_basic_burnt_01"
+   ]
+  },
+  {
+   "id": "kurtz_0c14",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_2",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_mahir_supron_kurtz_ext01_additional_lights_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_additional_lights_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_additional_lights_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_additional_lights_01_shadow.mesh",
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_mahir_supron_kurtz_ext01_cables_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_cables_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_cables_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz_ext01_additional_lights_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic:base_01",
+    "mahir_supron_kurtz_basic:kurtz_01",
+    "mahir_supron_kurtz_basic_kurtz_02",
+    "mahir_supron_kurtz_basic_player_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:base_01",
+    "look:kurtz_01",
+    "style:mahir_supron_kurtz_basic_kurtz_02",
+    "style:mahir_supron_kurtz_basic_player_01"
+   ]
+  },
+  {
+   "id": "kurtz_9abb",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_3",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "crystaldome_f_l_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_f_ol_a_01.mesh",
+     "code": "crystaldome_f_ol_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "crystaldome_f_l_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_f_ol_b_01.mesh",
+     "code": "crystaldome_f_ol_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "crystaldome_f_l_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "crystaldome_f_m_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_f_om_a_01.mesh",
+     "code": "crystaldome_f_om_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "crystaldome_f_m_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_f_om_b_01.mesh",
+     "code": "crystaldome_f_om_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "crystaldome_f_m_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "crystaldome_f_r_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_f_or_a_01.mesh",
+     "code": "crystaldome_f_or_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "crystaldome_f_r_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_f_or_b_01.mesh",
+     "code": "crystaldome_f_or_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "crystaldome_f_r_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "crystaldome_fl_f_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_fl_f_a_01.mesh",
+     "code": "crystaldome_fl_f_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_fl_kurtz_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "crystaldome_fl_f_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_fl_f_b_01.mesh",
+     "code": "crystaldome_fl_f_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "crystaldome_fl_f_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "crystaldome_fr_f_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_fr_f_a_01.mesh",
+     "code": "crystaldome_fr_f_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_fr_kurtz_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "crystaldome_fr_f_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_fr_f_b_01.mesh",
+     "code": "crystaldome_fr_f_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "crystaldome_fr_f_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic:base_01",
+    "mahir_supron_kurtz_basic:kurtz_01",
+    "mahir_supron_kurtz_basic:kurtz_militia_01",
+    "mahir_supron_kurtz_basic_player_01"
+   ],
+   "made_for": [
+    "slot:base.window",
+    "slot:door.window"
+   ],
+   "needs": [],
+   "origins": [
+    "look:base_01",
+    "look:kurtz_01",
+    "look:kurtz_militia_01",
+    "style:mahir_supron_kurtz_basic_player_01"
+   ]
+  },
+  {
+   "id": "kurtz_964a",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_4",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "grate_bl_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_grate_bl_01.mesh",
+     "code": "grate_bl_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_bl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic_kurtz_02",
+     "parent": "vehicle_slots:window_back_left_a"
+    },
+    {
+     "name": "grate_br_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_grate_br_01.mesh",
+     "code": "grate_br_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_br_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic_kurtz_02",
+     "parent": "vehicle_slots:window_back_right_a"
+    },
+    {
+     "name": "grate_fr_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_grate_fr_01.mesh",
+     "code": "grate_fr_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic_kurtz_02",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "windshield_f_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron__ext01_windshield_f_01.mesh",
+     "code": "windshield_f_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_02",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic_kurtz_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic_kurtz_02",
+    "mahir_supron_kurtz_basic_kurtz_03",
+    "mahir_supron_kurtz_basic_kurtz_militia_02"
+   ],
+   "made_for": [
+    "slot:base.window",
+    "slot:window.window"
+   ],
+   "needs": [],
+   "origins": [
+    "style:mahir_supron_kurtz_basic_kurtz_02",
+    "style:mahir_supron_kurtz_basic_kurtz_03",
+    "style:mahir_supron_kurtz_basic_kurtz_militia_02"
+   ]
+  },
+  {
+   "id": "kurtz_b28c",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_5",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "stickers_wheel_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_stickers_wheel_kurtz_01.mesh",
+     "code": "stickers_wheel_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "wheel_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:wheel_front_left"
+    },
+    {
+     "name": "v_standard25_mahir_supron_kurtz__ext01_stickers_wheel_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_stickers_wheel_kurtz_01.mesh",
+     "code": "stickers_wheel_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "wheel_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:wheel_front_right"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic:base_01",
+    "mahir_supron_kurtz_basic:kurtz_01",
+    "mahir_supron_kurtz_basic:kurtz_militia_01"
+   ],
+   "made_for": [
+    "slot:wheel.wheel"
+   ],
+   "needs": [],
+   "origins": [
+    "look:base_01",
+    "look:kurtz_01",
+    "look:kurtz_militia_01"
+   ]
+  },
+  {
+   "id": "kurtz_161e",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_6",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "light_militia_fl_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_position_lights_front_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_position_lights_front_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -1.0509,
+      1.6955,
+      0.2287
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_militia_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "light_militia_fr_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_position_lights_front_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_position_lights_front_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      1.0513,
+      1.6987,
+      0.2287
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.9999990463256836,
+      0.0014408109709620476
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_militia_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "lights_front_militia_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_lights_front_militia_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_lights_front_militia_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_militia_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "position_lights_front_bl_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_position_lights_front_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_position_lights_front_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -1.0836,
+      -2.1958,
+      0.3154
+     ],
+     "rotation": [
+      -0.000744188844691962,
+      0.03493765369057655,
+      -0.00019817889551632106,
+      0.9993891716003418
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_militia_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "position_lights_front_br_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz_ext01_position_lights_front_01.mesh",
+     "code": "v_standard25_mahir_supron_kurtz_position_lights_front_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      1.0858,
+      -2.1958,
+      0.3154
+     ],
+     "rotation": [
+      -0.04485184699296951,
+      -0.0001566468708915636,
+      0.998988151550293,
+      0.0033221577759832144
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_militia_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic:kurtz_militia_01",
+    "mahir_supron_kurtz_basic_kurtz_militia_02"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:kurtz_militia_01",
+    "style:mahir_supron_kurtz_basic_kurtz_militia_02"
+   ]
+  },
+  {
+   "id": "kurtz_52a6",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_7",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "crystaldome_bl_f_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_bl_f_a_01.mesh",
+     "code": "crystaldome_bl_f_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_bl_kurtz_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "crystaldome_bl_f_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_bl_f_b_01.mesh",
+     "code": "crystaldome_bl_f_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "crystaldome_bl_f_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "crystaldome_br_f_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_br_f_a_01.mesh",
+     "code": "crystaldome_br_f_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_br_kurtz_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "crystaldome_br_f_b",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_crystaldome_br_f_b_01.mesh",
+     "code": "crystaldome_br_f_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "crystaldome_br_f_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "stickers_window_br_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_stickers_window_br_kurtz_01.mesh",
+     "code": "stickers_window_br_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_br_kurtz_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic:kurtz_01",
+    "mahir_supron_kurtz_basic_player_01"
+   ],
+   "made_for": [
+    "slot:door.window"
+   ],
+   "needs": [],
+   "origins": [
+    "look:kurtz_01",
+    "style:mahir_supron_kurtz_basic_player_01"
+   ]
+  },
+  {
+   "id": "kurtz_936f",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "cover_fl_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_cover_fl_01.mesh",
+     "code": "window_cover_fl_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron__ext01_door_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "cover_fr_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_window_cover_fr_01.mesh",
+     "code": "window_cover_fr_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron__ext01_door_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "grate_fl_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_grate_fl_01.mesh",
+     "code": "grate_fl_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "window_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "v_standard25_mahir_supron_kurtz__ext01_door_cover_bl_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_cover_bl_01.mesh",
+     "code": "door_cover_bl_01",
+     "paint": "militia_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron__ext01_door_bl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_cover_bl_01_shadow.mesh",
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard25_mahir_supron_kurtz__ext01_door_cover_br_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_cover_br_01.mesh",
+     "code": "door_cover_br_01",
+     "paint": "militia_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron__ext01_door_br_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_cover_br_01_shadow.mesh",
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "v_standard25_mahir_supron_kurtz__ext01_door_cover_fl_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_cover_fl_01.mesh",
+     "code": "door_cover_fl_01",
+     "paint": "militia_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron__ext01_door_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_cover_fl_01_shadow.mesh",
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard25_mahir_supron_kurtz__ext01_door_cover_fr_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_cover_fr_01.mesh",
+     "code": "door_cover_fr_01",
+     "paint": "militia_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard25_mahir_supron__ext01_door_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_door_cover_fr_01_shadow.mesh",
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic:base_01",
+    "mahir_supron_kurtz_basic:kurtz_01",
+    "mahir_supron_kurtz_basic:kurtz_militia_01",
+    "mahir_supron_kurtz_basic_kurtz_02",
+    "mahir_supron_kurtz_basic_kurtz_03",
+    "mahir_supron_kurtz_basic_kurtz_militia_02",
+    "mahir_supron_kurtz_basic_player_01"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:window.window"
+   ],
+   "needs": [],
+   "origins": [
+    "look:base_01",
+    "look:kurtz_01",
+    "look:kurtz_militia_01",
+    "style:mahir_supron_kurtz_basic_kurtz_02",
+    "style:mahir_supron_kurtz_basic_kurtz_03",
+    "style:mahir_supron_kurtz_basic_kurtz_militia_02",
+    "style:mahir_supron_kurtz_basic_player_01"
+   ]
+  },
+  {
+   "id": "kurtz_08f5",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_interior",
+   "where": [
+    "body",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "additional_cables_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__int01_additional_cables_01.mesh",
+     "code": "additional_cables_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "additional_parts",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "additional_displays_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__int01_additional_displays_01.mesh",
+     "code": "additional_displays_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_kurtz_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "additional_parts",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__int01_interior_kurtz_01_additional_parts.mesh",
+     "code": "interior_kurtz_01_additional_parts",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "interior_kurtz_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "seat_fl_kurtz_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__int01_seat_fl_kurtz_01.mesh",
+     "code": "seat_fl_kurtz_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "interior_kurtz_01",
+     "slot": null,
+     "position": [
+      -0.3432,
+      0.1973,
+      0.2016
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "seat_fr_kurtz",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__int01_seat_fl_kurtz_01.mesh",
+     "code": "seat_fl_kurtz_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "interior_kurtz_01",
+     "slot": null,
+     "position": [
+      0.343,
+      0.1973,
+      0.2016
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "supron_kurtz_fx_cutout",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\supron_kurtz_fx_cutout.mesh",
+     "code": "supron_kurtz_fx_cutout",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_mahir_supron__ext01_body_stickers_03",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron__ext01_body_stickers_01.mesh",
+     "code": "body_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic:base_01",
+    "mahir_supron_kurtz_basic:kurtz_01",
+    "mahir_supron_kurtz_basic:kurtz_militia_01",
+    "mahir_supron_kurtz_basic_burnt_01",
+    "mahir_supron_kurtz_basic_burnt_player_01",
+    "mahir_supron_kurtz_basic_kurtz_02",
+    "mahir_supron_kurtz_basic_kurtz_03",
+    "mahir_supron_kurtz_basic_kurtz_militia_02",
+    "mahir_supron_kurtz_basic_player_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:base_01",
+    "look:kurtz_01",
+    "look:kurtz_militia_01",
+    "style:mahir_supron_kurtz_basic_kurtz_02",
+    "style:mahir_supron_kurtz_basic_kurtz_03",
+    "style:mahir_supron_kurtz_basic_kurtz_militia_02",
+    "style:mahir_supron_kurtz_basic_player_01",
+    "wreck:mahir_supron_kurtz_basic_burnt_01",
+    "wreck:mahir_supron_kurtz_basic_burnt_player_01"
+   ]
+  },
+  {
+   "id": "kurtz_f7d0",
+   "family": "kurtz",
+   "code": "window_f_stickers_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_mahir_supron__ext01_window_f_stickers_03",
+     "mesh": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron__ext01_window_f_stickers_01.mesh",
+     "code": "window_f_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      -0.5927
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mahir_supron_kurtz_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "mahir_supron_kurtz_basic:kurtz_01",
+    "mahir_supron_kurtz_basic:kurtz_militia_01"
+   ],
+   "made_for": [
+    "slot:base.window"
+   ],
+   "needs": [],
+   "origins": [
+    "look:kurtz_01",
+    "look:kurtz_militia_01"
+   ]
+  }
+ ],
+ "looks": {
+  "mahir_supron_kurtz_basic_burnt_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mahir_supron_kurtz_basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_standard25_mahir_supron__ext01_body_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01"
+    },
+    "base.roof": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01"
+    },
+    "base.interior": {
+     "all": "interior_kurtz_01"
+    }
+   }
+  },
+  "mahir_supron_kurtz_basic_kurtz_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mahir_supron_kurtz_basic.app",
+   "app_look": "kurtz_03",
+   "style": "mahir_supron_kurtz_basic_kurtz_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_standard25_mahir_supron__ext01_body_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_lights_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_front_lights_kurtz_01"
+    },
+    "base.roof": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01"
+    },
+    "wheel.wheel": {
+     "fl": "v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_fl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_01",
+     "fr": "tire_fr_01",
+     "bl": "tire_bl_01",
+     "br": "tire_br_01"
+    },
+    "base.interior": {
+     "all": "interior_kurtz_01"
+    },
+    "door.door": {
+     "fl": "v_standard25_mahir_supron__ext01_door_fl_01",
+     "fr": "v_standard25_mahir_supron__ext01_door_fr_01",
+     "bl": "v_standard25_mahir_supron__ext01_door_bl_01",
+     "br": "v_standard25_mahir_supron__ext01_door_br_01"
+    },
+    "window.window": {
+     "fl": "window_fl_01",
+     "fr": "window_fr_01",
+     "bl": "window_bl_01",
+     "br": "window_br_01"
+    },
+    "base.window": {
+     "all": "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_02"
+    },
+    "door.window.window": {
+     "fl": "window_fl_6505"
+    },
+    "base.bumper.v_standard25_mahir_supron_kurtz_ext01_bumper_f_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_bumper_f_kurtz_01"
+    }
+   }
+  },
+  "mahir_supron_kurtz_basic_kurtz_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mahir_supron_kurtz_basic.app",
+   "app_look": "kurtz_02",
+   "style": "mahir_supron_kurtz_basic_kurtz_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_standard25_mahir_supron__ext01_body_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01"
+    },
+    "base.roof": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01"
+    },
+    "base.roof.v_standard25_mahir_supron_kurtz_ext01_roof_parts": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_roof_parts_01"
+    },
+    "wheel.wheel": {
+     "fl": "v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_fl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_01",
+     "fr": "tire_fr_01",
+     "bl": "tire_bl_01",
+     "br": "tire_br_01"
+    },
+    "base.interior": {
+     "all": "interior_kurtz_01"
+    },
+    "door.door": {
+     "fl": "v_standard25_mahir_supron__ext01_door_fl_01",
+     "fr": "v_standard25_mahir_supron__ext01_door_fr_01",
+     "bl": "v_standard25_mahir_supron__ext01_door_bl_01",
+     "br": "v_standard25_mahir_supron__ext01_door_br_01"
+    },
+    "window.window": {
+     "fl": "window_fl_01",
+     "fr": "window_fr_01",
+     "bl": "window_bl_01",
+     "br": "window_br_01"
+    },
+    "base.window": {
+     "all": "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_02"
+    },
+    "door.window.window": {
+     "fl": "window_fl_4105"
+    },
+    "base.bumper": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_bumper_b_kurtz_01"
+    },
+    "base.bumper.v_standard25_mahir_supron_kurtz_ext01_bumper_f_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_bumper_f_kurtz_01"
+    }
+   }
+  },
+  "mahir_supron_kurtz_basic_burnt_player_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mahir_supron_kurtz_basic.app",
+   "app_look": "burnt_player_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_standard25_mahir_supron__ext01_body_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_02"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_kurtz_03"
+    },
+    "base.roof": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01"
+    },
+    "base.roof.v_standard25_mahir_supron_kurtz_ext01_roof_parts": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_roof_parts_01"
+    },
+    "base.interior": {
+     "all": "interior_kurtz_01"
+    }
+   }
+  },
+  "mahir_supron_kurtz_basic_kurtz_militia_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mahir_supron_kurtz_basic.app",
+   "app_look": "kurtz_militia_02",
+   "style": "mahir_supron_kurtz_basic_kurtz_militia_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_standard25_mahir_supron__ext01_body_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_lights_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_front_lights_kurtz_01"
+    },
+    "base.roof": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01"
+    },
+    "base.roof.v_standard25_mahir_supron_kurtz_ext01_roof_parts": {
+     "all": "roof_lights_militia_01"
+    },
+    "wheel.wheel": {
+     "fl": "v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02",
+     "fr": "wheel_fr_02",
+     "bl": "wheel_fl_02",
+     "br": "wheel_br_02"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_01",
+     "fr": "tire_fr_01",
+     "bl": "tire_bl_01",
+     "br": "tire_br_01"
+    },
+    "base.interior": {
+     "all": "interior_kurtz_01"
+    },
+    "door.door": {
+     "fl": "v_standard25_mahir_supron__ext01_door_fl_01",
+     "fr": "v_standard25_mahir_supron__ext01_door_fr_01",
+     "bl": "v_standard25_mahir_supron__ext01_door_bl_01",
+     "br": "v_standard25_mahir_supron__ext01_door_br_01"
+    },
+    "window.window": {
+     "fl": "window_fl_01",
+     "fr": "window_fr_01",
+     "bl": "window_bl_01",
+     "br": "window_br_01"
+    },
+    "base.window": {
+     "all": "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_02"
+    },
+    "base.bumper.v_standard25_mahir_supron_kurtz_ext01_bumper_f_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_bumper_f_kurtz_01"
+    }
+   }
+  },
+  "mahir_supron_kurtz_basic_player_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mahir_supron_kurtz_basic.app",
+   "app_look": "player_01",
+   "style": "mahir_supron_kurtz_basic_player_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_standard25_mahir_supron__ext01_body_01"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_02"
+    },
+    "base.body.v_standard25_mahir_supron_kurtz_ext01_body_kurtz": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_body_kurtz_03"
+    },
+    "base.roof": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01"
+    },
+    "base.roof.v_standard25_mahir_supron_kurtz_ext01_roof_parts": {
+     "all": "v_standard25_mahir_supron_kurtz_ext01_roof_parts_01"
+    },
+    "wheel.wheel": {
+     "fl": "v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_03",
+     "fr": "wheel_fr_03",
+     "bl": "wheel_bl_03",
+     "br": "wheel_br_03"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_01",
+     "fr": "tire_fr_01",
+     "bl": "tire_bl_01",
+     "br": "tire_br_01"
+    },
+    "base.interior": {
+     "all": "interior_kurtz_01"
+    },
+    "door.door": {
+     "fl": "v_standard25_mahir_supron__ext01_door_fl_01",
+     "fr": "v_standard25_mahir_supron__ext01_door_fr_01",
+     "bl": "v_standard25_mahir_supron__ext01_door_bl_01",
+     "br": "v_standard25_mahir_supron__ext01_door_br_01"
+    },
+    "base.window": {
+     "all": "v_standard25_mahir_supron_kurtz__ext01_window_kurtz_f_01"
+    },
+    "door.window": {
+     "fl": "v_standard25_mahir_supron_kurtz__ext01_window_fl_kurtz_01",
+     "fr": "v_standard25_mahir_supron_kurtz__ext01_window_fr_kurtz_01",
+     "bl": "v_standard25_mahir_supron_kurtz__ext01_window_bl_kurtz_01",
+     "br": "v_standard25_mahir_supron_kurtz__ext01_window_br_kurtz_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.5346,
+   0.4083,
+   0.2772,
+   -0.1361
+  ],
+  "b": [
+   0.5346,
+   0.4083,
+   0.2772,
+   -0.1361
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "d8ec02e6",
+   "rim": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01.mesh",
+   "tire": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_tire_kurtz_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01_shadow.mesh",
+   "code": "wheel_kurtz_01",
+   "tire_code": "tire_kurtz_01",
+   "from": "Supron BARGHEST",
+   "radius": 0.5346,
+   "width": 0.4083,
+   "rim_radius": 0.279,
+   "tire_center": -0.1361,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 4,
+   "paints": [
+    "militia_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mahir_supron_kurtz_basic:base_01",
+    "mahir_supron_kurtz_basic:kurtz_01",
+    "mahir_supron_kurtz_basic:kurtz_militia_01"
+   ]
+  },
+  {
+   "id": "798c264b",
+   "rim": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_02.mesh",
+   "tire": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_tire_kurtz_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\standard\\v_standard3_mahir_supron_kurtz\\entities\\meshes\\v_standard25_mahir_supron_kurtz__ext01_wheel_kurtz_01_shadow.mesh",
+   "code": "wheel_kurtz_02",
+   "tire_code": "tire_kurtz_01",
+   "from": "Supron BARGHEST",
+   "radius": 0.5346,
+   "width": 0.4083,
+   "rim_radius": 0.2772,
+   "tire_center": -0.1361,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 8,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mahir_supron_kurtz_basic:base_01",
+    "mahir_supron_kurtz_basic:kurtz_militia_01",
+    "mahir_supron_kurtz_basic_kurtz_02",
+    "mahir_supron_kurtz_basic_kurtz_03",
+    "mahir_supron_kurtz_basic_kurtz_militia_02"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "mahir_supron_kurtz_basic_kurtz_militia_02",
+   "Supron BARGHEST"
+  ]
+ ]
+}

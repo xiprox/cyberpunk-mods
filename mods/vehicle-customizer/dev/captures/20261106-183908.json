@@ -1,0 +1,39 @@
+{
+  "camera_forward": {
+    "x": 0.4,
+    "y": 0.9,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 22.4,
+    "x": -2316.6,
+    "y": 459.9,
+    "z": 8.6
+  },
+  "look_object": {
+    "class": "vehicleCarBaseObject",
+    "entity_id": "10402650ULL",
+    "name": "",
+    "position": {
+      "x": -2317,
+      "y": 462.7,
+      "z": 7.8
+    },
+    "record": "Vehicle.v_kaukaz_z71_aras"
+  },
+  "nearest": {
+    "distance": 34.5,
+    "id": "unknown_lift_city_centers_west_edge",
+    "name": "Unknown lift, City Center's west edge"
+  },
+  "note": "",
+  "player": {
+    "x": -2325.7,
+    "y": 439.5,
+    "yaw": -24,
+    "z": 7.3
+  },
+  "stamp": "20261106-183908",
+  "time": "2026-11-06 18:39:08"
+}

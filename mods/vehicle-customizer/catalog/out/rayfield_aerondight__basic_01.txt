@@ -1,0 +1,40 @@
+Aerondight "Guinevere" (rayfield_aerondight__basic_01), from base\vehicles\sport\v_sport1_rayfield_aerondight__basic_01.ent
+records: Vehicle.v_sport1_rayfield_aerondight_player
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  urban_01                 Urban            6 looks
+                                            paints: urban_03, urban_04, urban_06, kerry, q000_streetkid
+  urban_02                 Urban 02         5 looks
+                                            paints: urban_05, urban_07, player_01, player_01_customizable_01
+WRECKS: burnt
+
+SLOTS (12)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                     9 paints  11 looks  [style: Urban] [style: Urban 02]
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                     9 paints  11 looks  [style: Urban] [style: Urban 02]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_a_01                                       9 paints  11 looks  [style: Urban] [style: Urban 02]
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                        9 paints  11 looks  [style: Urban] [style: Urban 02]
+  Body [base.body] (Base): 1 options
+    body_01                                         9 paints  12 looks  [style: Urban] [style: Urban 02] [wreck: burnt]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     7 paints  12 looks  [style: Urban] [style: Urban 02] [wreck: burnt]
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         6 paints   6 looks  [style: Urban]
+    tire_01                                         0 paints   5 looks  [car: Caliburn "Murkmobile"] [style: Urban 02]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_aerondight                                1 paints   6 looks  [style: Urban]
+    wheel_01                                        0 paints   5 looks  [car: Caliburn "Murkmobile"] [style: Urban 02]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_a_01                                       9 paints  11 looks  [style: Urban] [style: Urban 02]
+  Doors (b) [door_b.door] (door_front_left_b, door_front_right_b): 1 options
+    door_01                                         9 paints  11 looks  [style: Urban] [style: Urban 02]
+  Doors (c) [door_c.door] (door_front_left_c, door_front_right_c): 1 options
+    door_c_01                                       7 paints  11 looks  [style: Urban] [style: Urban 02]
+  Hood (b) [hood_b.hood] (hood_b): 1 options
+    hood_b_01                                       9 paints  11 looks  [style: Urban] [style: Urban 02]
+
+KITS (0)

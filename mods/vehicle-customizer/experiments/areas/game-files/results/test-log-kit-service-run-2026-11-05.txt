@@ -1,0 +1,147 @@
+﻿22:32:29 at startup Vehicle.vc_live_1 -> cloned true, listed true
+22:32:30 loaded; saved build: 14 parts, base look stock
+22:32:30 kit service told: on false, 0.0 m ahead, 0.0 m up -> done
+22:34:16 Vehicle.v_standard2_archer_hella_player_vctest unlock -> true
+22:34:16 Vehicle.v_standard2_archer_hella_player_vctest_b unlock -> true
+22:34:16 Vehicle.v_utility4_kaukaz_bratsk_vctest unlock -> true
+22:34:16 Vehicle.v_utility4_chevalier_centurion_vctest unlock -> true
+22:34:16 Vehicle.av_rayfield_excalibur_vctest unlock -> true
+22:34:19 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; putting back 14 changes
+22:34:19 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+22:34:19   wheel_01_fl_a in the visual controller's list -> updated in a list of 91
+22:34:19 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+22:34:19   wheel_01_fr_a in the visual controller's list -> updated in a list of 91
+22:34:19 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+22:34:19   wheel_01_bl_a in the visual controller's list -> updated in a list of 91
+22:34:20 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+22:34:20   wheel_01_br_a in the visual controller's list -> updated in a list of 91
+22:34:20 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+22:34:20   tire_01_fl_a in the visual controller's list -> updated in a list of 91
+22:34:20 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+22:34:20   tire_01_fr_a in the visual controller's list -> updated in a list of 91
+22:34:20 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+22:34:20   tire_01_bl_a in the visual controller's list -> updated in a list of 91
+22:34:20 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+22:34:20   tire_01_br_a in the visual controller's list -> updated in a list of 91
+22:34:20 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+22:34:20   tire_01_fl_a_shadow in the visual controller's list -> updated in a list of 91
+22:34:20 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+22:34:20   tire_01_fr_a_shadow in the visual controller's list -> updated in a list of 91
+22:34:20 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+22:34:20   tire_01_bl_a_shadow in the visual controller's list -> updated in a list of 91
+22:34:20 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+22:34:20   tire_01_br_a_shadow in the visual controller's list -> updated in a list of 91
+22:34:20 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+22:34:20   bumper_f_01 in the visual controller's list -> updated in a list of 91
+22:34:20 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+22:34:20   hood_a in the visual controller's list -> updated in a list of 91
+22:34:28 kit service told: on true, 0.0 m ahead, 0.0 m up -> done
+22:34:28 the kit goes on as the copy is next built: call it again, or change its look
+22:34:34 kit service told: on true, 0.0 m ahead, 0.1 m up -> done
+22:34:34 kit moved: 0.00 m ahead, 0.10 m up in all
+22:34:35 kit service told: on true, 0.0 m ahead, 0.2 m up -> done
+22:34:35 kit moved: 0.00 m ahead, 0.20 m up in all
+22:34:35 kit service told: on true, 0.0 m ahead, 0.3 m up -> done
+22:34:35 kit moved: 0.00 m ahead, 0.30 m up in all
+22:34:35 kit service told: on true, 0.0 m ahead, 0.4 m up -> done
+22:34:35 kit moved: 0.00 m ahead, 0.40 m up in all
+22:34:36 kit service told: on true, 0.0 m ahead, 0.5 m up -> done
+22:34:36 kit moved: 0.00 m ahead, 0.50 m up in all
+22:34:36 kit service told: on true, 0.0 m ahead, 0.6 m up -> done
+22:34:36 kit moved: 0.00 m ahead, 0.60 m up in all
+22:34:36 kit service told: on true, 0.0 m ahead, 0.7 m up -> done
+22:34:36 kit moved: 0.00 m ahead, 0.70 m up in all
+22:34:37 kit service told: on true, 0.0 m ahead, 0.8 m up -> done
+22:34:37 kit moved: 0.00 m ahead, 0.80 m up in all
+22:34:37 kit service told: on true, 0.0 m ahead, 0.9 m up -> done
+22:34:37 kit moved: 0.00 m ahead, 0.90 m up in all
+22:34:37 kit service told: on true, 0.0 m ahead, 1.0 m up -> done
+22:34:37 kit moved: 0.00 m ahead, 1.00 m up in all
+22:34:38 kit service told: on true, 0.0 m ahead, 1.1 m up -> done
+22:34:38 kit moved: 0.00 m ahead, 1.10 m up in all
+22:34:38 kit service told: on true, 0.0 m ahead, 1.2 m up -> done
+22:34:38 kit moved: 0.00 m ahead, 1.20 m up in all
+22:34:38 kit service told: on true, 0.0 m ahead, 1.3 m up -> done
+22:34:38 kit moved: 0.00 m ahead, 1.30 m up in all
+22:34:39 kit service told: on true, 0.0 m ahead, 1.4 m up -> done
+22:34:39 kit moved: 0.00 m ahead, 1.40 m up in all
+22:34:39 kit service told: on true, 0.0 m ahead, 1.5 m up -> done
+22:34:39 kit moved: 0.00 m ahead, 1.50 m up in all
+22:34:40 kit service told: on true, 0.1 m ahead, 1.5 m up -> done
+22:34:40 kit moved: 0.10 m ahead, 1.50 m up in all
+22:34:40 kit service told: on true, 0.2 m ahead, 1.5 m up -> done
+22:34:40 kit moved: 0.20 m ahead, 1.50 m up in all
+22:34:40 kit service told: on true, 0.3 m ahead, 1.5 m up -> done
+22:34:40 kit moved: 0.30 m ahead, 1.50 m up in all
+22:34:40 kit service told: on true, 0.4 m ahead, 1.5 m up -> done
+22:34:40 kit moved: 0.40 m ahead, 1.50 m up in all
+22:34:41 kit service told: on true, 0.5 m ahead, 1.5 m up -> done
+22:34:41 kit moved: 0.50 m ahead, 1.50 m up in all
+22:34:41 kit service told: on true, 0.6 m ahead, 1.5 m up -> done
+22:34:41 kit moved: 0.60 m ahead, 1.50 m up in all
+22:34:41 kit service told: on true, 0.7 m ahead, 1.5 m up -> done
+22:34:41 kit moved: 0.70 m ahead, 1.50 m up in all
+22:34:41 kit service told: on true, 0.8 m ahead, 1.5 m up -> done
+22:34:41 kit moved: 0.80 m ahead, 1.50 m up in all
+22:34:41 kit service told: on true, 0.9 m ahead, 1.5 m up -> done
+22:34:41 kit moved: 0.90 m ahead, 1.50 m up in all
+22:34:42 kit service told: on true, 1.0 m ahead, 1.5 m up -> done
+22:34:42 kit moved: 1.00 m ahead, 1.50 m up in all
+22:34:42 kit service told: on true, 1.1 m ahead, 1.5 m up -> done
+22:34:42 kit moved: 1.10 m ahead, 1.50 m up in all
+22:34:42 kit service told: on true, 1.2 m ahead, 1.5 m up -> done
+22:34:42 kit moved: 1.20 m ahead, 1.50 m up in all
+22:34:43 kit service told: on true, 1.3 m ahead, 1.5 m up -> done
+22:34:43 kit moved: 1.30 m ahead, 1.50 m up in all
+22:34:43 kit service told: on true, 1.4 m ahead, 1.5 m up -> done
+22:34:43 kit moved: 1.40 m ahead, 1.50 m up in all
+22:34:43 kit service told: on true, 1.5 m ahead, 1.5 m up -> done
+22:34:43 kit moved: 1.50 m ahead, 1.50 m up in all
+22:34:44 kit service told: on true, 1.6 m ahead, 1.5 m up -> done
+22:34:44 kit moved: 1.60 m ahead, 1.50 m up in all
+22:34:44 kit service told: on true, 1.7 m ahead, 1.5 m up -> done
+22:34:44 kit moved: 1.70 m ahead, 1.50 m up in all
+22:34:44 kit service told: on true, 1.8 m ahead, 1.5 m up -> done
+22:34:44 kit moved: 1.80 m ahead, 1.50 m up in all
+22:34:44 kit service told: on true, 1.9 m ahead, 1.5 m up -> done
+22:34:44 kit moved: 1.90 m ahead, 1.50 m up in all
+22:34:44 kit service told: on true, 2.0 m ahead, 1.5 m up -> done
+22:34:44 kit moved: 2.00 m ahead, 1.50 m up in all
+22:34:45 kit service told: on true, 2.1 m ahead, 1.5 m up -> done
+22:34:45 kit moved: 2.10 m ahead, 1.50 m up in all
+22:34:45 kit service told: on true, 2.0 m ahead, 1.5 m up -> done
+22:34:45 kit moved: 2.00 m ahead, 1.50 m up in all
+22:34:46 kit service told: on true, 1.9 m ahead, 1.5 m up -> done
+22:34:46 kit moved: 1.90 m ahead, 1.50 m up in all
+22:34:46 kit service told: on true, 1.8 m ahead, 1.5 m up -> done
+22:34:46 kit moved: 1.80 m ahead, 1.50 m up in all
+22:34:46 kit service told: on true, 1.7 m ahead, 1.5 m up -> done
+22:34:46 kit moved: 1.70 m ahead, 1.50 m up in all
+22:34:47 kit service told: on true, 1.8 m ahead, 1.5 m up -> done
+22:34:47 kit moved: 1.80 m ahead, 1.50 m up in all
+22:34:47 kit service told: on true, 1.9 m ahead, 1.5 m up -> done
+22:34:47 kit moved: 1.90 m ahead, 1.50 m up in all
+22:34:47 kit service told: on true, 2.0 m ahead, 1.5 m up -> done
+22:34:47 kit moved: 2.00 m ahead, 1.50 m up in all
+22:34:48 kit service told: on true, 2.1 m ahead, 1.5 m up -> done
+22:34:48 kit moved: 2.10 m ahead, 1.50 m up in all
+22:34:48 kit service told: on true, 2.1 m ahead, 1.6 m up -> done
+22:34:48 kit moved: 2.10 m ahead, 1.60 m up in all
+22:34:48 kit service told: on true, 2.1 m ahead, 1.7 m up -> done
+22:34:48 kit moved: 2.10 m ahead, 1.70 m up in all
+22:34:48 kit service told: on true, 2.1 m ahead, 1.8 m up -> done
+22:34:48 kit moved: 2.10 m ahead, 1.80 m up in all
+22:34:48 kit service told: on true, 2.1 m ahead, 1.9 m up -> done
+22:34:48 kit moved: 2.10 m ahead, 1.90 m up in all
+22:34:49 kit service told: on true, 2.1 m ahead, 2.0 m up -> done
+22:34:49 kit moved: 2.10 m ahead, 2.00 m up in all
+22:34:49 kit service told: on true, 2.1 m ahead, 2.1 m up -> done
+22:34:49 kit moved: 2.10 m ahead, 2.10 m up in all
+22:34:49 kit service told: on true, 2.1 m ahead, 2.2 m up -> done
+22:34:49 kit moved: 2.10 m ahead, 2.20 m up in all
+22:34:59 kit service told: on false, 2.1 m ahead, 2.2 m up -> done
+22:34:59 kit taken off and forgotten
+22:36:58 kit service told: on true, 2.1 m ahead, 2.2 m up -> done
+22:36:58 the kit goes on as the copy is next built: call it again, or change its look
+22:37:05 kit service told: on false, 2.1 m ahead, 2.2 m up -> done
+22:37:05 kit taken off and forgotten

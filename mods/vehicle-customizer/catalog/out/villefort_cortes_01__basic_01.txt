@@ -1,0 +1,107 @@
+Cortes V5000 Valor (villefort_cortes_01__basic_01), from base\vehicles\standard\v_standard2_villefort_cortes_01__basic_01.ent
+records: Vehicle.v_standard2_villefort_cortes_player
+generated 2026-11-08
+
+STYLES (8; a style's other looks are its factory paints)
+  arasaka_01               Arasaka          1 looks
+                                            kits: door_fr_stickers_aldecaldos_02, kit_arasaka_doors, interior_arasaka_sticker_01, kit_nomad_doors
+  kangtao_01               Kangtao          1 looks
+                                            kits: kit_nomad_doors, door_bl_kangtao_sticker_01, kit_sticker_body_doors_interior, door_fr_kangtao_sticker_01
+  padre                    Padre            1 looks
+                                            kits: kit_nomad_doors
+  poor_1_01                Poor 1           6 looks
+                                            paints: poor_1_02, poor_1_03, poor_1_04, poor_1_05, poor_1_06
+                                            kits: kit_nomad_doors
+  q108_15c_arasaka         Q108 15c arasaka 1 looks
+                                            kits: door_fl_stickers_aldecaldos_01, kit_arasaka_doors, light_device_medium_02_q000_streetkid, kit_nomad_doors, police_door_br_01, kit_police_bumper_doors_hood_trunk
+  suburban_1_01            Suburban 1       8 looks
+                                            paints: suburban_1_02, suburban_1_03, suburban_1_04, suburban_1_05, suburban_1_06, suburban_1_07, suburban_1_08
+                                            kits: body_stickers_delamain, kit_nomad_doors
+  trevors                  Trevors          1 looks
+                                            kits: door_fr_stickers_aldecaldos_02, door_fl_stickers_aldecaldos_01, kit_aldecaldos_body_doors_hood_interior, kit_nomad_doors, door_fr_kangtao_sticker_01
+  urban_1_01               Urban 1          8 looks
+                                            paints: urban_1_02, urban_1_03, urban_1_04, urban_1_05, mafia_01, player_01, sq012_peralez
+                                            kits: kit_nomad_doors
+WRECKS: burnt_01
+
+SLOTS (13)
+  Front bumper [bumper_front.bumper] (bumper_front): 2 options
+    bumper_f_01                                    29 paints  41 looks  [look: black_agent] [look: boder_patrol_01] [look: default] [look: delamain] [look: delamain_bulletholes] ...
+    bumper_f_q000_streetkid                        29 paints   2 looks  [look: police_q000_streetkid] [look: police_q000_streetkid_02]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    29 paints  42 looks  [look: black_agent] [look: boder_patrol_01] [look: default] [look: delamain] [look: delamain_bulletholes] ...
+    bumper_b_q000_padre                            29 paints   1 looks  [style: Padre]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        29 paints  43 looks  [look: black_agent] [look: boder_patrol_01] [look: default] [look: delamain] [look: delamain_bulletholes] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       29 paints  34 looks  [look: black_agent] [look: boder_patrol_01] [look: default] [look: police_01] [look: police_q000_streetkid] ...
+  Body [base.body] (Base): 1 options
+    body_01                                        29 paints  45 looks  [look: black_agent] [look: boder_patrol_01] [look: burnt_police] [look: default] [look: delamain] ...
+  Interior [base.interior] (Base): 2 options
+    interior_01                                    15 paints  44 looks  [look: black_agent] [look: boder_patrol_01] [look: burnt_police] [look: default] [look: delamain] ...
+    interior_q000_padre                            15 paints   1 looks  [style: Padre]
+  Seats [base.seat] (Base): 1 options
+    seats_a_01                                     15 paints  45 looks  [look: black_agent] [look: boder_patrol_01] [look: burnt_police] [look: default] [look: delamain] ...
+  Windshield [base.window] (Base): 1 options
+    window_b_01                                     4 paints  45 looks  [look: black_agent] [look: boder_patrol_01] [look: burnt_police] [look: default] [look: delamain] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    tire_01                                         0 paints  28 looks  [look: delamain] [look: delamain_bulletholes] [look: delamain_dented_q005] [look: delamain_dented_q005_bulletholes] [look: delamain_konpeki] ...
+    tire_02                                         0 paints   8 looks  [look: default] [style: Poor 1] [style: Trevors]
+    tire_police_01                                  0 paints   7 looks  [look: black_agent] [look: boder_patrol_01] [look: police_01] [look: police_q000_streetkid] [look: police_q000_streetkid_02] ...
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 5 options
+    wheel_01                                        7 paints  10 looks  [style: Arasaka] [style: Kangtao] [style: Suburban 1]
+    wheel_01                                        7 paints   9 looks  [look: delamain] [look: delamain_bulletholes] [look: delamain_dented_q005] [look: delamain_dented_q005_bulletholes] [look: delamain_konpeki] ...
+    wheel_01                                        6 paints   9 looks  [style: Padre] [style: Urban 1]
+    wheel_02                                        1 paints   8 looks  [look: default] [style: Poor 1] [style: Trevors]
+    wheel_police_01 + wheel_police_02               1 paints   7 looks  [look: black_agent] [look: boder_patrol_01] [look: police_01] [look: police_q000_streetkid] [look: police_q000_streetkid_02] ...
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                        30 paints  43 looks  [look: black_agent] [look: boder_patrol_01] [look: default] [look: delamain] [look: delamain_bulletholes] ...
+  Wheel (brake) [brake.wheel] (brake_front_left, brake_front_right, brake_back_left, brake_back_right): 1 options
+    wheel_center_01                                 8 paints  28 looks  [look: delamain] [look: delamain_bulletholes] [look: delamain_dented_q005] [look: delamain_dented_q005_bulletholes] [look: delamain_konpeki] ...
+  Door (window) [window.door] (window_front_left_a, window_front_right_a, window_back_left_a, window_back_right_a): 2 options
+    door_window_01                                  2 paints  42 looks  [look: black_agent] [look: boder_patrol_01] [look: default] [look: delamain] [look: delamain_bulletholes] ...
+    door_window_01 + door_window_02                 2 paints   1 looks  [look: delamain_q307]
+
+KITS (23)
+  door_fl_stickers_aldecaldos_01                 1 parts   2 looks  [style: Q108 15c arasaka] [style: Trevors]
+                                                 made to sit on Doors
+  door_fr_stickers_aldecaldos_02                 1 parts   2 looks  [style: Arasaka] [style: Trevors]
+                                                 made to sit on Doors
+  kit_aldecaldos_body_doors_hood_interior        12 parts   1 looks  [style: Trevors]
+                                                 made to sit on Doors, Hood
+  interior_arasaka_sticker_01                    1 parts   1 looks  [style: Arasaka]
+  kit_arasaka_doors                              3 parts   2 looks  [style: Arasaka] [style: Q108 15c arasaka]
+                                                 made to sit on Doors
+  body_stickers_delamain                         1 parts  17 looks  [look: delamain] [look: delamain_bulletholes] [look: delamain_dented_q005] [look: delamain_dented_q005_bulletholes] [look: delamain_konpeki] ...
+  kit_delamain_doors                             4 parts   9 looks  [look: delamain] [look: delamain_bulletholes] [look: delamain_dented_q005] [look: delamain_dented_q005_bulletholes] [look: delamain_konpeki] ...
+                                                 made to sit on Doors
+  kit_nomad_doors                                2 parts  43 looks  [look: black_agent] [look: boder_patrol_01] [look: default] [look: delamain] [look: delamain_bulletholes] ...
+                                                 made to sit on Doors
+  light_device_medium_02                         1 parts   5 looks  [look: black_agent] [look: boder_patrol_01] [look: police_01] [look: sheriff_01] [style: Q108 15c arasaka]
+                                                 made to sit on bumper_front.bumper.bumper_f_police
+  light_device_medium_02_q000_streetkid          1 parts   2 looks  [look: police_q000_streetkid] [look: police_q000_streetkid_02]
+                                                 made to sit on bumper_front.bumper.bumper_f_police
+  kit_police_body                                2 parts   5 looks  [look: boder_patrol_01] [look: police_01] [look: police_q000_streetkid] [look: police_q000_streetkid_02] [look: sheriff_01]
+                                                 made to sit on Door (window)
+  kit_police_body_doors_hood_trunk               7 parts   1 looks  [look: sheriff_01]
+                                                 made to sit on Doors, Hood, Trunk
+  kit_police_bumper_doors_hood_trunk             8 parts   7 looks  [look: black_agent] [look: boder_patrol_01] [look: police_01] [look: police_q000_streetkid] [look: police_q000_streetkid_02] ...
+                                                 made to sit on Rear bumper, bumper_front.bumper.bumper_f_police, Doors, Hood, Trunk
+  kit_police_doors                               4 parts   3 looks  [look: boder_patrol_01] [look: police_01] [look: sheriff_01]
+                                                 made to sit on Doors
+  kit_police_doors_hood                          6 parts   1 looks  [look: boder_patrol_01]
+                                                 made to sit on Doors, Hood
+  kit_police_hood_trunk                          2 parts   3 looks  [look: police_01] [look: police_q000_streetkid] [look: police_q000_streetkid_02]
+                                                 made to sit on Hood, Trunk
+  police_body_01_display                         1 parts   4 looks  [look: boder_patrol_01] [look: burnt_police] [look: police_01] [look: sheriff_01]
+  police_door_br_01                              1 parts   8 looks  [look: black_agent] [look: boder_patrol_01] [look: delamain_q307] [look: police_01] [look: police_q000_streetkid] ...
+                                                 made to sit on Doors
+  police_trunk_01_decals_border_patrol           1 parts   2 looks  [look: boder_patrol_01] [look: police_q000_streetkid]
+                                                 made to sit on Trunk
+  police_vehicle_lights_01                       1 parts   6 looks  [look: boder_patrol_01] [look: burnt_police] [look: police_01] [look: police_q000_streetkid] [look: police_q000_streetkid_02] ...
+  door_bl_kangtao_sticker_01                     1 parts   2 looks  [look: delamain_dented_q005_bulletholes] [style: Kangtao]
+                                                 made to sit on Doors
+  door_fr_kangtao_sticker_01                     1 parts   2 looks  [style: Kangtao] [style: Trevors]
+                                                 made to sit on Doors
+  kit_sticker_body_doors_interior                3 parts   1 looks  [style: Kangtao]
+                                                 made to sit on Doors

@@ -1,0 +1,107 @@
+15:39:35 runner on; job wheels; waiting for the save to load
+15:39:40 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+15:39:50 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+15:40:00 the run script says the start screen is gone
+15:40:00 waiting at the menu: start screen closed, newest save known (modded), menu here, 1 tries
+15:40:00 main menu continued the newest save; waiting for the world
+15:40:22 world loaded; job wheels
+15:40:22   engine: ready: 100 catalogs, 500 pool copies and 104 of V's own cars, 100 entity files watched
+15:40:22   engine: attached: Vehicle.v_standard2_thorton_galena_bobas_player in thorton_galena__basic_q000_galena_bobas
+15:40:22   engine: attached: Vehicle.v_sport2_quadra_type66_nomad_tribute in quadra_type66_nomad_tribute_01
+15:40:22   engine: attached: Vehicle.v_sport1_rayfield_caliburn_02_player in rayfield_caliburn__basic_ma_bls_ina_se1_40
+15:40:22   engine: attached: Vehicle.v_standard25_thorton_colby_pickup_02_player in thorton_colby_pickup_ma_bls_ina_se1_44
+15:40:22 step 1: engine, save lock, light; pick the sets
+15:40:22 PASS engine is running
+15:40:22 PASS saving is locked for the run
+15:40:22   177 car sets, 8 bike sets; biggest 064b23eb from Bratsk U4020; Quadra 24b4fd3c; Cortes police 4d3fe950; bike 911bc7ac from Jackie's ARCH
+15:40:22 PASS found the sets to try
+15:40:23 step 2: turn V away from their own car
+15:40:25 step 3: spawn copy 3 in the Suburban style
+15:40:25   spawned entity 10827397ULL 8 m ahead of V
+15:40:25   engine: build 1: Vehicle.vc_archer_hella__basic_01_3 called in archer_hella__basic_player_01; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:40:25   engine: attached: Vehicle.vc_archer_hella__basic_01_3 in archer_hella__basic_player_01, switching to its build's look
+15:40:25   engine: build 2: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:40:25   done waiting for the copy to appear (0.2 s)
+15:40:28 step 4: wait for the style
+15:40:28   done waiting for the Suburban look (0.0 s)
+15:40:33 step 5: its own wheels
+15:40:33 PASS own wheels - archer_hella__basic_suburban_1__vc_a; ok (0 parts checked)
+15:40:33 SHOT w1_own_wheels
+15:40:38 step 6: the biggest wheels in the game, fitted
+15:40:38   engine: build 3: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:40:38   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:40:43 step 7: check them
+15:40:43 PASS biggest set fitted - archer_hella__basic_suburban_1__vc_b; ok (8 parts checked)
+15:40:43 SHOT w2_biggest_fitted
+15:40:48 step 8: Quadra at the front
+15:40:48   engine: build 4: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:40:48   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:40:50 step 9: Cortes police at the back
+15:40:50   engine: build 5: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:40:50   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:40:55 step 10: check front and back
+15:40:55 PASS Quadra front, Cortes back - archer_hella__basic_suburban_1__vc_b; ok (8 parts checked)
+15:40:55 PASS the build has both - look=archer_hella__basic_suburban_1;rims@f=24b4fd3c;rims@b=4d3fe950;tires@f=24b4fd3c;tires@b=4d3fe950
+15:40:55 SHOT w3_front_quadra_back_cortes
+15:41:00 step 11: Quadra rims all round
+15:41:00   engine: build 6: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:41:00   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:41:05 step 12: check the rims
+15:41:05 PASS Quadra rims, front and back tires as they were - archer_hella__basic_suburban_1__vc_a; ok (8 parts checked)
+15:41:05 PASS the build has the rims on both axles - look=archer_hella__basic_suburban_1;rims=24b4fd3c;tires@f=24b4fd3c;tires@b=4d3fe950
+15:41:05 PASS the tires stay - look=archer_hella__basic_suburban_1;rims=24b4fd3c;tires@f=24b4fd3c;tires@b=4d3fe950
+15:41:05 SHOT w3b_quadra_rims
+15:41:10 step 13: Cortes police tires all round
+15:41:10   engine: build 7: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:41:10   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:41:15 step 14: check the rims in the tires
+15:41:15 PASS Quadra rims in Cortes police tires - archer_hella__basic_suburban_1__vc_b; ok (8 parts checked)
+15:41:15 PASS the build has Quadra rims in Cortes tires - look=archer_hella__basic_suburban_1;rims=24b4fd3c;tires=4d3fe950
+15:41:15 SHOT w3c_quadra_rims_cortes_tires
+15:41:20 step 15: the car's own tires back
+15:41:20   engine: build 8: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:41:20   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:41:25 step 16: check the rims in its own tires
+15:41:25 PASS Quadra rims in the car's own tires - archer_hella__basic_suburban_1__vc_a; ok (8 parts checked)
+15:41:25 FAIL no tires in the build - look=archer_hella__basic_suburban_1;rims=24b4fd3c;tires=
+15:41:25 SHOT w3d_quadra_rims_own_tires
+15:41:30 step 17: narrow the back wheels to 75%
+15:41:30   engine: build 9: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:41:30   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:41:35 step 18: check the back
+15:41:35 PASS back narrowed - archer_hella__basic_suburban_1__vc_b; ok (8 parts checked)
+15:41:35 SHOT w4_back_narrowed
+15:41:40 step 19: make the front wheels 115%
+15:41:40   engine: build 10: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:41:40   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:41:45 step 20: check the front
+15:41:45 PASS front bigger - archer_hella__basic_suburban_1__vc_a; ok (8 parts checked)
+15:41:45 SHOT w5_front_bigger
+15:41:50 step 21: paint the front rims
+15:41:50   front rim paint entropism
+15:41:50   engine: build 11: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:41:50   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:41:55 step 22: check the front rims' paint
+15:41:55 PASS front rims painted entropism - archer_hella__basic_suburban_1__vc_b; ok (8 parts checked)
+15:41:55 SHOT w5b_front_rims_painted
+15:42:01 step 23: take it away
+15:42:03 step 24: a Kusanagi with another bike's wheels
+15:42:03   spawned entity 10827409ULL 8 m ahead of V
+15:42:03   engine: build 12: Vehicle.vc_yaiba_kusanagi_basic_01_3 called in yaiba_kusanagi_basic_player_01; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 4 wheel parts fitted, 0 kit parts added
+15:42:03   engine: attached: Vehicle.vc_yaiba_kusanagi_basic_01_3 in yaiba_kusanagi_basic_player_01
+15:42:03   done waiting for the copy to appear (0.1 s)
+15:42:08 step 25: check the bike
+15:42:08 PASS Kusanagi with Jackie's ARCH wheels - yaiba_kusanagi_basic_player_01; ok (4 parts checked)
+15:42:08 SHOT w6_bike
+15:42:13 step 26: take it away
+15:42:15 step 27: a Bratsk truck on the Cortes police wheels, every axle
+15:42:15   spawned entity 10827410ULL 13 m ahead of V
+15:42:15   engine: build 13: Vehicle.vc_kaukaz_bratsk__basic_01_3 called in kaukaz_bratsk__basic_flatbed_truck_04; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 12 wheel parts fitted, 0 kit parts added
+15:42:15   engine: attached: Vehicle.vc_kaukaz_bratsk__basic_01_3 in kaukaz_bratsk__basic_flatbed_truck_04
+15:42:15   done waiting for the copy to appear (0.1 s)
+15:42:20 step 28: check the truck
+15:42:20 PASS Bratsk with Cortes police wheels - kaukaz_bratsk__basic_flatbed_truck_04; ok (12 parts checked)
+15:42:20 PASS every axle fitted (3 axles, 12 parts) - 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 12 wheel parts fitted, 0 kit parts added
+15:42:20 SHOT w7_truck_every_axle
+15:42:25 step 29: take it away
+15:42:26 DONE 19 passed, 1 failed

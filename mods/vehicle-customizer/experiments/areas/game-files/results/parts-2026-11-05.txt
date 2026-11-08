@@ -1,0 +1,73 @@
+﻿vehicle-ish paths known: 19959 present in archives: 18449
+by extension: [('.mesh', 7256), ('.xbm', 5309), ('.ent', 2346), ('.mlsetup', 2078), ('.particle', 360), ('.mlmask', 249), ('.animgraph', 139), ('.app', 126), ('.rig', 113), ('.mi', 106), ('.inkanim', 82), ('.inkatlas', 72), ('.anims', 64), ('.inkstyle', 33), ('.effect', 28), ('.questphase', 21)]
+top dirs: [('base\\vehicles\\appearances', 5200), ('base\\vehicles\\standard', 3538), ('base\\vehicles\\sport', 1656), ('base\\vehicles\\special', 932), ('ep1\\vehicles\\standard', 715), ('ep1\\vehicles\\sport', 681), ('base\\vehicles\\utility', 673), ('base\\vehicles\\decoration', 648), ('base\\vehicles\\common', 553), ('base\\vehicles\\sportbike', 509), ('ep1\\vehicles\\appearances', 480), ('ep1\\vehicles\\special', 467), ('base\\fx\\vehicles', 438), ('base\\gameplay\\gui', 419), ('ep1\\vehicles\\utility', 337), ('ep1\\vehicles\\decoration', 164), ('base\\environment\\decoration', 115), ('base\\vehicles\\base_rig', 97), ('ep1\\environment\\decoration', 82), ('base\\gameplay\\vehicles', 72), ('ep1\\gameplay\\gui', 60), ('ep1\\gameplay\\vehicles', 60), ('ep1\\vehicles\\common', 56), ('base\\quest\\main_quests', 55), ('base\\animations\\vehicle', 52)]
+models with part-named meshes: 71
+
+-- most parts per model --
+ 195 v_standard25_thorton_merrimac                 kits=ext01,int01  multi={'ext:additional': 3, 'ext:antenna': 2, 'ext:body': 17, 'ext:bumper': 18, 'ext:common': 2, 'ext:covers': 2, 'ext:door': 38, 'ext:electric': 4}
+ 156 v_utility4_kaukaz_bratsk                      kits=ext01,int01  multi={'ext:body': 13, 'ext:bumper': 28, 'ext:chassis': 5, 'ext:concrete': 4, 'ext:door': 17, 'ext:engine': 6, 'ext:lift': 8, 'ext:tire': 8}
+ 138 v_sportbike3_brennan_apollo                   kits=ext01  multi={'ext:axle': 11, 'ext:bags': 21, 'ext:bars': 2, 'ext:body': 16, 'ext:break': 3, 'ext:engine': 10, 'ext:exhaust': 8, 'ext:fairing': 17}
+ 126 v_standard2_archer_hella                      kits=ext01,int01  multi={'ext:body': 17, 'ext:bumper': 7, 'ext:chassis': 2, 'ext:door': 31, 'ext:fuel': 2, 'ext:hood': 8, 'ext:trunk': 7, 'ext:wheel': 5}
+ 124 v_standard25_villefort_columbus               kits=ext01,int01  multi={'ext:body': 10, 'ext:bumper': 6, 'ext:chassis': 2, 'ext:door': 31, 'ext:engine': 2, 'ext:fuelcap': 3, 'ext:hood': 4, 'ext:tire': 2}
+ 117 v_standard2_villefort_cortes                  kits=ext01,int01  multi={'ext:body': 9, 'ext:bumper': 8, 'ext:chassis': 3, 'ext:door': 46, 'ext:engine': 2, 'ext:hood': 6, 'ext:tire': 8, 'ext:trunk': 5}
+ 117 v_sport1_quadra_turbo                         kits=ext01,int01  multi={'ext:body': 20, 'ext:bumper': 27, 'ext:chassis': 2, 'ext:engine': 5, 'ext:fuelcap': 4, 'ext:hood': 9, 'ext:trunk': 13, 'ext:wheel': 6}
+ 105 v_sport2_quadra_type66                        kits=ext01,int01  multi={'ext:body': 18, 'ext:door': 15, 'ext:bumper': 9, 'ext:chassis': 2, 'ext:engine': 2, 'ext:fuelcap': 2, 'ext:hood': 4, 'ext:mirror': 6}
+  95 v_standard3_chevalier_emperor                 kits=ext01,int01  multi={'ext:body': 6, 'ext:bumper': 11, 'ext:chassis': 2, 'ext:door': 30, 'ext:hood': 9, 'ext:light': 4, 'ext:mobile': 2, 'ext:tire': 4}
+  94 v_standard2_thorton_galena                    kits=ext01,int01  multi={'ext:engine': 5, 'ext:body': 6, 'ext:bumper': 10, 'ext:chassis': 2, 'ext:door': 23, 'ext:exhaust': 2, 'ext:fuelcap': 3, 'ext:hood': 3}
+  94 v_standard2_chevalier_thrax                   kits=ext01,int01  multi={'ext:body': 12, 'ext:bumper': 5, 'ext:door': 29, 'ext:hood': 5, 'ext:mirror': 2, 'ext:tire': 2, 'ext:trunk': 9, 'ext:wheel': 6}
+  87 v_standard3_makigai_tanishi                   kits=ext01  multi={'ext:b': 2, 'ext:bl': 3, 'ext:body': 9, 'ext:br': 3, 'ext:door': 8, 'ext:f': 3, 'ext:fl': 3, 'ext:fr': 3}
+  86 v_standard2_makigai_maimai                    kits=ext01,ext02,int01  multi={'ext:body': 3, 'ext:bumper': 10, 'ext:chassis': 2, 'ext:door': 21, 'ext:hood': 5, 'ext:trunk': 5, 'ext:wheel': 5, 'int:interior': 2}
+  83 v_sport2_mizutani_shion                       kits=ext01,int01  multi={'ext:body': 9, 'ext:bumper': 6, 'ext:chassis': 2, 'ext:door': 22, 'ext:engine': 2, 'ext:fuelcap': 2, 'ext:hood': 4, 'ext:trunk': 4}
+  83 v_sport1_rayfield_caliburn                    kits=ext01,int01  multi={'ext:bumper': 11, 'ext:door': 18, 'ext:body': 7, 'ext:chassis': 2, 'ext:engine': 3, 'ext:fuelcap': 3, 'ext:hood': 4, 'ext:tire': 7}
+  83 v_sport1_herrera_outlaw                       kits=ext01,int01  multi={'ext:body': 9, 'ext:bumper': 5, 'ext:door': 10, 'ext:hood': 2, 'ext:mirror': 2, 'ext:tire': 4, 'ext:trunk': 2, 'ext:wheel': 15}
+  82 v_standard2_thorton_colby                     kits=ext01,int01  multi={'ext:body': 10, 'ext:bumper': 7, 'ext:chassis': 2, 'ext:door': 17, 'ext:fuelcap': 3, 'ext:hood': 4, 'ext:trunk': 3, 'ext:wheel': 7}
+  81 v_sport2_villefort_alvarado                   kits=ext01,int01  multi={'ext:body': 9, 'ext:bumper': 7, 'ext:chassis': 2, 'ext:door': 21, 'ext:engine': 2, 'ext:hood': 3, 'ext:roof': 3, 'ext:trunk': 5}
+  74 v_standard2_mizutani_hozuki                   kits=ext01,int01  multi={'ext:body': 7, 'ext:bumper': 7, 'ext:door': 12, 'ext:engine': 2, 'ext:exhaust': 2, 'ext:hood': 3, 'ext:junk': 9, 'ext:lidar': 2}
+  71 v_standard25_mahir_supron                     kits=ext01,int01  multi={'ext:body': 7, 'ext:bumper': 5, 'ext:door': 19, 'ext:hood': 3, 'ext:junk': 5, 'ext:tire': 5, 'ext:trunk': 8, 'ext:window': 8}
+  70 v_standard25_mahir_supron_kurtz               kits=ext01,int01  multi={'ext:body': 2, 'ext:crystaldome': 14, 'ext:door': 20, 'ext:grate': 4, 'ext:stickers': 2, 'ext:wheel': 4, 'ext:window': 16, 'int:additional': 2}
+  69 v_utility4_militech_behemoth                  kits=ext01,int01  multi={'ext:body': 11, 'ext:bumper': 6, 'ext:chassis': 2, 'ext:container': 11, 'ext:door': 13, 'ext:tire': 3, 'ext:wheel': 7, 'ext:window': 3}
+  68 v_standard3_militech_hellhound                kits=ext01,int01  multi={'ext:body': 4, 'ext:crystaldome': 10, 'ext:door': 16, 'ext:doorstep': 4, 'ext:hatch': 2, 'ext:hood': 3, 'ext:police': 9, 'ext:tire': 2}
+  67 v_sport2_porsche_911turbo                     kits=ext01,int01  multi={'ext:body': 9, 'ext:bumper': 5, 'ext:door': 12, 'ext:engine': 2, 'ext:hood': 6, 'ext:mirror': 3, 'ext:tire': 3, 'ext:trunk': 3}
+  67 v_sport1_herrera_riptide                      kits=ext01,int01  multi={'ext:body': 7, 'ext:bumper': 8, 'ext:door': 12, 'ext:engine': 5, 'ext:mirror': 2, 'ext:roof': 3, 'ext:tire': 2, 'ext:trunk': 5}
+
+-- part slot: models having it, models having >1 variant --
+ext:body                             60    58
+ext:wheel                            56    50
+int:interior                         51    29
+ext:tire                             50    47
+ext:door                             49    49
+ext:bumper                           48    48
+ext:window                           43    40
+ext:chassis                          42    17
+ext:trunk                            42    41
+ext:hood                             41    40
+ext:engine                           38    19
+int:stwheel                          36    18
+ext:fuelcap                          32    15
+ext:wipers                           29     3
+ext:interaction                      29     4
+ext:exhaust                          13     8
+ext:mirror                           13    13
+ext:windshield                       11     5
+ext:vehicle                           9     5
+ext:crystaldome                       9     9
+ext:junk                              7     7
+int:swheel                            5     0
+ext:stickers                          5     4
+ext:spoiler                           5     4
+ext:police                            4     4
+int:seats                             4     4
+ext:axle                              4     4
+ext:position                          4     1
+int:seat                              4     3
+ext:light                             3     3
+ext:sensor                            3     2
+ext:lights                            3     2
+ext:seat                              3     2
+ext:wing                              3     3
+ext:roof                              3     3
+ext:lidar                             3     1
+ext:grate                             3     2
+ext:turret                            3     2
+ext:antenna                           2     1
+ext:covers                            2     2

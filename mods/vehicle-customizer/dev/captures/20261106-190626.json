@@ -1,0 +1,39 @@
+{
+  "camera_forward": {
+    "x": -0.4,
+    "y": -0.9,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 8.8,
+    "x": -2919.1,
+    "y": -4731.3,
+    "z": 68.7
+  },
+  "look_object": {
+    "class": "vehicleArmedCarBaseObject",
+    "entity_id": "9014261ULL",
+    "name": "Quartz \u0022Sidewinder\u0022",
+    "position": {
+      "x": -2920.7,
+      "y": -4732.8,
+      "z": 68.3
+    },
+    "record": "Vehicle.cs_savable_archer_quartz_nomad_quest"
+  },
+  "nearest": {
+    "distance": 55.2,
+    "id": "workshop_building",
+    "name": "Workshop building"
+  },
+  "note": "",
+  "player": {
+    "x": -2915.9,
+    "y": -4723.2,
+    "yaw": 159,
+    "z": 67.9
+  },
+  "stamp": "20261106-190626",
+  "time": "2026-11-06 19:06:26"
+}

@@ -1,0 +1,114 @@
+﻿-- Hella suburban_1: every part with wheel, tire, rim or hub in its name or mesh --
+  steering_wheel           entPhysicalMeshComponent   v_standard2_archer_hella__int01_stweel_01.mesh
+  tire_01_bl_a             entPhysicalMeshComponent   v_standard2_archer_hella__ext01_tire_bl_01.mesh
+  tire_01_bl_a_shadow      entMeshComponent           v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh
+  tire_01_br_a             entPhysicalMeshComponent   v_standard2_archer_hella__ext01_tire_bl_01.mesh
+  tire_01_br_a_shadow      entMeshComponent           v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh
+  tire_01_fl_a             entPhysicalMeshComponent   v_standard2_archer_hella__ext01_tire_fl_01.mesh
+  tire_01_fl_a_shadow      entMeshComponent           v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh
+  tire_01_fr_a             entPhysicalMeshComponent   v_standard2_archer_hella__ext01_tire_fl_01.mesh
+  tire_01_fr_a_shadow      entMeshComponent           v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh
+  wheel_bl_01              entPhysicalMeshComponent   v_standard2_archer_hella__ext01_wheel_bl_01.mesh
+  wheel_br_01              entPhysicalMeshComponent   v_standard2_archer_hella__ext01_wheel_bl_01.mesh
+  wheel_fl_01              entPhysicalMeshComponent   v_standard2_archer_hella__ext01_wheel_fl_01.mesh
+  wheel_fr_01              entPhysicalMeshComponent   v_standard2_archer_hella__ext01_wheel_fl_01.mesh
+
+103 appearance files; groups of looks with the same shape parts: median 2, max 30
+
+quadra_type66__basic: 22 looks in 8 groups
+  11 looks ['poor_11', 'poor_02', 'suburban_01', 'default', 'suburban_02'] ...
+     parts beyond the shared 8: ['bumper_b_01', 'bumper_f_01', 'bumper_f_02', 'door_fl_a', 'door_fl_b', 'door_fr_a', 'door_fr_b', 'hood_a', 'mirror_fl', 'mirror_fr', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a'] ...
+   5 looks ['urban_01', 'urban_02', 'urban_03', 'urban_04', 'urban_05']
+     parts beyond the shared 8: ['bumper_b_01', 'bumper_f_01', 'bumper_f_02', 'door_fl_a', 'door_fl_b', 'door_fr_a', 'door_fr_b', 'hood_a', 'hood_deathrace_02', 'mirror_fl', 'mirror_fr', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a'] ...
+   1 looks ['rogue_01']
+     parts beyond the shared 8: ['bumper_b_01', 'bumper_f_01', 'bumper_f_02', 'door_fl_a', 'door_fl_b', 'door_fr_a', 'door_fr_b', 'hood_a', 'hood_sticker_rogue', 'mirror_fl', 'mirror_fr', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a'] ...
+   1 looks ['sampson']
+     parts beyond the shared 8: ['body_02_deathrace', 'bumper_b_deathrace_01', 'bumper_f_deathrace_03', 'bumper_f_deathrace_04', 'door_fl_a', 'door_fl_b', 'door_fr_a', 'door_fr_b', 'hood_a', 'hood_deathrace_02', 'mirror_fl', 'mirror_fr', 'tire_deathrace_01_bl_a', 'tire_deathrace_01_br_a'] ...
+   1 looks ['jen_rowley']
+     parts beyond the shared 8: ['bumper_b_01', 'bumper_f_deathrace_03', 'bumper_f_deathrace_04', 'door_fl_a', 'door_fl_a_number_sticker', 'door_fl_b', 'door_fr_a', 'door_fr_a_number_sticker', 'door_fr_b', 'hood_a', 'hood_deathrace_02', 'mirror_fl', 'mirror_fr', 'tire_01_bl_a'] ...
+   1 looks ['bulleat']
+     parts beyond the shared 8: ['body_stripes', 'bumper_b_01', 'bumper_f_01', 'bumper_f_02', 'door_fl_a', 'door_fl_a_number_sticker', 'door_fl_b', 'door_fl_stripes', 'door_fr_a', 'door_fr_a_number_sticker', 'door_fr_b', 'door_fr_stripes', 'hood_a', 'mirror_fl'] ...
+   1 looks ['burnt_01']
+     parts beyond the shared 8: []
+   1 looks ['player_urban_03']
+     parts beyond the shared 8: ['body_stripes', 'bumper_b_01', 'bumper_f_01', 'bumper_f_02', 'door_fl_a', 'door_fl_b', 'door_fl_stripes', 'door_fr_a', 'door_fr_b', 'door_fr_stripes', 'hood_a', 'hood_deathrace_02', 'mirror_fl', 'mirror_fr'] ...
+
+arch_nemesis_basic: 31 looks in 9 groups
+  12 looks ['sport_blue_01', 'sport_blue_03_neon', 'sport_gray_02', 'sport_green_02_neon', 'sport_black_02'] ...
+     parts beyond the shared 2: ['body_b_01', 'tire_b_01', 'tire_f_01', 'wheel_b_01', 'wheel_f_01']
+   8 looks ['player_01', 'standard_silver_01', 'standard_black_03', 'standard_blue_04', 'standard_camo_01'] ...
+     parts beyond the shared 2: ['tire_b_01', 'tire_f_01', 'wheel_b_01', 'wheel_f_01']
+   5 looks ['tygerclaws_green_01', 'tygerclaws_pink_01', 'tygerclaws_red_02', 'tygerclaws_violet_01', 'player_03']
+     parts beyond the shared 2: ['body_a_sticker_jackie_01', 'body_c_01', 'tire_b_01', 'tire_f_01', 'wheel_b_01', 'wheel_f_01']
+   1 looks ['jackie_tuned_up']
+     parts beyond the shared 2: ['body_cables_01', 'body_stickers_02', 'body_stickers_b_02', 'exhaust_01', 'tire_b_01', 'tire_f_01', 'wheel_b_01', 'wheel_f_01']
+   1 looks ['jackie']
+     parts beyond the shared 2: ['body_stickers_02', 'tire_b_01', 'tire_f_01', 'wheel_b_01', 'wheel_f_01']
+   1 looks ['tygerclaws_boss_01']
+     parts beyond the shared 2: ['body_a_sticker_jackie_01', 'body_c_01', 'body_cables_01', 'body_stickers_b_02', 'exhaust_01', 'tire_b_01', 'tire_f_01', 'wheel_b_01', 'wheel_f_01']
+   1 looks ['burnt_standard_01']
+     parts beyond the shared 2: []
+   1 looks ['burnt_tygerclaws_01']
+     parts beyond the shared 2: ['body_c_01']
+   1 looks ['burnt_sport_01']
+     parts beyond the shared 2: ['body_b_01']
+
+archer_hella__basic: 45 looks in 12 groups
+  12 looks ['default', 'after_accident_01', 'suburban_1', 'suburban_1_1', 'suburban_1_2'] ...
+     parts beyond the shared 4: ['bumper_b_01', 'bumper_f_01', 'door_bl_a', 'door_br_a', 'door_fl_a', 'door_fr_a', 'door_mirror_fl_01', 'door_mirror_fr_01', 'hood_a', 'interior_01', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a'] ...
+   9 looks ['6th_street_01', 'poor_1', 'poor_1_1', 'poor_1_2', 'poor_1_3'] ...
+     parts beyond the shared 4: ['body_stickers_6th_street', 'bumper_b_01', 'bumper_f_01', 'door_bl_a', 'door_bl_sticker_6th_street', 'door_br_a', 'door_br_sticker_6th_street', 'door_fl_a', 'door_fr_a', 'door_mirror_fl_01', 'door_mirror_fr_01', 'hood_a', 'hood_sticker_6th_street', 'interior_01'] ...
+   5 looks ['poor_2', 'poor_2_1', 'poor_2_2', 'poor_2_3', 'poor_2_4']
+     parts beyond the shared 4: ['body_stickers_6th_street', 'bumper_b_01', 'bumper_f_01', 'door_bl_a', 'door_bl_sticker_6th_street', 'door_br_a', 'door_br_sticker_6th_street', 'door_fl_a', 'door_fr_a', 'door_mirror_fl_01', 'door_mirror_fr_01', 'interior_01', 'tire_01_bl_a', 'tire_01_br_a'] ...
+   5 looks ['poor_3', 'poor_3_1', 'poor_3_2', 'poor_3_3', 'poor_3_4']
+     parts beyond the shared 4: ['body_stickers_6th_street', 'bumper_b_01', 'bumper_f_01', 'door_bl_a', 'door_bl_sticker_6th_street', 'door_br_a', 'door_br_sticker_6th_street', 'door_fl_a', 'door_fr_a', 'door_mirror_fl_01', 'door_mirror_fr_01', 'hood_a', 'interior_01', 'tire_01_bl_a'] ...
+   3 looks ['police_burnt_01', 'burnt_01', 'deathrace_burnt_01']
+     parts beyond the shared 4: ['interior_01']
+   3 looks ['poor_4', 'poor_4_1', 'poor_4_2']
+     parts beyond the shared 4: ['body_stickers_6th_street', 'bumper_b_01', 'bumper_f_01', 'door_bl_a', 'door_bl_sticker_6th_street', 'door_br_a', 'door_br_sticker_6th_street', 'door_fl_a', 'door_fr_a', 'door_mirror_fl_01', 'door_mirror_fr_01', 'interior_01', 'tire_01_bl_a', 'tire_01_br_a'] ...
+   2 looks ['player_01', 'player_damaged_01']
+     parts beyond the shared 4: ['body_player_01', 'body_player_stripe_01', 'bumper_b_01', 'bumper_f_01', 'bumper_f_player_01', 'door_bl_a', 'door_bl_player_stripe_01', 'door_br_a', 'door_br_player_stripe_01', 'door_fl_a', 'door_fl_player_stripe_01', 'door_fr_a', 'door_fr_player_stripe_01', 'door_mirror_fl_01'] ...
+   2 looks ['combatcab_01', 'q304_combatcab_01']
+     parts beyond the shared 4: ['body_stickers_6th_street', 'body_stickers_combatcab_01', 'body_stickers_combatcab_03', 'bumper_b_01', 'bumper_f_01', 'door_bl_a', 'door_bl_sticker_6th_street', 'door_bl_sticker_combatcab_01', 'door_br_a', 'door_br_sticker_6th_street', 'door_br_sticker_combatcab_02', 'door_fl_a', 'door_fl_sticker_combatcab_01', 'door_fr_a'] ...
+   1 looks ['police_01']
+     parts beyond the shared 4: ['bumper_b_01', 'bumper_f_01', 'door_bl_a', 'door_br_a', 'door_fl_01_decal_police', 'door_fl_a', 'door_fr_01_decal_police', 'door_fr_a', 'door_mirror_fl_01', 'door_mirror_fr_01', 'hood_a', 'interior_01', 'tire_01_fr_a', 'tire_03_bl'] ...
+   1 looks ['deathrace_01']
+     parts beyond the shared 4: ['bumper_b_01', 'bumper_f_01', 'door_bl_a', 'door_br_a', 'door_fl_a', 'door_fr_a', 'door_mirror_fl_01', 'door_mirror_fr_01', 'hood_a', 'interior_01', 'tire_01_fr_a', 'tire_03_bl', 'tire_03_br', 'tire_03_fl'] ...
+   1 looks ['player_burnt_01']
+     parts beyond the shared 4: ['body_player_01', 'body_player_stripe_01', 'interior_01']
+   1 looks ['ep_10']
+     parts beyond the shared 4: ['bumper_b_01', 'bumper_f_01', 'door_bl_a', 'door_br_a', 'door_fl_a', 'door_fr_a', 'door_mirror_fl_01', 'door_mirror_fr_01', 'hood_a', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a', 'trunk_a'] ...
+
+thorton_colby__basic: 28 looks in 10 groups
+   6 looks ['suburban_2', 'suburban_2_1', 'suburban_2_2', 'suburban_2_3', 'suburban_2_4'] ...
+     parts beyond the shared 5: ['bumper_b_01', 'bumper_f_01', 'door_fl_a', 'door_fr_a', 'hood_a', 'mirror_fl', 'mirror_fr', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a', 'trunk_a', 'wheel_01_bl_a', 'wheel_01_br_a'] ...
+   5 looks ['poor_2', 'poor_2_1', 'poor_2_2', 'poor_2_3', 'poor_2_4']
+     parts beyond the shared 5: ['bumper_b_01', 'bumper_f_01', 'door_fl_a', 'door_fr_a', 'mirror_fl', 'mirror_fr', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a', 'trunk_a', 'wheel_01_bl_a', 'wheel_01_br_a', 'wheel_01_fl_a'] ...
+   5 looks ['suburban_1', 'suburban_1_1', 'suburban_1_2', 'suburban_1_3', 'suburban_1_4']
+     parts beyond the shared 5: ['bumper_b_01', 'bumper_f_01', 'door_fl_a', 'door_fr_a', 'hood_a', 'mirror_fl', 'mirror_fr', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a', 'trunk_a', 'wheel_bl_02', 'wheel_br_02'] ...
+   3 looks ['family_car', 'poor_1_3', 'poor_1_4']
+     parts beyond the shared 5: ['body_wood_panel_frame', 'bumper_b_01', 'bumper_f_01', 'door_fl_a', 'door_fl_wood_panel_frame', 'door_fr_a', 'door_fr_wood_panel_frame', 'hood_a', 'mirror_fl', 'mirror_fr', 'roof_rack', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a'] ...
+   3 looks ['poor_1', 'poor_1_1', 'poor_1_2']
+     parts beyond the shared 5: ['bumper_b_01', 'bumper_f_01', 'door_fl_a', 'door_fr_a', 'hood_a', 'mirror_fl', 'mirror_fr', 'roof_rack', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a', 'trunk_a', 'wheel_01_bl_a'] ...
+   2 looks ['urban_01', 'urban_01_1']
+     parts beyond the shared 5: ['bumper_b_01', 'bumper_f_01', 'door_fl_a', 'door_fr_a', 'hood_a', 'mirror_fl', 'mirror_fr', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a', 'trunk_a', 'wheel_bl_04', 'wheel_br_04'] ...
+   1 looks ['muamar_reyes_car']
+     parts beyond the shared 5: ['bumper_b_01', 'bumper_f_01', 'door_fl_a', 'hood_a', 'mirror_fl', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a', 'trunk_a', 'wheel_bl_01', 'wheel_br_01', 'wheel_fl_05', 'wheel_fr_05']
+   1 looks ['valentinos_01']
+     parts beyond the shared 5: ['body_sticker_valentinos_01', 'bumper_b_01', 'bumper_f_01', 'door_fl_a', 'door_fl_sticker_valentinos_01', 'door_fl_sticker_valentinos_02', 'door_fl_sticker_valentinos_03', 'door_fr_a', 'door_fr_sticker_valentinos_01', 'door_fr_sticker_valentinos_02', 'door_fr_sticker_valentinos_03', 'hood_a', 'mirror_fl', 'mirror_fr'] ...
+   1 looks ['burnt_01']
+     parts beyond the shared 5: []
+   1 looks ['player_01']
+     parts beyond the shared 5: ['bumper_b_01', 'bumper_f_01', 'door_fl_a', 'door_fr_a', 'hood_a', 'mirror_fl', 'mirror_fr', 'roof_rack', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'tire_01_fr_a', 'trunk_a', 'wheel_bl_03'] ...
+
+archer_hella__basic: 2 looks in 2 groups
+   1 looks ['scavenger_1']
+     parts beyond the shared 20: ['hood_a', 'hood_sticker_6th_street', 'tire_01_bl_a', 'tire_01_br_a', 'tire_01_fl_a', 'wheel_bl_03', 'wheel_br_03', 'wheel_fl_03', 'wheel_fr_03']
+   1 looks ['scavenger_2']
+     parts beyond the shared 20: ['body_stickers_scavengers_05', 'bumper_b_01', 'tire_03_bl', 'tire_03_br', 'tire_03_fl', 'wheel_01_fr_a', 'wheel_03_bl', 'wheel_03_br', 'wheel_03_fl']
+
+thorton_colby__basic: 2 looks in 2 groups
+   1 looks ['scavenger_02']
+     parts beyond the shared 18: []
+   1 looks ['scavenger_01']
+     parts beyond the shared 18: ['bumper_b_01', 'bumper_f_01']

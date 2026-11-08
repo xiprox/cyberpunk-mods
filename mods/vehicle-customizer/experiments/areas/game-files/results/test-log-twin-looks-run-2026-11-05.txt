@@ -1,0 +1,440 @@
+﻿23:35:20 at startup Vehicle.vc_live_1 -> cloned true, listed true
+23:35:21 loaded; saved build: 14 parts, base look stock
+23:35:21 kit service told: on true, 0.0 m ahead, 0.0 m up -> done
+23:35:40 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; putting back 14 changes
+23:35:40   kit service: copy built (1) by record in look archer_hella__basic_player_01; kit added; builds seen 1
+23:35:40   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): on on on on on
+23:35:40   reassembles: 0 seen, last: none yet
+23:35:40   builds from the Hella's look file: 1 seen, last: record Vehicle.v_standard2_archer_hella_player_vctest, look archer_hella__basic_player_01, entity given, the copy: by record
+23:35:40 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:35:40   wheel_01_fl_a in the visual controller's list -> updated in a list of 91
+23:35:40 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:35:40   wheel_01_fr_a in the visual controller's list -> updated in a list of 91
+23:35:40 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:35:40   wheel_01_bl_a in the visual controller's list -> updated in a list of 91
+23:35:40 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:35:40   wheel_01_br_a in the visual controller's list -> updated in a list of 91
+23:35:40 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:35:40   tire_01_fl_a in the visual controller's list -> updated in a list of 91
+23:35:40 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:35:40   tire_01_fr_a in the visual controller's list -> updated in a list of 91
+23:35:40 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:35:40   tire_01_bl_a in the visual controller's list -> updated in a list of 91
+23:35:40 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:35:40   tire_01_br_a in the visual controller's list -> updated in a list of 91
+23:35:40 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:35:40   tire_01_fl_a_shadow in the visual controller's list -> updated in a list of 91
+23:35:40 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:35:40   tire_01_fr_a_shadow in the visual controller's list -> updated in a list of 91
+23:35:41 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:35:41   tire_01_bl_a_shadow in the visual controller's list -> updated in a list of 91
+23:35:41 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:35:41   tire_01_br_a_shadow in the visual controller's list -> updated in a list of 91
+23:35:41 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+23:35:41   bumper_f_01 in the visual controller's list -> updated in a list of 91
+23:35:41 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+23:35:41   hood_a in the visual controller's list -> updated in a list of 91
+23:38:20 kit service told: on false, 0.0 m ahead, 0.0 m up -> done
+23:38:20 kit taken off and forgotten
+23:38:20 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:38:20 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:38:20 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:38:20 putting the saved build back in 1 s, on the new look
+23:38:21 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_a; putting back 14 changes
+23:38:21   kit service: copy built (2) by twin look in look archer_hella__basic_player_01__vc_a; kit off; builds seen 2
+23:38:21   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): on on on on on
+23:38:21   reassembles: 1 seen, last: kit off
+23:38:21   builds from the Hella's look file: 2 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:38:21 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:38:21   wheel_01_fl_a in the visual controller's list -> updated in a list of 87
+23:38:21 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:38:21   wheel_01_fr_a in the visual controller's list -> updated in a list of 87
+23:38:21 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:38:21   wheel_01_bl_a in the visual controller's list -> updated in a list of 87
+23:38:21 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:38:21   wheel_01_br_a in the visual controller's list -> updated in a list of 87
+23:38:21 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:38:21   tire_01_fl_a in the visual controller's list -> updated in a list of 87
+23:38:21 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:38:21   tire_01_fr_a in the visual controller's list -> updated in a list of 87
+23:38:21 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:38:21   tire_01_bl_a in the visual controller's list -> updated in a list of 87
+23:38:21 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:38:21   tire_01_br_a in the visual controller's list -> updated in a list of 87
+23:38:21 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:21   tire_01_fl_a_shadow in the visual controller's list -> updated in a list of 87
+23:38:21 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:21   tire_01_fr_a_shadow in the visual controller's list -> updated in a list of 87
+23:38:21 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:21   tire_01_bl_a_shadow in the visual controller's list -> updated in a list of 87
+23:38:21 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:21   tire_01_br_a_shadow in the visual controller's list -> updated in a list of 87
+23:38:21 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+23:38:21   bumper_f_01 in the visual controller's list -> updated in a list of 87
+23:38:21 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+23:38:21   hood_a in the visual controller's list -> updated in a list of 87
+23:38:32 kit service told: on true, 0.0 m ahead, 0.0 m up -> done
+23:38:32 kit on
+23:38:32 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:38:32 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:38:32 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:38:32 putting the saved build back in 1 s, on the new look
+23:38:33 the build copy appeared 1.00 s ago in look archer_hella__basic_player_01__vc_b; putting back 14 changes
+23:38:33   kit service: copy built (3) by twin look in look archer_hella__basic_player_01__vc_b; kit added; builds seen 3
+23:38:33   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): on on on on on
+23:38:33   reassembles: 2 seen, last: kit already on
+23:38:33   builds from the Hella's look file: 3 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:38:33 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:38:33   wheel_01_fl_a in the visual controller's list -> updated in a list of 87
+23:38:33 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:38:33   wheel_01_fr_a in the visual controller's list -> updated in a list of 87
+23:38:33 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:38:33   wheel_01_bl_a in the visual controller's list -> updated in a list of 87
+23:38:33 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:38:33   wheel_01_br_a in the visual controller's list -> updated in a list of 87
+23:38:33 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:38:33   tire_01_fl_a in the visual controller's list -> updated in a list of 87
+23:38:33 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:38:33   tire_01_fr_a in the visual controller's list -> updated in a list of 87
+23:38:33 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:38:33   tire_01_bl_a in the visual controller's list -> updated in a list of 87
+23:38:33 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:38:33   tire_01_br_a in the visual controller's list -> updated in a list of 87
+23:38:33 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:33   tire_01_fl_a_shadow in the visual controller's list -> updated in a list of 87
+23:38:33 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:33   tire_01_fr_a_shadow in the visual controller's list -> updated in a list of 87
+23:38:33 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:33   tire_01_bl_a_shadow in the visual controller's list -> updated in a list of 87
+23:38:33 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:33   tire_01_br_a_shadow in the visual controller's list -> updated in a list of 87
+23:38:33 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+23:38:33   bumper_f_01 in the visual controller's list -> updated in a list of 87
+23:38:33 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+23:38:33   hood_a in the visual controller's list -> updated in a list of 87
+23:38:41 Vehicle.v_standard2_archer_hella_player_vctest remove -> true
+23:38:41 Vehicle.v_standard2_archer_hella_player_vctest_b remove -> true
+23:38:41 Vehicle.v_utility4_kaukaz_bratsk_vctest remove -> true
+23:38:41 Vehicle.v_utility4_chevalier_centurion_vctest remove -> true
+23:38:41 Vehicle.av_rayfield_excalibur_vctest remove -> true
+23:38:43 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; putting back 14 changes
+23:38:43   kit service: copy built (4) by record in look archer_hella__basic_player_01; kit added; builds seen 4
+23:38:43   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): on on on on on
+23:38:43   reassembles: 2 seen, last: kit already on
+23:38:43   builds from the Hella's look file: 4 seen, last: record Vehicle.v_standard2_archer_hella_player_vctest, look archer_hella__basic_player_01, entity given, the copy: by record
+23:38:43 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:38:43   wheel_01_fl_a in the visual controller's list -> updated in a list of 91
+23:38:43 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:38:43   wheel_01_fr_a in the visual controller's list -> updated in a list of 91
+23:38:43 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:38:43   wheel_01_bl_a in the visual controller's list -> updated in a list of 91
+23:38:43 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:38:43   wheel_01_br_a in the visual controller's list -> updated in a list of 91
+23:38:43 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:38:43   tire_01_fl_a in the visual controller's list -> updated in a list of 91
+23:38:43 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:38:43   tire_01_fr_a in the visual controller's list -> updated in a list of 91
+23:38:43 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:38:43   tire_01_bl_a in the visual controller's list -> updated in a list of 91
+23:38:43 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:38:43   tire_01_br_a in the visual controller's list -> updated in a list of 91
+23:38:43 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:43   tire_01_fl_a_shadow in the visual controller's list -> updated in a list of 91
+23:38:43 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:43   tire_01_fr_a_shadow in the visual controller's list -> updated in a list of 91
+23:38:43 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:43   tire_01_bl_a_shadow in the visual controller's list -> updated in a list of 91
+23:38:43 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:38:43   tire_01_br_a_shadow in the visual controller's list -> updated in a list of 91
+23:38:43 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+23:38:43   bumper_f_01 in the visual controller's list -> updated in a list of 91
+23:38:43 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+23:38:43   hood_a in the visual controller's list -> updated in a list of 91
+23:38:56 Vehicle.v_standard2_archer_hella_player_vctest remove -> true
+23:38:56 Vehicle.v_standard2_archer_hella_player_vctest_b remove -> true
+23:38:56 Vehicle.v_utility4_kaukaz_bratsk_vctest remove -> true
+23:38:56 Vehicle.v_utility4_chevalier_centurion_vctest remove -> true
+23:38:56 Vehicle.av_rayfield_excalibur_vctest remove -> true
+23:39:00 Vehicle.vc_live_1 remove -> true
+23:39:01 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; putting back 14 changes
+23:39:01   kit service: copy built (5) by record in look archer_hella__basic_player_01; kit added; builds seen 5
+23:39:01   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): on on on on on
+23:39:01   reassembles: 2 seen, last: kit already on
+23:39:01   builds from the Hella's look file: 5 seen, last: record Vehicle.v_standard2_archer_hella_player_vctest, look archer_hella__basic_player_01, entity given, the copy: by record
+23:39:01 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:39:01   wheel_01_fl_a in the visual controller's list -> updated in a list of 91
+23:39:01 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:39:01   wheel_01_fr_a in the visual controller's list -> updated in a list of 91
+23:39:01 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:39:01   wheel_01_bl_a in the visual controller's list -> updated in a list of 91
+23:39:01 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:39:01   wheel_01_br_a in the visual controller's list -> updated in a list of 91
+23:39:01 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:39:01   tire_01_fl_a in the visual controller's list -> updated in a list of 91
+23:39:01 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:39:01   tire_01_fr_a in the visual controller's list -> updated in a list of 91
+23:39:01 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:39:01   tire_01_bl_a in the visual controller's list -> updated in a list of 91
+23:39:01 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:39:01   tire_01_br_a in the visual controller's list -> updated in a list of 91
+23:39:01 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:01   tire_01_fl_a_shadow in the visual controller's list -> updated in a list of 91
+23:39:01 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:01   tire_01_fr_a_shadow in the visual controller's list -> updated in a list of 91
+23:39:01 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:01   tire_01_bl_a_shadow in the visual controller's list -> updated in a list of 91
+23:39:01 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:01   tire_01_br_a_shadow in the visual controller's list -> updated in a list of 91
+23:39:01 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+23:39:01   bumper_f_01 in the visual controller's list -> updated in a list of 91
+23:39:01 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+23:39:01   hood_a in the visual controller's list -> updated in a list of 91
+23:39:11 kit service told: on false, 0.0 m ahead, 0.0 m up -> done
+23:39:11 kit taken off and forgotten
+23:39:11 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:39:11 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:39:11 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:39:11 putting the saved build back in 1 s, on the new look
+23:39:12 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_a; putting back 14 changes
+23:39:12   kit service: copy built (6) by twin look in look archer_hella__basic_player_01__vc_a; kit off; builds seen 6
+23:39:12   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): on on on on on
+23:39:12   reassembles: 3 seen, last: kit off
+23:39:12   builds from the Hella's look file: 6 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:39:12 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:39:12   wheel_01_fl_a in the visual controller's list -> updated in a list of 87
+23:39:12 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:39:12   wheel_01_fr_a in the visual controller's list -> updated in a list of 87
+23:39:12 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:39:12   wheel_01_bl_a in the visual controller's list -> updated in a list of 87
+23:39:12 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:39:12   wheel_01_br_a in the visual controller's list -> updated in a list of 87
+23:39:12 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:39:12   tire_01_fl_a in the visual controller's list -> updated in a list of 87
+23:39:12 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:39:12   tire_01_fr_a in the visual controller's list -> updated in a list of 87
+23:39:12 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:39:12   tire_01_bl_a in the visual controller's list -> updated in a list of 87
+23:39:12 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:39:12   tire_01_br_a in the visual controller's list -> updated in a list of 87
+23:39:12 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:12   tire_01_fl_a_shadow in the visual controller's list -> updated in a list of 87
+23:39:12 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:12   tire_01_fr_a_shadow in the visual controller's list -> updated in a list of 87
+23:39:12 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:12   tire_01_bl_a_shadow in the visual controller's list -> updated in a list of 87
+23:39:12 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:12   tire_01_br_a_shadow in the visual controller's list -> updated in a list of 87
+23:39:12 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+23:39:12   bumper_f_01 in the visual controller's list -> updated in a list of 87
+23:39:12 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+23:39:12   hood_a in the visual controller's list -> updated in a list of 87
+23:39:17 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:39:17 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:39:17 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:39:17 putting the saved build back in 1 s, on the new look
+23:39:18 the build copy appeared 1.00 s ago in look archer_hella__basic_player_01__vc_b; putting back 14 changes
+23:39:18   kit service: copy built (7) by twin look in look archer_hella__basic_player_01__vc_b; kit off; builds seen 7
+23:39:18   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): on on on on on
+23:39:18   reassembles: 4 seen, last: kit off
+23:39:18   builds from the Hella's look file: 7 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:39:18 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:39:18   wheel_01_fl_a in the visual controller's list -> updated in a list of 87
+23:39:18 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:39:18   wheel_01_fr_a in the visual controller's list -> updated in a list of 87
+23:39:18 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:39:18   wheel_01_bl_a in the visual controller's list -> updated in a list of 87
+23:39:18 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:39:18   wheel_01_br_a in the visual controller's list -> updated in a list of 87
+23:39:18 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:39:18   tire_01_fl_a in the visual controller's list -> updated in a list of 87
+23:39:18 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:39:18   tire_01_fr_a in the visual controller's list -> updated in a list of 87
+23:39:18 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:39:18   tire_01_bl_a in the visual controller's list -> updated in a list of 87
+23:39:18 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:39:18   tire_01_br_a in the visual controller's list -> updated in a list of 87
+23:39:18 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:18   tire_01_fl_a_shadow in the visual controller's list -> updated in a list of 87
+23:39:18 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:18   tire_01_fr_a_shadow in the visual controller's list -> updated in a list of 87
+23:39:18 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:18   tire_01_bl_a_shadow in the visual controller's list -> updated in a list of 87
+23:39:18 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:18   tire_01_br_a_shadow in the visual controller's list -> updated in a list of 87
+23:39:18 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+23:39:18   bumper_f_01 in the visual controller's list -> updated in a list of 87
+23:39:18 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+23:39:18   hood_a in the visual controller's list -> updated in a list of 87
+23:39:19 build copy sent back to the garage to be rebuilt -> done; calling it again in 2 s
+23:39:21 build copy called again -> true
+23:39:21 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; putting back 14 changes
+23:39:21   kit service: copy built (8) by record in look archer_hella__basic_player_01; kit off; builds seen 8
+23:39:21   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): on on on on on
+23:39:21   reassembles: 4 seen, last: kit off
+23:39:21   builds from the Hella's look file: 8 seen, last: record Vehicle.v_standard2_archer_hella_player_vctest, look archer_hella__basic_player_01, entity given, the copy: by record
+23:39:21 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:39:21   wheel_01_fl_a in the visual controller's list -> updated in a list of 91
+23:39:21 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+23:39:21   wheel_01_fr_a in the visual controller's list -> updated in a list of 91
+23:39:21 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:39:21   wheel_01_bl_a in the visual controller's list -> updated in a list of 91
+23:39:21 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+23:39:21   wheel_01_br_a in the visual controller's list -> updated in a list of 91
+23:39:21 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:39:21   tire_01_fl_a in the visual controller's list -> updated in a list of 91
+23:39:21 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+23:39:21   tire_01_fr_a in the visual controller's list -> updated in a list of 91
+23:39:21 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:39:21   tire_01_bl_a in the visual controller's list -> updated in a list of 91
+23:39:21 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+23:39:21   tire_01_br_a in the visual controller's list -> updated in a list of 91
+23:39:21 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:21   tire_01_fl_a_shadow in the visual controller's list -> updated in a list of 91
+23:39:21 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:21   tire_01_fr_a_shadow in the visual controller's list -> updated in a list of 91
+23:39:21 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:21   tire_01_bl_a_shadow in the visual controller's list -> updated in a list of 91
+23:39:21 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+23:39:21   tire_01_br_a_shadow in the visual controller's list -> updated in a list of 91
+23:39:21 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+23:39:21   bumper_f_01 in the visual controller's list -> updated in a list of 91
+23:39:21 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+23:39:21   hood_a in the visual controller's list -> updated in a list of 91
+23:39:40 saved build forgotten; the next call brings the copy back stock
+23:39:41 Vehicle.v_standard2_archer_hella_player_vctest remove -> true
+23:39:41 Vehicle.v_standard2_archer_hella_player_vctest_b remove -> true
+23:39:41 Vehicle.v_utility4_kaukaz_bratsk_vctest remove -> true
+23:39:41 Vehicle.v_utility4_chevalier_centurion_vctest remove -> true
+23:39:41 Vehicle.av_rayfield_excalibur_vctest remove -> true
+23:39:53 kit service told: on true, 0.0 m ahead, 0.0 m up -> done
+23:39:53 kit on
+23:39:53 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:39:53 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:39:53 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:39:54 build copy sent back to the garage to be rebuilt -> done; calling it again in 2 s
+23:39:56 build copy called again -> true
+23:39:57 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; putting back 0 changes
+23:39:57   kit service: copy built (11) by record in look archer_hella__basic_player_01; kit added; builds seen 11
+23:39:57   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): on on on on on
+23:39:57   reassembles: 5 seen, last: kit already on
+23:39:57   builds from the Hella's look file: 11 seen, last: record Vehicle.v_standard2_archer_hella_player_vctest, look archer_hella__basic_player_01, entity given, the copy: by record
+23:40:21 kit service told: on true, 0.1 m ahead, 0.0 m up -> done
+23:40:21 kit moved: 0.10 m ahead, 0.00 m up in all
+23:40:22 kit service told: on true, 0.2 m ahead, 0.0 m up -> done
+23:40:22 kit moved: 0.20 m ahead, 0.00 m up in all
+23:40:22 kit service told: on true, 0.3 m ahead, 0.0 m up -> done
+23:40:22 kit moved: 0.30 m ahead, 0.00 m up in all
+23:40:22 kit service told: on true, 0.4 m ahead, 0.0 m up -> done
+23:40:22 kit moved: 0.40 m ahead, 0.00 m up in all
+23:40:22 kit service told: on true, 0.5 m ahead, 0.0 m up -> done
+23:40:22 kit moved: 0.50 m ahead, 0.00 m up in all
+23:40:22 kit service told: on true, 0.6 m ahead, 0.0 m up -> done
+23:40:22 kit moved: 0.60 m ahead, 0.00 m up in all
+23:40:22 kit service told: on true, 0.7 m ahead, 0.0 m up -> done
+23:40:22 kit moved: 0.70 m ahead, 0.00 m up in all
+23:40:23 kit service told: on true, 0.8 m ahead, 0.0 m up -> done
+23:40:23 kit moved: 0.80 m ahead, 0.00 m up in all
+23:40:23 kit service told: on true, 0.9 m ahead, 0.0 m up -> done
+23:40:23 kit moved: 0.90 m ahead, 0.00 m up in all
+23:40:23 kit service told: on true, 1.0 m ahead, 0.0 m up -> done
+23:40:23 kit moved: 1.00 m ahead, 0.00 m up in all
+23:40:23 kit service told: on true, 1.1 m ahead, 0.0 m up -> done
+23:40:23 kit moved: 1.10 m ahead, 0.00 m up in all
+23:40:23 kit service told: on true, 1.2 m ahead, 0.0 m up -> done
+23:40:23 kit moved: 1.20 m ahead, 0.00 m up in all
+23:40:23 kit service told: on true, 1.3 m ahead, 0.0 m up -> done
+23:40:23 kit moved: 1.30 m ahead, 0.00 m up in all
+23:40:24 kit service told: on true, 1.4 m ahead, 0.0 m up -> done
+23:40:24 kit moved: 1.40 m ahead, 0.00 m up in all
+23:40:30 kit service told: on false, 1.4 m ahead, 0.0 m up -> done
+23:40:30 kit taken off and forgotten
+23:40:30 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:40:30 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:40:30 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:40:38 kit service told: on true, 0.0 m ahead, 0.0 m up -> done
+23:40:38 kit on
+23:40:38 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:40:38 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:40:38 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:40:40 kit service told: on true, 0.1 m ahead, 0.0 m up -> done
+23:40:40 kit moved: 0.10 m ahead, 0.00 m up in all
+23:40:40 kit service told: on true, 0.2 m ahead, 0.0 m up -> done
+23:40:40 kit moved: 0.20 m ahead, 0.00 m up in all
+23:40:40 kit service told: on true, 0.3 m ahead, 0.0 m up -> done
+23:40:40 kit moved: 0.30 m ahead, 0.00 m up in all
+23:40:40 kit service told: on true, 0.4 m ahead, 0.0 m up -> done
+23:40:40 kit moved: 0.40 m ahead, 0.00 m up in all
+23:40:41 kit service told: on true, 0.5 m ahead, 0.0 m up -> done
+23:40:41 kit moved: 0.50 m ahead, 0.00 m up in all
+23:40:41 kit service told: on true, 0.6 m ahead, 0.0 m up -> done
+23:40:41 kit moved: 0.60 m ahead, 0.00 m up in all
+23:40:41 kit service told: on true, 0.7 m ahead, 0.0 m up -> done
+23:40:41 kit moved: 0.70 m ahead, 0.00 m up in all
+23:40:41 kit service told: on true, 0.8 m ahead, 0.0 m up -> done
+23:40:41 kit moved: 0.80 m ahead, 0.00 m up in all
+23:40:41 kit service told: on true, 0.9 m ahead, 0.0 m up -> done
+23:40:41 kit moved: 0.90 m ahead, 0.00 m up in all
+23:40:42 kit service told: on true, 1.0 m ahead, 0.0 m up -> done
+23:40:42 kit moved: 1.00 m ahead, 0.00 m up in all
+23:40:42 kit service told: on true, 1.1 m ahead, 0.0 m up -> done
+23:40:42 kit moved: 1.10 m ahead, 0.00 m up in all
+23:40:42 kit service told: on true, 1.2 m ahead, 0.0 m up -> done
+23:40:42 kit moved: 1.20 m ahead, 0.00 m up in all
+23:40:42 kit service told: on true, 1.3 m ahead, 0.0 m up -> done
+23:40:42 kit moved: 1.30 m ahead, 0.00 m up in all
+23:40:42 kit service told: on true, 1.4 m ahead, 0.0 m up -> done
+23:40:42 kit moved: 1.40 m ahead, 0.00 m up in all
+23:40:54 kit service told: on false, 1.4 m ahead, 0.0 m up -> done
+23:40:54 kit taken off and forgotten
+23:40:54 rebuilding the copy in place: archer_hella__basic_player_01__vc_b -> its twin
+23:40:54 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:40:54 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:40:56 kit service told: on true, 0.0 m ahead, 0.0 m up -> done
+23:40:56 kit on
+23:40:56 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:40:56 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:40:56 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:40:59 kit service told: on true, 0.1 m ahead, 0.0 m up -> done
+23:40:59 kit moved: 0.10 m ahead, 0.00 m up in all
+23:40:59 kit service told: on true, 0.2 m ahead, 0.0 m up -> done
+23:40:59 kit moved: 0.20 m ahead, 0.00 m up in all
+23:41:00 kit service told: on true, 0.3 m ahead, 0.0 m up -> done
+23:41:00 kit moved: 0.30 m ahead, 0.00 m up in all
+23:41:00 kit service told: on true, 0.4 m ahead, 0.0 m up -> done
+23:41:00 kit moved: 0.40 m ahead, 0.00 m up in all
+23:41:00 kit service told: on true, 0.5 m ahead, 0.0 m up -> done
+23:41:00 kit moved: 0.50 m ahead, 0.00 m up in all
+23:41:00 kit service told: on true, 0.6 m ahead, 0.0 m up -> done
+23:41:00 kit moved: 0.60 m ahead, 0.00 m up in all
+23:41:00 kit service told: on true, 0.7 m ahead, 0.0 m up -> done
+23:41:00 kit moved: 0.70 m ahead, 0.00 m up in all
+23:41:00 kit service told: on true, 0.8 m ahead, 0.0 m up -> done
+23:41:00 kit moved: 0.80 m ahead, 0.00 m up in all
+23:41:01 kit service told: on true, 0.9 m ahead, 0.0 m up -> done
+23:41:01 kit moved: 0.90 m ahead, 0.00 m up in all
+23:41:01 kit service told: on true, 1.0 m ahead, 0.0 m up -> done
+23:41:01 kit moved: 1.00 m ahead, 0.00 m up in all
+23:41:01 kit service told: on true, 1.1 m ahead, 0.0 m up -> done
+23:41:01 kit moved: 1.10 m ahead, 0.00 m up in all
+23:41:01 kit service told: on true, 1.2 m ahead, 0.0 m up -> done
+23:41:01 kit moved: 1.20 m ahead, 0.00 m up in all
+23:41:01 kit service told: on true, 1.3 m ahead, 0.0 m up -> done
+23:41:01 kit moved: 1.30 m ahead, 0.00 m up in all
+23:41:09 rebuilding the copy in place: archer_hella__basic_player_01__vc_b -> its twin
+23:41:09 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:41:09 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:41:11 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:41:11 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:41:11 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:41:12 rebuilding the copy in place: archer_hella__basic_player_01__vc_b -> its twin
+23:41:12 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:41:12 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:41:13 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:41:13 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:41:13 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:41:14 rebuilding the copy in place: archer_hella__basic_player_01__vc_b -> its twin
+23:41:14 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:41:14 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:41:15 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:41:15 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:41:15 look of this car changed now to archer_hella__basic_player_01__vc_b -> true

@@ -1,0 +1,42 @@
+{
+  "camera_forward": {
+    "x": -1,
+    "y": -0.1,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 16.4,
+    "x": -126,
+    "y": -4413,
+    "z": 60.2
+  },
+  "look_object": {
+    "class": "vehicleArmedCarBaseObject",
+    "entity_id": "9013263ULL",
+    "name": "Colby \u0022Little Mule\u0022",
+    "position": {
+      "x": -128.7,
+      "y": -4413.7,
+      "z": 59.4
+    },
+    "record": "Vehicle.cs_savable_thorton_colby_nomad"
+  },
+  "nearest": {
+    "distance": 38.7,
+    "gig": "sts_bls_ina_02",
+    "gig_state": "Succeeded",
+    "gig_state_from": "id sts_bls_ina_02",
+    "id": "big_petes_place",
+    "name": "Big Pete's place"
+  },
+  "note": "",
+  "player": {
+    "x": -109.7,
+    "y": -4412.1,
+    "yaw": 93.1,
+    "z": 58.9
+  },
+  "stamp": "20261106-182634",
+  "time": "2026-11-06 18:26:34"
+}

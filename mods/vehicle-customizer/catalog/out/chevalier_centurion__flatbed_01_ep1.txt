@@ -1,0 +1,53 @@
+Centurion 1000 4WD (chevalier_centurion__flatbed_01_ep1), from ep1\vehicles\utility\v_utility4_chevalier_centurion__flatbed_01.ent
+records: Vehicle.v_utility4_chevalier_centurion_flatbed, Vehicle.v_utility4_chevalier_centurion_flatbed_poor, Vehicle.v_utility4_chevalier_centurion_flatbed_poor_dogtown
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  chevalier_centurion_basic_flatbed_poor_01 Chevalier centurion basic flatbed poor 11 looks
+                                            paints: chevalier_centurion_basic_flatbed_poor_02, chevalier_centurion_basic_flatbed_poor_03, chevalier_centurion_basic_flatbed_poor_04, chevalier_centurion_basic_flatbed_poor_05, chevalier_centurion_basic_flatbed_poor_06, chevalier_centurion_basic_flatbed_suburban_01, chevalier_centurion_basic_flatbed_suburban_02, chevalier_centurion_basic_flatbed_suburban_03, chevalier_centurion_basic_flatbed_suburban_04, chevalier_centurion_basic_flatbed_suburban_05
+WRECKS: chevalier_centurion_basic_flatbed_01_burnt
+
+SLOTS (19)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                    14 paints  26 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                    14 paints  26 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        14 paints  26 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+  Body: main [base.body] (Base): 1 options
+    body_01                                        14 paints  28 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_01_burnt] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] ...
+  Body: bed [base.body.bed] (Base): 1 options
+    body_bed_01                                    14 paints  12 looks  [car: v_utilty4_chevalier_centurion] [style: Chevalier centurion basic flatbed poor] [wreck: chevalier_centurion_basic_flatbed_01_burnt]
+  Bumper (Base) [base.bumper] (Base): 2 options
+    bumper_c_02                                    14 paints  16 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_01_burnt] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] ...
+    bumper_c_01                                    14 paints  12 looks  [car: v_utilty4_chevalier_centurion] [style: Chevalier centurion basic flatbed poor] [wreck: chevalier_centurion_basic_flatbed_01_burnt]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    11 paints  28 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_01_burnt] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] ...
+  Seats: back [base.seat] (Base): 1 options
+    seats_b_01                                     11 paints  28 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_01_burnt] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] ...
+  Seats: front left [base.seat.seats_fl] (Base): 1 options
+    seats_fl_01                                    11 paints  28 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_01_burnt] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] ...
+  Seats: front right [base.seat.seats_fr] (Base): 1 options
+    seats_fr_01                                    11 paints  28 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_01_burnt] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] ...
+  Tank: gas c [base.tank] (Base): 2 options
+    gas_tank_c                                      1 paints   2 looks  [look: dumptruck_cargo_01] [look: dumptruck_cargo_02]
+    drug_lab_equipment_c_tank_a                     0 paints   1 looks  [look: dumptruck_cargo_03]
+  Tank: fuel a [base.tank.fuel_tank_a] (Base): 2 options
+    fuel_tank_a                                     4 paints   1 looks  [look: dumptruck_cargo_03]
+    gas_tank_e                                      2 paints   1 looks  [look: dumptruck_cargo_01]
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_01 + tire_03                               3 paints  26 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    wheel_01                                        6 paints  26 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+  Doors: a [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01 + door_a_01                            14 paints  26 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+  Doors: back [door.door.door_b] (door_back_left_a, door_back_right_a): 1 options
+    door_01                                        11 paints  26 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+  Mirrors [door.mirror] (door_front_left_a, door_front_right_a): 1 options
+    mirror_01                                      14 paints  26 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+  Tires (b) [wheel_b.tire] (wheel_back_left_b, wheel_back_right_b): 1 options
+    tire_03                                         3 paints  15 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+  Rims (b) [wheel_b.wheel] (wheel_back_left_b, wheel_back_right_b): 1 options
+    wheel_01                                        5 paints  15 looks  [car: v_utilty4_chevalier_centurion] [look: dumptruck_cargo_01] [look: dumptruck_cargo_02] [look: dumptruck_cargo_03] [look: dumptruck_cargo_04] ...
+
+KITS (0)

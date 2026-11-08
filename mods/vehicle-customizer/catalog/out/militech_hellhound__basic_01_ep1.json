@@ -1,0 +1,1960 @@
+{
+ "id": "militech_hellhound__basic_01_ep1",
+ "label": "Hellhound",
+ "entity": "ep1\\vehicles\\standard\\v_standard3_militech_hellhound__basic_01.ent",
+ "family": "v_standard3_militech_hellhound",
+ "garage": true,
+ "default_look": "police_01",
+ "records": [
+  "Vehicle.v_standard3_militech_hellhound_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\militech_hellhound__basic.app",
+  "ep1\\vehicles\\appearances\\standard\\militech_hellhound__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "max_tac_01",
+   "code": "max_tac_01",
+   "label": "Max tac",
+   "base_look": "militech_hellhound__basic_max_tac_01",
+   "looks": [
+    "militech_hellhound__basic_max_tac_01",
+    "militech_hellhound__basic_max_tac_02",
+    "militech_hellhound__basic_max_tac_03",
+    "militech_hellhound__basic_player_01"
+   ],
+   "options": {
+    "hood_a.hood": "0d79361c",
+    "trunk_a.trunk": "f128c49a",
+    "base.body": "9b853b97",
+    "base.interior": "f3069d39",
+    "base.window": "ae82e41e",
+    "wheel.tire": "0f2d94b0",
+    "wheel.wheel": "2acd8d25",
+    "door.door": "d61914ed",
+    "hatch_door.door": "01ae2c6e",
+    "wheel_b.tire": "9b1535e7",
+    "wheel_b.wheel": "3464ea1e"
+   },
+   "kits": [
+    "militech_9237",
+    "police_dd2a"
+   ]
+  }
+ ],
+ "wrecks": [
+  "militech_hellhound__basic_burnt"
+ ],
+ "slots": [
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "0d79361c",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_hood_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "max_tac_01",
+      "max_tac_02",
+      "max_tac_03",
+      "player_01",
+      "police_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03",
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "look:police_01",
+      "look:police_02",
+      "look:police_03",
+      "style:max_tac_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "f128c49a",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_trunk_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "max_tac_01",
+      "max_tac_02",
+      "max_tac_03",
+      "player_01",
+      "police_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03",
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "look:police_01",
+      "look:police_02",
+      "look:police_03",
+      "style:max_tac_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "9b853b97",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_body_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "max_tac_01",
+      "max_tac_02",
+      "max_tac_03",
+      "player_01",
+      "police_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic:burnt_police",
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03",
+      "militech_hellhound__basic_burnt",
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:burnt_police",
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "look:police_01",
+      "look:police_02",
+      "look:police_03",
+      "style:max_tac_01",
+      "wreck:burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "f3069d39",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_01",
+     "paints": [
+      "max_tac_01",
+      "player_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic:burnt_police",
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03",
+      "militech_hellhound__basic_burnt",
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01"
+     ],
+     "origins": [
+      "look:burnt_police",
+      "look:police_01",
+      "look:police_02",
+      "look:police_03",
+      "style:max_tac_01",
+      "wreck:burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f"
+   ],
+   "options": [
+    {
+     "id": "ae82e41e",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_window_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_window_f_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "max_tac_01",
+      "max_tac_02",
+      "max_tac_03",
+      "player_01",
+      "police_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic:burnt_police",
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03",
+      "militech_hellhound__basic_burnt",
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:burnt_police",
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "look:police_01",
+      "look:police_02",
+      "look:police_03",
+      "style:max_tac_01",
+      "wreck:burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     -0.0545,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0524,
+     0.0,
+     0.0
+    ],
+    [
+     -0.054,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0518,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.594822883605957,
+     0.0,
+     0.0,
+     0.8038567900657654
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     -0.6494481563568115,
+     0.0,
+     0.0,
+     0.760405957698822
+    ],
+    [
+     0.5150381326675415,
+     0.0,
+     0.0,
+     0.8571673035621643
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "0f2d94b0",
+     "code": "tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "style:max_tac_01"
+     ]
+    },
+    {
+     "id": "05660c48",
+     "code": "tire_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03"
+     ],
+     "origins": [
+      "look:police_01",
+      "look:police_02",
+      "look:police_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0897,
+     0.0,
+     0.0
+    ],
+    [
+     0.0905,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.594822883605957,
+     0.0,
+     0.0,
+     0.8038567900657654
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     -0.6494481563568115,
+     0.0,
+     0.0,
+     0.760405957698822
+    ],
+    [
+     0.5150381326675415,
+     0.0,
+     0.0,
+     0.8571673035621643
+    ]
+   ],
+   "roles": [
+    "wheel_<c>_a",
+    "wheel_<c>_a_01"
+   ],
+   "options": [
+    {
+     "id": "2acd8d25",
+     "code": "wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player_01",
+      "police_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "style:max_tac_01"
+     ]
+    },
+    {
+     "id": "7488f0c3",
+     "code": "wheel_a_01 + wheel_police_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "player_01",
+      "police_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03"
+     ],
+     "origins": [
+      "look:police_01",
+      "look:police_02",
+      "look:police_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "d61914ed",
+     "code": "door_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_fr_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_br_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_fl_shadowmesh.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_fr_shadowmesh.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_bl_shadowmesh.mesh",
+      "br": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_br_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "max_tac_01",
+      "max_tac_02",
+      "max_tac_03",
+      "player_01",
+      "police_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03",
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "look:police_01",
+      "look:police_02",
+      "look:police_03",
+      "style:max_tac_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hatch_door.door",
+   "label": "Door (hatch_door)",
+   "kind": "door",
+   "group": "hatch_door",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hatch_door"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hatch_door_01"
+   ],
+   "options": [
+    {
+     "id": "01ae2c6e",
+     "code": "hatch_door_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_hatch_door_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_hatch_door_01_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_01",
+     "paints": [
+      "max_tac_01",
+      "max_tac_02",
+      "max_tac_03",
+      "player_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic:burnt_police",
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03",
+      "militech_hellhound__basic_burnt",
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:burnt_police",
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "look:police_01",
+      "look:police_02",
+      "look:police_03",
+      "style:max_tac_01",
+      "wreck:burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.tire",
+   "label": "Tires (b)",
+   "kind": "tire",
+   "group": "wheel_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "wheel_front_left_b",
+    "wheel_front_right_b"
+   ],
+   "positions": [
+    [
+     -0.0529,
+     0.0,
+     0.0
+    ],
+    [
+     -0.049,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.9990482926368713,
+     0.0,
+     0.0,
+     0.0436190664768219
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "9b1535e7",
+     "code": "tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "style:max_tac_01"
+     ]
+    },
+    {
+     "id": "38d1d185",
+     "code": "tire_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03"
+     ],
+     "origins": [
+      "look:police_01",
+      "look:police_02",
+      "look:police_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.wheel",
+   "label": "Rims (b)",
+   "kind": "wheel",
+   "group": "wheel_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "wheel_front_left_b",
+    "wheel_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.9990482926368713,
+     0.0,
+     0.0,
+     0.0436190664768219
+    ]
+   ],
+   "roles": [
+    "wheel_<c>_b_01"
+   ],
+   "options": [
+    {
+     "id": "3464ea1e",
+     "code": "wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "player_01",
+      "police_01"
+     ],
+     "looks": [
+      "militech_hellhound__basic:police_01",
+      "militech_hellhound__basic:police_02",
+      "militech_hellhound__basic:police_03",
+      "militech_hellhound__basic_max_tac_01",
+      "militech_hellhound__basic_max_tac_02",
+      "militech_hellhound__basic_max_tac_03",
+      "militech_hellhound__basic_player_01",
+      "militech_hellhound__basic_q305_hologrom_red"
+     ],
+     "origins": [
+      "look:militech_hellhound__basic_q305_hologrom_red",
+      "look:police_01",
+      "look:police_02",
+      "look:police_03",
+      "style:max_tac_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "militech_9237",
+   "family": "militech",
+   "code": "body_stickers_maxtac_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_maxtac_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_body_stickers_maxtac_01.mesh",
+     "code": "body_stickers_maxtac_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_hellhound__basic:burnt_police",
+    "militech_hellhound__basic:police_01",
+    "militech_hellhound__basic:police_02",
+    "militech_hellhound__basic:police_03",
+    "militech_hellhound__basic_burnt",
+    "militech_hellhound__basic_max_tac_01",
+    "militech_hellhound__basic_max_tac_02",
+    "militech_hellhound__basic_max_tac_03",
+    "militech_hellhound__basic_player_01",
+    "militech_hellhound__basic_q305_hologrom_red"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_police",
+    "look:militech_hellhound__basic_q305_hologrom_red",
+    "look:police_01",
+    "look:police_02",
+    "look:police_03",
+    "style:max_tac_01",
+    "wreck:burnt"
+   ]
+  },
+  {
+   "id": "police_eb73",
+   "family": "police",
+   "code": "kit_police_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "police_body_elements_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_police_body_elements_01.mesh",
+     "code": "police_body_elements_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "police_body_lights_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police_body_lights_4408",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_police_body_lights_01.mesh",
+     "code": "police_body_lights_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "police_body_lights_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police_body_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_police_body_stickers_01.mesh",
+     "code": "police_body_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police_light_back_l",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\common_lights_02.mesh",
+     "code": "common_lights_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "police_body_lights_01",
+     "slot": null,
+     "position": [
+      0.59,
+      -2.782,
+      0.2229
+     ],
+     "rotation": [
+      -0.575666606426239,
+      -0.41061896085739136,
+      0.575666606426239,
+      0.41061896085739136
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police_light_back_r",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\common_lights_02.mesh",
+     "code": "common_lights_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "police_body_lights_01",
+     "slot": null,
+     "position": [
+      -0.5898,
+      -2.782,
+      0.2229
+     ],
+     "rotation": [
+      -0.575666606426239,
+      -0.41061896085739136,
+      0.575666606426239,
+      0.41061896085739136
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_01.mesh",
+     "code": "electric_device_medium_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "police_body_lights_01",
+     "slot": null,
+     "position": [
+      -0.3328,
+      -0.6357,
+      1.1734
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_01_shadow.mesh",
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_hellhound__basic:burnt_police",
+    "militech_hellhound__basic:police_01",
+    "militech_hellhound__basic:police_02",
+    "militech_hellhound__basic:police_03"
+   ],
+   "made_for": [
+    "slot:base.body.police_body_lights"
+   ],
+   "needs": [],
+   "origins": [
+    "look:burnt_police",
+    "look:police_01",
+    "look:police_02",
+    "look:police_03"
+   ]
+  },
+  {
+   "id": "police_dd2a",
+   "family": "police",
+   "code": "kit_police_doors_hood_trunk",
+   "where": [
+    "doors",
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "door_bl_stickers_maxtac_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_bl_stickers_maxtac_01.mesh",
+     "code": "door_bl_stickers_maxtac_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_stickers_maxtac_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_br_stickers_maxtac_01.mesh",
+     "code": "door_br_stickers_maxtac_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fl_stickers_maxtac_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_fl_stickers_maxtac_01.mesh",
+     "code": "door_fl_stickers_maxtac_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      -0.0017,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_stickers_maxtac_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_door_fr_stickers_maxtac_01.mesh",
+     "code": "door_fr_stickers_maxtac_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.002,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "hood_stickers_maxtac_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_hood_stickers_maxtac_01.mesh",
+     "code": "hood_stickers_maxtac_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0031
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "police_door_bl_a_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_police_door_bl_a_stickers_01.mesh",
+     "code": "police_door_bl_a_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "police_door_br_a_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_police_door_br_a_stickers_01.mesh",
+     "code": "police_door_br_a_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "police_hood_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_police_hood_stickers_01.mesh",
+     "code": "police_hood_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "police_trunk_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_police_trunk_stickers_01.mesh",
+     "code": "police_trunk_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "trunk_stickers_maxtac_01",
+     "mesh": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_trunk_stickers_maxtac_01.mesh",
+     "code": "trunk_stickers_maxtac_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0021,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_hellhound__basic:police_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "militech_hellhound__basic:police_01",
+    "militech_hellhound__basic:police_02",
+    "militech_hellhound__basic:police_03",
+    "militech_hellhound__basic_max_tac_01",
+    "militech_hellhound__basic_max_tac_02",
+    "militech_hellhound__basic_max_tac_03",
+    "militech_hellhound__basic_player_01",
+    "militech_hellhound__basic_q305_hologrom_red"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:militech_hellhound__basic_q305_hologrom_red",
+    "look:police_01",
+    "look:police_02",
+    "look:police_03",
+    "style:max_tac_01"
+   ]
+  }
+ ],
+ "looks": {
+  "militech_hellhound__basic_burnt": {
+   "app": "ep1\\vehicles\\appearances\\standard\\militech_hellhound__basic.app",
+   "app_look": "burnt",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.vehicle_lights": {
+     "all": "vehicle_lights_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "hatch_door.door": {
+     "all": "hatch_door_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "militech_hellhound__basic_max_tac_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\militech_hellhound__basic.app",
+   "app_look": "max_tac_02",
+   "style": "max_tac_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.vehicle_lights": {
+     "all": "vehicle_lights_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "hatch_door.door": {
+     "all": "hatch_door_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a",
+     "br": "wheel_br_a"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01"
+    }
+   }
+  },
+  "militech_hellhound__basic_max_tac_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\militech_hellhound__basic.app",
+   "app_look": "max_tac_01",
+   "style": "max_tac_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.vehicle_lights": {
+     "all": "vehicle_lights_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "hatch_door.door": {
+     "all": "hatch_door_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a",
+     "br": "wheel_br_a"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01"
+    }
+   }
+  },
+  "militech_hellhound__basic_max_tac_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\militech_hellhound__basic.app",
+   "app_look": "max_tac_03",
+   "style": "max_tac_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.vehicle_lights": {
+     "all": "vehicle_lights_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "hatch_door.door": {
+     "all": "hatch_door_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a",
+     "br": "wheel_br_a"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01"
+    }
+   }
+  },
+  "militech_hellhound__basic_player_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\militech_hellhound__basic.app",
+   "app_look": "player_01",
+   "style": "max_tac_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.vehicle_lights": {
+     "all": "vehicle_lights_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "hatch_door.door": {
+     "all": "hatch_door_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a",
+     "br": "wheel_br_a"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01"
+    }
+   }
+  },
+  "militech_hellhound__basic_q305_hologrom_red": {
+   "app": "ep1\\vehicles\\appearances\\standard\\militech_hellhound__basic.app",
+   "app_look": "q305_hologrom_red",
+   "style": null,
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.vehicle_lights": {
+     "all": "vehicle_lights_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "hatch_door.door": {
+     "all": "hatch_door_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_a_01",
+     "fr": "wheel_fr_a_01",
+     "bl": "wheel_bl_a",
+     "br": "wheel_br_a"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.5072,
+   0.3622,
+   0.3038,
+   -0.0676
+  ],
+  "b": [
+   0.5072,
+   0.3622,
+   0.3003,
+   -0.0676
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "7f6b06ab",
+   "rim": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_01",
+   "from": "Hellhound",
+   "radius": 0.6884,
+   "width": 0.467,
+   "rim_radius": 0.3038,
+   "tire_center": -0.0108,
+   "axles": [
+    "f"
+   ],
+   "looks": 3,
+   "paints": [
+    "player_01",
+    "police_01"
+   ],
+   "default_paint": "police_01",
+   "kind": "car",
+   "look_names": [
+    "militech_hellhound__basic:police_01",
+    "militech_hellhound__basic:police_02",
+    "militech_hellhound__basic:police_03"
+   ]
+  },
+  {
+   "id": "8dbf0968",
+   "rim": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_police_01",
+   "tire_code": "tire_fl_01",
+   "from": "Cortes V5000 Valor",
+   "radius": 0.6884,
+   "width": 0.467,
+   "rim_radius": 0.2467,
+   "tire_center": -0.0108,
+   "axles": [
+    "b"
+   ],
+   "looks": 3,
+   "paints": [
+    "police_01"
+   ],
+   "default_paint": "police_01",
+   "kind": "car",
+   "look_names": [
+    "militech_hellhound__basic:police_01",
+    "militech_hellhound__basic:police_02",
+    "militech_hellhound__basic:police_03"
+   ]
+  },
+  {
+   "id": "ca267fca",
+   "rim": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Hellhound",
+   "radius": 0.5072,
+   "width": 0.3622,
+   "rim_radius": 0.3038,
+   "tire_center": -0.0676,
+   "axles": [
+    "f"
+   ],
+   "looks": 5,
+   "paints": [
+    "player_01",
+    "police_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "militech_hellhound__basic_max_tac_01",
+    "militech_hellhound__basic_max_tac_02",
+    "militech_hellhound__basic_max_tac_03",
+    "militech_hellhound__basic_player_01",
+    "militech_hellhound__basic_q305_hologrom_red"
+   ]
+  },
+  {
+   "id": "e25ca16e",
+   "rim": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_wheel_bl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard3_militech_hellhound\\entities\\meshes\\v_standard3_militech_hellhound__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_bl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Hellhound",
+   "radius": 0.5072,
+   "width": 0.3622,
+   "rim_radius": 0.3003,
+   "tire_center": -0.0676,
+   "axles": [
+    "b"
+   ],
+   "looks": 5,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "militech_hellhound__basic_max_tac_01",
+    "militech_hellhound__basic_max_tac_02",
+    "militech_hellhound__basic_max_tac_03",
+    "militech_hellhound__basic_player_01",
+    "militech_hellhound__basic_q305_hologrom_red"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "militech_hellhound__basic_player_01",
+   "Hellhound"
+  ]
+ ]
+}

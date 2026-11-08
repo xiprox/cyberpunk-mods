@@ -1,0 +1,1029 @@
+{
+ "id": "kaukaz_bratsk__basic_metalstud_truck_01",
+ "label": "Bratsk U4020",
+ "entity": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk__basic_metalstud_truck_01.ent",
+ "family": "v_utility4_kaukaz_bratsk",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_utility4_kaukaz_bratsk_metalstud",
+  "Vehicle.v_utility4_kaukaz_bratsk_metalstud_dogtown",
+  "Vehicle.v_utility4_kaukaz_bratsk_metalstud_locked_doors"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\utility\\kaukaz_bratsk__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "metalstud_truck_01",
+   "code": "metalstud_truck_01",
+   "label": "Metalstud truck",
+   "base_look": "kaukaz_bratsk__basic_metalstud_truck_01",
+   "looks": [
+    "kaukaz_bratsk__basic_metalstud_truck_01",
+    "kaukaz_bratsk__basic_metalstud_truck_02"
+   ],
+   "options": {
+    "base.body": "2d776852",
+    "base.interior": "207e9efc",
+    "wheel.tire": "b69f0ad0",
+    "door.door": "5f8b9f99",
+    "bumper_front_b.bumper": "773e6425",
+    "wheel_b.tire": "6ea4a147"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "kaukaz_bratsk__basic_metalstud_truck_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "2d776852",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "industrial_03",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "militech_01"
+     ],
+     "looks": [
+      "kaukaz_bratsk__basic:burnt_01",
+      "kaukaz_bratsk__basic:concrete_truck_01",
+      "kaukaz_bratsk__basic:concrete_truck_burnt_01",
+      "kaukaz_bratsk__basic:container_truck_01",
+      "kaukaz_bratsk__basic:container_truck_02",
+      "kaukaz_bratsk__basic:container_truck_03",
+      "kaukaz_bratsk__basic:container_truck_04",
+      "kaukaz_bratsk__basic:container_truck_05",
+      "kaukaz_bratsk__basic:container_truck_burnt_01",
+      "kaukaz_bratsk__basic:default",
+      "kaukaz_bratsk__basic:dump_truck_01",
+      "kaukaz_bratsk__basic:dump_truck_02",
+      "kaukaz_bratsk__basic:dump_truck_03",
+      "kaukaz_bratsk__basic:dump_truck_burnt_01",
+      "kaukaz_bratsk__basic:flatbed_truck_01",
+      "kaukaz_bratsk__basic:flatbed_truck_02",
+      "kaukaz_bratsk__basic:flatbed_truck_03",
+      "kaukaz_bratsk__basic:flatbed_truck_04",
+      "kaukaz_bratsk__basic:fuel_truck",
+      "kaukaz_bratsk__basic:fuel_truck_burnt_01",
+      "kaukaz_bratsk__basic:machine_truck_01",
+      "kaukaz_bratsk__basic:machine_truck_02",
+      "kaukaz_bratsk__basic:machine_truck_burnt_01",
+      "kaukaz_bratsk__basic_metalstud_truck_01",
+      "kaukaz_bratsk__basic_metalstud_truck_02",
+      "kaukaz_bratsk__basic_metalstud_truck_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:concrete_truck_01",
+      "look:concrete_truck_burnt_01",
+      "look:container_truck_01",
+      "look:container_truck_02",
+      "look:container_truck_03",
+      "look:container_truck_04",
+      "look:container_truck_05",
+      "look:container_truck_burnt_01",
+      "look:default",
+      "look:dump_truck_01",
+      "look:dump_truck_02",
+      "look:dump_truck_03",
+      "look:dump_truck_burnt_01",
+      "look:flatbed_truck_01",
+      "look:flatbed_truck_02",
+      "look:flatbed_truck_03",
+      "look:flatbed_truck_04",
+      "look:fuel_truck",
+      "look:fuel_truck_burnt_01",
+      "look:machine_truck_01",
+      "look:machine_truck_02",
+      "look:machine_truck_burnt_01",
+      "style:metalstud_truck_01",
+      "wreck:metalstud_truck_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "207e9efc",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02_grey",
+     "paints": [
+      "nomad_camp",
+      "poor_01"
+     ],
+     "looks": [
+      "kaukaz_bratsk__basic:burnt_01",
+      "kaukaz_bratsk__basic:concrete_truck_01",
+      "kaukaz_bratsk__basic:concrete_truck_burnt_01",
+      "kaukaz_bratsk__basic:container_truck_01",
+      "kaukaz_bratsk__basic:container_truck_02",
+      "kaukaz_bratsk__basic:container_truck_03",
+      "kaukaz_bratsk__basic:container_truck_04",
+      "kaukaz_bratsk__basic:container_truck_05",
+      "kaukaz_bratsk__basic:container_truck_burnt_01",
+      "kaukaz_bratsk__basic:default",
+      "kaukaz_bratsk__basic:dump_truck_01",
+      "kaukaz_bratsk__basic:dump_truck_02",
+      "kaukaz_bratsk__basic:dump_truck_03",
+      "kaukaz_bratsk__basic:dump_truck_burnt_01",
+      "kaukaz_bratsk__basic:flatbed_truck_01",
+      "kaukaz_bratsk__basic:flatbed_truck_02",
+      "kaukaz_bratsk__basic:flatbed_truck_03",
+      "kaukaz_bratsk__basic:flatbed_truck_04",
+      "kaukaz_bratsk__basic:fuel_truck",
+      "kaukaz_bratsk__basic:fuel_truck_burnt_01",
+      "kaukaz_bratsk__basic:machine_truck_01",
+      "kaukaz_bratsk__basic:machine_truck_02",
+      "kaukaz_bratsk__basic:machine_truck_burnt_01",
+      "kaukaz_bratsk__basic_metalstud_truck_01",
+      "kaukaz_bratsk__basic_metalstud_truck_02",
+      "kaukaz_bratsk__basic_metalstud_truck_burnt_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:concrete_truck_01",
+      "look:concrete_truck_burnt_01",
+      "look:container_truck_01",
+      "look:container_truck_02",
+      "look:container_truck_03",
+      "look:container_truck_04",
+      "look:container_truck_05",
+      "look:container_truck_burnt_01",
+      "look:default",
+      "look:dump_truck_01",
+      "look:dump_truck_02",
+      "look:dump_truck_03",
+      "look:dump_truck_burnt_01",
+      "look:flatbed_truck_01",
+      "look:flatbed_truck_02",
+      "look:flatbed_truck_03",
+      "look:flatbed_truck_04",
+      "look:fuel_truck",
+      "look:fuel_truck_burnt_01",
+      "look:machine_truck_01",
+      "look:machine_truck_02",
+      "look:machine_truck_burnt_01",
+      "style:metalstud_truck_01",
+      "wreck:metalstud_truck_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "b69f0ad0",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01.mesh",
+      "bl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+      "bl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+      "br": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "tyre_dirt",
+     "paints": [
+      "tyre_dirt",
+      "tyre_clean",
+      "tyre_dirt_02",
+      "tyre_dirt_03_cracks"
+     ],
+     "looks": [
+      "kaukaz_bratsk__basic:concrete_truck_01",
+      "kaukaz_bratsk__basic:container_truck_01",
+      "kaukaz_bratsk__basic:container_truck_02",
+      "kaukaz_bratsk__basic:container_truck_03",
+      "kaukaz_bratsk__basic:container_truck_04",
+      "kaukaz_bratsk__basic:container_truck_05",
+      "kaukaz_bratsk__basic:default",
+      "kaukaz_bratsk__basic:dump_truck_01",
+      "kaukaz_bratsk__basic:dump_truck_02",
+      "kaukaz_bratsk__basic:dump_truck_03",
+      "kaukaz_bratsk__basic:flatbed_truck_01",
+      "kaukaz_bratsk__basic:flatbed_truck_02",
+      "kaukaz_bratsk__basic:flatbed_truck_03",
+      "kaukaz_bratsk__basic:flatbed_truck_04",
+      "kaukaz_bratsk__basic:fuel_truck",
+      "kaukaz_bratsk__basic:machine_truck_01",
+      "kaukaz_bratsk__basic:machine_truck_02",
+      "kaukaz_bratsk__basic:q114_misile_truck",
+      "kaukaz_bratsk__basic_metalstud_truck_01",
+      "kaukaz_bratsk__basic_metalstud_truck_02"
+     ],
+     "origins": [
+      "look:concrete_truck_01",
+      "look:container_truck_01",
+      "look:container_truck_02",
+      "look:container_truck_03",
+      "look:container_truck_04",
+      "look:container_truck_05",
+      "look:default",
+      "look:dump_truck_01",
+      "look:dump_truck_02",
+      "look:dump_truck_03",
+      "look:flatbed_truck_01",
+      "look:flatbed_truck_02",
+      "look:flatbed_truck_03",
+      "look:flatbed_truck_04",
+      "look:fuel_truck",
+      "look:machine_truck_01",
+      "look:machine_truck_02",
+      "look:q114_misile_truck",
+      "style:metalstud_truck_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "5f8b9f99",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "industrial_03",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "militech_01"
+     ],
+     "looks": [
+      "kaukaz_bratsk__basic:concrete_truck_01",
+      "kaukaz_bratsk__basic:container_truck_01",
+      "kaukaz_bratsk__basic:container_truck_02",
+      "kaukaz_bratsk__basic:container_truck_03",
+      "kaukaz_bratsk__basic:container_truck_04",
+      "kaukaz_bratsk__basic:container_truck_05",
+      "kaukaz_bratsk__basic:default",
+      "kaukaz_bratsk__basic:dump_truck_01",
+      "kaukaz_bratsk__basic:dump_truck_02",
+      "kaukaz_bratsk__basic:dump_truck_03",
+      "kaukaz_bratsk__basic:flatbed_truck_01",
+      "kaukaz_bratsk__basic:flatbed_truck_02",
+      "kaukaz_bratsk__basic:flatbed_truck_03",
+      "kaukaz_bratsk__basic:flatbed_truck_04",
+      "kaukaz_bratsk__basic:fuel_truck",
+      "kaukaz_bratsk__basic:machine_truck_01",
+      "kaukaz_bratsk__basic:machine_truck_02",
+      "kaukaz_bratsk__basic_metalstud_truck_01",
+      "kaukaz_bratsk__basic_metalstud_truck_02"
+     ],
+     "origins": [
+      "look:concrete_truck_01",
+      "look:container_truck_01",
+      "look:container_truck_02",
+      "look:container_truck_03",
+      "look:container_truck_04",
+      "look:container_truck_05",
+      "look:default",
+      "look:dump_truck_01",
+      "look:dump_truck_02",
+      "look:dump_truck_03",
+      "look:flatbed_truck_01",
+      "look:flatbed_truck_02",
+      "look:flatbed_truck_03",
+      "look:flatbed_truck_04",
+      "look:fuel_truck",
+      "look:machine_truck_01",
+      "look:machine_truck_02",
+      "style:metalstud_truck_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_front_b.bumper",
+   "label": "Front bumper (b)",
+   "kind": "bumper",
+   "group": "bumper_front_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_02"
+   ],
+   "options": [
+    {
+     "id": "773e6425",
+     "code": "bumper_f_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_bumper_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "industrial_03",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "militech_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "kaukaz_bratsk__basic:concrete_truck_01",
+      "kaukaz_bratsk__basic:default",
+      "kaukaz_bratsk__basic:flatbed_truck_01",
+      "kaukaz_bratsk__basic:flatbed_truck_02",
+      "kaukaz_bratsk__basic:flatbed_truck_03",
+      "kaukaz_bratsk__basic:flatbed_truck_04",
+      "kaukaz_bratsk__basic:fuel_truck",
+      "kaukaz_bratsk__basic:machine_truck_01",
+      "kaukaz_bratsk__basic:machine_truck_02",
+      "kaukaz_bratsk__basic_metalstud_truck_01",
+      "kaukaz_bratsk__basic_metalstud_truck_02"
+     ],
+     "origins": [
+      "look:concrete_truck_01",
+      "look:default",
+      "look:flatbed_truck_01",
+      "look:flatbed_truck_02",
+      "look:flatbed_truck_03",
+      "look:flatbed_truck_04",
+      "look:fuel_truck",
+      "look:machine_truck_01",
+      "look:machine_truck_02",
+      "style:metalstud_truck_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_front_d.bumper",
+   "label": "Front bumper (d)",
+   "kind": "bumper",
+   "group": "bumper_front_d",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front_d"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "282e3958",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_03",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "militech_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "kaukaz_bratsk__basic:container_truck_01",
+      "kaukaz_bratsk__basic:container_truck_02",
+      "kaukaz_bratsk__basic:container_truck_03",
+      "kaukaz_bratsk__basic:container_truck_04",
+      "kaukaz_bratsk__basic:container_truck_05",
+      "kaukaz_bratsk__basic:default",
+      "kaukaz_bratsk__basic:dump_truck_01",
+      "kaukaz_bratsk__basic:dump_truck_02",
+      "kaukaz_bratsk__basic:dump_truck_03"
+     ],
+     "origins": [
+      "look:container_truck_01",
+      "look:container_truck_02",
+      "look:container_truck_03",
+      "look:container_truck_04",
+      "look:container_truck_05",
+      "look:default",
+      "look:dump_truck_01",
+      "look:dump_truck_02",
+      "look:dump_truck_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.tire",
+   "label": "Tires (b)",
+   "kind": "tire",
+   "group": "wheel_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "wheel_front_left_b",
+    "wheel_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "6ea4a147",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "tyre_dirt",
+     "paints": [
+      "tyre_dirt",
+      "tyre_clean",
+      "tyre_dirt_02",
+      "tyre_dirt_03_cracks"
+     ],
+     "looks": [
+      "kaukaz_bratsk__basic:concrete_truck_01",
+      "kaukaz_bratsk__basic:container_truck_01",
+      "kaukaz_bratsk__basic:container_truck_02",
+      "kaukaz_bratsk__basic:container_truck_03",
+      "kaukaz_bratsk__basic:container_truck_04",
+      "kaukaz_bratsk__basic:container_truck_05",
+      "kaukaz_bratsk__basic:default",
+      "kaukaz_bratsk__basic:dump_truck_01",
+      "kaukaz_bratsk__basic:dump_truck_02",
+      "kaukaz_bratsk__basic:dump_truck_03",
+      "kaukaz_bratsk__basic:flatbed_truck_01",
+      "kaukaz_bratsk__basic:flatbed_truck_02",
+      "kaukaz_bratsk__basic:flatbed_truck_03",
+      "kaukaz_bratsk__basic:flatbed_truck_04",
+      "kaukaz_bratsk__basic:fuel_truck",
+      "kaukaz_bratsk__basic:machine_truck_01",
+      "kaukaz_bratsk__basic:machine_truck_02",
+      "kaukaz_bratsk__basic:q114_misile_truck",
+      "kaukaz_bratsk__basic_metalstud_truck_01",
+      "kaukaz_bratsk__basic_metalstud_truck_02"
+     ],
+     "origins": [
+      "look:concrete_truck_01",
+      "look:container_truck_01",
+      "look:container_truck_02",
+      "look:container_truck_03",
+      "look:container_truck_04",
+      "look:container_truck_05",
+      "look:default",
+      "look:dump_truck_01",
+      "look:dump_truck_02",
+      "look:dump_truck_03",
+      "look:flatbed_truck_01",
+      "look:flatbed_truck_02",
+      "look:flatbed_truck_03",
+      "look:flatbed_truck_04",
+      "look:fuel_truck",
+      "look:machine_truck_01",
+      "look:machine_truck_02",
+      "look:q114_misile_truck",
+      "style:metalstud_truck_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [],
+ "looks": {
+  "kaukaz_bratsk__basic_metalstud_truck_01": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_bratsk__basic.app",
+   "app_look": "metalstud_truck_01",
+   "style": "metalstud_truck_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f_a_01"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b_01"
+    },
+    "base.window.window_f_c": {
+     "all": "window_f_c_01"
+    },
+    "base.window.window_f_d": {
+     "all": "window_f_d_01"
+    },
+    "bumper_front_b.bumper": {
+     "all": "bumper_f_02"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_01_fl_b",
+     "fr": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    }
+   }
+  },
+  "kaukaz_bratsk__basic_metalstud_truck_02": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_bratsk__basic.app",
+   "app_look": "metalstud_truck_02",
+   "style": "metalstud_truck_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f_a_01"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b_01"
+    },
+    "base.window.window_f_c": {
+     "all": "window_f_c_01"
+    },
+    "base.window.window_f_d": {
+     "all": "window_f_d_01"
+    },
+    "bumper_front_b.bumper": {
+     "all": "bumper_f_02"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_01_fl_b",
+     "fr": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    }
+   }
+  },
+  "kaukaz_bratsk__basic_metalstud_truck_burnt_01": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_bratsk__basic.app",
+   "app_look": "metalstud_truck_burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f_a_01"
+    },
+    "base.window.window_f_b": {
+     "all": "window_f_b_01"
+    },
+    "base.window.window_f_c": {
+     "all": "window_f_c_01"
+    },
+    "base.window.window_f_d": {
+     "all": "window_f_d_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.8163,
+   0.4821,
+   0.4415,
+   -0.1726
+  ],
+  "b": [
+   0.8163,
+   0.4821,
+   0.4415,
+   -0.1726
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "54364057",
+   "rim": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_01",
+   "from": "Bratsk U4020",
+   "radius": 0.8163,
+   "width": 0.4821,
+   "rim_radius": 0.4415,
+   "tire_center": -0.1726,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 40,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "kaukaz_bratsk__basic:concrete_truck_01",
+    "kaukaz_bratsk__basic:container_truck_01",
+    "kaukaz_bratsk__basic:container_truck_02",
+    "kaukaz_bratsk__basic:container_truck_03",
+    "kaukaz_bratsk__basic:container_truck_04",
+    "kaukaz_bratsk__basic:container_truck_05",
+    "kaukaz_bratsk__basic:default",
+    "kaukaz_bratsk__basic:dump_truck_01",
+    "kaukaz_bratsk__basic:dump_truck_02",
+    "kaukaz_bratsk__basic:dump_truck_03",
+    "kaukaz_bratsk__basic:flatbed_truck_01",
+    "kaukaz_bratsk__basic:flatbed_truck_02",
+    "kaukaz_bratsk__basic:flatbed_truck_03",
+    "kaukaz_bratsk__basic:flatbed_truck_04",
+    "kaukaz_bratsk__basic:fuel_truck",
+    "kaukaz_bratsk__basic:machine_truck_01",
+    "kaukaz_bratsk__basic:machine_truck_02",
+    "kaukaz_bratsk__basic:q114_misile_truck",
+    "kaukaz_bratsk__basic_metalstud_truck_01",
+    "kaukaz_bratsk__basic_metalstud_truck_02"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Bratsk U4020"
+  ]
+ ]
+}

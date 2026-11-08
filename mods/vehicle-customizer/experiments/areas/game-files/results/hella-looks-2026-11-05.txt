@@ -1,0 +1,46 @@
+﻿base\vehicles\standard\v_standard2_archer_hella__basic_01.ent default: random count: 41
+  archer_hella__basic_combatcab_01           -> combatcab_01           base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_after_accident_01      -> after_accident_01      base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_1_4           -> suburban_1_4           base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_1             -> suburban_1             base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_2_2           -> suburban_2_2           base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_3_1               -> poor_3_1               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_1_6               -> poor_1_6               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_2_1               -> poor_2_1               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_3_4               -> poor_3_4               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_2                 -> poor_2                 base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_2_2               -> poor_2_2               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_1_5               -> poor_1_5               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_1_2           -> suburban_1_2           base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_1                 -> poor_1                 base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_2             -> suburban_2             base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_4_2               -> poor_4_2               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_2_1           -> suburban_2_1           base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_3_2               -> poor_3_2               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_4                 -> poor_4                 base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_1_7               -> poor_1_7               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_3                 -> poor_3                 base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_1_2               -> poor_1_2               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_1_3           -> suburban_1_3           base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_1_1               -> poor_1_1               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_2_3           -> suburban_2_3           base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_4_1               -> poor_4_1               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_3_3               -> poor_3_3               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_2_3               -> poor_2_3               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_1_4               -> poor_1_4               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_1_1           -> suburban_1_1           base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_2_4               -> poor_2_4               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_1_3               -> poor_1_3               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_burnt_01               -> burnt_01               base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_player_01              -> player_01              base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_suburban_2_4           -> suburban_2_4           base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_6th_street_01          -> 6th_street_01          base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_poor_1_new             -> poor_1_new             base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_player_burnt_01        -> player_burnt_01        base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_player_damaged         -> player_damaged         base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_ep_10                  -> ep_10                  base\vehicles\appearances\standard\archer_hella__basic.app
+  archer_hella__basic_q304_combatcab_01      -> q304_combatcab_01      base\vehicles\appearances\standard\archer_hella__basic.app
+has archer_hella__basic_deathrace_01: False
+has archer_hella__basic_player_01: True
+has archer_hella__basic_poor_2_2: True
+has archer_hella__basic_suburban_1_2: True

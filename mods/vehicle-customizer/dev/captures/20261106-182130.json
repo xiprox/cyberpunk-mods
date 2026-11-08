@@ -1,0 +1,38 @@
+{
+  "camera_forward": {
+    "x": 0.2,
+    "y": -1,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 15.6,
+    "x": -29.4,
+    "y": -998.7,
+    "z": 8.4
+  },
+  "look_object": {
+    "class": "DisposalDevice",
+    "entity_id": "2376472159315866029ULL",
+    "name": "Gameplay-Devices-DisplayNames-BrokenCar",
+    "position": {
+      "x": -31.1,
+      "y": -999.5,
+      "z": 7.3
+    }
+  },
+  "nearest": {
+    "distance": 51.9,
+    "id": "scrapyard_in_arroyo",
+    "name": "Scrapyard in Arroyo"
+  },
+  "note": "",
+  "player": {
+    "x": -32.5,
+    "y": -983.4,
+    "yaw": -168.5,
+    "z": 7.3
+  },
+  "stamp": "20261106-182130",
+  "time": "2026-11-06 18:21:30"
+}

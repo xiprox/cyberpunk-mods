@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# The disassembly from tools/ncre.py
+/build/
+
+# The zips for the crew, kept on disk
+dist/
+
+# NightCoop's own release of the SDK, unpacked beside it
+/vendor/nightcoop-sdk/NightCoop-SDK.zip

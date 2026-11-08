@@ -1,0 +1,26 @@
+Bratsk U4020 (kaukaz_bratsk__basic_dump_truck_01), from base\vehicles\utility\v_utility4_kaukaz_bratsk__basic_dump_truck_01.ent
+records: Vehicle.v_utility4_kaukaz_bratsk_dumpster, Vehicle.v_utility4_kaukaz_bratsk_dumpster_locked_doors
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  dump_truck_01            Dump truck       3 looks
+                                            paints: dump_truck_02, dump_truck_03
+WRECKS: dump_truck_burnt_01
+
+SLOTS (7)
+  Body [base.body] (Base): 1 options
+    body_01                                        17 paints  26 looks  [look: burnt_01] [look: concrete_truck_01] [look: concrete_truck_burnt_01] [look: container_truck_01] [look: container_truck_02] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     2 paints  26 looks  [look: burnt_01] [look: concrete_truck_01] [look: concrete_truck_burnt_01] [look: container_truck_01] [look: container_truck_02] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_01                                         4 paints  20 looks  [look: concrete_truck_01] [look: container_truck_01] [look: container_truck_02] [look: container_truck_03] [look: container_truck_04] ...
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                        17 paints  19 looks  [look: concrete_truck_01] [look: container_truck_01] [look: container_truck_02] [look: container_truck_03] [look: container_truck_04] ...
+  Front bumper (b) [bumper_front_b.bumper] (bumper_front_b): 1 options
+    bumper_f_02                                    17 paints  11 looks  [look: concrete_truck_01] [look: default] [look: flatbed_truck_01] [look: flatbed_truck_02] [look: flatbed_truck_03] ...
+  Front bumper (d) [bumper_front_d.bumper] (bumper_front_d): 1 options
+    bumper_f_01                                    17 paints   9 looks  [look: container_truck_01] [look: container_truck_02] [look: container_truck_03] [look: container_truck_04] [look: container_truck_05] ...
+  Tires (b) [wheel_b.tire] (wheel_front_left_b, wheel_front_right_b): 1 options
+    tire_01                                         4 paints  20 looks  [look: concrete_truck_01] [look: container_truck_01] [look: container_truck_02] [look: container_truck_03] [look: container_truck_04] ...
+
+KITS (0)

@@ -1,0 +1,4334 @@
+{
+ "id": "thorton_colby_pickup_nomad__basic_01",
+ "label": "Colby \"Vulture\"",
+ "entity": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad__basic_01.ent",
+ "family": "v_standard25_thorton_colby_pickup_nomad",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard25_thorton_colby_nomad_player",
+  "Vehicle.v_standard25_thorton_colby_nomad_player_missiles"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app"
+ ],
+ "styles": [
+  {
+   "id": "thorton_colby_pickup_nomad_aldecados_01",
+   "code": "thorton_colby_pickup_nomad_aldecados_01",
+   "label": "Thorton colby pickup nomad aldecados",
+   "base_look": "thorton_colby_pickup_nomad_aldecados_01",
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_01",
+    "thorton_colby_pickup_nomad_aldecados_01_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_6fe3",
+    "nomad_ac53",
+    "nomad_bd62"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_aldecados_02",
+   "code": "thorton_colby_pickup_nomad_aldecados_02",
+   "label": "Thorton colby pickup nomad aldecados 02",
+   "base_look": "thorton_colby_pickup_nomad_aldecados_02",
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_192d",
+    "nomad_4706",
+    "nomad_4840",
+    "nomad_6fe3",
+    "nomad_73d2",
+    "nomad_ac53",
+    "nomad_bd62",
+    "nomad_c7b5"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_aldecados_03",
+   "code": "thorton_colby_pickup_nomad_aldecados_03",
+   "label": "Thorton colby pickup nomad aldecados 03",
+   "base_look": "thorton_colby_pickup_nomad_aldecados_03",
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_192d",
+    "nomad_192d",
+    "nomad_4840",
+    "nomad_6fe3",
+    "nomad_73d2",
+    "nomad_ac53",
+    "nomad_b84f",
+    "nomad_bd62",
+    "nomad_c7b5"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_aldecados_05",
+   "code": "thorton_colby_pickup_nomad_aldecados_05",
+   "label": "Thorton colby pickup nomad aldecados 05",
+   "base_look": "thorton_colby_pickup_nomad_aldecados_05",
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_192d",
+    "nomad_192d",
+    "nomad_4706",
+    "nomad_4840",
+    "nomad_6fe3",
+    "nomad_73d2",
+    "nomad_ac53",
+    "nomad_b84f",
+    "nomad_bd62",
+    "nomad_c7b5"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_deathrace_01",
+   "code": "thorton_colby_pickup_nomad_deathrace_01",
+   "label": "Thorton colby pickup nomad deathrace",
+   "base_look": "thorton_colby_pickup_nomad_deathrace_01",
+   "looks": [
+    "thorton_colby_pickup_nomad_deathrace_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "door.door.door_mirror_a": "5f3f9104",
+    "window.window": "524df4cb"
+   },
+   "kits": [
+    "nomad_ac53",
+    "nomad_b84f",
+    "nomad_bd62"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_player_01",
+   "code": "thorton_colby_pickup_nomad_player_01",
+   "label": "Thorton colby pickup nomad player",
+   "base_look": "thorton_colby_pickup_nomad_player_01",
+   "looks": [
+    "thorton_colby_pickup_nomad_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "19cbac85",
+    "door.door": "a667d0db",
+    "door.door.door_mirror_a": "5f3f9104",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_6fe3",
+    "nomad_ac53",
+    "nomad_b84f",
+    "nomad_bd62"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_player_01_missiles",
+   "code": "thorton_colby_pickup_nomad_player_01_missiles",
+   "label": "Thorton colby pickup nomad player 01 missiles",
+   "base_look": "thorton_colby_pickup_nomad_player_01_missiles",
+   "looks": [
+    "thorton_colby_pickup_nomad_player_01_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "door.door.door_mirror_a": "5f3f9104",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_6fe3",
+    "nomad_ac53",
+    "nomad_b84f",
+    "nomad_bd62"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_wraiths_01",
+   "code": "thorton_colby_pickup_nomad_wraiths_01",
+   "label": "Thorton colby pickup nomad wraiths",
+   "base_look": "thorton_colby_pickup_nomad_wraiths_01",
+   "looks": [
+    "thorton_colby_pickup_nomad_wraiths_01",
+    "thorton_colby_pickup_nomad_wraiths_01_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_6fe3",
+    "nomad_ac53",
+    "nomad_b84f",
+    "nomad_bd62"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_wraiths_02",
+   "code": "thorton_colby_pickup_nomad_wraiths_02",
+   "label": "Thorton colby pickup nomad wraiths 02",
+   "base_look": "thorton_colby_pickup_nomad_wraiths_02",
+   "looks": [
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_192d",
+    "nomad_6fe3",
+    "nomad_73d2",
+    "nomad_ac53",
+    "nomad_bd62",
+    "nomad_c7b5"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_wraiths_03",
+   "code": "thorton_colby_pickup_nomad_wraiths_03",
+   "label": "Thorton colby pickup nomad wraiths 03",
+   "base_look": "thorton_colby_pickup_nomad_wraiths_03",
+   "looks": [
+    "thorton_colby_pickup_nomad_wraiths_03"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_4706",
+    "nomad_6fe3",
+    "nomad_ac53",
+    "nomad_bd62",
+    "nomad_c7b5"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_wraiths_04",
+   "code": "thorton_colby_pickup_nomad_wraiths_04",
+   "label": "Thorton colby pickup nomad wraiths 04",
+   "base_look": "thorton_colby_pickup_nomad_wraiths_04",
+   "looks": [
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_4840",
+    "nomad_6fe3",
+    "nomad_8f2c",
+    "nomad_ac53",
+    "nomad_af9d",
+    "nomad_bd62",
+    "nomad_c7b5"
+   ]
+  },
+  {
+   "id": "thorton_colby_pickup_nomad_wraiths_05",
+   "code": "thorton_colby_pickup_nomad_wraiths_05",
+   "label": "Thorton colby pickup nomad wraiths 05",
+   "base_look": "thorton_colby_pickup_nomad_wraiths_05",
+   "looks": [
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ],
+   "options": {
+    "bumper_front.bumper": "07575d50",
+    "bumper_back.bumper": "c59e0ffa",
+    "hood_a.hood": "71012652",
+    "trunk_a.trunk": "441bd6d0",
+    "base.body": "e88c085d",
+    "base.interior": "2da218bb",
+    "wheel.tire": "e5843c98",
+    "wheel.wheel": "2926f225",
+    "door.door": "a667d0db",
+    "window.window": "9370ffc3"
+   },
+   "kits": [
+    "nomad_09fe",
+    "nomad_192d",
+    "nomad_4840",
+    "nomad_6fe3",
+    "nomad_8f2c",
+    "nomad_ac53",
+    "nomad_bd62",
+    "nomad_c7b5"
+   ]
+  }
+ ],
+ "wrecks": [
+  "thorton_colby_pickup_nomad_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "07575d50",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wraiths_01",
+     "paints": [
+      "deathrace_01",
+      "wraiths_01",
+      "aldecados_01",
+      "aldecados_02",
+      "aldecados_03",
+      "aldecados_04"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "c59e0ffa",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "71012652",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "wraiths_01",
+      "deathrace_01",
+      "aldecados_01",
+      "player_01",
+      "wraiths_02"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "441bd6d0",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wraiths_01",
+     "paints": [
+      "wraiths_01",
+      "deathrace_01",
+      "aldecados_01",
+      "player_01",
+      "aldecados_03"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "e88c085d",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_05",
+     "paints": [
+      "deathrace_01",
+      "wraiths_01",
+      "aldecados_01",
+      "player_01",
+      "aldecados_02",
+      "aldecados_03",
+      "aldecados_04",
+      "aldecados_05",
+      "wraiths_02",
+      "wraiths_03",
+      "wraiths_04",
+      "wraiths_05"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_burnt_01",
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05",
+      "wreck:thorton_colby_pickup_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "2da218bb",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01",
+      "player_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_burnt_01",
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05",
+      "wreck:thorton_colby_pickup_nomad_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     -0.0035,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0029,
+     0.0,
+     0.0
+    ],
+    [
+     0.0754,
+     0.0,
+     0.0
+    ],
+    [
+     0.069,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "e5843c98",
+     "code": "tire_a_01",
+     "vehicle": "Galena \"Gecko\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "muddy_yellow",
+     "paints": [
+      "muddy_red",
+      "muddy_cyan",
+      "muddy_yellow",
+      "muddy_red_02",
+      "muddy_gray",
+      "muddy_red_03",
+      "muddy_green",
+      "muddy_white_01",
+      "dusty_gray"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     -0.0581,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0594,
+     0.0,
+     0.0
+    ],
+    [
+     0.0763,
+     0.0,
+     0.0
+    ],
+    [
+     0.0705,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_02_<c>_a",
+    "wheel_<c>_a_02"
+   ],
+   "options": [
+    {
+     "id": "2926f225",
+     "code": "wheel_a_01",
+     "vehicle": "Galena \"Gecko\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "aldecados_01",
+      "wraiths_01",
+      "deathrace_01",
+      "red_01",
+      "wraiths_01_dusty",
+      "aldecados_01_dusty",
+      "aldecados_01_dusty_light",
+      "red_01_dusty",
+      "deathrace_01_dusty"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05"
+     ]
+    },
+    {
+     "id": "19cbac85",
+     "code": "wheel_a_01",
+     "vehicle": "Galena \"Gecko\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "brown_01",
+     "paints": [
+      "deathrace_01",
+      "silver_01",
+      "brown_01",
+      "black_dusty",
+      "red",
+      "cyan",
+      "black",
+      "silver_dusty",
+      "red_dusty",
+      "black_dusty_light"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_player_01"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors: a",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "a667d0db",
+     "code": "door_01",
+     "vehicle": "Colby BARGHEST",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_door_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "aldecados_01",
+     "paints": [
+      "jake_estevez",
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "suburban_01",
+      "suburban_02",
+      "poor_04",
+      "poor_05",
+      "poor_primer_black",
+      "suburban_03",
+      "suburban_04a",
+      "suburban_04b",
+      "suburban_05",
+      "suburban_06",
+      "aldecados_01",
+      "player_01",
+      "aldecados_02",
+      "aldecados_03",
+      "aldecados_04",
+      "aldecados_05",
+      "wraith_02",
+      "wraith_03",
+      "wraith_04",
+      "wraith_05",
+      "wraith_01",
+      "kurtz_01",
+      "kurtz_q302",
+      "kurtz_03",
+      "militia_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door.door_mirror_a",
+   "label": "Doors: mirror a",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl"
+   ],
+   "mounts": [
+    "door_front_left_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_mirror_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "5f3f9104",
+     "code": "door_mirror_fl_01",
+     "vehicle": "Colby BARGHEST",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_door_mirror_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "jake_estevez",
+     "paints": [
+      "poor_primer_black",
+      "suburban_04a",
+      "suburban_04b",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_06",
+      "suburban_05",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "jake_estevez",
+      "kurtz_01",
+      "kurtz_q302",
+      "kurtz_03"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_deathrace_01",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_deathrace_01",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>",
+    "window_glass_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "9370ffc3",
+     "code": "window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wraiths_01",
+     "paints": [
+      "aldecados_01",
+      "player_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_aldecados_01",
+      "thorton_colby_pickup_nomad_aldecados_01_missiles",
+      "thorton_colby_pickup_nomad_aldecados_02",
+      "thorton_colby_pickup_nomad_aldecados_02_missiles",
+      "thorton_colby_pickup_nomad_aldecados_03",
+      "thorton_colby_pickup_nomad_aldecados_04",
+      "thorton_colby_pickup_nomad_aldecados_04_missiles",
+      "thorton_colby_pickup_nomad_aldecados_05",
+      "thorton_colby_pickup_nomad_aldecados_05_missiles",
+      "thorton_colby_pickup_nomad_player_01",
+      "thorton_colby_pickup_nomad_player_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_01",
+      "thorton_colby_pickup_nomad_wraiths_01_missiles",
+      "thorton_colby_pickup_nomad_wraiths_02",
+      "thorton_colby_pickup_nomad_wraiths_02_missiles",
+      "thorton_colby_pickup_nomad_wraiths_03",
+      "thorton_colby_pickup_nomad_wraiths_04",
+      "thorton_colby_pickup_nomad_wraiths_04_missiles",
+      "thorton_colby_pickup_nomad_wraiths_05",
+      "thorton_colby_pickup_nomad_wraiths_05_missiles"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_aldecados_01",
+      "style:thorton_colby_pickup_nomad_aldecados_02",
+      "style:thorton_colby_pickup_nomad_aldecados_03",
+      "style:thorton_colby_pickup_nomad_aldecados_05",
+      "style:thorton_colby_pickup_nomad_player_01",
+      "style:thorton_colby_pickup_nomad_player_01_missiles",
+      "style:thorton_colby_pickup_nomad_wraiths_01",
+      "style:thorton_colby_pickup_nomad_wraiths_02",
+      "style:thorton_colby_pickup_nomad_wraiths_03",
+      "style:thorton_colby_pickup_nomad_wraiths_04",
+      "style:thorton_colby_pickup_nomad_wraiths_05"
+     ]
+    },
+    {
+     "id": "524df4cb",
+     "code": "window_01",
+     "vehicle": "Colby BARGHEST",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup\\entities\\meshes\\v_standard25_thorton_colby_pickup__ext01_window_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01"
+     ],
+     "looks": [
+      "thorton_colby_pickup_nomad_deathrace_01"
+     ],
+     "origins": [
+      "style:thorton_colby_pickup_nomad_deathrace_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "nomad_af9d",
+   "family": "nomad",
+   "code": "door_fl_stickers_wraith_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_stickers_wraiths_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_door_fl_stickers_wraith_01.mesh",
+     "code": "door_fl_stickers_wraith_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_wraiths_04",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_wraiths_04"
+   ]
+  },
+  {
+   "id": "nomad_192d",
+   "family": "nomad",
+   "code": "door_fr_stickers_02",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_door_fr_stickers_02.mesh",
+     "code": "door_fr_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0059,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_02",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_02",
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_wraiths_02",
+    "style:thorton_colby_pickup_nomad_wraiths_05"
+   ]
+  },
+  {
+   "id": "nomad_192d",
+   "family": "nomad",
+   "code": "door_fr_stickers_03",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_stickers_aldecaldos_03",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_door_fr_stickers_03.mesh",
+     "code": "door_fr_stickers_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0176,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_03",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05"
+   ]
+  },
+  {
+   "id": "nomad_8f2c",
+   "family": "nomad",
+   "code": "door_fr_stickers_wraith_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fr_stickers_wraiths_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_door_fr_stickers_wraith_01.mesh",
+     "code": "door_fr_stickers_wraith_01",
+     "paint": "wraiths_01",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0099,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_wraiths_04",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_wraiths_04",
+    "style:thorton_colby_pickup_nomad_wraiths_05"
+   ]
+  },
+  {
+   "id": "nomad_09fe",
+   "family": "nomad",
+   "code": "kit_nomad_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "detachable_light_device_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_01.mesh",
+     "code": "electric_device_medium_01",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.1783,
+      -0.3936,
+      0.819
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_01_shadow.mesh",
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_light_device_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02.mesh",
+     "code": "light_device_medium_02",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.0138,
+      -0.0483,
+      0.8653
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02_shadow.mesh",
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_sensor_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02.mesh",
+     "code": "sensor_medium_02",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.6716,
+      2.241,
+      0.1915
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_02_shadow.mesh",
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_window_f_01.mesh",
+     "code": "window_f_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ml_a",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_f_ml_a_01.mesh",
+     "code": "crystaldome_f_ml_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ml_b",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_f_ml_b_01.mesh",
+     "code": "crystaldome_f_ml_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_a",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_f_mr_a_01.mesh",
+     "code": "crystaldome_f_mr_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_b",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_f_mr_b_01.mesh",
+     "code": "crystaldome_f_mr_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ol_a",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_f_ol_a_01.mesh",
+     "code": "crystaldome_f_ol_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ol_b",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_f_ol_b_01.mesh",
+     "code": "crystaldome_f_ol_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_or_a",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_f_or_a_01.mesh",
+     "code": "crystaldome_f_or_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_or_b",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_f_or_b_01.mesh",
+     "code": "crystaldome_f_or_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_01",
+    "thorton_colby_pickup_nomad_aldecados_01_missiles",
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_burnt_01",
+    "thorton_colby_pickup_nomad_player_01",
+    "thorton_colby_pickup_nomad_player_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_01",
+    "thorton_colby_pickup_nomad_wraiths_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles",
+    "thorton_colby_pickup_nomad_wraiths_03",
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_01",
+    "style:thorton_colby_pickup_nomad_aldecados_02",
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_player_01",
+    "style:thorton_colby_pickup_nomad_player_01_missiles",
+    "style:thorton_colby_pickup_nomad_wraiths_01",
+    "style:thorton_colby_pickup_nomad_wraiths_02",
+    "style:thorton_colby_pickup_nomad_wraiths_03",
+    "style:thorton_colby_pickup_nomad_wraiths_04",
+    "style:thorton_colby_pickup_nomad_wraiths_05",
+    "wreck:thorton_colby_pickup_nomad_burnt_01"
+   ]
+  },
+  {
+   "id": "nomad_6fe3",
+   "family": "nomad",
+   "code": "kit_nomad_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "crystaldome_fl_b_a",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_fl_b_a_01.mesh",
+     "code": "crystaldome_fl_b_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "crystaldome_fl_b_b",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_fl_b_b_01.mesh",
+     "code": "crystaldome_fl_b_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "crystaldome_fl_f_a",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_fl_f_a_01.mesh",
+     "code": "crystaldome_fl_f_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.01
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "crystaldome_fl_f_b",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_fl_f_b_01.mesh",
+     "code": "crystaldome_fl_f_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fl",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_left_a"
+    },
+    {
+     "name": "crystaldome_fr_b_a",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_fr_b_a_01.mesh",
+     "code": "crystaldome_fr_b_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "crystaldome_fr_b_b",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_fr_b_b_01.mesh",
+     "code": "crystaldome_fr_b_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "crystaldome_fr_f_a",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_fr_f_a_01.mesh",
+     "code": "crystaldome_fr_f_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "crystaldome_fr_f_b",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_crystaldome_fr_f_b_01.mesh",
+     "code": "crystaldome_fr_f_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "window_fr",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:window_front_right_a"
+    },
+    {
+     "name": "detachable_sensor_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_01.mesh",
+     "code": "sensor_medium_01",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      -0.0522,
+      -0.1991,
+      0.3413
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_01_shadow.mesh",
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "door_fl_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_door_fl_stickers_01.mesh",
+     "code": "door_fl_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_door_fr_stickers_01.mesh",
+     "code": "door_fr_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0048,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_01",
+    "thorton_colby_pickup_nomad_aldecados_01_missiles",
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_player_01",
+    "thorton_colby_pickup_nomad_player_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_01",
+    "thorton_colby_pickup_nomad_wraiths_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles",
+    "thorton_colby_pickup_nomad_wraiths_03",
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:window.window"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_01",
+    "style:thorton_colby_pickup_nomad_aldecados_02",
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_player_01",
+    "style:thorton_colby_pickup_nomad_player_01_missiles",
+    "style:thorton_colby_pickup_nomad_wraiths_01",
+    "style:thorton_colby_pickup_nomad_wraiths_02",
+    "style:thorton_colby_pickup_nomad_wraiths_03",
+    "style:thorton_colby_pickup_nomad_wraiths_04",
+    "style:thorton_colby_pickup_nomad_wraiths_05"
+   ]
+  },
+  {
+   "id": "nomad_ac53",
+   "family": "nomad",
+   "code": "kit_nomad_body_interior",
+   "where": [
+    "body",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "detachable_detector_medium_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.6937,
+      2.2747,
+      -0.122
+     ],
+     "rotation": [
+      -0.26561257243156433,
+      0.07366088777780533,
+      -0.2568860352039337,
+      0.926301121711731
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_detector_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.639,
+      2.1567,
+      -0.2425
+     ],
+     "rotation": [
+      -0.429969847202301,
+      0.11924119293689728,
+      -0.23916083574295044,
+      0.8623861074447632
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_detector_medium_1524",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.6322,
+      2.1564,
+      -0.2329
+     ],
+     "rotation": [
+      -0.429969847202301,
+      -0.11924119293689728,
+      0.23916083574295044,
+      0.8623861074447632
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_detector_medium_8856",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01.mesh",
+     "code": "detector_medium_01",
+     "paint": "dusty_light_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.6809,
+      2.2696,
+      -0.122
+     ],
+     "rotation": [
+      -0.26561257243156433,
+      -0.07366088777780533,
+      0.2568860352039337,
+      0.926301121711731
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh",
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "detachable_light_device_small_01",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_small_01.mesh",
+     "code": "light_device_small_01",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.4249,
+      -0.4041,
+      0.8212
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_small_01_shadow.mesh",
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "engine",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_engine_01.mesh",
+     "code": "engine_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "fx_cutout",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\colby_pickup_fx_cutout.mesh",
+     "code": "colby_pickup_fx_cutout",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "interior_02_frame",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__int01_interior_02.mesh",
+     "code": "interior_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "trunk_tire_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+     "code": "tire_bl_a_01",
+     "paint": "muddy_yellow",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.2046,
+      -1.1105,
+      0.4583
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.7071068286895752,
+      0.7071068286895752
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "trunk_wheel_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+     "code": "wheel_bl_a_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.2046,
+      -1.1105,
+      0.4583
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.7071068286895752,
+      0.7071068286895752
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_01",
+    "thorton_colby_pickup_nomad_aldecados_01_missiles",
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_burnt_01",
+    "thorton_colby_pickup_nomad_deathrace_01",
+    "thorton_colby_pickup_nomad_player_01",
+    "thorton_colby_pickup_nomad_player_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_01",
+    "thorton_colby_pickup_nomad_wraiths_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles",
+    "thorton_colby_pickup_nomad_wraiths_03",
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_01",
+    "style:thorton_colby_pickup_nomad_aldecados_02",
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_deathrace_01",
+    "style:thorton_colby_pickup_nomad_player_01",
+    "style:thorton_colby_pickup_nomad_player_01_missiles",
+    "style:thorton_colby_pickup_nomad_wraiths_01",
+    "style:thorton_colby_pickup_nomad_wraiths_02",
+    "style:thorton_colby_pickup_nomad_wraiths_03",
+    "style:thorton_colby_pickup_nomad_wraiths_04",
+    "style:thorton_colby_pickup_nomad_wraiths_05",
+    "wreck:thorton_colby_pickup_nomad_burnt_01"
+   ]
+  },
+  {
+   "id": "nomad_4840",
+   "family": "nomad",
+   "code": "kit_nomad_bumper_hood",
+   "where": [
+    "bumper",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "bumper_f_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_bumper_stickers_aldecaldos_01.mesh",
+     "code": "bumper_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0014,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_02",
+     "parent": "vehicle_slots:bumper_front"
+    },
+    {
+     "name": "hood_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_hood_stickers_aldecaldos_01.mesh",
+     "code": "hood_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_02",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper",
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_02",
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_wraiths_04",
+    "style:thorton_colby_pickup_nomad_wraiths_05"
+   ]
+  },
+  {
+   "id": "nomad_c7b5",
+   "family": "nomad",
+   "code": "kit_nomad_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_stickers_aldecaldos_02",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_door_fl_stickers_02.mesh",
+     "code": "door_fl_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_02",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fl_stickers_aldecaldos_03",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_door_fl_stickers_03.mesh",
+     "code": "door_fl_stickers_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_02",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fl_stickers_aldecaldos_04",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_door_fl_stickers_04.mesh",
+     "code": "door_fl_stickers_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_02",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles",
+    "thorton_colby_pickup_nomad_wraiths_03",
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_02",
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_wraiths_02",
+    "style:thorton_colby_pickup_nomad_wraiths_03",
+    "style:thorton_colby_pickup_nomad_wraiths_04",
+    "style:thorton_colby_pickup_nomad_wraiths_05"
+   ]
+  },
+  {
+   "id": "nomad_bd62",
+   "family": "nomad",
+   "code": "kit_nomad_hood",
+   "where": [
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "detachable_sensor_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03.mesh",
+     "code": "sensor_medium_03",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      -0.0438,
+      0.5213,
+      -0.0681
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "hood_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_hood_stickers_01.mesh",
+     "code": "hood_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.002
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_01",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_01",
+    "thorton_colby_pickup_nomad_aldecados_01_missiles",
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_deathrace_01",
+    "thorton_colby_pickup_nomad_player_01",
+    "thorton_colby_pickup_nomad_player_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_01",
+    "thorton_colby_pickup_nomad_wraiths_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles",
+    "thorton_colby_pickup_nomad_wraiths_03",
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ],
+   "made_for": [
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_01",
+    "style:thorton_colby_pickup_nomad_aldecados_02",
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_deathrace_01",
+    "style:thorton_colby_pickup_nomad_player_01",
+    "style:thorton_colby_pickup_nomad_player_01_missiles",
+    "style:thorton_colby_pickup_nomad_wraiths_01",
+    "style:thorton_colby_pickup_nomad_wraiths_02",
+    "style:thorton_colby_pickup_nomad_wraiths_03",
+    "style:thorton_colby_pickup_nomad_wraiths_04",
+    "style:thorton_colby_pickup_nomad_wraiths_05"
+   ]
+  },
+  {
+   "id": "nomad_73d2",
+   "family": "nomad",
+   "code": "trunk_stickers_aldecaldos_01",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "trunk_stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad__ext01_trunk_stickers_aldecaldos_01.mesh",
+     "code": "trunk_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_02",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_02",
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_wraiths_02"
+   ]
+  },
+  {
+   "id": "nomad_b84f",
+   "family": "nomad",
+   "code": "wheel_fl_a_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "trunk_wheel_2",
+     "mesh": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+     "code": "wheel_fl_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.2046,
+      -1.0465,
+      0.4583
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.7071068286895752,
+      0.7071068286895752
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_wraiths_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_deathrace_01",
+    "thorton_colby_pickup_nomad_player_01",
+    "thorton_colby_pickup_nomad_player_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_01",
+    "thorton_colby_pickup_nomad_wraiths_01_missiles"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_03",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_deathrace_01",
+    "style:thorton_colby_pickup_nomad_player_01",
+    "style:thorton_colby_pickup_nomad_player_01_missiles",
+    "style:thorton_colby_pickup_nomad_wraiths_01"
+   ]
+  },
+  {
+   "id": "nomad_4706",
+   "family": "nomad",
+   "code": "window_fl_aldecaldos_sticker_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "window_fl_aldecaldos_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_thorton_colby_pickup_nomad\\entities\\meshes\\v_standard25_thorton_colby_pickup_nomad_window_fl_aldecaldos_sticker_01.mesh",
+     "code": "window_fl_aldecaldos_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard25_thorton_colby_pickup__ext01_window_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "thorton_colby_pickup_nomad_aldecados_02",
+     "parent": "vehicle_slots:window_front_left_a"
+    }
+   ],
+   "looks": [
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_wraiths_03"
+   ],
+   "made_for": [
+    "slot:window.window"
+   ],
+   "needs": [],
+   "origins": [
+    "style:thorton_colby_pickup_nomad_aldecados_02",
+    "style:thorton_colby_pickup_nomad_aldecados_05",
+    "style:thorton_colby_pickup_nomad_wraiths_03"
+   ]
+  }
+ ],
+ "looks": {
+  "thorton_colby_pickup_nomad_player_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "player_01",
+   "style": "thorton_colby_pickup_nomad_player_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror_a": {
+     "fl": "door_mirror_fl_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_02_fl_a",
+     "fr": "wheel_02_fr_a",
+     "bl": "wheel_bl_a_02",
+     "br": "wheel_02_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_deathrace_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "deathrace_01",
+   "style": "thorton_colby_pickup_nomad_deathrace_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror_a": {
+     "fl": "door_mirror_fl_a"
+    },
+    "window.window": {
+     "fl": "window_glass_fl_01",
+     "fr": "window_glass_fr_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.window": {
+     "all": "window_glass_f_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_wraiths_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "wraiths_01",
+   "style": "thorton_colby_pickup_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_aldecados_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "aldecados_01",
+   "style": "thorton_colby_pickup_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_wraiths_05": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "wraiths_05",
+   "style": "thorton_colby_pickup_nomad_wraiths_05",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_wraiths_03": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "wraiths_03",
+   "style": "thorton_colby_pickup_nomad_wraiths_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_aldecados_05": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "aldecados_05",
+   "style": "thorton_colby_pickup_nomad_aldecados_05",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_aldecados_03": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "aldecados_03",
+   "style": "thorton_colby_pickup_nomad_aldecados_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_wraiths_04": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "wraiths_04",
+   "style": "thorton_colby_pickup_nomad_wraiths_04",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_wraiths_02": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "wraiths_02",
+   "style": "thorton_colby_pickup_nomad_wraiths_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_aldecados_04": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "aldecados_04",
+   "style": "thorton_colby_pickup_nomad_aldecados_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_aldecados_02": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "aldecados_02",
+   "style": "thorton_colby_pickup_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_player_01_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "player_01_missiles",
+   "style": "thorton_colby_pickup_nomad_player_01_missiles",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "door.door.door_mirror_a": {
+     "fl": "door_mirror_fl_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_wraiths_01_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "wraiths_01_missiles",
+   "style": "thorton_colby_pickup_nomad_wraiths_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_aldecados_01_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "aldecados_01_missiles",
+   "style": "thorton_colby_pickup_nomad_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_wraiths_04_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "wraiths_04_missiles",
+   "style": "thorton_colby_pickup_nomad_wraiths_04",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_aldecados_04_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "aldecados_04_missiles",
+   "style": "thorton_colby_pickup_nomad_aldecados_03",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_aldecados_05_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "aldecados_05_missiles",
+   "style": "thorton_colby_pickup_nomad_aldecados_05",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_aldecados_02_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "aldecados_02_missiles",
+   "style": "thorton_colby_pickup_nomad_aldecados_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_wraiths_05_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "wraiths_05_missiles",
+   "style": "thorton_colby_pickup_nomad_wraiths_05",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_colby_pickup_nomad_wraiths_02_missiles": {
+   "app": "base\\vehicles\\appearances\\standard\\thorton_colby_pickup_nomad.app",
+   "app_look": "wraiths_02_missiles",
+   "style": "thorton_colby_pickup_nomad_wraiths_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3226,
+   0.2104,
+   0.2351,
+   -0.1246
+  ],
+  "b": [
+   0.331,
+   0.3468,
+   0.2351,
+   -0.1348
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "b24d0f7e",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_bl_a_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2351,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 20,
+   "paints": [
+    "aldecados_01",
+    "wraiths_01",
+    "deathrace_01",
+    "red_01",
+    "wraiths_01_dusty",
+    "aldecados_01_dusty",
+    "aldecados_01_dusty_light",
+    "red_01_dusty",
+    "deathrace_01_dusty"
+   ],
+   "default_paint": "aldecados_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby_pickup_nomad_aldecados_01",
+    "thorton_colby_pickup_nomad_aldecados_01_missiles",
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_deathrace_01",
+    "thorton_colby_pickup_nomad_player_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_01",
+    "thorton_colby_pickup_nomad_wraiths_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles",
+    "thorton_colby_pickup_nomad_wraiths_03",
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ]
+  },
+  {
+   "id": "1f0de292",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_bl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.3226,
+   "width": 0.2104,
+   "rim_radius": 0.2351,
+   "tire_center": -0.1246,
+   "axles": [
+    "f"
+   ],
+   "looks": 20,
+   "paints": [
+    "aldecados_01",
+    "wraiths_01",
+    "deathrace_01",
+    "red_01",
+    "wraiths_01_dusty",
+    "aldecados_01_dusty",
+    "aldecados_01_dusty_light",
+    "red_01_dusty",
+    "deathrace_01_dusty"
+   ],
+   "default_paint": "wraiths_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby_pickup_nomad_aldecados_01",
+    "thorton_colby_pickup_nomad_aldecados_01_missiles",
+    "thorton_colby_pickup_nomad_aldecados_02",
+    "thorton_colby_pickup_nomad_aldecados_02_missiles",
+    "thorton_colby_pickup_nomad_aldecados_03",
+    "thorton_colby_pickup_nomad_aldecados_04",
+    "thorton_colby_pickup_nomad_aldecados_04_missiles",
+    "thorton_colby_pickup_nomad_aldecados_05",
+    "thorton_colby_pickup_nomad_aldecados_05_missiles",
+    "thorton_colby_pickup_nomad_deathrace_01",
+    "thorton_colby_pickup_nomad_player_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_01",
+    "thorton_colby_pickup_nomad_wraiths_01_missiles",
+    "thorton_colby_pickup_nomad_wraiths_02",
+    "thorton_colby_pickup_nomad_wraiths_02_missiles",
+    "thorton_colby_pickup_nomad_wraiths_03",
+    "thorton_colby_pickup_nomad_wraiths_04",
+    "thorton_colby_pickup_nomad_wraiths_04_missiles",
+    "thorton_colby_pickup_nomad_wraiths_05",
+    "thorton_colby_pickup_nomad_wraiths_05_missiles"
+   ]
+  },
+  {
+   "id": "d92da616",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.3226,
+   "width": 0.2104,
+   "rim_radius": 0.2361,
+   "tire_center": -0.1246,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [
+    "deathrace_01",
+    "silver_01",
+    "brown_01",
+    "black_dusty",
+    "red",
+    "cyan",
+    "black",
+    "silver_dusty",
+    "red_dusty",
+    "black_dusty_light"
+   ],
+   "default_paint": "brown_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby_pickup_nomad_player_01"
+   ]
+  },
+  {
+   "id": "ba9067ca",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2361,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [
+    "deathrace_01",
+    "silver_01",
+    "brown_01",
+    "black_dusty",
+    "red",
+    "cyan",
+    "black",
+    "silver_dusty",
+    "red_dusty",
+    "black_dusty_light"
+   ],
+   "default_paint": "brown_01",
+   "kind": "car",
+   "look_names": [
+    "thorton_colby_pickup_nomad_player_01"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "thorton_colby_pickup_nomad_player_01",
+   "Colby \"Little Mule\""
+  ],
+  [
+   "thorton_colby_pickup_nomad_player_01_missiles",
+   "Colby \"Vulture\""
+  ]
+ ]
+}

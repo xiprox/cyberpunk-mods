@@ -1,0 +1,59 @@
+Deleon V410-S Coupe (villefort_deleon_01_ep1), from ep1\vehicles\sport\v_sport2_villefort_deleon_01.ent
+records: Vehicle.v_sport2_villefort_deleon_player, Vehicle.v_sport2_villefort_deleon_sport_player
+generated 2026-11-08
+
+STYLES (5; a style's other looks are its factory paints)
+  villefort_deleon_basic_player_01 Villefort deleon basic player 1 looks
+                                            kits: bumper_f_player_01, bumper_b_stickers_01
+  villefort_deleon_basic_poor_01 Villefort deleon basic poor 9 looks
+                                            paints: villefort_deleon_basic_poor_04, villefort_deleon_basic_poor_06, villefort_deleon_basic_poor_07, villefort_deleon_basic_poor_08, villefort_deleon_basic_poor_11, villefort_deleon_basic_poor_12, villefort_deleon_basic_poor_14, villefort_deleon_basic_q301_no_wheels_01
+                                            kits: bumper_b_stickers_01
+  villefort_deleon_basic_poor_02 Villefort deleon basic poor 02 20 looks
+                                            paints: villefort_deleon_basic_poor_03, villefort_deleon_basic_poor_05, villefort_deleon_basic_poor_09, villefort_deleon_basic_poor_10, villefort_deleon_basic_poor_13, villefort_deleon_basic_poor_15, villefort_deleon_basic_web_01, villefort_deleon_basic_urban_02, villefort_deleon_basic_urban_04, villefort_deleon_basic_urban_06, villefort_deleon_basic_urban_08, villefort_deleon_basic_urban_09, villefort_deleon_basic_suburban_01, villefort_deleon_basic_suburban_03, villefort_deleon_basic_suburban_05, villefort_deleon_basic_suburban_06, villefort_deleon_basic_suburban_07, villefort_deleon_basic_suburban_10, villefort_deleon_basic_q301_no_wheels_02
+                                            kits: bumper_b_stickers_01
+  villefort_deleon_basic_suburban_02 Villefort deleon basic suburban 02 4 looks
+                                            paints: villefort_deleon_basic_suburban_04, villefort_deleon_basic_suburban_08, villefort_deleon_basic_suburban_09
+                                            kits: bumper_b_stickers_01
+  villefort_deleon_basic_urban_01 Villefort deleon basic urban 5 looks
+                                            paints: villefort_deleon_basic_urban_03, villefort_deleon_basic_urban_05, villefort_deleon_basic_urban_07, villefort_deleon_basic_urban_10
+                                            kits: bumper_b_stickers_01
+WRECKS: villefort_deleon_basic_burnt_01
+
+SLOTS (11)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                    36 paints  40 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                    36 paints  40 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        36 paints  40 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       36 paints  40 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+  Body [base.body] (Base): 1 options
+    body_01                                        36 paints  41 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+  Exhaust [base.exhaust] (Base): 1 options
+    exhaust_01                                      3 paints  41 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    36 paints  41 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 5 options
+    tire_01                                         6 paints  20 looks  [style: Villefort deleon basic poor 02]
+    tire_02                                         0 paints  10 looks  [car: Cortes V5000 Valor] [look: default] [style: Villefort deleon basic poor]
+    tire_01                                         3 paints   5 looks  [car: v_sport1_herrera_outlaw] [style: Villefort deleon basic urban]
+    tire_01                                         5 paints   4 looks  [car: Quartz EC-T2 r660] [style: Villefort deleon basic suburban 02]
+    tire_player_01                                  0 paints   1 looks  [style: Villefort deleon basic player]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 6 options
+    wheel_01                                        7 paints  20 looks  [style: Villefort deleon basic poor 02]
+    wheel_cortes_02                                 5 paints   9 looks  [style: Villefort deleon basic poor]
+    wheel_outlaw                                    3 paints   5 looks  [style: Villefort deleon basic urban]
+    wheel_02                                        5 paints   4 looks  [car: Quartz EC-T2 r660] [style: Villefort deleon basic suburban 02]
+    wheel_01                                        0 paints   1 looks  [car: 911 Turbo (930)] [style: Villefort deleon basic player]
+    wheel_02                                        1 paints   1 looks  [car: Cortes V5000 Valor] [look: default]
+  Doors: a [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                        36 paints  40 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+  Doors: mirror [door.door.mirror] (door_front_left_a, door_front_right_a): 1 options
+    door_mirror_01                                 36 paints  40 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+
+KITS (2)
+  bumper_f_player_01                             1 parts   1 looks  [style: Villefort deleon basic player]
+                                                 made to sit on Front bumper
+  bumper_b_stickers_01                           1 parts  40 looks  [look: default] [style: Villefort deleon basic player] [style: Villefort deleon basic poor] [style: Villefort deleon basic poor 02] [style: Villefort deleon basic suburban 02] ...
+                                                 made to sit on Rear bumper

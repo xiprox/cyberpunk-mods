@@ -1,0 +1,2659 @@
+{
+ "id": "brennan_apollo_basic_01",
+ "label": "Apollo 650-S",
+ "entity": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo_basic_01.ent",
+ "family": "v_sportbike3_brennan_apollo_basic",
+ "garage": true,
+ "default_look": "kurtz_01",
+ "records": [
+  "Vehicle.v_sportbike3_brennan_apollo_nomad_player",
+  "Vehicle.v_sportbike3_brennan_apollo_player",
+  "Vehicle.v_sportbike3_brennan_apollo_player_02"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+  "base\\vehicles\\appearances\\sportbike\\brennan_apollo_police_basic.app",
+  "ep1\\vehicles\\appearances\\sportbike\\brennan_apollo_police_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "brennan_apollo_basic_adventure_01",
+   "code": "brennan_apollo_basic_adventure_01",
+   "label": "Brennan apollo basic adventure",
+   "base_look": "brennan_apollo_basic_adventure_01",
+   "looks": [
+    "brennan_apollo_basic_adventure_01",
+    "brennan_apollo_basic_adventure_01_1",
+    "brennan_apollo_basic_adventure_01_2"
+   ],
+   "options": {
+    "base.body": "66eb4673",
+    "base.body.body_c": "b74b5069",
+    "base.exhaust": "ea15b07b",
+    "base.fairing": "64f378ef",
+    "axle_back_wheel.tire": "ea369c5f",
+    "axle_back_wheel.wheel": "2ad8d229",
+    "wheel_front_rot_set.tire": "86d60545",
+    "wheel_front_rot_set.wheel": "d2bf2f4f"
+   },
+   "kits": [
+    "nomad_ec25"
+   ]
+  },
+  {
+   "id": "brennan_apollo_basic_aldecados_01",
+   "code": "brennan_apollo_basic_aldecados_01",
+   "label": "Brennan apollo basic aldecados",
+   "base_look": "brennan_apollo_basic_aldecados_01",
+   "looks": [
+    "brennan_apollo_basic_aldecados_01",
+    "brennan_apollo_basic_aldecados_02",
+    "brennan_apollo_basic_aldecados_03"
+   ],
+   "options": {
+    "base.body": "66eb4673",
+    "base.body.body_c": "b74b5069",
+    "base.exhaust": "ea15b07b",
+    "base.fairing": "e9319703",
+    "axle_back_wheel.tire": "ea369c5f",
+    "axle_back_wheel.wheel": "2ad8d229",
+    "wheel_front_rot_set.tire": "86d60545",
+    "wheel_front_rot_set.wheel": "d2bf2f4f"
+   },
+   "kits": [
+    "nomad_77ef"
+   ]
+  },
+  {
+   "id": "brennan_apollo_basic_brennan_apollo_v2",
+   "code": "brennan_apollo_basic_brennan_apollo_v2",
+   "label": "Brennan apollo basic brennan apollo v2",
+   "base_look": "brennan_apollo_basic_brennan_apollo_v2",
+   "looks": [
+    "brennan_apollo_basic_brennan_apollo_v2",
+    "brennan_apollo_basic_brennan_apollo_v2_1",
+    "brennan_apollo_basic_brennan_apollo_v2_2"
+   ],
+   "options": {
+    "base.body": "66eb4673",
+    "base.body.body_c": "391d443e",
+    "base.exhaust": "ea15b07b",
+    "base.fairing": "4addf82a",
+    "axle_back_wheel.tire": "ea369c5f",
+    "axle_back_wheel.wheel": "2ad8d229",
+    "wheel_front_rot_set.tire": "86d60545",
+    "wheel_front_rot_set.wheel": "d2bf2f4f"
+   },
+   "kits": [
+    "nomad_ec25"
+   ]
+  },
+  {
+   "id": "brennan_apollo_basic_brennan_apollo_v3",
+   "code": "brennan_apollo_basic_brennan_apollo_v3",
+   "label": "Brennan apollo basic brennan apollo v3",
+   "base_look": "brennan_apollo_basic_brennan_apollo_v3",
+   "looks": [
+    "brennan_apollo_basic_brennan_apollo_v3",
+    "brennan_apollo_basic_brennan_apollo_v3_1"
+   ],
+   "options": {
+    "base.body": "66eb4673",
+    "base.exhaust": "ea15b07b",
+    "base.fairing": "a9dfe655",
+    "axle_back_wheel.tire": "ea369c5f",
+    "axle_back_wheel.wheel": "2ad8d229",
+    "wheel_front_rot_set.tire": "86d60545",
+    "wheel_front_rot_set.wheel": "d2bf2f4f"
+   },
+   "kits": []
+  },
+  {
+   "id": "brennan_apollo_basic_brennan_damage",
+   "code": "brennan_apollo_basic_brennan_damage",
+   "label": "Brennan apollo basic brennan damage",
+   "base_look": "brennan_apollo_basic_brennan_damage",
+   "looks": [
+    "brennan_apollo_basic_brennan_damage"
+   ],
+   "options": {},
+   "kits": []
+  },
+  {
+   "id": "brennan_apollo_basic_player_01",
+   "code": "brennan_apollo_basic_player_01",
+   "label": "Brennan apollo basic player",
+   "base_look": "brennan_apollo_basic_player_01",
+   "looks": [
+    "brennan_apollo_basic_player_01"
+   ],
+   "options": {
+    "base.body": "66eb4673",
+    "base.body.body_c": "b74b5069",
+    "base.exhaust": "ea15b07b",
+    "base.fairing": "64f378ef",
+    "axle_back_wheel.tire": "ea369c5f",
+    "axle_back_wheel.wheel": "2ad8d229",
+    "wheel_front_rot_set.tire": "86d60545",
+    "wheel_front_rot_set.wheel": "d2bf2f4f"
+   },
+   "kits": []
+  },
+  {
+   "id": "brennan_apollo_basic_player_02",
+   "code": "brennan_apollo_basic_player_02",
+   "label": "Brennan apollo basic player 02",
+   "base_look": "brennan_apollo_basic_player_02",
+   "looks": [
+    "brennan_apollo_basic_player_02"
+   ],
+   "options": {
+    "base.body": "b3ec3998",
+    "base.body.body_c": "3e7e5fb7",
+    "base.exhaust": "de28d04e",
+    "base.fairing": "72d51983",
+    "axle_back_wheel.tire": "1a634db8",
+    "axle_back_wheel.wheel": "3a8c41f6",
+    "wheel_front_rot_set.tire": "e2bbe852",
+    "wheel_front_rot_set.wheel": "1dcc6a68"
+   },
+   "kits": [
+    "player_2bc7"
+   ]
+  },
+  {
+   "id": "brennan_apollo_basic_scorpion",
+   "code": "brennan_apollo_basic_scorpion",
+   "label": "Brennan apollo basic scorpion",
+   "base_look": "brennan_apollo_basic_scorpion",
+   "looks": [
+    "brennan_apollo_basic_scorpion"
+   ],
+   "options": {
+    "base.body": "66eb4673",
+    "base.exhaust": "ea15b07b",
+    "base.fairing": "1a87f52e",
+    "axle_back_wheel.tire": "ea369c5f",
+    "axle_back_wheel.wheel": "2ad8d229",
+    "wheel_front_rot_set.tire": "86d60545",
+    "wheel_front_rot_set.wheel": "d2bf2f4f"
+   },
+   "kits": [
+    "nomad_2385"
+   ]
+  }
+ ],
+ "wrecks": [
+  "brennan_apollo_basic_burnt_adventure_01",
+  "brennan_apollo_basic_burnt_player_02",
+  "brennan_apollo_basic_burnt_v3",
+  "brennan_apollo_basic_burnt_v_2"
+ ],
+ "slots": [
+  {
+   "id": "base.body",
+   "label": "Body: a",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_b_player_01",
+    "body_b_police_01",
+    "body_kurtz",
+    "v_sportbike3_brennan_apollo__ext01_body_a_01"
+   ],
+   "options": [
+    {
+     "id": "66eb4673",
+     "code": "body_a_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "brennan_v3",
+      "brennan_v2",
+      "stunt_bike",
+      "player_01",
+      "scorpion",
+      "adventure_01_1",
+      "adventure_01_2",
+      "brennan_v3_1",
+      "nomad_aldecaldos",
+      "brennan_v2_1",
+      "brennan_v2_2",
+      "adventure_01",
+      "adventure_02",
+      "nomad_aldecaldos_02",
+      "police_01"
+     ],
+     "looks": [
+      "brennan_apollo_basic:default1",
+      "brennan_apollo_basic:q108_santiago",
+      "brennan_apollo_basic:stunt_bike",
+      "brennan_apollo_basic_adventure_01",
+      "brennan_apollo_basic_adventure_01_1",
+      "brennan_apollo_basic_adventure_01_2",
+      "brennan_apollo_basic_aldecados_01",
+      "brennan_apollo_basic_aldecados_02",
+      "brennan_apollo_basic_aldecados_03",
+      "brennan_apollo_basic_brennan_apollo_v2",
+      "brennan_apollo_basic_brennan_apollo_v2_1",
+      "brennan_apollo_basic_brennan_apollo_v2_2",
+      "brennan_apollo_basic_brennan_apollo_v3",
+      "brennan_apollo_basic_brennan_apollo_v3_1",
+      "brennan_apollo_basic_burnt_adventure_01",
+      "brennan_apollo_basic_burnt_v3",
+      "brennan_apollo_basic_burnt_v_2",
+      "brennan_apollo_basic_player_01",
+      "brennan_apollo_basic_scorpion"
+     ],
+     "origins": [
+      "look:default1",
+      "look:q108_santiago",
+      "look:stunt_bike",
+      "style:brennan_apollo_basic_adventure_01",
+      "style:brennan_apollo_basic_aldecados_01",
+      "style:brennan_apollo_basic_brennan_apollo_v2",
+      "style:brennan_apollo_basic_brennan_apollo_v3",
+      "style:brennan_apollo_basic_player_01",
+      "style:brennan_apollo_basic_scorpion",
+      "wreck:brennan_apollo_basic_burnt_adventure_01",
+      "wreck:brennan_apollo_basic_burnt_v3",
+      "wreck:brennan_apollo_basic_burnt_v_2"
+     ]
+    },
+    {
+     "id": "3d41b04f",
+     "code": "body_b_police_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_b_police_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_b_police_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "militia_01"
+     ],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_police_01",
+      "brennan_apollo_police_basic:militia_01",
+      "brennan_apollo_police_basic:police_01"
+     ],
+     "origins": [
+      "look:burnt_police_01",
+      "look:militia_01",
+      "look:police_01"
+     ]
+    },
+    {
+     "id": "b3ec3998",
+     "code": "body_b_player_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_b_player_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_b_player_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_basic_burnt_player_02",
+      "brennan_apollo_basic_player_02"
+     ],
+     "origins": [
+      "style:brennan_apollo_basic_player_02",
+      "wreck:brennan_apollo_basic_burnt_player_02"
+     ]
+    },
+    {
+     "id": "f2a2aac7",
+     "code": "body_kurtz_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_kurtz_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_kurtz_01",
+      "brennan_apollo_police_basic:kurtz_01"
+     ],
+     "origins": [
+      "look:burnt_kurtz_01",
+      "look:kurtz_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.body_c",
+   "label": "Body: c",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_a_police",
+    "body_b_01",
+    "body_kurtz_militia",
+    "body_player",
+    "v_sportbike3_brennan_apollo__ext01_body_c_01"
+   ],
+   "options": [
+    {
+     "id": "b74b5069",
+     "code": "body_c_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_c_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_basic:default1",
+      "brennan_apollo_basic_adventure_01",
+      "brennan_apollo_basic_adventure_01_1",
+      "brennan_apollo_basic_adventure_01_2",
+      "brennan_apollo_basic_aldecados_01",
+      "brennan_apollo_basic_aldecados_02",
+      "brennan_apollo_basic_aldecados_03",
+      "brennan_apollo_basic_player_01"
+     ],
+     "origins": [
+      "look:default1",
+      "style:brennan_apollo_basic_adventure_01",
+      "style:brennan_apollo_basic_aldecados_01",
+      "style:brennan_apollo_basic_player_01"
+     ]
+    },
+    {
+     "id": "391d443e",
+     "code": "body_b_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "brennan_v2_2",
+     "paints": [
+      "brennan_v2",
+      "brennan_v2_1",
+      "brennan_v2_2"
+     ],
+     "looks": [
+      "brennan_apollo_basic:q108_santiago",
+      "brennan_apollo_basic_brennan_apollo_v2",
+      "brennan_apollo_basic_brennan_apollo_v2_1",
+      "brennan_apollo_basic_brennan_apollo_v2_2",
+      "brennan_apollo_basic_burnt_v_2"
+     ],
+     "origins": [
+      "look:q108_santiago",
+      "style:brennan_apollo_basic_brennan_apollo_v2",
+      "wreck:brennan_apollo_basic_burnt_v_2"
+     ]
+    },
+    {
+     "id": "0208bf12",
+     "code": "body_a_militia_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_a_militia_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_militia_01",
+      "brennan_apollo_police_basic:militia_01"
+     ],
+     "origins": [
+      "look:burnt_militia_01",
+      "look:militia_01"
+     ]
+    },
+    {
+     "id": "3e7e5fb7",
+     "code": "body_a_player_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_a_player_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_a_player_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_basic_burnt_player_02",
+      "brennan_apollo_basic_player_02"
+     ],
+     "origins": [
+      "style:brennan_apollo_basic_player_02",
+      "wreck:brennan_apollo_basic_burnt_player_02"
+     ]
+    },
+    {
+     "id": "4d7ecd08",
+     "code": "body_a_police_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_a_police_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_body_a_police_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "police_01"
+     ],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_police_01",
+      "brennan_apollo_police_basic:police_01"
+     ],
+     "origins": [
+      "look:burnt_police_01",
+      "look:police_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.exhaust",
+   "label": "Exhaust",
+   "kind": "exhaust",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "exhaust_01",
+    "exhaust_02",
+    "exhaust_04",
+    "exhaust_kurtz"
+   ],
+   "options": [
+    {
+     "id": "ea15b07b",
+     "code": "exhaust_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_exhaust_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_exhaust_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "carbon_01"
+     ],
+     "looks": [
+      "brennan_apollo_basic:default1",
+      "brennan_apollo_basic:q108_santiago",
+      "brennan_apollo_basic:stunt_bike",
+      "brennan_apollo_basic_adventure_01",
+      "brennan_apollo_basic_adventure_01_1",
+      "brennan_apollo_basic_adventure_01_2",
+      "brennan_apollo_basic_aldecados_01",
+      "brennan_apollo_basic_aldecados_02",
+      "brennan_apollo_basic_aldecados_03",
+      "brennan_apollo_basic_brennan_apollo_v2",
+      "brennan_apollo_basic_brennan_apollo_v2_1",
+      "brennan_apollo_basic_brennan_apollo_v2_2",
+      "brennan_apollo_basic_brennan_apollo_v3",
+      "brennan_apollo_basic_brennan_apollo_v3_1",
+      "brennan_apollo_basic_burnt_v3",
+      "brennan_apollo_basic_burnt_v_2",
+      "brennan_apollo_basic_player_01",
+      "brennan_apollo_basic_scorpion"
+     ],
+     "origins": [
+      "look:default1",
+      "look:q108_santiago",
+      "look:stunt_bike",
+      "style:brennan_apollo_basic_adventure_01",
+      "style:brennan_apollo_basic_aldecados_01",
+      "style:brennan_apollo_basic_brennan_apollo_v2",
+      "style:brennan_apollo_basic_brennan_apollo_v3",
+      "style:brennan_apollo_basic_player_01",
+      "style:brennan_apollo_basic_scorpion",
+      "wreck:brennan_apollo_basic_burnt_v3",
+      "wreck:brennan_apollo_basic_burnt_v_2"
+     ]
+    },
+    {
+     "id": "845d7f74",
+     "code": "exhaust_02",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_exhaust_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "police_01"
+     ],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_militia_01",
+      "brennan_apollo_police_basic:burnt_police_01",
+      "brennan_apollo_police_basic:militia_01",
+      "brennan_apollo_police_basic:police_01"
+     ],
+     "origins": [
+      "look:burnt_militia_01",
+      "look:burnt_police_01",
+      "look:militia_01",
+      "look:police_01"
+     ]
+    },
+    {
+     "id": "de28d04e",
+     "code": "exhaust_04",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_exhaust_04.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_exhaust_04_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_basic_burnt_player_02",
+      "brennan_apollo_basic_player_02"
+     ],
+     "origins": [
+      "style:brennan_apollo_basic_player_02",
+      "wreck:brennan_apollo_basic_burnt_player_02"
+     ]
+    },
+    {
+     "id": "d1d1f701",
+     "code": "exhaust_kurtz_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_exhaust_kurtz_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_exhaust_kurtz_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_kurtz_01",
+      "brennan_apollo_police_basic:kurtz_01"
+     ],
+     "origins": [
+      "look:burnt_kurtz_01",
+      "look:kurtz_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.fairing",
+   "label": "Fairing",
+   "kind": "fairing",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "fairing_a_01",
+    "fairing_b_01",
+    "fairing_c_01",
+    "fairing_f_01",
+    "fairing_kurtz_01",
+    "fairing_kurtz_militia_01",
+    "fairing_player_01",
+    "fairing_police_01"
+   ],
+   "options": [
+    {
+     "id": "64f378ef",
+     "code": "fairing_a_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black_orange_01",
+      "black_gray_01",
+      "player_01",
+      "yellow_gray_01"
+     ],
+     "looks": [
+      "brennan_apollo_basic:default1",
+      "brennan_apollo_basic_adventure_01",
+      "brennan_apollo_basic_adventure_01_1",
+      "brennan_apollo_basic_adventure_01_2",
+      "brennan_apollo_basic_burnt_adventure_01",
+      "brennan_apollo_basic_player_01"
+     ],
+     "origins": [
+      "look:default1",
+      "style:brennan_apollo_basic_adventure_01",
+      "style:brennan_apollo_basic_player_01",
+      "wreck:brennan_apollo_basic_burnt_adventure_01"
+     ]
+    },
+    {
+     "id": "4addf82a",
+     "code": "fairing_b_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "brennan_v2_2",
+     "paints": [
+      "brennan_v2_1",
+      "brennan_v2_2"
+     ],
+     "looks": [
+      "brennan_apollo_basic:q108_santiago",
+      "brennan_apollo_basic_brennan_apollo_v2",
+      "brennan_apollo_basic_brennan_apollo_v2_1",
+      "brennan_apollo_basic_brennan_apollo_v2_2",
+      "brennan_apollo_basic_burnt_v_2"
+     ],
+     "origins": [
+      "look:q108_santiago",
+      "style:brennan_apollo_basic_brennan_apollo_v2",
+      "wreck:brennan_apollo_basic_burnt_v_2"
+     ]
+    },
+    {
+     "id": "a9dfe655",
+     "code": "fairing_c_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_c_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "brennan_v3",
+      "brennan_v3_1"
+     ],
+     "looks": [
+      "brennan_apollo_basic_brennan_apollo_v3",
+      "brennan_apollo_basic_brennan_apollo_v3_1",
+      "brennan_apollo_basic_burnt_v3"
+     ],
+     "origins": [
+      "style:brennan_apollo_basic_brennan_apollo_v3",
+      "wreck:brennan_apollo_basic_burnt_v3"
+     ]
+    },
+    {
+     "id": "e9319703",
+     "code": "fairing_e_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_e_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_d_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_basic_aldecados_01",
+      "brennan_apollo_basic_aldecados_02",
+      "brennan_apollo_basic_aldecados_03"
+     ],
+     "origins": [
+      "style:brennan_apollo_basic_aldecados_01"
+     ]
+    },
+    {
+     "id": "3f577a3c",
+     "code": "fairing_police_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_police_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_militia_01",
+      "brennan_apollo_police_basic:burnt_police_01",
+      "brennan_apollo_police_basic:police_01"
+     ],
+     "origins": [
+      "look:burnt_militia_01",
+      "look:burnt_police_01",
+      "look:police_01"
+     ]
+    },
+    {
+     "id": "1a87f52e",
+     "code": "fairing_f_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "adventure_02"
+     ],
+     "looks": [
+      "brennan_apollo_basic:stunt_bike",
+      "brennan_apollo_basic_scorpion"
+     ],
+     "origins": [
+      "look:stunt_bike",
+      "style:brennan_apollo_basic_scorpion"
+     ]
+    },
+    {
+     "id": "3485f1c1",
+     "code": "fairing_kurtz_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_kurtz_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_kurtz_01",
+      "brennan_apollo_police_basic:kurtz_01"
+     ],
+     "origins": [
+      "look:burnt_kurtz_01",
+      "look:kurtz_01"
+     ]
+    },
+    {
+     "id": "72d51983",
+     "code": "fairing_player_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_player_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_player_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_basic_burnt_player_02",
+      "brennan_apollo_basic_player_02"
+     ],
+     "origins": [
+      "style:brennan_apollo_basic_player_02",
+      "wreck:brennan_apollo_basic_burnt_player_02"
+     ]
+    },
+    {
+     "id": "275812b0",
+     "code": "fairing_militia_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_militia_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_fairing_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_police_basic:militia_01"
+     ],
+     "origins": [
+      "look:militia_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "axle_back_wheel.tire",
+   "label": "Tire (axle_back_wheel)",
+   "kind": "tire",
+   "group": "axle_back_wheel",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "axle_back_wheel"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_b_01",
+    "tire_b_02"
+   ],
+   "options": [
+    {
+     "id": "ea369c5f",
+     "code": "tire_b_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_tire_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_tire_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "brennan_v2",
+      "brennan_v2_gray_01",
+      "brennan_v2_white_01"
+     ],
+     "looks": [
+      "brennan_apollo_basic:default1",
+      "brennan_apollo_basic:q108_santiago",
+      "brennan_apollo_basic:stunt_bike",
+      "brennan_apollo_basic_adventure_01",
+      "brennan_apollo_basic_adventure_01_1",
+      "brennan_apollo_basic_adventure_01_2",
+      "brennan_apollo_basic_aldecados_01",
+      "brennan_apollo_basic_aldecados_02",
+      "brennan_apollo_basic_aldecados_03",
+      "brennan_apollo_basic_brennan_apollo_v2",
+      "brennan_apollo_basic_brennan_apollo_v2_1",
+      "brennan_apollo_basic_brennan_apollo_v2_2",
+      "brennan_apollo_basic_brennan_apollo_v3",
+      "brennan_apollo_basic_brennan_apollo_v3_1",
+      "brennan_apollo_basic_burnt_v3",
+      "brennan_apollo_basic_burnt_v_2",
+      "brennan_apollo_basic_player_01",
+      "brennan_apollo_basic_scorpion"
+     ],
+     "origins": [
+      "look:default1",
+      "look:q108_santiago",
+      "look:stunt_bike",
+      "style:brennan_apollo_basic_adventure_01",
+      "style:brennan_apollo_basic_aldecados_01",
+      "style:brennan_apollo_basic_brennan_apollo_v2",
+      "style:brennan_apollo_basic_brennan_apollo_v3",
+      "style:brennan_apollo_basic_player_01",
+      "style:brennan_apollo_basic_scorpion",
+      "wreck:brennan_apollo_basic_burnt_v3",
+      "wreck:brennan_apollo_basic_burnt_v_2"
+     ]
+    },
+    {
+     "id": "1a634db8",
+     "code": "tire_b_02",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_tire_b_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_tire_b_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_basic_player_02",
+      "brennan_apollo_police_basic:burnt_police_01",
+      "brennan_apollo_police_basic:kurtz_01",
+      "brennan_apollo_police_basic:militia_01",
+      "brennan_apollo_police_basic:police_01"
+     ],
+     "origins": [
+      "look:burnt_police_01",
+      "look:kurtz_01",
+      "look:militia_01",
+      "look:police_01",
+      "style:brennan_apollo_basic_player_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "axle_back_wheel.wheel",
+   "label": "Wheel (axle_back_wheel)",
+   "kind": "wheel",
+   "group": "axle_back_wheel",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "axle_back_wheel"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_b_01",
+    "wheel_b_02",
+    "wheel_b_player_01"
+   ],
+   "options": [
+    {
+     "id": "2ad8d229",
+     "code": "wheel_b_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black_01",
+      "white_yellow_01",
+      "black_red_01",
+      "orange_01",
+      "black_white_01",
+      "chrome_red_01",
+      "gold_01",
+      "cyan_01",
+      "cyan_02",
+      "carbon_01_dusty",
+      "stunt_bike_01"
+     ],
+     "looks": [
+      "brennan_apollo_basic:default1",
+      "brennan_apollo_basic:q108_santiago",
+      "brennan_apollo_basic:stunt_bike",
+      "brennan_apollo_basic_adventure_01",
+      "brennan_apollo_basic_adventure_01_1",
+      "brennan_apollo_basic_adventure_01_2",
+      "brennan_apollo_basic_aldecados_01",
+      "brennan_apollo_basic_aldecados_02",
+      "brennan_apollo_basic_aldecados_03",
+      "brennan_apollo_basic_brennan_apollo_v2",
+      "brennan_apollo_basic_brennan_apollo_v2_1",
+      "brennan_apollo_basic_brennan_apollo_v2_2",
+      "brennan_apollo_basic_brennan_apollo_v3",
+      "brennan_apollo_basic_brennan_apollo_v3_1",
+      "brennan_apollo_basic_burnt_v3",
+      "brennan_apollo_basic_burnt_v_2",
+      "brennan_apollo_basic_player_01",
+      "brennan_apollo_basic_scorpion"
+     ],
+     "origins": [
+      "look:default1",
+      "look:q108_santiago",
+      "look:stunt_bike",
+      "style:brennan_apollo_basic_adventure_01",
+      "style:brennan_apollo_basic_aldecados_01",
+      "style:brennan_apollo_basic_brennan_apollo_v2",
+      "style:brennan_apollo_basic_brennan_apollo_v3",
+      "style:brennan_apollo_basic_player_01",
+      "style:brennan_apollo_basic_scorpion",
+      "wreck:brennan_apollo_basic_burnt_v3",
+      "wreck:brennan_apollo_basic_burnt_v_2"
+     ]
+    },
+    {
+     "id": "e99dd476",
+     "code": "wheel_b_kurtz_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_b_kurtz_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_b_kurtz_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_01",
+     "paints": [
+      "kurtz_01"
+     ],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_police_01",
+      "brennan_apollo_police_basic:kurtz_01",
+      "brennan_apollo_police_basic:militia_01"
+     ],
+     "origins": [
+      "look:burnt_police_01",
+      "look:kurtz_01",
+      "look:militia_01"
+     ]
+    },
+    {
+     "id": "3a8c41f6",
+     "code": "wheel_b_02",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_b_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_b_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "brennan_apollo_basic_player_02",
+      "brennan_apollo_police_basic:police_01"
+     ],
+     "origins": [
+      "look:police_01",
+      "style:brennan_apollo_basic_player_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_front_rot_set.tire",
+   "label": "Tire (wheel_front_rot_set)",
+   "kind": "tire",
+   "group": "wheel_front_rot_set",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "wheel_front_rot_set"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_f_01",
+    "tire_f_02",
+    "v_sportbike3_brennan_apollo__ext01_tire_f_01"
+   ],
+   "options": [
+    {
+     "id": "86d60545",
+     "code": "tire_f_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_tire_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_tire_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "brennan_v2",
+      "brennan_v2_gray_01",
+      "brennan_v2_white_01"
+     ],
+     "looks": [
+      "brennan_apollo_basic:default1",
+      "brennan_apollo_basic:q108_santiago",
+      "brennan_apollo_basic:stunt_bike",
+      "brennan_apollo_basic_adventure_01",
+      "brennan_apollo_basic_adventure_01_1",
+      "brennan_apollo_basic_adventure_01_2",
+      "brennan_apollo_basic_aldecados_01",
+      "brennan_apollo_basic_aldecados_02",
+      "brennan_apollo_basic_aldecados_03",
+      "brennan_apollo_basic_brennan_apollo_v2",
+      "brennan_apollo_basic_brennan_apollo_v2_1",
+      "brennan_apollo_basic_brennan_apollo_v2_2",
+      "brennan_apollo_basic_brennan_apollo_v3",
+      "brennan_apollo_basic_brennan_apollo_v3_1",
+      "brennan_apollo_basic_burnt_adventure_01",
+      "brennan_apollo_basic_burnt_v3",
+      "brennan_apollo_basic_burnt_v_2",
+      "brennan_apollo_basic_player_01",
+      "brennan_apollo_basic_scorpion"
+     ],
+     "origins": [
+      "look:default1",
+      "look:q108_santiago",
+      "look:stunt_bike",
+      "style:brennan_apollo_basic_adventure_01",
+      "style:brennan_apollo_basic_aldecados_01",
+      "style:brennan_apollo_basic_brennan_apollo_v2",
+      "style:brennan_apollo_basic_brennan_apollo_v3",
+      "style:brennan_apollo_basic_player_01",
+      "style:brennan_apollo_basic_scorpion",
+      "wreck:brennan_apollo_basic_burnt_adventure_01",
+      "wreck:brennan_apollo_basic_burnt_v3",
+      "wreck:brennan_apollo_basic_burnt_v_2"
+     ]
+    },
+    {
+     "id": "e2bbe852",
+     "code": "tire_f_02",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_tire_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_tire_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "brennan_apollo_basic_burnt_player_02",
+      "brennan_apollo_basic_player_02",
+      "brennan_apollo_police_basic:burnt_kurtz_01",
+      "brennan_apollo_police_basic:burnt_militia_01",
+      "brennan_apollo_police_basic:burnt_police_01",
+      "brennan_apollo_police_basic:kurtz_01",
+      "brennan_apollo_police_basic:militia_01",
+      "brennan_apollo_police_basic:police_01"
+     ],
+     "origins": [
+      "look:burnt_kurtz_01",
+      "look:burnt_militia_01",
+      "look:burnt_police_01",
+      "look:kurtz_01",
+      "look:militia_01",
+      "look:police_01",
+      "style:brennan_apollo_basic_player_02",
+      "wreck:brennan_apollo_basic_burnt_player_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_front_rot_set.wheel",
+   "label": "Wheel (wheel_front_rot_set)",
+   "kind": "wheel",
+   "group": "wheel_front_rot_set",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "wheel_front_rot_set"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_sportbike3_brennan_apollo__ext01_wheel_f_01",
+    "wheel_f_02",
+    "wheel_f_kurtz_01",
+    "wheel_f_player_01"
+   ],
+   "options": [
+    {
+     "id": "d2bf2f4f",
+     "code": "wheel_f_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black_01",
+      "white_yellow_01",
+      "black_red_01",
+      "orange_01",
+      "black_white_01",
+      "chrome_red_01",
+      "gold_01",
+      "cyan_01",
+      "cyan_02",
+      "stunt_bike_01",
+      "kurtz_01"
+     ],
+     "looks": [
+      "brennan_apollo_basic:default1",
+      "brennan_apollo_basic:q108_santiago",
+      "brennan_apollo_basic:stunt_bike",
+      "brennan_apollo_basic_adventure_01",
+      "brennan_apollo_basic_adventure_01_1",
+      "brennan_apollo_basic_adventure_01_2",
+      "brennan_apollo_basic_aldecados_01",
+      "brennan_apollo_basic_aldecados_02",
+      "brennan_apollo_basic_aldecados_03",
+      "brennan_apollo_basic_brennan_apollo_v2",
+      "brennan_apollo_basic_brennan_apollo_v2_1",
+      "brennan_apollo_basic_brennan_apollo_v2_2",
+      "brennan_apollo_basic_brennan_apollo_v3",
+      "brennan_apollo_basic_brennan_apollo_v3_1",
+      "brennan_apollo_basic_burnt_adventure_01",
+      "brennan_apollo_basic_burnt_v3",
+      "brennan_apollo_basic_burnt_v_2",
+      "brennan_apollo_basic_player_01",
+      "brennan_apollo_basic_scorpion"
+     ],
+     "origins": [
+      "look:default1",
+      "look:q108_santiago",
+      "look:stunt_bike",
+      "style:brennan_apollo_basic_adventure_01",
+      "style:brennan_apollo_basic_aldecados_01",
+      "style:brennan_apollo_basic_brennan_apollo_v2",
+      "style:brennan_apollo_basic_brennan_apollo_v3",
+      "style:brennan_apollo_basic_player_01",
+      "style:brennan_apollo_basic_scorpion",
+      "wreck:brennan_apollo_basic_burnt_adventure_01",
+      "wreck:brennan_apollo_basic_burnt_v3",
+      "wreck:brennan_apollo_basic_burnt_v_2"
+     ]
+    },
+    {
+     "id": "20f169bc",
+     "code": "wheel_f_kurtz_01",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_f_kurtz_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_f_kurtz_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_01",
+     "paints": [
+      "kurtz_01"
+     ],
+     "looks": [
+      "brennan_apollo_police_basic:burnt_kurtz_01",
+      "brennan_apollo_police_basic:burnt_militia_01",
+      "brennan_apollo_police_basic:burnt_police_01",
+      "brennan_apollo_police_basic:kurtz_01",
+      "brennan_apollo_police_basic:militia_01"
+     ],
+     "origins": [
+      "look:burnt_kurtz_01",
+      "look:burnt_militia_01",
+      "look:burnt_police_01",
+      "look:kurtz_01",
+      "look:militia_01"
+     ]
+    },
+    {
+     "id": "1dcc6a68",
+     "code": "wheel_f_02",
+     "vehicle": "v_sportbike3_brennan_apollo",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_wheel_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "brennan_apollo_basic_burnt_player_02",
+      "brennan_apollo_basic_player_02",
+      "brennan_apollo_police_basic:police_01"
+     ],
+     "origins": [
+      "look:police_01",
+      "style:brennan_apollo_basic_player_02",
+      "wreck:brennan_apollo_basic_burnt_player_02"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "kurtz_84a9",
+   "family": "kurtz",
+   "code": "engine_militia_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "engine_kurtz",
+     "mesh": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_engine_militia_01.mesh",
+     "code": "engine_militia_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_engine_a_01_shadow.mesh",
+     "look": "brennan_apollo_police_basic:militia_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_police_basic:burnt_militia_01",
+    "brennan_apollo_police_basic:militia_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_militia_01",
+    "look:militia_01"
+   ]
+  },
+  {
+   "id": "kurtz_6906",
+   "family": "kurtz",
+   "code": "kit_kurtz_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "bags_br_kurtz_stickers_01",
+     "mesh": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_bags_br_kurtz_stickers_01.mesh",
+     "code": "bags_br_kurtz_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bags_br_kurtz_01",
+     "slot": null,
+     "position": [
+      -0.0255,
+      -0.002626524820112719,
+      0.046476974455178136
+     ],
+     "rotation": [
+      0.009691638595786548,
+      0.04345672810238099,
+      0.9989588132517895,
+      -0.009948511400786869
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_police_basic:kurtz_01",
+     "parent": "vehicle_slots:bags_mount_br"
+    },
+    {
+     "name": "kurtz_stickers_01",
+     "mesh": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_bags_bl_kurtz_stickers_01.mesh",
+     "code": "bags_bl_kurtz_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_sportbike3_brennan_apollo__ext01_bags_bl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0077,
+      0.0545
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_police_basic:kurtz_01",
+     "parent": "vehicle_slots:bags_mount_bl"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_police_basic:kurtz_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:kurtz_01"
+   ]
+  },
+  {
+   "id": "kurtz_33be",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_fairing",
+   "where": [
+    "body",
+    "fairing"
+   ],
+   "parts": [
+    {
+     "name": "engine_kurtz",
+     "mesh": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_engine_kurtz_01.mesh",
+     "code": "engine_kurtz_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_engine_a_01_shadow.mesh",
+     "look": "brennan_apollo_police_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "windscreen_kurtz_01",
+     "mesh": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_windscreen_kurtz_01.mesh",
+     "code": "windscreen_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "fairing_kurtz_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_police_basic:kurtz_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_police_basic:burnt_kurtz_01",
+    "brennan_apollo_police_basic:kurtz_01"
+   ],
+   "made_for": [
+    "slot:base.fairing"
+   ],
+   "needs": [],
+   "origins": [
+    "look:burnt_kurtz_01",
+    "look:kurtz_01"
+   ]
+  },
+  {
+   "id": "kurtz_7535",
+   "family": "kurtz",
+   "code": "windscreen_kurtz_militia_01",
+   "where": [
+    "fairing"
+   ],
+   "parts": [
+    {
+     "name": "windscreen_kurtz_militia_01",
+     "mesh": "ep1\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_windscreen_kurtz_militia_01.mesh",
+     "code": "windscreen_kurtz_militia_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "fairing_kurtz_militia_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_police_basic:militia_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_police_basic:militia_01"
+   ],
+   "made_for": [
+    "slot:base.fairing"
+   ],
+   "needs": [],
+   "origins": [
+    "look:militia_01"
+   ]
+  },
+  {
+   "id": "nomad_2385",
+   "family": "nomad",
+   "code": "kit_nomad_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "stickers_aldecaldos_03",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_nomad_stickers_aldecaldos_03.mesh",
+     "code": "nomad_stickers_aldecaldos_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_basic_scorpion",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_sportbike3_brennan_apollo__ext01_engine_stickers_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_engine_nomad_stickers_01.mesh",
+     "code": "engine_nomad_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_basic_scorpion",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_basic_scorpion"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:brennan_apollo_basic_scorpion"
+   ]
+  },
+  {
+   "id": "nomad_ec25",
+   "family": "nomad",
+   "code": "nomad_stickers_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_sportbike3_brennan_apollo__ext01_nomad_stickers_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_nomad_stickers_01.mesh",
+     "code": "nomad_stickers_01",
+     "paint": "sticker_02",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_basic_brennan_apollo_v2",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_basic:q108_santiago",
+    "brennan_apollo_basic_adventure_01",
+    "brennan_apollo_basic_adventure_01_1",
+    "brennan_apollo_basic_adventure_01_2",
+    "brennan_apollo_basic_brennan_apollo_v2",
+    "brennan_apollo_basic_brennan_apollo_v2_1",
+    "brennan_apollo_basic_brennan_apollo_v2_2",
+    "brennan_apollo_basic_burnt_v_2"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:q108_santiago",
+    "style:brennan_apollo_basic_adventure_01",
+    "style:brennan_apollo_basic_brennan_apollo_v2",
+    "wreck:brennan_apollo_basic_burnt_v_2"
+   ]
+  },
+  {
+   "id": "nomad_77ef",
+   "family": "nomad",
+   "code": "nomad_stickers_aldecaldos_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "stickers_aldecaldos_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_nomad_stickers_aldecaldos_01.mesh",
+     "code": "nomad_stickers_aldecaldos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_basic_aldecados_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_basic:q108_santiago",
+    "brennan_apollo_basic_aldecados_01",
+    "brennan_apollo_basic_aldecados_02",
+    "brennan_apollo_basic_aldecados_03"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:q108_santiago",
+    "style:brennan_apollo_basic_aldecados_01"
+   ]
+  },
+  {
+   "id": "player_2bc7",
+   "family": "player",
+   "code": "engine_player_a_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "engine_player_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_engine_player_a_01.mesh",
+     "code": "engine_player_a_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_engine_a_01_shadow.mesh",
+     "look": "brennan_apollo_basic_player_02",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_basic_burnt_player_02",
+    "brennan_apollo_basic_player_02"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:brennan_apollo_basic_player_02",
+    "wreck:brennan_apollo_basic_burnt_player_02"
+   ]
+  },
+  {
+   "id": "police_6b11",
+   "family": "police",
+   "code": "police_lights_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "police_lights_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_police_lights_01.mesh",
+     "code": "police_lights_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_police_basic:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_police_basic:burnt_police_01",
+    "brennan_apollo_police_basic:police_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_police_01",
+    "look:police_01"
+   ]
+  },
+  {
+   "id": "police_6b11",
+   "family": "police",
+   "code": "police_lights_02",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "police_lights_02",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_police_lights_02.mesh",
+     "code": "police_lights_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_a_police",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_police_basic:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_police_basic:burnt_militia_01",
+    "brennan_apollo_police_basic:burnt_police_01",
+    "brennan_apollo_police_basic:militia_01",
+    "brennan_apollo_police_basic:police_01"
+   ],
+   "made_for": [
+    "slot:base.body.body_c"
+   ],
+   "needs": [],
+   "origins": [
+    "look:burnt_militia_01",
+    "look:burnt_police_01",
+    "look:militia_01",
+    "look:police_01"
+   ]
+  },
+  {
+   "id": "police_8107",
+   "family": "police",
+   "code": "windscreen_police_01",
+   "where": [
+    "fairing"
+   ],
+   "parts": [
+    {
+     "name": "windscreen_police_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike3_brennan_apollo\\entities\\meshes\\v_sportbike3_brennan_apollo__ext01_windscreen_police_01.mesh",
+     "code": "windscreen_police_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "fairing_police_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "brennan_apollo_police_basic:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "brennan_apollo_police_basic:burnt_militia_01",
+    "brennan_apollo_police_basic:burnt_police_01",
+    "brennan_apollo_police_basic:police_01"
+   ],
+   "made_for": [
+    "slot:base.fairing"
+   ],
+   "needs": [],
+   "origins": [
+    "look:burnt_militia_01",
+    "look:burnt_police_01",
+    "look:police_01"
+   ]
+  }
+ ],
+ "looks": {
+  "brennan_apollo_basic_aldecados_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "aldecados_01",
+   "style": "brennan_apollo_basic_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_c_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_c_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_brennan_apollo_v2": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "brennan_apollo_v2",
+   "style": "brennan_apollo_basic_brennan_apollo_v2",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "body_b_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_b_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_brennan_apollo_v3": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "brennan_apollo_v3",
+   "style": "brennan_apollo_basic_brennan_apollo_v3",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_c_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_brennan_damage": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "brennan_damage",
+   "style": "brennan_apollo_basic_brennan_damage",
+   "wreck": false,
+   "parts": {}
+  },
+  "brennan_apollo_basic_scorpion": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "scorpion",
+   "style": "brennan_apollo_basic_scorpion",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_f_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_aldecados_02": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "aldecados_02",
+   "style": "brennan_apollo_basic_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_c_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_c_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_aldecados_03": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "aldecados_03",
+   "style": "brennan_apollo_basic_aldecados_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_c_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_c_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_player_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "player_01",
+   "style": "brennan_apollo_basic_player_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_c_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_a_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_adventure_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "adventure_01",
+   "style": "brennan_apollo_basic_adventure_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_c_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_a_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_adventure_01_2": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "adventure_01_2",
+   "style": "brennan_apollo_basic_adventure_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_c_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_a_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_adventure_01_1": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "adventure_01_1",
+   "style": "brennan_apollo_basic_adventure_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_c_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_a_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_brennan_apollo_v2_2": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "brennan_apollo_v2_2",
+   "style": "brennan_apollo_basic_brennan_apollo_v2",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "body_b_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_b_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_brennan_apollo_v2_1": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "brennan_apollo_v2_1",
+   "style": "brennan_apollo_basic_brennan_apollo_v2",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "body_b_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_b_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_brennan_apollo_v3_1": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "brennan_apollo_v3_1",
+   "style": "brennan_apollo_basic_brennan_apollo_v3",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_c_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_burnt_adventure_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "burnt_adventure_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.fairing": {
+     "all": "fairing_a_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_burnt_v_2": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "burnt_v_2",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.body.body_c": {
+     "all": "body_b_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_b_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_burnt_v3": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_basic.app",
+   "app_look": "burnt_v3",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "v_sportbike3_brennan_apollo__ext01_body_a_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.fairing": {
+     "all": "fairing_c_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "v_sportbike3_brennan_apollo__ext01_wheel_f_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_player_02": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_police_basic.app",
+   "app_look": "player_02",
+   "style": "brennan_apollo_basic_player_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_b_player_01"
+    },
+    "base.body.body_c": {
+     "all": "body_player"
+    },
+    "base.exhaust": {
+     "all": "exhaust_04"
+    },
+    "base.fairing": {
+     "all": "fairing_player_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "wheel_f_player_01"
+    },
+    "axle_back_wheel.tire": {
+     "all": "tire_b_01"
+    },
+    "axle_back_wheel.wheel": {
+     "all": "wheel_b_player_01"
+    }
+   }
+  },
+  "brennan_apollo_basic_burnt_player_02": {
+   "app": "base\\vehicles\\appearances\\sportbike\\brennan_apollo_police_basic.app",
+   "app_look": "burnt_player_02",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_b_player_01"
+    },
+    "base.body.body_c": {
+     "all": "body_player"
+    },
+    "base.exhaust": {
+     "all": "exhaust_04"
+    },
+    "base.fairing": {
+     "all": "fairing_player_01"
+    },
+    "wheel_front_rot_set.tire": {
+     "all": "tire_f_01"
+    },
+    "wheel_front_rot_set.wheel": {
+     "all": "wheel_f_player_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {},
+ "wheel_sets": [],
+ "record_looks": [
+  [
+   "brennan_apollo_basic_player_01",
+   "Apollo"
+  ],
+  [
+   "brennan_apollo_basic_player_02",
+   "Apollo 650-S"
+  ],
+  [
+   "brennan_apollo_basic_scorpion",
+   "Scorpion's Apollo"
+  ]
+ ]
+}

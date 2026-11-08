@@ -1,0 +1,28 @@
+{
+  "camera_forward": {
+    "x": -0.4,
+    "y": 0.9,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 400,
+    "x": -2467.1,
+    "y": 817.7,
+    "z": -3.3
+  },
+  "nearest": {
+    "distance": 20.8,
+    "id": "unknown_lift_city_centers_west_edge",
+    "name": "Unknown lift, City Center's west edge"
+  },
+  "note": "",
+  "player": {
+    "x": -2303.8,
+    "y": 452.7,
+    "yaw": 24.1,
+    "z": 7.1
+  },
+  "stamp": "20261106-183914",
+  "time": "2026-11-06 18:39:14"
+}

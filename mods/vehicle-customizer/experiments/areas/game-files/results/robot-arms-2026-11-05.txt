@@ -1,0 +1,115 @@
+﻿
+== ep1\gameplay\devices\robotic_arms\robotic_arms.ent
+   look robotic_arms_appearance_default -> default in ep1\gameplay\devices\robotic_arms\appearances\robotic_arms_appearance.app
+   imports: ['ep1\\gameplay\\devices\\robotic_arms\\appearances\\robotic_arms_appearance.app']
+   components:
+     RoboticArms                              {}
+     gameaudioSoundComponent                  {'name': 'audio'}
+     gameinteractionsComponent                {'name': 'interaction'}
+     gameVisionModeComponent                  {}
+     RoboticArmsController                    {'name': 'controller'}
+     entEffectSpawnerComponent                {'name': 'effectSpawner'}
+     StimBroadcasterComponent                 {'name': 'StimBroadcaster'}
+     gameStatsComponent                       {}
+     entEffectSpawnerComponent                {'name': 'FX_Welding_Sparks'}
+     FxResourceMapperComponent                {'name': 'FxResourceMapper'}
+     entSlotComponent                         {'name': 'UI_Slots'}
+     GameplayRoleComponent                    {'name': 'GameplayRole'}
+     workWorkspotResourceComponent            {'name': 'personalLinkPlayerWorkspot'}
+     gameScanningComponent                    {}
+     entSlotComponent                         {'name': 'main_slot'}
+     entEffectAttachmentComponent             {'name': 'EffectAttachment5224'}
+     ResourceLibraryComponent                 {'name': 'ResourceLibrary'}
+     AreaEffectVisualizationComponent         {'name': 'AreaEffectVisualization'}
+     entSlotComponent                         {'name': 'vfx_slot'}
+     entEffectSpawnerComponent                {'name': 'fx_emp_hit'}
+     gameTargetingComponent                   {'name': 'TargetingRoot'}
+     gameVisionModeComponentPS                {}
+     RoboticArmsControllerPS                  {}
+     entEffectDesc                            {'effectName': 'focus_5m', 'effect': '#5c78665c65736162'}
+     entEffectDesc                            {'effectName': 'focus_10m', 'effect': '#5c78665c65736162'}
+     entEffectDesc                            {'effectName': 'focus_20m', 'effect': '#5c78665c65736162'}
+     entEffectDesc                            {'effectName': 'focus_30m', 'effect': '#5c78665c65736162'}
+     gameStatsComponentPS                     {}
+     entEffectDesc                            {'effectName': 'FX_Welding_Sparks', 'effect': '#655c78665c317065'}
+     gameScanningComponentPS                  {}
+     entEffectDesc                            {'effectName': 'emp_hit', 'effect': '#5c78665c65736162'}
+     entHardTransformBinding                  {}
+   telling names: ['RoboticArms', 'workSFX', 'amb_g_city_el_tv_p_sq031_1_bushido_x__workshop_scene_loop', 'distractSFX', 'dev_crane_big_distraction', 'RoboticArmsController', 'FX_Welding_Sparks', 'FxResourceMapperComponent', 'FxResourceMapper', 'NetworkLink', 'workWorkspotResourceComponent', 'personalLinkPlayerWorkspot', 'workspotResource', 'raRef:workWorkspotResource', 'array:FxResourceMapData', 'networkLinkDefault', 'gameFxResource', 'networkLinkBreached', 'pingNetworkLink', 'revealNetworkLink', 'vfx_slot', 'fx_emp_hit', 'RoboticArmsControllerPS']
+
+== ep1\gameplay\devices\robotic_arms\appearances\robotic_arms.ent
+   imports: ['ep1\\items\\quest\\q307__fabrication_bay_robot_arm\\q307__robotic_arm_right.mesh', 'ep1\\animations\\items\\quest\\q307__fabrication_bay_robot_arm.anims']
+   components:
+     entEntity                                {}
+     entAnimationControllerComponent          {'name': 'animController'}
+     entSkinnedMeshComponent                  {'name': 'q307__robotic_arm_right', 'mesh': '#6d6574695c317065'}
+     entAnimatedComponent                     {'name': 'anim', 'rig': '#6d6574695c317065', 'graph': '#656d61675c317065'}
+     entColliderComponent                     {'name': 'Collider7671'}
+     entSkinnedMeshComponent                  {'name': 'q307__robotic_arm_right2804', 'mesh': '#6d6574695c317065'}
+     entSlotComponent                         {'name': 'Slot0211'}
+     entHardTransformBinding                  {}
+     entSkinningBinding                       {}
+     entAnimationControlBinding               {}
+     entHardTransformBinding                  {}
+     entSkinningBinding                       {}
+     entHardTransformBinding                  {}
+   telling names: ['q307__robotic_arm_right', 'q307__robotic_arm_right2804', 'arm_e']
+
+== base\items\interactive\industrial\int_industrial_002__robotic_arm_delamain.ent
+   imports: ['base\\items\\interactive\\industrial\\int_industrial_002__robotic_arm_delamain\\int_industrial_002__robotic_arm_arm_ab_delamain.mesh', 'base\\items\\interactive\\industrial\\int_industrial_002__robotic_arm_delamain\\int_industrial_002__robotic_arm_head_aa_delamain.mesh', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\robotic_arm_base_ab_delamain.mesh', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\robotic_arm_arm_aa_delamain.mesh', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\robotic_arm_head_ab_delemain.mesh']
+   components:
+     entEntity                                {}
+     entAnimationControllerComponent          {'name': 'AnimationControllerComponent'}
+     entSlotComponent                         {'name': 'Slot5946'}
+     entColliderComponent                     {'name': 'HitPhysicalQueryMesh'}
+     entAnimatedComponent                     {'name': 'Animated5005', 'rig': '#6574695c65736162', 'graph': '#6d61675c65736162'}
+     entSkinnedMeshComponent                  {'name': 'int_industrial_002__robotic_arm_arm_ab_delamain', 'mesh': '#6574695c65736162'}
+     gameTargetingComponent                   {'name': 'gameTargeting0152'}
+     entSkinnedMeshComponent                  {'name': 'int_industrial_002__robotic_arm_head_aa_delamain', 'mesh': '#6574695c65736162'}
+     gameaudioSoundComponent                  {'name': 'prop_sound', 'audioName': 'prop_sound'}
+     entMeshComponent                         {'name': 'robotic_arm_base_ab_delamain', 'mesh': '#766e655c65736162'}
+     entMeshComponent                         {'name': 'robotic_arm_arm_aa_delamain', 'mesh': '#766e655c65736162'}
+     entMeshComponent                         {'name': 'robotic_arm_head_ab_delemain', 'mesh': '#766e655c65736162'}
+     entEffectSpawnerComponent                {'name': 'sq025_robotic_arm_fx'}
+     entHardTransformBinding                  {}
+     entHardTransformBinding                  {}
+     entAnimationControlBinding               {}
+     entSkinningBinding                       {}
+     entHardTransformBinding                  {}
+     entSkinningBinding                       {}
+     entHardTransformBinding                  {}
+     entHardTransformBinding                  {}
+     entHardTransformBinding                  {}
+     entHardTransformBinding                  {}
+     entEffectDesc                            {'effectName': 'sq025_weld', 'effect': '#5c78665c65736162'}
+   telling names: ['arm_aa', 'int_industrial_002__robotic_arm_arm_ab_delamain', 'int_industrial_002__robotic_arm_head_aa_delamain', 'robotic_arm_base_ab_delamain', 'robotic_arm_arm_aa_delamain', 'robotic_arm_head_ab_delemain', 'sq025_robotic_arm_fx', 'sq025_weld']
+
+== base\gameplay\devices\activated\distraction\appearances\robotic_arm_delamain.ent
+   imports: ['base\\animations\\items\\interactive\\industrial\\int_industrial_002__robotic_arm_delamain.anims', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\robotic_arm_head_ab_delemain.mesh', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\robotic_arm_arm_aa_delamain.mesh', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\robotic_arm_base_ab_delamain.mesh', 'base\\items\\interactive\\industrial\\int_industrial_002__robotic_arm_delamain\\int_industrial_002__robotic_arm_head_aa_delamain.mesh', 'base\\items\\interactive\\industrial\\int_industrial_002__robotic_arm_delamain\\int_industrial_002__robotic_arm_arm_ab_delamain.mesh', 'engine\\materials\\multilayered.mt', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\textures\\ml_robotic_arm_delamain.mlsetup', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\textures\\ml_robotic_arm_masksset.mlmask', 'engine\\textures\\editor\\normal.xbm', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\robotic_arm_emissive.mi', 'engine\\textures\\editor\\white.xbm', 'engine\\textures\\editor\\black.xbm', 'base\\environment\\decoration\\industrial\\machine\\robotic_arm\\robotic_arm_decals.mi', 'base\\surfaces\\masks\\decal_normals\\militarism\\militarism_devices_01_d.xbm', 'base\\surfaces\\masks\\decal_normals\\militarism\\militarism_devices_01_n.xbm', 'base\\items\\interactive\\industrial\\int_industrial_002__robotic_arm_delamain\\int_industrial_002__robotic_arm_delamain.rig']
+   components:
+     entAnimationControllerComponent          {'name': 'AnimationControllerComponent'}
+     entSlotComponent                         {'name': 'Slot5946'}
+     entAnimatedComponent                     {'name': 'Animated5005', 'rig': '#6574695c65736162', 'graph': '#6d61675c65736162'}
+     entPhysicalMeshComponent                 {'name': 'robotic_arm_head_ab_delemain', 'mesh': '#766e655c65736162'}
+     entPhysicalMeshComponent                 {'name': 'robotic_arm_arm_aa_delamain', 'mesh': '#766e655c65736162'}
+     entPhysicalMeshComponent                 {'name': 'robotic_arm_base_ab_delamain', 'mesh': '#766e655c65736162'}
+     entPhysicalSkinnedMeshComponent          {'name': 'int_industrial_002__robotic_arm_head_aa_delamain', 'mesh': '#6574695c65736162'}
+     entPhysicalSkinnedMeshComponent          {'name': 'int_industrial_002__robotic_arm_arm_ab_delamain', 'mesh': '#6574695c65736162'}
+     entHardTransformBinding                  {}
+     entAnimationControlBinding               {}
+     entHardTransformBinding                  {}
+     entHardTransformBinding                  {}
+     entHardTransformBinding                  {}
+     entSkinningBinding                       {}
+     entSkinningBinding                       {}
+   telling names: ['ActivatedDeviceIndustrialArm', 'arm_aa', 'robotic_arm_head_ab_delemain', 'robotic_arm_arm_aa_delamain', 'robotic_arm_base_ab_delamain', 'int_industrial_002__robotic_arm_head_aa_delamain', 'int_industrial_002__robotic_arm_arm_ab_delamain']
+
+== ep1\gameplay\devices\robotic_arms\appearances\robotic_arms_appearance.app
+   look default:
+     entAnimationControllerComponent          {'name': 'animController'}
+     entSkinnedMeshComponent                  {'name': 'q307__robotic_arm_right', 'mesh': 'ep1\\items\\quest\\q307__fabrication_bay_robot_arm\\q307__robotic_arm_right.mesh'}
+     entAnimatedComponent                     {'name': 'anim', 'rig': 'ep1\\items\\quest\\q307__fabrication_bay_robot_arm\\q307__robotic_arm.rig', 'graph': 'ep1\\gameplay\\anim_graphs\\robotic_arm.animgraph'}
+     entColliderComponent                     {'name': 'Collider7671'}
+     entSkinnedMeshComponent                  {'name': 'q307__robotic_arm_right2804', 'mesh': 'ep1\\items\\quest\\q307__fabrication_bay_robot_arm\\q307__robotic_arm_right.mesh'}
+     entSlotComponent                         {'name': 'Slot0211'}
+     telling names: []

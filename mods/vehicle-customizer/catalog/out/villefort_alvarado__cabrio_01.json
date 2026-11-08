@@ -1,0 +1,5332 @@
+{
+ "id": "villefort_alvarado__cabrio_01",
+ "label": "Alvarado V4FC 580 \"Vato\"",
+ "entity": "base\\vehicles\\sport\\v_sport2_villefort_alvarado__cabrio_01.ent",
+ "family": "v_sport2_villefort_alvarado",
+ "garage": true,
+ "default_look": "suburban_01",
+ "records": [
+  "Vehicle.v_sport2_villefort_alvarado_valentinos_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sport\\villefort_alvarado__basic.app",
+  "ep1\\vehicles\\appearances\\sport\\villefort_alvarado_hearse_01_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "mox_cabrio_01",
+   "code": "mox_cabrio_01",
+   "label": "Mox cabrio",
+   "base_look": "villefort_alvarado__basic_mox_cabrio_01",
+   "looks": [
+    "villefort_alvarado__basic_mox_cabrio_01",
+    "villefort_alvarado__basic_premium_cabrio_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "fded1815",
+    "bumper_back.bumper": "403914df",
+    "bumper_back.bumper.bumper_b": "c86018dd",
+    "hood_a.hood": "18f1d35f",
+    "trunk_a.trunk": "933fd8c7",
+    "base.body": "b28f3e76",
+    "base.interior": "5b4601c0",
+    "base.window": "22196383",
+    "wheel.tire": "6b825e38",
+    "wheel.wheel": "805412f5",
+    "door.door": "c5a794a5",
+    "door_b.door": "fdc4b3f2",
+    "wheel_b.tire": "cb864969",
+    "wheel_b.wheel": "70a906c8"
+   },
+   "kits": []
+  },
+  {
+   "id": "valentinos_02",
+   "code": "valentinos_02",
+   "label": "Valentinos 02",
+   "base_look": "villefort_alvarado__basic_valentinos_02",
+   "looks": [
+    "villefort_alvarado__basic_valentinos_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "fded1815",
+    "bumper_back.bumper": "403914df",
+    "bumper_back.bumper.bumper_b": "c86018dd",
+    "hood_a.hood": "18f1d35f",
+    "trunk_a.trunk": "933fd8c7",
+    "base.body": "b28f3e76",
+    "base.interior": "5b4601c0",
+    "base.window": "22196383",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "3def902b",
+    "door.door": "c5a794a5",
+    "door_b.door": "fdc4b3f2",
+    "wheel_b.tire": "958c45bb",
+    "wheel_b.wheel": "2cd0b356"
+   },
+   "kits": [
+    "valentinos_8e51",
+    "valentinos_c937"
+   ]
+  }
+ ],
+ "wrecks": [
+  "villefort_alvarado__basic_burnt_cabrio_1"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "fded1815",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_08",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "posh_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01",
+      "rich_01"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "22bbaf50",
+     "code": "bumper_f_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "player_01",
+      "poor_10",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_08"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper: back lights",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01_lights"
+   ],
+   "options": [
+    {
+     "id": "403914df",
+     "code": "bumper_b_lights_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_bumper_b_lights_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "e01433b8",
+     "code": "bumper_b_lights_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_bumper_b_lights_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper.bumper_b",
+   "label": "Rear bumper: back",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01",
+    "bumper_hearse_b_01"
+   ],
+   "options": [
+    {
+     "id": "c86018dd",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "posh_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01",
+      "rich_01"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "0e6df8f8",
+     "code": "bumper_b_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "player_01",
+      "poor_10",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_08"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "18f1d35f",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "posh_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01",
+      "rich_01",
+      "hearse_poor_01",
+      "hearse_poor_02",
+      "hearse_suburban_01",
+      "hearse_suburban_02",
+      "hearse_suburban_03",
+      "hearse_urban_01",
+      "hearse_urban_02"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "d3009d96",
+     "code": "hood_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "player_01",
+      "poor_10",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_08"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "933fd8c7",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "posh_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01",
+      "rich_01"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "9337e3b3",
+     "code": "trunk_02",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_trunk_02.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_trunk_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "player_01",
+      "poor_10",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_08"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "b28f3e76",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "posh_01",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "urban_01",
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05",
+      "urban_06",
+      "urban_07",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01",
+      "rich_01"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:burnt_01",
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_burnt_cabrio_1",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02",
+      "wreck:burnt_cabrio_1"
+     ]
+    },
+    {
+     "id": "0f15729f",
+     "code": "body_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "player_01",
+      "poor_10",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_08"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:burnt_01",
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "5b4601c0",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "valentinos_01",
+     "paints": [
+      "valentinos_01",
+      "valentinos_02",
+      "poor_01",
+      "rich_01",
+      "mox_01",
+      "interior_black_01",
+      "interior_blue_01",
+      "interior_grey_01",
+      "interior_pink_01",
+      "interior_red_01",
+      "poor_02"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:burnt_01",
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_burnt_cabrio_1",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02",
+      "wreck:burnt_cabrio_1"
+     ]
+    },
+    {
+     "id": "dfebf741",
+     "code": "interior_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "player_01",
+      "poor_10",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_08"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:burnt_01",
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.roof",
+   "label": "Roof",
+   "kind": "roof",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "roof_a"
+   ],
+   "options": [
+    {
+     "id": "ac913f9e",
+     "code": "roof_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_roof_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_roof_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "posh_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01",
+      "rich_01"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:burnt_01",
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01"
+     ]
+    },
+    {
+     "id": "c6692217",
+     "code": "roof_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_roof_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_roof_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "player_01",
+      "poor_10",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_08"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:burnt_01",
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield: front",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f",
+    "window_f_01"
+   ],
+   "options": [
+    {
+     "id": "22196383",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tinted"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:burnt_01",
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_burnt_cabrio_1",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02",
+      "wreck:burnt_cabrio_1"
+     ]
+    },
+    {
+     "id": "f37b5d76",
+     "code": "window_f_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tinted"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:burnt_01",
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_b",
+   "label": "Windshield: back",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_b_01"
+   ],
+   "options": [
+    {
+     "id": "04ee223c",
+     "code": "window_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_window_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean_01",
+      "tinted"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:burnt_01",
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     -0.8703557252883911,
+     0.0,
+     0.0,
+     0.4924236834049225
+    ],
+    [
+     0.537299633026123,
+     0.0,
+     0.0,
+     0.8433914184570312
+    ],
+    [
+     0.2840149998664856,
+     0.0,
+     0.0,
+     0.9588199853897095
+    ],
+    [
+     0.948323667049408,
+     0.0,
+     0.0,
+     0.3173046410083771
+    ]
+   ],
+   "roles": [
+    "hozuki_tire_01_<c>_a",
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "3546ca88",
+     "code": "tire_01",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_bl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_bl_01_shadow.mesh",
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "whitewall",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_white_letters",
+      "whitewall"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_valentinos_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_07"
+     ],
+     "origins": [
+      "look:mafia_01",
+      "look:player_01",
+      "look:poor_03",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "6b825e38",
+     "code": "tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_letter_white",
+      "dusty_letter_white",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_08"
+     ],
+     "origins": [
+      "look:default",
+      "look:mq301_paco",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:posh_01",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_04",
+      "look:urban_08",
+      "style:mox_cabrio_01"
+     ]
+    },
+    {
+     "id": "aebb9fb0",
+     "code": "tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_letter_white",
+      "dusty_letter_white",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:suburban_01",
+      "look:suburban_03",
+      "look:suburban_06",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_06",
+      "look:web_01"
+     ]
+    },
+    {
+     "id": "5dd95fc8",
+     "code": "tire_a_01",
+     "vehicle": "Hozuki MH2",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh"
+     },
+     "shadows": {
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_tire_wide_fl_02_shadowmesh.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_05"
+     ],
+     "origins": [
+      "look:poor_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     -0.8703557252883911,
+     0.0,
+     0.0,
+     0.4924236834049225
+    ],
+    [
+     0.537299633026123,
+     0.0,
+     0.0,
+     0.8433914184570312
+    ],
+    [
+     0.2840149998664856,
+     0.0,
+     0.0,
+     0.9588199853897095
+    ],
+    [
+     0.948323667049408,
+     0.0,
+     0.0,
+     0.3173046410083771
+    ]
+   ],
+   "roles": [
+    "hozuki_wheel_01_<c>_a",
+    "wheel_01_<c>_a",
+    "wheel_<c>_03",
+    "wheel_<c>_04"
+   ],
+   "options": [
+    {
+     "id": "3def902b",
+     "code": "wheel_04 + wheel_quartz",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_04.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_04.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_quartz_bl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_quartz_bl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "clean_04",
+     "paints": [
+      "clean_04",
+      "golden_01",
+      "chrome_01",
+      "clean_red"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_valentinos_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_07"
+     ],
+     "origins": [
+      "look:mafia_01",
+      "look:player_01",
+      "look:poor_03",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "805412f5",
+     "code": "wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_08"
+     ],
+     "origins": [
+      "look:default",
+      "look:mq301_paco",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_08",
+      "look:poor_10",
+      "look:posh_01",
+      "look:suburban_05",
+      "look:suburban_07",
+      "look:urban_04",
+      "look:urban_08",
+      "style:mox_cabrio_01"
+     ]
+    },
+    {
+     "id": "93a6465d",
+     "code": "wheel_outlaw",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_fl.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_fl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_fl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:suburban_01",
+      "look:suburban_03",
+      "look:suburban_06",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_06",
+      "look:web_01"
+     ]
+    },
+    {
+     "id": "8b4e4935",
+     "code": "wheel_cortes_b2",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_cortes_b2_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_cortes_b2_fl.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_cortes_b2_bl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_cortes_b2_bl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_09"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_04",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_09"
+     ]
+    },
+    {
+     "id": "8b62659d",
+     "code": "wheel_outlaw",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_fl.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_bl.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_bl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_08"
+     ],
+     "origins": [
+      "look:suburban_04",
+      "look:suburban_08"
+     ]
+    },
+    {
+     "id": "14fad995",
+     "code": "wheel_a_01",
+     "vehicle": "Hozuki MH2",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_05"
+     ],
+     "origins": [
+      "look:poor_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "c5a794a5",
+     "code": "door_01 + door_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_bl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_br_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_fr_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_br_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "posh_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01",
+      "rich_01"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "58f291dd",
+     "code": "door_01 + door_a_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "fl": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_door_fl_01.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_door_fr_01.mesh",
+      "bl": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_door_bl_a_01.mesh",
+      "br": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_door_br_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_fr_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_bl_a_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_br_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "player_01",
+      "poor_10",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_08"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_b.door",
+   "label": "Doors (b)",
+   "kind": "door",
+   "group": "door_b",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_back_left_b",
+    "door_back_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_b",
+    "door_<c>_b_01",
+    "v_sport2_villefort_alvarado_hearse__ext01_door_<c>_b_01"
+   ],
+   "options": [
+    {
+     "id": "fdc4b3f2",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_bl_b_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_br_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado__basic_valentinos_02"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:mox_cabrio_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "6cfacfce",
+     "code": "door_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "bl": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_door_bl_b_01.mesh",
+      "br": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_door_br_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_b.trunk",
+   "label": "Trunk (b)",
+   "kind": "trunk",
+   "group": "trunk_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_b"
+   ],
+   "options": [
+    {
+     "id": "969ac91b",
+     "code": "trunk_01",
+     "vehicle": "v_sport1_villefort_alvarado",
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado_hearse__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "player_01",
+      "poor_10",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_08"
+     ],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_05",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_07",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:urban_08",
+      "look:web_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.tire",
+   "label": "Tires (b)",
+   "kind": "tire",
+   "group": "wheel_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "wheel_front_left_b",
+    "wheel_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.8526401519775391,
+     0.0,
+     0.0,
+     -0.522498607635498
+    ],
+    [
+     -0.2164396196603775,
+     0.0,
+     0.0,
+     0.976296067237854
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a",
+    "tire_01_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "cb864969",
+     "code": "tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_letter_white",
+      "dusty_letter_white",
+      "muddy_letter_white"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_09",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:urban_08",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:default",
+      "look:mq301_paco",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_08",
+      "look:poor_09",
+      "look:poor_10",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_04",
+      "look:urban_06",
+      "look:urban_08",
+      "look:web_01",
+      "style:mox_cabrio_01"
+     ]
+    },
+    {
+     "id": "958c45bb",
+     "code": "tire_01",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "whitewall",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_white_letters",
+      "whitewall"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_valentinos_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_07"
+     ],
+     "origins": [
+      "look:mafia_01",
+      "look:player_01",
+      "look:poor_03",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "e4467505",
+     "code": "tire_a_01",
+     "vehicle": "Hozuki MH2",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_mahir_supron\\entities\\meshes\\v_standard25_mahir_supron__ext01_tire_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_05"
+     ],
+     "origins": [
+      "look:poor_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.wheel",
+   "label": "Rims (b)",
+   "kind": "wheel",
+   "group": "wheel_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "wheel_front_left_b",
+    "wheel_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.8526401519775391,
+     0.0,
+     0.0,
+     -0.522498607635498
+    ],
+    [
+     -0.2164396196603775,
+     0.0,
+     0.0,
+     0.976296067237854
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a",
+    "wheel_01_<c>_b",
+    "wheel_<c>_b_03"
+   ],
+   "options": [
+    {
+     "id": "2cd0b356",
+     "code": "wheel_03",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_03.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "clean_04",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "clean_01",
+      "clean_02",
+      "clean_04",
+      "golden_01",
+      "chrome_01",
+      "clean_red"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01",
+      "villefort_alvarado__basic_valentinos_02",
+      "villefort_alvarado_hearse_01_basic:poor_03",
+      "villefort_alvarado_hearse_01_basic:suburban_02",
+      "villefort_alvarado_hearse_01_basic:suburban_04",
+      "villefort_alvarado_hearse_01_basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:urban_03",
+      "villefort_alvarado_hearse_01_basic:urban_05",
+      "villefort_alvarado_hearse_01_basic:urban_07"
+     ],
+     "origins": [
+      "look:mafia_01",
+      "look:player_01",
+      "look:poor_03",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01",
+      "style:valentinos_02"
+     ]
+    },
+    {
+     "id": "70a906c8",
+     "code": "wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic_mox_cabrio_01",
+      "villefort_alvarado__basic_premium_cabrio_01",
+      "villefort_alvarado_hearse_01_basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_02",
+      "villefort_alvarado_hearse_01_basic:poor_08",
+      "villefort_alvarado_hearse_01_basic:poor_10",
+      "villefort_alvarado_hearse_01_basic:suburban_05",
+      "villefort_alvarado_hearse_01_basic:suburban_07",
+      "villefort_alvarado_hearse_01_basic:urban_04",
+      "villefort_alvarado_hearse_01_basic:urban_08"
+     ],
+     "origins": [
+      "look:default",
+      "look:mq301_paco",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:poor_08",
+      "look:poor_10",
+      "look:posh_01",
+      "look:suburban_05",
+      "look:suburban_07",
+      "look:urban_04",
+      "look:urban_08",
+      "style:mox_cabrio_01"
+     ]
+    },
+    {
+     "id": "1701ac2a",
+     "code": "wheel_outlaw",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_fl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado_hearse_01_basic:suburban_01",
+      "villefort_alvarado_hearse_01_basic:suburban_03",
+      "villefort_alvarado_hearse_01_basic:suburban_06",
+      "villefort_alvarado_hearse_01_basic:urban_01",
+      "villefort_alvarado_hearse_01_basic:urban_02",
+      "villefort_alvarado_hearse_01_basic:urban_06",
+      "villefort_alvarado_hearse_01_basic:web_01"
+     ],
+     "origins": [
+      "look:suburban_01",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_06",
+      "look:suburban_08",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_06",
+      "look:web_01"
+     ]
+    },
+    {
+     "id": "6a8de55e",
+     "code": "wheel_cortes_b2",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_cortes_b2_fl.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_cortes_b2_fl.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado_hearse_01_basic:poor_04",
+      "villefort_alvarado_hearse_01_basic:poor_06",
+      "villefort_alvarado_hearse_01_basic:poor_07",
+      "villefort_alvarado_hearse_01_basic:poor_09"
+     ],
+     "origins": [
+      "look:poor_01",
+      "look:poor_04",
+      "look:poor_06",
+      "look:poor_07",
+      "look:poor_09"
+     ]
+    },
+    {
+     "id": "b81a726c",
+     "code": "wheel_a_01",
+     "vehicle": "Hozuki MH2",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_alvarado_hearse_01_basic:poor_05"
+     ],
+     "origins": [
+      "look:poor_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.door",
+   "label": "Door (window)",
+   "kind": "door",
+   "group": "window",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "window_back_left_a",
+    "window_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_c"
+   ],
+   "options": [
+    {
+     "id": "4efa78c1",
+     "code": "door_c_01",
+     "vehicle": null,
+     "meshes": {
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_bl_c_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_br_c_01.mesh"
+     },
+     "shadows": {
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_bl_c_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_br_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_03",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "posh_01",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "valentinos_01",
+      "valentinos_02",
+      "mox_01",
+      "rich_01"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows: main",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a",
+    "window_back_left_a",
+    "window_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>",
+    "window_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "f667c8b9",
+     "code": "window_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_window_fr_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_window_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_window_br_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "tinted"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window.window",
+   "label": "Side windows: main",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "window_back_left_a",
+    "window_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>_02"
+   ],
+   "options": [
+    {
+     "id": "ed30de65",
+     "code": "window_02",
+     "vehicle": null,
+     "meshes": {
+      "bl": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_window_bl_02.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_window_br_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "tinted"
+     ],
+     "looks": [
+      "villefort_alvarado__basic:default",
+      "villefort_alvarado__basic:mafia_01",
+      "villefort_alvarado__basic:mq301_paco",
+      "villefort_alvarado__basic:player_01",
+      "villefort_alvarado__basic:poor_01",
+      "villefort_alvarado__basic:poor_02",
+      "villefort_alvarado__basic:poor_03",
+      "villefort_alvarado__basic:poor_04",
+      "villefort_alvarado__basic:poor_05",
+      "villefort_alvarado__basic:posh_01",
+      "villefort_alvarado__basic:suburban_01",
+      "villefort_alvarado__basic:suburban_02",
+      "villefort_alvarado__basic:suburban_03",
+      "villefort_alvarado__basic:suburban_04",
+      "villefort_alvarado__basic:suburban_05",
+      "villefort_alvarado__basic:suburban_06",
+      "villefort_alvarado__basic:suburban_07",
+      "villefort_alvarado__basic:suburban_08",
+      "villefort_alvarado__basic:suburban_09",
+      "villefort_alvarado__basic:suburban_10",
+      "villefort_alvarado__basic:suburban_11",
+      "villefort_alvarado__basic:urban_01",
+      "villefort_alvarado__basic:urban_02",
+      "villefort_alvarado__basic:urban_03",
+      "villefort_alvarado__basic:urban_04",
+      "villefort_alvarado__basic:urban_05",
+      "villefort_alvarado__basic:urban_06",
+      "villefort_alvarado__basic:urban_07",
+      "villefort_alvarado__basic:valentinos_01"
+     ],
+     "origins": [
+      "look:default",
+      "look:mafia_01",
+      "look:mq301_paco",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:posh_01",
+      "look:suburban_01",
+      "look:suburban_02",
+      "look:suburban_03",
+      "look:suburban_04",
+      "look:suburban_05",
+      "look:suburban_06",
+      "look:suburban_07",
+      "look:suburban_08",
+      "look:suburban_09",
+      "look:suburban_10",
+      "look:suburban_11",
+      "look:urban_01",
+      "look:urban_02",
+      "look:urban_03",
+      "look:urban_04",
+      "look:urban_05",
+      "look:urban_06",
+      "look:urban_07",
+      "look:valentinos_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "valentinos_c937",
+   "family": "valentinos",
+   "code": "body_valentinos_stickers_02",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_02",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_02.mesh",
+     "code": "body_valentinos_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic:valentinos_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_alvarado__basic:valentinos_01",
+    "villefort_alvarado__basic_valentinos_02"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:valentinos_01",
+    "style:valentinos_02"
+   ]
+  },
+  {
+   "id": "valentinos_8e51",
+   "family": "valentinos",
+   "code": "kit_valentinos_body_doors_trunk",
+   "where": [
+    "body",
+    "doors",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_03",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_03.mesh",
+     "code": "body_valentinos_stickers_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic_valentinos_02",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_04",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_04.mesh",
+     "code": "body_valentinos_stickers_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic_valentinos_02",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_05",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_05.mesh",
+     "code": "body_valentinos_stickers_05",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic_valentinos_02",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_06",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_body_valentinos_stickers_06.mesh",
+     "code": "body_valentinos_stickers_06",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "fuel_cap",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic_valentinos_02",
+     "parent": "vehicle_slots:fuel_cap"
+    },
+    {
+     "name": "v_sport2_villefort_alvarado__ext01_door_fl_valentinos_sticker_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_door_fl_valentinos_sticker_01.mesh",
+     "code": "door_fl_valentinos_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      -0.01,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic_valentinos_02",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_sport2_villefort_alvarado__ext01_trunk_valentinos_stickers_02",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_trunk_valentinos_stickers_02.mesh",
+     "code": "trunk_valentinos_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic_valentinos_02",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "villefort_alvarado__basic_valentinos_02"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:valentinos_02"
+   ]
+  },
+  {
+   "id": "valentinos_668d",
+   "family": "valentinos",
+   "code": "kit_valentinos_body_interior_trunk",
+   "where": [
+    "body",
+    "interior",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_sport2_villefort_alvarado__ext01_body_vaentinos_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_body_vaentinos_stickers_01.mesh",
+     "code": "body_vaentinos_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic:valentinos_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_sport2_villefort_alvarado__ext01_trunk_valentinos_stickers_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_trunk_valentinos_stickers_01.mesh",
+     "code": "trunk_valentinos_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic:valentinos_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "v_sport2_villefort_alvarado__int01_interior_stickers_valentinos_01",
+     "mesh": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__int01_interior_stickers_valentinos_01.mesh",
+     "code": "interior_stickers_valentinos_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_alvarado__basic:valentinos_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_alvarado__basic:valentinos_01"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:valentinos_01"
+   ]
+  }
+ ],
+ "looks": {
+  "villefort_alvarado__basic_mox_cabrio_01": {
+   "app": "base\\vehicles\\appearances\\sport\\villefort_alvarado__basic.app",
+   "app_look": "mox_cabrio_01",
+   "style": "mox_cabrio_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door_b.door": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01_lights"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_01_fl_b",
+     "fr": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    }
+   }
+  },
+  "villefort_alvarado__basic_premium_cabrio_01": {
+   "app": "base\\vehicles\\appearances\\sport\\villefort_alvarado__basic.app",
+   "app_look": "premium_cabrio_01",
+   "style": "mox_cabrio_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door_b.door": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01_lights"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_01_fl_b",
+     "fr": "wheel_01_fr_b"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    }
+   }
+  },
+  "villefort_alvarado__basic_valentinos_02": {
+   "app": "base\\vehicles\\appearances\\sport\\villefort_alvarado__basic.app",
+   "app_look": "valentinos_02",
+   "style": "valentinos_02",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door_b.door": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01_lights"
+    },
+    "bumper_back.bumper.bumper_b": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_03",
+     "fr": "wheel_fr_04",
+     "bl": "wheel_bl_04",
+     "br": "wheel_br_04"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b_03",
+     "fr": "wheel_fr_b_03"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_01_fl_b",
+     "fr": "tire_01_fr_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    }
+   }
+  },
+  "villefort_alvarado__basic_burnt_cabrio_1": {
+   "app": "base\\vehicles\\appearances\\sport\\villefort_alvarado__basic.app",
+   "app_look": "burnt_cabrio_1",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.413,
+   0.3173,
+   0.3303,
+   -0.0405
+  ],
+  "b": [
+   0.413,
+   0.4618,
+   0.3303,
+   0.0426
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "1f8311ec",
+   "rim": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_bl_a_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_bl_a_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Alvarado V4F 570 Delegate",
+   "radius": 0.413,
+   "width": 0.4618,
+   "rim_radius": 0.3303,
+   "tire_center": 0.0426,
+   "axles": [
+    "b"
+   ],
+   "looks": 17,
+   "paints": [
+    "poor_02",
+    "valentinos_01",
+    "poor_01",
+    "valentinos_02",
+    "mox_01"
+   ],
+   "default_paint": "poor_02",
+   "kind": "car",
+   "look_names": [
+    "villefort_alvarado__basic:default",
+    "villefort_alvarado__basic:mq301_paco",
+    "villefort_alvarado__basic:poor_02",
+    "villefort_alvarado__basic:poor_03",
+    "villefort_alvarado__basic:poor_04",
+    "villefort_alvarado__basic:poor_05",
+    "villefort_alvarado__basic:posh_01",
+    "villefort_alvarado__basic_mox_cabrio_01",
+    "villefort_alvarado__basic_premium_cabrio_01",
+    "villefort_alvarado_hearse_01_basic:poor_01",
+    "villefort_alvarado_hearse_01_basic:poor_02",
+    "villefort_alvarado_hearse_01_basic:poor_08",
+    "villefort_alvarado_hearse_01_basic:poor_10",
+    "villefort_alvarado_hearse_01_basic:suburban_05",
+    "villefort_alvarado_hearse_01_basic:suburban_07",
+    "villefort_alvarado_hearse_01_basic:urban_04",
+    "villefort_alvarado_hearse_01_basic:urban_08"
+   ]
+  },
+  {
+   "id": "d023555c",
+   "rim": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_fl_a_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Alvarado V4F 570 Delegate",
+   "radius": 0.413,
+   "width": 0.3173,
+   "rim_radius": 0.3303,
+   "tire_center": -0.0405,
+   "axles": [
+    "f"
+   ],
+   "looks": 17,
+   "paints": [
+    "poor_01",
+    "poor_02",
+    "valentinos_01",
+    "valentinos_02",
+    "mox_01"
+   ],
+   "default_paint": "poor_02",
+   "kind": "car",
+   "look_names": [
+    "villefort_alvarado__basic:default",
+    "villefort_alvarado__basic:mq301_paco",
+    "villefort_alvarado__basic:poor_02",
+    "villefort_alvarado__basic:poor_03",
+    "villefort_alvarado__basic:poor_04",
+    "villefort_alvarado__basic:poor_05",
+    "villefort_alvarado__basic:posh_01",
+    "villefort_alvarado__basic_mox_cabrio_01",
+    "villefort_alvarado__basic_premium_cabrio_01",
+    "villefort_alvarado_hearse_01_basic:poor_01",
+    "villefort_alvarado_hearse_01_basic:poor_02",
+    "villefort_alvarado_hearse_01_basic:poor_08",
+    "villefort_alvarado_hearse_01_basic:poor_10",
+    "villefort_alvarado_hearse_01_basic:suburban_05",
+    "villefort_alvarado_hearse_01_basic:suburban_07",
+    "villefort_alvarado_hearse_01_basic:urban_04",
+    "villefort_alvarado_hearse_01_basic:urban_08"
+   ]
+  },
+  {
+   "id": "71ff53a4",
+   "rim": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_cortes_b2_fl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_cortes_b2_fl",
+   "tire_code": "tire_fl_a_01",
+   "from": "Alvarado V4F 570 Delegate",
+   "radius": 0.413,
+   "width": 0.3173,
+   "rim_radius": 0.3137,
+   "tire_center": -0.0405,
+   "axles": [
+    "f"
+   ],
+   "looks": 5,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "villefort_alvarado__basic:poor_01",
+    "villefort_alvarado_hearse_01_basic:poor_04",
+    "villefort_alvarado_hearse_01_basic:poor_06",
+    "villefort_alvarado_hearse_01_basic:poor_07",
+    "villefort_alvarado_hearse_01_basic:poor_09"
+   ]
+  },
+  {
+   "id": "e11b03e4",
+   "rim": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_cortes_b2_bl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_cortes_b2_bl",
+   "tire_code": "tire_bl_a_01",
+   "from": "Alvarado V4F 570 Delegate",
+   "radius": 0.413,
+   "width": 0.4618,
+   "rim_radius": 0.3137,
+   "tire_center": 0.0426,
+   "axles": [
+    "b"
+   ],
+   "looks": 5,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "villefort_alvarado__basic:poor_01",
+    "villefort_alvarado_hearse_01_basic:poor_04",
+    "villefort_alvarado_hearse_01_basic:poor_06",
+    "villefort_alvarado_hearse_01_basic:poor_07",
+    "villefort_alvarado_hearse_01_basic:poor_09"
+   ]
+  },
+  {
+   "id": "52ae2a43",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_04.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_04",
+   "tire_code": "tire_fl_01",
+   "from": "Quartz EC-T2 r660",
+   "radius": 0.362,
+   "width": 0.2965,
+   "rim_radius": 0.3004,
+   "tire_center": -0.1137,
+   "axles": [
+    "f"
+   ],
+   "looks": 27,
+   "paints": [
+    "clean_04",
+    "golden_01",
+    "chrome_01",
+    "clean_red"
+   ],
+   "default_paint": "clean_04",
+   "kind": "car",
+   "look_names": [
+    "villefort_alvarado__basic:mafia_01",
+    "villefort_alvarado__basic:player_01",
+    "villefort_alvarado__basic:suburban_01",
+    "villefort_alvarado__basic:suburban_02",
+    "villefort_alvarado__basic:suburban_03",
+    "villefort_alvarado__basic:suburban_05",
+    "villefort_alvarado__basic:suburban_06",
+    "villefort_alvarado__basic:suburban_07",
+    "villefort_alvarado__basic:suburban_09",
+    "villefort_alvarado__basic:suburban_10",
+    "villefort_alvarado__basic:suburban_11",
+    "villefort_alvarado__basic:urban_01",
+    "villefort_alvarado__basic:urban_02",
+    "villefort_alvarado__basic:urban_03",
+    "villefort_alvarado__basic:urban_04",
+    "villefort_alvarado__basic:urban_05",
+    "villefort_alvarado__basic:urban_06",
+    "villefort_alvarado__basic:urban_07",
+    "villefort_alvarado__basic:valentinos_01",
+    "villefort_alvarado__basic_valentinos_02",
+    "villefort_alvarado_hearse_01_basic:poor_03",
+    "villefort_alvarado_hearse_01_basic:suburban_02",
+    "villefort_alvarado_hearse_01_basic:suburban_04",
+    "villefort_alvarado_hearse_01_basic:suburban_08",
+    "villefort_alvarado_hearse_01_basic:urban_03",
+    "villefort_alvarado_hearse_01_basic:urban_05",
+    "villefort_alvarado_hearse_01_basic:urban_07"
+   ]
+  },
+  {
+   "id": "378c4219",
+   "rim": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_quartz_bl.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_quartz_bl",
+   "tire_code": "tire_fl_01",
+   "from": "Alvarado V4F 570 Delegate",
+   "radius": 0.362,
+   "width": 0.2965,
+   "rim_radius": 0.3243,
+   "tire_center": -0.1137,
+   "axles": [
+    "b"
+   ],
+   "looks": 27,
+   "paints": [
+    "clean_04",
+    "golden_01",
+    "chrome_01",
+    "clean_red"
+   ],
+   "default_paint": "clean_04",
+   "kind": "car",
+   "look_names": [
+    "villefort_alvarado__basic:mafia_01",
+    "villefort_alvarado__basic:player_01",
+    "villefort_alvarado__basic:suburban_01",
+    "villefort_alvarado__basic:suburban_02",
+    "villefort_alvarado__basic:suburban_03",
+    "villefort_alvarado__basic:suburban_05",
+    "villefort_alvarado__basic:suburban_06",
+    "villefort_alvarado__basic:suburban_07",
+    "villefort_alvarado__basic:suburban_09",
+    "villefort_alvarado__basic:suburban_10",
+    "villefort_alvarado__basic:suburban_11",
+    "villefort_alvarado__basic:urban_01",
+    "villefort_alvarado__basic:urban_02",
+    "villefort_alvarado__basic:urban_03",
+    "villefort_alvarado__basic:urban_04",
+    "villefort_alvarado__basic:urban_05",
+    "villefort_alvarado__basic:urban_06",
+    "villefort_alvarado__basic:urban_07",
+    "villefort_alvarado__basic:valentinos_01",
+    "villefort_alvarado__basic_valentinos_02",
+    "villefort_alvarado_hearse_01_basic:poor_03",
+    "villefort_alvarado_hearse_01_basic:suburban_02",
+    "villefort_alvarado_hearse_01_basic:suburban_04",
+    "villefort_alvarado_hearse_01_basic:suburban_08",
+    "villefort_alvarado_hearse_01_basic:urban_03",
+    "villefort_alvarado_hearse_01_basic:urban_05",
+    "villefort_alvarado_hearse_01_basic:urban_07"
+   ]
+  },
+  {
+   "id": "1456032f",
+   "rim": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_fl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_outlaw_fl",
+   "tire_code": "tire_fl_a_01",
+   "from": "Alvarado V4F 570 Delegate",
+   "radius": 0.413,
+   "width": 0.3173,
+   "rim_radius": 0.3089,
+   "tire_center": -0.0405,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 16,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "villefort_alvarado__basic:suburban_04",
+    "villefort_alvarado__basic:suburban_08",
+    "villefort_alvarado_hearse_01_basic:suburban_01",
+    "villefort_alvarado_hearse_01_basic:suburban_03",
+    "villefort_alvarado_hearse_01_basic:suburban_06",
+    "villefort_alvarado_hearse_01_basic:urban_01",
+    "villefort_alvarado_hearse_01_basic:urban_02",
+    "villefort_alvarado_hearse_01_basic:urban_06",
+    "villefort_alvarado_hearse_01_basic:web_01"
+   ]
+  },
+  {
+   "id": "24121a4f",
+   "rim": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_wheel_outlaw_bl.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport2_villefort_alvarado\\entities\\meshes\\v_sport2_villefort_alvarado__ext01_tire_bl_a_01_shadow.mesh",
+   "code": "wheel_outlaw_bl",
+   "tire_code": "tire_bl_a_01",
+   "from": "Alvarado V4F 570 Delegate",
+   "radius": 0.413,
+   "width": 0.4618,
+   "rim_radius": 0.3089,
+   "tire_center": 0.0426,
+   "axles": [
+    "b"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "villefort_alvarado__basic:suburban_04",
+    "villefort_alvarado__basic:suburban_08"
+   ]
+  },
+  {
+   "id": "a78c0588",
+   "rim": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh",
+   "tire": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Hozuki MH2",
+   "radius": 0.3552,
+   "width": 0.2499,
+   "rim_radius": 0.2715,
+   "tire_center": 0.0165,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "villefort_alvarado_hearse_01_basic:poor_05"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "villefort_alvarado__basic_valentinos_02",
+   "Alvarado V4FC 580 \"Vato\""
+  ]
+ ]
+}

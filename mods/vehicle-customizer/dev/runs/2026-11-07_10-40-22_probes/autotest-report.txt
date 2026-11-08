@@ -1,0 +1,260 @@
+10:40:41 runner on; job probes; waiting for the save to load
+10:40:46 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+10:40:56 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+10:41:06 the run script says the start screen is gone
+10:41:06 waiting at the menu: start screen closed, newest save known (modded), menu here, 1 tries
+10:41:06 main menu continued the newest save; waiting for the world
+10:41:29 world loaded; job probes
+10:41:29   engine: ready: 100 catalogs, 500 pool copies and 104 of V's own cars, 100 entity files watched
+10:41:29   engine: attached: Vehicle.v_sport2_quadra_type66_nomad_tribute in quadra_type66_nomad_tribute_01
+10:41:29   engine: attached: Vehicle.v_standard2_thorton_galena_bobas_player in thorton_galena__basic_q000_galena_bobas
+10:41:29   engine: attached: Vehicle.v_sport1_rayfield_caliburn_02_player in rayfield_caliburn__basic_ma_bls_ina_se1_40
+10:41:29   engine: attached: Vehicle.v_standard25_thorton_colby_pickup_02_player in thorton_colby_pickup_ma_bls_ina_se1_44
+10:41:29 step 1: probes: turn V and spawn the Hella copy in front
+10:41:29   spawned entity 10827080ULL 7 m ahead of V
+10:41:29   engine: attached: Vehicle.vc_archer_hella__basic_01_3 in archer_hella__basic_player_01
+10:41:29   done waiting for the copy to appear (0.2 s)
+10:41:33 step 2: the car's mesh parts and their boxes
+10:41:33   mesh hash read by ResRef.GetHash; with a box: door_bl_a, door_br_a, door_fl_a, body_01, window_b, window_bl_02_01, window_br_02, interior_trunk_01, bumper_b_01, wheel_01_br_a, tire_01_br_a, wheel_01_bl_a, tire_01_bl_a, interior_01, door_fr_a, trunk_a, hood_a, bumper_f_01, wheel_01_fr_a, tire_01_fr_a, wheel_01_fl_a, tire_01_fl_a, body_player_01
+10:41:33   without a box: window_bl, door_bl_player_stripe_01, window_br, door_br_player_stripe_01, window_fl, door_fl_player_stripe_01, door_mirror_fl_01, window_f, chasis, fuel_cap, engine, wipers_01, vehicle_lights_01, exhaust_01, position_lights_01, fuelport_standard, junk_fuelcell, v_standard2_archer_hella__int01_glove_box_01, fx_cutout, pedals, v_common__int01_light_02, steering_wheel, window_fr, door_fr_player_stripe_01, door_mirror_fr_01, v_standard2_archer_hella__ext01_trunk_player_01, bumper_f_player_01, body_player_stripe_01, v_standard2_archer_hella__int01_v_console_01, bobble_head_01_vdog, bottle_disinfectant_f, bobble_head_01_vdog_head, decoset_trash_packaging_pile_b2544, int_electronics_002__circuit_device_b3022, int_electronics_002__circuit_device_b, w_club_2h__baseball_bat__grip1_01_perfored_base, decoset_trash_packaging_pile_b, braindance_cartridge_a_cover_stripe_a, box_ammo_a, i1_002_pwa_slot__diving_bottle, monitor_arm_p, neo_milit_medical_device_b, t0_002_mm_armor__adam_smasher_pipe_l, large_fusebox_attachment_l1727, large_fusebox_attachment_l0305, military_case_i, box_ammo_a5445, large_fusebox_attachment_l, i1_003_ma_slot__weyland_bag, attachment_antenna_1_n_roof_radar_cables, fuse_box_large_a, bottle_disinfectant_f7172, AppearanceProxyMesh
+10:41:33 PASS the car's parts are found among the boxes - 23 with a box, 53 without
+10:41:33   parts to outline: door_fl_a, hood_a, bumper_f_01
+10:41:33 SHOT p0_car
+10:41:35 step 3: probe 1: outline the whole car (control)
+10:41:35 PASS a highlight event for the whole car - queued
+10:41:37 step 4: picture
+10:41:37 SHOT p1_whole_car
+10:41:38 step 5: clear it
+10:41:40 step 6: probe 1: outline one part, the first target
+10:41:40 PASS an outline on door_fl_a - queued; outline colour 1
+10:41:42 step 7: picture
+10:41:42 SHOT p1_door_fl_a_outline1
+10:41:43 step 8: clear it, outline the second target in another colour
+10:41:43 PASS an outline on hood_a - queued; outline colour 2
+10:41:45 step 9: picture
+10:41:45 SHOT p1_hood_a_outline2
+10:41:46 step 10: clear it, fill the third target
+10:41:46 PASS a fill on bumper_f_01 - queued; fill colour 1 at 0.6
+10:41:48 step 11: picture
+10:41:48 SHOT p1_bumper_f_01_fill1
+10:41:49 step 12: clear it, outline the fourth in colour 3
+10:41:49 PASS an outline on nil - queued; outline colour 3
+10:41:51 step 13: picture
+10:41:51 SHOT p1_nil_outline3
+10:41:52 step 14: clear it
+10:41:53 step 15: probe 2: a ray from the eye to each part's middle
+10:41:53 PASS the camera's place is read
+10:41:53   door_bl_a (middle 6.2 m away): door_bl_a (0.41 m3, at 6.0 m), door_br_a (0.41 m3, at 7.8 m), interior_01 (6.74 m3, at 6.2 m), body_player_01 (12.74 m3, at 5.9 m), body_01 (15.49 m3, at 6.0 m)
+10:41:53   door_br_a (middle 7.9 m away): door_bl_a (0.41 m3, at 6.0 m), door_br_a (0.41 m3, at 7.8 m), interior_01 (6.74 m3, at 6.2 m), body_player_01 (12.74 m3, at 5.9 m), body_01 (15.49 m3, at 6.0 m)
+10:41:53   door_fl_a (middle 6.2 m away): door_fl_a (0.51 m3, at 6.0 m), door_fr_a (0.51 m3, at 7.8 m), interior_01 (6.74 m3, at 6.2 m), body_player_01 (12.74 m3, at 5.9 m), body_01 (15.49 m3, at 6.0 m)
+10:41:53   body_01 (middle 7.1 m away): door_br_a (0.41 m3, at 7.8 m), door_fr_a (0.51 m3, at 7.8 m), door_fl_a (0.51 m3, at 6.0 m), interior_01 (6.74 m3, at 6.2 m), body_player_01 (12.74 m3, at 5.9 m), body_01 (15.49 m3, at 6.0 m)
+10:41:53   window_b (middle 7.2 m away): window_bl_02_01 (0.00 m3, at 6.3 m), window_b (0.08 m3, at 6.5 m), interior_01 (6.74 m3, at 6.3 m), body_player_01 (12.74 m3, at 6.0 m), body_01 (15.49 m3, at 6.1 m)
+10:41:53   window_bl_02_01 (middle 6.4 m away): window_bl_02_01 (0.00 m3, at 6.3 m), window_b (0.08 m3, at 6.7 m), interior_01 (6.74 m3, at 6.2 m), body_player_01 (12.74 m3, at 6.0 m), body_01 (15.49 m3, at 6.1 m)
+10:41:53   window_br_02 (middle 7.9 m away): window_br_02 (0.00 m3, at 7.9 m), door_bl_a (0.41 m3, at 6.0 m), interior_01 (6.74 m3, at 6.2 m), body_player_01 (12.74 m3, at 6.0 m), body_01 (15.49 m3, at 6.0 m)
+10:41:53   interior_trunk_01 (middle 7.4 m away): trunk_a (0.72 m3, at 6.6 m), interior_trunk_01 (0.73 m3, at 6.7 m), body_player_01 (12.74 m3, at 6.2 m), body_01 (15.49 m3, at 6.2 m)
+10:41:53   bumper_b_01 (middle 7.5 m away): bumper_b_01 (0.65 m3, at 6.4 m), body_player_01 (12.74 m3, at 6.3 m), body_01 (15.49 m3, at 6.4 m)
+10:41:53   wheel_01_br_a (middle 8.2 m away): wheel_01_br_a (0.20 m3, at 7.9 m), tire_01_br_a (0.37 m3, at 7.9 m), tire_01_bl_a (0.37 m3, at 6.3 m), interior_01 (6.74 m3, at 6.3 m), body_player_01 (12.74 m3, at 6.1 m), body_01 (15.49 m3, at 6.1 m)
+10:41:53   tire_01_br_a (middle 8.2 m away): wheel_01_br_a (0.20 m3, at 7.9 m), tire_01_br_a (0.37 m3, at 7.9 m), tire_01_bl_a (0.37 m3, at 6.3 m), interior_01 (6.74 m3, at 6.3 m), body_player_01 (12.74 m3, at 6.1 m), body_01 (15.49 m3, at 6.1 m)
+10:41:53   wheel_01_bl_a (middle 6.4 m away): wheel_01_bl_a (0.20 m3, at 6.1 m), tire_01_bl_a (0.37 m3, at 6.1 m), body_player_01 (12.74 m3, at 6.2 m), body_01 (15.49 m3, at 6.3 m)
+10:41:53   tire_01_bl_a (middle 6.4 m away): wheel_01_bl_a (0.20 m3, at 6.1 m), tire_01_bl_a (0.37 m3, at 6.1 m), body_player_01 (12.74 m3, at 6.2 m), body_01 (15.49 m3, at 6.3 m)
+10:41:53   interior_01 (middle 7.1 m away): door_bl_a (0.41 m3, at 6.0 m), door_br_a (0.41 m3, at 7.8 m), door_fr_a (0.51 m3, at 7.8 m), door_fl_a (0.51 m3, at 6.0 m), interior_01 (6.74 m3, at 6.2 m), body_player_01 (12.74 m3, at 5.9 m), +1 more
+10:41:53   door_fr_a (middle 7.9 m away): door_fl_a (0.51 m3, at 6.0 m), door_fr_a (0.51 m3, at 7.8 m), interior_01 (6.74 m3, at 6.2 m), body_player_01 (12.74 m3, at 5.9 m), body_01 (15.49 m3, at 6.0 m)
+10:41:53   trunk_a (middle 7.4 m away): trunk_a (0.72 m3, at 6.6 m), interior_trunk_01 (0.73 m3, at 6.7 m), body_player_01 (12.74 m3, at 6.2 m), body_01 (15.49 m3, at 6.3 m)
+10:41:53   hood_a (middle 7.3 m away): hood_a (0.33 m3, at 6.4 m), body_player_01 (12.74 m3, at 6.1 m), body_01 (15.49 m3, at 6.2 m)
+10:41:53   bumper_f_01 (middle 7.5 m away): tire_01_fl_a (0.37 m3, at 6.2 m), bumper_f_01 (0.70 m3, at 6.5 m), body_player_01 (12.74 m3, at 6.3 m), body_01 (15.49 m3, at 6.4 m)
+10:41:53   wheel_01_fr_a (middle 8.2 m away): wheel_01_fr_a (0.20 m3, at 7.9 m), tire_01_fr_a (0.37 m3, at 7.9 m), tire_01_fl_a (0.37 m3, at 6.4 m), interior_01 (6.74 m3, at 6.3 m), body_player_01 (12.74 m3, at 6.1 m), body_01 (15.49 m3, at 6.1 m)
+10:41:53   tire_01_fr_a (middle 8.2 m away): wheel_01_fr_a (0.20 m3, at 7.9 m), tire_01_fr_a (0.37 m3, at 7.9 m), tire_01_fl_a (0.37 m3, at 6.4 m), interior_01 (6.74 m3, at 6.3 m), body_player_01 (12.74 m3, at 6.1 m), body_01 (15.49 m3, at 6.1 m)
+10:41:53   wheel_01_fl_a (middle 6.4 m away): wheel_01_fl_a (0.20 m3, at 6.1 m), tire_01_fl_a (0.37 m3, at 6.1 m), body_player_01 (12.74 m3, at 6.2 m), body_01 (15.49 m3, at 6.3 m)
+10:41:53   tire_01_fl_a (middle 6.4 m away): wheel_01_fl_a (0.20 m3, at 6.1 m), tire_01_fl_a (0.37 m3, at 6.1 m), body_player_01 (12.74 m3, at 6.2 m), body_01 (15.49 m3, at 6.3 m)
+10:41:53   body_player_01 (middle 7.1 m away): door_bl_a (0.41 m3, at 6.0 m), door_br_a (0.41 m3, at 7.8 m), interior_01 (6.74 m3, at 6.2 m), body_player_01 (12.74 m3, at 5.9 m), body_01 (15.49 m3, at 6.0 m)
+10:41:53 PASS every part is listed under a ray to its middle - 23 of 23
+10:41:53   the part itself first (smallest box) for 11 of 23
+10:41:54 step 16: probe 2: what's under the crosshair now
+10:41:54   under the crosshair: nothing
+10:41:54   the game's look-at point: -2549.85, -2321.93, 13.25
+10:41:54 SHOT p2_crosshair
+10:41:56 step 17: probe 3: the turret gun's data
+10:41:56   equipArea: EquipmentArea.WeaponHeavy
+10:41:56   itemType: ItemType.Wea_HeavyMachineGun
+10:41:56   itemCategory: ItemCategory.Weapon
+10:41:56   gameplayRestrictions: [GameplayRestriction.VehicleCombatNoInterruptions]
+10:41:56   OnEquip: []
+10:41:56   OnAttach: [GLP.HoldingHMG, EquipmentGLP.SlowStaminaRegen, EquipmentGLP.HeavyStaminaDelay, EquipmentGLP.HeavyFastFiringWeaponCloseRangeDamageMult]
+10:41:56   attacks: [Attacks.Bullet_GameEffect, Attacks.ThermalBulletEffect, Attacks.ChemicalBulletEffect, Attacks.ElectricBulletEffect, Attacks.BurningBulletEffect, Attacks.SmartBulletLow, Attacks.SmartBulletMed, Attacks.SmartBulletHigh, Attacks.SmartBulletTwoStage, Attacks.QuickMelee, Attacks.Bullet_Projectile, Attacks.ThermalBulletProjectile, Attacks.ChemicalBulletProjectile, Attacks.ElectricBulletProjectile, Attacks.BurningBulletProjectile, Attacks.PowerRounds_Projectile, Attacks.PowerBuckshots_Projectile, Attacks.PowerBullets_Projectile, Attacks.NPCBulletEffect, Attacks.NPCThermalBulletEffect, Attacks.NPCChemicalBulletEffect, Attacks.NPCElectricBulletEffect, Attacks.NPCBurningBulletEffect, Attacks.NPCSmartBullet, Attacks.NPCBulletProjectile, Attacks.NPCThermalBulletProjectile, Attacks.NPCChemicalBulletProjectile, Attacks.NPCElectricBulletProjectile, Attacks.NPCBurningBulletProjectile, NPCAttacks.QuickMelee, NPCAttacks.StompAttackStagger, NPCAttacks.StrongAttackStagger, NPCAttacks.StrongAttackStompKnockdown, NPCAttacks.StrongAttackStompStun, NPCAttacks.PushEffect, NPCAttacks.ParryEffect, Attacks.BaseLaserSight, Attacks.TechLaserSight, Attacks.ExplosiveBulletEffect, Attacks.ExplodingBulletProjectile, Attacks.ReedLaserSight, Attacks.ReedSniperAttack, NPCAttacks.QuickMeleeWithKnockdown, NPCAttacks.KurtTakedownAttack01, NPCAttacks.KurtTakedownAttack02, NPCAttacks.KurtTakedownAttackFar02, NPCAttacks.KurtJump_StrongAttackKnockdown, NPCAttacks.KurtMeleeExplosion, Attacks.ChimeraPowerMod_ExplosiveBulletEffect, NPCAttacks.StrongAttackKnockdown, Attacks.ExplodingBulletProjectile, Attacks.ExplodingBulletSmallProjectile]
+10:41:56   ammo: Ammo.Standard
+10:41:56   mass: 20
+10:41:56   canDrop: true
+10:41:56   dropObject: defaultItemDrop
+10:41:56   dropSettings: <TDBID:00000000:00>
+10:41:56   entityName: weapon_root
+10:41:56   appearanceResourceName: Preset_HMG_Default
+10:41:56   appearanceName: None
+10:41:56   tags: [Weapon, RangedWeapon, Preload, Weapon, Unique, HeavyWeapon, ForceDismember, DiscardOnEmpty, TakeAndEquip, HideInBackpackUI, HideAtVendor, HMG]
+10:41:56   statModifiers: [Items.Base_Weapon_inline0, Items.Base_Weapon_inline1, Items.Base_Weapon_inline2, Items.Base_Weapon_inline3, Items.Base_Weapon_inline4, Items.Base_Weapon_inline5, Items.Base_Weapon_inline6, Items.Base_Weapon_inline7, Items.Base_Weapon_inline8, Items.Base_Weapon_inline9, Items.Base_Weapon_inline10, Items.Base_Weapon_inline11, Items.Base_Weapon_inline12, BaseStats.SmartGunTargetAcquisitionRangeModifier, Items.Base_Weapon_inline13, Items.Base_Weapon_inline14, Items.Base_Weapon_inline15, Items.Base_Weapon_inline16, Items.Base_Weapon_inline17, Items.Base_Weapon_inline18, Items.Base_Weapon_inline19, Items.Base_Weapon_inline20, Items.Base_Weapon_inline21, Items.Base_Weapon_inline22, Items.Base_Weapon_inline23, Items.Base_Weapon_inline24, Items.Base_Weapon_inline25, Items.Base_Weapon_inline26, Items.Base_Weapon_inline27, Items.Base_Weapon_inline28, Items.Base_Weapon_inline29, Items.Base_Weapon_inline30, Items.Base_Weapon_inline31, Items.Base_Weapon_inline32, Items.Base_Weapon_inline33, Items.Base_Weapon_inline34, Items.Base_Weapon_inline35, Items.Base_Weapon_inline36, Items.Base_Weapon_inline37, Items.Base_Weapon_inline38, Items.Base_Weapon_inline39, Items.Base_Weapon_inline40, Items.Base_Weapon_inline41, Items.Base_Weapon_inline42, Items.Base_Weapon_inline43, Items.Base_Weapon_inline44, Items.Base_Weapon_inline45, Items.Base_Weapon_inline46, Items.Base_Weapon_inline47, Items.Base_Weapon_inline48, Items.Base_Weapon_inline49, Items.Base_Weapon_inline50, Items.Base_Weapon_inline51, Items.Base_Weapon_inline52, Items.Base_Weapon_inline53, Items.Base_Weapon_inline54, Items.Base_Weapon_inline55, Items.Base_Weapon_inline56, Items.Base_Weapon_inline57, Items.Base_Weapon_inline58, Items.Base_Weapon_inline59, Items.Base_Weapon_inline60, Items.Base_Weapon_inline61, Items.Base_Weapon_inline62, Items.Base_Weapon_inline63, Items.Base_Weapon_inline64, Items.Base_Weapon_inline65, Items.Base_Weapon_inline66, Items.Base_Weapon_inline67, Items.Base_Weapon_inline68, Items.Base_Weapon_inline69, Items.Base_Weapon_inline70, Items.Base_Weapon_inline71, Items.Base_Weapon_inline72, Items.Base_Weapon_inline73, Items.Base_Weapon_inline74, Items.Base_Weapon_inline75, Items.Base_Weapon_inline76, Items.Base_Weapon_inline77, Items.Base_Weapon_inline78, Items.Base_Weapon_inline79, Items.Base_Weapon_inline80, Items.Base_Weapon_inline81, Items.Base_Weapon_inline82, Items.Base_Weapon_inline83, Items.Base_Weapon_inline84, Items.Base_Weapon_inline85, Items.Base_Weapon_inline86, Items.Base_Weapon_inline87, Items.Base_Weapon_inline88, Items.Base_Weapon_inline89, Items.Base_Weapon_inline90, Items.Base_Weapon_inline91, Items.Base_Weapon_inline92, Items.Base_Weapon_inline93, Items.Base_Weapon_inline94, Items.Base_Weapon_inline95, Items.Base_Weapon_inline96, Items.Base_Weapon_inline97, Items.Base_Weapon_inline98, Items.Base_Weapon_inline99, Items.Base_Weapon_inline100, Items.Base_Weapon_inline101, Items.Base_Weapon_inline102, Items.Base_Weapon_inline103, Items.Base_Weapon_inline104, Items.Base_Weapon_inline105, Items.Base_Weapon_inline106, Items.Base_Weapon_inline107, Items.Base_Weapon_inline108, Items.Base_Weapon_inline109, Items.Base_Weapon_inline110, Items.Base_Weapon_inline111, Items.Base_Weapon_inline112, Items.Base_Weapon_inline113, Items.Base_Weapon_inline114, Items.Base_Weapon_inline115, Items.Base_Weapon_inline116, Items.Base_Weapon_inline117, Items.Base_Weapon_inline118, Items.Base_Weapon_inline119, Items.Base_Weapon_inline120, Items.Base_Weapon_inline121, Items.Base_Weapon_inline122, Items.Base_Weapon_inline123, Items.Base_Weapon_inline124, Items.Base_Weapon_inline125, Items.Base_Weapon_inline126, Items.Base_Weapon_inline127, Items.Base_Weapon_inline128, Items.Base_Weapon_inline129, Items.Base_Weapon_inline130, Items.Base_Weapon_inline131, Items.Base_Weapon_inline132, Items.Base_Weapon_inline133, Items.Base_Weapon_inline134, Items.Base_Weapon_inline135, Items.Base_Weapon_inline136, Items.Base_Weapon_inline137, Items.Base_Weapon_inline138, Items.Base_Weapon_inline139, Items.Base_Weapon_inline140, Items.Base_Weapon_inline141, Items.Base_Weapon_inline142, Items.Base_Weapon_inline143, Items.Base_Weapon_inline144, Items.Base_Weapon_inline145, Items.Base_Weapon_inline146, Items.Base_Weapon_inline147, Items.Base_Weapon_inline148, Items.Base_Weapon_inline149, Items.Base_HMG_inline1, Items.Base_HMG_inline2, Items.Base_HMG_inline3, Items.Base_HMG_inline4, Items.Base_HMG_inline5, Items.Base_HMG_inline6, Items.Base_HMG_inline7, BaseStats.SlideWhenLeaningOutOfCoverModifier, BaseStats.BlockLocomotionWhenLeaningOutOfCoverModifier, Items.Preset_HMG_Default_inline4]
+10:41:56   statModifierGroups: [Items.Base_HMG_Technical_Stats, Items.Base_HMG_Handling_Stats, Items.Base_HMG_Recoil_Stats, Items.Base_HMG_Spread_Stats, Items.Base_PlayerState_Spread_Stats, Items.Base_HMG_RPG_Stats, Items.Base_HMG_Damage_Stats, Items.QualityRandomization, Items.ItemPlusRandomizer_MaxQuality, Items.ItemPlusRandomizer_Below_MaxQuality, Items.Base_Weapon_Damage_Type_Physical, Items.Base_Weapon_Damage_Type_Min_Max]
+10:41:56   primaryTriggerMode: TriggerMode.FullAuto
+10:41:56   triggerModes: [TriggerMode.FullAuto]
+10:41:56   rangedAttacks: Attacks.ExplodingBulletHMGPackage
+10:41:56   effectors: []
+10:41:56   objectActions: [ItemAction.Drop, ItemAction.Disassemble, ItemAction.WeaponDisassemble]
+10:41:56   holsteredItem: <TDBID:00000000:00>
+10:41:56   movementPattern: None
+10:41:56   isSingleInstance: false
+10:41:56   animFeatureName: WeaponData
+10:41:56   animName: ui_garment_pose
+10:41:56   crosshair: Crosshairs.Custom_HMG
+10:41:56   itemSecondaryAction: ItemAction.Equip
+10:41:56   V's status effects before: BaseStatusEffect.DetectorRushAvailableStatusEffect, BaseStatusEffect.HighTabLogic, BaseStatusEffect.SecondHeartCooldown, BaseStatusEffect.StaminaRatioCalculator
+10:41:57 step 18: probe 3: give V the turret gun and draw it
+10:41:57 PASS the turret gun is in V's inventory
+10:41:57 PASS the game's equip request for a heavy weapon is made
+10:41:57   done waiting for the turret gun in V's hands (0.1 s)
+10:42:00 step 19: probe 3: holding it
+10:42:00 PASS V holds the turret gun - Items.Preset_HMG_Default
+10:42:00   status effects the gun added: none
+10:42:00 SHOT p3_holding
+10:42:01 step 20: YOUR TURN (2 min): look over the car (the part under the crosshair lights up), sprint, fire, then switch weapons
+10:42:07   aimed at body_01 (15.49 m3, at 6.0 m)
+10:42:07   aimed at door_fr_a (0.51 m3, at 7.7 m), interior_01 (6.74 m3, at 6.1 m), body_player_01 (12.74 m3, at 6.0 m), body_01 (15.49 m3, at 6.0 m)
+10:42:07   aimed at door_fl_a (0.51 m3, at 6.0 m), door_fr_a (0.51 m3, at 7.7 m), interior_01 (6.74 m3, at 6.1 m), body_player_01 (12.74 m3, at 5.9 m), body_01 (15.49 m3, at 6.0 m)
+10:42:07   aimed at door_br_a (0.41 m3, at 7.7 m), door_fr_a (0.51 m3, at 7.7 m), door_fl_a (0.51 m3, at 6.0 m), interior_01 (6.74 m3, at 6.1 m), body_player_01 (12.74 m3, at 5.9 m), body_01 (15.49 m3, at 6.0 m)
+10:42:08   aimed at door_bl_a (0.41 m3, at 6.0 m), door_br_a (0.41 m3, at 7.7 m), door_fr_a (0.51 m3, at 7.7 m), door_fl_a (0.51 m3, at 6.0 m), interior_01 (6.74 m3, at 6.1 m), body_player_01 (12.74 m3, at 5.9 m), +1 more
+10:42:25   aimed at interior_01 (6.74 m3, at 5.6 m), body_player_01 (12.74 m3, at 5.4 m), body_01 (15.49 m3, at 5.4 m)
+10:42:30   aimed at body_01 (15.49 m3, at 6.8 m)
+10:42:30   aimed at trunk_a (0.72 m3, at 6.8 m), interior_trunk_01 (0.73 m3, at 7.0 m), body_player_01 (12.74 m3, at 6.4 m), body_01 (15.49 m3, at 6.3 m)
+10:42:30   aimed at bumper_b_01 (0.65 m3, at 7.3 m), trunk_a (0.72 m3, at 6.4 m), interior_trunk_01 (0.73 m3, at 6.6 m), body_player_01 (12.74 m3, at 6.0 m), body_01 (15.49 m3, at 5.9 m)
+10:42:30   aimed at tire_01_br_a (0.37 m3, at 4.8 m), bumper_b_01 (0.65 m3, at 5.4 m), body_player_01 (12.74 m3, at 5.1 m), body_01 (15.49 m3, at 5.3 m)
+10:42:32   aimed at body_player_01 (12.74 m3, at 3.4 m)
+10:42:32   aimed at interior_01 (6.74 m3, at 3.3 m), body_player_01 (12.74 m3, at 3.0 m), body_01 (15.49 m3, at 3.1 m)
+10:42:32   aimed at door_br_a (0.41 m3, at 3.0 m), interior_01 (6.74 m3, at 3.2 m), body_player_01 (12.74 m3, at 2.9 m), body_01 (15.49 m3, at 3.0 m)
+10:42:32   aimed at interior_01 (6.74 m3, at 3.1 m), body_player_01 (12.74 m3, at 2.8 m), body_01 (15.49 m3, at 2.9 m)
+10:42:32   aimed at tire_01_br_a (0.37 m3, at 2.7 m), interior_01 (6.74 m3, at 3.0 m), body_player_01 (12.74 m3, at 2.7 m), body_01 (15.49 m3, at 2.8 m)
+10:42:32   aimed at wheel_01_br_a (0.20 m3, at 3.0 m), tire_01_br_a (0.37 m3, at 2.5 m), interior_01 (6.74 m3, at 2.9 m), body_player_01 (12.74 m3, at 2.7 m), body_01 (15.49 m3, at 2.8 m)
+10:42:33   aimed at tire_01_br_a (0.37 m3, at 1.7 m), interior_trunk_01 (0.73 m3, at 1.8 m), interior_01 (6.74 m3, at 1.5 m), body_player_01 (12.74 m3, at 1.2 m), body_01 (15.49 m3, at 1.3 m)
+10:42:33   aimed at wheel_01_br_a (0.20 m3, at 1.6 m), tire_01_br_a (0.37 m3, at 1.5 m), interior_trunk_01 (0.73 m3, at 1.6 m), interior_01 (6.74 m3, at 1.3 m), body_player_01 (12.74 m3, at 1.0 m), body_01 (15.49 m3, at 1.1 m)
+10:42:34   aimed at tire_01_br_a (0.37 m3, at 1.7 m), body_player_01 (12.74 m3, at 1.9 m)
+10:42:34   aimed at wheel_01_br_a (0.20 m3, at 2.0 m), tire_01_br_a (0.37 m3, at 2.0 m), body_player_01 (12.74 m3, at 2.2 m), body_01 (15.49 m3, at 2.3 m)
+10:42:35   aimed at wheel_01_bl_a (0.20 m3, at 4.5 m), tire_01_br_a (0.37 m3, at 2.9 m), tire_01_bl_a (0.37 m3, at 4.5 m), interior_trunk_01 (0.73 m3, at 3.2 m), interior_01 (6.74 m3, at 2.9 m), body_player_01 (12.74 m3, at 2.7 m), +1 more
+10:42:35   aimed at wheel_01_br_a (0.20 m3, at 3.1 m), wheel_01_bl_a (0.20 m3, at 4.4 m), tire_01_br_a (0.37 m3, at 2.8 m), tire_01_bl_a (0.37 m3, at 4.4 m), interior_trunk_01 (0.73 m3, at 3.1 m), interior_01 (6.74 m3, at 2.8 m), +2 more
+10:42:35   aimed at tire_01_br_a (0.37 m3, at 2.7 m), tire_01_bl_a (0.37 m3, at 4.3 m), interior_01 (6.74 m3, at 2.7 m), body_player_01 (12.74 m3, at 2.4 m), body_01 (15.49 m3, at 2.5 m)
+10:42:35   aimed at interior_01 (6.74 m3, at 2.5 m), body_player_01 (12.74 m3, at 2.2 m), body_01 (15.49 m3, at 2.3 m)
+10:42:36   aimed at door_br_a (0.41 m3, at 2.3 m), interior_01 (6.74 m3, at 2.5 m), body_player_01 (12.74 m3, at 2.2 m), body_01 (15.49 m3, at 2.3 m)
+10:42:36   aimed at interior_01 (6.74 m3, at 2.4 m), body_player_01 (12.74 m3, at 2.2 m), body_01 (15.49 m3, at 2.3 m)
+10:42:36   aimed at wheel_01_bl_a (0.20 m3, at 4.7 m), tire_01_bl_a (0.37 m3, at 4.0 m), interior_01 (6.74 m3, at 2.4 m), body_player_01 (12.74 m3, at 2.2 m), body_01 (15.49 m3, at 2.3 m)
+10:42:36   aimed at tire_01_bl_a (0.37 m3, at 4.1 m), trunk_a (0.72 m3, at 2.7 m), interior_trunk_01 (0.73 m3, at 2.8 m), interior_01 (6.74 m3, at 2.5 m), body_player_01 (12.74 m3, at 2.2 m), body_01 (15.49 m3, at 2.3 m)
+10:42:36   aimed at bumper_b_01 (0.65 m3, at 4.4 m), trunk_a (0.72 m3, at 2.7 m), interior_trunk_01 (0.73 m3, at 2.8 m), interior_01 (6.74 m3, at 2.5 m), body_player_01 (12.74 m3, at 2.3 m), body_01 (15.49 m3, at 2.3 m)
+10:42:36   aimed at tire_01_br_a (0.37 m3, at 2.8 m), bumper_b_01 (0.65 m3, at 3.8 m), interior_trunk_01 (0.73 m3, at 2.9 m), body_player_01 (12.74 m3, at 2.3 m), body_01 (15.49 m3, at 2.4 m)
+10:42:36   aimed at wheel_01_br_a (0.20 m3, at 2.9 m), tire_01_br_a (0.37 m3, at 2.6 m), bumper_b_01 (0.65 m3, at 3.7 m), interior_trunk_01 (0.73 m3, at 3.0 m), body_player_01 (12.74 m3, at 2.4 m), body_01 (15.49 m3, at 2.4 m)
+10:42:37   aimed at tire_01_br_a (0.37 m3, at 3.0 m), bumper_b_01 (0.65 m3, at 3.6 m), body_player_01 (12.74 m3, at 3.1 m), body_01 (15.49 m3, at 3.2 m)
+10:42:37   aimed at bumper_b_01 (0.65 m3, at 3.9 m), interior_trunk_01 (0.73 m3, at 3.9 m), body_player_01 (12.74 m3, at 3.1 m), body_01 (15.49 m3, at 3.2 m)
+10:42:38   aimed at tire_01_br_a (0.37 m3, at 3.6 m), bumper_b_01 (0.65 m3, at 4.1 m), trunk_a (0.72 m3, at 3.6 m), interior_trunk_01 (0.73 m3, at 3.7 m), body_player_01 (12.74 m3, at 3.0 m), body_01 (15.49 m3, at 3.1 m)
+10:42:38   aimed at wheel_01_br_a (0.20 m3, at 3.4 m), tire_01_br_a (0.37 m3, at 3.1 m), bumper_b_01 (0.65 m3, at 4.2 m), interior_trunk_01 (0.73 m3, at 3.5 m), interior_01 (6.74 m3, at 3.1 m), body_player_01 (12.74 m3, at 2.8 m), +1 more
+10:42:39   aimed at tire_01_br_a (0.37 m3, at 3.2 m), door_br_a (0.41 m3, at 2.8 m), interior_01 (6.74 m3, at 3.0 m), body_player_01 (12.74 m3, at 2.7 m), body_01 (15.49 m3, at 2.8 m)
+10:42:39   aimed at door_br_a (0.41 m3, at 2.7 m), interior_01 (6.74 m3, at 2.9 m), body_player_01 (12.74 m3, at 2.6 m), body_01 (15.49 m3, at 2.7 m)
+10:42:40   aimed at door_bl_a (0.41 m3, at 4.4 m), door_br_a (0.41 m3, at 2.5 m), interior_01 (6.74 m3, at 2.6 m), body_player_01 (12.74 m3, at 2.4 m), body_01 (15.49 m3, at 2.5 m)
+10:42:41   aimed at door_br_a (0.41 m3, at 2.4 m), interior_01 (6.74 m3, at 2.6 m), body_player_01 (12.74 m3, at 2.4 m), body_01 (15.49 m3, at 2.4 m)
+10:42:41   aimed at tire_01_bl_a (0.37 m3, at 4.6 m), door_br_a (0.41 m3, at 2.5 m), interior_01 (6.74 m3, at 2.7 m), body_player_01 (12.74 m3, at 2.4 m), body_01 (15.49 m3, at 2.5 m)
+10:42:41   aimed at wheel_01_bl_a (0.20 m3, at 4.5 m), tire_01_bl_a (0.37 m3, at 4.4 m), door_br_a (0.41 m3, at 2.6 m), interior_trunk_01 (0.73 m3, at 4.3 m), interior_01 (6.74 m3, at 2.7 m), body_player_01 (12.74 m3, at 2.5 m), +1 more
+10:42:41   aimed at door_br_a (0.41 m3, at 2.6 m), interior_01 (6.74 m3, at 2.8 m), body_player_01 (12.74 m3, at 2.5 m), body_01 (15.49 m3, at 2.6 m)
+10:42:41   aimed at wheel_01_bl_a (0.20 m3, at 4.5 m), tire_01_bl_a (0.37 m3, at 4.5 m), door_br_a (0.41 m3, at 2.6 m), interior_01 (6.74 m3, at 2.8 m), body_player_01 (12.74 m3, at 2.5 m), body_01 (15.49 m3, at 2.6 m)
+10:42:42   aimed at tire_01_bl_a (0.37 m3, at 4.6 m), door_br_a (0.41 m3, at 2.6 m), trunk_a (0.72 m3, at 3.9 m), interior_trunk_01 (0.73 m3, at 3.7 m), interior_01 (6.74 m3, at 2.8 m), body_player_01 (12.74 m3, at 2.5 m), +1 more
+10:42:42   aimed at wheel_01_bl_a (0.20 m3, at 4.6 m), tire_01_bl_a (0.37 m3, at 4.6 m), door_br_a (0.41 m3, at 2.6 m), trunk_a (0.72 m3, at 3.9 m), interior_trunk_01 (0.73 m3, at 3.7 m), interior_01 (6.74 m3, at 2.8 m), +2 more
+10:42:42   aimed at door_br_a (0.41 m3, at 2.7 m), interior_01 (6.74 m3, at 2.9 m), body_player_01 (12.74 m3, at 2.6 m), body_01 (15.49 m3, at 2.7 m)
+10:42:42   aimed at body_player_01 (12.74 m3, at 2.7 m), body_01 (15.49 m3, at 2.8 m)
+10:42:43   aimed at interior_01 (6.74 m3, at 2.9 m), body_player_01 (12.74 m3, at 2.6 m), body_01 (15.49 m3, at 2.7 m)
+10:42:43   aimed at body_player_01 (12.74 m3, at 2.5 m), body_01 (15.49 m3, at 2.6 m)
+10:42:44   aimed at interior_01 (6.74 m3, at 2.8 m), body_player_01 (12.74 m3, at 2.6 m), body_01 (15.49 m3, at 2.6 m)
+10:42:44   aimed at door_fr_a (0.51 m3, at 2.6 m), interior_01 (6.74 m3, at 2.8 m), body_player_01 (12.74 m3, at 2.5 m), body_01 (15.49 m3, at 2.6 m)
+10:42:44   aimed at wheel_01_fr_a (0.20 m3, at 2.9 m), tire_01_fr_a (0.37 m3, at 2.6 m), interior_01 (6.74 m3, at 2.9 m), body_player_01 (12.74 m3, at 2.6 m), body_01 (15.49 m3, at 2.7 m)
+10:42:45   aimed at tire_01_fr_a (0.37 m3, at 2.2 m), bumper_f_01 (0.70 m3, at 2.7 m), body_player_01 (12.74 m3, at 2.4 m), body_01 (15.49 m3, at 2.5 m)
+10:42:45   aimed at wheel_01_fr_a (0.20 m3, at 2.0 m), tire_01_fr_a (0.37 m3, at 1.9 m), body_player_01 (12.74 m3, at 2.0 m), body_01 (15.49 m3, at 2.1 m)
+10:42:45   aimed at tire_01_fr_a (0.37 m3, at 1.9 m), body_player_01 (12.74 m3, at 2.0 m), body_01 (15.49 m3, at 2.1 m)
+10:42:45   aimed at wheel_01_fl_a (0.20 m3, at 3.9 m), tire_01_fr_a (0.37 m3, at 2.4 m), tire_01_fl_a (0.37 m3, at 3.9 m), body_player_01 (12.74 m3, at 2.2 m), body_01 (15.49 m3, at 2.0 m)
+10:42:45   aimed at tire_01_fl_a (0.37 m3, at 4.0 m), interior_01 (6.74 m3, at 3.8 m), body_player_01 (12.74 m3, at 2.6 m), body_01 (15.49 m3, at 1.9 m)
+10:42:46   aimed at interior_01 (6.74 m3, at 3.7 m), body_player_01 (12.74 m3, at 2.6 m), body_01 (15.49 m3, at 1.9 m)
+10:42:46   aimed at bumper_f_01 (0.70 m3, at 2.6 m), interior_01 (6.74 m3, at 3.7 m), body_player_01 (12.74 m3, at 2.7 m), body_01 (15.49 m3, at 1.8 m)
+10:42:46   aimed at hood_a (0.33 m3, at 2.2 m), interior_01 (6.74 m3, at 3.4 m), body_player_01 (12.74 m3, at 2.7 m), body_01 (15.49 m3, at 1.9 m)
+10:42:47   aimed at wheel_01_fr_a (0.20 m3, at 3.3 m), hood_a (0.33 m3, at 2.1 m), tire_01_fr_a (0.37 m3, at 3.0 m), interior_01 (6.74 m3, at 3.2 m), body_player_01 (12.74 m3, at 2.6 m), body_01 (15.49 m3, at 1.9 m)
+10:42:47   aimed at bumper_f_01 (0.70 m3, at 2.6 m), interior_01 (6.74 m3, at 3.4 m), body_player_01 (12.74 m3, at 2.7 m), body_01 (15.49 m3, at 2.0 m)
+10:42:47   aimed at tire_01_fl_a (0.37 m3, at 3.9 m), bumper_f_01 (0.70 m3, at 2.4 m), body_player_01 (12.74 m3, at 3.1 m), body_01 (15.49 m3, at 2.3 m)
+10:42:47   aimed at wheel_01_fl_a (0.20 m3, at 3.7 m), tire_01_fl_a (0.37 m3, at 3.7 m), bumper_f_01 (0.70 m3, at 2.4 m), body_player_01 (12.74 m3, at 3.1 m), body_01 (15.49 m3, at 2.3 m)
+10:42:48   aimed at tire_01_fl_a (0.37 m3, at 3.4 m), bumper_f_01 (0.70 m3, at 2.3 m), body_01 (15.49 m3, at 2.4 m)
+10:42:48   aimed at bumper_f_01 (0.70 m3, at 2.3 m), body_01 (15.49 m3, at 2.5 m)
+10:42:48   aimed at wheel_01_fl_a (0.20 m3, at 3.2 m), tire_01_fl_a (0.37 m3, at 3.1 m), bumper_f_01 (0.70 m3, at 2.4 m), body_player_01 (12.74 m3, at 3.1 m), body_01 (15.49 m3, at 2.3 m)
+10:42:48   aimed at hood_a (0.33 m3, at 2.5 m), interior_01 (6.74 m3, at 3.6 m), body_player_01 (12.74 m3, at 3.0 m), body_01 (15.49 m3, at 2.3 m)
+10:42:48   aimed at wheel_01_br_a (0.20 m3, at 6.7 m), hood_a (0.33 m3, at 3.0 m), tire_01_br_a (0.37 m3, at 6.6 m), interior_01 (6.74 m3, at 3.6 m), body_player_01 (12.74 m3, at 3.0 m), body_01 (15.49 m3, at 2.2 m)
+10:42:48   aimed at hood_a (0.33 m3, at 3.1 m), tire_01_br_a (0.37 m3, at 7.3 m), interior_01 (6.74 m3, at 3.5 m), body_player_01 (12.74 m3, at 2.9 m), body_01 (15.49 m3, at 2.1 m)
+10:42:49   aimed at wheel_01_br_a (0.20 m3, at 7.0 m), hood_a (0.33 m3, at 3.5 m), tire_01_br_a (0.37 m3, at 7.1 m), bumper_b_01 (0.65 m3, at 7.4 m), interior_01 (6.74 m3, at 3.4 m), body_player_01 (12.74 m3, at 2.8 m), +1 more
+10:42:49   aimed at door_br_a (0.41 m3, at 6.0 m), interior_01 (6.74 m3, at 3.5 m), body_player_01 (12.74 m3, at 2.8 m), body_01 (15.49 m3, at 2.3 m)
+10:42:49   aimed at door_fr_a (0.51 m3, at 5.4 m), interior_01 (6.74 m3, at 3.4 m), body_player_01 (12.74 m3, at 3.1 m), body_01 (15.49 m3, at 3.2 m)
+10:42:50   aimed at door_fl_a (0.51 m3, at 3.6 m), door_fr_a (0.51 m3, at 5.4 m), interior_01 (6.74 m3, at 3.5 m), body_player_01 (12.74 m3, at 3.2 m), body_01 (15.49 m3, at 3.3 m)
+10:42:50   aimed at door_fr_a (0.51 m3, at 5.2 m), interior_01 (6.74 m3, at 3.5 m), body_player_01 (12.74 m3, at 3.2 m), body_01 (15.49 m3, at 3.3 m)
+10:42:50   aimed at door_fl_a (0.51 m3, at 3.6 m), door_fr_a (0.51 m3, at 5.2 m), interior_01 (6.74 m3, at 3.5 m), body_player_01 (12.74 m3, at 3.2 m), body_01 (15.49 m3, at 3.3 m)
+10:42:51   aimed at wheel_01_fr_a (0.20 m3, at 4.1 m), tire_01_fr_a (0.37 m3, at 3.9 m), door_fl_a (0.51 m3, at 2.2 m), interior_01 (6.74 m3, at 2.3 m), body_player_01 (12.74 m3, at 2.1 m), body_01 (15.49 m3, at 2.2 m)
+10:42:51   aimed at tire_01_fr_a (0.37 m3, at 3.3 m), door_fl_a (0.51 m3, at 1.5 m), interior_01 (6.74 m3, at 1.7 m), body_player_01 (12.74 m3, at 1.4 m), body_01 (15.49 m3, at 1.5 m)
+10:42:52   aimed at door_fl_a (0.51 m3, at 1.5 m), door_fr_a (0.51 m3, at 3.3 m), interior_01 (6.74 m3, at 1.6 m), body_player_01 (12.74 m3, at 1.4 m), body_01 (15.49 m3, at 1.5 m)
+10:42:52   aimed at door_br_a (0.41 m3, at 3.6 m), door_fr_a (0.51 m3, at 3.4 m), door_fl_a (0.51 m3, at 1.5 m), interior_01 (6.74 m3, at 1.7 m), body_player_01 (12.74 m3, at 1.4 m), body_01 (15.49 m3, at 1.5 m)
+10:42:52   aimed at door_bl_a (0.41 m3, at 2.1 m), door_br_a (0.41 m3, at 3.8 m), door_fl_a (0.51 m3, at 1.7 m), interior_01 (6.74 m3, at 1.9 m), body_player_01 (12.74 m3, at 1.6 m), body_01 (15.49 m3, at 1.7 m)
+10:42:53   aimed at tire_01_br_a (0.37 m3, at 4.4 m), door_br_a (0.41 m3, at 3.8 m), door_bl_a (0.41 m3, at 2.0 m), door_fl_a (0.51 m3, at 1.7 m), interior_01 (6.74 m3, at 1.9 m), body_player_01 (12.74 m3, at 1.6 m), +1 more
+10:42:53   aimed at wheel_01_br_a (0.20 m3, at 4.7 m), tire_01_br_a (0.37 m3, at 4.2 m), door_bl_a (0.41 m3, at 1.8 m), door_fl_a (0.51 m3, at 1.8 m), interior_01 (6.74 m3, at 2.0 m), body_player_01 (12.74 m3, at 1.7 m), +1 more
+10:42:53   aimed at tire_01_br_a (0.37 m3, at 4.5 m), door_bl_a (0.41 m3, at 1.9 m), trunk_a (0.72 m3, at 4.0 m), interior_trunk_01 (0.73 m3, at 3.9 m), interior_01 (6.74 m3, at 2.1 m), body_player_01 (12.74 m3, at 1.8 m), +1 more
+10:42:53   aimed at door_bl_a (0.41 m3, at 2.0 m), trunk_a (0.72 m3, at 3.8 m), interior_trunk_01 (0.73 m3, at 3.7 m), interior_01 (6.74 m3, at 2.2 m), body_player_01 (12.74 m3, at 1.9 m), body_01 (15.49 m3, at 2.0 m)
+10:42:53   aimed at door_br_a (0.41 m3, at 3.6 m), door_fl_a (0.51 m3, at 1.9 m), interior_01 (6.74 m3, at 1.8 m), body_player_01 (12.74 m3, at 1.8 m), body_01 (15.49 m3, at 1.6 m)
+10:42:54   aimed at door_bl_a (0.41 m3, at 2.0 m), door_br_a (0.41 m3, at 3.8 m), door_fl_a (0.51 m3, at 2.0 m), interior_01 (6.74 m3, at 1.9 m), body_player_01 (12.74 m3, at 1.9 m), body_01 (15.49 m3, at 1.7 m)
+10:42:54   aimed at tire_01_bl_a (0.37 m3, at 3.0 m), door_bl_a (0.41 m3, at 2.5 m), interior_01 (6.74 m3, at 2.7 m), body_player_01 (12.74 m3, at 2.4 m), body_01 (15.49 m3, at 2.5 m)
+10:42:54   aimed at wheel_01_bl_a (0.20 m3, at 3.1 m), tire_01_bl_a (0.37 m3, at 3.0 m), door_bl_a (0.41 m3, at 2.6 m), interior_01 (6.74 m3, at 2.8 m), body_player_01 (12.74 m3, at 2.5 m), body_01 (15.49 m3, at 2.6 m)
+10:42:54   aimed at tire_01_bl_a (0.37 m3, at 3.1 m), body_player_01 (12.74 m3, at 2.8 m), body_01 (15.49 m3, at 2.9 m)
+10:42:55   aimed at body_player_01 (12.74 m3, at 2.8 m), body_01 (15.49 m3, at 2.9 m)
+10:42:55   aimed at interior_01 (6.74 m3, at 3.0 m), body_player_01 (12.74 m3, at 2.7 m), body_01 (15.49 m3, at 2.8 m)
+10:42:55   aimed at door_bl_a (0.41 m3, at 2.8 m), interior_01 (6.74 m3, at 3.0 m), body_player_01 (12.74 m3, at 2.7 m), body_01 (15.49 m3, at 2.8 m)
+10:42:55   aimed at tire_01_bl_a (0.37 m3, at 1.7 m), door_bl_a (0.41 m3, at 2.3 m), interior_01 (6.74 m3, at 2.1 m), body_player_01 (12.74 m3, at 1.8 m), body_01 (15.49 m3, at 1.9 m)
+10:42:55   aimed at wheel_01_bl_a (0.20 m3, at 1.9 m), tire_01_bl_a (0.37 m3, at 1.7 m), interior_01 (6.74 m3, at 2.0 m), body_player_01 (12.74 m3, at 1.7 m), body_01 (15.49 m3, at 1.8 m)
+10:42:55   aimed at body_player_01 (12.74 m3, at 1.6 m), body_01 (15.49 m3, at 1.7 m)
+10:42:55   aimed at bumper_b_01 (0.65 m3, at 1.8 m), body_player_01 (12.74 m3, at 1.6 m), body_01 (15.49 m3, at 1.7 m)
+10:42:57   aimed at tire_01_br_a (0.37 m3, at 4.0 m), bumper_b_01 (0.65 m3, at 2.4 m), trunk_a (0.72 m3, at 2.0 m), interior_trunk_01 (0.73 m3, at 2.1 m), body_player_01 (12.74 m3, at 2.6 m), body_01 (15.49 m3, at 1.9 m)
+10:42:57   aimed at bumper_b_01 (0.65 m3, at 2.5 m), trunk_a (0.72 m3, at 1.7 m), interior_trunk_01 (0.73 m3, at 1.9 m), interior_01 (6.74 m3, at 3.4 m), body_player_01 (12.74 m3, at 2.3 m), body_01 (15.49 m3, at 1.6 m)
+10:42:57   aimed at trunk_a (0.72 m3, at 1.6 m), interior_trunk_01 (0.73 m3, at 1.8 m), interior_01 (6.74 m3, at 3.2 m), body_player_01 (12.74 m3, at 2.2 m), body_01 (15.49 m3, at 1.5 m)
+10:42:57   aimed at door_br_a (0.41 m3, at 4.1 m), door_fr_a (0.51 m3, at 4.5 m), trunk_a (0.72 m3, at 1.6 m), interior_trunk_01 (0.73 m3, at 2.0 m), interior_01 (6.74 m3, at 2.6 m), body_player_01 (12.74 m3, at 1.6 m), +1 more
+10:42:57   aimed at window_b (0.08 m3, at 2.3 m), door_br_a (0.41 m3, at 4.0 m), door_fr_a (0.51 m3, at 4.1 m), interior_01 (6.74 m3, at 2.3 m), body_player_01 (12.74 m3, at 1.4 m), body_01 (15.49 m3, at 0.9 m)
+10:42:57   aimed at door_br_a (0.41 m3, at 3.8 m), door_fr_a (0.51 m3, at 3.8 m), trunk_a (0.72 m3, at 1.8 m), interior_01 (6.74 m3, at 1.8 m), body_player_01 (12.74 m3, at 0.9 m), body_01 (15.49 m3, at 1.0 m)
+10:42:57   aimed at window_b (0.08 m3, at 1.8 m), door_br_a (0.41 m3, at 3.6 m), door_fr_a (0.51 m3, at 4.0 m), interior_01 (6.74 m3, at 1.8 m), body_player_01 (12.74 m3, at 0.9 m), body_01 (15.49 m3, at 0.9 m)
+10:42:58   aimed at door_fr_a (0.51 m3, at 4.3 m), interior_01 (6.74 m3, at 1.6 m), body_player_01 (12.74 m3, at 1.0 m), body_01 (15.49 m3, at 1.2 m)
+10:42:58   aimed at wheel_01_fr_a (0.20 m3, at 5.3 m), tire_01_fr_a (0.37 m3, at 5.2 m), door_fr_a (0.51 m3, at 4.5 m), interior_01 (6.74 m3, at 1.6 m), body_player_01 (12.74 m3, at 1.1 m), body_01 (15.49 m3, at 1.3 m)
+10:42:59   aimed at door_bl_a (0.41 m3, at 1.9 m), door_fr_a (0.51 m3, at 4.5 m), interior_01 (6.74 m3, at 2.1 m), body_player_01 (12.74 m3, at 1.7 m), body_01 (15.49 m3, at 1.8 m)
+10:42:59   aimed at window_bl_02_01 (0.00 m3, at 1.3 m), door_bl_a (0.41 m3, at 1.3 m), door_fr_a (0.51 m3, at 3.5 m), interior_01 (6.74 m3, at 1.2 m), body_player_01 (12.74 m3, at 0.8 m), body_01 (15.49 m3, at 1.0 m)
+10:43:00   aimed at door_bl_a (0.41 m3, at 1.1 m), interior_01 (6.74 m3, at 1.1 m), body_player_01 (12.74 m3, at 0.8 m), body_01 (15.49 m3, at 0.9 m)
+10:43:01   aimed at window_bl_02_01 (0.00 m3, at 1.0 m), door_br_a (0.41 m3, at 2.9 m), door_bl_a (0.41 m3, at 1.0 m), door_fr_a (0.51 m3, at 3.0 m), interior_01 (6.74 m3, at 0.9 m), body_player_01 (12.74 m3, at 0.7 m), +1 more
+10:43:02   aimed at door_bl_a (0.41 m3, at 0.9 m), door_br_a (0.41 m3, at 2.9 m), door_fr_a (0.51 m3, at 3.0 m), interior_01 (6.74 m3, at 0.9 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.7 m)
+10:43:02   aimed at door_br_a (0.41 m3, at 2.9 m), door_fr_a (0.51 m3, at 2.9 m), interior_01 (6.74 m3, at 1.1 m), body_player_01 (12.74 m3, at 1.1 m), body_01 (15.49 m3, at 1.0 m)
+10:43:02   aimed at door_fr_a (0.51 m3, at 2.9 m), interior_01 (6.74 m3, at 1.3 m), body_player_01 (12.74 m3, at 1.3 m), body_01 (15.49 m3, at 1.1 m)
+10:43:02   aimed at door_bl_a (0.41 m3, at 1.0 m), door_fr_a (0.51 m3, at 2.8 m), interior_01 (6.74 m3, at 0.9 m), body_player_01 (12.74 m3, at 1.0 m), body_01 (15.49 m3, at 0.8 m)
+10:43:04   aimed at door_fl_a (0.51 m3, at 0.8 m), interior_01 (6.74 m3, at 1.2 m), body_player_01 (12.74 m3, at 0.7 m), body_01 (15.49 m3, at 0.8 m)
+10:43:04   aimed at tire_01_fr_a (0.37 m3, at 3.5 m), door_fl_a (0.51 m3, at 0.8 m), interior_01 (6.74 m3, at 1.1 m), body_player_01 (12.74 m3, at 0.7 m), body_01 (15.49 m3, at 0.8 m)
+10:43:04   aimed at wheel_01_fr_a (0.20 m3, at 3.3 m), tire_01_fr_a (0.37 m3, at 3.3 m), door_fl_a (0.51 m3, at 0.8 m), interior_01 (6.74 m3, at 1.0 m), body_player_01 (12.74 m3, at 0.7 m), body_01 (15.49 m3, at 0.8 m)
+10:43:04   aimed at tire_01_fr_a (0.37 m3, at 3.3 m), door_fl_a (0.51 m3, at 0.8 m), interior_01 (6.74 m3, at 1.1 m), body_player_01 (12.74 m3, at 0.7 m), body_01 (15.49 m3, at 0.8 m)
+10:43:05   aimed at wheel_01_fr_a (0.20 m3, at 3.1 m), tire_01_fr_a (0.37 m3, at 3.1 m), door_fl_a (0.51 m3, at 0.9 m), interior_01 (6.74 m3, at 1.1 m), body_player_01 (12.74 m3, at 0.8 m), body_01 (15.49 m3, at 0.9 m)
+10:43:05   aimed at tire_01_fr_a (0.37 m3, at 3.2 m), door_fl_a (0.51 m3, at 0.9 m), interior_01 (6.74 m3, at 1.1 m), body_player_01 (12.74 m3, at 0.8 m), body_01 (15.49 m3, at 0.9 m)
+10:43:05   aimed at wheel_01_fr_a (0.20 m3, at 3.3 m), tire_01_fr_a (0.37 m3, at 3.3 m), door_fl_a (0.51 m3, at 1.2 m), interior_01 (6.74 m3, at 1.4 m), body_player_01 (12.74 m3, at 1.1 m), body_01 (15.49 m3, at 1.2 m)
+10:43:05   aimed at tire_01_fr_a (0.37 m3, at 3.0 m), door_fl_a (0.51 m3, at 1.1 m), interior_01 (6.74 m3, at 1.3 m), body_player_01 (12.74 m3, at 1.1 m), body_01 (15.49 m3, at 1.1 m)
+10:43:05   aimed at door_fl_a (0.51 m3, at 1.0 m), interior_01 (6.74 m3, at 1.2 m), body_player_01 (12.74 m3, at 0.9 m), body_01 (15.49 m3, at 1.0 m)
+10:43:06   aimed at door_br_a (0.41 m3, at 3.3 m), door_fr_a (0.51 m3, at 3.0 m), door_fl_a (0.51 m3, at 0.9 m), interior_01 (6.74 m3, at 0.9 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.7 m)
+10:43:07   aimed at door_fl_a (0.51 m3, at 0.9 m), interior_01 (6.74 m3, at 0.9 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.7 m)
+10:43:07   aimed at interior_01 (6.74 m3, at 0.9 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.7 m)
+10:43:07   aimed at hood_a (0.33 m3, at 1.1 m), interior_01 (6.74 m3, at 0.9 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.6 m)
+10:43:08   aimed at door_fr_a (0.51 m3, at 3.2 m), interior_01 (6.74 m3, at 1.2 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.7 m)
+10:43:08   aimed at interior_01 (6.74 m3, at 1.1 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.7 m)
+10:43:10   aimed at hood_a (0.33 m3, at 1.3 m), interior_01 (6.74 m3, at 1.1 m), body_player_01 (12.74 m3, at 0.7 m), body_01 (15.49 m3, at 0.8 m)
+10:43:11   aimed at interior_01 (6.74 m3, at 1.1 m), body_player_01 (12.74 m3, at 0.7 m), body_01 (15.49 m3, at 0.8 m)
+10:43:11   aimed at door_br_a (0.41 m3, at 3.6 m), interior_01 (6.74 m3, at 1.0 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.8 m)
+10:43:12   aimed at door_fr_a (0.51 m3, at 3.3 m), interior_01 (6.74 m3, at 1.2 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.7 m)
+10:43:12   aimed at hood_a (0.33 m3, at 1.5 m), interior_01 (6.74 m3, at 1.3 m), body_player_01 (12.74 m3, at 0.6 m), body_01 (15.49 m3, at 0.7 m)
+10:43:12   aimed at wheel_01_fr_a (0.20 m3, at 2.6 m), hood_a (0.33 m3, at 1.2 m), tire_01_fr_a (0.37 m3, at 2.6 m), interior_01 (6.74 m3, at 2.5 m), body_player_01 (12.74 m3, at 0.9 m), body_01 (15.49 m3, at 0.4 m)
+10:43:12   aimed at hood_a (0.33 m3, at 1.4 m), tire_01_fr_a (0.37 m3, at 3.2 m), bumper_f_01 (0.70 m3, at 2.1 m), body_01 (15.49 m3, at 0.7 m)
+10:43:12   aimed at bumper_f_01 (0.70 m3, at 1.9 m), body_01 (15.49 m3, at 1.0 m)
+10:43:13   done waiting for a weapon switch (the turret gun out of V's hands) (72.1 s)
+10:43:16 step 21: probe 3: after the switch
+10:43:16   in V's hands now: Items.Preset_Saratoga_Arasaka_2077
+10:43:16   the turret gun still in V's inventory: false
+10:43:16 SHOT p3_after_switch
+10:43:17 step 22: clean up: the gun and the car
+10:43:18 DONE 11 passed, 0 failed

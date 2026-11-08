@@ -1,0 +1,68 @@
+15:14:45 runner on; job wheels; waiting for the save to load
+15:14:50 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+15:15:00 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+15:15:10 the run script says the start screen is gone
+15:15:10 waiting at the menu: start screen closed, newest save known (modded), menu here, 1 tries
+15:15:10 main menu continued the newest save; waiting for the world
+15:15:32 world loaded; job wheels
+15:15:32   engine: ready: 96 catalogs, 480 pool records, 69 look files watched
+15:15:32   engine: build 1: Vehicle.vc_archer_hella__basic_01_1 called in archer_hella__basic_player_01; 2 parts swapped, 9 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 1 kit parts added
+15:15:32   engine: attached: Vehicle.vc_archer_hella__basic_01_1 in archer_hella__basic_player_01, switching to its build's look
+15:15:32   engine: kept Vehicle.vc_archer_hella__basic_01_1's look archer_hella__basic_player_01 against the game's reset
+15:15:32   engine: build 2: Vehicle.vc_archer_hella__basic_01_1 rebuilt in archer_hella__basic_poor_2__vc_a; 2 parts swapped, 8 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 1 kit parts added
+15:15:32 step 1: engine, save lock, light; pick the sets
+15:15:32 PASS engine is running
+15:15:32 PASS saving is locked for the run
+15:15:32   173 car sets, 8 bike sets; biggest 064b23eb from Bratsk U4020; Quadra 24b4fd3c; Cortes police 4d3fe950; bike 911bc7ac from Malina-mobile
+15:15:32 PASS found the sets to try
+15:15:33 step 2: turn V away from their own car
+15:15:35 step 3: spawn copy 3 in the Suburban style
+15:15:35   spawned entity 10789246ULL 8 m ahead of V
+15:15:35   engine: build 3: Vehicle.vc_archer_hella__basic_01_3 called in archer_hella__basic_player_01; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:15:35   engine: attached: Vehicle.vc_archer_hella__basic_01_3 in archer_hella__basic_player_01, switching to its build's look
+15:15:35   engine: build 4: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 0 wheel parts fitted, 0 kit parts added
+15:15:35   done waiting for the copy to appear (0.1 s)
+15:15:38 step 4: wait for the style
+15:15:39   done waiting for the Suburban look (0.0 s)
+15:15:43 step 5: its own wheels
+15:15:43 PASS own wheels - archer_hella__basic_suburban_1__vc_a; ok (0 parts checked)
+15:15:43 SHOT w1_own_wheels
+15:15:48 step 6: the biggest wheels in the game, fitted
+15:15:48   engine: build 5: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:15:48   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:15:53 step 7: check them
+15:15:53 PASS biggest set fitted - archer_hella__basic_suburban_1__vc_b; ok (8 parts checked)
+15:15:53 SHOT w2_biggest_fitted
+15:15:58 step 8: Quadra at the front
+15:15:58   engine: build 6: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:15:58   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:16:00 step 9: Cortes police at the back
+15:16:00   engine: build 7: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:16:00   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:16:05 step 10: check front and back
+15:16:05 PASS Quadra front, Cortes back - archer_hella__basic_suburban_1__vc_b; ok (8 parts checked)
+15:16:05 PASS the build has both - look=archer_hella__basic_suburban_1;wheels@f=24b4fd3c;wheels@b=4d3fe950
+15:16:05 SHOT w3_front_quadra_back_cortes
+15:16:10 step 11: narrow the back wheels to 75%
+15:16:10   engine: build 8: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_a; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:16:10   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_b) (0.1 s)
+15:16:15 step 12: check the back
+15:16:15 PASS back narrowed - archer_hella__basic_suburban_1__vc_a; ok (8 parts checked)
+15:16:15 SHOT w4_back_narrowed
+15:16:20 step 13: make the front wheels 115%
+15:16:20   engine: build 9: Vehicle.vc_archer_hella__basic_01_3 rebuilt in archer_hella__basic_suburban_1__vc_b; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 8 wheel parts fitted, 0 kit parts added
+15:16:20   done waiting for the car to be rebuilt (look still archer_hella__basic_suburban_1__vc_a) (0.1 s)
+15:16:25 step 14: check the front
+15:16:25 PASS front bigger - archer_hella__basic_suburban_1__vc_b; ok (8 parts checked)
+15:16:25 SHOT w5_front_bigger
+15:16:30 step 15: take it away
+15:16:32 step 16: a Kusanagi with another bike's wheels
+15:16:32   spawned entity 10789300ULL 8 m ahead of V
+15:16:32   engine: build 10: Vehicle.vc_yaiba_kusanagi_basic_01_3 called in yaiba_kusanagi_basic_player_01; 0 parts swapped, 0 repainted, 0 added where the look has none, 0 failed, 4 wheel parts fitted, 0 kit parts added
+15:16:32   engine: attached: Vehicle.vc_yaiba_kusanagi_basic_01_3 in yaiba_kusanagi_basic_player_01
+15:16:32   done waiting for the copy to appear (0.1 s)
+15:16:37 step 17: check the bike
+15:16:37 PASS Kusanagi with Malina-mobile wheels - yaiba_kusanagi_basic_player_01; ok (4 parts checked)
+15:16:37 SHOT w6_bike
+15:16:42 step 18: take it away
+15:16:43 DONE 10 passed, 0 failed

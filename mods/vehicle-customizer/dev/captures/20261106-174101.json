@@ -1,0 +1,42 @@
+{
+  "camera_forward": {
+    "x": 0.8,
+    "y": 0.6,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 7.6,
+    "x": -246.8,
+    "y": 1624.1,
+    "z": 42.1
+  },
+  "look_object": {
+    "class": "vehicleCarBaseObject",
+    "entity_id": "9004687ULL",
+    "name": "Columbus V340-F Freight",
+    "position": {
+      "x": -246.6,
+      "y": 1626.6,
+      "z": 41.5
+    },
+    "record": "Vehicle.hackable_villefort_columbus_tyger"
+  },
+  "nearest": {
+    "distance": 10,
+    "gig": "sts_wbr_jpn_02",
+    "gig_state": "Active",
+    "gig_state_from": "id sts_wbr_jpn_02",
+    "id": "workshop_with_the_mechanical_press",
+    "name": "Workshop with the mechanical press"
+  },
+  "note": "",
+  "player": {
+    "x": -253.1,
+    "y": 1619.9,
+    "yaw": -56.4,
+    "z": 41.2
+  },
+  "stamp": "20261106-174101",
+  "time": "2026-11-06 17:41:01"
+}

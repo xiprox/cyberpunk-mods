@@ -1,0 +1,71 @@
+﻿-- entity files and their appearance names --
+base\vehicles\standard\v_standard2_archer_hella__basic_01.ent count 41 default random
+   has player_01: True  has suburban_1: True
+   sample: ['archer_hella__basic_combatcab_01', 'archer_hella__basic_after_accident_01', 'archer_hella__basic_suburban_1_4', 'archer_hella__basic_suburban_1'] ['archer_hella__basic_player_01', 'archer_hella__basic_player_burnt_01', 'archer_hella__basic_player_damaged']
+ep1\vehicles\standard\v_standard2_archer_hella_ep1__basic_01.ent count 3 default random
+   has player_01: False  has suburban_1: False
+   sample: ['archer_hella__basic_burnt_01', 'archer_hella__basic_scavenger_1', 'archer_hella__basic_scavenger_2'] []
+
+-- paints on the parts the test uses --
+  ext01_hood_01                  ['primer_red', 'burnt_01', 'poor_01', 'poor_03', 'poor_02', 'poor_05', 'poor_04', 'combatcab_01', 'police_02', 'police_01', 'suburban_05', 'suburban_04', 'suburban_03', 'suburban_02', 'suburban_01', 'primer_black', 'after_accident_01', 'deathrace_01', 'primer_gray', '6th_street_01', 'stickerbomb_02', 'stickerbomb_01', 'player_01']
+  ext01_bumper_f_01              ['primer_red', 'burnt_01', 'poor_01', 'poor_03', 'poor_02', 'poor_05', 'poor_04', 'combatcab_01', 'police_02', 'police_01', 'suburban_05', 'suburban_04', 'suburban_03', 'suburban_02', 'suburban_01', 'primer_black', 'after_accident_01', 'deathrace_01', 'primer_gray', '6th_street_01', 'stickerbomb_02', 'stickerbomb_01']
+  ext01_junk_bumper_f_01         ['color_02', 'color_03', 'burnt_01']
+  ext01_bumper_b_01              ['primer_red', 'burnt_01', 'poor_01', 'poor_03', 'poor_02', 'poor_05', 'poor_04', 'combatcab_01', 'police_02', 'police_01', 'suburban_05', 'suburban_04', 'suburban_03', 'suburban_02', 'suburban_01', 'primer_black', 'after_accident_01', 'deathrace_01', 'primer_gray', '6th_street_01', 'stickerbomb_02', 'stickerbomb_01']
+  ext01_junk_bumper_b_01         ['color_02', 'color_03', 'burnt_01']
+  ext01_tire_fl_01               ['clean', 'dusty', 'muddy']
+  ext01_tire_bl_01               ['clean', 'dusty', 'muddy']
+  ext01_wheel_fl_01              []
+  ext01_wheel_bl_01              []
+
+-- what a suburban_1 Hella uses in the slots the test touches --
+  hood_a                   ('entPhysicalMeshComponent', 'suburban_01', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_hood_01.mesh')
+  bumper_f_01              ('entPhysicalMeshComponent', 'suburban_01', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_bumper_f_01.mesh')
+  bumper_f_shadow          ('entMeshComponent', 'default', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_bumper_f_01_shadow.mesh')
+  bumper_b_01              ('entPhysicalMeshComponent', 'suburban_01', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_bumper_b_01.mesh')
+  wheel_01_fl_a            None
+  wheel_01_fr_a            None
+  wheel_01_bl_a            None
+  wheel_01_br_a            None
+  tire_01_fl_a             ('entPhysicalMeshComponent', 'default', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01.mesh')
+  tire_01_fr_a             ('entPhysicalMeshComponent', 'default', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01.mesh')
+  tire_01_bl_a             ('entPhysicalMeshComponent', 'default', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_bl_01.mesh')
+  tire_01_br_a             ('entPhysicalMeshComponent', 'default', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_bl_01.mesh')
+  tire_01_fl_a_shadow      ('entMeshComponent', 'default', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh')
+  tire_01_fr_a_shadow      ('entMeshComponent', 'default', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh')
+  tire_01_bl_a_shadow      ('entMeshComponent', 'default', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh')
+  tire_01_br_a_shadow      ('entMeshComponent', 'default', 'base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh')
+
+-- wheels and tires on other cars --
+base\vehicles\appearances\sport\porsche_911turbo__basic.app
+  wheel_01_fl_a            [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh', 'default'), 4)]
+  wheel_01_fr_a            [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh', 'default'), 4)]
+  wheel_01_bl_a            [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh', 'default'), 3), (('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_bl_02.mesh', 'default'), 1)]
+  wheel_01_br_a            [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh', 'default'), 3), (('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_wheel_bl_02.mesh', 'default'), 1)]
+  tire_01_fl_a             [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh', 'default'), 4)]
+  tire_01_fr_a             [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh', 'default'), 4)]
+  tire_01_bl_a             [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh', 'default'), 4)]
+  tire_01_br_a             [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh', 'default'), 4)]
+  tire_01_fl_a_shadow      [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh', 'default'), 4)]
+  tire_01_fr_a_shadow      [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh', 'default'), 4)]
+  tire_01_bl_a_shadow      [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh', 'default'), 4)]
+  tire_01_br_a_shadow      [(('base\\vehicles\\sport\\v_sport2_porsche_911turbo\\entities\\meshes\\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh', 'default'), 4)]
+base\vehicles\appearances\sport\quadra_turbo_basic.app
+  wheel_01_fl_a            [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh', 'default'), 7), (('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh', 'chrome'), 5)]
+  wheel_01_fr_a            [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh', 'default'), 7), (('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_fl_01.mesh', 'chrome'), 5)]
+  wheel_01_bl_a            [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh', 'default'), 4), (('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh', 'neomilitarism'), 1)]
+  wheel_01_br_a            [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh', 'default'), 4), (('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh', 'neomilitarism'), 1)]
+  tire_01_fl_a             [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh', 'default'), 28)]
+  tire_01_fr_a             [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01.mesh', 'default'), 28)]
+  tire_01_bl_a             [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh', 'default'), 6)]
+  tire_01_br_a             [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_02.mesh', 'default'), 22), (('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh', 'default'), 6)]
+  tire_01_fl_a_shadow      [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh', 'default'), 28)]
+  tire_01_fr_a_shadow      [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh', 'default'), 28)]
+  tire_01_bl_a_shadow      [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh', 'default'), 6)]
+  tire_01_br_a_shadow      [(('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_02_shadow.mesh', 'default'), 22), (('base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh', 'default'), 6)]
+
+-- binding numbering: what class does a parentTransform handle land on? --
+  bumper_f_01      handle   81  as-is -> entHardTransformBinding {'bindName': 'vehicle_slots', 'slotName': 'bumper_front'}   minus-1 -> physicsFilterData {}
+  door_fl_a        handle   94  as-is -> entHardTransformBinding {'bindName': 'vehicle_slots', 'slotName': 'door_front_left_a'}   minus-1 -> entHardTransformBinding {'bindName': 'door_br_a'}
+  hood_a           handle  109  as-is -> entHardTransformBinding {'bindName': 'vehicle_slots', 'slotName': 'hood_a'}   minus-1 -> entHardTransformBinding {'bindName': 'hood_a'}
+  tire_01_fl_a     handle  122  as-is -> entHardTransformBinding {'bindName': 'vehicle_slots', 'slotName': 'wheel_front_left'}   minus-1 -> entHardTransformBinding {'bindName': 'tire_01_fl_a'}
+  body_01          handle  149  as-is -> entHardTransformBinding {'bindName': 'vehicle_slots', 'slotName': 'Base'}   minus-1 -> entHardTransformBinding {'bindName': 'body_01'}

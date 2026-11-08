@@ -1,0 +1,50 @@
+Riptide "Terrier" (herrera_riptide_01_ep1), from ep1\vehicles\sport\v_sport1_herrera_riptide_01.ent
+records: Vehicle.v_sport1_herrera_riptide_player
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  urban_01                 Urban            21 looks
+                                            paints: urban_02, urban_03, urban_04, urban_05, urban_06, urban_07, urban_08, urban_09, urban_10, web_01, suburban_01, suburban_02, suburban_03, suburban_04, suburban_05, suburban_06, suburban_07, suburban_08, suburban_09, suburban_10
+  player_01                V's own          1 looks
+                                            kits: bumper_b_player_01
+WRECKS: burnt_01
+
+SLOTS (16)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                    21 paints  22 looks  [style: V's own] [style: Urban]
+  Rear bumper [bumper_back.bumper] (bumper_back): 2 options
+    bumper_b_01                                    21 paints  21 looks  [style: Urban]
+    bumper_b_player_02                              1 paints   1 looks  [style: V's own]
+  Hood [hood_a.hood] (hood_a): 1 options
+    engine_hood_01                                 21 paints  22 looks  [style: V's own] [style: Urban]
+  Window (hood_a) [hood_a.window] (hood_a): 1 options
+    window_b_01                                     2 paints  22 looks  [style: V's own] [style: Urban]
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_a_01                                     21 paints  22 looks  [style: V's own] [style: Urban]
+  Body [base.body] (Base): 1 options
+    body_01                                        21 paints  23 looks  [style: V's own] [style: Urban] [wreck: burnt_01]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    11 paints  23 looks  [style: V's own] [style: Urban] [wreck: burnt_01]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    wheel_01 + wheel_a_01                           4 paints  22 looks  [style: V's own] [style: Urban]
+  Doors (b) [door_b.door] (door_front_left_b, door_front_right_b): 1 options
+    door_01                                        21 paints  22 looks  [style: V's own] [style: Urban]
+  Doors (c) [door_c.door] (door_front_left_c, door_front_right_c): 1 options
+    door_c_01                                      21 paints  22 looks  [style: V's own] [style: Urban]
+  Roof [roof_a.roof] (roof_a): 1 options
+    roof_a_01                                      21 paints  22 looks  [style: V's own] [style: Urban]
+  Window (roof_a): front a [roof_a.window] (roof_a): 1 options
+    window_f_a_01                                   2 paints  22 looks  [style: V's own] [style: Urban]
+  Window (roof_a): front left back [roof_a.window.window_fl_b] (roof_a): 1 options
+    window_fl_b_01                                  2 paints  22 looks  [style: V's own] [style: Urban]
+  Window (roof_a): front right back [roof_a.window.window_fr_b] (roof_a): 1 options
+    window_fr_b_01                                  2 paints  22 looks  [style: V's own] [style: Urban]
+  Trunk (b) [trunk_b.trunk] (trunk_b): 2 options
+    trunk_b_01                                     21 paints  21 looks  [style: Urban]
+    trunk_b_player_01                               1 paints   1 looks  [style: V's own]
+  Side windows [window.window] (window_front_left_a, window_front_right_a): 1 options
+    window_a_01                                     2 paints  22 looks  [style: V's own] [style: Urban]
+
+KITS (1)
+  bumper_b_player_01                             1 parts   1 looks  [style: V's own]
+                                                 made to sit on Rear bumper

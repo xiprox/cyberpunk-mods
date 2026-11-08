@@ -1,0 +1,89 @@
+Galena G240 (thorton_galena_01__basic_01), from base\vehicles\standard\v_standard2_thorton_galena_01__basic_01.ent
+records: Vehicle.v_standard2_thorton_galena_bobas_player, Vehicle.v_standard2_thorton_galena_gt_player, Vehicle.v_standard2_thorton_galena_player
+generated 2026-11-08
+
+STYLES (12; a style's other looks are its factory paints)
+  deathrace_galena         Deathrace galena 2 looks
+                                            paints: deathrace_galena_02
+                                            kits: kit_nomad_bumper
+  gt_01                    Gt               2 looks
+                                            paints: poor_08_gt
+  gt_02                    Gt 02            1 looks
+  maelstrom_01             Maelstrom        1 looks
+                                            kits: kit_maelstrom_body_doors, kit_maelstrom_body_trunk
+  poor_01                  Poor             7 looks
+                                            paints: poor_02, poor_03, poor_04, poor_05, poor_06, poor_07
+  poor_09                  Poor 09          6 looks
+                                            paints: poor_10, poor_11, poor_12, poor_13, poor_14
+  q000_galena_bobas_garage Q000 galena bobas garage 2 looks
+                                            paints: q000_galena_bobas
+                                            kits: kit_nomad_bumper, kit_nomad_body, kit_nomad_doors_trunk
+  sq011_nancys_car         Sq011 nancys car 1 looks
+                                            kits: kit_maelstrom_body_doors, kit_maelstrom_body_trunk
+  steves_car               Steves car       1 looks
+                                            kits: kit_maelstrom_body_trunk, kit_sticker_doors_interior_trunk
+  suburban_01              Suburban         7 looks
+                                            paints: suburban_02, suburban_03, suburban_04, suburban_05, suburban_06, suburban_07
+  player_01                V's own          1 looks
+  voodoo_01                Voodoo           1 looks
+WRECKS: burnt_01, q000_galena_bobas_burnt_01
+
+SLOTS (13)
+  Front bumper: main [bumper_front.bumper] (bumper_front): 3 options
+    bumper_f_02                                    33 paints  22 looks  [look: default] [style: Gt] [style: Gt 02] [style: Maelstrom] [style: Poor] ...
+    junk_bumper_f_01                                2 paints   7 looks  [style: V's own] [style: Poor 09]
+    q000_bumper_f_01                                2 paints   4 looks  [style: Deathrace galena] [style: Q000 galena bobas garage]
+  Front bumper: main [bumper_front.bumper.bumper_f] (bumper_front): 1 options
+    bumper_f_01                                    33 paints  29 looks  [look: default] [style: Gt] [style: Gt 02] [style: Maelstrom] [style: V's own] ...
+  Rear bumper: back [bumper_back.bumper] (bumper_back): 3 options
+    bumper_b_01                                    33 paints  22 looks  [look: default] [style: Gt] [style: Gt 02] [style: Maelstrom] [style: Poor] ...
+    junk_bumper_b_01                                2 paints   7 looks  [style: V's own] [style: Poor 09]
+    q000_bumper_b_01                                2 paints   4 looks  [style: Deathrace galena] [style: Q000 galena bobas garage]
+  Rear bumper: back [bumper_back.bumper.bumper_b] (bumper_back): 1 options
+    bumper_b_02                                    33 paints  22 looks  [look: default] [style: Gt] [style: Gt 02] [style: Maelstrom] [style: Poor] ...
+  Hood [hood_a.hood] (hood_a): 3 options
+    hood_01                                        33 paints  25 looks  [look: default] [style: Maelstrom] [style: Poor] [style: Poor 09] [style: Sq011 nancys car] ...
+    q000_hood_nomad_01                             32 paints   6 looks  [style: Deathrace galena] [style: Gt] [style: Gt 02] [style: V's own]
+    q000_hood_nomad_02                              2 paints   2 looks  [style: Q000 galena bobas garage]
+  Trunk: a [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       33 paints  33 looks  [look: default] [style: Deathrace galena] [style: Gt] [style: Gt 02] [style: Maelstrom] ...
+  Trunk: spoiler [trunk_a.trunk.trunk_spoiler] (trunk_a): 1 options
+    trunk_spoiler_01                               33 paints   6 looks  [look: default] [style: Gt] [style: Gt 02] [style: V's own] [style: Voodoo]
+  Body [base.body] (Base): 1 options
+    body_01                                        33 paints  35 looks  [look: default] [style: Deathrace galena] [style: Gt] [style: Gt 02] [style: Maelstrom] ...
+  Interior [base.interior] (Base): 2 options
+    interior_01                                    31 paints  32 looks  [look: default] [style: Deathrace galena] [style: Gt] [style: Gt 02] [style: Maelstrom] ...
+    q000_interior_01                                0 paints   3 looks  [style: Q000 galena bobas garage] [wreck: q000_galena_bobas_burnt_01]
+  Windshield [base.window] (Base): 1 options
+    window_f_01                                     2 paints  35 looks  [look: default] [style: Deathrace galena] [style: Gt] [style: Gt 02] [style: Maelstrom] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 6 options
+    tire_01                                         6 paints  15 looks  [look: default] [style: Poor 09] [style: Steves car] [style: Suburban]
+    tire_01                                         5 paints   7 looks  [car: Colby CST40] [style: Poor]
+    tire_wide_02                                    6 paints   5 looks  [style: Gt] [style: Gt 02] [style: Sq011 nancys car] [style: Voodoo]
+    tire_a_01                                       9 paints   4 looks  [car: Galena "Gecko"] [style: Deathrace galena] [style: Q000 galena bobas garage]
+    tire_01 + tire_02                               3 paints   1 looks  [car: Turbo-R 740] [style: V's own]
+    tire_01 + tire_wide_02                          6 paints   1 looks  [style: Maelstrom]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 8 options
+    wheel_01                                        2 paints   9 looks  [look: default] [style: Steves car] [style: Suburban]
+    wheel_02                                        3 paints   7 looks  [car: Colby CST40] [style: Poor]
+    wheel_police_01                                 0 paints   6 looks  [style: Poor 09]
+    wheel_a_01                                     10 paints   4 looks  [car: Galena "Gecko"] [style: Deathrace galena] [style: Q000 galena bobas garage]
+    wheel_wide_cortes_b2_01                         0 paints   3 looks  [style: Gt] [style: Voodoo]
+    wheel_wide_type66_01                            0 paints   2 looks  [style: Gt 02] [style: Sq011 nancys car]
+    wheel_01 + wheel_02                            11 paints   1 looks  [car: Turbo-R 740] [style: V's own]
+    wheel_police_01 + wheel_wide_cortes_b2_01       0 paints   1 looks  [style: Maelstrom]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                        33 paints  33 looks  [look: default] [style: Deathrace galena] [style: Gt] [style: Gt 02] [style: Maelstrom] ...
+
+KITS (6)
+  kit_maelstrom_body_doors                       7 parts   2 looks  [style: Maelstrom] [style: Sq011 nancys car]
+                                                 made to sit on Doors
+  kit_maelstrom_body_trunk                       2 parts   3 looks  [style: Maelstrom] [style: Sq011 nancys car] [style: Steves car]
+                                                 made to sit on Trunk: a
+  kit_nomad_body                                 5 parts   3 looks  [style: Q000 galena bobas garage] [wreck: q000_galena_bobas_burnt_01]
+  kit_nomad_bumper                               2 parts   4 looks  [style: Deathrace galena] [style: Q000 galena bobas garage]
+                                                 made to sit on Front bumper: main
+  kit_nomad_doors_trunk                          4 parts   2 looks  [style: Q000 galena bobas garage]
+                                                 made to sit on Doors, Trunk: a
+  kit_sticker_doors_interior_trunk               5 parts   1 looks  [style: Steves car]
+                                                 made to sit on Doors, Trunk: a

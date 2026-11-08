@@ -1,0 +1,39 @@
+{
+  "camera_forward": {
+    "x": -0.1,
+    "y": 0.9,
+    "z": -0.3
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 1.6,
+    "x": -1862.1,
+    "y": -4266.9,
+    "z": 75.2
+  },
+  "look_object": {
+    "class": "NPCPuppet",
+    "entity_id": "10746675ULL",
+    "name": "NC Resident",
+    "position": {
+      "x": -1862.2,
+      "y": -4266.8,
+      "z": 74
+    },
+    "record": "Character.CitizenAldecaldosMaleMechanic"
+  },
+  "nearest": {
+    "distance": 10.6,
+    "id": "badlands_gas_station",
+    "name": "Badlands gas station"
+  },
+  "note": "",
+  "player": {
+    "x": -1862,
+    "y": -4268.1,
+    "yaw": 5.4,
+    "z": 74
+  },
+  "stamp": "20261106-191605",
+  "time": "2026-11-06 19:16:05"
+}

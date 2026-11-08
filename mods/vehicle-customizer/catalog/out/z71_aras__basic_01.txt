@@ -1,0 +1,11 @@
+z71_aras__basic_01 (z71_aras__basic_01), from base\vehicles\special\v_kaukaz_z71_aras__basic_01.ent
+records: Vehicle.v_kaukaz_z71_aras
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  distraction              Distraction      2 looks
+                                            paints: poor_01
+
+SLOTS (0)
+
+KITS (0)

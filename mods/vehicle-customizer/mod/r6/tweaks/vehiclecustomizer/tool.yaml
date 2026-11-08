@@ -1,0 +1,8 @@
+# The customizer's tool (UX.md, "a tool in your hand"; RECORD.md, 2026-11-07). For now a stand-in: a copy of the
+# Kyubi, whose back screen (kyubiback.inkwidget, 7.9 cm square) is the biggest any gun has facing its holder; our own
+# model comes next (user). Held in the heavy slot like a turret's gun, so a weapon switch drops it and anyone can
+# pick it up; without the weight packages; it never fires (Tool.reds).
+Items.VC_Tool:
+  $base: Items.Preset_Kyubi_Default
+  equipArea: EquipmentArea.WeaponHeavy
+  OnAttach: []

@@ -1,0 +1,41 @@
+Nazaré (arch_nemesis_basic_01), from base\vehicles\sportbike\v_sportbike2_arch_nemesis_basic_01.ent
+records: Vehicle.v_sportbike2_arch_jackie_player, Vehicle.v_sportbike2_arch_jackie_tuned_player, Vehicle.v_sportbike2_arch_player, Vehicle.v_sportbike2_arch_player_02, Vehicle.v_sportbike2_arch_player_02_kuro, Vehicle.v_sportbike2_arch_player_02_shiro, Vehicle.v_sportbike2_arch_player_03, Vehicle.v_sportbike2_arch_tyger_player
+generated 2026-11-08
+
+STYLES (6; a style's other looks are its factory paints)
+  arch_nemesis_basic_jackie Arch nemesis basic jackie 1 looks
+                                            kits: body_a_stickers_01
+  arch_nemesis_basic_jackie_tuned_up Arch nemesis basic jackie tuned up 1 looks
+                                            kits: body_a_stickers_02, body_a_stickers_01
+  arch_nemesis_basic_sport_blue_01 Arch nemesis basic sport blue 12 looks
+                                            paints: arch_nemesis_basic_player_02, arch_nemesis_basic_q101_troy_01, arch_nemesis_basic_sport_red_01, arch_nemesis_basic_sport_gray_02, arch_nemesis_basic_sport_neon_01, arch_nemesis_basic_sport_black_02, arch_nemesis_basic_sport_white_01, arch_nemesis_basic_sport_orange_01, arch_nemesis_basic_sport_yellow_02, arch_nemesis_basic_sport_blue_03_neon, arch_nemesis_basic_sport_green_02_neon
+  arch_nemesis_basic_standard_silver_01 Arch nemesis basic standard silver 8 looks
+                                            paints: arch_nemesis_basic_player_01, arch_nemesis_basic_standard_blue_04, arch_nemesis_basic_standard_camo_01, arch_nemesis_basic_standard_gray_01, arch_nemesis_basic_standard_black_03, arch_nemesis_basic_standard_green_03, arch_nemesis_basic_standard_camo_02_dark
+  arch_nemesis_basic_tygerclaws_boss_01 Arch nemesis basic tygerclaws boss 1 looks
+                                            kits: body_a_stickers_02, body_lightstripe_01
+  arch_nemesis_basic_tygerclaws_green_01 Arch nemesis basic tygerclaws green 5 looks
+                                            paints: arch_nemesis_basic_player_03, arch_nemesis_basic_tygerclaws_red_02, arch_nemesis_basic_tygerclaws_pink_01, arch_nemesis_basic_tygerclaws_violet_01
+                                            kits: body_lightstripe_01
+WRECKS: arch_nemesis_basic_burnt_sport_01, arch_nemesis_basic_burnt_standard_01, arch_nemesis_basic_burnt_tygerclaws_01
+
+SLOTS (6)
+  Body: back [base.body] (Base): 2 options
+    body_b_01                                      21 paints  13 looks  [car: v_sportbike2_arch_nemesis] [style: Arch nemesis basic sport blue] [wreck: arch_nemesis_basic_burnt_sport_01]
+    body_c_01                                      21 paints   7 looks  [car: v_sportbike2_arch_nemesis] [style: Arch nemesis basic tygerclaws boss] [style: Arch nemesis basic tygerclaws green] [wreck: arch_nemesis_basic_burnt_tygerclaws_01]
+  Body: cables [base.body.body_cables] (Base): 1 options
+    body_a_cables_01                               18 paints   2 looks  [car: v_sportbike2_arch_nemesis] [style: Arch nemesis basic jackie tuned up] [style: Arch nemesis basic tygerclaws boss]
+  Exhaust [base.exhaust] (Base): 1 options
+    exhaust_01                                      2 paints   2 looks  [car: v_sportbike2_arch_nemesis] [style: Arch nemesis basic jackie tuned up] [style: Arch nemesis basic tygerclaws boss]
+  Tires [wheel.tire] (wheel_front, wheel_back): 1 options
+    tire_01                                         8 paints  28 looks  [car: v_sportbike2_arch_nemesis] [style: Arch nemesis basic jackie] [style: Arch nemesis basic jackie tuned up] [style: Arch nemesis basic sport blue] [style: Arch nemesis basic standard silver] ...
+  Rims [wheel.wheel] (wheel_front, wheel_back): 1 options
+    wheel_01                                       20 paints  28 looks  [car: v_sportbike2_arch_nemesis] [style: Arch nemesis basic jackie] [style: Arch nemesis basic jackie tuned up] [style: Arch nemesis basic sport blue] [style: Arch nemesis basic standard silver] ...
+  Fairing [steering_wheel.fairing] (steering_wheel): 3 options
+    fairing_f_b_01                                 21 paints  12 looks  [car: v_sportbike2_arch_nemesis] [style: Arch nemesis basic sport blue]
+    fairing_f_a_01                                 20 paints  10 looks  [car: v_sportbike2_arch_nemesis] [style: Arch nemesis basic jackie] [style: Arch nemesis basic jackie tuned up] [style: Arch nemesis basic standard silver]
+    fairing_f_c_01                                 20 paints   6 looks  [car: v_sportbike2_arch_nemesis] [style: Arch nemesis basic tygerclaws boss] [style: Arch nemesis basic tygerclaws green]
+
+KITS (3)
+  body_a_stickers_01                             1 parts   2 looks  [style: Arch nemesis basic jackie] [style: Arch nemesis basic jackie tuned up]
+  body_a_stickers_02                             1 parts   2 looks  [style: Arch nemesis basic jackie tuned up] [style: Arch nemesis basic tygerclaws boss]
+  body_lightstripe_01                            1 parts   6 looks  [style: Arch nemesis basic tygerclaws boss] [style: Arch nemesis basic tygerclaws green]

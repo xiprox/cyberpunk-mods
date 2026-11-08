@@ -1,0 +1,77 @@
+{
+ "id": "z71_aras__basic_01",
+ "label": "z71_aras__basic_01",
+ "entity": "base\\vehicles\\special\\v_kaukaz_z71_aras__basic_01.ent",
+ "family": "v_kaukaz_z71_aras",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_kaukaz_z71_aras"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\special\\kaukaz_z71_aras__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "distraction",
+   "code": "distraction",
+   "label": "Distraction",
+   "base_look": "kaukaz_z71_aras__basic_distraction",
+   "looks": [
+    "kaukaz_z71_aras__basic_distraction",
+    "kaukaz_z71_aras__basic_poor_01"
+   ],
+   "options": {},
+   "kits": []
+  }
+ ],
+ "wrecks": [],
+ "slots": [],
+ "kits": [],
+ "looks": {
+  "kaukaz_z71_aras__basic_distraction": {
+   "app": "base\\vehicles\\appearances\\special\\kaukaz_z71_aras__basic.app",
+   "app_look": "distraction",
+   "style": "distraction",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "v_kaukaz_z71_aras__ext01_wheel_fl",
+     "fr": "v_kaukaz_z71_aras__ext01_wheel_fr",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    }
+   }
+  },
+  "kaukaz_z71_aras__basic_poor_01": {
+   "app": "base\\vehicles\\appearances\\special\\kaukaz_z71_aras__basic.app",
+   "app_look": "poor_01",
+   "style": "distraction",
+   "wreck": false,
+   "parts": {
+    "wheel.wheel": {
+     "fl": "v_kaukaz_z71_aras__ext01_wheel_fl",
+     "fr": "v_kaukaz_z71_aras__ext01_wheel_fr",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {},
+ "wheel_sets": [],
+ "record_looks": [
+  [
+   "None",
+   ""
+  ]
+ ]
+}

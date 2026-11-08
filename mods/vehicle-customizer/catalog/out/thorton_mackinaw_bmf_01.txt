@@ -1,0 +1,11 @@
+Mackinaw "Demiurge" (thorton_mackinaw_bmf_01), from base\vehicles\utility\v_utility4_thorton_mackinaw_bmf_01.ent
+records: Vehicle.v_utility4_thorton_mackinaw_bmf_player
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  thorton_mackinaw_bmf_bmf_01 Thorton mackinaw bmf bmf 1 looks
+WRECKS: thorton_mackinaw_bmf_burnt_01
+
+SLOTS (0)
+
+KITS (0)

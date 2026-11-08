@@ -1,0 +1,277 @@
+19:41:34 add copies -> true, true
+19:48:32 copying test copy, its own look as Vehicle.vc_live_1
+19:48:32 Vehicle.vc_live_1 -> cloned true, listed true
+19:48:32 Vehicle.vc_live_1 unlock -> false
+19:48:32 Vehicle.vc_live_1 counts as unlocked -> false
+19:50:04 copying Vehicle.v_sportbike2_arch_player_02 as Vehicle.vc_live_2
+19:50:04 Vehicle.vc_live_2 -> cloned true, listed true
+19:50:04 Vehicle.vc_live_2 unlock -> false
+19:50:04 Vehicle.vc_live_2 counts as unlocked -> false
+19:51:16 Vehicle.vc_live_1 unlock -> true
+19:51:16 Vehicle.vc_live_1 counts as unlocked -> true
+19:51:16 Vehicle.vc_live_2 unlock -> true
+19:51:16 Vehicle.vc_live_2 counts as unlocked -> true
+19:52:17 at startup Vehicle.vc_live_1 -> cloned true, listed true
+19:52:17 at startup Vehicle.vc_live_2 -> cloned true, listed true
+19:53:04 Vehicle.vc_live_1 unlock -> true
+19:53:04 Vehicle.vc_live_1 counts as unlocked -> true
+19:53:04 Vehicle.vc_live_2 unlock -> true
+19:53:04 Vehicle.vc_live_2 counts as unlocked -> true
+19:53:34 add copies -> true, true
+19:56:31 hood_a class entPhysicalMeshComponent paint primer_red -> true
+19:56:56 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+19:57:07 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+19:57:07 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+19:57:07 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+19:57:07 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+19:57:07 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+19:57:07 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+19:57:07 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+19:57:07 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+19:57:07 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+19:57:07 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+19:57:07 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+19:57:07 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+19:58:14 body_a_01 class entPhysicalSkinnedMeshComponent paint chrome_01 -> true
+19:58:40 fairing_a_01 class entPhysicalMeshComponent mesh base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_c_01.mesh -> true
+19:58:40 fairing_a_01_shadow class entMeshComponent mesh base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_c_01_shadow.mesh -> true
+19:59:06 vehicle Vehicle.v_sportbike2_arch_player_02, record Vehicle.v_sportbike2_arch_player_02, look arch_nemesis_basic_player_02
+19:59:06 dynamic entity id -> true
+19:59:06   vehicle_rig  entAnimatedComponent  paint None
+19:59:06   deformation_rig  entAnimatedComponent  paint None
+19:59:06   ObjectCarrier  gameObjectCarrierComponent  paint None
+19:59:06   EngineAudioEmitter  gameAudioEmitterComponent  paint None
+19:59:06   vehicleVehicleMountable  vehicleVehicleMountableComponent  paint None
+19:59:06   StatsComponent  gameStatsComponent  paint None
+19:59:06   vehicle_slots  entSlotComponent  paint None
+19:59:06   controller  MotorcycleComponent  paint None
+19:59:06   OccupantSlots  gameOccupantSlotComponent  paint None
+19:59:06   AnimationController  entAnimationControllerComponent  paint None
+19:59:06   fx_explosion  entEffectSpawnerComponent  paint None
+19:59:06   EffectAttachment  entEffectAttachmentComponent  paint None
+19:59:06   vehicle_radio_emitter  gameAudioEmitterComponent  paint None
+19:59:06   scanning  gameScanningComponent  paint None
+19:59:06   EffectSpawner6381  entEffectSpawnerComponent  paint None
+19:59:06   interaction  gameinteractionsComponent  paint None
+19:59:06   InteractionSlots  entSlotComponent  paint None
+19:59:06   StimBroadcaster  StimBroadcasterComponent  paint None
+19:59:06   fx_slots_holo  entSlotComponent  paint None
+19:59:06   vision  gameVisionModeComponent  paint None
+19:59:06   Immobilised_vfx  entEffectSpawnerComponent  paint None
+19:59:06   entityStub  gameEntityStubComponent  paint None
+19:59:06   vehicleVisualCustomization  entEffectSpawnerComponent  paint None
+19:59:06   AIComponent  AIVehicleAgent  paint None
+19:59:06   moveComponent  moveComponent  paint None
+19:59:06   workspotMapper  WorkspotMapperComponent  paint None
+19:59:06   FollowSlots  FollowSlotsComponent  paint None
+19:59:06   entityStubPlacedProxy  gameEntityStubComponentPlacedProxy  paint None
+19:59:06   VehicleController  vehicleController  paint None
+19:59:06   GeneralAudioEmitter  gameAudioEmitterComponent  paint None
+19:59:06   TriggerActivator  entTriggerActivatorComponent  paint None
+19:59:06   audioSound  gameaudioSoundComponent  paint None
+19:59:06   Targeting  gameTargetingComponent  paint None
+19:59:06   SimpleOccupantSlotSpawner  gameSimpleOccupantSlotSpawner  paint None
+19:59:06   CrowdMember  CrowdMemberBaseComponent  paint None
+19:59:06   WheelAudioEmitterFront  gameAudioEmitterComponent  paint None
+19:59:06   WheelAudioEmitterBack  gameAudioEmitterComponent  paint None
+19:59:06   UI_slots  entSlotComponent  paint None
+19:59:06   influenceObstacle  gameinfluenceObstacleComponent  paint None
+19:59:06   InteractionCollider  entColliderComponent  paint None
+19:59:06   Chassis  vehicleChassisComponent  paint None
+19:59:06   gameplay_slots  entSlotComponent  paint None
+19:59:06   Repeller  entDynamicActorRepellingComponent  paint None
+19:59:06   Inventory  gameInventory  paint None
+19:59:06   fx_cameraTransition  entEffectSpawnerComponent  paint None
+19:59:06   customization  vehicleVehicleCustomization  paint None
+19:59:06   v_sportbike2_arch_nemesis__ext01_axle_b_01_shadow  entMeshComponent  paint default
+19:59:06   v_sportbike2_arch_nemesis__ext01_axle_b_01  entPhysicalSkinnedMeshComponent  paint troy_01
+19:59:06   axle_f_01  entPhysicalSkinnedMeshComponent  paint troy_01
+19:59:06   axle_f_01_shadow  entMeshComponent  paint default
+19:59:06   fuelcap_01  entPhysicalMeshComponent  paint troy_01
+19:59:06   body_a_01  entPhysicalSkinnedMeshComponent  paint chrome_01
+19:59:06   license_plate_small  entMeshComponent  paint default
+19:59:06   body_a_01_shadow  entMeshComponent  paint default
+19:59:06   FX_basic  entEffectSpawnerComponent  paint None
+19:59:06   FX_slots  entSlotComponent  paint None
+19:59:06   fuelport_standard  entMeshComponent  paint default
+19:59:06   break_light_01  vehicleLightComponent  paint None
+19:59:06   WorldWidget1504  WorldWidgetComponent  paint None
+19:59:06   ColliderBC  entColliderComponent  paint None
+19:59:06   body_b_brakelight_01  entPhysicalMeshComponent  paint default
+19:59:06   brake_light_b_body_01  vehicleLightComponent  paint None
+19:59:06   ColliderBC3256  entColliderComponent  paint None
+19:59:06   body_b_01_shadow  entMeshComponent  paint default
+19:59:06   body_b_01  entPhysicalMeshComponent  paint troy_01
+19:59:06   fairing_a_01  entPhysicalMeshComponent  paint pink_01
+19:59:06   fairing_a_01_shadow  entMeshComponent  paint default
+19:59:06   head_light_01  vehicleLightComponent  paint None
+19:59:06   ColliderFC  entColliderComponent  paint None
+19:59:06   handlebar_01  entPhysicalSkinnedMeshComponent  paint troy_01
+19:59:06   interior_ui  WorldWidgetComponent  paint None
+19:59:06   handlebar_01_shadow  entMeshComponent  paint default
+19:59:06   button_light_01  vehicleLightComponent  paint None
+19:59:06   instrument_light_01  vehicleLightComponent  paint None
+19:59:06   tire_b_01_shadow  entMeshComponent  paint default
+19:59:06   wheel_b_01  entPhysicalMeshComponent  paint black
+19:59:06   tire_b_01  entPhysicalMeshComponent  paint black
+19:59:06   utilitylight_red_b  vehicleLightComponent  paint None
+19:59:06   tire_f_01_shadow  entMeshComponent  paint default
+19:59:06   tire_f_01  entPhysicalMeshComponent  paint black
+19:59:06   wheel_f_01  entPhysicalMeshComponent  paint black
+19:59:06   utilitylight_red_f  vehicleLightComponent  paint None
+19:59:06   AppearanceProxyMesh  entAppearanceProxyMeshComponent  paint default
+19:59:06   AppearanceVisualController  entVisualControllerComponent  paint None
+19:59:06   flightComponent  FlightComponent  paint None
+19:59:06   ThrusterF  entPhysicalMeshComponent  paint None
+19:59:06   ThrusterB  entPhysicalMeshComponent  paint None
+19:59:06   entPlaceholderComponent  entPlaceholderComponent  paint None
+19:59:06   AttitudeAgent  gameAttitudeAgent  paint None
+20:00:54 Vehicle.vc_live_1 remove -> true
+20:00:54 Vehicle.vc_live_2 remove -> true
+20:05:03 copying Vehicle.v_sportbike2_arch_player_02 as Vehicle.vc_live_1
+20:05:03 Vehicle.vc_live_1 -> cloned false, listed true
+20:05:03 Vehicle.vc_live_1 unlock -> true
+20:05:03 Vehicle.vc_live_1 counts as unlocked -> true
+20:05:05 Vehicle.vc_live_1 unlock -> true
+20:05:05 Vehicle.vc_live_1 counts as unlocked -> true
+20:05:13 Vehicle.vc_live_1 unlock -> true
+20:05:13 Vehicle.vc_live_1 counts as unlocked -> true
+20:05:14 Vehicle.vc_live_1 unlock -> true
+20:05:14 Vehicle.vc_live_1 counts as unlocked -> true
+20:15:07 at startup Vehicle.vc_live_1 -> cloned true, listed true
+20:29:53 at startup Vehicle.vc_live_1 -> cloned true, listed true
+20:33:09 Vehicle.v_standard2_archer_hella_player_vctest unlock -> true
+20:33:09 Vehicle.v_standard2_archer_hella_player_vctest_b unlock -> true
+20:33:09 Vehicle.v_utility4_kaukaz_bratsk_vctest unlock -> true
+20:33:09 Vehicle.v_utility4_chevalier_centurion_vctest unlock -> true
+20:33:09 Vehicle.av_rayfield_excalibur_vctest unlock -> true
+20:40:24 at startup Vehicle.vc_live_1 -> cloned true, listed true
+20:43:38 Vehicle.v_standard2_archer_hella_player_vctest unlock -> true
+20:43:38 Vehicle.v_standard2_archer_hella_player_vctest_b unlock -> true
+20:43:38 Vehicle.v_utility4_kaukaz_bratsk_vctest unlock -> true
+20:43:38 Vehicle.v_utility4_chevalier_centurion_vctest unlock -> true
+20:43:38 Vehicle.av_rayfield_excalibur_vctest unlock -> true
+21:26:07 at startup Vehicle.vc_live_1 -> cloned true, listed true
+21:26:08 loaded; saved build: 0 parts, base look stock
+21:26:59 Vehicle.v_standard2_archer_hella_player_vctest unlock -> true
+21:26:59 Vehicle.v_standard2_archer_hella_player_vctest_b unlock -> true
+21:26:59 Vehicle.v_utility4_kaukaz_bratsk_vctest unlock -> true
+21:26:59 Vehicle.v_utility4_chevalier_centurion_vctest unlock -> true
+21:26:59 Vehicle.av_rayfield_excalibur_vctest unlock -> true
+21:27:44 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:27:44 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:27:44 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:27:44 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:27:44 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:27:44 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:27:44 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:27:44 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:27:44 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:44 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:44 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:44 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:46 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh -> true
+21:27:46 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh -> true
+21:27:46 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh -> true
+21:27:46 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh -> true
+21:27:46 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh -> true
+21:27:46 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh -> true
+21:27:46 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh -> true
+21:27:46 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh -> true
+21:27:46 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh -> true
+21:27:46 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh -> true
+21:27:46 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:46 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:47 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:27:47 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:27:47 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:27:47 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:27:47 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:27:47 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:27:47 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:27:47 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:27:47 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:47 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:47 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:47 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:27:50 hood_a class entPhysicalMeshComponent paint primer_red -> true
+21:27:51 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+21:27:53 hood_a class entPhysicalMeshComponent paint deathrace_01 -> true
+21:27:55 hood_a class entPhysicalMeshComponent paint police_01 -> true
+21:27:56 hood_a class entPhysicalMeshComponent paint suburban_01 -> true
+21:27:59 hood_a class entPhysicalMeshComponent paint primer_black -> true
+21:28:00 hood_a class entPhysicalMeshComponent paint primer_red -> true
+21:28:01 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+21:28:03 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+21:28:04 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_bumper_f_01.mesh -> true
+21:28:05 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+21:29:34 Vehicle.v_standard2_archer_hella_player_vctest unlock -> true
+21:29:34 Vehicle.v_standard2_archer_hella_player_vctest_b unlock -> true
+21:29:34 Vehicle.v_utility4_kaukaz_bratsk_vctest unlock -> true
+21:29:34 Vehicle.v_utility4_chevalier_centurion_vctest unlock -> true
+21:29:34 Vehicle.av_rayfield_excalibur_vctest unlock -> true
+21:29:39 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; putting back 14 changes
+21:29:39 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:29:39 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:29:39 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:29:39 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:29:39 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:29:39 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:29:39 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:29:39 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:29:39 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:29:39 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:29:39 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:29:39 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:29:39 hood_a class entPhysicalMeshComponent paint stickerbomb_01 -> true
+21:29:39 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+21:30:07 hood_a class entPhysicalMeshComponent paint deathrace_01 -> true
+21:30:09 hood_a class entPhysicalMeshComponent paint police_01 -> true
+21:30:11 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_bumper_f_01.mesh -> true
+21:30:11 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true
+21:30:14 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh -> true
+21:30:14 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh -> true
+21:30:14 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh -> true
+21:30:14 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh -> true
+21:30:14 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh -> true
+21:30:14 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh -> true
+21:30:14 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh -> true
+21:30:14 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh -> true
+21:30:14 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh -> true
+21:30:14 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh -> true
+21:30:14 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:30:14 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:30:15 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:30:15 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:30:15 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:30:15 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:30:15 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:30:15 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:30:15 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:30:15 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:30:15 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:30:15 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:30:15 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:30:15 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:32:04 at startup Vehicle.vc_live_1 -> cloned true, listed true
+21:32:05 loaded; saved build: 14 parts, base look stock
+21:34:43 Vehicle.v_standard2_archer_hella_player_vctest unlock -> true
+21:34:43 Vehicle.v_standard2_archer_hella_player_vctest_b unlock -> true
+21:34:43 Vehicle.v_utility4_kaukaz_bratsk_vctest unlock -> true
+21:34:43 Vehicle.v_utility4_chevalier_centurion_vctest unlock -> true
+21:34:43 Vehicle.av_rayfield_excalibur_vctest unlock -> true
+21:34:47 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; putting back 14 changes
+21:34:47 wheel_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:34:47 wheel_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh -> true
+21:34:47 wheel_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:34:47 wheel_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh -> true
+21:34:47 tire_01_fl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:34:47 tire_01_fr_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh -> true
+21:34:47 tire_01_bl_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:34:47 tire_01_br_a class entPhysicalMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh -> true
+21:34:47 tire_01_fl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:34:47 tire_01_fr_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:34:47 tire_01_bl_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:34:47 tire_01_br_a_shadow class entMeshComponent mesh base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh -> true
+21:34:47 hood_a class entPhysicalMeshComponent paint police_01 -> true
+21:34:47 bumper_f_01 class entPhysicalMeshComponent mesh base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh -> true

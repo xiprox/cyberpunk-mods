@@ -1,0 +1,30 @@
+Bratsk U4020 (kaukaz_bratsk_corp_bud_02_ep1), from ep1\vehicles\utility\v_utility4_kaukaz_bratsk_corp_bud_02.ent
+records: Vehicle.v_utility4_kaukaz_bratsk_corp_bud_02
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  kaukaz_bratsk_corpbud_dumpster_truck Kaukaz bratsk corpbud dumpster truck 1 looks
+                                            kits: body_corpbud_sticker_01, kit_sticker_doors, kit_sticker_body
+
+SLOTS (7)
+  Body [base.body] (Base): 2 options
+    body_corp_01                                   18 paints   3 looks  [car: Bratsk U4020] [look: concrete_truck] [look: machine_truck] [style: Kaukaz bratsk corpbud dumpster truck]
+    body_01                                         0 paints   1 looks  [car: Bratsk U4020] [look: damaged_q305]
+  Interior [base.interior] (Base): 1 options
+    interior_02                                     2 paints   3 looks  [car: Bratsk U4020] [look: concrete_truck] [look: machine_truck] [style: Kaukaz bratsk corpbud dumpster truck]
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_02                                         4 paints   4 looks  [car: Bratsk U4020] [look: concrete_truck] [look: damaged_q305] [look: machine_truck] [style: Kaukaz bratsk corpbud dumpster truck]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_02                                        18 paints   3 looks  [car: Bratsk U4020] [look: concrete_truck] [look: machine_truck] [style: Kaukaz bratsk corpbud dumpster truck]
+  Front bumper (b) [bumper_front_b.bumper] (bumper_front_b): 1 options
+    bumper_f_04                                    18 paints   1 looks  [car: Bratsk U4020] [style: Kaukaz bratsk corpbud dumpster truck]
+  Front bumper (d) [bumper_front_d.bumper] (bumper_front_d): 1 options
+    bumper_f_03                                    18 paints   2 looks  [car: Bratsk U4020] [look: concrete_truck] [look: machine_truck]
+  Tires (b) [wheel_b.tire] (wheel_front_left_b, wheel_front_right_b): 1 options
+    tire_02                                         4 paints   4 looks  [car: Bratsk U4020] [look: concrete_truck] [look: damaged_q305] [look: machine_truck] [style: Kaukaz bratsk corpbud dumpster truck]
+
+KITS (3)
+  body_corpbud_sticker_01                        1 parts   3 looks  [look: concrete_truck] [look: machine_truck] [style: Kaukaz bratsk corpbud dumpster truck]
+  kit_sticker_body                               2 parts   1 looks  [style: Kaukaz bratsk corpbud dumpster truck]
+  kit_sticker_doors                              2 parts   4 looks  [look: concrete_truck] [look: damaged_q305] [look: machine_truck] [style: Kaukaz bratsk corpbud dumpster truck]
+                                                 made to sit on Doors

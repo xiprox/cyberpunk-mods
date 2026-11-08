@@ -1,0 +1,42 @@
+Behemoth (militech_behemoth_basic_01_ep1), from ep1\vehicles\utility\v_utilty4_militech_behemoth_basic_01.ent
+records: Vehicle.v_utility4_militech_behemoth_kurtz
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  militech_behemoth_basic_kurtz_01 Militech behemoth basic kurtz 1 looks
+                                            kits: door_fl_sticker_kurtz_01, kit_kurtz_body_interior, kit_police_body, kit_police_doors
+WRECKS: militech_behemoth_basic_kurtz_burnt_01
+
+SLOTS (6)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                     3 paints   2 looks  [car: v_utility4_militech_behemoth] [look: netwatch_01_burnt] [look: police_01_burnt]
+  Body [base.body] (Base): 3 options
+    body_01                                         7 paints  10 looks  [car: v_utilty4_militech_behemoth] [look: default] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] [look: maxtac_01_damaged_scene_q305] ...
+    body_01                                         4 paints   2 looks  [car: v_utility4_militech_behemoth] [look: netwatch_01_burnt] [look: police_01_burnt]
+    body_02_police                                  7 paints   2 looks  [car: v_utilty4_militech_behemoth] [look: maxtac_01] [look: netwatch_01]
+  Interior [base.interior] (Base): 3 options
+    interior_01                                     0 paints   4 looks  [car: v_utilty4_militech_behemoth] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] [look: maxtac_01_damaged_scene_q305] [look: netwatch_01_damaged]
+    interior_01                                     0 paints   3 looks  [car: v_utility4_militech_behemoth] [look: maxtac_01] [look: netwatch_01] [look: police_01_burnt]
+    kurtz_interior_01                               1 paints   2 looks  [car: v_utilty4_militech_behemoth] [style: Militech behemoth basic kurtz] [wreck: militech_behemoth_basic_kurtz_burnt_01]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_police_01                                 7 paints  10 looks  [car: v_utilty4_militech_behemoth] [look: default] [look: maxtac_01] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] ...
+    wheel_kurtz_03 + wheel_kurtz_04                 0 paints   1 looks  [car: v_utilty4_militech_behemoth] [style: Militech behemoth basic kurtz]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 2 options
+    door_02_police                                  7 paints  12 looks  [car: v_utilty4_militech_behemoth] [look: default] [look: maxtac_01] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] ...
+    door_04_kurtz                                   4 paints   1 looks  [car: v_utilty4_militech_behemoth] [style: Militech behemoth basic kurtz]
+  Rims (b) [wheel_b.wheel] (wheel_back_left_b, wheel_back_right_b): 2 options
+    wheel_police_01                                 7 paints  10 looks  [car: v_utilty4_militech_behemoth] [look: default] [look: maxtac_01] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] ...
+    wheel_kurtz_04                                  0 paints   1 looks  [car: v_utilty4_militech_behemoth] [style: Militech behemoth basic kurtz]
+
+KITS (8)
+  door_fl_sticker_kurtz_01                       1 parts   1 looks  [style: Militech behemoth basic kurtz]
+                                                 made to sit on Doors
+  kit_kurtz_body_interior                        7 parts   2 looks  [style: Militech behemoth basic kurtz] [wreck: militech_behemoth_basic_kurtz_burnt_01]
+                                                 made to sit on container_02_police, Interior
+  body_01                                        1 parts  12 looks  [look: default] [look: maxtac_01] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] [look: maxtac_01_damaged_scene_q305] ...
+  container_02_police                            1 parts   4 looks  [look: default] [look: militech_behemoth_police_q305_hologram] [look: police_01] [look: q305_hologram_red]
+  kit_police_body                                9 parts  14 looks  [look: default] [look: maxtac_01] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] [look: maxtac_01_damaged_scene_q305] ...
+  kit_police_body_2                              2 parts  10 looks  [look: default] [look: maxtac_01] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] [look: maxtac_01_damaged_scene_q305] ...
+  kit_police_body_3                              3 parts  10 looks  [look: default] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] [look: maxtac_01_damaged_scene_q305] [look: militech_behemoth_police_q305_hologram] ...
+  kit_police_doors                               2 parts  13 looks  [look: default] [look: maxtac_01] [look: maxtac_01_damaged] [look: maxtac_01_damaged_no_door] [look: maxtac_01_damaged_scene_q305] ...
+                                                 made to sit on Doors

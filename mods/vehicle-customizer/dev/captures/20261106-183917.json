@@ -1,0 +1,38 @@
+{
+  "camera_forward": {
+    "x": -0.8,
+    "y": 0.6,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 12.1,
+    "x": -2314.4,
+    "y": 472.3,
+    "z": 8.4
+  },
+  "look_object": {
+    "class": "ActivatedDeviceTrap",
+    "entity_id": "17695376729588472395ULL",
+    "name": "LocKey#21932",
+    "position": {
+      "x": -2312.8,
+      "y": 471.5,
+      "z": 7.3
+    }
+  },
+  "nearest": {
+    "distance": 10.3,
+    "id": "unknown_lift_city_centers_west_edge",
+    "name": "Unknown lift, City Center's west edge"
+  },
+  "note": "",
+  "player": {
+    "x": -2304.8,
+    "y": 465,
+    "yaw": 52.7,
+    "z": 7.3
+  },
+  "stamp": "20261106-183917",
+  "time": "2026-11-06 18:39:17"
+}

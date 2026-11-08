@@ -1,0 +1,82 @@
+﻿apps parsed 126 appearances 1635 failures 0 []
+
+-- per .app: appearances, slots, slots whose MESH varies, slots whose only PAINT varies --
+  53 appearances v_decoration_destroyed.app                   slots=234 mesh-varies=  2 paint-only= 78  e.g. {'None': 20, 'v_standard25_villefort_columbus__int01_interior_01': 2}
+  45 appearances archer_hella__basic.app                      slots=174 mesh-varies= 12 paint-only= 37  e.g. {'bumper_b_01': 2, 'bumper_f_01': 2, 'tire_01_br_a': 4, 'tire_01_br_a_shadow': 2, 'tire_01_fl_a_shadow': 3}
+  45 appearances villefort_cortes__basic.app                  slots=158 mesh-varies= 19 paint-only= 38  e.g. {'bumper_b_01': 2, 'bumper_f_01': 2, 'window_br': 2, 'interior_01': 2, 'tire_03_bl': 2}
+  45 appearances makigai_tanishi_basic.app                    slots=156 mesh-varies= 16 paint-only= 30  e.g. {'body_shadow': 2, 'v_standard3_makigai_tanishi__ext01_body_01': 2, 'v_standard3_makigai_tanishi__ext01_snorkel_01': 2, 'door_fr_a': 2, 'wheel_01_bl_a': 3}
+  44 appearances mizutani_hozuki__basic.app                   slots= 74 mesh-varies= 24 paint-only= 20  e.g. {'window_f': 2, 'body_01': 2, 'engine': 2, 'body_01_headlight': 2, 'exhaust_01': 2}
+  42 appearances thorton_merrimac_basic.app                   slots=151 mesh-varies= 22 paint-only= 50  e.g. {'body_shadow': 2, 'body_01': 2, 'exhaust_01': 2, 'bumper_b_shadow': 2, 'bumper_f_shadow': 2}
+  41 appearances villefort_deleon_basic.app                   slots= 69 mesh-varies= 13 paint-only= 19  e.g. {'None': 10, 'tire_01_bl_a': 5, 'wheel_01_bl_a': 5, 'tire_01_bl_a_shadow': 3, 'tire_01_br_a': 5}
+  39 appearances yaiba_kusanagi_basic.app                     slots= 52 mesh-varies= 14 paint-only= 18  e.g. {'v_sportbike1_yaiba_kusanagi__ext01_body_011080': 3, 'v_sportbike1_yaiba_kusanagi__ext01_rod_01_shadow0747': 2, 'v_sportbike1_yaiba_kusanagi__ext01_fuel_cap_01': 2, 'v_sportbike1_yaiba_kusanagi__ext01_axle_f_013775': 2, 'v_sportbike1_yaiba_kusanagi__ext01_axle_f_shadow': 2}
+  38 appearances quadra_sport_r7_basic.app                    slots=136 mesh-varies= 13 paint-only= 74  e.g. {'bumper_b_01': 2, 'body_01': 2, 'engine': 2, 'body_shadow': 2, 'engine_shadow': 2}
+  35 appearances thorton_galena__basic.app                    slots=141 mesh-varies= 19 paint-only= 49  e.g. {'bumper_b_shadow': 2, 'bumper_b_01': 3, 'bumper_f_01': 3, 'hood_a': 3, 'hood_a_shadow': 3}
+  34 appearances villefort_alvarado__basic.app                slots= 83 mesh-varies= 15 paint-only= 36  e.g. {'tire_01_bl_a_shadow': 2, 'wheel_01_bl_a': 3, 'tire_01_bl_a': 2, 'wheel_01_br_a': 3, 'tire_01_br_a': 2}
+  34 appearances villefort_columbus__basic.app                slots=152 mesh-varies= 19 paint-only= 36  e.g. {'bumper_b_01': 2, 'bumper_f_01': 2, 'tire_01_fr_a': 2, 'tire_01_fr_a_shadow': 2, 'wheel_01_fr_a': 3}
+  33 appearances archer_quartz__basic.app                     slots= 79 mesh-varies= 14 paint-only= 34  e.g. {'tire_01_bl_a_shadow': 3, 'wheel_01_bl_a': 2, 'tire_01_bl_a': 2, 'tire_01_br_a_shadow': 3, 'wheel_01_br_a': 2}
+  31 appearances v_decoration_filpped.app                     slots=296 mesh-varies=  1 paint-only= 98  e.g. {'None': 30}
+  31 appearances arch_nemesis_basic.app                       slots= 32 mesh-varies=  3 paint-only= 14  e.g. {'fairing_a_01': 3, 'fairing_a_01_shadow': 3, 'None': 14}
+  31 appearances mahir_supron__basic.app                      slots= 82 mesh-varies= 15 paint-only= 21  e.g. {'bumper_b_01': 2, 'tire_01_bl_a_shadow': 4, 'wheel_01_bl_a': 4, 'tire_01_bl_a': 4, 'tire_01_br_a_shadow': 4}
+  30 appearances mizutani_shion__basic.app                    slots= 79 mesh-varies= 11 paint-only= 29  e.g. {'tire_01_br_a': 3, 'tire_01_fr_a': 3, 'tire_01_bl_a': 3, 'bumper_b_01': 2, 'bumper_f_01': 2}
+  30 appearances quadra_turbo_basic.app                       slots= 95 mesh-varies= 11 paint-only= 35  e.g. {'tire_01_br_a_shadow': 2, 'tire_01_br_a': 2, 'body_shadow': 2, 'bumper_b_shadow': 2, 'bumper_b_01': 2}
+  30 appearances chevalier_emperor__basic.app                 slots=139 mesh-varies=  5 paint-only= 43  e.g. {'wheel_01_bl_a': 2, 'wheel_01_fr_a': 2, 'wheel_01_fl_a': 2, 'wheel_01_br_a': 2, 'None': 10}
+  28 appearances thorton_colby__basic.app                     slots= 84 mesh-varies=  7 paint-only= 29  e.g. {'bumper_f_01': 2, 'bumper_b_01': 2, 'tire_01_br_a_shadow': 2, 'tire_01_br_a': 2, 'tire_01_bl_a': 2}
+  28 appearances kaukaz_bratsk__basic.app                     slots= 72 mesh-varies=  4 paint-only= 26  e.g. {'body_01': 2, 'bumper_f_shadow': 2, 'None': 17, 'body_dumpster': 2}
+  28 appearances villefort_alvarado_hearse_01_basic.app       slots= 80 mesh-varies= 17 paint-only= 28  e.g. {'tire_01_fr_b': 2, 'wheel_01_fr_b': 3, 'tire_01_fr_a_shadow': 2, 'tire_01_fr_a': 3, 'wheel_01_fr_a': 4}
+  28 appearances chevalier_centurion_basic.app                slots=145 mesh-varies=  1 paint-only= 43  e.g. {'None': 10}
+  27 appearances kaukaz_zeya__basic.app                       slots= 71 mesh-varies=  1 paint-only= 21  e.g. {'None': 12}
+  26 appearances zetatech_valgus.app                          slots= 44 mesh-varies=  5 paint-only= 13  e.g. {'av_zetatech_valgus__ext01_body_01': 2, 'av_zetatech_valgus__ext01_door_fl_01': 2, 'av_zetatech_valgus__ext01_door_fr_01': 2, 'av_zetatech_valgus__int01_interior_body_01': 2, 'None': 9}
+  24 appearances archer_quartz_nomad.app                      slots=111 mesh-varies=  5 paint-only= 45  e.g. {'wheel_01_fl_a': 2, 'wheel_01_br_a': 2, 'wheel_01_bl_a': 2, 'wheel_01_fr_a': 2, 'None': 15}
+  23 appearances herrera_riptide__basic.app                   slots= 86 mesh-varies=  3 paint-only= 41  e.g. {'bumper_b_01': 2, 'trunk_b_01': 2, 'None': 6}
+  22 appearances quadra_type66__basic.app                     slots= 81 mesh-varies= 14 paint-only= 26  e.g. {'tire_01_fr_a': 3, 'tire_01_fr_a_shadow': 3, 'wheel_01_fr_a': 4, 'wheel_01_br_a': 5, 'tire_01_br_a_shadow': 4}
+  22 appearances makigai_maimai__basic.app                    slots= 74 mesh-varies= 24 paint-only= 20  e.g. {'bumper_b_shadow': 2, 'bumper_b_01': 3, 'bumper_f_shadow': 2, 'bumper_f_01': 3, 'door_fl_c': 2}
+  22 appearances thorton_colby_pickup_nomad.app               slots=140 mesh-varies=  1 paint-only= 54  e.g. {'None': 6}
+
+-- archer_hella__basic.app: 'default' 56 comps vs 'suburban_1' 56 comps --
+  None                               ('archer_hella__basic_default.mesh', 'default')  ->  ('archer_hella__basic_suburban_1.mesh', 'default')
+  body_01                            ('v_standard2_archer_hella__ext01_body_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_body_01.mesh', 'suburban_01')
+  bumper_b_01                        ('v_standard2_archer_hella__ext01_bumper_b_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_bumper_b_01.mesh', 'suburban_01')
+  bumper_f_01                        ('v_standard2_archer_hella__ext01_bumper_f_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_bumper_f_01.mesh', 'suburban_01')
+  door_bl_a                          ('v_standard2_archer_hella__ext01_door_bl_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_door_bl_01.mesh', 'suburban_01')
+  door_br_a                          ('v_standard2_archer_hella__ext01_door_br_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_door_br_01.mesh', 'suburban_01')
+  door_fl_a                          ('v_standard2_archer_hella__ext01_door_fl_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_door_fl_01.mesh', 'suburban_01')
+  door_fr_a                          ('v_standard2_archer_hella__ext01_door_fr_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_door_fr_01.mesh', 'suburban_01')
+  door_mirror_fl_01                  ('v_standard2_archer_hella__ext01_door_mirror_fl_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_door_mirror_fl_01.mesh', 'suburban_01')
+  door_mirror_fr_01                  ('v_standard2_archer_hella__ext01_door_mirror_fr_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_door_mirror_fr_01.mesh', 'suburban_01')
+  fuel_cap                           ('v_standard2_archer_hella__ext01_fuel_cap_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_fuel_cap_01.mesh', 'suburban_01')
+  hood_a                             ('v_standard2_archer_hella__ext01_hood_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_hood_01.mesh', 'suburban_01')
+  interior_01                        ('v_standard2_archer_hella__int01_interior_01.mesh', 'default')  ->  ('v_standard2_archer_hella__int01_interior_01.mesh', 'suburban_01')
+  steering_wheel                     ('v_standard2_archer_hella__int01_stweel_01.mesh', 'default')  ->  ('v_standard2_archer_hella__int01_stweel_01.mesh', 'suburban_01')
+  trunk_a                            ('v_standard2_archer_hella__ext01_trunk_01.mesh', 'default')  ->  ('v_standard2_archer_hella__ext01_trunk_01.mesh', 'suburban_01')
+  v_standard2_archer_hella__int01_glove_box_01 ('v_standard2_archer_hella__int01_glove_box_01.mesh', 'default')  ->  ('v_standard2_archer_hella__int01_glove_box_01.mesh', 'suburban_01')
+
+distinct meshes used by apps: 5654 used by more than one model family: 1026
+shared by folder: [('decoration\\entities', 98), ('common\\parts', 62), ('standard\\v_standard3_chevalier_emperor', 62), ('standard\\v_standard25_thorton_colby_pickup_nomad', 53), ('standard\\v_standard25_villefort_columbus', 42), ('utility\\v_utility4_kaukaz_bratsk', 41), ('sport\\v_sport2_quadra_type66', 38), ('special\\av_militech_manticore', 35), ('special\\v_mahir_mt28_coach', 34), ('special\\v_militech_basilisk', 33), ('special\\av_zetatech_valgus', 30), ('sport\\v_sport2_villefort_alvarado', 29)]
+   40 models  base\vehicles\common\parts\v_common_licenseplate\entities\meshes\license_plate.mesh
+   18 models  base\vehicles\common\parts\v_common_lights\entities\meshes\v_common__int01_light_02.mesh
+   16 models  base\vehicles\common\parts\v_common__int01_pedals\entities\meshes\v_common__int01_pedal_sport_01.mesh
+   15 models  base\vehicles\common\parts\v_common__ext01_fuel_port\entities\meshes\fuelport_standard.mesh
+   12 models  base\vehicles\common\parts\v_common__int01_pedals\entities\meshes\v_common__int01_pedal_standard_01.mesh
+   11 models  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_03.mesh
+   11 models  base\vehicles\common\parts\v_common__int01_pedals\entities\meshes\v_common__int01_pedal_utility_01.mesh
+   10 models  base\vehicles\common\parts\v_common__int01_pedals\entities\meshes\v_common__int01_pedal_standard_02.mesh
+   10 models  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh
+   10 models  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01.mesh
+   10 models  #7d64c2b4a7d176bf
+    9 models  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_light_device_medium_02.mesh
+    9 models  base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh
+    9 models  #081333153be90aa0
+    8 models  base\vehicles\common\parts\lightzones_01.mesh
+    8 models  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_light_device_medium_02_shadow.mesh
+    8 models  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_02.mesh
+    8 models  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_02_shadow.mesh
+    8 models  base\vehicles\common\parts\placeables\neo_milit_medical_device_b.mesh
+    8 models  base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_03_shadow.mesh
+    8 models  base\vehicles\common\parts\v_common_lights\entities\meshes\v_common__int01_light_01.mesh
+    8 models  #7ff8226d7b71b6f2
+    8 models  #7723311e8c03322b
+    8 models  #50f7e15f6c8025e7
+    8 models  #cdca93b94baf0408
+
+-- commonest slot names, by number of .app files --
+[('None', 114), ('body_01', 73), ('body_shadow', 69), ('door_fr_a', 64), ('interior_01', 63), ('door_fl_a', 63), ('tire_01_fl_a', 60), ('tire_01_fr_a_shadow', 60), ('tire_01_bl_a', 60), ('tire_01_fl_a_shadow', 60), ('tire_01_br_a_shadow', 60), ('tire_01_fr_a', 60), ('tire_01_br_a', 59), ('tire_01_bl_a_shadow', 59), ('door_fr_shadow', 59), ('steering_wheel', 59), ('door_fl_shadow', 58), ('window_f', 54), ('bumper_b_01', 54), ('bumper_f_01', 53), ('trunk_a', 52), ('wheel_01_bl_a', 52), ('wheel_01_br_a', 52), ('wheel_01_fr_a', 52), ('hood_a', 52), ('wheel_01_fl_a', 51), ('hood_a_shadow', 51), ('bumper_f_shadow', 51), ('engine', 49), ('trunk_a_shadow', 47), ('window_fl', 47), ('bumper_b_shadow', 47), ('window_fr', 47), ('chasis', 46), ('fuel_cap', 46), ('fx_cutout', 35), ('license_plate', 32), ('door_bl_a', 28), ('wipers_01', 27), ('window_b', 27), ('door_br_a', 27), ('window_br', 25), ('window_bl', 25), ('door_bl_shadow', 24), ('door_br_shadow', 23), ('chassis', 18), ('mirror_fl_01', 17), ('exhaust_01', 17), ('mirror_fr', 15), ('mirror_fr_01', 15), ('fuelport_standard', 15), ('door_fl_b', 14), ('door_fr_b', 14), ('v_common__int01_light_02', 14), ('mirror_fl', 13), ('license_plate_b', 13), ('trunk_b', 12), ('body_lights_01', 12), ('mirror_fr_shadow', 12), ('pedals', 12)]

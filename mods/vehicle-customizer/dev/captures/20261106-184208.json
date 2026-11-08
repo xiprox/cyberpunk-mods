@@ -1,0 +1,28 @@
+{
+  "camera_forward": {
+    "x": -0.9,
+    "y": -0.5,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 399.8,
+    "x": -1916.8,
+    "y": 445.1,
+    "z": -29.7
+  },
+  "nearest": {
+    "distance": 9.6,
+    "id": "unknown_lift",
+    "name": "Unknown lift"
+  },
+  "note": "",
+  "player": {
+    "x": -1571.1,
+    "y": 642.3,
+    "yaw": 119.7,
+    "z": 9.3
+  },
+  "stamp": "20261106-184208",
+  "time": "2026-11-06 18:42:08"
+}

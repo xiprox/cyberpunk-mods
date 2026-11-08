@@ -1,0 +1,4940 @@
+{
+ "id": "villefort_columbus_scavengers_01_ep1",
+ "label": "Columbus V340-F Freight",
+ "entity": "ep1\\vehicles\\standard\\v_standard25_villefort_columbus_scavengers_01.ent",
+ "family": "v_standard25_villefort_columbus_scavengers",
+ "garage": false,
+ "default_look": "tygerclaws_01",
+ "records": [
+  "Vehicle.v_standard25_villefort_columbus_scavengers",
+  "Vehicle.v_standard25_villefort_columbus_scavengers_courier",
+  "Vehicle.v_sts_ep1_01_villefort_columbus_scavengers"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\villefort_columbus__basic.app",
+  "ep1\\vehicles\\appearances\\standard\\v_standard25_villefort_columbus_songbird.app"
+ ],
+ "styles": [
+  {
+   "id": "medical_cargo_01",
+   "code": "medical_cargo_01",
+   "label": "Medical cargo",
+   "base_look": "villefort_columbus__basic_medical_cargo_01",
+   "looks": [
+    "villefort_columbus__basic_medical_cargo_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "c1dc32c0",
+    "bumper_back.bumper": "b9263b7a",
+    "hood_a.hood": "f3dd9e32",
+    "trunk_a.trunk": "d3d45ad0",
+    "base.body": "3a6cffad",
+    "base.bumper": "e98f2923",
+    "base.interior": "20d5724b",
+    "base.window": "a6c9b13c",
+    "wheel.tire": "8f784978",
+    "wheel.wheel": "677ccecd",
+    "door.door": "7973bc55",
+    "trunk_b.trunk": "c55e0b70",
+    "window.window": "5452c833"
+   },
+   "kits": [
+    "6th_street_03c6",
+    "nomad_a6fe"
+   ]
+  },
+  {
+   "id": "v_standard25_villefort_columbus_songbird_scavenger_01",
+   "code": "v_standard25_villefort_columbus_songbird_scavenger_01",
+   "label": "V standard25 villefort columbus songbird scavenger",
+   "base_look": "v_standard25_villefort_columbus_songbird_scavenger_01",
+   "looks": [
+    "v_standard25_villefort_columbus_songbird_scavenger_01"
+   ],
+   "options": {
+    "hood_a.hood": "f3dd9e32",
+    "trunk_a.trunk": "d3d45ad0",
+    "base.body": "3a6cffad",
+    "base.bumper": "e98f2923",
+    "base.interior": "20d5724b",
+    "base.window": "a6c9b13c",
+    "wheel.tire": "8f784978",
+    "wheel.wheel": "17a43005",
+    "door.door": "7973bc55",
+    "trunk_b.trunk": "c55e0b70",
+    "window.window": "5452c833"
+   },
+   "kits": [
+    "6th_street_03c6",
+    "nomad_a6fe",
+    "scavengers_2f73",
+    "scavengers_e4aa"
+   ]
+  },
+  {
+   "id": "v_standard25_villefort_columbus_songbird_scavenger_02",
+   "code": "v_standard25_villefort_columbus_songbird_scavenger_02",
+   "label": "V standard25 villefort columbus songbird scavenger 02",
+   "base_look": "v_standard25_villefort_columbus_songbird_scavenger_02",
+   "looks": [
+    "v_standard25_villefort_columbus_songbird_scavenger_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "c1dc32c0",
+    "hood_a.hood": "f3dd9e32",
+    "trunk_a.trunk": "d3d45ad0",
+    "base.body": "3a6cffad",
+    "base.bumper": "e98f2923",
+    "base.interior": "20d5724b",
+    "base.window": "a6c9b13c",
+    "wheel.tire": "8f784978",
+    "wheel.wheel": "e0ecb38d",
+    "door.door": "7973bc55",
+    "trunk_b.trunk": "c55e0b70",
+    "window.window": "5452c833"
+   },
+   "kits": [
+    "6th_street_03c6",
+    "nomad_a6fe",
+    "scavengers_2f73",
+    "scavengers_a6f5"
+   ]
+  }
+ ],
+ "wrecks": [
+  "villefort_columbus__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "c1dc32c0",
+     "code": "bumper_f_a_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_bumper_f_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\bumper_b_shadowmesh.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "arasaka_01",
+     "paints": [
+      "poor_primer_black",
+      "poor_primer_gray",
+      "judys_van",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tygerclaws_01",
+      "kangtao_01",
+      "arasaka_01",
+      "6th_street_01",
+      "suburban_02",
+      "aldecaldos_01",
+      "aldecaldos_jammer",
+      "suburban_01",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:rcs_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+     ]
+    },
+    {
+     "id": "7c202d43",
+     "code": "jammer_bumper_f_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_jammer_bumper_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados_01"
+     ],
+     "looks": [
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:sq004_saul_rescue_van"
+     ],
+     "origins": [
+      "look:aldecaldos_01",
+      "look:jammer_truck",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:sq004_saul_rescue_van"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "b9263b7a",
+     "code": "bumper_b_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_primer_black",
+      "poor_primer_gray",
+      "judys_van",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tygerclaws_01",
+      "kangtao_01",
+      "arasaka_01",
+      "6th_street_01",
+      "suburban_02",
+      "aldecaldos_01",
+      "aldecaldos_jammer",
+      "suburban_01",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:rcs_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01"
+     ]
+    },
+    {
+     "id": "d987da55",
+     "code": "jammer_bumper_b_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_jammer_bumper_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "aldecados"
+     ],
+     "looks": [
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:sq004_saul_rescue_van"
+     ],
+     "origins": [
+      "look:aldecaldos_01",
+      "look:jammer_truck",
+      "look:q_104_rescuevan_holo",
+      "look:sq004_saul_rescue_van"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "f3dd9e32",
+     "code": "hood_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\hood_shadowmesh.mesh"
+     },
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_primer_black",
+      "poor_primer_gray",
+      "judys_van",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tygerclaws_01",
+      "kangtao_01",
+      "arasaka_01",
+      "6th_street_01",
+      "suburban_02",
+      "aldecaldos_01",
+      "aldecaldos_jammer",
+      "suburban_01",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:jammer_truck",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "d3d45ad0",
+     "code": "trunk_a_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_trunk_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\door_back_ext_left_shadowmesh.mesh"
+     },
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_primer_black",
+      "poor_primer_gray",
+      "judys_van",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tygerclaws_01",
+      "kangtao_01",
+      "arasaka_01",
+      "6th_street_01",
+      "suburban_02",
+      "aldecaldos_01",
+      "aldecaldos_jammer",
+      "suburban_01",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:jammer_truck",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body: main",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     -0.0012,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "3a6cffad",
+     "code": "body_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\exterior_roof_shadowmesh.mesh"
+     },
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_primer_black",
+      "poor_primer_gray",
+      "judys_van",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tygerclaws_01",
+      "kangtao_01",
+      "arasaka_01",
+      "6th_street_01",
+      "suburban_02",
+      "aldecaldos_01",
+      "aldecaldos_jammer",
+      "suburban_01",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_burnt_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:jammer_truck",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.body_wheel_covers",
+   "label": "Body: wheel covers",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_wheel_covers_01",
+    "v_standard25_villefort_columbus__ext01_body_undercarriage_lights_01"
+   ],
+   "options": [
+    {
+     "id": "a91b3edb",
+     "code": "body_wheel_covers_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_body_wheel_covers_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_primer_black",
+      "poor_primer_gray",
+      "judys_van",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tygerclaws_01",
+      "kangtao_01",
+      "arasaka_01",
+      "6th_street_01",
+      "aldecaldos_01",
+      "aldecaldos_jammer",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "growl_fm"
+     ],
+     "looks": [
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5"
+     ],
+     "origins": [
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:growl_fm",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:rcs_van",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5"
+     ]
+    },
+    {
+     "id": "466d0d1b",
+     "code": "body_undercarriage_lights_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_body_undercarriage_lights_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "villefort_columbus__basic:tygerclaws_01"
+     ],
+     "origins": [
+      "look:tygerclaws_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.bumper",
+   "label": "Bumper (Base)",
+   "kind": "bumper",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_b_01"
+   ],
+   "options": [
+    {
+     "id": "e98f2923",
+     "code": "bumper_f_b_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_bumper_f_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\bumper_a_shadowmesh.mesh"
+     },
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_primer_black",
+      "poor_primer_gray",
+      "judys_van",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tygerclaws_01",
+      "kangtao_01",
+      "arasaka_01",
+      "6th_street_01",
+      "suburban_02",
+      "aldecaldos_01",
+      "aldecaldos_jammer",
+      "suburban_01",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_burnt_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:jammer_truck",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "20d5724b",
+     "code": "interior_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "6th_street",
+      "judys_van",
+      "kangtao_01",
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "poor_05",
+      "poor_primer_black",
+      "poor_primer_gray",
+      "tygerclaws_01",
+      "arasaka_01",
+      "suburban_02",
+      "suburban_01",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_burnt_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:jammer_truck",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "5bc88029",
+     "code": "interior_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard25_villefort_columbus_songbird\\entities\\meshes\\v_standard25_villefort_columbus__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:poor_05"
+     ],
+     "origins": [
+      "look:poor_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f",
+    "window_f_songbird"
+   ],
+   "options": [
+    {
+     "id": "a6c9b13c",
+     "code": "window_f_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_burnt_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:jammer_truck",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "633b4fa6",
+     "code": "window_f_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard25_villefort_columbus_songbird\\entities\\meshes\\v_standard25_villefort_columbus__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:poor_05"
+     ],
+     "origins": [
+      "look:poor_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "8f784978",
+     "code": "tire_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_tire_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_tire_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_tire_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_tire_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+     ]
+    },
+    {
+     "id": "c1572690",
+     "code": "tire_a_01",
+     "vehicle": "Galena \"Gecko\"",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "muddy_white_01",
+     "paints": [
+      "muddy_red",
+      "muddy_cyan",
+      "muddy_yellow",
+      "muddy_red_02",
+      "muddy_gray",
+      "muddy_red_03",
+      "muddy_green",
+      "muddy_white_01",
+      "dusty_gray"
+     ],
+     "looks": [
+      "villefort_columbus__basic:jammer_truck"
+     ],
+     "origins": [
+      "look:jammer_truck"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_standard25_villefort_columbus__ext01_wheel_quadra66_b2_fl_01",
+    "wheel_01_<c>_a",
+    "wheel_quadra66_<c>"
+   ],
+   "options": [
+    {
+     "id": "e8f25dad",
+     "code": "wheel_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tygerclaws_01"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5"
+     ],
+     "origins": [
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:poor_01",
+      "look:poor_03",
+      "look:poor_04",
+      "look:q_104_jammer_holo",
+      "look:rcs_van",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10"
+     ]
+    },
+    {
+     "id": "677ccecd",
+     "code": "wheel_cortes_b2_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_cortes_b2_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_cortes_b2_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_cortes_b2_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_cortes_b2_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "judys_van"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:judys_van",
+      "look:poor_02",
+      "look:poor_05",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "style:medical_cargo_01"
+     ]
+    },
+    {
+     "id": "c28b6855",
+     "code": "wheel_bratsk_a_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_bratsk_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_bratsk_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_bratsk_fl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_bratsk_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "growl_fm"
+     ],
+     "looks": [
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:sq004_saul_rescue_van"
+     ],
+     "origins": [
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:q_104_rescuevan_holo",
+      "look:sq004_saul_rescue_van"
+     ]
+    },
+    {
+     "id": "d42d484d",
+     "code": "wheel_quadra66_b2_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_quadra66_b2_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_quadra66_b2_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_quadra66_b2_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_quadra66_b2_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "growl_fm"
+     ],
+     "looks": [
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:tygerclaws_01"
+     ],
+     "origins": [
+      "look:player_01",
+      "look:tygerclaws_01"
+     ]
+    },
+    {
+     "id": "308a27fd",
+     "code": "wheel_01 + wheel_a_01",
+     "vehicle": "Mackinaw MTL1",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "silver_dusty_01",
+     "paints": [
+      "clean_01",
+      "black_dirt",
+      "green_dirt",
+      "silver_dusty_01",
+      "black_dusty"
+     ],
+     "looks": [
+      "villefort_columbus__basic:jammer_truck"
+     ],
+     "origins": [
+      "look:jammer_truck"
+     ]
+    },
+    {
+     "id": "e0ecb38d",
+     "code": "wheel_01 + wheel_cortes_b2_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_cortes_b2_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_cortes_b2_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "tygerclaws_01",
+     "paints": [
+      "tygerclaws_01"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird_scavenger_02"
+     ],
+     "origins": [
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+     ]
+    },
+    {
+     "id": "17a43005",
+     "code": "wheel_bratsk_a_01 + wheel_cortes_b2_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_bratsk_fl_a_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_bratsk_fl_a_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_cortes_b2_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_cortes_b2_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird_scavenger_01"
+     ],
+     "origins": [
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01"
+     ]
+    },
+    {
+     "id": "79d00c9d",
+     "code": "wheel_quadra66_b2_01 + wheel_bratsk_a_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_quadra66_b2_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_quadra66_b2_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_bratsk_fl_a_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_bratsk_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "growl_fm",
+     "paints": [
+      "growl_fm"
+     ],
+     "looks": [
+      "villefort_columbus__basic:growl_fm"
+     ],
+     "origins": [
+      "look:growl_fm"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "7973bc55",
+     "code": "door_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\door_front_ext_left_shadowmesh.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\sidedoor_ext_left_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\sidedoor_ext_left_shadowmesh.mesh"
+     },
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_primer_black",
+      "poor_primer_gray",
+      "judys_van",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tygerclaws_01",
+      "kangtao_01",
+      "arasaka_01",
+      "6th_street_01",
+      "suburban_02",
+      "aldecaldos_01",
+      "aldecaldos_jammer",
+      "suburban_01",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_b.trunk",
+   "label": "Trunk (b)",
+   "kind": "trunk",
+   "group": "trunk_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_b"
+   ],
+   "options": [
+    {
+     "id": "c55e0b70",
+     "code": "trunk_b_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_trunk_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\door_back_ext_right_shadowmesh.mesh"
+     },
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_primer_black",
+      "poor_primer_gray",
+      "judys_van",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "tygerclaws_01",
+      "kangtao_01",
+      "arasaka_01",
+      "6th_street_01",
+      "suburban_02",
+      "aldecaldos_01",
+      "aldecaldos_jammer",
+      "suburban_01",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:poor_05",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:jammer_truck",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>",
+    "window_<c>_songbird"
+   ],
+   "options": [
+    {
+     "id": "5452c833",
+     "code": "window_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_window_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_window_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent",
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:default",
+      "v_standard25_villefort_columbus_songbird:suburban_01",
+      "v_standard25_villefort_columbus_songbird:suburban_02",
+      "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+      "v_standard25_villefort_columbus_songbird_scavenger_01",
+      "v_standard25_villefort_columbus_songbird_scavenger_02",
+      "villefort_columbus__basic:6th_street_01",
+      "villefort_columbus__basic:aldecaldos_01",
+      "villefort_columbus__basic:arasaka_01",
+      "villefort_columbus__basic:corpo_01",
+      "villefort_columbus__basic:default",
+      "villefort_columbus__basic:destroyed_01",
+      "villefort_columbus__basic:destroyed_02",
+      "villefort_columbus__basic:destroyed_03",
+      "villefort_columbus__basic:destroyed_04",
+      "villefort_columbus__basic:growl_fm",
+      "villefort_columbus__basic:jammer_truck",
+      "villefort_columbus__basic:judys_van",
+      "villefort_columbus__basic:kangtao_01",
+      "villefort_columbus__basic:netwatch_van",
+      "villefort_columbus__basic:player_01",
+      "villefort_columbus__basic:poor_01",
+      "villefort_columbus__basic:poor_02",
+      "villefort_columbus__basic:poor_03",
+      "villefort_columbus__basic:poor_04",
+      "villefort_columbus__basic:poor_05",
+      "villefort_columbus__basic:q_104_jammer_holo",
+      "villefort_columbus__basic:q_104_rescuevan_holo",
+      "villefort_columbus__basic:rcs_van",
+      "villefort_columbus__basic:sq004_saul_rescue_van",
+      "villefort_columbus__basic:suburban_01",
+      "villefort_columbus__basic:suburban_01_2",
+      "villefort_columbus__basic:suburban_02",
+      "villefort_columbus__basic:suburban_02_2",
+      "villefort_columbus__basic:suburban_02_3",
+      "villefort_columbus__basic:suburban_02_4",
+      "villefort_columbus__basic:suburban_02_5",
+      "villefort_columbus__basic:tygerclaws_01",
+      "villefort_columbus__basic_medical_cargo_01"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:aldecaldos_01",
+      "look:arasaka_01",
+      "look:corpo_01",
+      "look:default",
+      "look:destroyed_01",
+      "look:destroyed_02",
+      "look:destroyed_03",
+      "look:destroyed_04",
+      "look:growl_fm",
+      "look:jammer_truck",
+      "look:judys_van",
+      "look:kangtao_01",
+      "look:netwatch_van",
+      "look:player_01",
+      "look:poor_01",
+      "look:poor_02",
+      "look:poor_03",
+      "look:poor_04",
+      "look:poor_05",
+      "look:q_104_jammer_holo",
+      "look:q_104_rescuevan_holo",
+      "look:rcs_van",
+      "look:sq004_saul_rescue_van",
+      "look:suburban_01",
+      "look:suburban_01_2",
+      "look:suburban_02",
+      "look:suburban_02_2",
+      "look:suburban_02_3",
+      "look:suburban_02_4",
+      "look:suburban_02_5",
+      "look:suburban_02_sts_ep1_10",
+      "look:tygerclaws_01",
+      "style:medical_cargo_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+      "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+     ]
+    },
+    {
+     "id": "5fc235cb",
+     "code": "window_01",
+     "vehicle": "Columbus V340-F Freight",
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard25_villefort_columbus_songbird\\entities\\meshes\\v_standard25_villefort_columbus__ext01_window_fl_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard25_villefort_columbus_songbird\\entities\\meshes\\v_standard25_villefort_columbus__ext01_window_fr_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "growl_fm"
+     ],
+     "looks": [
+      "v_standard25_villefort_columbus_songbird:poor_05"
+     ],
+     "origins": [
+      "look:poor_05"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "6th_street_03c6",
+   "family": "6th_street",
+   "code": "6th_street_door_br_stickers_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__6th_street_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_6th_street_door_br_stickers_01.mesh",
+     "code": "6th_street_door_br_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:default",
+     "parent": "vehicle_slots:door_back_right_a"
+    }
+   ],
+   "looks": [
+    "v_standard25_villefort_columbus_songbird:default",
+    "v_standard25_villefort_columbus_songbird:poor_05",
+    "v_standard25_villefort_columbus_songbird:suburban_01",
+    "v_standard25_villefort_columbus_songbird:suburban_02",
+    "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+    "v_standard25_villefort_columbus_songbird_scavenger_01",
+    "v_standard25_villefort_columbus_songbird_scavenger_02",
+    "villefort_columbus__basic:6th_street_01",
+    "villefort_columbus__basic:aldecaldos_01",
+    "villefort_columbus__basic:arasaka_01",
+    "villefort_columbus__basic:corpo_01",
+    "villefort_columbus__basic:default",
+    "villefort_columbus__basic:destroyed_01",
+    "villefort_columbus__basic:destroyed_02",
+    "villefort_columbus__basic:destroyed_03",
+    "villefort_columbus__basic:destroyed_04",
+    "villefort_columbus__basic:growl_fm",
+    "villefort_columbus__basic:jammer_truck",
+    "villefort_columbus__basic:judys_van",
+    "villefort_columbus__basic:kangtao_01",
+    "villefort_columbus__basic:netwatch_van",
+    "villefort_columbus__basic:player_01",
+    "villefort_columbus__basic:poor_01",
+    "villefort_columbus__basic:poor_02",
+    "villefort_columbus__basic:poor_03",
+    "villefort_columbus__basic:poor_04",
+    "villefort_columbus__basic:poor_05",
+    "villefort_columbus__basic:rcs_van",
+    "villefort_columbus__basic:sq004_saul_rescue_van",
+    "villefort_columbus__basic:suburban_01",
+    "villefort_columbus__basic:suburban_01_2",
+    "villefort_columbus__basic:suburban_02",
+    "villefort_columbus__basic:suburban_02_2",
+    "villefort_columbus__basic:suburban_02_3",
+    "villefort_columbus__basic:suburban_02_4",
+    "villefort_columbus__basic:suburban_02_5",
+    "villefort_columbus__basic:tygerclaws_01",
+    "villefort_columbus__basic_medical_cargo_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:aldecaldos_01",
+    "look:arasaka_01",
+    "look:corpo_01",
+    "look:default",
+    "look:destroyed_01",
+    "look:destroyed_02",
+    "look:destroyed_03",
+    "look:destroyed_04",
+    "look:growl_fm",
+    "look:jammer_truck",
+    "look:judys_van",
+    "look:kangtao_01",
+    "look:netwatch_van",
+    "look:player_01",
+    "look:poor_01",
+    "look:poor_02",
+    "look:poor_03",
+    "look:poor_04",
+    "look:poor_05",
+    "look:rcs_van",
+    "look:sq004_saul_rescue_van",
+    "look:suburban_01",
+    "look:suburban_01_2",
+    "look:suburban_02",
+    "look:suburban_02_2",
+    "look:suburban_02_3",
+    "look:suburban_02_4",
+    "look:suburban_02_5",
+    "look:suburban_02_sts_ep1_10",
+    "look:tygerclaws_01",
+    "style:medical_cargo_01",
+    "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+    "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+   ]
+  },
+  {
+   "id": "6th_street_1f2b",
+   "family": "6th_street",
+   "code": "kit_6th_street_body_doors_interior_trunk",
+   "where": [
+    "body",
+    "doors",
+    "interior",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__6street_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_6th_street_door_fr_stickers_01.mesh",
+     "code": "6th_street_door_fr_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:6th_street_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_6th_street_stickers_body_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_6th_street_stickers_body_01.mesh",
+     "code": "6th_street_stickers_body_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_6th_street_stickers_body_02",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_6th_street_stickers_body_02.mesh",
+     "code": "6th_street_stickers_body_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_6th_street_trunk_a_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_6th_street_trunk_a_sticker_01.mesh",
+     "code": "6th_street_trunk_a_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:6th_street_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__int01_6th_street_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__int01_6th_street_stickers_01.mesh",
+     "code": "6th_street_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:6th_street_01"
+   ],
+   "made_for": [
+    "slot:base.interior",
+    "slot:door.door",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01"
+   ]
+  },
+  {
+   "id": "aldecaldos_a4cc",
+   "family": "aldecaldos",
+   "code": "kit_aldecaldos_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "body_aldecaldos_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_aldecaldos_stickers_body_01.mesh",
+     "code": "aldecaldos_stickers_body_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:aldecaldos_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_br_aldecaldos_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_aldecaldos_door_br_stickers_01.mesh",
+     "code": "aldecaldos_door_br_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:aldecaldos_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fr_sticker_aldecaldos_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_aldecaldos_door_fr_stickers_01.mesh",
+     "code": "aldecaldos_door_fr_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:aldecaldos_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:aldecaldos_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:aldecaldos_01"
+   ]
+  },
+  {
+   "id": "arasaka_940a",
+   "family": "arasaka",
+   "code": "kit_arasaka_body_doors_interior",
+   "where": [
+    "body",
+    "doors",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_body_arasaka_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_body_arasaka_stickers_01.mesh",
+     "code": "body_arasaka_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:arasaka_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_bl_arasaka_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_bl_arasaka_sticker_01.mesh",
+     "code": "door_bl_arasaka_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:arasaka_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_br_arasaka_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_br_arasaka_sticker_01.mesh",
+     "code": "door_br_arasaka_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:arasaka_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_fl_arasaka_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fl_arasaka_sticker_01.mesh",
+     "code": "door_fl_arasaka_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:arasaka_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_fr_arasaka_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fr_arasaka_sticker_01.mesh",
+     "code": "door_fr_arasaka_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:arasaka_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__int01_interior_arasaka_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__int01_interior_arasaka_stickers_01.mesh",
+     "code": "interior_arasaka_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:arasaka_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:arasaka_01",
+    "villefort_columbus__basic:corpo_01"
+   ],
+   "made_for": [
+    "slot:base.interior",
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:arasaka_01",
+    "look:corpo_01"
+   ]
+  },
+  {
+   "id": "arasaka_0fcd",
+   "family": "arasaka",
+   "code": "trunk_b_arasaka_sticker_01",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_trunk_b_arasaka_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_trunk_b_arasaka_sticker_01.mesh",
+     "code": "trunk_b_arasaka_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:6th_street_01",
+     "parent": "vehicle_slots:trunk_b"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:6th_street_01",
+    "villefort_columbus__basic:arasaka_01",
+    "villefort_columbus__basic:corpo_01",
+    "villefort_columbus__basic:growl_fm"
+   ],
+   "made_for": [
+    "slot:trunk_b.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:arasaka_01",
+    "look:corpo_01",
+    "look:growl_fm"
+   ]
+  },
+  {
+   "id": "netwatch_47ea",
+   "family": "netwatch",
+   "code": "kit_netwatch_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_jammer_antenna_mount_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_jammer_antenna_mount_01.mesh",
+     "code": "jammer_antenna_mount_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:netwatch_van",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_netwatch_decal",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_netwatch_decal.mesh",
+     "code": "netwatch_decal",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.79,
+      -0.56,
+      -0.27
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.7071068286895752,
+      0.7071068286895752
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:netwatch_van",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:aldecaldos_01",
+    "villefort_columbus__basic:growl_fm",
+    "villefort_columbus__basic:jammer_truck",
+    "villefort_columbus__basic:netwatch_van",
+    "villefort_columbus__basic:q_104_jammer_holo",
+    "villefort_columbus__basic:q_104_rescuevan_holo",
+    "villefort_columbus__basic:sq004_saul_rescue_van"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:aldecaldos_01",
+    "look:growl_fm",
+    "look:jammer_truck",
+    "look:netwatch_van",
+    "look:q_104_jammer_holo",
+    "look:q_104_rescuevan_holo",
+    "look:sq004_saul_rescue_van"
+   ]
+  },
+  {
+   "id": "nomad_f136",
+   "family": "nomad",
+   "code": "electric_device_04",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_04",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_04.mesh",
+     "code": "electric_device_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.9839,
+      2.0646,
+      0.0311
+     ],
+     "rotation": [
+      -0.04234549403190613,
+      -0.6744205951690674,
+      -0.04619206488132477,
+      0.7356834411621094
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:6th_street_01",
+    "villefort_columbus__basic:jammer_truck",
+    "villefort_columbus__basic:tygerclaws_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:jammer_truck",
+    "look:tygerclaws_01"
+   ]
+  },
+  {
+   "id": "nomad_a6fe",
+   "family": "nomad",
+   "code": "kit_nomad_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_sensor_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03.mesh",
+     "code": "sensor_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.04,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "vehicle_lights_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_vehicle_lights_01.mesh",
+     "code": "vehicle_lights_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:default",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "v_standard25_villefort_columbus_songbird:default",
+    "v_standard25_villefort_columbus_songbird:poor_05",
+    "v_standard25_villefort_columbus_songbird:suburban_01",
+    "v_standard25_villefort_columbus_songbird:suburban_02",
+    "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+    "v_standard25_villefort_columbus_songbird_scavenger_01",
+    "v_standard25_villefort_columbus_songbird_scavenger_02",
+    "villefort_columbus__basic:6th_street_01",
+    "villefort_columbus__basic:aldecaldos_01",
+    "villefort_columbus__basic:arasaka_01",
+    "villefort_columbus__basic:corpo_01",
+    "villefort_columbus__basic:default",
+    "villefort_columbus__basic:destroyed_01",
+    "villefort_columbus__basic:destroyed_02",
+    "villefort_columbus__basic:destroyed_03",
+    "villefort_columbus__basic:destroyed_04",
+    "villefort_columbus__basic:growl_fm",
+    "villefort_columbus__basic:jammer_truck",
+    "villefort_columbus__basic:judys_van",
+    "villefort_columbus__basic:kangtao_01",
+    "villefort_columbus__basic:netwatch_van",
+    "villefort_columbus__basic:player_01",
+    "villefort_columbus__basic:poor_01",
+    "villefort_columbus__basic:poor_02",
+    "villefort_columbus__basic:poor_03",
+    "villefort_columbus__basic:poor_04",
+    "villefort_columbus__basic:poor_05",
+    "villefort_columbus__basic:q_104_jammer_holo",
+    "villefort_columbus__basic:q_104_rescuevan_holo",
+    "villefort_columbus__basic:rcs_van",
+    "villefort_columbus__basic:sq004_saul_rescue_van",
+    "villefort_columbus__basic:suburban_01",
+    "villefort_columbus__basic:suburban_01_2",
+    "villefort_columbus__basic:suburban_02",
+    "villefort_columbus__basic:suburban_02_2",
+    "villefort_columbus__basic:suburban_02_3",
+    "villefort_columbus__basic:suburban_02_4",
+    "villefort_columbus__basic:suburban_02_5",
+    "villefort_columbus__basic:tygerclaws_01",
+    "villefort_columbus__basic_burnt_01",
+    "villefort_columbus__basic_medical_cargo_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:aldecaldos_01",
+    "look:arasaka_01",
+    "look:corpo_01",
+    "look:default",
+    "look:destroyed_01",
+    "look:destroyed_02",
+    "look:destroyed_03",
+    "look:destroyed_04",
+    "look:growl_fm",
+    "look:jammer_truck",
+    "look:judys_van",
+    "look:kangtao_01",
+    "look:netwatch_van",
+    "look:player_01",
+    "look:poor_01",
+    "look:poor_02",
+    "look:poor_03",
+    "look:poor_04",
+    "look:poor_05",
+    "look:q_104_jammer_holo",
+    "look:q_104_rescuevan_holo",
+    "look:rcs_van",
+    "look:sq004_saul_rescue_van",
+    "look:suburban_01",
+    "look:suburban_01_2",
+    "look:suburban_02",
+    "look:suburban_02_2",
+    "look:suburban_02_3",
+    "look:suburban_02_4",
+    "look:suburban_02_5",
+    "look:suburban_02_sts_ep1_10",
+    "look:tygerclaws_01",
+    "style:medical_cargo_01",
+    "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+    "style:v_standard25_villefort_columbus_songbird_scavenger_02",
+    "wreck:burnt_01"
+   ]
+  },
+  {
+   "id": "nomad_a89f",
+   "family": "nomad",
+   "code": "kit_nomad_bumper",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_02.mesh",
+     "code": "electric_device_medium_02",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.5974,
+      -0.2514,
+      -0.1516
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_02_shadow.mesh",
+     "look": "villefort_columbus__basic:jammer_truck",
+     "parent": "vehicle_slots:bumper_back"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_electric_device_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_03.mesh",
+     "code": "electric_device_medium_03",
+     "paint": "dusty_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.8329,
+      -0.2497,
+      -0.1364
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_medium_02_shadow.mesh",
+     "look": "villefort_columbus__basic:jammer_truck",
+     "parent": "vehicle_slots:bumper_back"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:aldecaldos_01",
+    "villefort_columbus__basic:jammer_truck",
+    "villefort_columbus__basic:q_104_rescuevan_holo",
+    "villefort_columbus__basic:sq004_saul_rescue_van"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "look:aldecaldos_01",
+    "look:jammer_truck",
+    "look:q_104_rescuevan_holo",
+    "look:sq004_saul_rescue_van"
+   ]
+  },
+  {
+   "id": "scavengers_2f73",
+   "family": "scavengers",
+   "code": "door_fr_scavengers_sticker_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_fr_scavengers_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fr_scavengers_sticker_01.mesh",
+     "code": "door_fr_scavengers_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "v_standard25_villefort_columbus_songbird_scavenger_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "v_standard25_villefort_columbus_songbird_scavenger_01",
+    "v_standard25_villefort_columbus_songbird_scavenger_02"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:v_standard25_villefort_columbus_songbird_scavenger_01",
+    "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+   ]
+  },
+  {
+   "id": "scavengers_e4aa",
+   "family": "scavengers",
+   "code": "kit_scavengers_body_doors_hood",
+   "where": [
+    "body",
+    "doors",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "scavenger_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_hood_scavengers_sticker_01.mesh",
+     "code": "hood_scavengers_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      -0.0077
+     ],
+     "rotation": [
+      0.006244002841413021,
+      -0.00046200022916309536,
+      -7.000003279244993e-06,
+      0.9999804496765137
+     ],
+     "shadow": null,
+     "look": "v_standard25_villefort_columbus_songbird_scavenger_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_scavengers_body_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_scavengers_body_sticker_01.mesh",
+     "code": "scavengers_body_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "v_standard25_villefort_columbus_songbird_scavenger_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_scavengers_door_fl_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_scavengers_door_fl_sticker_01.mesh",
+     "code": "scavengers_door_fl_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0037849994841963053,
+      0.0,
+      0.9999929070472717
+     ],
+     "shadow": null,
+     "look": "v_standard25_villefort_columbus_songbird_scavenger_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_scavengers_door_fr_sticker_02",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_scavengers_door_fr_sticker_02.mesh",
+     "code": "scavengers_door_fr_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "v_standard25_villefort_columbus_songbird_scavenger_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "v_standard25_villefort_columbus_songbird_scavenger_01"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "style:v_standard25_villefort_columbus_songbird_scavenger_01"
+   ]
+  },
+  {
+   "id": "scavengers_a6f5",
+   "family": "scavengers",
+   "code": "kit_scavengers_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_bl_scavengers_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_bl_scavengers_sticker_01.mesh",
+     "code": "door_bl_scavengers_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      -0.0066,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0027119985315948725,
+      2.3999989934964105e-05,
+      0.008699996396899223,
+      0.9999585151672363
+     ],
+     "shadow": null,
+     "look": "v_standard25_villefort_columbus_songbird_scavenger_02",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_bl_scavengers_sticker_02",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_bl_scavengers_sticker_02.mesh",
+     "code": "door_bl_scavengers_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      -0.0066,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0027119985315948725,
+      2.3999989934964105e-05,
+      0.008699996396899223,
+      0.9999585151672363
+     ],
+     "shadow": null,
+     "look": "v_standard25_villefort_columbus_songbird_scavenger_02",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_br_scavengers_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_br_scavengers_sticker_01.mesh",
+     "code": "door_br_scavengers_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "v_standard25_villefort_columbus_songbird_scavenger_02",
+     "parent": "vehicle_slots:door_back_right_a"
+    }
+   ],
+   "looks": [
+    "v_standard25_villefort_columbus_songbird_scavenger_02"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:v_standard25_villefort_columbus_songbird_scavenger_02"
+   ]
+  },
+  {
+   "id": "sticker_f91d",
+   "family": "sticker",
+   "code": "body_stickers_rcs_02",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_body_stickers_rcs_02",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_body_stickers_rcs_02.mesh",
+     "code": "body_stickers_rcs_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:rcs_van",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:destroyed_01",
+    "villefort_columbus__basic:rcs_van"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:destroyed_01",
+    "look:rcs_van"
+   ]
+  },
+  {
+   "id": "sticker_f542",
+   "family": "sticker",
+   "code": "door_fr_jammer_stickers_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_fr_jammer_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fr_jammer_stickers_01.mesh",
+     "code": "door_fr_jammer_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:jammer_truck",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:aldecaldos_01",
+    "villefort_columbus__basic:jammer_truck"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:aldecaldos_01",
+    "look:jammer_truck"
+   ]
+  },
+  {
+   "id": "sticker_f457",
+   "family": "sticker",
+   "code": "fuelcap_kangtao_sticker_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_fuelcap_kangtao_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_fuelcap_kangtao_sticker_01.mesh",
+     "code": "fuelcap_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "fuel_cap",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:kangtao_01",
+     "parent": "vehicle_slots:fuel_cap"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:kangtao_01",
+    "villefort_columbus__basic:tygerclaws_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:kangtao_01",
+    "look:tygerclaws_01"
+   ]
+  },
+  {
+   "id": "sticker_5828",
+   "family": "sticker",
+   "code": "judy_trunk_b_stickers",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_judy_trunk_b_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_judy_trunk_b_stickers.mesh",
+     "code": "judy_trunk_b_stickers",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:judys_van",
+     "parent": "vehicle_slots:trunk_b"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:6th_street_01",
+    "villefort_columbus__basic:growl_fm",
+    "villefort_columbus__basic:judys_van"
+   ],
+   "made_for": [
+    "slot:trunk_b.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:growl_fm",
+    "look:judys_van"
+   ]
+  },
+  {
+   "id": "sticker_fb8d",
+   "family": "sticker",
+   "code": "kit_sticker_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_judy_body_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_judy_body_stickers.mesh",
+     "code": "judy_body_stickers",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.008,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:judys_van",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_judy_door_bl_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_judy_door_bl_stickers.mesh",
+     "code": "judy_door_bl_stickers",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:judys_van",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_judy_door_fl_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_judy_door_fl_stickers.mesh",
+     "code": "judy_door_fl_stickers",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:judys_van",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_judy_door_fr_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_judy_door_fr_stickers.mesh",
+     "code": "judy_door_fr_stickers",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:judys_van",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:judys_van"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:judys_van"
+   ]
+  },
+  {
+   "id": "sticker_e9a4",
+   "family": "sticker",
+   "code": "kit_sticker_body_doors_interior",
+   "where": [
+    "body",
+    "doors",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_body_kangtao_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_body_kangtao_stickers_01.mesh",
+     "code": "body_kangtao_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:kangtao_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_bl_kangtao_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_bl_kangtao_sticker_01.mesh",
+     "code": "door_bl_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:kangtao_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_br_kangtao_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_br_kangtao_sticker_01.mesh",
+     "code": "door_br_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:kangtao_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__int01_interior_kangtao_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__int01_interior_kangtao_stickers_01.mesh",
+     "code": "interior_kangtao_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:kangtao_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__kangtao_stickers",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fr_kangtao_sticker_01.mesh",
+     "code": "door_fr_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:kangtao_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:kangtao_01"
+   ],
+   "made_for": [
+    "slot:base.interior",
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:kangtao_01"
+   ]
+  },
+  {
+   "id": "sticker_2107",
+   "family": "sticker",
+   "code": "kit_sticker_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_bl_growl_fm_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_bl_growl_fm_stickers_01.mesh",
+     "code": "door_bl_growl_fm_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:growl_fm",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_br_grwol_fm_sticker",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_br_growl_fm_stickers_01.mesh",
+     "code": "door_br_growl_fm_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:growl_fm",
+     "parent": "vehicle_slots:door_back_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:growl_fm"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:growl_fm"
+   ]
+  },
+  {
+   "id": "sticker_7b95",
+   "family": "sticker",
+   "code": "kit_sticker_doors_2",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_bl_stickers_rcs_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_bl_stickers_rcs_01.mesh",
+     "code": "door_bl_stickers_rcs_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:rcs_van",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_br_stickers_rcs_02",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_br_stickers_rcs_02.mesh",
+     "code": "door_br_stickers_rcs_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:rcs_van",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_fl_stickers_rcs_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fl_stickers_rcs_01.mesh",
+     "code": "door_fl_stickers_rcs_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:rcs_van",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_fr_stickers_rcs_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fr_stickers_rcs_01.mesh",
+     "code": "door_fr_stickers_rcs_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:rcs_van",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:rcs_van"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:rcs_van"
+   ]
+  },
+  {
+   "id": "sticker_995d",
+   "family": "sticker",
+   "code": "kit_sticker_doors_hood",
+   "where": [
+    "doors",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_br_jammer_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_br_jammer_stickers_01.mesh",
+     "code": "door_br_jammer_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:jammer_truck",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_door_fl_jammer_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_door_fl_jammer_stickers_01.mesh",
+     "code": "door_fl_jammer_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:jammer_truck",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard25_villefort_columbus__ext01_hood_jammer_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_hood_jammer_stickers_01.mesh",
+     "code": "hood_jammer_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:jammer_truck",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:jammer_truck"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:jammer_truck"
+   ]
+  },
+  {
+   "id": "sticker_74cd",
+   "family": "sticker",
+   "code": "trunk_b_kangtao_sticker_01",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_trunk_b_kangtao_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_trunk_b_kangtao_sticker_01.mesh",
+     "code": "trunk_b_kangtao_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:kangtao_01",
+     "parent": "vehicle_slots:trunk_b"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:growl_fm",
+    "villefort_columbus__basic:kangtao_01"
+   ],
+   "made_for": [
+    "slot:trunk_b.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:growl_fm",
+    "look:kangtao_01"
+   ]
+  },
+  {
+   "id": "tyger_1586",
+   "family": "tyger",
+   "code": "body_tygerclaw_stickers_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_body_tygerclaw_stickers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_body_tygerclaw_stickers_01.mesh",
+     "code": "body_tygerclaw_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.0012,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:tygerclaws_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:tygerclaws_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:tygerclaws_01"
+   ]
+  },
+  {
+   "id": "tyger_79f3",
+   "family": "tyger",
+   "code": "trunk_b_tygerclaw_sticker_01",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard25_villefort_columbus__ext01_trunk_b_tygerclaw_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_trunk_b_tygerclaw_sticker_01.mesh",
+     "code": "trunk_b_tygerclaw_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_b",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "villefort_columbus__basic:tygerclaws_01",
+     "parent": "vehicle_slots:trunk_b"
+    }
+   ],
+   "looks": [
+    "villefort_columbus__basic:growl_fm",
+    "villefort_columbus__basic:tygerclaws_01"
+   ],
+   "made_for": [
+    "slot:trunk_b.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:growl_fm",
+    "look:tygerclaws_01"
+   ]
+  }
+ ],
+ "looks": {
+  "villefort_columbus__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_columbus__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_f_b_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "v_standard25_villefort_columbus_songbird_scavenger_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\v_standard25_villefort_columbus_songbird.app",
+   "app_look": "scavenger_02",
+   "style": "v_standard25_villefort_columbus_songbird_scavenger_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_f_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "v_standard25_villefort_columbus_songbird_scavenger_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\v_standard25_villefort_columbus_songbird.app",
+   "app_look": "scavenger_01",
+   "style": "v_standard25_villefort_columbus_songbird_scavenger_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_f_b_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  },
+  "villefort_columbus__basic_medical_cargo_01": {
+   "app": "base\\vehicles\\appearances\\standard\\villefort_columbus__basic.app",
+   "app_look": "medical_cargo_01",
+   "style": "medical_cargo_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_f_b_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.3908,
+   0.3049,
+   0.2896,
+   -0.0032
+  ],
+  "b": [
+   0.3908,
+   0.3049,
+   0.2896,
+   -0.0032
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "9b7d1329",
+   "rim": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_tire_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_01",
+   "from": "Columbus V340-F Freight",
+   "radius": 0.3908,
+   "width": 0.3049,
+   "rim_radius": 0.277,
+   "tire_center": -0.0032,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 41,
+   "paints": [
+    "tygerclaws_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "v_standard25_villefort_columbus_songbird:default",
+    "v_standard25_villefort_columbus_songbird:suburban_02",
+    "v_standard25_villefort_columbus_songbird:suburban_02_sts_ep1_10",
+    "v_standard25_villefort_columbus_songbird_scavenger_02",
+    "villefort_columbus__basic:default",
+    "villefort_columbus__basic:destroyed_01",
+    "villefort_columbus__basic:destroyed_02",
+    "villefort_columbus__basic:destroyed_03",
+    "villefort_columbus__basic:destroyed_04",
+    "villefort_columbus__basic:kangtao_01",
+    "villefort_columbus__basic:netwatch_van",
+    "villefort_columbus__basic:poor_01",
+    "villefort_columbus__basic:poor_03",
+    "villefort_columbus__basic:poor_04",
+    "villefort_columbus__basic:q_104_jammer_holo",
+    "villefort_columbus__basic:rcs_van",
+    "villefort_columbus__basic:suburban_02",
+    "villefort_columbus__basic:suburban_02_2",
+    "villefort_columbus__basic:suburban_02_3",
+    "villefort_columbus__basic:suburban_02_4",
+    "villefort_columbus__basic:suburban_02_5"
+   ]
+  },
+  {
+   "id": "204cce33",
+   "rim": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_cortes_b2_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_tire_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_cortes_b2_fl_01",
+   "tire_code": "tire_01",
+   "from": "Columbus V340-F Freight",
+   "radius": 0.3908,
+   "width": 0.3049,
+   "rim_radius": 0.2896,
+   "tire_center": -0.0032,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 20,
+   "paints": [
+    "judys_van"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "v_standard25_villefort_columbus_songbird:poor_05",
+    "v_standard25_villefort_columbus_songbird:suburban_01",
+    "v_standard25_villefort_columbus_songbird_scavenger_01",
+    "v_standard25_villefort_columbus_songbird_scavenger_02",
+    "villefort_columbus__basic:6th_street_01",
+    "villefort_columbus__basic:judys_van",
+    "villefort_columbus__basic:poor_02",
+    "villefort_columbus__basic:poor_05",
+    "villefort_columbus__basic:suburban_01",
+    "villefort_columbus__basic:suburban_01_2",
+    "villefort_columbus__basic_medical_cargo_01"
+   ]
+  },
+  {
+   "id": "6c859d25",
+   "rim": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_quadra66_b2_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_tire_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_quadra66_b2_fl_01",
+   "tire_code": "tire_01",
+   "from": "Columbus V340-F Freight",
+   "radius": 0.3908,
+   "width": 0.3049,
+   "rim_radius": 0.3035,
+   "tire_center": -0.0032,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 5,
+   "paints": [
+    "growl_fm"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "villefort_columbus__basic:growl_fm",
+    "villefort_columbus__basic:player_01",
+    "villefort_columbus__basic:tygerclaws_01"
+   ]
+  },
+  {
+   "id": "4271f397",
+   "rim": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_wheel_bratsk_fl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard25_villefort_columbus\\entities\\meshes\\v_standard25_villefort_columbus__ext01_tire_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_bratsk_fl_a_01",
+   "tire_code": "tire_01",
+   "from": "Columbus V340-F Freight",
+   "radius": 0.3908,
+   "width": 0.3049,
+   "rim_radius": 0.2744,
+   "tire_center": -0.0032,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 12,
+   "paints": [
+    "growl_fm"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "v_standard25_villefort_columbus_songbird_scavenger_01",
+    "villefort_columbus__basic:aldecaldos_01",
+    "villefort_columbus__basic:arasaka_01",
+    "villefort_columbus__basic:corpo_01",
+    "villefort_columbus__basic:growl_fm",
+    "villefort_columbus__basic:q_104_rescuevan_holo",
+    "villefort_columbus__basic:sq004_saul_rescue_van"
+   ]
+  },
+  {
+   "id": "b24d0f7e",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_bl_a_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Galena \"Gecko\"",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2351,
+   "tire_center": -0.1348,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [
+    "aldecados_01",
+    "wraiths_01",
+    "deathrace_01",
+    "red_01",
+    "wraiths_01_dusty",
+    "aldecados_01_dusty",
+    "aldecados_01_dusty_light",
+    "red_01_dusty",
+    "deathrace_01_dusty"
+   ],
+   "default_paint": "aldecados_01_dusty",
+   "kind": "car",
+   "look_names": [
+    "villefort_columbus__basic:jammer_truck"
+   ]
+  },
+  {
+   "id": "62018226",
+   "rim": "base\\vehicles\\standard\\v_standard3_thorton_mackinaw\\entities\\meshes\\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_thorton_galena_nomad\\entities\\meshes\\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_bl_a_01",
+   "from": "Mackinaw MTL1",
+   "radius": 0.331,
+   "width": 0.3468,
+   "rim_radius": 0.2906,
+   "tire_center": -0.1348,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [
+    "clean_01",
+    "black_dirt",
+    "green_dirt",
+    "silver_dusty_01",
+    "black_dusty"
+   ],
+   "default_paint": "silver_dusty_01",
+   "kind": "car",
+   "look_names": [
+    "villefort_columbus__basic:jammer_truck"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Columbus V340-F Freight"
+  ]
+ ]
+}

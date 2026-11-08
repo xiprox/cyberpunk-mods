@@ -1,0 +1,87 @@
+Type-66 Avenger (quadra_type66__basic_01), from base\vehicles\sport\v_sport2_quadra_type66__basic_01.ent
+records: Vehicle.v_sport2_quadra_type66_02_player, Vehicle.v_sport2_quadra_type66_avenger_player, Vehicle.v_sport2_quadra_type66_base_player, Vehicle.v_sport2_quadra_type66_gt_player, Vehicle.v_sport2_quadra_type66_nomad_ncu_player, Vehicle.v_sport2_quadra_type66_player
+generated 2026-11-08
+
+STYLES (11; a style's other looks are its factory paints)
+  bulleat                  Bulleat          1 looks
+                                            kits: kit_sticker_doors
+  jen_rowley               Jen rowley       1 looks
+                                            kits: kit_sticker_doors, body_roof_sticker_01
+  poor_02                  Poor 02          3 looks
+                                            paints: poor_03, poor_04
+  poor_11                  Poor 11          1 looks
+  quadra_type66_vtech_avenger_04 Quadra type66 vtech avenger 04 3 looks
+                                            paints: quadra_type66_vtech_avenger_06, quadra_type66_vtech_vtech
+  quadra_type66_vtech_khm_01 Quadra type66 vtech khm 1 looks
+  quadra_type66_vtech_noralee Quadra type66 vtech noralee 1 looks
+  rogue_01                 Rogue            1 looks
+                                            kits: body_hood_decal_01
+  sampson                  Sampson          1 looks
+  suburban_01              Suburban         6 looks
+                                            paints: suburban_02, suburban_03, suburban_04, suburban_05, suburban_06
+  urban_01                 Urban            6 looks
+                                            paints: urban_02, urban_03, urban_04, urban_05, player_urban_03
+WRECKS: burnt_01, quadra_type66_vtech_burnt_01
+
+SLOTS (15)
+  Front bumper: main [bumper_front.bumper] (bumper_front): 3 options
+    bumper_f_01                                    20 paints  19 looks  [look: default] [style: Bulleat] [style: Poor 02] [style: Poor 11] [style: Rogue] ...
+    vtech_bumper_f_01                               6 paints   5 looks  [style: Quadra type66 vtech avenger 04] [style: Quadra type66 vtech khm] [style: Quadra type66 vtech noralee]
+    deathrace_bumper_f_03                           3 paints   2 looks  [style: Jen rowley] [style: Sampson]
+  Front bumper: main [bumper_front.bumper.bumper_f] (bumper_front): 3 options
+    bumper_f_02                                    20 paints  19 looks  [look: default] [style: Bulleat] [style: Poor 02] [style: Poor 11] [style: Rogue] ...
+    vtech_bumper_f_02                               6 paints   5 looks  [style: Quadra type66 vtech avenger 04] [style: Quadra type66 vtech khm] [style: Quadra type66 vtech noralee]
+    deathrace_bumper_f_04                           1 paints   2 looks  [style: Jen rowley] [style: Sampson]
+  Rear bumper [bumper_back.bumper] (bumper_back): 3 options
+    bumper_b_01                                    20 paints  20 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Poor 11] ...
+    vtech_bumper_b_01                               6 paints   5 looks  [style: Quadra type66 vtech avenger 04] [style: Quadra type66 vtech khm] [style: Quadra type66 vtech noralee]
+    deathrace_bumper_b_02                           1 paints   1 looks  [style: Sampson]
+  Hood: a [hood_a.hood] (hood_a): 3 options
+    hood_01                                        20 paints  20 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Rogue] ...
+    vtech_hood_01                                   6 paints   5 looks  [style: Quadra type66 vtech avenger 04] [style: Quadra type66 vtech khm] [style: Quadra type66 vtech noralee]
+    hood_poor_01                                    1 paints   1 looks  [style: Poor 11]
+  Hood: deathrace [hood_a.hood.hood_deathrace] (hood_a): 1 options
+    deathrace_hood_02                               7 paints   8 looks  [style: Jen rowley] [style: Sampson] [style: Urban]
+  Trunk [trunk_a.trunk] (trunk_a): 2 options
+    trunk_01                                       20 paints  21 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Poor 11] ...
+    vtech_trunk_01                                  6 paints   5 looks  [style: Quadra type66 vtech avenger 04] [style: Quadra type66 vtech khm] [style: Quadra type66 vtech noralee]
+  Body [base.body] (Base): 2 options
+    body_01                                        20 paints  22 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Poor 11] ...
+    vtech_body_01                                   6 paints   6 looks  [style: Quadra type66 vtech avenger 04] [style: Quadra type66 vtech khm] [style: Quadra type66 vtech noralee] [wreck: quadra_type66_vtech_burnt_01]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     6 paints  28 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Poor 11] ...
+  Windshield [base.window] (Base): 1 options
+    window_f_01                                     2 paints  28 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Poor 11] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 6 options
+    tire_01                                         3 paints  17 looks  [look: default] [style: Poor 02] [style: Rogue] [style: Suburban] [style: Urban]
+    vtech_tire_a_01                                 0 paints   3 looks  [style: Quadra type66 vtech avenger 04]
+    deathrace_tire_a_02                             0 paints   1 looks  [style: Sampson]
+    tire_standard_01                                0 paints   1 looks  [style: Poor 11]
+    tire_standard_01 + vtech_tire_a_01              0 paints   1 looks  [style: Jen rowley]
+    vtech_tire_a_01                                 0 paints   1 looks  [style: Quadra type66 vtech khm]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 9 options
+    wheel_type66                                    0 paints  13 looks  [look: default] [style: Suburban] [style: Urban]
+    wheel_cortes_b2                                 0 paints   4 looks  [style: Poor 02] [style: Rogue]
+    vtech_wheel_a_01                                3 paints   3 looks  [style: Quadra type66 vtech avenger 04]
+    deathrace_wheel_01 + deathrace_wheel_a_02       0 paints   1 looks  [style: Sampson]
+    vtech_wheel_a_01                                1 paints   1 looks  [style: Quadra type66 vtech khm]
+    wheel_01                                        0 paints   1 looks  [car: 911 Turbo (930)] [style: Bulleat]
+    wheel_outlaw_02                                 0 paints   1 looks  [car: v_sport1_herrera_outlaw] [style: Quadra type66 vtech noralee]
+    wheel_quadra_turbo_01                           0 paints   1 looks  [style: Poor 11]
+    wheel_quadra_turbo_01 + vtech_wheel_a_01        0 paints   1 looks  [style: Jen rowley]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 2 options
+    door_a_01                                      20 paints  21 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Poor 11] ...
+    vtech_door_a_01                                 6 paints   5 looks  [style: Quadra type66 vtech avenger 04] [style: Quadra type66 vtech khm] [style: Quadra type66 vtech noralee]
+  Mirrors [door.mirror] (door_front_left_a, door_front_right_a): 1 options
+    mirror_l_01 + mirror_r_01                      20 paints  26 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Poor 11] ...
+  Doors (b) [door_b.door] (door_front_left_b, door_front_right_b): 1 options
+    door_01                                         4 paints  26 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Poor 11] ...
+  Side windows (b) [window_b.window] (window_front_left_b, window_front_right_b): 1 options
+    window_01                                       2 paints  26 looks  [look: default] [style: Bulleat] [style: Jen rowley] [style: Poor 02] [style: Poor 11] ...
+
+KITS (3)
+  body_hood_decal_01                             1 parts   1 looks  [style: Rogue]
+                                                 made to sit on Hood: a
+  body_roof_sticker_01                           1 parts   1 looks  [style: Jen rowley]
+  kit_sticker_doors                              2 parts   2 looks  [style: Bulleat] [style: Jen rowley]
+                                                 made to sit on Doors

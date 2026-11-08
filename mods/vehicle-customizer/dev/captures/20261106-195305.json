@@ -1,0 +1,37 @@
+{
+  "aim_point": {
+    "x": -1178.7,
+    "y": 1906.2,
+    "z": 22.5
+  },
+  "camera_forward": {
+    "x": 0.1,
+    "y": -1,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 20.5,
+    "material": "metal.physmat",
+    "x": -1231.3,
+    "y": 2281.8,
+    "z": 9.2
+  },
+  "nearest": {
+    "distance": 41.7,
+    "gig": "sts_wat_nid_01",
+    "gig_state": "Succeeded",
+    "gig_state_from": "id sts_wat_nid_01",
+    "id": "hal_cantoss_workshop",
+    "name": "Hal Cantos's workshop"
+  },
+  "note": "",
+  "player": {
+    "x": -1234.1,
+    "y": 2302.1,
+    "yaw": -172,
+    "z": 6.9
+  },
+  "stamp": "20261106-195305",
+  "time": "2026-11-06 19:53:05"
+}

@@ -1,0 +1,28 @@
+{
+  "camera_forward": {
+    "x": -0.7,
+    "y": -0.7,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 400,
+    "x": 104.5,
+    "y": -2256.6,
+    "z": -2.9
+  },
+  "nearest": {
+    "distance": 17.2,
+    "id": "row_of_garage_sheds",
+    "name": "Row of garage sheds"
+  },
+  "note": "",
+  "player": {
+    "x": 388.8,
+    "y": -1975.2,
+    "yaw": 134.7,
+    "z": -3.1
+  },
+  "stamp": "20261106-190113",
+  "time": "2026-11-06 19:01:13"
+}

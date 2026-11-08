@@ -1,0 +1,137 @@
+{
+ "id": "thorton_mackinaw_bmf_01",
+ "label": "Mackinaw \"Demiurge\"",
+ "entity": "base\\vehicles\\utility\\v_utility4_thorton_mackinaw_bmf_01.ent",
+ "family": "v_utility4_thorton_mackinaw_bmf",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_utility4_thorton_mackinaw_bmf_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\utility\\thorton_mackinaw_bmf.app"
+ ],
+ "styles": [
+  {
+   "id": "thorton_mackinaw_bmf_bmf_01",
+   "code": "thorton_mackinaw_bmf_bmf_01",
+   "label": "Thorton mackinaw bmf bmf",
+   "base_look": "thorton_mackinaw_bmf_bmf_01",
+   "looks": [
+    "thorton_mackinaw_bmf_bmf_01"
+   ],
+   "options": {},
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "thorton_mackinaw_bmf_burnt_01"
+ ],
+ "slots": [],
+ "kits": [],
+ "looks": {
+  "thorton_mackinaw_bmf_bmf_01": {
+   "app": "base\\vehicles\\appearances\\utility\\thorton_mackinaw_bmf.app",
+   "app_look": "bmf_01",
+   "style": "thorton_mackinaw_bmf_bmf_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "window.door": {
+     "fl": "window_fl",
+     "fr": "window_fr"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "thorton_mackinaw_bmf_burnt_01": {
+   "app": "base\\vehicles\\appearances\\utility\\thorton_mackinaw_bmf.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.6911,
+   0.6729,
+   0.3516,
+   -0.1972
+  ],
+  "b": [
+   0.6911,
+   0.6729,
+   0.3516,
+   -0.1972
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "de2e147a",
+   "rim": "base\\vehicles\\utility\\v_utility4_thorton_bmf\\entities\\meshes\\v_utility4_thorton_mackinaw_monster__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_thorton_bmf\\entities\\meshes\\v_utility4_thorton_mackinaw_monster__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_thorton_bmf\\entities\\meshes\\v_utility4_thorton_mackinaw_monster__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Mackinaw \"Demiurge\"",
+   "radius": 0.6911,
+   "width": 0.6729,
+   "rim_radius": 0.3516,
+   "tire_center": -0.1972,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "thorton_mackinaw_bmf_bmf_01"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "thorton_mackinaw_bmf_bmf_01",
+   "Mackinaw \"Demiurge\""
+  ]
+ ]
+}

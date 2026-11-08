@@ -1,0 +1,38 @@
+{
+  "camera_forward": {
+    "x": 0.7,
+    "y": 0.7,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 20.9,
+    "x": -3967.7,
+    "y": -6488.3,
+    "z": 76.4
+  },
+  "look_object": {
+    "class": "Door",
+    "entity_id": "13361181235507101134ULL",
+    "name": "LocKey#73",
+    "position": {
+      "x": -3969.9,
+      "y": -6487.5,
+      "z": 75.8
+    }
+  },
+  "nearest": {
+    "distance": 27.4,
+    "id": "the_nomad_starts_garage",
+    "name": "The Nomad start's garage"
+  },
+  "note": "",
+  "player": {
+    "x": -3983.2,
+    "y": -6502.2,
+    "yaw": -48.2,
+    "z": 75.7
+  },
+  "stamp": "20261106-185519",
+  "time": "2026-11-06 18:55:19"
+}

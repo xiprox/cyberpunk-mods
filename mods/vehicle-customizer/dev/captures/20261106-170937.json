@@ -1,0 +1,31 @@
+{
+  "camera_forward": {
+    "x": 0.2,
+    "y": 1,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 399.9,
+    "x": -1365.4,
+    "y": -915.5,
+    "z": 32.3
+  },
+  "nearest": {
+    "distance": 15,
+    "gig": "sts_hey_gle_06",
+    "gig_state": "Succeeded",
+    "gig_state_from": "id sts_hey_gle_06",
+    "id": "jake_estevezs_garage",
+    "name": "Jake Estevez's garage"
+  },
+  "note": "",
+  "player": {
+    "x": -1446.5,
+    "y": -1306.9,
+    "yaw": -11.7,
+    "z": 46.7
+  },
+  "stamp": "20261106-170937",
+  "time": "2026-11-06 17:09:37"
+}

@@ -1,0 +1,21 @@
+Quartz "Bandit" (archer_bandit_01), from base\vehicles\standard\v_standard2_archer_bandit_01.ent
+records: Vehicle.v_standard2_archer_bandit_player
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  archer_bandit_bandit_01  Archer bandit bandit 2 looks
+                                            paints: archer_bandit_bandit_02
+                                            kits: kit_nomad_doors_hood
+WRECKS: archer_bandit_burnt_01
+
+SLOTS (3)
+  Body [base.body] (Base): 1 options
+    body_01                                         2 paints   3 looks  [style: Archer bandit bandit] [wreck: archer_bandit_burnt_01]
+  Doors: a [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                         2 paints   2 looks  [style: Archer bandit bandit]
+  Doors: mirror [door.door.mirror] (door_front_left_a, door_front_right_a): 1 options
+    door_mirror_01                                  2 paints   2 looks  [style: Archer bandit bandit]
+
+KITS (1)
+  kit_nomad_doors_hood                           3 parts   2 looks  [style: Archer bandit bandit]
+                                                 made to sit on Doors: a, hood_a.hood

@@ -1,0 +1,74 @@
+﻿appearances (no wrecks/decoration): 1452
+visible slots: 5745; shape changes between appearances: 350 (6%); only paint changes: 2205 (38%); never changes: 3190
+
+-- real mesh options per slot, by car family (wheels and tires count 4 corners, so per-corner shown) --
+family                       front bu rear bum     hood    trunk     body    wheel     tire  exhaust  spoiler interior
+quadra_type66                       7        4        6        5        3       18       14        0        1        2
+thorton_colby                       7        6        6        7        4       15        7        2        0        3
+thorton_mackinaw                    7        6        2        5        4        9        9        0        0        3
+quadra_sport                        4        2        6        7        2       14        5        5        6        1
+thorton_galena                      5        5        3        5        2       11        7        1        1        3
+mizutani_shion                      3        4        3        4        4        9        8        0        2        3
+thorton_merrimac                    6        4        7        5        2        8        3        2        0        2
+kaukaz_bratsk                       5        7        0        0        5        3        3        0        6        3
+villefort_alvarado                  2        3        2        4        2       10        4        0        0        2
+archer_quartz                       3        4        3        5        2        8        2        1        0        2
+mahir_supron                        4        3        2        6        2        7        7        1        0        1
+chevalier_emperor                   5        4        7       10        1        3        2        0        0        1
+villefort_cortes                    3        3        6        5        1        7        4        0        0        2
+mizutani_hozuki                     3        4        2        5        2        7        3        2        3        1
+archer_hella                        4        3        4        3        2        5        6        1        0        1
+villefort_deleon                    2        2        1        3        1        9        8        2        0        1
+quadra_turbo                        3        8        2        6        1        3        3        0        0        1
+av_spaceforce1                      0        0        0        0        2        0        0        0       28        0
+rayfield_caliburn                   2        2        2        2        2        8        2        0        4        1
+herrera_outlaw                      2        1        1        1        2        9        4        0        0        1
+makigai_maimai                      4        4        2        2        1        3        2        0        1        1
+herrera_riptide                     1        4        1        3        1        6        2        0        2        1
+makigai_tanishi                     1        0        2        7        2        4        3        0        0        0
+porsche_911turbo                    2        1        3        1        2        3        2        0        0        2
+villefort_columbus                  3        2        1        2        1        6        2        0        0        2
+chevalier_thrax                     1        2        1        1        1        6        2        0        0        3
+militech_behemoth                   1        0        0        0        5        5        1        0        0        2
+rayfield_aerondight                 1        1        2        1        1        4        4        0        0        1
+chevalier_legatus                   2        1        2        1        1        3        2        0        0        1
+yaiba_semimaru                      1        1        1        1        1        4        2        0        0        1
+militech_hellhound                  0        0        2        2        1        4        2        0        0        1
+militech_basilisk                   0        0        0        2        1        0        0        0       10        0
+
+-- medians across 51 families --
+  front bumper   in  32 families  median  3.0  max 7
+  rear bumper    in  30 families  median  3.0  max 8
+  hood           in  30 families  median  2.0  max 7
+  trunk          in  29 families  median  4.0  max 10
+  body           in  44 families  median  1.5  max 5
+  wheel          in  37 families  median  5.0  max 18
+  tire           in  37 families  median  3.0  max 14
+  exhaust        in  13 families  median  1.0  max 5
+  spoiler        in  14 families  median  3.5  max 28
+  interior       in  34 families  median  1.0  max 3
+
+distinct meshes: 5126; used by >1 true family: 270
+[('common parts', 89), ('special\\v_militech_basilisk', 19), ('standard\\v_standard2_archer_quartz', 19), ('unnamed', 18), ('special\\av_zetatech_octant', 17), ('special\\av_rayfield_excalibur', 16), ('sport\\v_sport1_quadra_turbo', 9), ('standard\\v_standard2_villefort_cortes', 8), ('sport\\v_sport2_quadra_type66', 7), ('sport\\v_sport1_herrera_outlaw', 6), ('standard\\v_standard2_thorton_galena_nomad', 6), ('sport\\v_sport1_rayfield_caliburn', 6), ('standard\\v_standard2_thorton_galena', 6), ('sport\\v_sport2_porsche_911turbo', 5)]
+non-common examples:
+   7 base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh   ['archer_bandit', 'archer_quartz', 'mahir_supron', 'makigai_maimai']
+   6 base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01.mesh   ['archer_quartz', 'mizutani_shion', 'quadra_type66', 'thorton_colby']
+   6 base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_tire_fl_01.mesh   ['archer_quartz', 'mahir_supron', 'makigai_maimai', 'mizutani_hozuki']
+   5 base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_wheel_bl_a_01.mesh   ['archer_quartz', 'mizutani_shion', 'thorton_colby', 'thorton_galena']
+   5 base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_tire_bl_01_shadow.mesh   ['archer_bandit', 'archer_quartz', 'makigai_maimai', 'villefort_alvarado']
+   4 base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_tire_bl_a_01_shadow.mesh   ['mizutani_shion', 'thorton_colby', 'thorton_galena', 'villefort_columbus']
+   4 base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_wheel_fl_01.mesh   ['archer_quartz', 'chevalier_thrax', 'mizutani_shion', 'thorton_galena']
+   4 base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_tire_fl_a_01.mesh   ['mizutani_shion', 'quadra_type66', 'thorton_colby', 'thorton_galena']
+   4 base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh   ['porsche_911turbo', 'quadra_sport', 'quadra_type66', 'villefort_deleon']
+   4 base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_wheel_fl_01.mesh   ['archer_quartz', 'thorton_galena', 'thorton_mackinaw', 'villefort_columbus']
+   3 base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_tire_bl_01.mesh   ['herrera_outlaw', 'quadra_type66', 'villefort_deleon']
+   3 base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_wheel_outlaw_bl_shadow.mesh   ['herrera_outlaw', 'quadra_type66', 'villefort_deleon']
+bolt-on nomad kit pieces: 14, used across 15 families
+
+-- what parts attach to -- [('Base', 16899), ('body_01', 3867), ('deformation_rig', 3170), ('trunk_a', 2595), ('hood_a', 2377), ('wheel_back_right', 2318), ('wheel_back_left', 2309), ('wheel_front_right', 2296), ('door_fr_a', 2274), ('wheel_front_left', 2273), ('door_fl_a', 1961), ('door_front_left_a', 1723), ('door_front_right_a', 1704), ('interior_01', 1641), ('bumper_b_01', 1389), ('steering_wheel', 1341), ('bumper_back', 1254), ('window_front_right_a', 1202), ('window_front_left_a', 1201), ('bumper_front', 1141)]
+
+-- wider paint-mask search: all body meshes used by any appearance --
+body meshes checked: 78
+  CoatTintFwd: 35 families -> ['archer_bandit', 'archer_quartz', 'av_spaceforce1', 'av_zetatech', 'chevalier_centurion', 'chevalier_emperor', 'chevalier_legatus', 'chevalier_thrax', 'herrera_outlaw', 'herrera_riptide', 'kaukaz_zeya', 'mahir_mt28', 'mahir_supron', 'makigai_maimai', 'makigai_tanishi', 'militech_basilisk', 'militech_behemoth', 'militech_manticore', 'mizutani_hozuki', 'mizutani_shion', 'porsche_911turbo', 'quadra_sport', 'quadra_turbo', 'quadra_type66', 'rayfield_aerondight', 'rayfield_caliburn', 'thorton_colby', 'thorton_galena', 'thorton_mackinaw', 'thorton_merrimac', 'villefort_alvarado', 'villefort_columbus', 'villefort_cortes', 'villefort_deleon', 'yaiba_semimaru']
+  CoatSpecularColor: 21 families -> ['chevalier_centurion', 'chevalier_emperor', 'chevalier_thrax', 'herrera_outlaw', 'makigai_maimai', 'militech_behemoth', 'militech_manticore', 'mizutani_shion', 'porsche_911turbo', 'quadra_sport', 'quadra_turbo', 'quadra_type66', 'rayfield_aerondight', 'rayfield_caliburn', 'thorton_colby', 'thorton_galena', 'thorton_mackinaw', 'thorton_merrimac', 'villefort_alvarado', 'villefort_columbus', 'villefort_cortes']
+  CustomColorMask: 7 families -> ['mahir_supron', 'mizutani_hozuki', 'mizutani_shion', 'rayfield_aerondight', 'rayfield_caliburn', 'thorton_mackinaw', 'thorton_merrimac']

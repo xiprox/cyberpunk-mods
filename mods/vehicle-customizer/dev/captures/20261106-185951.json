@@ -1,0 +1,39 @@
+{
+  "camera_forward": {
+    "x": -0.7,
+    "y": 0.7,
+    "z": -0.2
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 3.5,
+    "x": -3474,
+    "y": -4042.1,
+    "z": 75.2
+  },
+  "look_object": {
+    "class": "vehicleArmedCarBaseObject",
+    "entity_id": "9000580ULL",
+    "name": "Galena \u0022Gecko\u0022",
+    "position": {
+      "x": -3475.6,
+      "y": -4040.6,
+      "z": 74.8
+    },
+    "record": "Vehicle.cs_savable_thorton_galena_nomad_broken"
+  },
+  "nearest": {
+    "distance": 14.6,
+    "id": "the_church_garage",
+    "name": "The church garage"
+  },
+  "note": "",
+  "player": {
+    "x": -3471.7,
+    "y": -4044.5,
+    "yaw": 42.7,
+    "z": 74.4
+  },
+  "stamp": "20261106-185951",
+  "time": "2026-11-06 18:59:51"
+}

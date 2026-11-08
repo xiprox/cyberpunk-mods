@@ -1,0 +1,26 @@
+﻿basegame_4_gamedata.archive #46793f18f2c892c1 mentions ['ComputerYaibaShowroomController'] classes ['inkWidgetLibraryResource']
+     imports base\gameplay\gui\quests\mq060\yaibashowroom_website.inkanim
+     imports base\gameplay\gui\common\main_colors.inkstyle
+     imports base\gameplay\gui\common\icons\mappin_icons.inkatlas
+     imports base\gameplay\gui\widgets\notifications\notification_assets.inkatlas
+     imports base\gameplay\gui\quests\assets\personal_link.inkatlas
+     imports base\gameplay\gui\common\shapes\atlas_shapes_sync.inkatlas
+     imports base\gameplay\gui\fonts\raj\raj.inkfontfamily
+     imports base\gameplay\gui\quests\mq060\yaibashowroom_assets.inkatlas
+     imports base\gameplay\gui\fullscreen\photo_mode\stickers\set_bnd02.inkatlas
+     imports base\gameplay\gui\common\icons\atlas_cash.inkatlas
+     imports base\gameplay\gui\world\internet\templates\vehicles\vehicle_website_style.inkstyle
+     imports base\gameplay\gui\fonts\industry\industry.inkfontfamily
+ep1_2_gamedata.archive #46793f18f2c892c1 mentions ['ComputerYaibaShowroomController'] classes ['inkWidgetLibraryResource']
+     imports base\gameplay\gui\quests\mq060\yaibashowroom_website.inkanim
+     imports base\gameplay\gui\common\main_colors.inkstyle
+     imports base\gameplay\gui\common\icons\mappin_icons.inkatlas
+     imports base\gameplay\gui\widgets\notifications\notification_assets.inkatlas
+     imports base\gameplay\gui\quests\assets\personal_link.inkatlas
+     imports base\gameplay\gui\common\shapes\atlas_shapes_sync.inkatlas
+     imports base\gameplay\gui\fonts\raj\raj.inkfontfamily
+     imports base\gameplay\gui\quests\mq060\yaibashowroom_assets.inkatlas
+     imports base\gameplay\gui\fullscreen\photo_mode\stickers\set_bnd02.inkatlas
+     imports base\gameplay\gui\common\icons\atlas_cash.inkatlas
+     imports base\gameplay\gui\world\internet\templates\vehicles\vehicle_website_style.inkstyle
+     imports base\gameplay\gui\fonts\industry\industry.inkfontfamily

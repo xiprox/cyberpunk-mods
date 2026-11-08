@@ -1,0 +1,5242 @@
+{
+ "id": "archer_hella_ep1__kurtz_01",
+ "label": "Hella EC-D i360",
+ "entity": "ep1\\vehicles\\standard\\v_standard2_archer_hella_ep1__kurtz_01.ent",
+ "family": "v_standard2_archer_hella",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard2_archer_hella_kurtz"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\standard\\archer_hella__basic.app",
+  "ep1\\vehicles\\appearances\\standard\\archer_hella__basic.app",
+  "ep1\\vehicles\\appearances\\standard\\archer_hella_kurtz_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "archer_hella_kurtz_basic_kurtz_1",
+   "code": "archer_hella_kurtz_basic_kurtz_1",
+   "label": "Archer hella kurtz basic kurtz",
+   "base_look": "archer_hella_kurtz_basic_kurtz_1",
+   "looks": [
+    "archer_hella_kurtz_basic_kurtz_1"
+   ],
+   "options": {
+    "bumper_front.bumper": "4ff6b1ea",
+    "bumper_back.bumper": "4731867c",
+    "hood_a.hood": "07b2949c",
+    "trunk_a.trunk": "c62fa7ba",
+    "base.body": "0853e347",
+    "base.body.police_body": "df85ca17",
+    "base.interior": "d9cfbd74",
+    "base.interior.interior": "80e88073",
+    "base.window": "fe0242ea",
+    "base.window.window_bl": "255e4ff2",
+    "base.window.window_br": "9536cf76",
+    "wheel.tire": "52297090",
+    "wheel.wheel": "655220bd",
+    "door.door": "8b101775"
+   },
+   "kits": [
+    "6th_street_045e",
+    "kurtz_9ec3",
+    "nomad_8e74",
+    "police_8686",
+    "police_ba20"
+   ]
+  },
+  {
+   "id": "archer_hella_kurtz_basic_kurtz_2",
+   "code": "archer_hella_kurtz_basic_kurtz_2",
+   "label": "Archer hella kurtz basic kurtz 2",
+   "base_look": "archer_hella_kurtz_basic_kurtz_2",
+   "looks": [
+    "archer_hella_kurtz_basic_kurtz_2"
+   ],
+   "options": {
+    "bumper_front.bumper": "4ff6b1ea",
+    "bumper_back.bumper": "4731867c",
+    "hood_a.hood": "07b2949c",
+    "trunk_a.trunk": "c62fa7ba",
+    "base.body": "0853e347",
+    "base.body.police_body": "df85ca17",
+    "base.interior": "d9cfbd74",
+    "base.interior.interior": "80e88073",
+    "base.window": "fe0242ea",
+    "base.window.window_bl": "255e4ff2",
+    "base.window.window_br": "9536cf76",
+    "wheel.tire": "91100bc8",
+    "wheel.wheel": "aaa9b40d",
+    "door.door": "8b101775"
+   },
+   "kits": [
+    "6th_street_045e",
+    "6th_street_b00c",
+    "combatcab_6f8f",
+    "nomad_8e74",
+    "police_ba20"
+   ]
+  },
+  {
+   "id": "archer_hella_kurtz_basic_kurtz_3",
+   "code": "archer_hella_kurtz_basic_kurtz_3",
+   "label": "Archer hella kurtz basic kurtz 3",
+   "base_look": "archer_hella_kurtz_basic_kurtz_3",
+   "looks": [
+    "archer_hella_kurtz_basic_kurtz_3"
+   ],
+   "options": {
+    "bumper_front.bumper": "4ff6b1ea",
+    "bumper_back.bumper": "4731867c",
+    "hood_a.hood": "07b2949c",
+    "trunk_a.trunk": "c62fa7ba",
+    "base.body": "0853e347",
+    "base.body.police_body": "df85ca17",
+    "base.interior": "d9cfbd74",
+    "base.interior.interior": "80e88073",
+    "base.window": "fe0242ea",
+    "base.window.window_bl": "255e4ff2",
+    "base.window.window_br": "9536cf76",
+    "wheel.tire": "91100bc8",
+    "wheel.wheel": "aaa9b40d",
+    "door.door": "8b101775"
+   },
+   "kits": [
+    "6th_street_045e",
+    "kurtz_9ec3",
+    "nomad_8e74"
+   ]
+  }
+ ],
+ "wrecks": [
+  "archer_hella__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "4ff6b1ea",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_02",
+     "paints": [
+      "primer_red",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "combatcab_01",
+      "police_02",
+      "police_01",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "primer_black",
+      "deathrace_01",
+      "primer_gray",
+      "6th_street_01",
+      "stickerbomb_02",
+      "stickerbomb_01"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:ep_10",
+      "look:player_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:scavenger_2",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3"
+     ]
+    },
+    {
+     "id": "4f41bb5f",
+     "code": "junk_bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "color_02",
+      "color_03"
+     ],
+     "looks": [
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2"
+     ],
+     "origins": [
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "4731867c",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "primer_red",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "combatcab_01",
+      "police_02",
+      "police_01",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "primer_black",
+      "deathrace_01",
+      "primer_gray",
+      "6th_street_01",
+      "stickerbomb_02",
+      "stickerbomb_01"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:ep_10",
+      "look:police_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:q304_combatcab_01",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3"
+     ]
+    },
+    {
+     "id": "da1ad5f5",
+     "code": "junk_bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_junk_bumper_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "color_02",
+      "color_03"
+     ],
+     "looks": [
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2",
+      "archer_hella__basic:scavenger_2"
+     ],
+     "origins": [
+      "look:player_01",
+      "look:player_damaged_01",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2",
+      "look:scavenger_2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "07b2949c",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "primer_black",
+     "paints": [
+      "primer_red",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "combatcab_01",
+      "police_02",
+      "police_01",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "primer_black",
+      "deathrace_01",
+      "primer_gray",
+      "6th_street_01",
+      "stickerbomb_02",
+      "stickerbomb_01",
+      "player_01"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:ep_10",
+      "look:player_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "c62fa7ba",
+     "code": "trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_trunk_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_trunk_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "primer_black",
+     "paints": [
+      "primer_red",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "combatcab_01",
+      "police_02",
+      "police_01",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "primer_black",
+      "deathrace_01",
+      "primer_gray",
+      "6th_street_01",
+      "stickerbomb_02",
+      "stickerbomb_01",
+      "player_01"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:ep_10",
+      "look:player_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:scavenger_2",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body: main",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "0853e347",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_03",
+     "paints": [
+      "primer_red",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "combatcab_01",
+      "police_02",
+      "police_01",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "primer_black",
+      "deathrace_01",
+      "primer_gray",
+      "6th_street_01",
+      "stickerbomb_02",
+      "stickerbomb_01",
+      "player_01"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:deathrace_burnt_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_burnt_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:police_burnt_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella__basic_burnt_01",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:deathrace_burnt_01",
+      "look:default",
+      "look:ep_10",
+      "look:player_01",
+      "look:player_burnt_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:police_burnt_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:scavenger_2",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.police_body",
+   "label": "Body: police",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_player_01",
+    "v_standard2_archer_hella_police__ext01_body_01"
+   ],
+   "options": [
+    {
+     "id": "df85ca17",
+     "code": "police_body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:deathrace_burnt_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:police_burnt_01",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:deathrace_01",
+      "look:deathrace_burnt_01",
+      "look:police_01",
+      "look:police_burnt_01",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3"
+     ]
+    },
+    {
+     "id": "47aacd56",
+     "code": "body_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_player_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_burnt_01",
+      "archer_hella__basic:player_damaged_01"
+     ],
+     "origins": [
+      "look:player_01",
+      "look:player_burnt_01",
+      "look:player_damaged_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior: trunk",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_trunk_01"
+   ],
+   "options": [
+    {
+     "id": "d9cfbd74",
+     "code": "interior_trunk_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_interior_trunk_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "police_kit",
+      "player_01",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "combat_cab_01",
+      "6th_street_01"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:deathrace_burnt_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_burnt_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:police_burnt_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella__basic_burnt_01",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:deathrace_burnt_01",
+      "look:default",
+      "look:ep_10",
+      "look:player_01",
+      "look:player_burnt_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:police_burnt_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:scavenger_2",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior.interior",
+   "label": "Interior: main",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01",
+    "interior_02"
+   ],
+   "options": [
+    {
+     "id": "80e88073",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "combat_cab_01",
+     "paints": [
+      "6th_street_01",
+      "combat_cab_01",
+      "police_kit",
+      "poor_01",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "poor_05",
+      "poor_06",
+      "poor_07",
+      "player_01"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:deathrace_burnt_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_burnt_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:police_burnt_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella__basic_burnt_01",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:deathrace_burnt_01",
+      "look:default",
+      "look:player_01",
+      "look:player_burnt_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:police_burnt_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:scavenger_2",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "5614a8ac",
+     "code": "interior_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_interior_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "6th_street_01",
+      "combat_cab_01",
+      "player_01",
+      "police_kit",
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "poor_05",
+      "poor_06",
+      "poor_07",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04"
+     ],
+     "looks": [
+      "archer_hella__basic:ep_10"
+     ],
+     "origins": [
+      "look:ep_10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat",
+   "label": "Seats: front left a",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seat_fl_a"
+   ],
+   "options": [
+    {
+     "id": "d74e3cfc",
+     "code": "seat_fl_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_seat_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "6th_street_01",
+      "poor_01",
+      "combat_cab_01",
+      "player_01",
+      "police_kit",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "poor_05",
+      "poor_06",
+      "poor_07",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04"
+     ],
+     "looks": [
+      "archer_hella__basic:ep_10"
+     ],
+     "origins": [
+      "look:ep_10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat.seat_fr_a",
+   "label": "Seats: front right a",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seat_fr_a"
+   ],
+   "options": [
+    {
+     "id": "e13868ca",
+     "code": "seat_fr_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_seat_fr_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "6th_street_01",
+      "combat_cab_01",
+      "player_01",
+      "police_kit",
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "poor_05",
+      "poor_06",
+      "poor_07",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04"
+     ],
+     "looks": [
+      "archer_hella__basic:ep_10"
+     ],
+     "origins": [
+      "look:ep_10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield: back",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_b"
+   ],
+   "options": [
+    {
+     "id": "fe0242ea",
+     "code": "window_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_window_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tinted",
+      "crystaldome"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:deathrace_burnt_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_burnt_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:police_burnt_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella__basic_burnt_01",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:deathrace_burnt_01",
+      "look:default",
+      "look:ep_10",
+      "look:player_01",
+      "look:player_burnt_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:police_burnt_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:scavenger_2",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_bl",
+   "label": "Windshield: back left",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_bl_02_01"
+   ],
+   "options": [
+    {
+     "id": "255e4ff2",
+     "code": "window_bl_02_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_window_bl_02_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tinted",
+      "crystaldome"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:deathrace_burnt_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_burnt_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:police_burnt_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella__basic_burnt_01",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:deathrace_burnt_01",
+      "look:default",
+      "look:ep_10",
+      "look:player_01",
+      "look:player_burnt_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:police_burnt_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:scavenger_2",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window.window_br",
+   "label": "Windshield: back right",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_br_02"
+   ],
+   "options": [
+    {
+     "id": "9536cf76",
+     "code": "window_br_02_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_window_br_02_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "tinted",
+      "cyrstaldome"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:deathrace_burnt_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_burnt_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:police_burnt_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella__basic_burnt_01",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:deathrace_burnt_01",
+      "look:default",
+      "look:ep_10",
+      "look:player_01",
+      "look:player_burnt_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:police_burnt_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:scavenger_2",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a",
+    "tire_03_<c>"
+   ],
+   "options": [
+    {
+     "id": "216f11e0",
+     "code": "tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy"
+     ],
+     "looks": [
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4"
+     ],
+     "origins": [
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:default",
+      "look:ep_10",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:q304_combatcab_01",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4"
+     ]
+    },
+    {
+     "id": "52297090",
+     "code": "tire_standard_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_standard_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_standard_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_standard_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_standard_fl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella_kurtz_basic_kurtz_1"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:scavenger_1",
+      "style:archer_hella_kurtz_basic_kurtz_1"
+     ]
+    },
+    {
+     "id": "91100bc8",
+     "code": "tire_police_01",
+     "vehicle": "Cortes V5000 Valor",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:deathrace_01",
+      "look:police_01",
+      "look:scavenger_2",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3"
+     ]
+    },
+    {
+     "id": "0f232be0",
+     "code": "police_tire_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2"
+     ],
+     "origins": [
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2"
+     ]
+    },
+    {
+     "id": "d184d620",
+     "code": "tire_01",
+     "vehicle": "Turbo-R 740",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player"
+     ],
+     "looks": [
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_damaged_01"
+     ],
+     "origins": [
+      "look:player_01",
+      "look:player_damaged_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "police_wheel_01_<c>_0a",
+    "police_wheel_01_<c>_a",
+    "wheel_01_<c>_a",
+    "wheel_03_<c>",
+    "wheel_<c>_01",
+    "wheel_<c>_03"
+   ],
+   "options": [
+    {
+     "id": "854c10ed",
+     "code": "wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4"
+     ],
+     "origins": [
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:default",
+      "look:ep_10",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:q304_combatcab_01",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4"
+     ]
+    },
+    {
+     "id": "655220bd",
+     "code": "wheel_03",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_03.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_03.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_03.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "white_01",
+      "aldecados_02",
+      "wraiths_01"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella_kurtz_basic_kurtz_1"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:scavenger_1",
+      "style:archer_hella_kurtz_basic_kurtz_1"
+     ]
+    },
+    {
+     "id": "aaa9b40d",
+     "code": "wheel_police_02",
+     "vehicle": "Cortes V5000 Valor",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "suburban_01",
+      "wraiths_01",
+      "player_01",
+      "aldecados_01",
+      "aldecados_02",
+      "wraiths_02"
+     ],
+     "looks": [
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:deathrace_01",
+      "look:police_01",
+      "look:scavenger_2",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3"
+     ]
+    },
+    {
+     "id": "11fb1e95",
+     "code": "police_wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2"
+     ],
+     "origins": [
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2"
+     ]
+    },
+    {
+     "id": "307348bd",
+     "code": "wheel_01",
+     "vehicle": "Turbo-R 740",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player",
+      "neomilitarism",
+      "entropism"
+     ],
+     "looks": [
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_damaged_01"
+     ],
+     "origins": [
+      "look:player_01",
+      "look:player_damaged_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "8b101775",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_fr_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_bl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_fr_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_bl_01_shadow.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police_01",
+     "paints": [
+      "primer_red",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "combatcab_01",
+      "police_02",
+      "police_01",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "primer_black",
+      "deathrace_01",
+      "primer_gray",
+      "6th_street_01",
+      "stickerbomb_02",
+      "stickerbomb_01",
+      "player_01"
+     ],
+     "looks": [
+      "archer_hella__basic:6th_street_01",
+      "archer_hella__basic:after_accident_01",
+      "archer_hella__basic:combatcab_01",
+      "archer_hella__basic:deathrace_01",
+      "archer_hella__basic:default",
+      "archer_hella__basic:ep_10",
+      "archer_hella__basic:player_01",
+      "archer_hella__basic:player_damaged_01",
+      "archer_hella__basic:police_01",
+      "archer_hella__basic:poor_1",
+      "archer_hella__basic:poor_1_1",
+      "archer_hella__basic:poor_1_2",
+      "archer_hella__basic:poor_1_3",
+      "archer_hella__basic:poor_1_4",
+      "archer_hella__basic:poor_1_5",
+      "archer_hella__basic:poor_1_6",
+      "archer_hella__basic:poor_1_7",
+      "archer_hella__basic:poor_2",
+      "archer_hella__basic:poor_2_1",
+      "archer_hella__basic:poor_2_2",
+      "archer_hella__basic:poor_2_3",
+      "archer_hella__basic:poor_2_4",
+      "archer_hella__basic:poor_3",
+      "archer_hella__basic:poor_3_1",
+      "archer_hella__basic:poor_3_2",
+      "archer_hella__basic:poor_3_3",
+      "archer_hella__basic:poor_3_4",
+      "archer_hella__basic:poor_4",
+      "archer_hella__basic:poor_4_1",
+      "archer_hella__basic:poor_4_2",
+      "archer_hella__basic:q304_combatcab_01",
+      "archer_hella__basic:scavenger_1",
+      "archer_hella__basic:scavenger_2",
+      "archer_hella__basic:suburban_1",
+      "archer_hella__basic:suburban_1_1",
+      "archer_hella__basic:suburban_1_2",
+      "archer_hella__basic:suburban_1_3",
+      "archer_hella__basic:suburban_1_4",
+      "archer_hella__basic:suburban_2",
+      "archer_hella__basic:suburban_2_1",
+      "archer_hella__basic:suburban_2_2",
+      "archer_hella__basic:suburban_2_3",
+      "archer_hella__basic:suburban_2_4",
+      "archer_hella_kurtz_basic_kurtz_1",
+      "archer_hella_kurtz_basic_kurtz_2",
+      "archer_hella_kurtz_basic_kurtz_3"
+     ],
+     "origins": [
+      "look:6th_street_01",
+      "look:after_accident_01",
+      "look:combatcab_01",
+      "look:deathrace_01",
+      "look:default",
+      "look:ep_10",
+      "look:player_01",
+      "look:player_damaged_01",
+      "look:police_01",
+      "look:poor_1",
+      "look:poor_1_1",
+      "look:poor_1_2",
+      "look:poor_1_3",
+      "look:poor_1_4",
+      "look:poor_1_5",
+      "look:poor_1_6",
+      "look:poor_1_7",
+      "look:poor_2",
+      "look:poor_2_1",
+      "look:poor_2_2",
+      "look:poor_2_3",
+      "look:poor_2_4",
+      "look:poor_3",
+      "look:poor_3_1",
+      "look:poor_3_2",
+      "look:poor_3_3",
+      "look:poor_3_4",
+      "look:poor_4",
+      "look:poor_4_1",
+      "look:poor_4_2",
+      "look:q304_combatcab_01",
+      "look:scavenger_1",
+      "look:scavenger_2",
+      "look:suburban_1",
+      "look:suburban_1_1",
+      "look:suburban_1_2",
+      "look:suburban_1_3",
+      "look:suburban_1_4",
+      "look:suburban_2",
+      "look:suburban_2_1",
+      "look:suburban_2_2",
+      "look:suburban_2_3",
+      "look:suburban_2_4",
+      "style:archer_hella_kurtz_basic_kurtz_1",
+      "style:archer_hella_kurtz_basic_kurtz_2",
+      "style:archer_hella_kurtz_basic_kurtz_3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "backrest_front_left.seat",
+   "label": "Seats",
+   "kind": "seat",
+   "group": "backrest_front_left",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "backrest_front_left"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seat_fl_b"
+   ],
+   "options": [
+    {
+     "id": "397c141d",
+     "code": "seat_fl_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_seat_fl_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "6th_street_01",
+      "combat_cab_01",
+      "player_01",
+      "police_kit",
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "poor_05",
+      "poor_06",
+      "poor_07",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04"
+     ],
+     "looks": [
+      "archer_hella__basic:ep_10"
+     ],
+     "origins": [
+      "look:ep_10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "backrest_front_right.seat",
+   "label": "Seats",
+   "kind": "seat",
+   "group": "backrest_front_right",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "backrest_front_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seat_fr_b"
+   ],
+   "options": [
+    {
+     "id": "acae4a60",
+     "code": "seat_fr_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_seat_fr_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "6th_street_01",
+      "combat_cab_01",
+      "player_01",
+      "police_kit",
+      "poor_01",
+      "poor_02",
+      "poor_03",
+      "poor_04",
+      "poor_05",
+      "poor_06",
+      "poor_07",
+      "suburban_01",
+      "suburban_02",
+      "suburban_03",
+      "suburban_04"
+     ],
+     "looks": [
+      "archer_hella__basic:ep_10"
+     ],
+     "origins": [
+      "look:ep_10"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "6th_street_b00c",
+   "family": "6th_street",
+   "code": "door_br_sticker_6th_street",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_br_sticker_6th_street",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_br_sticker_6th_street.mesh",
+     "code": "door_br_sticker_6th_street",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:6th_street_01",
+    "archer_hella__basic:combatcab_01",
+    "archer_hella__basic:poor_1",
+    "archer_hella__basic:poor_1_1",
+    "archer_hella__basic:poor_1_2",
+    "archer_hella__basic:poor_1_3",
+    "archer_hella__basic:poor_1_4",
+    "archer_hella__basic:poor_1_5",
+    "archer_hella__basic:poor_1_6",
+    "archer_hella__basic:poor_1_7",
+    "archer_hella__basic:poor_2",
+    "archer_hella__basic:poor_2_1",
+    "archer_hella__basic:poor_2_2",
+    "archer_hella__basic:poor_2_3",
+    "archer_hella__basic:poor_2_4",
+    "archer_hella__basic:poor_3",
+    "archer_hella__basic:poor_3_1",
+    "archer_hella__basic:poor_3_2",
+    "archer_hella__basic:poor_3_3",
+    "archer_hella__basic:poor_3_4",
+    "archer_hella__basic:poor_4",
+    "archer_hella__basic:poor_4_1",
+    "archer_hella__basic:poor_4_2",
+    "archer_hella__basic:q304_combatcab_01",
+    "archer_hella__basic:scavenger_1",
+    "archer_hella__basic:scavenger_2",
+    "archer_hella_kurtz_basic_kurtz_2"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:combatcab_01",
+    "look:poor_1",
+    "look:poor_1_1",
+    "look:poor_1_2",
+    "look:poor_1_3",
+    "look:poor_1_4",
+    "look:poor_1_5",
+    "look:poor_1_6",
+    "look:poor_1_7",
+    "look:poor_2",
+    "look:poor_2_1",
+    "look:poor_2_2",
+    "look:poor_2_3",
+    "look:poor_2_4",
+    "look:poor_3",
+    "look:poor_3_1",
+    "look:poor_3_2",
+    "look:poor_3_3",
+    "look:poor_3_4",
+    "look:poor_4",
+    "look:poor_4_1",
+    "look:poor_4_2",
+    "look:q304_combatcab_01",
+    "look:scavenger_1",
+    "look:scavenger_2",
+    "style:archer_hella_kurtz_basic_kurtz_2"
+   ]
+  },
+  {
+   "id": "6th_street_4d66",
+   "family": "6th_street",
+   "code": "hood_sticker_6th_street",
+   "where": [
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "hood_sticker_6th_street",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_hood_sticker_6th_street.mesh",
+     "code": "hood_sticker_6th_street",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:6th_street_01",
+    "archer_hella__basic:combatcab_01",
+    "archer_hella__basic:poor_1",
+    "archer_hella__basic:poor_1_1",
+    "archer_hella__basic:poor_1_2",
+    "archer_hella__basic:poor_1_3",
+    "archer_hella__basic:poor_1_4",
+    "archer_hella__basic:poor_1_5",
+    "archer_hella__basic:poor_1_6",
+    "archer_hella__basic:poor_1_7",
+    "archer_hella__basic:q304_combatcab_01",
+    "archer_hella__basic:scavenger_1"
+   ],
+   "made_for": [
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:combatcab_01",
+    "look:poor_1",
+    "look:poor_1_1",
+    "look:poor_1_2",
+    "look:poor_1_3",
+    "look:poor_1_4",
+    "look:poor_1_5",
+    "look:poor_1_6",
+    "look:poor_1_7",
+    "look:q304_combatcab_01",
+    "look:scavenger_1"
+   ]
+  },
+  {
+   "id": "6th_street_7c67",
+   "family": "6th_street",
+   "code": "kit_6th_street_body_doors_trunk",
+   "where": [
+    "body",
+    "doors",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_6th_street",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_stickers_6th_street.mesh",
+     "code": "body_stickers_6th_street",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_bl_sticker_6th_street",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_bl_sticker_6th_street.mesh",
+     "code": "door_bl_sticker_6th_street",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "trunk_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_trunk_sticker_01.mesh",
+     "code": "trunk_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "trunk_sticker_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_trunk_sticker_02.mesh",
+     "code": "trunk_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:6th_street_01",
+    "archer_hella__basic:combatcab_01",
+    "archer_hella__basic:poor_1",
+    "archer_hella__basic:poor_1_1",
+    "archer_hella__basic:poor_1_2",
+    "archer_hella__basic:poor_1_3",
+    "archer_hella__basic:poor_1_4",
+    "archer_hella__basic:poor_1_5",
+    "archer_hella__basic:poor_1_6",
+    "archer_hella__basic:poor_1_7",
+    "archer_hella__basic:poor_2",
+    "archer_hella__basic:poor_2_1",
+    "archer_hella__basic:poor_2_2",
+    "archer_hella__basic:poor_2_3",
+    "archer_hella__basic:poor_2_4",
+    "archer_hella__basic:poor_3",
+    "archer_hella__basic:poor_3_1",
+    "archer_hella__basic:poor_3_2",
+    "archer_hella__basic:poor_3_3",
+    "archer_hella__basic:poor_3_4",
+    "archer_hella__basic:poor_4",
+    "archer_hella__basic:poor_4_1",
+    "archer_hella__basic:poor_4_2",
+    "archer_hella__basic:q304_combatcab_01",
+    "archer_hella__basic:scavenger_1",
+    "archer_hella__basic:scavenger_2"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:combatcab_01",
+    "look:poor_1",
+    "look:poor_1_1",
+    "look:poor_1_2",
+    "look:poor_1_3",
+    "look:poor_1_4",
+    "look:poor_1_5",
+    "look:poor_1_6",
+    "look:poor_1_7",
+    "look:poor_2",
+    "look:poor_2_1",
+    "look:poor_2_2",
+    "look:poor_2_3",
+    "look:poor_2_4",
+    "look:poor_3",
+    "look:poor_3_1",
+    "look:poor_3_2",
+    "look:poor_3_3",
+    "look:poor_3_4",
+    "look:poor_4",
+    "look:poor_4_1",
+    "look:poor_4_2",
+    "look:q304_combatcab_01",
+    "look:scavenger_1",
+    "look:scavenger_2"
+   ]
+  },
+  {
+   "id": "6th_street_045e",
+   "family": "6th_street",
+   "code": "kit_6th_street_interior",
+   "where": [
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "glove_box_6th_street_sticker_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_glove_box_6th_street_sticker_01.mesh",
+     "code": "glove_box_6th_street_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_standard2_archer_hella__int01_glove_box_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:glove_box"
+    },
+    {
+     "name": "interior_6th_street_sticker_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_interior_6th_street_sticker_02.mesh",
+     "code": "interior_6th_street_sticker_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "interior_6th_street_sticker_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_interior_6th_street_sticker_03.mesh",
+     "code": "interior_6th_street_sticker_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "interior_6th_street_sticker_04",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_interior_6th_street_sticker_04.mesh",
+     "code": "interior_6th_street_sticker_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "interior_6th_street_sticker_05",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__int01_interior_6th_street_sticker_05.mesh",
+     "code": "interior_6th_street_sticker_05",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:6th_street_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:6th_street_01",
+    "archer_hella__basic:combatcab_01",
+    "archer_hella__basic:poor_1",
+    "archer_hella__basic:poor_1_1",
+    "archer_hella__basic:poor_1_2",
+    "archer_hella__basic:poor_1_3",
+    "archer_hella__basic:poor_1_4",
+    "archer_hella__basic:poor_1_5",
+    "archer_hella__basic:poor_1_6",
+    "archer_hella__basic:poor_1_7",
+    "archer_hella__basic:poor_2",
+    "archer_hella__basic:poor_2_1",
+    "archer_hella__basic:poor_2_2",
+    "archer_hella__basic:poor_2_3",
+    "archer_hella__basic:poor_2_4",
+    "archer_hella__basic:poor_3",
+    "archer_hella__basic:poor_3_1",
+    "archer_hella__basic:poor_3_2",
+    "archer_hella__basic:poor_3_3",
+    "archer_hella__basic:poor_3_4",
+    "archer_hella__basic:poor_4",
+    "archer_hella__basic:poor_4_1",
+    "archer_hella__basic:poor_4_2",
+    "archer_hella__basic:q304_combatcab_01",
+    "archer_hella__basic:scavenger_1",
+    "archer_hella__basic:scavenger_2",
+    "archer_hella_kurtz_basic_kurtz_1",
+    "archer_hella_kurtz_basic_kurtz_2",
+    "archer_hella_kurtz_basic_kurtz_3"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:combatcab_01",
+    "look:poor_1",
+    "look:poor_1_1",
+    "look:poor_1_2",
+    "look:poor_1_3",
+    "look:poor_1_4",
+    "look:poor_1_5",
+    "look:poor_1_6",
+    "look:poor_1_7",
+    "look:poor_2",
+    "look:poor_2_1",
+    "look:poor_2_2",
+    "look:poor_2_3",
+    "look:poor_2_4",
+    "look:poor_3",
+    "look:poor_3_1",
+    "look:poor_3_2",
+    "look:poor_3_3",
+    "look:poor_3_4",
+    "look:poor_4",
+    "look:poor_4_1",
+    "look:poor_4_2",
+    "look:q304_combatcab_01",
+    "look:scavenger_1",
+    "look:scavenger_2",
+    "style:archer_hella_kurtz_basic_kurtz_1",
+    "style:archer_hella_kurtz_basic_kurtz_2",
+    "style:archer_hella_kurtz_basic_kurtz_3"
+   ]
+  },
+  {
+   "id": "combatcab_6f8f",
+   "family": "combatcab",
+   "code": "door_br_sticker_combatcab_02",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_br_sticker_combatcab_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_br_sticker_combatcab_02.mesh",
+     "code": "door_br_sticker_combatcab_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:combatcab_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:combatcab_01",
+    "archer_hella__basic:q304_combatcab_01",
+    "archer_hella_kurtz_basic_kurtz_2"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:combatcab_01",
+    "look:q304_combatcab_01",
+    "style:archer_hella_kurtz_basic_kurtz_2"
+   ]
+  },
+  {
+   "id": "combatcab_4f66",
+   "family": "combatcab",
+   "code": "kit_combatcab_body_doors_hood",
+   "where": [
+    "body",
+    "doors",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_combatcab_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_stickers_combatcab_01.mesh",
+     "code": "body_stickers_combatcab_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:combatcab_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "body_stickers_combatcab_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_stickers_combatcab_03.mesh",
+     "code": "body_stickers_combatcab_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:combatcab_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_bl_sticker_combatcab_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_bl_sticker_combatcab_01.mesh",
+     "code": "door_bl_sticker_combatcab_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:combatcab_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_fl_sticker_combatcab_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_fl_sticker_combatcab_01.mesh",
+     "code": "door_fl_sticker_combatcab_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:combatcab_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_sticker_combatcab_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_fr_sticker_combatcab_02.mesh",
+     "code": "door_fr_sticker_combatcab_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:combatcab_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "hood_sticker_combatcab_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_hood_sticker_combatcab_01.mesh",
+     "code": "hood_sticker_combatcab_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:combatcab_01",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:combatcab_01",
+    "archer_hella__basic:q304_combatcab_01"
+   ],
+   "made_for": [
+    "slot:door.door",
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:combatcab_01",
+    "look:q304_combatcab_01"
+   ]
+  },
+  {
+   "id": "kurtz_9ec3",
+   "family": "kurtz",
+   "code": "body_stickers_kurtz_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_archer_hella_police__ext01_body_kurtz_stickers",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_stickers_kurtz_01.mesh",
+     "code": "body_stickers_kurtz_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella_kurtz_basic_kurtz_1",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "archer_hella_kurtz_basic_kurtz_1",
+    "archer_hella_kurtz_basic_kurtz_3"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "style:archer_hella_kurtz_basic_kurtz_1",
+    "style:archer_hella_kurtz_basic_kurtz_3"
+   ]
+  },
+  {
+   "id": "nomad_8e74",
+   "family": "nomad",
+   "code": "light_device_medium_02",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_light_device_medium_02",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_02.mesh",
+     "code": "light_device_medium_02",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard2_archer_hella_police__ext01_bumper_f_01",
+     "slot": null,
+     "position": [
+      0.9769,
+      0.7729,
+      0.2287
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:bumper_front"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:deathrace_01",
+    "archer_hella__basic:police_01",
+    "archer_hella_kurtz_basic_kurtz_1",
+    "archer_hella_kurtz_basic_kurtz_2",
+    "archer_hella_kurtz_basic_kurtz_3"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper.police_bumper_f"
+   ],
+   "needs": [],
+   "origins": [
+    "look:deathrace_01",
+    "look:police_01",
+    "style:archer_hella_kurtz_basic_kurtz_1",
+    "style:archer_hella_kurtz_basic_kurtz_2",
+    "style:archer_hella_kurtz_basic_kurtz_3"
+   ]
+  },
+  {
+   "id": "player_3266",
+   "family": "player",
+   "code": "body_player_stripe_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_player_stripe_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_player_stripe_01.mesh",
+     "code": "body_player_stripe_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_player_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:player_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:player_01",
+    "archer_hella__basic:player_burnt_01",
+    "archer_hella__basic:player_damaged_01"
+   ],
+   "made_for": [
+    "slot:base.body.police_body"
+   ],
+   "needs": [],
+   "origins": [
+    "look:player_01",
+    "look:player_burnt_01",
+    "look:player_damaged_01"
+   ]
+  },
+  {
+   "id": "player_438f",
+   "family": "player",
+   "code": "kit_player_body_bumper_doors",
+   "where": [
+    "body",
+    "bumper",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "braindance_cartridge_a_cover_stripe_a",
+     "mesh": "base\\vehicles\\common\\parts\\placeables\\braindance_cartridge_a_cover_stripe_a.mesh",
+     "code": "braindance_cartridge_a_cover_stripe_a",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      -0.1347,
+      -0.0982,
+      -0.4479
+     ],
+     "rotation": [
+      -0.05150324106216431,
+      0.7052286863327026,
+      0.05150324106216431,
+      0.7052286863327026
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:player_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "bumper_f_player_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_bumper_f_player_01.mesh",
+     "code": "bumper_f_player_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_f_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:player_01",
+     "parent": "vehicle_slots:bumper_front"
+    },
+    {
+     "name": "door_bl_player_stripe_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_bl_player_stripe_01.mesh",
+     "code": "door_bl_player_stripe_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:player_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_player_stripe_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_br_player_stripe_01.mesh",
+     "code": "door_br_player_stripe_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_shadow",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:player_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fl_player_stripe_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_fl_player_stripe_01.mesh",
+     "code": "door_fl_player_stripe_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:player_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_player_stripe_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_fr_player_stripe_01.mesh",
+     "code": "door_fr_player_stripe_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:player_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:player_01",
+    "archer_hella__basic:player_damaged_01"
+   ],
+   "made_for": [
+    "slot:bumper_front.bumper",
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:player_01",
+    "look:player_damaged_01"
+   ]
+  },
+  {
+   "id": "player_054b",
+   "family": "player",
+   "code": "trunk_player_01",
+   "where": [
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_archer_hella__ext01_trunk_player_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_trunk_player_01.mesh",
+     "code": "trunk_player_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:player_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:6th_street_01",
+    "archer_hella__basic:combatcab_01",
+    "archer_hella__basic:player_01",
+    "archer_hella__basic:player_damaged_01",
+    "archer_hella__basic:poor_1",
+    "archer_hella__basic:poor_1_1",
+    "archer_hella__basic:poor_1_2",
+    "archer_hella__basic:poor_1_3",
+    "archer_hella__basic:poor_1_4",
+    "archer_hella__basic:poor_1_5",
+    "archer_hella__basic:poor_1_6",
+    "archer_hella__basic:poor_1_7",
+    "archer_hella__basic:poor_2",
+    "archer_hella__basic:poor_2_1",
+    "archer_hella__basic:poor_2_2",
+    "archer_hella__basic:poor_2_3",
+    "archer_hella__basic:poor_2_4",
+    "archer_hella__basic:poor_3",
+    "archer_hella__basic:poor_3_1",
+    "archer_hella__basic:poor_3_2",
+    "archer_hella__basic:poor_3_3",
+    "archer_hella__basic:poor_3_4",
+    "archer_hella__basic:poor_4",
+    "archer_hella__basic:poor_4_1",
+    "archer_hella__basic:poor_4_2",
+    "archer_hella__basic:q304_combatcab_01",
+    "archer_hella__basic:scavenger_1",
+    "archer_hella__basic:scavenger_2"
+   ],
+   "made_for": [
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:6th_street_01",
+    "look:combatcab_01",
+    "look:player_01",
+    "look:player_damaged_01",
+    "look:poor_1",
+    "look:poor_1_1",
+    "look:poor_1_2",
+    "look:poor_1_3",
+    "look:poor_1_4",
+    "look:poor_1_5",
+    "look:poor_1_6",
+    "look:poor_1_7",
+    "look:poor_2",
+    "look:poor_2_1",
+    "look:poor_2_2",
+    "look:poor_2_3",
+    "look:poor_2_4",
+    "look:poor_3",
+    "look:poor_3_1",
+    "look:poor_3_2",
+    "look:poor_3_3",
+    "look:poor_3_4",
+    "look:poor_4",
+    "look:poor_4_1",
+    "look:poor_4_2",
+    "look:q304_combatcab_01",
+    "look:scavenger_1",
+    "look:scavenger_2"
+   ]
+  },
+  {
+   "id": "police_9afe",
+   "family": "police",
+   "code": "kit_police_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "v_common_nomad_part__ext01_light_device_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_03.mesh",
+     "code": "light_device_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard2_archer_hella_police__ext01_body_01",
+     "slot": null,
+     "position": [
+      -0.8779,
+      1.1949,
+      0.2988
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_03_shadow.mesh",
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_common_nomad_part__ext01_sensor_medium_03",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03.mesh",
+     "code": "sensor_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard2_archer_hella_police__ext01_body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      -0.3121,
+      0.679
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_sensor_medium_03_shadow.mesh",
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_archer_hella_police__ext01_vehicle_lights_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_vehicle_lights_01.mesh",
+     "code": "police_vehicle_lights_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "v_standard2_archer_hella_police__ext01_body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_vehicle_lights_01_shadow.mesh",
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:deathrace_burnt_01",
+    "archer_hella__basic:police_01",
+    "archer_hella__basic:police_burnt_01"
+   ],
+   "made_for": [
+    "slot:base.body.police_body"
+   ],
+   "needs": [],
+   "origins": [
+    "look:deathrace_burnt_01",
+    "look:police_01",
+    "look:police_burnt_01"
+   ]
+  },
+  {
+   "id": "police_8686",
+   "family": "police",
+   "code": "kit_police_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_archer_hella_police__ext01_door_bl__01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_door_bl_01.mesh",
+     "code": "police_door_bl_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "v_standard2_archer_hella_police__ext01_door_br_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_door_br_01.mesh",
+     "code": "police_door_br_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:deathrace_01",
+    "archer_hella__basic:police_01",
+    "archer_hella_kurtz_basic_kurtz_1"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:deathrace_01",
+    "look:police_01",
+    "style:archer_hella_kurtz_basic_kurtz_1"
+   ]
+  },
+  {
+   "id": "police_88d0",
+   "family": "police",
+   "code": "kit_police_doors_2",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "door_fl_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_door_fl_01_decal_police.mesh",
+     "code": "police_door_fl_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_door_fr_01_decal_police.mesh",
+     "code": "police_door_fr_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "v_standard2_archer_hella_police__ext01_door_fl_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_door_fl_01.mesh",
+     "code": "police_door_fl_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_door_fl_01_shadow.mesh",
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "v_standard2_archer_hella_police__ext01_door_fr_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_door_fr_01.mesh",
+     "code": "police_door_fr_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_door_fr_01_shadow.mesh",
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:police_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:police_01"
+   ]
+  },
+  {
+   "id": "police_ba20",
+   "family": "police",
+   "code": "kit_police_hood_trunk",
+   "where": [
+    "hood",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_archer_hella_police__ext01_hood_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_hood_01.mesh",
+     "code": "police_hood_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "v_standard2_archer_hella_police__ext01_hood_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_hood_01_decal_police.mesh",
+     "code": "police_hood_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:hood_a"
+    },
+    {
+     "name": "v_standard2_archer_hella_police__ext01_trunk_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_trunk_01.mesh",
+     "code": "police_trunk_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:trunk_a"
+    },
+    {
+     "name": "v_standard2_archer_hella_police__ext01_trunk_01_decal_police",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_trunk_01_decal_police.mesh",
+     "code": "police_trunk_01_decal_police",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:police_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:police_01",
+    "archer_hella_kurtz_basic_kurtz_1",
+    "archer_hella_kurtz_basic_kurtz_2"
+   ],
+   "made_for": [
+    "slot:hood_a.hood",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "look:police_01",
+    "style:archer_hella_kurtz_basic_kurtz_1",
+    "style:archer_hella_kurtz_basic_kurtz_2"
+   ]
+  },
+  {
+   "id": "scavengers_00af",
+   "family": "scavengers",
+   "code": "kit_scavengers_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_scavengers_06",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_sticker_scavengers_06.mesh",
+     "code": "body_sticker_scavengers_06",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:scavenger_1",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_archer_hella__ext01_body_sticker_scavengers_02",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_sticker_scavengers_02.mesh",
+     "code": "body_sticker_scavengers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:scavenger_1",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_archer_hella__ext01_body_sticker_scavengers_03",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_sticker_scavengers_03.mesh",
+     "code": "body_sticker_scavengers_03",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:scavenger_1",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:scavenger_1",
+    "archer_hella__basic:scavenger_2"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:scavenger_1",
+    "look:scavenger_2"
+   ]
+  },
+  {
+   "id": "scavengers_668d",
+   "family": "scavengers",
+   "code": "kit_scavengers_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_scavengers_05",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_sticker_scavengers_05.mesh",
+     "code": "body_sticker_scavengers_05",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:scavenger_2",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_archer_hella__ext01_door_bl_sticker_scavengers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_door_bl_sticker_scavengers_01.mesh",
+     "code": "door_bl_sticker_scavengers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:scavenger_2",
+     "parent": "vehicle_slots:door_back_left_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:scavenger_2"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:scavenger_2"
+   ]
+  },
+  {
+   "id": "scavengers_d08d",
+   "family": "scavengers",
+   "code": "kit_scavengers_body_hood",
+   "where": [
+    "body",
+    "hood"
+   ],
+   "parts": [
+    {
+     "name": "v_standard2_archer_hella__ext01_body_sticker_scavengers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_sticker_scavengers_01.mesh",
+     "code": "body_sticker_scavengers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.01
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:scavenger_1",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_archer_hella__ext01_body_sticker_scavengers_04",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_body_sticker_scavengers_04.mesh",
+     "code": "body_sticker_scavengers_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:scavenger_1",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_standard2_archer_hella__ext01_hood_sticker_scavengers_01",
+     "mesh": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_hood_sticker_scavengers_01.mesh",
+     "code": "hood_sticker_scavengers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "hood_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.010229002684354782,
+      0.0002370000584051013,
+      -0.004124001134186983,
+      0.9999392628669739
+     ],
+     "shadow": null,
+     "look": "archer_hella__basic:scavenger_1",
+     "parent": "vehicle_slots:hood_a"
+    }
+   ],
+   "looks": [
+    "archer_hella__basic:scavenger_1"
+   ],
+   "made_for": [
+    "slot:hood_a.hood"
+   ],
+   "needs": [],
+   "origins": [
+    "look:scavenger_1"
+   ]
+  }
+ ],
+ "looks": {
+  "archer_hella__basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\standard\\archer_hella__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.interior": {
+     "all": "interior_trunk_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_bl": {
+     "all": "window_bl_02_01"
+    },
+    "base.window.window_br": {
+     "all": "window_br_02"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    }
+   }
+  },
+  "archer_hella_kurtz_basic_kurtz_3": {
+   "app": "ep1\\vehicles\\appearances\\standard\\archer_hella_kurtz_basic.app",
+   "app_look": "kurtz_3",
+   "style": "archer_hella_kurtz_basic_kurtz_3",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.police_bumper_b": {
+     "all": "v_standard2_archer_hella_police__ext01_bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.police_bumper_f": {
+     "all": "v_standard2_archer_hella_police__ext01_bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_03_fl",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_03_bl",
+     "br": "tire_03_br"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_03_fl",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_03_bl",
+     "br": "wheel_03_br"
+    },
+    "base.interior": {
+     "all": "interior_trunk_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.police_body": {
+     "all": "v_standard2_archer_hella_police__ext01_body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_bl": {
+     "all": "window_bl_02_01"
+    },
+    "base.window.window_br": {
+     "all": "window_br_02"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    }
+   }
+  },
+  "archer_hella_kurtz_basic_kurtz_1": {
+   "app": "ep1\\vehicles\\appearances\\standard\\archer_hella_kurtz_basic.app",
+   "app_look": "kurtz_1",
+   "style": "archer_hella_kurtz_basic_kurtz_1",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.police_bumper_b": {
+     "all": "v_standard2_archer_hella_police__ext01_bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.police_bumper_f": {
+     "all": "v_standard2_archer_hella_police__ext01_bumper_f_01"
+    },
+    "window.window.window_armored": {
+     "bl": "window_bl_01_armored",
+     "br": "window_br_01_armored"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_03",
+     "fr": "wheel_fr_03",
+     "bl": "wheel_bl_03",
+     "br": "wheel_br_03"
+    },
+    "base.interior": {
+     "all": "interior_trunk_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.police_body": {
+     "all": "v_standard2_archer_hella_police__ext01_body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_bl": {
+     "all": "window_bl_02_01"
+    },
+    "base.window.window_br": {
+     "all": "window_br_02"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    }
+   }
+  },
+  "archer_hella_kurtz_basic_kurtz_2": {
+   "app": "ep1\\vehicles\\appearances\\standard\\archer_hella_kurtz_basic.app",
+   "app_look": "kurtz_2",
+   "style": "archer_hella_kurtz_basic_kurtz_2",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_back.bumper.police_bumper_b": {
+     "all": "v_standard2_archer_hella_police__ext01_bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "bumper_front.bumper.police_bumper_f": {
+     "all": "v_standard2_archer_hella_police__ext01_bumper_f_01"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_03_fl",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_03_bl",
+     "br": "tire_03_br"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_03_fl",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_03_bl",
+     "br": "wheel_03_br"
+    },
+    "base.interior": {
+     "all": "interior_trunk_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.police_body": {
+     "all": "v_standard2_archer_hella_police__ext01_body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.window.window_bl": {
+     "all": "window_bl_02_01"
+    },
+    "base.window.window_br": {
+     "all": "window_br_02"
+    },
+    "base.window.window_f": {
+     "all": "window_f"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.394,
+   0.2784,
+   0.2489,
+   -0.1083
+  ],
+  "b": [
+   0.394,
+   0.2784,
+   0.2489,
+   -0.1083
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "085751de",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Hella EC-D i360",
+   "radius": 0.3745,
+   "width": 0.3035,
+   "rim_radius": 0.2785,
+   "tire_center": -0.0584,
+   "axles": [
+    "f"
+   ],
+   "looks": 25,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "archer_hella__basic:after_accident_01",
+    "archer_hella__basic:combatcab_01",
+    "archer_hella__basic:default",
+    "archer_hella__basic:ep_10",
+    "archer_hella__basic:poor_2",
+    "archer_hella__basic:poor_2_1",
+    "archer_hella__basic:poor_2_2",
+    "archer_hella__basic:poor_2_3",
+    "archer_hella__basic:poor_2_4",
+    "archer_hella__basic:poor_3",
+    "archer_hella__basic:poor_3_1",
+    "archer_hella__basic:poor_3_2",
+    "archer_hella__basic:poor_3_3",
+    "archer_hella__basic:poor_3_4",
+    "archer_hella__basic:q304_combatcab_01",
+    "archer_hella__basic:suburban_1",
+    "archer_hella__basic:suburban_1_1",
+    "archer_hella__basic:suburban_1_2",
+    "archer_hella__basic:suburban_1_3",
+    "archer_hella__basic:suburban_1_4",
+    "archer_hella__basic:suburban_2",
+    "archer_hella__basic:suburban_2_1",
+    "archer_hella__basic:suburban_2_2",
+    "archer_hella__basic:suburban_2_3",
+    "archer_hella__basic:suburban_2_4"
+   ]
+  },
+  {
+   "id": "5dbd1f1e",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Hella EC-D i360",
+   "radius": 0.3724,
+   "width": 0.3244,
+   "rim_radius": 0.2874,
+   "tire_center": -0.0736,
+   "axles": [
+    "b"
+   ],
+   "looks": 25,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "archer_hella__basic:after_accident_01",
+    "archer_hella__basic:combatcab_01",
+    "archer_hella__basic:default",
+    "archer_hella__basic:ep_10",
+    "archer_hella__basic:poor_2",
+    "archer_hella__basic:poor_2_1",
+    "archer_hella__basic:poor_2_2",
+    "archer_hella__basic:poor_2_3",
+    "archer_hella__basic:poor_2_4",
+    "archer_hella__basic:poor_3",
+    "archer_hella__basic:poor_3_1",
+    "archer_hella__basic:poor_3_2",
+    "archer_hella__basic:poor_3_3",
+    "archer_hella__basic:poor_3_4",
+    "archer_hella__basic:q304_combatcab_01",
+    "archer_hella__basic:suburban_1",
+    "archer_hella__basic:suburban_1_1",
+    "archer_hella__basic:suburban_1_2",
+    "archer_hella__basic:suburban_1_3",
+    "archer_hella__basic:suburban_1_4",
+    "archer_hella__basic:suburban_2",
+    "archer_hella__basic:suburban_2_1",
+    "archer_hella__basic:suburban_2_2",
+    "archer_hella__basic:suburban_2_3",
+    "archer_hella__basic:suburban_2_4"
+   ]
+  },
+  {
+   "id": "68729a25",
+   "rim": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_wheel_fl_police_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_villefort_cortes\\entities\\meshes\\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "",
+   "code": "wheel_fl_police_02",
+   "tire_code": "tire_fl_police_01",
+   "from": "Cortes V5000 Valor",
+   "radius": 0.394,
+   "width": 0.2784,
+   "rim_radius": 0.2489,
+   "tire_center": -0.1083,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 10,
+   "paints": [
+    "suburban_01",
+    "wraiths_01",
+    "player_01",
+    "aldecados_01",
+    "aldecados_02",
+    "wraiths_02"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "archer_hella__basic:deathrace_01",
+    "archer_hella__basic:police_01",
+    "archer_hella__basic:scavenger_2",
+    "archer_hella_kurtz_basic_kurtz_2",
+    "archer_hella_kurtz_basic_kurtz_3"
+   ]
+  },
+  {
+   "id": "07082344",
+   "rim": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sport\\v_sport1_quadra_turbo\\entities\\meshes\\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Turbo-R 740",
+   "radius": 0.3786,
+   "width": 0.639,
+   "rim_radius": 0.2803,
+   "tire_center": -0.1116,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 4,
+   "paints": [
+    "player",
+    "neomilitarism",
+    "entropism"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "archer_hella__basic:player_01",
+    "archer_hella__basic:player_damaged_01"
+   ]
+  },
+  {
+   "id": "7014b5dc",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_fl_03.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_tire_standard_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+   "code": "wheel_fl_03",
+   "tire_code": "tire_standard_fl_01",
+   "from": "Hella EC-D i360",
+   "radius": 0.369,
+   "width": 0.3087,
+   "rim_radius": 0.2494,
+   "tire_center": -0.0596,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 22,
+   "paints": [
+    "white_01",
+    "aldecados_02",
+    "wraiths_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "archer_hella__basic:6th_street_01",
+    "archer_hella__basic:poor_1",
+    "archer_hella__basic:poor_1_1",
+    "archer_hella__basic:poor_1_2",
+    "archer_hella__basic:poor_1_3",
+    "archer_hella__basic:poor_1_4",
+    "archer_hella__basic:poor_1_5",
+    "archer_hella__basic:poor_1_6",
+    "archer_hella__basic:poor_1_7",
+    "archer_hella__basic:scavenger_1",
+    "archer_hella_kurtz_basic_kurtz_1"
+   ]
+  },
+  {
+   "id": "6410dbec",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella_police__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_hella\\entities\\meshes\\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh",
+   "code": "police_wheel_fl_01",
+   "tire_code": "police_tire_fl_01",
+   "from": "Hella EC-D i360",
+   "radius": 0.3724,
+   "width": 0.3017,
+   "rim_radius": 0.2652,
+   "tire_center": -0.0504,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 6,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "archer_hella__basic:poor_4",
+    "archer_hella__basic:poor_4_1",
+    "archer_hella__basic:poor_4_2"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Hella EC-D i360"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+Outlaw (herrera_outlaw_basic_01), from base\vehicles\sport\v_sport1_herrera_outlaw_basic_01.ent
+records: Vehicle.v_sport1_herrera_outlaw_player
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  premium_01               Premium          5 looks
+                                            paints: premium_02, premium_03, premium_04, player_01
+  premium_05               Premium 05       6 looks
+                                            paints: premium_06, premium_07, premium_08, premium_09, mafia_01
+WRECKS: burnt_01
+
+SLOTS (8)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                    10 paints  11 looks  [car: v_sport1_herrera_outlaw] [style: Premium] [style: Premium 05]
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                     9 paints  11 looks  [car: v_sport1_herrera_outlaw] [style: Premium] [style: Premium 05]
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                         9 paints  11 looks  [car: v_sport1_herrera_outlaw] [style: Premium] [style: Premium 05]
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                        9 paints  11 looks  [car: v_sport1_herrera_outlaw] [style: Premium] [style: Premium 05]
+  Body [base.body] (Base): 1 options
+    body_01                                         9 paints  12 looks  [car: v_sport1_herrera_outlaw] [style: Premium] [style: Premium 05] [wreck: burnt_01]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     6 paints  12 looks  [car: v_sport1_herrera_outlaw] [style: Premium] [style: Premium 05] [wreck: burnt_01]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    wheel_outlaw_02                                 0 paints   6 looks  [car: v_sport1_herrera_outlaw] [style: Premium 05]
+    wheel_outlaw                                    0 paints   5 looks  [car: v_sport1_herrera_outlaw] [style: Premium]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_a_01 + door_01                             9 paints  11 looks  [car: v_sport1_herrera_outlaw] [style: Premium] [style: Premium 05]
+
+KITS (0)

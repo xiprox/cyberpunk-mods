@@ -1,0 +1,25 @@
+Bratsk U4020 (kaukaz_bratsk_dogtown_container_truck_01_ep1), from ep1\vehicles\utility\v_utility4_kaukaz_bratsk_dogtown_container_truck_01.ent
+records: Vehicle.v_utility4_kaukaz_bratsk_container_dogtown_ow
+generated 2026-11-08
+
+STYLES (1; a style's other looks are its factory paints)
+  kaukaz_bratsk_barghest_container_truck_dogtown_01 Kaukaz bratsk barghest container truck dogtown 6 looks
+                                            paints: kaukaz_bratsk_barghest_container_truck_dogtown_02, kaukaz_bratsk_barghest_container_truck_dogtown_03, kaukaz_bratsk_barghest_container_truck_dogtown_04, kaukaz_bratsk_barghest_container_truck_dogtown_05, kaukaz_bratsk_barghest_container_truck_dogtown_06
+WRECKS: kaukaz_bratsk_barghest_container_truck_burnt_01
+
+SLOTS (6)
+  Body [base.body] (Base): 1 options
+    body_01                                        17 paints  12 looks  [car: Bratsk U4020] [look: container_truck_barghest_01] [look: container_truck_barghest_02] [look: container_truck_barghest_03] [look: container_truck_barghest_04] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     2 paints  12 looks  [car: Bratsk U4020] [look: container_truck_barghest_01] [look: container_truck_barghest_02] [look: container_truck_barghest_03] [look: container_truck_barghest_04] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_01                                         4 paints  11 looks  [car: Bratsk U4020] [look: container_truck_barghest_01] [look: container_truck_barghest_02] [look: container_truck_barghest_03] [look: container_truck_barghest_04] ...
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                        17 paints  11 looks  [car: Bratsk U4020] [look: container_truck_barghest_01] [look: container_truck_barghest_02] [look: container_truck_barghest_03] [look: container_truck_barghest_04] ...
+  Front bumper (d) [bumper_front_d.bumper] (bumper_front_d): 1 options
+    bumper_f_01                                    17 paints  11 looks  [car: Bratsk U4020] [look: container_truck_barghest_01] [look: container_truck_barghest_02] [look: container_truck_barghest_03] [look: container_truck_barghest_04] ...
+  Tires (b) [wheel_b.tire] (wheel_front_left_b, wheel_front_right_b): 1 options
+    tire_01                                         4 paints  11 looks  [car: Bratsk U4020] [look: container_truck_barghest_01] [look: container_truck_barghest_02] [look: container_truck_barghest_03] [look: container_truck_barghest_04] ...
+
+KITS (1)
+  kit_barghest_body                              3 parts   5 looks  [look: container_truck_barghest_01] [look: container_truck_barghest_02] [look: container_truck_barghest_03] [look: container_truck_barghest_04] [look: container_truck_barghest_05]

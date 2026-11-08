@@ -1,0 +1,3593 @@
+{
+ "id": "herrera_riptide_01_ep1",
+ "label": "Riptide \"Terrier\"",
+ "entity": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide_01.ent",
+ "family": "v_sport1_herrera_riptide",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_sport1_herrera_riptide_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "urban_01",
+   "code": "urban_01",
+   "label": "Urban",
+   "base_look": "herrera_riptide__basic_urban_01",
+   "looks": [
+    "herrera_riptide__basic_urban_01",
+    "herrera_riptide__basic_urban_02",
+    "herrera_riptide__basic_urban_03",
+    "herrera_riptide__basic_urban_04",
+    "herrera_riptide__basic_urban_05",
+    "herrera_riptide__basic_urban_06",
+    "herrera_riptide__basic_urban_07",
+    "herrera_riptide__basic_urban_08",
+    "herrera_riptide__basic_urban_09",
+    "herrera_riptide__basic_urban_10",
+    "herrera_riptide__basic_web_01",
+    "herrera_riptide__basic_suburban_01",
+    "herrera_riptide__basic_suburban_02",
+    "herrera_riptide__basic_suburban_03",
+    "herrera_riptide__basic_suburban_04",
+    "herrera_riptide__basic_suburban_05",
+    "herrera_riptide__basic_suburban_06",
+    "herrera_riptide__basic_suburban_07",
+    "herrera_riptide__basic_suburban_08",
+    "herrera_riptide__basic_suburban_09",
+    "herrera_riptide__basic_suburban_10"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd4593a4",
+    "bumper_back.bumper": "ad23e5de",
+    "hood_a.hood": "7e2a69cf",
+    "hood_a.window": "1d453cab",
+    "trunk_a.trunk": "bcd9cc0c",
+    "base.body": "979a808d",
+    "base.interior": "8cd72e9b",
+    "wheel.wheel": "8b83288b",
+    "door_b.door": "ae44202a",
+    "door_c.door": "ff30a5cd",
+    "roof_a.roof": "c306555e",
+    "roof_a.window": "e219dbfb",
+    "roof_a.window.window_fl_b": "58722ac2",
+    "roof_a.window.window_fr_b": "83beb1b6",
+    "trunk_b.trunk": "b8bad630",
+    "window.window": "ee6b8633"
+   },
+   "kits": []
+  },
+  {
+   "id": "player_01",
+   "code": "player_01",
+   "label": "V's own",
+   "base_look": "herrera_riptide__basic_player_01",
+   "looks": [
+    "herrera_riptide__basic_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "dd4593a4",
+    "bumper_back.bumper": "6e61033f",
+    "hood_a.hood": "7e2a69cf",
+    "hood_a.window": "1d453cab",
+    "trunk_a.trunk": "bcd9cc0c",
+    "base.body": "979a808d",
+    "base.interior": "8cd72e9b",
+    "wheel.wheel": "8b83288b",
+    "door_b.door": "ae44202a",
+    "door_c.door": "ff30a5cd",
+    "roof_a.roof": "c306555e",
+    "roof_a.window": "e219dbfb",
+    "roof_a.window.window_fl_b": "58722ac2",
+    "roof_a.window.window_fr_b": "83beb1b6",
+    "trunk_b.trunk": "42e2554e",
+    "window.window": "ee6b8633"
+   },
+   "kits": [
+    "player_2cc1"
+   ]
+  }
+ ],
+ "wrecks": [
+  "herrera_riptide__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "dd4593a4",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_02",
+     "paints": [
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "urban_02",
+      "urban_03",
+      "urban_05",
+      "urban_04",
+      "player_01",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "suburban_09",
+      "suburban_10",
+      "urban_06",
+      "urban_07",
+      "urban_08",
+      "urban_09",
+      "urban_10",
+      "suburban_01",
+      "urban_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "ad23e5de",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_02",
+     "paints": [
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "urban_02",
+      "urban_03",
+      "urban_05",
+      "urban_04",
+      "player_01",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "suburban_09",
+      "suburban_10",
+      "urban_06",
+      "urban_07",
+      "urban_08",
+      "urban_09",
+      "urban_10",
+      "suburban_01",
+      "urban_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "6e61033f",
+     "code": "bumper_b_player_02",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_bumper_b_player_02.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_01",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "7e2a69cf",
+     "code": "engine_hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_engine_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_engine_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_02",
+     "paints": [
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "urban_02",
+      "urban_03",
+      "urban_05",
+      "urban_04",
+      "player_01",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "suburban_09",
+      "suburban_10",
+      "urban_06",
+      "urban_07",
+      "urban_08",
+      "urban_09",
+      "urban_10",
+      "suburban_01",
+      "urban_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.window",
+   "label": "Window (hood_a)",
+   "kind": "window",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_b_01"
+   ],
+   "options": [
+    {
+     "id": "1d453cab",
+     "code": "window_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_window_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black_01",
+      "white_silver"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "bcd9cc0c",
+     "code": "trunk_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_trunk_a_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_trunk_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_02",
+     "paints": [
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "urban_02",
+      "urban_03",
+      "urban_05",
+      "urban_04",
+      "player_01",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "suburban_09",
+      "suburban_10",
+      "urban_06",
+      "urban_07",
+      "urban_08",
+      "urban_09",
+      "urban_10",
+      "suburban_01",
+      "urban_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "979a808d",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_02",
+     "paints": [
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "urban_03",
+      "suburban_01",
+      "urban_02",
+      "urban_05",
+      "urban_04",
+      "player_01",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "suburban_09",
+      "suburban_10",
+      "urban_06",
+      "urban_07",
+      "urban_08",
+      "urban_09",
+      "urban_10",
+      "urban_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_burnt_01",
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "8cd72e9b",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_01",
+     "paints": [
+      "suburban_02",
+      "player_01",
+      "suburban_04",
+      "suburban_03",
+      "suburban_01",
+      "suburban_05",
+      "urban_01",
+      "urban_02",
+      "urban_03",
+      "urban_04",
+      "urban_05"
+     ],
+     "looks": [
+      "herrera_riptide__basic_burnt_01",
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_<c>_a_01",
+    "wheel_<c>_b_01"
+   ],
+   "options": [
+    {
+     "id": "8b83288b",
+     "code": "wheel_01 + wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_wheel_f_b_01.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_wheel_f_b_01.mesh",
+      "bl": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_wheel_b_a_01.mesh",
+      "br": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_wheel_b_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "green_01",
+      "purple_01",
+      "yellow_01",
+      "blue_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_b.door",
+   "label": "Doors (b)",
+   "kind": "door",
+   "group": "door_b",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_b",
+    "door_front_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "ae44202a",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_door_fl_b_01.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_door_fr_b_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_door_fl_b_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_door_fr_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_02",
+     "paints": [
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "urban_02",
+      "urban_03",
+      "urban_05",
+      "urban_04",
+      "player_01",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "suburban_09",
+      "suburban_10",
+      "urban_06",
+      "urban_07",
+      "urban_08",
+      "urban_09",
+      "urban_10",
+      "suburban_01",
+      "urban_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door_c.door",
+   "label": "Doors (c)",
+   "kind": "door",
+   "group": "door_c",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_c",
+    "door_front_right_c"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_c"
+   ],
+   "options": [
+    {
+     "id": "ff30a5cd",
+     "code": "door_c_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_door_fl_c_01.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_door_fr_c_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_door_fl_c_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_door_fr_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_02",
+     "paints": [
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "urban_02",
+      "urban_03",
+      "urban_05",
+      "urban_04",
+      "player_01",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "suburban_09",
+      "suburban_10",
+      "urban_06",
+      "urban_07",
+      "urban_08",
+      "urban_09",
+      "urban_10",
+      "suburban_01",
+      "urban_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roof_a.roof",
+   "label": "Roof",
+   "kind": "roof",
+   "group": "roof_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "roof_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "roof_a_01"
+   ],
+   "options": [
+    {
+     "id": "c306555e",
+     "code": "roof_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_roof_a_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_roof_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_02",
+     "paints": [
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "urban_02",
+      "urban_05",
+      "urban_04",
+      "player_01",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "suburban_09",
+      "suburban_10",
+      "urban_06",
+      "urban_07",
+      "urban_08",
+      "urban_09",
+      "urban_10",
+      "suburban_01",
+      "urban_01",
+      "urban_03"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roof_a.window",
+   "label": "Window (roof_a): front a",
+   "kind": "window",
+   "group": "roof_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "roof_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f_a_01"
+   ],
+   "options": [
+    {
+     "id": "e219dbfb",
+     "code": "window_f_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_window_f_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black_01",
+      "white_silver"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roof_a.window.window_fl_b",
+   "label": "Window (roof_a): front left back",
+   "kind": "window",
+   "group": "roof_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "roof_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_fl_b_01"
+   ],
+   "options": [
+    {
+     "id": "58722ac2",
+     "code": "window_fl_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_window_fl_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black_01",
+      "white_silver"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roof_a.window.window_fr_b",
+   "label": "Window (roof_a): front right back",
+   "kind": "window",
+   "group": "roof_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "roof_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_fr_b_01"
+   ],
+   "options": [
+    {
+     "id": "83beb1b6",
+     "code": "window_fr_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_window_fr_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black_01",
+      "white_silver"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_b.trunk",
+   "label": "Trunk (b)",
+   "kind": "trunk",
+   "group": "trunk_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_b_01"
+   ],
+   "options": [
+    {
+     "id": "b8bad630",
+     "code": "trunk_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_trunk_b_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_trunk_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "urban_02",
+     "paints": [
+      "suburban_02",
+      "suburban_03",
+      "suburban_04",
+      "suburban_05",
+      "urban_02",
+      "urban_03",
+      "urban_05",
+      "urban_04",
+      "player_01",
+      "suburban_06",
+      "suburban_07",
+      "suburban_08",
+      "suburban_09",
+      "suburban_10",
+      "urban_06",
+      "urban_07",
+      "urban_08",
+      "urban_09",
+      "urban_10",
+      "suburban_01",
+      "urban_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:urban_01"
+     ]
+    },
+    {
+     "id": "42e2554e",
+     "code": "trunk_b_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_trunk_b_player_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_trunk_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_01",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "window.window",
+   "label": "Side windows",
+   "kind": "window",
+   "group": "window",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "window_front_left_a",
+    "window_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "ee6b8633",
+     "code": "window_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_window_fl_a_01.mesh",
+      "fr": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_window_fr_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "black_01",
+      "white_silver"
+     ],
+     "looks": [
+      "herrera_riptide__basic_player_01",
+      "herrera_riptide__basic_suburban_01",
+      "herrera_riptide__basic_suburban_02",
+      "herrera_riptide__basic_suburban_03",
+      "herrera_riptide__basic_suburban_04",
+      "herrera_riptide__basic_suburban_05",
+      "herrera_riptide__basic_suburban_06",
+      "herrera_riptide__basic_suburban_07",
+      "herrera_riptide__basic_suburban_08",
+      "herrera_riptide__basic_suburban_09",
+      "herrera_riptide__basic_suburban_10",
+      "herrera_riptide__basic_urban_01",
+      "herrera_riptide__basic_urban_02",
+      "herrera_riptide__basic_urban_03",
+      "herrera_riptide__basic_urban_04",
+      "herrera_riptide__basic_urban_05",
+      "herrera_riptide__basic_urban_06",
+      "herrera_riptide__basic_urban_07",
+      "herrera_riptide__basic_urban_08",
+      "herrera_riptide__basic_urban_09",
+      "herrera_riptide__basic_urban_10",
+      "herrera_riptide__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:urban_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "player_2cc1",
+   "family": "player",
+   "code": "bumper_b_player_01",
+   "where": [
+    "bumper"
+   ],
+   "parts": [
+    {
+     "name": "bumper_b_player_01",
+     "mesh": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_bumper_b_player_01.mesh",
+     "code": "bumper_b_player_01",
+     "paint": "player_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "herrera_riptide__basic_player_01",
+     "parent": "vehicle_slots:bumper_back"
+    }
+   ],
+   "looks": [
+    "herrera_riptide__basic_player_01"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper"
+   ],
+   "needs": [],
+   "origins": [
+    "style:player_01"
+   ]
+  }
+ ],
+ "looks": {
+  "herrera_riptide__basic_urban_01": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_05": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_05",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_01": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_04": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_04",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_03": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_03",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_urban_02": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_02",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_02": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_02",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_urban_05": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_05",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_urban_03": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_03",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_urban_04": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_04",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_burnt_01": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_player_01": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "player_01",
+   "style": "player_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_10": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_10",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_urban_10": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_10",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_urban_07": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_07",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_urban_08": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_08",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_09": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_09",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_urban_06": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_06",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_urban_09": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "urban_09",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_06": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_06",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_07": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_07",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_suburban_08": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "suburban_08",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  },
+  "herrera_riptide__basic_web_01": {
+   "app": "ep1\\vehicles\\appearances\\sport\\herrera_riptide__basic.app",
+   "app_look": "web_01",
+   "style": "urban_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door_b.door": {
+     "fl": "door_fl_b",
+     "fr": "door_fr_b"
+    },
+    "window.window": {
+     "fl": "window_fl_a",
+     "fr": "window_fr_a"
+    },
+    "door_c.door": {
+     "fl": "door_fl_c",
+     "fr": "door_fr_c"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "hood_a.window": {
+     "all": "window_b_01"
+    },
+    "roof_a.roof": {
+     "all": "roof_a_01"
+    },
+    "roof_b.roof": {
+     "all": "roof_b_01"
+    },
+    "roof_a.window": {
+     "all": "window_f_a_01"
+    },
+    "roof_a.window.window_fl_b": {
+     "all": "window_fl_b_01"
+    },
+    "roof_a.window.window_fr_b": {
+     "all": "window_fr_b_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl_b_01",
+     "fr": "wheel_fr_b_01",
+     "bl": "wheel_bl_a_01",
+     "br": "wheel_br_a_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_fl_a_01",
+     "fr": "tire_fr_a_01",
+     "bl": "tire_bl_a_01",
+     "br": "tire_br_a_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "door_d.door": {
+     "fl": "door_fl_d_01",
+     "fr": "door_fr_d_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.367,
+   0.3614,
+   0.2716,
+   -0.0158
+  ],
+  "b": [
+   0.4116,
+   0.4393,
+   0.2978,
+   -0.02
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "8c6f5a02",
+   "rim": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_wheel_b_a_01.mesh",
+   "tire": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_tire_b_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_wheel_b_01_shadow.mesh",
+   "code": "wheel_b_a_01",
+   "tire_code": "tire_b_01",
+   "from": "Riptide \"Terrier\"",
+   "radius": 0.4116,
+   "width": 0.4393,
+   "rim_radius": 0.2978,
+   "tire_center": -0.02,
+   "axles": [
+    "b"
+   ],
+   "looks": 22,
+   "paints": [
+    "green_01",
+    "purple_01",
+    "yellow_01",
+    "blue_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "herrera_riptide__basic_player_01",
+    "herrera_riptide__basic_suburban_01",
+    "herrera_riptide__basic_suburban_02",
+    "herrera_riptide__basic_suburban_03",
+    "herrera_riptide__basic_suburban_04",
+    "herrera_riptide__basic_suburban_05",
+    "herrera_riptide__basic_suburban_06",
+    "herrera_riptide__basic_suburban_07",
+    "herrera_riptide__basic_suburban_08",
+    "herrera_riptide__basic_suburban_09",
+    "herrera_riptide__basic_suburban_10",
+    "herrera_riptide__basic_urban_01",
+    "herrera_riptide__basic_urban_02",
+    "herrera_riptide__basic_urban_03",
+    "herrera_riptide__basic_urban_04",
+    "herrera_riptide__basic_urban_05",
+    "herrera_riptide__basic_urban_06",
+    "herrera_riptide__basic_urban_07",
+    "herrera_riptide__basic_urban_08",
+    "herrera_riptide__basic_urban_09",
+    "herrera_riptide__basic_urban_10",
+    "herrera_riptide__basic_web_01"
+   ]
+  },
+  {
+   "id": "d7dbe5cd",
+   "rim": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_wheel_f_b_01.mesh",
+   "tire": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_tire_f_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\sport\\v_sport1_herrera_riptide\\entities\\meshes\\v_sport1_herrera_riptide__ext01_wheel_f_01_shadow.mesh",
+   "code": "wheel_f_b_01",
+   "tire_code": "tire_f_01",
+   "from": "Riptide \"Terrier\"",
+   "radius": 0.367,
+   "width": 0.3614,
+   "rim_radius": 0.2716,
+   "tire_center": -0.0158,
+   "axles": [
+    "f"
+   ],
+   "looks": 22,
+   "paints": [
+    "green_01",
+    "purple_01",
+    "yellow_01",
+    "blue_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "herrera_riptide__basic_player_01",
+    "herrera_riptide__basic_suburban_01",
+    "herrera_riptide__basic_suburban_02",
+    "herrera_riptide__basic_suburban_03",
+    "herrera_riptide__basic_suburban_04",
+    "herrera_riptide__basic_suburban_05",
+    "herrera_riptide__basic_suburban_06",
+    "herrera_riptide__basic_suburban_07",
+    "herrera_riptide__basic_suburban_08",
+    "herrera_riptide__basic_suburban_09",
+    "herrera_riptide__basic_suburban_10",
+    "herrera_riptide__basic_urban_01",
+    "herrera_riptide__basic_urban_02",
+    "herrera_riptide__basic_urban_03",
+    "herrera_riptide__basic_urban_04",
+    "herrera_riptide__basic_urban_05",
+    "herrera_riptide__basic_urban_06",
+    "herrera_riptide__basic_urban_07",
+    "herrera_riptide__basic_urban_08",
+    "herrera_riptide__basic_urban_09",
+    "herrera_riptide__basic_urban_10",
+    "herrera_riptide__basic_web_01"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "herrera_riptide__basic_player_01",
+   "Riptide \"Terrier\""
+  ]
+ ]
+}

@@ -1,0 +1,128 @@
+﻿base\vehicles\appearances\standard\archer_quartz_nomad.app looks: ['aldecados_01', 'wraiths_01', 'wraiths_01_1', 'burnt_01', 'aldecados_01_1', 'wraiths_02', 'wraiths_03', 'wraiths_04', 'wraiths_05', 'aldecados_02']
+look aldecados_01 objects 335
+
+sensor_medium_02_shadow  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_02_shadow.mesh
+  paint default
+  bound to sensor_medium_02 / None
+  local position, rotation None
+  raw localTransform None
+
+sensor_medium_02  (entPhysicalMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_02.mesh
+  paint dusty_01
+  bound to vehicle_slots / Base
+  local position, rotation ((-0.6987, 1.8611, -0.0768), (0.0, 0.0, 0.0, 1.0))
+  raw localTransform {'Position': {'x': {'Bits': -91582}, 'y': {'Bits': 243942}, 'z': {'Bits': -10060}}, 'Orientation': {'i': 0.0, 'j': 0.0, 'k': 0.0, 'r': 1.0}}
+
+detector_medium_01  (entPhysicalMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01.mesh
+  paint dusty_light_01
+  bound to vehicle_slots / Base
+  local position, rotation ((-0.5849, 1.8777, -0.3633), (-0.3234716057777405, 0.01798982359468937, 0.28419190645217896, 0.902373194694519))
+  raw localTransform {'Position': {'x': {'Bits': -76663}, 'y': {'Bits': 246115}, 'z': {'Bits': -47616}}, 'Orientation': {'i': -0.3234716057777405, 'j': 0.01798982359468937, 'k': 0.28419190645217896, 'r': 0.902373194694519}}
+
+detector_medium_02  (entPhysicalMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01.mesh
+  paint dusty_light_01
+  bound to vehicle_slots / Base
+  local position, rotation ((-0.549, 1.758, -0.4821), (-0.5109809637069702, -0.00717252679169178, 0.220456063747406, 0.830810546875))
+  raw localTransform {'Position': {'x': {'Bits': -71962}, 'y': {'Bits': 230430}, 'z': {'Bits': -63186}}, 'Orientation': {'i': -0.5109809637069702, 'j': -0.00717252679169178, 'k': 0.220456063747406, 'r': 0.830810546875}}
+
+detector_medium_03  (entPhysicalMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01.mesh
+  paint dusty_light_01
+  bound to vehicle_slots / Base
+  local position, rotation ((0.5519, 1.7663, -0.4801), (-0.5034176707267761, 0.09020686149597168, -0.2860584259033203, 0.8103110194206238))
+  raw localTransform {'Position': {'x': {'Bits': 72335}, 'y': {'Bits': 231511}, 'z': {'Bits': -62934}}, 'Orientation': {'i': -0.5034176707267761, 'j': 0.09020686149597168, 'k': -0.2860584259033203, 'r': 0.8103110194206238}}
+
+detector_medium_04  (entPhysicalMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01.mesh
+  paint dusty_light_01
+  bound to vehicle_slots / Base
+  local position, rotation ((0.6013, 1.8779, -0.3702), (-0.2870721220970154, 0.02518811635673046, -0.28702107071876526, 0.9135502576828003))
+  raw localTransform {'Position': {'x': {'Bits': 78811}, 'y': {'Bits': 246142}, 'z': {'Bits': -48526}}, 'Orientation': {'i': -0.2870721220970154, 'j': 0.02518811635673046, 'k': -0.28702107071876526, 'r': 0.9135502576828003}}
+
+v_common_nomad_part__ext01_detector_medium_01_shadow  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh
+  paint default
+  bound to detector_medium_04 / None
+  local position, rotation None
+  raw localTransform None
+
+v_common_nomad_part__ext01_detector_medium_01_shadow4203  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh
+  paint default
+  bound to detector_medium_03 / None
+  local position, rotation None
+  raw localTransform None
+
+v_common_nomad_part__ext01_detector_medium_01_shadow4268  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh
+  paint default
+  bound to detector_medium_01 / None
+  local position, rotation None
+  raw localTransform None
+
+v_common_nomad_part__ext01_detector_medium_01_shadow6882  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_detector_medium_01_shadow.mesh
+  paint default
+  bound to detector_medium_02 / None
+  local position, rotation None
+  raw localTransform None
+
+v_common_nomad_part__ext01_electric_device_04  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_electric_device_04.mesh
+  paint dusty
+  bound to door_fr_a / None
+  local position, rotation ((-0.0254, -0.2782, 0.3171), (0.3489508330821991, -0.3511720895767212, 0.6230714917182922, -0.6055521368980408))
+  raw localTransform {'Position': {'x': {'Bits': -3327}, 'y': {'Bits': -36464}, 'z': {'Bits': 41559}}, 'Orientation': {'i': 0.3489508330821991, 'j': -0.3511720895767212, 'k': 0.6230714917182922, 'r': -0.6055521368980408}}
+
+v_common_nomad_part__ext01_electric_device_04_shadow  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_electric_device_04_shadow.mesh
+  paint default
+  bound to v_common_nomad_part__ext01_electric_device_04 / None
+  local position, rotation None
+  raw localTransform None
+
+0  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_01_shadow.mesh
+  paint default
+  bound to sensor_medium_01 / None
+  local position, rotation None
+  raw localTransform None
+
+sensor_medium_01  (entPhysicalMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_01.mesh
+  paint dusty_01
+  bound to door_fr_a / None
+  local position, rotation ((-0.039, -0.2712, 0.3232), (0.0, 0.0, 0.0, 1.0))
+  raw localTransform {'Position': {'x': {'Bits': -5106}, 'y': {'Bits': -35553}, 'z': {'Bits': 42369}}, 'Orientation': {'i': 0.0, 'j': 0.0, 'k': 0.0, 'r': 1.0}}
+
+sensor_medium_03_shadow  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_03_shadow.mesh
+  paint default
+  bound to sensor_medium_03 / None
+  local position, rotation None
+  raw localTransform None
+
+sensor_medium_03  (entPhysicalMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_sensor_medium_03.mesh
+  paint dusty_01
+  bound to hood_a / None
+  local position, rotation ((-0.3042, 0.5842, -0.1002), (0.01833653636276722, -0.023406602442264557, 0.00019334160606376827, 0.9995578527450562))
+  raw localTransform {'Position': {'x': {'Bits': -39871}, 'y': {'Bits': 76578}, 'z': {'Bits': -13132}}, 'Orientation': {'i': 0.01833653636276722, 'j': -0.023406602442264557, 'k': 0.00019334160606376827, 'r': 0.9995578527450562}}
+
+light_device_medium_04_shadow  (entMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_light_device_medium_04_shadow.mesh
+  paint default
+  bound to light_device_medium_04 / None
+  local position, rotation None
+  raw localTransform None
+
+light_device_medium_04  (entPhysicalMeshComponent)
+  mesh base\vehicles\common\parts\v_common__nomad\entities\meshes\v_common_nomad_part__ext01_light_device_medium_04.mesh
+  paint default
+  bound to vehicle_slots / Base
+  local position, rotation ((-0.0006, 1.0705, 0.3072), (0.0, 0.0, 0.0, 1.0))
+  raw localTransform {'Position': {'x': {'Bits': -74}, 'y': {'Bits': 140315}, 'z': {'Bits': 40262}}, 'Orientation': {'i': 0.0, 'j': 0.0, 'k': 0.0, 'r': 1.0}}

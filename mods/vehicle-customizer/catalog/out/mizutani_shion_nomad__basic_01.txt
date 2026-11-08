@@ -1,0 +1,67 @@
+Shion "Samum" (mizutani_shion_nomad__basic_01), from base\vehicles\sport\v_sport2_mizutani_shion_nomad__basic_01.ent
+records: Vehicle.v_sport2_mizutani_shion_nomad_02_player, Vehicle.v_sport2_mizutani_shion_nomad_player, Vehicle.v_sport2_mizutani_shion_nomad_player_missiles
+generated 2026-11-08
+
+STYLES (5; a style's other looks are its factory paints)
+  mizutani_shion_nomad_aldecados_01 Mizutani shion nomad aldecados 8 looks
+                                            paints: mizutani_shion_nomad_aldecados_03, mizutani_shion_nomad_aldecados_04, mizutani_shion_nomad_aldecados_05, mizutani_shion_nomad_wraiths_01, mizutani_shion_nomad_wraiths_05, mizutani_shion_nomad_deathrace_01, mizutani_shion_nomad_aldecados_03_missiles
+                                            kits: kit_nomad_body_doors_trunk, kit_nomad_body_bumper_doors_hood, kit_nomad_body, kit_nomad_body_2
+  mizutani_shion_nomad_player_01 Mizutani shion nomad player 1 looks
+                                            kits: kit_nomad_body_doors_trunk, kit_nomad_body_bumper_doors_hood, kit_nomad_body, kit_nomad_body_2
+  mizutani_shion_nomad_player_02 Mizutani shion nomad player 02 3 looks
+                                            paints: mizutani_shion_nomad_aldecados_02, mizutani_shion_nomad_aldecados_02_missiles
+                                            kits: kit_nomad_body_doors_trunk, kit_nomad_body_bumper_doors_hood, kit_nomad_body, kit_nomad_body_2
+  mizutani_shion_nomad_wraiths_02 Mizutani shion nomad wraiths 02 4 looks
+                                            paints: mizutani_shion_nomad_wraiths_04, mizutani_shion_nomad_wraiths_02_missiles, mizutani_shion_nomad_aldecados_05_missiles
+                                            kits: kit_nomad_body_doors_trunk, kit_nomad_body_bumper_doors_hood, kit_nomad_body, kit_nomad_body_2
+  mizutani_shion_nomad_wraiths_03 Mizutani shion nomad wraiths 03 4 looks
+                                            paints: mizutani_shion_nomad_player_01_missiles, mizutani_shion_nomad_wraiths_03_missiles, mizutani_shion_nomad_wraiths_05_missiles
+                                            kits: kit_nomad_body_doors_trunk, kit_nomad_body_bumper_doors_hood, kit_nomad_body, kit_nomad_body_2
+WRECKS: mizutani_shion_nomad_burnt_01
+
+SLOTS (16)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                     4 paints  21 looks  [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                     4 paints  21 looks  [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] ...
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                         8 paints  21 looks  [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                        3 paints  20 looks  [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] [style: Mizutani shion nomad wraiths 03]
+  Body [base.body] (Base): 2 options
+    body_01                                        13 paints  22 looks  [look: burnt_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] ...
+    body_technical_01                               1 paints   1 looks  [look: technical_01]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     3 paints  23 looks  [look: burnt_01] [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] ...
+  Spoiler [base.spoiler] (Base): 1 options
+    spoiler_b_01                                   11 paints   9 looks  [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player]
+  Trunk [base.trunk] (Base): 1 options
+    trunk_b_01                                      3 paints   5 looks  [car: Quartz "Specter"] [look: technical_01] [style: Mizutani shion nomad wraiths 03]
+  Windshield [base.window] (Base): 1 options
+    window_f_01                                     4 paints  23 looks  [look: burnt_01] [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_a_01                                       9 paints  21 looks  [car: Galena "Gecko"] [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] ...
+  Rims: a [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    wheel_a_01                                     10 paints  21 looks  [car: Galena "Gecko"] [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] ...
+  Rims: main [wheel.wheel.wheel] (wheel_back_left, wheel_back_right): 2 options
+    wheel_01                                        7 paints  17 looks  [car: Thrax 388 Jefferson] [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad wraiths 02] [style: Mizutani shion nomad wraiths 03]
+    wheel_03                                        3 paints   4 looks  [car: Hella EC-D i360] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 2 options
+    door_a_01                                      46 paints  20 looks  [car: Shion MZ1] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] ...
+    door_a_01                                       1 paints   1 looks  [look: technical_01]
+  Doors (c) [door_c.door] (door_front_left_c, door_front_right_c): 1 options
+    door_c_01                                      30 paints  21 looks  [car: Shion MZ1] [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] ...
+  Body (rotor_a) [rotor_a.body] (rotor_a): 1 options
+    body_rotor_01                                   4 paints  23 looks  [look: burnt_01] [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] ...
+  Side windows [window.window] (window_front_left_a, window_front_right_a): 1 options
+    window_01                                       4 paints  21 looks  [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] ...
+
+KITS (5)
+  kit_nomad_body                                 18 parts  23 looks  [look: burnt_01] [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] ...
+  kit_nomad_body_2                               2 parts  22 looks  [look: burnt_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] ...
+  kit_nomad_body_bumper_doors_hood               12 parts  21 looks  [look: technical_01] [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] ...
+                                                 made to sit on Rear bumper, Doors, Hood, Side windows
+  kit_nomad_body_doors_trunk                     5 parts  20 looks  [style: Mizutani shion nomad aldecados] [style: Mizutani shion nomad player] [style: Mizutani shion nomad player 02] [style: Mizutani shion nomad wraiths 02] [style: Mizutani shion nomad wraiths 03]
+                                                 made to sit on Doors, Trunk, Side windows
+  kit_nomad_doors                                3 parts   1 looks  [look: technical_01]
+                                                 made to sit on Doors

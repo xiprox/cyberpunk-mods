@@ -1,0 +1,159 @@
+[2026-11-05 20:29:38.697] [info] Starting up Let There Be Flight 0.3.20
+[2026-11-05 20:29:38.697] [info] Base address: 0x7ff7cc110000
+[2026-11-05 20:29:38.697] [info] Mod address: 0x7ffd74040000
+[2026-11-05 20:29:38.698] [info] input_loader found with version: 0.2.6
+[2026-11-05 20:29:38.698] [info] ArchiveXL found with version: 1.28.6
+[2026-11-05 20:29:38.701] [info] TweakXL found with version: 1.12.0
+[2026-11-05 20:29:38.701] [info] Archive loaded by ArchiveXL
+[2026-11-05 20:29:38.702] [info] mod_settings found with version: 0.2.28
+[2026-11-05 20:29:38.715] [info] Attaching GetGameSystemsDataHook at 0xEB0A60
+[2026-11-05 20:29:38.716] [info] Attaching AreaSpeedLimiter_Update at 0x2BB65E4
+[2026-11-05 20:29:38.716] [info] Attaching Entity_InitializeComponents at 0x71BEF0
+[2026-11-05 20:29:38.717] [info] Attaching FPPCameraUpdate at 0x39CA70
+[2026-11-05 20:29:38.717] [info] Attaching TPPCameraStats_Update at 0x260C334
+[2026-11-05 20:29:38.717] [info] Attaching UpdateVehicleCameraInput at 0x1BCB6C
+[2026-11-05 20:29:38.718] [info] Attaching VehicleDetachPart at 0xB08260
+[2026-11-05 20:29:38.718] [info] Attaching GetFxForMaterial at 0xC524C4
+[2026-11-05 20:29:38.719] [info] Attaching TireTrackEffectStart at 0x3D2F1C
+[2026-11-05 20:29:38.719] [info] Attaching SkidMarkEffectStart at 0x447D88
+[2026-11-05 20:29:38.719] [info] Attaching GetLocationFromOffset at 0x527EF4
+[2026-11-05 20:29:38.720] [info] Attaching GetYaw at 0x52639C
+[2026-11-05 20:29:38.720] [info] Attaching UpdatePitch at 0x52845C
+[2026-11-05 20:29:38.720] [info] Attaching WheelEffectUpdate at 0x3D3800
+[2026-11-05 20:29:38.721] [info] Attaching UpdateTireParameters at 0xCF3C1C
+[2026-11-05 20:29:38.721] [info] Attaching SyncFromPhysX at 0x2E2538
+[2026-11-05 20:29:38.721] [info] Attaching RigidBody_IntegrateMotion at 0x6E0FDC
+[2026-11-05 20:29:38.722] [info] Attaching PushToPhysX at 0x2E2D7C
+[2026-11-05 20:29:38.722] [info] Attaching NotifyContacts at 0x59BFB8
+[2026-11-05 20:29:38.723] [info] Attaching FX_NotifyCollision at 0x59D264
+[2026-11-05 20:29:38.723] [info] Attaching ProcessAirResistance at 0x6E54B8
+[2026-11-05 20:29:38.723] [info] Attaching vehiclePhysicsData_ApplyTorqueAtPosition at 0x2121D4
+[2026-11-05 20:29:38.724] [info] Attaching ApplyForceAtPosition at 0x61BD28
+[2026-11-05 20:29:38.724] [info] Attaching VehicleHelperUpdate at 0x6E0F28
+[2026-11-05 20:29:38.724] [info] Attaching VehicleUpdateOrientationWithPID at 0x2BAD52C
+[2026-11-05 20:29:38.725] [info] Attaching CarSuspension_AnimationUpdate at 0x53DE14
+[2026-11-05 20:29:38.725] [info] Attaching BikeSuspension_AnimationUpdate at 0x6DE848
+[2026-11-05 20:29:38.725] [info] Attaching RollFactorTorqueThing at 0x6E14E8
+[2026-11-05 20:29:38.726] [info] Attaching FourWheelTorque at 0xC26890
+[2026-11-05 20:29:38.726] [info] Attaching PhysicsStructUpdate at 0x20DA6C
+[2026-11-05 20:29:38.727] [info] Attaching PhysicsUnkStructVelocityUpdate at 0x2E39A0
+[2026-11-05 20:29:38.727] [info] Attaching ProcessScriptTypes at 0x6B9BDC
+[2026-11-05 20:29:39.118] [info] Registering classes & types
+[2026-11-05 20:29:39.155] [info] Registering functions
+[2026-11-05 20:29:43.163] [info] Entity.entityTags at 0x138 array:CName
+[2026-11-05 20:29:43.163] [info] VehicleObject.handbrake at 0x270 Float
+[2026-11-05 20:29:43.163] [info] VehicleObject.ignoreImpulses at 0x6B9 Bool
+[2026-11-05 20:29:43.163] [info] VehicleObject.turnX at 0x27C Float
+[2026-11-05 20:29:43.163] [info] VehicleObject.tracePosition at 0xB34 Vector3
+[2026-11-05 20:29:43.163] [info] MeshComponent.meshApperance at 0x190 CName
+[2026-11-05 20:29:43.163] [info] IFlightConfiguration.component at 0x40 wref:FlightComponent
+[2026-11-05 20:29:43.163] [info]   script type not registered - breaking down 'wref:FlightComponent'
+[2026-11-05 20:29:43.163] [info] IFlightConfiguration.thrusters at 0x50 array:ref:IFlightThruster
+[2026-11-05 20:29:43.163] [info]   script type not registered - breaking down 'array:ref:IFlightThruster'
+[2026-11-05 20:29:43.163] [info] IFlightConfiguration.flightCameraBone at 0x60 CName
+[2026-11-05 20:29:43.163] [info] IFlightConfiguration.flightCameraOffset at 0x68 Vector3
+[2026-11-05 20:29:43.163] [info] IFlightThruster.flightComponent at 0x40 wref:FlightComponent
+[2026-11-05 20:29:43.163] [info]   script type not registered - breaking down 'wref:FlightComponent'
+[2026-11-05 20:29:43.163] [info] IFlightThruster.slotName at 0x58 CName
+[2026-11-05 20:29:43.163] [info] IFlightThruster.meshComponent at 0x90 ref:MeshComponent
+[2026-11-05 20:29:43.163] [info]   script type not registered - breaking down 'ref:MeshComponent'
+[2026-11-05 20:29:43.163] [info] IFlightThruster.vehicle at 0xA0 wref:VehicleObject
+[2026-11-05 20:29:43.163] [info]   script type not registered - breaking down 'wref:VehicleObject'
+[2026-11-05 20:29:43.163] [info] IFlightThruster.attached at 0xB0 Bool
+[2026-11-05 20:29:43.164] [info] FlightComponent.sys at 0xA8 ref:FlightSystem
+[2026-11-05 20:29:43.164] [info]   script type not registered - breaking down 'ref:FlightSystem'
+[2026-11-05 20:29:43.164] [info] FlightComponent.active at 0xB8 Bool
+[2026-11-05 20:29:43.164] [info] FlightComponent.hasUpdate at 0xB9 Bool
+[2026-11-05 20:29:43.164] [info] FlightComponent.force at 0xC0 Vector4
+[2026-11-05 20:29:43.164] [info] FlightComponent.torque at 0xD0 Vector4
+[2026-11-05 20:29:43.164] [info] FlightComponent.configuration at 0xE0 ref:IFlightConfiguration
+[2026-11-05 20:29:43.164] [info]   script type not registered - breaking down 'ref:IFlightConfiguration'
+[2026-11-05 20:29:43.164] [info] FlightComponent.linearDamp at 0xF8 Float
+[2026-11-05 20:29:43.164] [info] FlightComponent.angularDamp at 0xFC Float
+[2026-11-05 20:29:43.164] [info] FlightSystem.cameraIndex at 0x48 Int32
+[2026-11-05 20:29:43.164] [info] FlightSystem.soundListener at 0x50 wref:IPlacedComponent
+[2026-11-05 20:29:43.164] [info]   script type not registered - breaking down 'wref:IPlacedComponent'
+[2026-11-05 20:29:43.164] [info] FlightSystem.audio at 0x60 ref:FlightAudio
+[2026-11-05 20:29:43.164] [info]   script type not registered - breaking down 'ref:FlightAudio'
+[2026-11-05 20:29:43.164] [info] FlightSystem.playerComponent at 0xB8 wref:FlightComponent
+[2026-11-05 20:29:43.164] [info]   script type not registered - breaking down 'wref:FlightComponent'
+[2026-11-05 20:29:53.278] [info] [FlightSystem] sub_190!
+[2026-11-05 20:29:53.278] [info] [FlightSystem] OnInitialize!
+[2026-11-05 20:29:53.940] [info] Archive mounted: true (via ArchiveXL)
+[2026-11-05 20:29:53.940] [info] Tweaks applied: typeName='VehicleFlight' actionName='FlightMalfunction'
+[2026-11-05 20:29:54.034] [info] FMOD loaded
+[2026-11-05 20:29:54.034] [info] [RED4ext] New FlightSettings Instance
+[2026-11-05 20:29:54.034] [info] [FlightSettings] OnAttach
+[2026-11-05 20:29:54.104] [info] [FlightSystem] OnRegisterUpdates!
+[2026-11-05 20:29:54.127] [info] [FlightSystem] OnWorldAttached
+[2026-11-05 20:29:54.127] [info] [FlightSystem] OnStreamingWorldLoaded!
+[2026-11-05 20:29:54.214] [info] [FlightSystem] OnGamePrepared!
+[2026-11-05 20:29:54.333] [info] [Entity_InitializeComponents] FlightHUD attached to player ('hud_component' -> user\jackhumbert\widgets\hud_flight.inkhud)
+[2026-11-05 20:29:54.438] [info] [RED4ext] New FlightController Instance
+[2026-11-05 20:29:54.439] [info] [FlightController] Initialize
+[2026-11-05 20:29:54.439] [info] [FlightSystem] Player updated
+[2026-11-05 20:32:29.543] [info] [FlightSystem] OnBeforeWorldDetach!
+[2026-11-05 20:32:29.588] [info] [FlightSystem] OnWorldDetached!
+[2026-11-05 20:32:29.604] [info] [FlightSystem] OnAfterWorldDetach!
+[2026-11-05 20:32:29.861] [info] [FlightSystem] OnRegisterUpdates!
+[2026-11-05 20:32:29.882] [info] [FlightSystem] OnWorldAttached
+[2026-11-05 20:32:31.045] [info] [FlightSystem] OnGameLoad!
+[2026-11-05 20:32:31.046] [info] [FlightSystem] OnStreamingWorldLoaded!
+[2026-11-05 20:32:36.179] [info] [FlightSystem] OnGamePrepared!
+[2026-11-05 20:32:36.359] [info] [Entity_InitializeComponents] FlightHUD attached to player ('hud_component' -> user\jackhumbert\widgets\hud_flight.inkhud)
+[2026-11-05 20:32:36.420] [info] [FlightSystem] Player updated
+[2026-11-05 20:32:40.044] [warning] [EntityExt] vehicle has a vehicleVisualCustomization (CrystalCoat) component; thruster meshes are not registered with it. If this vehicle crashes, set 'bool flightDisabled = true;' on its Vehicle record in a tweak (see docs/crystalcoat-crash-analysis.md)
+[2026-11-05 20:32:40.044] [warning] [Entity_InitializeComponents] FlightHUD lives on the player puppet; not adding it to vehicles
+[2026-11-05 20:32:41.415] [info] [FlightSystem] OnGameRestored!
+[2026-11-05 20:32:41.487] [info] [FlightComponent] thrusterTensor: 11.327778, 5.553163, 12.553911, 0.000000
+[2026-11-05 20:32:58.607] [info] [hudFlightController] OnInitialize
+[2026-11-05 20:32:58.607] [info] [FlightSystem] Flight HUD controller registered
+[2026-11-05 20:32:58.607] [info] [hudFlightController] OnPlayerAttach
+[2026-11-05 20:32:58.607] [info] [hudFlightController] ActivateUI
+[2026-11-05 20:33:00.563] [info] [FlightComponent] thrusterTensor: 6.119985, 3.116184, 6.867497, 0.000000
+[2026-11-05 20:33:00.563] [info] [FlightComponent] thrusterTensor: 6.119985, 3.116184, 6.867497, 0.000000
+[2026-11-05 20:33:02.496] [info] [FlightComponent] thrusterTensor: 5.181898, 3.290424, 5.830325, 0.000000
+[2026-11-05 20:33:05.467] [info] [FlightComponent] thrusterTensor: 6.120259, 3.116712, 6.867685, 0.000000
+[2026-11-05 20:33:05.467] [info] [FlightComponent] thrusterTensor: 6.120259, 3.116712, 6.867685, 0.000000
+[2026-11-05 20:33:14.064] [info] [FlightComponent] thrusterTensor: 6.802943, 3.422480, 7.535018, 0.000000
+[2026-11-05 20:33:22.764] [info] [FlightComponent] thrusterTensor: 6.924182, 3.583611, 7.614505, 0.000000
+[2026-11-05 20:33:25.798] [info] [FlightComponent] thrusterTensor: 6.926900, 3.583553, 7.614470, 0.000000
+[2026-11-05 20:33:26.498] [info] [FlightComponent] thrusterTensor: 6.266070, 3.392464, 6.868786, 0.000000
+[2026-11-05 20:34:21.896] [info] [FlightComponent] thrusterTensor: 6.924354, 3.583422, 7.614610, 0.000000
+[2026-11-05 20:34:22.663] [info] [FlightComponent] OnInteractionUsed: BUTTON_RELEASED
+[2026-11-05 20:34:22.697] [info] [FlightComponent] thrusterTensor: 12.400099, 6.594268, 14.316430, 0.000000
+[2026-11-05 20:34:22.697] [info] [FlightComponent] OnMountingEvent: Bratsk U4020: kaukaz_bratsk__basic_flatbed_truck_04
+[2026-11-05 20:34:22.697] [info] [FlightComponent] TDBID: Vehicle.v_utility4_kaukaz_bratsk_vctest
+[2026-11-05 20:34:22.697] [info] [FlightSystem] Player component set
+[2026-11-05 20:34:22.697] [info] [hudFlightController] FlightHUD bound to Bratsk U4020
+[2026-11-05 20:34:22.697] [info] [FlightComponent] OnMountingEvent done
+[2026-11-05 20:34:22.733] [info] [VehicleFlightEventsTransition] VehicleFlightDisabled
+[2026-11-05 20:34:22.769] [info] [VehicleFlightEventsTransition] VehicleFlightEnabled
+[2026-11-05 20:34:25.165] [info] [InputContext] vehicleDriverContext from vehicleBlockInputContext
+[2026-11-05 20:34:25.429] [info] [FlightComponent] OnVehicleFinishedMountingEvent: Bratsk U4020
+[2026-11-05 20:34:25.429] [info] [FlightController] Enable
+[2026-11-05 20:34:25.429] [info] [FlightComponent] OnVehicleFinishedMountingEvent done
+[2026-11-05 20:34:34.663] [info] [FlightComponent] thrusterTensor: 5.771505, 3.340634, 6.594667, 0.000000
+[2026-11-05 20:34:37.531] [info] [FlightComponent] OnUnmountingEvent: Bratsk U4020
+[2026-11-05 20:34:37.531] [info] [FlightController] Disable
+[2026-11-05 20:34:37.531] [info] [hudFlightController] FlightHUD unbound
+[2026-11-05 20:34:37.531] [info] [FlightComponent] OnUnmountingEvent done
+[2026-11-05 20:34:37.534] [info] [VehicleFlightEventsTransition] VehicleFlightDisabled
+[2026-11-05 20:34:50.396] [info] [FlightComponent] OnInteractionUsed: BUTTON_RELEASED
+[2026-11-05 20:34:50.431] [info] [FlightComponent] thrusterTensor: 13.061358, 4.982630, 13.923422, 0.000000
+[2026-11-05 20:34:50.431] [info] [FlightComponent] OnMountingEvent: Centurion 1000 6WD: chevalier_centurion_basic_dumptruck_suburban_01
+[2026-11-05 20:34:50.431] [info] [FlightComponent] TDBID: Vehicle.v_utility4_chevalier_centurion_vctest
+[2026-11-05 20:34:50.431] [info] [FlightSystem] Player component set
+[2026-11-05 20:34:50.431] [info] [hudFlightController] FlightHUD bound to Centurion 1000 6WD
+[2026-11-05 20:34:50.431] [info] [FlightComponent] OnMountingEvent done
+[2026-11-05 20:34:50.468] [info] [VehicleFlightEventsTransition] VehicleFlightDisabled
+[2026-11-05 20:34:50.501] [info] [VehicleFlightEventsTransition] VehicleFlightEnabled
+[2026-11-05 20:34:52.398] [info] [InputContext] vehicleDriverContext from vehicleBlockInputContext
+[2026-11-05 20:34:52.629] [info] [FlightComponent] OnVehicleFinishedMountingEvent: Centurion 1000 6WD
+[2026-11-05 20:34:52.629] [info] [FlightController] Enable
+[2026-11-05 20:34:52.629] [info] [FlightComponent] OnVehicleFinishedMountingEvent done
+[2026-11-05 20:34:57.997] [info] [FlightComponent] OnUnmountingEvent: Centurion 1000 6WD
+[2026-11-05 20:34:57.997] [info] [FlightController] Disable
+[2026-11-05 20:34:57.997] [info] [hudFlightController] FlightHUD unbound
+[2026-11-05 20:34:57.997] [info] [FlightComponent] OnUnmountingEvent done
+[2026-11-05 20:34:58.000] [info] [VehicleFlightEventsTransition] VehicleFlightDisabled

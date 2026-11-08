@@ -1,0 +1,73 @@
+Apollo BARGHEST (brennan_apollo_basic_01_ep1), from ep1\vehicles\sportbike\v_sportbike3_brennan_apollo_basic_01.ent
+records: Vehicle.kurtz_brennan_apollo_bike, Vehicle.mws_kurtz_brennan_apollo, Vehicle.v_sportbike3_brennan_apollo_kurtz
+generated 2026-11-08
+
+STYLES (4; a style's other looks are its factory paints)
+  brennan_apollo_police_basic_kurtz_01 Brennan apollo police basic kurtz 1 looks
+                                            kits: kit_kurtz_body_fairing, kit_kurtz_body
+  brennan_apollo_police_basic_militia_01 Brennan apollo police basic militia 1 looks
+                                            kits: windscreen_kurtz_militia_01, engine_militia_01, police_lights_02
+  brennan_apollo_police_basic_player_02 Brennan apollo police basic player 02 1 looks
+                                            kits: engine_player_a_01
+  brennan_apollo_police_basic_police_01 Brennan apollo police basic police 1 looks
+                                            kits: police_lights_02, police_lights_02, windscreen_police_01
+WRECKS: brennan_apollo_police_basic_burnt_kurtz_01, brennan_apollo_police_basic_burnt_militia_01, brennan_apollo_police_basic_burnt_police_01
+
+SLOTS (8)
+  Body: a [base.body] (Base): 4 options
+    body_a_01                                      15 paints  19 looks  [car: v_sportbike3_brennan_apollo] [look: adventure_01] [look: adventure_01_1] [look: adventure_01_2] [look: aldecados_01] ...
+    body_b_police_01                                1 paints   5 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_police_01] [look: police_01] [style: Brennan apollo police basic militia] [style: Brennan apollo police basic police] ...
+    body_b_player_01                                0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_player_02] [style: Brennan apollo police basic player 02]
+    body_kurtz_01                                   0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo police basic kurtz] [wreck: brennan_apollo_police_basic_burnt_kurtz_01]
+  Body: c [base.body.body_c] (Base): 5 options
+    body_c_01                                       0 paints   8 looks  [car: v_sportbike3_brennan_apollo] [look: adventure_01] [look: adventure_01_1] [look: adventure_01_2] [look: aldecados_01] ...
+    body_b_01                                       3 paints   5 looks  [car: v_sportbike3_brennan_apollo] [look: brennan_apollo_v2] [look: brennan_apollo_v2_1] [look: brennan_apollo_v2_2] [look: burnt_v_2] ...
+    body_a_police_01                                1 paints   4 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_police_01] [look: police_01] [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_police_01]
+    body_a_militia_01                               0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo police basic militia] [wreck: brennan_apollo_police_basic_burnt_militia_01]
+    body_a_player_01                                0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_player_02] [style: Brennan apollo police basic player 02]
+  Exhaust [base.exhaust] (Base): 4 options
+    exhaust_01                                      1 paints  18 looks  [car: v_sportbike3_brennan_apollo] [look: adventure_01] [look: adventure_01_1] [look: adventure_01_2] [look: aldecados_01] ...
+    exhaust_02                                      1 paints   6 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_police_01] [look: police_01] [style: Brennan apollo police basic militia] [style: Brennan apollo police basic police] ...
+    exhaust_04                                      0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_player_02] [style: Brennan apollo police basic player 02]
+    exhaust_kurtz_01                                0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo police basic kurtz] [wreck: brennan_apollo_police_basic_burnt_kurtz_01]
+  Fairing [base.fairing] (Base): 9 options
+    fairing_a_01                                    4 paints   6 looks  [car: v_sportbike3_brennan_apollo] [look: adventure_01] [look: adventure_01_1] [look: adventure_01_2] [look: burnt_adventure_01] ...
+    fairing_b_01                                    2 paints   5 looks  [car: v_sportbike3_brennan_apollo] [look: brennan_apollo_v2] [look: brennan_apollo_v2_1] [look: brennan_apollo_v2_2] [look: burnt_v_2] ...
+    fairing_police_01                               0 paints   5 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_police_01] [look: police_01] [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_militia_01] ...
+    fairing_c_01                                    2 paints   3 looks  [car: v_sportbike3_brennan_apollo] [look: brennan_apollo_v3] [look: brennan_apollo_v3_1] [look: burnt_v3]
+    fairing_e_01                                    0 paints   3 looks  [car: v_sportbike3_brennan_apollo] [look: aldecados_01] [look: aldecados_02] [look: aldecados_03]
+    fairing_f_01                                    1 paints   2 looks  [car: v_sportbike3_brennan_apollo] [look: scorpion] [look: stunt_bike]
+    fairing_kurtz_01                                0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo police basic kurtz] [wreck: brennan_apollo_police_basic_burnt_kurtz_01]
+    fairing_player_01                               0 paints   2 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_player_02] [style: Brennan apollo police basic player 02]
+    fairing_militia_01                              0 paints   1 looks  [car: v_sportbike3_brennan_apollo] [style: Brennan apollo police basic militia]
+  Tire (axle_back_wheel) [axle_back_wheel.tire] (axle_back_wheel): 2 options
+    tire_b_01                                       3 paints  18 looks  [car: v_sportbike3_brennan_apollo] [look: adventure_01] [look: adventure_01_1] [look: adventure_01_2] [look: aldecados_01] ...
+    tire_b_02                                       0 paints   6 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_police_01] [look: police_01] [style: Brennan apollo police basic kurtz] [style: Brennan apollo police basic militia] ...
+  Wheel (axle_back_wheel) [axle_back_wheel.wheel] (axle_back_wheel): 3 options
+    wheel_b_01                                     11 paints  18 looks  [car: v_sportbike3_brennan_apollo] [look: adventure_01] [look: adventure_01_1] [look: adventure_01_2] [look: aldecados_01] ...
+    wheel_b_02                                      1 paints   3 looks  [car: v_sportbike3_brennan_apollo] [look: police_01] [style: Brennan apollo police basic player 02] [style: Brennan apollo police basic police]
+    wheel_b_kurtz_01                                1 paints   3 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_police_01] [style: Brennan apollo police basic kurtz] [style: Brennan apollo police basic militia]
+  Tire (wheel_front_rot_set) [wheel_front_rot_set.tire] (wheel_front_rot_set): 2 options
+    tire_f_01                                       3 paints  19 looks  [car: v_sportbike3_brennan_apollo] [look: adventure_01] [look: adventure_01_1] [look: adventure_01_2] [look: aldecados_01] ...
+    tire_f_02                                       0 paints  10 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_player_02] [look: burnt_police_01] [look: police_01] [style: Brennan apollo police basic kurtz] ...
+  Wheel (wheel_front_rot_set) [wheel_front_rot_set.wheel] (wheel_front_rot_set): 3 options
+    wheel_f_01                                     11 paints  19 looks  [car: v_sportbike3_brennan_apollo] [look: adventure_01] [look: adventure_01_1] [look: adventure_01_2] [look: aldecados_01] ...
+    wheel_f_kurtz_01                                1 paints   6 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_police_01] [style: Brennan apollo police basic kurtz] [style: Brennan apollo police basic militia] [wreck: brennan_apollo_police_basic_burnt_kurtz_01] ...
+    wheel_f_02                                      1 paints   4 looks  [car: v_sportbike3_brennan_apollo] [look: burnt_player_02] [look: police_01] [style: Brennan apollo police basic player 02] [style: Brennan apollo police basic police]
+
+KITS (11)
+  engine_militia_01                              1 parts   2 looks  [style: Brennan apollo police basic militia] [wreck: brennan_apollo_police_basic_burnt_militia_01]
+  kit_kurtz_body                                 2 parts   1 looks  [style: Brennan apollo police basic kurtz]
+  kit_kurtz_body_fairing                         2 parts   2 looks  [style: Brennan apollo police basic kurtz] [wreck: brennan_apollo_police_basic_burnt_kurtz_01]
+                                                 made to sit on Fairing
+  windscreen_kurtz_militia_01                    1 parts   1 looks  [style: Brennan apollo police basic militia]
+                                                 made to sit on Fairing
+  kit_nomad_body                                 2 parts   1 looks  [look: scorpion]
+  nomad_stickers_01                              1 parts   8 looks  [look: adventure_01] [look: adventure_01_1] [look: adventure_01_2] [look: brennan_apollo_v2] [look: brennan_apollo_v2_1] ...
+  nomad_stickers_aldecaldos_01                   1 parts   4 looks  [look: aldecados_01] [look: aldecados_02] [look: aldecados_03] [look: q108_santiago]
+  engine_player_a_01                             1 parts   2 looks  [look: burnt_player_02] [style: Brennan apollo police basic player 02]
+  police_lights_01                               1 parts   4 looks  [look: burnt_police_01] [look: police_01] [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_police_01]
+  police_lights_02                               1 parts   6 looks  [look: burnt_police_01] [look: police_01] [style: Brennan apollo police basic militia] [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_militia_01] ...
+                                                 made to sit on Body: c
+  windscreen_police_01                           1 parts   5 looks  [look: burnt_police_01] [look: police_01] [style: Brennan apollo police basic police] [wreck: brennan_apollo_police_basic_burnt_militia_01] [wreck: brennan_apollo_police_basic_burnt_police_01]
+                                                 made to sit on Fairing

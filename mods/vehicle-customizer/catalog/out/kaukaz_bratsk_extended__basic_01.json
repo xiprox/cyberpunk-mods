@@ -1,0 +1,1136 @@
+{
+ "id": "kaukaz_bratsk_extended__basic_01",
+ "label": "Bratsk U4020",
+ "entity": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk_extended__basic_01.ent",
+ "family": "v_utility4_kaukaz_bratsk_extended",
+ "garage": false,
+ "default_look": "transport",
+ "records": [
+  "Vehicle.v_utility4_kaukaz_bratsk_extended",
+  "Vehicle.v_utility4_kaukaz_bratsk_extended_locked_doors"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\utility\\kaukaz_bratsk_extended.app"
+ ],
+ "styles": [
+  {
+   "id": "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+   "code": "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+   "label": "Kaukaz bratsk extended sq027 basilsk cargo body",
+   "base_look": "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+   "looks": [
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_body"
+   ],
+   "options": {
+    "bumper_front.bumper": "3f094b36",
+    "base.body.av_militech_basilisk_ext01_body": "38f54b1e",
+    "base.body.av_militech_basilisk_ext01_body_kit_transport": "f6c579a0",
+    "base.trunk": "bc8cafd8",
+    "base.trunk.av_militech_basilisk_ext01_trunk_b": "25c22e76"
+   },
+   "kits": [
+    "militech_a41f"
+   ]
+  },
+  {
+   "id": "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+   "code": "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+   "label": "Kaukaz bratsk extended sq027 basilsk cargo wings",
+   "base_look": "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+   "looks": [
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings"
+   ],
+   "options": {
+    "bumper_front.bumper": "3f094b36",
+    "base.wing": "f6c9a972",
+    "base.wing.av_militech_basilisk_ext01_wing_left_kit_transport": "0c79d523",
+    "base.wing.av_militech_basilisk_ext01_wing_right": "ffc476a9",
+    "base.wing.av_militech_basilisk_ext01_wing_right_kit_transport": "cb1a1a3b"
+   },
+   "kits": [
+    "militech_a41f"
+   ]
+  }
+ ],
+ "wrecks": [
+  "kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt",
+  "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "v_utility4_kaukaz_bratsk__ext01_bumper_f_02"
+   ],
+   "options": [
+    {
+     "id": "3f094b36",
+     "code": "bumper_f_02",
+     "vehicle": "Bratsk U4020",
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_bumper_f_02.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk_extended\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_bumper_f_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "militech_01",
+     "paints": [
+      "industrial_02",
+      "industrial_03",
+      "industrial_01",
+      "industrial_04",
+      "industrial_05",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "militech_01",
+      "urban_05",
+      "urban_04",
+      "urban_01",
+      "urban_03",
+      "urban_02"
+     ],
+     "looks": [
+      "kaukaz_bratsk_extended:burnt_01",
+      "kaukaz_bratsk_extended:default",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ],
+     "origins": [
+      "look:burnt_01",
+      "look:default",
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.av_militech_basilisk_ext01_body",
+   "label": "Body: av militech basilisk ext01",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     -2.61,
+     0.91
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "roles": [
+    "av_militech_basilisk__ext01_body"
+   ],
+   "options": [
+    {
+     "id": "38f54b1e",
+     "code": "body",
+     "vehicle": "BASILISK",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_body.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_body_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "transport",
+     "paints": [
+      "militech",
+      "transport"
+     ],
+     "looks": [
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt"
+     ],
+     "origins": [
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.av_militech_basilisk_ext01_body_kit_transport",
+   "label": "Body: av militech basilisk ext01 kit transport",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     -2.61,
+     0.91
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "roles": [
+    "av_militech_basilisk__ext01_body_kit_transport"
+   ],
+   "options": [
+    {
+     "id": "f6c579a0",
+     "code": "body_kit_transport",
+     "vehicle": "BASILISK",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_body_kit_transport.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_body_kit_transport_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "transport",
+     "paints": [
+      "transport",
+      "militech"
+     ],
+     "looks": [
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt"
+     ],
+     "origins": [
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.trunk",
+   "label": "Trunk: av militech basilisk ext01 a",
+   "kind": "trunk",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     1.8777,
+     2.5139
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "roles": [
+    "av_militech_basilisk__ext01_trunk_a"
+   ],
+   "options": [
+    {
+     "id": "bc8cafd8",
+     "code": "trunk_a",
+     "vehicle": "BASILISK",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_trunk_a.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_trunk_a_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "transport",
+     "paints": [
+      "militech",
+      "transport"
+     ],
+     "looks": [
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt"
+     ],
+     "origins": [
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.trunk.av_militech_basilisk_ext01_trunk_b",
+   "label": "Trunk: av militech basilisk ext01 back",
+   "kind": "trunk",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.9478,
+     0.4576
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "roles": [
+    "av_militech_basilisk__ext01_trunk_b"
+   ],
+   "options": [
+    {
+     "id": "25c22e76",
+     "code": "trunk_b",
+     "vehicle": "BASILISK",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_trunk_b.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "transport",
+     "paints": [
+      "militech",
+      "transport"
+     ],
+     "looks": [
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt"
+     ],
+     "origins": [
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.wing",
+   "label": "Wings: av militech basilisk ext01 left",
+   "kind": "wing",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -1.24,
+     -2.3298,
+     1.13
+    ]
+   ],
+   "rotations": [
+    [
+     -0.0003686320560518652,
+     -0.043075673282146454,
+     -0.9958682060241699,
+     0.07994341105222702
+    ]
+   ],
+   "roles": [
+    "av_militech_basilisk__ext01_wing_left"
+   ],
+   "options": [
+    {
+     "id": "f6c9a972",
+     "code": "wing_left",
+     "vehicle": "BASILISK",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_wing_left.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_wing_left_kit_transport_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "transport",
+     "paints": [
+      "militech",
+      "transport"
+     ],
+     "looks": [
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ],
+     "origins": [
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.wing.av_militech_basilisk_ext01_wing_left_kit_transport",
+   "label": "Wings: av militech basilisk ext01 left kit transport",
+   "kind": "wing",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -1.24,
+     -2.3298,
+     1.13
+    ]
+   ],
+   "rotations": [
+    [
+     -0.0003686320560518652,
+     -0.043075673282146454,
+     -0.9958682060241699,
+     0.07994341105222702
+    ]
+   ],
+   "roles": [
+    "av_militech_basilisk__ext01_wing_left_kit_transport"
+   ],
+   "options": [
+    {
+     "id": "0c79d523",
+     "code": "wing_left_kit_transport",
+     "vehicle": "BASILISK",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_wing_left_kit_transport.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_wing_left_kit_transports_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "transport",
+     "paints": [
+      "transport",
+      "militech"
+     ],
+     "looks": [
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ],
+     "origins": [
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.wing.av_militech_basilisk_ext01_wing_right",
+   "label": "Wings: av militech basilisk ext01 right",
+   "kind": "wing",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.65,
+     -1.23,
+     1.14
+    ]
+   ],
+   "rotations": [
+    [
+     0.046244654804468155,
+     -0.008014134131371975,
+     0.14426961541175842,
+     0.9884248375892639
+    ]
+   ],
+   "roles": [
+    "av_militech_basilisk__ext01_wing_right"
+   ],
+   "options": [
+    {
+     "id": "ffc476a9",
+     "code": "wing_right",
+     "vehicle": "BASILISK",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_wing_right.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_wing_right_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "transport",
+     "paints": [
+      "militech",
+      "transport"
+     ],
+     "looks": [
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ],
+     "origins": [
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.wing.av_militech_basilisk_ext01_wing_right_kit_transport",
+   "label": "Wings: av militech basilisk ext01 right kit transport",
+   "kind": "wing",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.65,
+     -1.23,
+     1.14
+    ]
+   ],
+   "rotations": [
+    [
+     0.046244654804468155,
+     -0.008014134131371975,
+     0.14426961541175842,
+     0.9884248375892639
+    ]
+   ],
+   "roles": [
+    "av_militech_basilisk__ext01_wing_right_kit_transport"
+   ],
+   "options": [
+    {
+     "id": "cb1a1a3b",
+     "code": "wing_right_kit_transport",
+     "vehicle": "BASILISK",
+     "meshes": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_wing_right_kit_transport.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\special\\v_militech_basilisk\\entities\\meshes\\av_militech_basilisk__ext01_wing_right_kit_transports_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "transport",
+     "paints": [
+      "transport",
+      "militech"
+     ],
+     "looks": [
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ],
+     "origins": [
+      "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+      "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "militech_a41f",
+   "family": "militech",
+   "code": "kit_militech_body_doors",
+   "where": [
+    "body",
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "body_militech_stickers_01",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_body_militech_stickers_01.mesh",
+     "code": "body_militech_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      2.8469,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_bratsk_extended:default",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "door_fl_militech_sticker",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk_extended\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fl_militech_sticker_01.mesh",
+     "code": "door_fl_militech_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_utility4_kaukaz_bratsk__ext01_door_fl_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_bratsk_extended:default",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_militech_sticker",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk_extended\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_door_fr_militech_sticker_01.mesh",
+     "code": "door_fr_militech_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "v_utility4_kaukaz_bratsk__ext01_door_fr_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_bratsk_extended:default",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "v_utility4_kaukaz_bratsk__ext01_body_militech_sticker_01",
+     "mesh": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk_extended\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_body_militech_sticker_01.mesh",
+     "code": "body_militech_sticker_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "kaukaz_bratsk_extended:default",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "kaukaz_bratsk_extended:burnt_01",
+    "kaukaz_bratsk_extended:default",
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt",
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:burnt_01",
+    "look:default",
+    "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+    "style:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+    "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt",
+    "wreck:kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+   ]
+  }
+ ],
+ "looks": {
+  "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_bratsk_extended.app",
+   "app_look": "sq027_basilsk_cargo_wings",
+   "style": "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "door.door": {
+     "fl": "v_utility4_kaukaz_bratsk__ext01_door_fl_01",
+     "fr": "v_utility4_kaukaz_bratsk__ext01_door_fr_01"
+    },
+    "window.window": {
+     "fl": "v_utility4_kaukaz_bratsk__ext01_window_fl_01",
+     "fr": "v_utility4_kaukaz_bratsk__ext01_window_fr_01"
+    },
+    "bumper_front.bumper": {
+     "all": "v_utility4_kaukaz_bratsk__ext01_bumper_f_02"
+    },
+    "base.interior": {
+     "all": "v_utility4_kaukaz_bratsk__int01_interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_a_fl",
+     "fr": "tire_a_fr",
+     "bl": "tire_a_bl",
+     "br": "tire_a_br"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_a_fl_b",
+     "fr": "tire_a_fr_b",
+     "bl": "tire_a_bl_b",
+     "br": "tire_a_br_b"
+    },
+    "wheel_c.tire": {
+     "bl": "tire_a_bl_c",
+     "br": "tire_a_br_c"
+    },
+    "wheel_d.tire": {
+     "bl": "tire_a_bl_d",
+     "br": "tire_a_br_d"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl",
+     "fr": "wheel_fr",
+     "bl": "wheel_bl",
+     "br": "wheel_br"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b",
+     "fr": "wheel_fr_b",
+     "bl": "wheel_bl_b",
+     "br": "wheel_br_b"
+    },
+    "wheel_c.wheel": {
+     "bl": "wheel_bl_c",
+     "br": "wheel_br_c"
+    },
+    "wheel_d.wheel": {
+     "bl": "wheel_bl_d",
+     "br": "wheel_br_d"
+    },
+    "base.wheel": {
+     "all": "wheel_engine"
+    },
+    "base.tire": {
+     "all": "tire_engine"
+    },
+    "base.wing": {
+     "all": "av_militech_basilisk__ext01_wing_left"
+    },
+    "base.wing.av_militech_basilisk_ext01_wing_left_kit_transport": {
+     "all": "av_militech_basilisk__ext01_wing_left_kit_transport"
+    },
+    "base.wing.av_militech_basilisk_ext01_wing_right": {
+     "all": "av_militech_basilisk__ext01_wing_right"
+    },
+    "base.wing.av_militech_basilisk_ext01_wing_right_kit_transport": {
+     "all": "av_militech_basilisk__ext01_wing_right_kit_transport"
+    }
+   }
+  },
+  "kaukaz_bratsk_extended_sq027_basilsk_cargo_body": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_bratsk_extended.app",
+   "app_look": "sq027_basilsk_cargo_body",
+   "style": "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.av_militech_basilisk_ext01_body": {
+     "all": "av_militech_basilisk__ext01_body"
+    },
+    "base.body.av_militech_basilisk_ext01_body_kit_transport": {
+     "all": "av_militech_basilisk__ext01_body_kit_transport"
+    },
+    "door.door": {
+     "fl": "v_utility4_kaukaz_bratsk__ext01_door_fl_01",
+     "fr": "v_utility4_kaukaz_bratsk__ext01_door_fr_01"
+    },
+    "window.window": {
+     "fl": "v_utility4_kaukaz_bratsk__ext01_window_fl_01",
+     "fr": "v_utility4_kaukaz_bratsk__ext01_window_fr_01"
+    },
+    "bumper_front.bumper": {
+     "all": "v_utility4_kaukaz_bratsk__ext01_bumper_f_02"
+    },
+    "base.interior": {
+     "all": "v_utility4_kaukaz_bratsk__int01_interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_a_fl",
+     "fr": "tire_a_fr",
+     "bl": "tire_a_bl",
+     "br": "tire_a_br"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_a_fl_b",
+     "fr": "tire_a_fr_b",
+     "bl": "tire_a_bl_b",
+     "br": "tire_a_br_b"
+    },
+    "wheel_c.tire": {
+     "bl": "tire_a_bl_c",
+     "br": "tire_a_br_c"
+    },
+    "wheel_d.tire": {
+     "bl": "tire_a_bl_d",
+     "br": "tire_a_br_d"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl",
+     "fr": "wheel_fr",
+     "bl": "wheel_bl",
+     "br": "wheel_br"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b",
+     "fr": "wheel_fr_b",
+     "bl": "wheel_bl_b",
+     "br": "wheel_br_b"
+    },
+    "wheel_c.wheel": {
+     "bl": "wheel_bl_c",
+     "br": "wheel_br_c"
+    },
+    "wheel_d.wheel": {
+     "bl": "wheel_bl_d",
+     "br": "wheel_br_d"
+    },
+    "base.wheel": {
+     "all": "wheel_engine"
+    },
+    "base.tire": {
+     "all": "tire_engine"
+    },
+    "base.trunk": {
+     "all": "av_militech_basilisk__ext01_trunk_a"
+    },
+    "base.trunk.av_militech_basilisk_ext01_trunk_b": {
+     "all": "av_militech_basilisk__ext01_trunk_b"
+    }
+   }
+  },
+  "kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_bratsk_extended.app",
+   "app_look": "sq027_basilsk_cargo_body_burnt",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.av_militech_basilisk_ext01_body": {
+     "all": "av_militech_basilisk__ext01_body"
+    },
+    "base.body.av_militech_basilisk_ext01_body_kit_transport": {
+     "all": "av_militech_basilisk__ext01_body_kit_transport"
+    },
+    "door.door": {
+     "fl": "v_utility4_kaukaz_bratsk__ext01_door_fl_01",
+     "fr": "v_utility4_kaukaz_bratsk__ext01_door_fr_01"
+    },
+    "window.window": {
+     "fl": "v_utility4_kaukaz_bratsk__ext01_window_fl_01",
+     "fr": "v_utility4_kaukaz_bratsk__ext01_window_fr_01"
+    },
+    "bumper_front.bumper": {
+     "all": "v_utility4_kaukaz_bratsk__ext01_bumper_f_02"
+    },
+    "base.interior": {
+     "all": "v_utility4_kaukaz_bratsk__int01_interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_a_fl",
+     "fr": "tire_a_fr",
+     "bl": "tire_a_bl",
+     "br": "tire_a_br"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_a_fl_b",
+     "fr": "tire_a_fr_b",
+     "bl": "tire_a_bl_b",
+     "br": "tire_a_br_b"
+    },
+    "wheel_c.tire": {
+     "bl": "tire_a_bl_c",
+     "br": "tire_a_br_c"
+    },
+    "wheel_d.tire": {
+     "bl": "tire_a_bl_d",
+     "br": "tire_a_br_d"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl",
+     "fr": "wheel_fr",
+     "bl": "wheel_bl",
+     "br": "wheel_br"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b",
+     "fr": "wheel_fr_b",
+     "bl": "wheel_bl_b",
+     "br": "wheel_br_b"
+    },
+    "wheel_c.wheel": {
+     "bl": "wheel_bl_c",
+     "br": "wheel_br_c"
+    },
+    "wheel_d.wheel": {
+     "bl": "wheel_bl_d",
+     "br": "wheel_br_d"
+    },
+    "base.wheel": {
+     "all": "wheel_engine"
+    },
+    "base.tire": {
+     "all": "tire_engine"
+    },
+    "base.trunk": {
+     "all": "av_militech_basilisk__ext01_trunk_a"
+    },
+    "base.trunk.av_militech_basilisk_ext01_trunk_b": {
+     "all": "av_militech_basilisk__ext01_trunk_b"
+    }
+   }
+  },
+  "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt": {
+   "app": "base\\vehicles\\appearances\\utility\\kaukaz_bratsk_extended.app",
+   "app_look": "sq027_basilsk_cargo_wings_burnt",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "door.door": {
+     "fl": "v_utility4_kaukaz_bratsk__ext01_door_fl_01",
+     "fr": "v_utility4_kaukaz_bratsk__ext01_door_fr_01"
+    },
+    "window.window": {
+     "fl": "v_utility4_kaukaz_bratsk__ext01_window_fl_01",
+     "fr": "v_utility4_kaukaz_bratsk__ext01_window_fr_01"
+    },
+    "bumper_front.bumper": {
+     "all": "v_utility4_kaukaz_bratsk__ext01_bumper_f_02"
+    },
+    "base.interior": {
+     "all": "v_utility4_kaukaz_bratsk__int01_interior_01"
+    },
+    "wheel.tire": {
+     "fl": "tire_a_fl",
+     "fr": "tire_a_fr",
+     "bl": "tire_a_bl",
+     "br": "tire_a_br"
+    },
+    "wheel_b.tire": {
+     "fl": "tire_a_fl_b",
+     "fr": "tire_a_fr_b",
+     "bl": "tire_a_bl_b",
+     "br": "tire_a_br_b"
+    },
+    "wheel_c.tire": {
+     "bl": "tire_a_bl_c",
+     "br": "tire_a_br_c"
+    },
+    "wheel_d.tire": {
+     "bl": "tire_a_bl_d",
+     "br": "tire_a_br_d"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_fl",
+     "fr": "wheel_fr",
+     "bl": "wheel_bl",
+     "br": "wheel_br"
+    },
+    "wheel_b.wheel": {
+     "fl": "wheel_fl_b",
+     "fr": "wheel_fr_b",
+     "bl": "wheel_bl_b",
+     "br": "wheel_br_b"
+    },
+    "wheel_c.wheel": {
+     "bl": "wheel_bl_c",
+     "br": "wheel_br_c"
+    },
+    "wheel_d.wheel": {
+     "bl": "wheel_bl_d",
+     "br": "wheel_br_d"
+    },
+    "base.wheel": {
+     "all": "wheel_engine"
+    },
+    "base.tire": {
+     "all": "tire_engine"
+    },
+    "base.wing": {
+     "all": "av_militech_basilisk__ext01_wing_left"
+    },
+    "base.wing.av_militech_basilisk_ext01_wing_left_kit_transport": {
+     "all": "av_militech_basilisk__ext01_wing_left_kit_transport"
+    },
+    "base.wing.av_militech_basilisk_ext01_wing_right": {
+     "all": "av_militech_basilisk__ext01_wing_right"
+    },
+    "base.wing.av_militech_basilisk_ext01_wing_right_kit_transport": {
+     "all": "av_militech_basilisk__ext01_wing_right_kit_transport"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.8047,
+   0.4815,
+   0.4414,
+   -0.2527
+  ],
+  "b": [
+   0.8047,
+   0.4815,
+   0.4414,
+   -0.2527
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "48f7062c",
+   "rim": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk_extended\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_wheel_a_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk_extended\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_kaukaz_bratsk_extended\\entities\\meshes\\v_utility4_kaukaz_bratsk__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_a_01",
+   "tire_code": "tire_a_01",
+   "from": "Bratsk U4020",
+   "radius": 0.8047,
+   "width": 0.4815,
+   "rim_radius": 0.4414,
+   "tire_center": -0.2527,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 12,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "kaukaz_bratsk_extended:burnt_01",
+    "kaukaz_bratsk_extended:default",
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_body",
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_body_burnt",
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+    "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings_burnt"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "kaukaz_bratsk_extended_sq027_basilsk_cargo_wings",
+   "Bratsk U4020"
+  ]
+ ]
+}

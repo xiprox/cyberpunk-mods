@@ -1,0 +1,67 @@
+Type-66 "Hoon" (quadra_type66_nomad__basic_01), from base\vehicles\sport\v_sport2_quadra_type66_nomad__basic_01.ent
+records: Vehicle.v_sport2_quadra_type66_nomad_player, Vehicle.v_sport2_quadra_type66_nomad_player_03, Vehicle.v_sport2_quadra_type66_nomad_tribute
+generated 2026-11-08
+
+STYLES (10; a style's other looks are its factory paints)
+  quadra_type66_nomad_aldecados_01 Quadra type66 nomad aldecados 2 looks
+                                            paints: quadra_type66_nomad_aldecados_05
+                                            kits: fuelcap_sticker_01, kit_nomad_body_doors, kit_nomad_body_doors_2, light_device_medium_02, kit_nomad_body, kit_police_body
+  quadra_type66_nomad_aldecados_02 Quadra type66 nomad aldecados 02 2 looks
+                                            paints: quadra_type66_nomad_player_03
+                                            kits: kit_nomad_body_doors, door_fl_a_stickers_wraiths_01, kit_nomad_body_doors_2, light_device_medium_02, kit_nomad_body
+  quadra_type66_nomad_aldecados_03 Quadra type66 nomad aldecados 03 1 looks
+                                            kits: fuelcap_sticker_01, kit_nomad_body_doors, kit_nomad_body_doors_2, light_device_medium_02, kit_nomad_body
+  quadra_type66_nomad_aldecados_04 Quadra type66 nomad aldecados 04 1 looks
+                                            kits: fuelcap_sticker_01, kit_nomad_body_doors, door_fl_a_stickers_wraiths_01, kit_nomad_body_doors_2, light_device_medium_02, kit_nomad_body, kit_police_body
+  quadra_type66_nomad_player_01 Quadra type66 nomad player 1 looks
+                                            kits: fuelcap_sticker_01, kit_nomad_body_doors, door_fl_a_stickers_wraiths_01, kit_nomad_body, kit_police_body
+  quadra_type66_nomad_tribute_01 Quadra type66 nomad tribute 1 looks
+                                            kits: kit_nomad_body_doors, door_fl_a_stickers_wraiths_01, kit_nomad_body_doors_2, light_device_medium_02, kit_nomad_body_doors_3, kit_nomad_body
+  quadra_type66_nomad_wraiths_01 Quadra type66 nomad wraiths 1 looks
+                                            kits: fuelcap_sticker_01, kit_nomad_body_doors, door_fl_a_stickers_wraiths_01, light_device_medium_02, kit_nomad_body, kit_police_body
+  quadra_type66_nomad_wraiths_02 Quadra type66 nomad wraiths 02 1 looks
+                                            kits: fuelcap_sticker_01, kit_nomad_body_doors, door_fl_a_stickers_wraiths_01, light_device_medium_02, kit_nomad_body, kit_police_body
+  quadra_type66_nomad_wraiths_03 Quadra type66 nomad wraiths 03 1 looks
+                                            kits: kit_nomad_body_doors, door_fl_a_stickers_wraiths_01, light_device_medium_02, kit_nomad_body, kit_police_body
+  quadra_type66_nomad_wraiths_04 Quadra type66 nomad wraiths 04 1 looks
+                                            kits: fuelcap_sticker_01, kit_nomad_body_doors, door_fl_a_stickers_wraiths_01, light_device_medium_02, kit_nomad_body
+WRECKS: quadra_type66_nomad_burnt_01
+
+SLOTS (11)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                     7 paints  12 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                     3 paints  12 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+  Hood [hood_a.hood] (hood_a): 1 options
+    hood_01                                        11 paints  12 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                        4 paints  12 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+  Body: main [base.body] (Base): 1 options
+    body_01                                        12 paints  13 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+  Body: detachable cable a [base.body.detachable_body_cable_a] (Base): 1 options
+    body_cable_a_01                                 2 paints  11 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad tribute] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     4 paints  13 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+  Windshield [base.window] (Base): 1 options
+    window_f_01                                     3 paints  13 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+  Tires [wheel.tire] (wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    tire_a_01                                       9 paints   4 looks  [car: Galena "Gecko"] [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad player] [style: Quadra type66 nomad wraiths]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 1 options
+    wheel_a_01                                      3 paints  12 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_a_01                                      12 paints  12 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+
+KITS (8)
+  door_fl_a_stickers_wraiths_01                  1 parts   9 looks  [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] [style: Quadra type66 nomad tribute] [style: Quadra type66 nomad wraiths] ...
+                                                 made to sit on Doors
+  fuelcap_sticker_01                             1 parts   9 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] [style: Quadra type66 nomad wraiths] ...
+  kit_nomad_body                                 17 parts  13 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+  kit_nomad_body_doors                           12 parts  12 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] ...
+                                                 made to sit on Doors, Rims, window_b.window
+  kit_nomad_body_doors_2                         3 parts   7 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad tribute]
+                                                 made to sit on Doors
+  kit_nomad_body_doors_3                         3 parts   1 looks  [style: Quadra type66 nomad tribute]
+                                                 made to sit on Doors
+  light_device_medium_02                         1 parts  11 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 02] [style: Quadra type66 nomad aldecados 03] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad tribute] ...
+  kit_police_body                                2 parts   7 looks  [style: Quadra type66 nomad aldecados] [style: Quadra type66 nomad aldecados 04] [style: Quadra type66 nomad player] [style: Quadra type66 nomad wraiths] [style: Quadra type66 nomad wraiths 02] ...
+                                                 made to sit on Rims

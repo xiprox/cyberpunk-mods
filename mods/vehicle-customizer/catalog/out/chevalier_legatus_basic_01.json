@@ -1,0 +1,386 @@
+{
+ "id": "chevalier_legatus_basic_01",
+ "label": "Legatus 450 Aquila",
+ "entity": "base\\vehicles\\utility\\v_utility4_chevalier_legatus_basic_01.ent",
+ "family": "v_utility4_chevalier_legatus_basic",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_utility4_chevalier_legatus_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\utility\\chevalier_legatus_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "chevalier_legatus_basic_legatus_01",
+   "code": "chevalier_legatus_basic_legatus_01",
+   "label": "Chevalier legatus basic legatus",
+   "base_look": "chevalier_legatus_basic_legatus_01",
+   "looks": [
+    "chevalier_legatus_basic_legatus_01"
+   ],
+   "options": {
+    "base.seat.seats_f": "a63076e1"
+   },
+   "kits": []
+  },
+  {
+   "id": "chevalier_legatus_basic_legatus_aquila_01",
+   "code": "chevalier_legatus_basic_legatus_aquila_01",
+   "label": "Chevalier legatus basic legatus aquila",
+   "base_look": "chevalier_legatus_basic_legatus_aquila_01",
+   "looks": [
+    "chevalier_legatus_basic_legatus_aquila_01"
+   ],
+   "options": {
+    "base.seat.seats_f": "e8093891"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "chevalier_legatus_basic_burnt_01",
+  "chevalier_legatus_basic_burnt_aquila_01"
+ ],
+ "slots": [
+  {
+   "id": "base.seat.seats_f",
+   "label": "Seats",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     -0.12,
+     -0.04
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seats_f_01",
+    "seats_fl_01"
+   ],
+   "options": [
+    {
+     "id": "e8093891",
+     "code": "seats_f_01",
+     "vehicle": "v_utility4_chevalier_legatus",
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_legatus__int01_seats_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_legatus__int01_seats_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "chevalier_legatus_basic_burnt_aquila_01",
+      "chevalier_legatus_basic_legatus_aquila_01"
+     ],
+     "origins": [
+      "style:chevalier_legatus_basic_legatus_aquila_01",
+      "wreck:chevalier_legatus_basic_burnt_aquila_01"
+     ]
+    },
+    {
+     "id": "a63076e1",
+     "code": "seats_fl_01",
+     "vehicle": "v_utility4_chevalier_legatus",
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_centurion__int01_seats_fl_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_centurion__int01_seats_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "chevalier_legatus_basic_burnt_01",
+      "chevalier_legatus_basic_legatus_01"
+     ],
+     "origins": [
+      "style:chevalier_legatus_basic_legatus_01",
+      "wreck:chevalier_legatus_basic_burnt_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [],
+ "looks": {
+  "chevalier_legatus_basic_burnt_aquila_01": {
+   "app": "base\\vehicles\\appearances\\utility\\chevalier_legatus_basic.app",
+   "app_look": "burnt_aquila_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_b_02"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_f": {
+     "all": "seats_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "chevalier_legatus_basic_burnt_01": {
+   "app": "base\\vehicles\\appearances\\utility\\chevalier_legatus_basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.bumper": {
+     "all": "bumper_b_02"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_f": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "chevalier_legatus_basic_legatus_01": {
+   "app": "base\\vehicles\\appearances\\utility\\chevalier_legatus_basic.app",
+   "app_look": "legatus_01",
+   "style": "chevalier_legatus_basic_legatus_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.bumper": {
+     "all": "bumper_b_02"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_02_fl_a",
+     "fr": "wheel_02_fr_a",
+     "bl": "wheel_02_bl_b",
+     "br": "wheel_02_br_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_b"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_f": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    }
+   }
+  },
+  "chevalier_legatus_basic_legatus_aquila_01": {
+   "app": "base\\vehicles\\appearances\\utility\\chevalier_legatus_basic.app",
+   "app_look": "legatus_aquila_01",
+   "style": "chevalier_legatus_basic_legatus_aquila_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "base.bumper": {
+     "all": "bumper_b_02"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_02_fl_a",
+     "fr": "wheel_02_fr_a",
+     "bl": "wheel_02_bl_b",
+     "br": "wheel_02_br_b"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_b"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_f": {
+     "all": "seats_f_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.6073,
+   0.5144,
+   0.3621,
+   -0.337
+  ],
+  "b": [
+   0.6073,
+   1.0008,
+   0.3492,
+   -0.0875
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "2d7adc34",
+   "rim": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_legatus__ext01_wheel_bl_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_legatus__ext01_tire_bl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_legatus__ext01_tire_bl_01_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_01",
+   "from": "Legatus 450 Aquila",
+   "radius": 0.6073,
+   "width": 1.0008,
+   "rim_radius": 0.3492,
+   "tire_center": -0.0875,
+   "axles": [
+    "b"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_legatus_basic_legatus_01",
+    "chevalier_legatus_basic_legatus_aquila_01"
+   ]
+  },
+  {
+   "id": "ccde2ecc",
+   "rim": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_legatus__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_legatus__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_chevalier_legatus\\entities\\meshes\\v_utility4_chevalier_legatus__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Legatus 450 Aquila",
+   "radius": 0.6073,
+   "width": 0.5144,
+   "rim_radius": 0.3621,
+   "tire_center": -0.337,
+   "axles": [
+    "f"
+   ],
+   "looks": 2,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "chevalier_legatus_basic_legatus_01",
+    "chevalier_legatus_basic_legatus_aquila_01"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "chevalier_legatus_basic_legatus_aquila_01",
+   "Legatus 450 Aquila"
+  ]
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "camera_forward": {
+    "x": -0.8,
+    "y": 0.6,
+    "z": -0.1
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 18.1,
+    "x": -1563,
+    "y": 635.1,
+    "z": 9.6
+  },
+  "look_object": {
+    "class": "vehicleCarBaseObject",
+    "entity_id": "10253744ULL",
+    "name": "Mackinaw MTL1",
+    "position": {
+      "x": -1563.6,
+      "y": 636.1,
+      "z": 9.7
+    },
+    "record": "Vehicle.v_standard3_thorton_mackinaw"
+  },
+  "nearest": {
+    "distance": 31.6,
+    "id": "unknown_lift",
+    "name": "Unknown lift"
+  },
+  "note": "",
+  "player": {
+    "x": -1548.8,
+    "y": 623.9,
+    "yaw": 51.7,
+    "z": 9.3
+  },
+  "stamp": "20261106-184203",
+  "time": "2026-11-06 18:42:03"
+}

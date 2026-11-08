@@ -1,0 +1,89 @@
+Colby CX410 "Gran Butte" (thorton_colby_pickup__basic_01), from base\vehicles\standard\v_standard25_thorton_colby_pickup__basic_01.ent
+records: Vehicle.v_standard25_thorton_colby_pickup_02_player, Vehicle.v_standard25_thorton_colby_pickup_player
+generated 2026-11-08
+
+STYLES (3; a style's other looks are its factory paints)
+  thorton_colby_pickup_jake_estevez_01 Thorton colby pickup jake estevez 1 looks
+                                            kits: kit_6th_street_body, hood_scoop_01
+  thorton_colby_pickup_poor_1 Thorton colby pickup poor 9 looks
+                                            paints: thorton_colby_pickup_poor_1_1, thorton_colby_pickup_poor_1_2, thorton_colby_pickup_poor_1_3, thorton_colby_pickup_poor_1_4, thorton_colby_pickup_player_01, thorton_colby_pickup_suburban_2, thorton_colby_pickup_q301_no_wheels_01, thorton_colby_pickup_q301_no_wheels_02
+                                            kits: hood_scoop_01
+  thorton_colby_pickup_suburban_1 Thorton colby pickup suburban 5 looks
+                                            paints: thorton_colby_pickup_suburban_1_1, thorton_colby_pickup_suburban_1_2, thorton_colby_pickup_valentino_01, thorton_colby_pickup_ma_bls_ina_se1_44
+                                            kits: hood_scoop_01
+WRECKS: thorton_colby_pickup_burnt_01
+
+SLOTS (15)
+  Front bumper [bumper_front.bumper] (bumper_front): 1 options
+    bumper_f_01                                    18 paints  29 looks  [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01] [look: default_01] [look: kurtz_01] ...
+  Rear bumper [bumper_back.bumper] (bumper_back): 1 options
+    bumper_b_01                                    18 paints  33 looks  [look: burnt_01] [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: burnt_01_no_hull] [look: cd_kurtz_04] ...
+  Hood [hood_a.hood] (hood_a): 2 options
+    hood_01                                        14 paints  16 looks  [look: default_01] [style: Thorton colby pickup jake estevez] [style: Thorton colby pickup poor] [style: Thorton colby pickup suburban]
+    hood_01                                        18 paints  13 looks  [car: v_standard2_thorton_colby_kurtz] [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01] [look: kurtz_01] ...
+  Trunk [trunk_a.trunk] (trunk_a): 1 options
+    trunk_01                                       15 paints  29 looks  [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01] [look: default_01] [look: kurtz_01] ...
+  Body [base.body] (Base): 2 options
+    body_01                                        19 paints  17 looks  [look: default_01] [style: Thorton colby pickup jake estevez] [style: Thorton colby pickup poor] [style: Thorton colby pickup suburban] [wreck: thorton_colby_pickup_burnt_01]
+    body_01                                        19 paints  17 looks  [car: v_standard2_thorton_colby_kurtz] [look: burnt_01] [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: burnt_01_no_hull] ...
+  Exhaust [base.exhaust] (Base): 1 options
+    exhaust_02                                      3 paints  34 looks  [look: burnt_01] [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: burnt_01_no_hull] [look: cd_kurtz_04] ...
+  Interior [base.interior] (Base): 2 options
+    interior_01                                    14 paints  17 looks  [look: default_01] [style: Thorton colby pickup jake estevez] [style: Thorton colby pickup poor] [style: Thorton colby pickup suburban] [wreck: thorton_colby_pickup_burnt_01]
+    interior_02                                     6 paints  17 looks  [car: v_standard2_thorton_colby_kurtz] [look: burnt_01] [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: burnt_01_no_hull] ...
+  Roof [base.roof] (Base): 1 options
+    roof_devices_01                                 5 paints  17 looks  [car: v_standard2_thorton_colby_kurtz] [look: burnt_01] [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: burnt_01_no_hull] ...
+  Wheel (Base): v standard2 thorton colby kurtz front left cover [base.wheel] (Base): 1 options
+    fl_wheel_cover_01                               5 paints  17 looks  [car: v_standard2_thorton_colby_kurtz] [look: burnt_01] [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: burnt_01_no_hull] ...
+  Wheel (Base): v standard2 thorton colby kurtz front right cover [base.wheel.v_standard2_thorton_colby_kurtz_fr_wheel_cover] (Base): 1 options
+    fr_wheel_cover_01                               5 paints  17 looks  [car: v_standard2_thorton_colby_kurtz] [look: burnt_01] [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: burnt_01_no_hull] ...
+  Windshield [base.window] (Base): 2 options
+    window_b_01                                     1 paints  17 looks  [look: default_01] [style: Thorton colby pickup jake estevez] [style: Thorton colby pickup poor] [style: Thorton colby pickup suburban] [wreck: thorton_colby_pickup_burnt_01]
+    window_f_01                                     0 paints   5 looks  [car: v_standard2_thorton_colby_kurtz] [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: cd_kurtz_04] [look: cd_kurtz_05] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         1 paints  16 looks  [look: default_01] [style: Thorton colby pickup jake estevez] [style: Thorton colby pickup poor] [style: Thorton colby pickup suburban]
+    v_standard25_thorton_colby_kurtz_tire_kurtz_01  0 paints  13 looks  [car: v_standard2_thorton_colby_kurtz] [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01] [look: kurtz_01] ...
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    v_standard25_thorton_colby_kurtz_wheel_kurtz_0  3 paints  13 looks  [car: v_standard2_thorton_colby_kurtz] [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01] [look: kurtz_01] ...
+    wheel_02                                        3 paints  11 looks  [look: default_01] [style: Thorton colby pickup jake estevez] [style: Thorton colby pickup poor]
+    wheel_03                                        1 paints   5 looks  [style: Thorton colby pickup suburban]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_01                                        29 paints  29 looks  [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01] [look: default_01] [look: kurtz_01] ...
+  Side windows [window.window] (window_front_left_a, window_front_right_a): 2 options
+    window_01                                       1 paints  26 looks  [look: default_01] [look: kurtz_01] [look: kurtz_01_no_hull] [look: kurtz_02] [look: kurtz_03] ...
+    window_01                                       2 paints   3 looks  [car: Colby "Vulture"] [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01]
+
+KITS (19)
+  kit_6th_street_body                            2 parts   1 looks  [style: Thorton colby pickup jake estevez]
+  back_hull_stickers_kurtz_02                    1 parts   7 looks  [look: burnt_01] [look: cd_militia_01] [look: kurtz_02] [look: kurtz_03] [look: kurtz_04] ...
+                                                 made to sit on kit_kurtz_body_interior
+  back_hull_stickers_kurtz_02_2                  1 parts   5 looks  [look: burnt_01] [look: cd_militia_01] [look: kurtz_02] [look: militia_01] [look: militia_01_no_hull]
+                                                 made to sit on kit_kurtz_body_interior
+  back_hull_stickers_kurtz_03                    1 parts   4 looks  [look: kurtz_02] [look: kurtz_03] [look: kurtz_04] [look: militia_01]
+                                                 made to sit on kit_kurtz_body_interior
+  back_hull_top_01                               1 parts  12 looks  [look: burnt_01] [look: burnt_01_cd] [look: cd_kurtz_05] [look: cd_militia_01] [look: kurtz_01] ...
+  back_hull_top_stickers_kurtz_01                1 parts   7 looks  [look: cd_kurtz_05] [look: cd_militia_01] [look: kurtz_01] [look: kurtz_02] [look: kurtz_q302] ...
+                                                 made to sit on back_hull_top_01
+  back_hull_top_stickers_kurtz_02                1 parts   7 looks  [look: burnt_01] [look: cd_militia_01] [look: kurtz_01] [look: kurtz_02] [look: kurtz_04] ...
+                                                 made to sit on back_hull_top_01
+  back_hull_top_stickers_kurtz_03                1 parts   6 looks  [look: kurtz_01] [look: kurtz_02] [look: kurtz_03] [look: kurtz_04] [look: kurtz_q302_custom_lighting] ...
+                                                 made to sit on back_hull_top_01
+  bumper_f_stickers_kurtz_01                     1 parts   1 looks  [look: kurtz_q302_custom_lighting]
+                                                 made to sit on Front bumper
+  bumper_front_cover_stickers_01                 1 parts   4 looks  [look: cd_militia_01] [look: kurtz_02] [look: militia_01] [look: militia_01_no_hull]
+                                                 made to sit on Front bumper
+  grate_f_01                                     1 parts  12 looks  [look: burnt_01] [look: burnt_01_no_hull] [look: kurtz_01] [look: kurtz_01_no_hull] [look: kurtz_02] ...
+  hood_scoop_01                                  1 parts  29 looks  [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01] [look: default_01] [look: kurtz_01] ...
+                                                 made to sit on Hood
+  kit_kurtz_body                                 8 parts   5 looks  [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01]
+  kit_kurtz_body_2                               2 parts   3 looks  [look: cd_militia_01] [look: militia_01] [look: militia_01_no_hull]
+  kit_kurtz_body_3                               2 parts   1 looks  [look: cd_militia_01]
+                                                 made to sit on Windshield, Rims
+  kit_kurtz_body_bumper                          4 parts  13 looks  [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01] [look: kurtz_01] [look: kurtz_01_no_hull] ...
+                                                 made to sit on Wheel (Base): v standard2 thorton colby kurtz front left cover, Wheel (Base): v standard2 thorton colby kurtz front right cover, Front bumper, Rims
+  kit_kurtz_body_doors                           6 parts  10 looks  [look: kurtz_01] [look: kurtz_01_no_hull] [look: kurtz_02] [look: kurtz_03] [look: kurtz_04] ...
+                                                 made to sit on Doors, Side windows
+  kit_kurtz_body_doors_2                         11 parts   3 looks  [look: cd_kurtz_04] [look: cd_kurtz_05] [look: cd_militia_01]
+                                                 made to sit on Windshield, Doors, Side windows
+  kit_kurtz_body_interior                        14 parts  17 looks  [look: burnt_01] [look: burnt_01_cd] [look: burnt_01_cd_no_hull] [look: burnt_01_no_hull] [look: cd_kurtz_04] ...
+                                                 made to sit on Wheel (Base): v standard2 thorton colby kurtz front left cover, Wheel (Base): v standard2 thorton colby kurtz front right cover

@@ -1,0 +1,22 @@
+MT28 Coach (mt28_coach_basic_01), from base\vehicles\special\v_mahir_mt28_coach_basic_01.ent
+records: Vehicle.v_mahir_mt28_coach
+generated 2026-11-08
+
+STYLES (2; a style's other looks are its factory paints)
+  mahir_mt28_basic_cinematic_no_strut Mahir mt28 basic cinematic no strut 1 looks
+  mahir_mt28_basic_coach_01 Mahir mt28 basic coach 2 looks
+                                            paints: mahir_mt28_basic_coach_closed_01
+
+SLOTS (3)
+  Windshield: strut [base.window.window_strut] (Base): 3 options
+    window_strut_01                                 0 paints   4 looks  [car: v_mahir_mt28_coach] [look: coach_q204] [look: default] [style: Mahir mt28 basic coach]
+    window_no_strut_01                              0 paints   1 looks  [car: v_mahir_mt28_coach] [style: Mahir mt28 basic cinematic no strut]
+    window_strut_01_q204                            0 paints   1 looks  [car: v_mahir_mt28_coach] [look: coach_q204_final]
+  Windshield: windowstatic right [base.window.windowstatic_right_2] (Base): 2 options
+    window_fr_04                                    1 paints   5 looks  [car: v_mahir_mt28_coach] [look: coach_q204] [look: default] [style: Mahir mt28 basic cinematic no strut] [style: Mahir mt28 basic coach]
+    window_fr_04_q204                               1 paints   1 looks  [car: v_mahir_mt28_coach] [look: coach_q204_final]
+  Side windows [window.window] (window_front_right_a): 2 options
+    window_sliding_fr_03                            1 paints   4 looks  [car: v_mahir_mt28_coach] [look: default] [style: Mahir mt28 basic cinematic no strut] [style: Mahir mt28 basic coach]
+    window_sliding_fr_03_q204                       1 paints   2 looks  [car: v_mahir_mt28_coach] [look: coach_q204] [look: coach_q204_final]
+
+KITS (0)

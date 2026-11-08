@@ -1,0 +1,1813 @@
+{
+ "id": "militech_behemoth_basic_01_ep1",
+ "label": "Behemoth",
+ "entity": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth_basic_01.ent",
+ "family": "v_utilty4_militech_behemoth_basic",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_utility4_militech_behemoth_kurtz"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "ep1\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+  "ep1\\vehicles\\appearances\\utility\\militech_behemoth_police.app"
+ ],
+ "styles": [
+  {
+   "id": "militech_behemoth_basic_kurtz_01",
+   "code": "militech_behemoth_basic_kurtz_01",
+   "label": "Militech behemoth basic kurtz",
+   "base_look": "militech_behemoth_basic_kurtz_01",
+   "looks": [
+    "militech_behemoth_basic_kurtz_01"
+   ],
+   "options": {
+    "base.body": "1d1d42b0",
+    "base.interior": "43b12277",
+    "wheel.wheel": "b978ece7",
+    "door.door": "a5011e75",
+    "wheel_b.wheel": "23fef790"
+   },
+   "kits": [
+    "kurtz_b61e",
+    "kurtz_de97",
+    "police_312a",
+    "police_3e9b"
+   ]
+  }
+ ],
+ "wrecks": [
+  "militech_behemoth_basic_kurtz_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     -0.4514
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "898a991b",
+     "code": "bumper_f_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "brown_01",
+     "paints": [
+      "brown_01",
+      "camo_01",
+      "border_patrol_01"
+     ],
+     "looks": [
+      "militech_behemoth_police:netwatch_01_burnt",
+      "militech_behemoth_police:police_01_burnt"
+     ],
+     "origins": [
+      "look:netwatch_01_burnt",
+      "look:police_01_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "1d1d42b0",
+     "code": "body_01",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police",
+     "paints": [
+      "camo_01",
+      "police",
+      "brown_01",
+      "border_patrol_01",
+      "netwatch",
+      "maxtac",
+      "kurtz"
+     ],
+     "looks": [
+      "militech_behemoth_basic_kurtz_01",
+      "militech_behemoth_basic_kurtz_burnt_01",
+      "militech_behemoth_police:default",
+      "militech_behemoth_police:maxtac_01_damaged",
+      "militech_behemoth_police:maxtac_01_damaged_no_door",
+      "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+      "militech_behemoth_police:netwatch_01_damaged",
+      "militech_behemoth_police:police_01",
+      "militech_behemoth_police:q305_hologram_red",
+      "militech_behemoth_police_q305_hologram"
+     ],
+     "origins": [
+      "look:default",
+      "look:maxtac_01_damaged",
+      "look:maxtac_01_damaged_no_door",
+      "look:maxtac_01_damaged_scene_q305",
+      "look:militech_behemoth_police_q305_hologram",
+      "look:netwatch_01_damaged",
+      "look:police_01",
+      "look:q305_hologram_red",
+      "style:militech_behemoth_basic_kurtz_01",
+      "wreck:militech_behemoth_basic_kurtz_burnt_01"
+     ]
+    },
+    {
+     "id": "c7542498",
+     "code": "body_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kang_tao",
+     "paints": [
+      "kang_tao",
+      "brown_01",
+      "camo_01",
+      "border_patrol_01"
+     ],
+     "looks": [
+      "militech_behemoth_police:netwatch_01_burnt",
+      "militech_behemoth_police:police_01_burnt"
+     ],
+     "origins": [
+      "look:netwatch_01_burnt",
+      "look:police_01_burnt"
+     ]
+    },
+    {
+     "id": "ead5b516",
+     "code": "body_02_police",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_02_police.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "netwatch",
+     "paints": [
+      "police",
+      "netwatch",
+      "maxtac",
+      "kurtz",
+      "camo_01",
+      "brown_01",
+      "border_patrol_01"
+     ],
+     "looks": [
+      "militech_behemoth_police:maxtac_01",
+      "militech_behemoth_police:netwatch_01"
+     ],
+     "origins": [
+      "look:maxtac_01",
+      "look:netwatch_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01",
+    "netwatch_interior"
+   ],
+   "options": [
+    {
+     "id": "c4a033bd",
+     "code": "interior_01",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_netwatch__int01_interior_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_netwatch__int01_interior_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_behemoth_police:maxtac_01_damaged",
+      "militech_behemoth_police:maxtac_01_damaged_no_door",
+      "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+      "militech_behemoth_police:netwatch_01_damaged"
+     ],
+     "origins": [
+      "look:maxtac_01_damaged",
+      "look:maxtac_01_damaged_no_door",
+      "look:maxtac_01_damaged_scene_q305",
+      "look:netwatch_01_damaged"
+     ]
+    },
+    {
+     "id": "4653f9ee",
+     "code": "interior_01",
+     "vehicle": "v_utility4_militech_behemoth",
+     "meshes": {
+      "all": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_behemoth_police:maxtac_01",
+      "militech_behemoth_police:netwatch_01",
+      "militech_behemoth_police:police_01_burnt"
+     ],
+     "origins": [
+      "look:maxtac_01",
+      "look:netwatch_01",
+      "look:police_01_burnt"
+     ]
+    },
+    {
+     "id": "43b12277",
+     "code": "kurtz_interior_01",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__int01_kurtz_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz_01",
+     "paints": [
+      "kurtz_01"
+     ],
+     "looks": [
+      "militech_behemoth_basic_kurtz_01",
+      "militech_behemoth_basic_kurtz_burnt_01"
+     ],
+     "origins": [
+      "style:militech_behemoth_basic_kurtz_01",
+      "wreck:militech_behemoth_basic_kurtz_burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "police_wheel_01_<c>_a",
+    "wheel_kurtz_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "2099b1fd",
+     "code": "wheel_police_01",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_wheel_fl_police_01.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_wheel_fl_police_01.mesh",
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_wheel_fl_police_01.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_wheel_fl_police_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "camo_01",
+      "police",
+      "brown_01",
+      "border_patrol_01",
+      "netwatch",
+      "maxtac",
+      "kurtz"
+     ],
+     "looks": [
+      "militech_behemoth_police:default",
+      "militech_behemoth_police:maxtac_01",
+      "militech_behemoth_police:maxtac_01_damaged",
+      "militech_behemoth_police:maxtac_01_damaged_no_door",
+      "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+      "militech_behemoth_police:netwatch_01",
+      "militech_behemoth_police:netwatch_01_damaged",
+      "militech_behemoth_police:police_01",
+      "militech_behemoth_police:q305_hologram_red",
+      "militech_behemoth_police_q305_hologram"
+     ],
+     "origins": [
+      "look:default",
+      "look:maxtac_01",
+      "look:maxtac_01_damaged",
+      "look:maxtac_01_damaged_no_door",
+      "look:maxtac_01_damaged_scene_q305",
+      "look:militech_behemoth_police_q305_hologram",
+      "look:netwatch_01",
+      "look:netwatch_01_damaged",
+      "look:police_01",
+      "look:q305_hologram_red"
+     ]
+    },
+    {
+     "id": "b978ece7",
+     "code": "wheel_kurtz_03 + wheel_kurtz_04",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_kurtz_fl_03.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_kurtz_fl_03.mesh",
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_kurtz_fl_04.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_kurtz_fl_04.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_behemoth_basic_kurtz_01"
+     ],
+     "origins": [
+      "style:militech_behemoth_basic_kurtz_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "da096385",
+     "code": "door_02_police",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fl_02_police.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fr_02_police.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "police",
+     "paints": [
+      "netwatch",
+      "police",
+      "maxtac",
+      "camo_01",
+      "brown_01",
+      "border_patrol_01",
+      "kurtz"
+     ],
+     "looks": [
+      "militech_behemoth_police:default",
+      "militech_behemoth_police:maxtac_01",
+      "militech_behemoth_police:maxtac_01_damaged",
+      "militech_behemoth_police:maxtac_01_damaged_no_door",
+      "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+      "militech_behemoth_police:netwatch_01",
+      "militech_behemoth_police:netwatch_01_burnt",
+      "militech_behemoth_police:netwatch_01_damaged",
+      "militech_behemoth_police:police_01",
+      "militech_behemoth_police:police_01_burnt",
+      "militech_behemoth_police:q305_hologram_red",
+      "militech_behemoth_police_q305_hologram"
+     ],
+     "origins": [
+      "look:default",
+      "look:maxtac_01",
+      "look:maxtac_01_damaged",
+      "look:maxtac_01_damaged_no_door",
+      "look:maxtac_01_damaged_scene_q305",
+      "look:militech_behemoth_police_q305_hologram",
+      "look:netwatch_01",
+      "look:netwatch_01_burnt",
+      "look:netwatch_01_damaged",
+      "look:police_01",
+      "look:police_01_burnt",
+      "look:q305_hologram_red"
+     ]
+    },
+    {
+     "id": "a5011e75",
+     "code": "door_04_kurtz",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fl_04_kurtz.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fr_04_kurtz.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "kurtz",
+     "paints": [
+      "netwatch",
+      "police",
+      "maxtac",
+      "kurtz"
+     ],
+     "looks": [
+      "militech_behemoth_basic_kurtz_01"
+     ],
+     "origins": [
+      "style:militech_behemoth_basic_kurtz_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.wheel",
+   "label": "Rims (b)",
+   "kind": "wheel",
+   "group": "wheel_b",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left_b",
+    "wheel_back_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "police_wheel_01_fl_b",
+    "police_wheel_01_fr_b",
+    "wheel_kurtz_fl_02",
+    "wheel_kurtz_fr_02"
+   ],
+   "options": [
+    {
+     "id": "dadec838",
+     "code": "wheel_police_01",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_wheel_fl_police_01.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_wheel_fl_police_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "camo_01",
+      "police",
+      "brown_01",
+      "border_patrol_01",
+      "netwatch",
+      "maxtac",
+      "kurtz"
+     ],
+     "looks": [
+      "militech_behemoth_police:default",
+      "militech_behemoth_police:maxtac_01",
+      "militech_behemoth_police:maxtac_01_damaged",
+      "militech_behemoth_police:maxtac_01_damaged_no_door",
+      "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+      "militech_behemoth_police:netwatch_01",
+      "militech_behemoth_police:netwatch_01_damaged",
+      "militech_behemoth_police:police_01",
+      "militech_behemoth_police:q305_hologram_red",
+      "militech_behemoth_police_q305_hologram"
+     ],
+     "origins": [
+      "look:default",
+      "look:maxtac_01",
+      "look:maxtac_01_damaged",
+      "look:maxtac_01_damaged_no_door",
+      "look:maxtac_01_damaged_scene_q305",
+      "look:militech_behemoth_police_q305_hologram",
+      "look:netwatch_01",
+      "look:netwatch_01_damaged",
+      "look:police_01",
+      "look:q305_hologram_red"
+     ]
+    },
+    {
+     "id": "23fef790",
+     "code": "wheel_kurtz_04",
+     "vehicle": "v_utilty4_militech_behemoth",
+     "meshes": {
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_kurtz_fl_04.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_kurtz_fl_04.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "militech_behemoth_basic_kurtz_01"
+     ],
+     "origins": [
+      "style:militech_behemoth_basic_kurtz_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "kurtz_b61e",
+   "family": "kurtz",
+   "code": "door_fl_sticker_kurtz_01",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "v_utility4_militech_behemoth__ext01_door_fl_sticker_kurtz_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_door_fl_sticker_kurtz_01.mesh",
+     "code": "door_fl_sticker_kurtz_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_basic_kurtz_01"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "style:militech_behemoth_basic_kurtz_01"
+   ]
+  },
+  {
+   "id": "kurtz_de97",
+   "family": "kurtz",
+   "code": "kit_kurtz_body_interior",
+   "where": [
+    "body",
+    "interior"
+   ],
+   "parts": [
+    {
+     "name": "container_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_container_04_kurtz.mesh",
+     "code": "container_04_kurtz",
+     "paint": "kurtz",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_container_01_shadow.mesh",
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "covers_bl_kurtz_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_covers_bl_kurtz_01.mesh",
+     "code": "covers_bl_kurtz_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "kurtz__ext01_body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "covers_br_kurtz_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_covers_br_kurtz_01.mesh",
+     "code": "covers_br_kurtz_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "kurtz__ext01_body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "kurtz__ext01_body_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_body_kurtz_cover_01.mesh",
+     "code": "v_utility4_militech_behemoth_body_kurtz_cover_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_body_01_shadow.mesh",
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "kurtz_devices_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__int01_kurtz_devices_01.mesh",
+     "code": "kurtz_devices_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "interior_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_utility4_militech_behemoth__ext01_body_kurtz_stickers_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_kurtz_stickers_01.mesh",
+     "code": "body_kurtz_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "container_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "v_utility4_militech_behemoth__ext01_body_kurtz_stickers_02",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_body_kurtz_stickers_02.mesh",
+     "code": "body_kurtz_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_basic_kurtz_01",
+    "militech_behemoth_basic_kurtz_burnt_01"
+   ],
+   "made_for": [
+    "kit:police_5ed2",
+    "slot:base.interior"
+   ],
+   "needs": [],
+   "origins": [
+    "style:militech_behemoth_basic_kurtz_01",
+    "wreck:militech_behemoth_basic_kurtz_burnt_01"
+   ]
+  },
+  {
+   "id": "police_10a7",
+   "family": "police",
+   "code": "body_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "police__ext01_body_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_body_01.mesh",
+     "code": "body_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      -0.01
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_body_01_shadow.mesh",
+     "look": "militech_behemoth_police:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_police:default",
+    "militech_behemoth_police:maxtac_01",
+    "militech_behemoth_police:maxtac_01_damaged",
+    "militech_behemoth_police:maxtac_01_damaged_no_door",
+    "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+    "militech_behemoth_police:netwatch_01",
+    "militech_behemoth_police:netwatch_01_burnt",
+    "militech_behemoth_police:netwatch_01_damaged",
+    "militech_behemoth_police:police_01",
+    "militech_behemoth_police:police_01_burnt",
+    "militech_behemoth_police:q305_hologram_red",
+    "militech_behemoth_police_q305_hologram"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "look:maxtac_01",
+    "look:maxtac_01_damaged",
+    "look:maxtac_01_damaged_no_door",
+    "look:maxtac_01_damaged_scene_q305",
+    "look:militech_behemoth_police_q305_hologram",
+    "look:netwatch_01",
+    "look:netwatch_01_burnt",
+    "look:netwatch_01_damaged",
+    "look:police_01",
+    "look:police_01_burnt",
+    "look:q305_hologram_red"
+   ]
+  },
+  {
+   "id": "police_5ed2",
+   "family": "police",
+   "code": "container_02_police",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "container_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_container_02_police.mesh",
+     "code": "container_02_police",
+     "paint": "police",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_container_01_shadow.mesh",
+     "look": "militech_behemoth_police:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_police:default",
+    "militech_behemoth_police:police_01",
+    "militech_behemoth_police:q305_hologram_red",
+    "militech_behemoth_police_q305_hologram"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "look:militech_behemoth_police_q305_hologram",
+    "look:police_01",
+    "look:q305_hologram_red"
+   ]
+  },
+  {
+   "id": "police_312a",
+   "family": "police",
+   "code": "kit_police_body",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "police__ext01_body_01_exhaust",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_body_01_exhaust.mesh",
+     "code": "body_01_exhaust",
+     "paint": "kurtz",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police__int01_interior_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__int01_interior_01.mesh",
+     "code": "interior_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "position_lights_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_body_01_position_lights_01.mesh",
+     "code": "body_01_position_lights_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ml_a",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_crystaldome_f_ol_a_01.mesh",
+     "code": "crystaldome_f_ol_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_ml_b",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_crystaldome_f_ol_b_01.mesh",
+     "code": "crystaldome_f_ol_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_a",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_crystaldome_f_m_a_01.mesh",
+     "code": "crystaldome_f_m_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_mr_b",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_crystaldome_f_m_b_01.mesh",
+     "code": "crystaldome_f_m_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_or_a",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_crystaldome_f_or_a_01.mesh",
+     "code": "crystaldome_f_or_a_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "window_f_or_b",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_crystaldome_f_or_b_01.mesh",
+     "code": "crystaldome_f_or_b_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_basic_kurtz_01",
+    "militech_behemoth_basic_kurtz_burnt_01",
+    "militech_behemoth_police:default",
+    "militech_behemoth_police:maxtac_01",
+    "militech_behemoth_police:maxtac_01_damaged",
+    "militech_behemoth_police:maxtac_01_damaged_no_door",
+    "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+    "militech_behemoth_police:netwatch_01",
+    "militech_behemoth_police:netwatch_01_burnt",
+    "militech_behemoth_police:netwatch_01_damaged",
+    "militech_behemoth_police:police_01",
+    "militech_behemoth_police:police_01_burnt",
+    "militech_behemoth_police:q305_hologram_red",
+    "militech_behemoth_police_q305_hologram"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "look:maxtac_01",
+    "look:maxtac_01_damaged",
+    "look:maxtac_01_damaged_no_door",
+    "look:maxtac_01_damaged_scene_q305",
+    "look:militech_behemoth_police_q305_hologram",
+    "look:netwatch_01",
+    "look:netwatch_01_burnt",
+    "look:netwatch_01_damaged",
+    "look:police_01",
+    "look:police_01_burnt",
+    "look:q305_hologram_red",
+    "style:militech_behemoth_basic_kurtz_01",
+    "wreck:militech_behemoth_basic_kurtz_burnt_01"
+   ]
+  },
+  {
+   "id": "police_4829",
+   "family": "police",
+   "code": "kit_police_body_2",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "police_lights_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_police_lights_01.mesh",
+     "code": "police_lights_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.01
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_police:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police_lights_01_blue",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_police_lights_01_blue.mesh",
+     "code": "police_lights_01_blue",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      -0.01
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_police:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_police:default",
+    "militech_behemoth_police:maxtac_01",
+    "militech_behemoth_police:maxtac_01_damaged",
+    "militech_behemoth_police:maxtac_01_damaged_no_door",
+    "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+    "militech_behemoth_police:netwatch_01",
+    "militech_behemoth_police:netwatch_01_burnt",
+    "militech_behemoth_police:netwatch_01_damaged",
+    "militech_behemoth_police:police_01",
+    "militech_behemoth_police:police_01_burnt"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "look:maxtac_01",
+    "look:maxtac_01_damaged",
+    "look:maxtac_01_damaged_no_door",
+    "look:maxtac_01_damaged_scene_q305",
+    "look:netwatch_01",
+    "look:netwatch_01_burnt",
+    "look:netwatch_01_damaged",
+    "look:police_01",
+    "look:police_01_burnt"
+   ]
+  },
+  {
+   "id": "police_e024",
+   "family": "police",
+   "code": "kit_police_body_3",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "police__ext01_body_4726",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_body_01_searchlight_cable.mesh",
+     "code": "body_01_searchlight_cable",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.034,
+      0.094,
+      -0.017
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_police:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police__search_lights",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_light_device_medium_03.mesh",
+     "code": "light_device_medium_03",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.904,
+      3.678,
+      1.601
+     ],
+     "rotation": [
+      -0.017451995983719826,
+      0.0,
+      0.0,
+      0.9998477697372437
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_police:police_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "police__search_pivot",
+     "mesh": "base\\vehicles\\common\\parts\\v_common__nomad\\entities\\meshes\\v_common_nomad_part__ext01_electric_device_04.mesh",
+     "code": "electric_device_04",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      -0.904,
+      3.63,
+      1.576
+     ],
+     "rotation": [
+      -0.0185100007802248,
+      0.0185100007802248,
+      0.7068650126457214,
+      0.7068639993667603
+     ],
+     "shadow": null,
+     "look": "militech_behemoth_police:police_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_police:default",
+    "militech_behemoth_police:maxtac_01_damaged",
+    "militech_behemoth_police:maxtac_01_damaged_no_door",
+    "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+    "militech_behemoth_police:netwatch_01_burnt",
+    "militech_behemoth_police:netwatch_01_damaged",
+    "militech_behemoth_police:police_01",
+    "militech_behemoth_police:police_01_burnt",
+    "militech_behemoth_police:q305_hologram_red",
+    "militech_behemoth_police_q305_hologram"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "look:maxtac_01_damaged",
+    "look:maxtac_01_damaged_no_door",
+    "look:maxtac_01_damaged_scene_q305",
+    "look:militech_behemoth_police_q305_hologram",
+    "look:netwatch_01_burnt",
+    "look:netwatch_01_damaged",
+    "look:police_01",
+    "look:police_01_burnt",
+    "look:q305_hologram_red"
+   ]
+  },
+  {
+   "id": "police_3e9b",
+   "family": "police",
+   "code": "kit_police_doors",
+   "where": [
+    "doors"
+   ],
+   "parts": [
+    {
+     "name": "window_fl_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_door_fl_01.mesh",
+     "code": "door_fl_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_door_fl_01_shadow.mesh",
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "window_fr_01",
+     "mesh": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_door_fr_01.mesh",
+     "code": "door_fr_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_door_fr_01_shadow.mesh",
+     "look": "militech_behemoth_basic_kurtz_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    }
+   ],
+   "looks": [
+    "militech_behemoth_basic_kurtz_01",
+    "militech_behemoth_police:default",
+    "militech_behemoth_police:maxtac_01",
+    "militech_behemoth_police:maxtac_01_damaged",
+    "militech_behemoth_police:maxtac_01_damaged_no_door",
+    "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+    "militech_behemoth_police:netwatch_01",
+    "militech_behemoth_police:netwatch_01_burnt",
+    "militech_behemoth_police:netwatch_01_damaged",
+    "militech_behemoth_police:police_01",
+    "militech_behemoth_police:police_01_burnt",
+    "militech_behemoth_police:q305_hologram_red",
+    "militech_behemoth_police_q305_hologram"
+   ],
+   "made_for": [
+    "slot:door.door"
+   ],
+   "needs": [],
+   "origins": [
+    "look:default",
+    "look:maxtac_01",
+    "look:maxtac_01_damaged",
+    "look:maxtac_01_damaged_no_door",
+    "look:maxtac_01_damaged_scene_q305",
+    "look:militech_behemoth_police_q305_hologram",
+    "look:netwatch_01",
+    "look:netwatch_01_burnt",
+    "look:netwatch_01_damaged",
+    "look:police_01",
+    "look:police_01_burnt",
+    "look:q305_hologram_red",
+    "style:militech_behemoth_basic_kurtz_01"
+   ]
+  }
+ ],
+ "looks": {
+  "militech_behemoth_basic_kurtz_01": {
+   "app": "ep1\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+   "app_look": "kurtz_01",
+   "style": "militech_behemoth_basic_kurtz_01",
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_kurtz_fl_01",
+     "fr": "wheel_kurtz_fr_01",
+     "bl": "wheel_kurtz_bl_01",
+     "br": "wheel_kurtz_br_01"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_fl_b",
+     "br": "tire_01_fr_b"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_kurtz_fl_02",
+     "br": "wheel_kurtz_fr_02"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "militech_behemoth_police_q305_hologram": {
+   "app": "ep1\\vehicles\\appearances\\utility\\militech_behemoth_police.app",
+   "app_look": "q305_hologram",
+   "style": null,
+   "wreck": false,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "wheel.wheel": {
+     "fl": "police_wheel_01_fl_a",
+     "fr": "police_wheel_01_fr_a",
+     "bl": "police_wheel_01_bl_a",
+     "br": "police_wheel_01_br_a"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_fl_b",
+     "br": "tire_01_fr_b"
+    },
+    "wheel_b.wheel": {
+     "bl": "police_wheel_01_fl_b",
+     "br": "police_wheel_01_fr_b"
+    }
+   }
+  },
+  "militech_behemoth_basic_kurtz_burnt_01": {
+   "app": "ep1\\vehicles\\appearances\\utility\\militech_behemoth_basic.app",
+   "app_look": "kurtz_burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.6884,
+   0.467,
+   0.3842,
+   -0.0108
+  ],
+  "b": [
+   0.6884,
+   0.467,
+   0.3884,
+   -0.0108
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "436c9e2c",
+   "rim": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_kurtz_fl_04.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_kurtz_fl_04",
+   "tire_code": "tire_fl_01",
+   "from": "Behemoth",
+   "radius": 0.6884,
+   "width": 0.467,
+   "rim_radius": 0.3884,
+   "tire_center": -0.0108,
+   "axles": [
+    "b"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "militech_behemoth_basic_kurtz_01"
+   ]
+  },
+  {
+   "id": "7a5c8155",
+   "rim": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_wheel_kurtz_fl_03.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_kurtz_fl_03",
+   "tire_code": "tire_fl_01",
+   "from": "Behemoth",
+   "radius": 0.6884,
+   "width": 0.467,
+   "rim_radius": 0.3842,
+   "tire_center": -0.0108,
+   "axles": [
+    "f"
+   ],
+   "looks": 1,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "militech_behemoth_basic_kurtz_01"
+   ]
+  },
+  {
+   "id": "6bf53968",
+   "rim": "ep1\\vehicles\\utility\\v_utilty4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth_police__ext01_wheel_fl_police_01.mesh",
+   "tire": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\utility\\v_utility4_militech_behemoth\\entities\\meshes\\v_utility4_militech_behemoth__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_police_01",
+   "tire_code": "tire_fl_01",
+   "from": "Behemoth",
+   "radius": 0.6884,
+   "width": 0.467,
+   "rim_radius": 0.3854,
+   "tire_center": -0.0108,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 20,
+   "paints": [
+    "camo_01",
+    "police",
+    "brown_01",
+    "border_patrol_01",
+    "netwatch",
+    "maxtac",
+    "kurtz"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "militech_behemoth_police:default",
+    "militech_behemoth_police:maxtac_01",
+    "militech_behemoth_police:maxtac_01_damaged",
+    "militech_behemoth_police:maxtac_01_damaged_no_door",
+    "militech_behemoth_police:maxtac_01_damaged_scene_q305",
+    "militech_behemoth_police:netwatch_01",
+    "militech_behemoth_police:netwatch_01_damaged",
+    "militech_behemoth_police:police_01",
+    "militech_behemoth_police:q305_hologram_red",
+    "militech_behemoth_police_q305_hologram"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "militech_behemoth_basic_kurtz_01",
+   "Behemoth"
+  ]
+ ]
+}

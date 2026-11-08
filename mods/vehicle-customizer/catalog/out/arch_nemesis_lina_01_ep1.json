@@ -1,0 +1,1198 @@
+{
+ "id": "arch_nemesis_lina_01_ep1",
+ "label": "Malina-mobile",
+ "entity": "ep1\\vehicles\\sportbike\\v_sportbike2_arch_nemesis_lina_01.ent",
+ "family": "v_sportbike2_arch_nemesis_lina",
+ "garage": true,
+ "default_look": "black",
+ "records": [
+  "Vehicle.v_sportbike2_arch_linas_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "base\\vehicles\\appearances\\sportbike\\arch_nemesis_basic.app",
+  "ep1\\vehicles\\appearances\\sportbike\\arch_nemesis_lina.app"
+ ],
+ "styles": [
+  {
+   "id": "arch_nemesis_lina_lina_malina_02",
+   "code": "arch_nemesis_lina_lina_malina_02",
+   "label": "Arch nemesis lina lina malina 02",
+   "base_look": "arch_nemesis_lina_lina_malina_02",
+   "looks": [
+    "arch_nemesis_lina_lina_malina_02"
+   ],
+   "options": {
+    "base.body": "da419289",
+    "base.body.body_cables": "8c926fc3",
+    "base.exhaust": "bbb8517b",
+    "wheel.tire": "77133d2c",
+    "wheel.wheel": "2d5d76d5",
+    "steering_wheel.fairing": "f5950a0a"
+   },
+   "kits": [
+    "sticker_8c56"
+   ]
+  }
+ ],
+ "wrecks": [
+  "arch_nemesis_basic_burnt_tygerclaws_01"
+ ],
+ "slots": [
+  {
+   "id": "base.body",
+   "label": "Body: back",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_b_01",
+    "body_c_01"
+   ],
+   "options": [
+    {
+     "id": "a23a39de",
+     "code": "body_b_01",
+     "vehicle": "v_sportbike2_arch_nemesis",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_body_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_body_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "troy_01",
+     "paints": [
+      "white",
+      "blue",
+      "camo_01",
+      "blue_03_neon",
+      "orange_01",
+      "gray_02",
+      "gray_01",
+      "green_02_neon",
+      "blue_04",
+      "red_01",
+      "yellow_02",
+      "neon_01",
+      "green_03",
+      "camo_02_dark",
+      "black_02",
+      "black_03",
+      "chrome_01",
+      "pink_01",
+      "red_02",
+      "troy_01",
+      "lina_01"
+     ],
+     "looks": [
+      "arch_nemesis_basic:burnt_sport_01",
+      "arch_nemesis_basic:player_02",
+      "arch_nemesis_basic:q101_troy_01",
+      "arch_nemesis_basic:sport_black_02",
+      "arch_nemesis_basic:sport_blue_01",
+      "arch_nemesis_basic:sport_blue_03_neon",
+      "arch_nemesis_basic:sport_gray_02",
+      "arch_nemesis_basic:sport_green_02_neon",
+      "arch_nemesis_basic:sport_neon_01",
+      "arch_nemesis_basic:sport_orange_01",
+      "arch_nemesis_basic:sport_red_01",
+      "arch_nemesis_basic:sport_white_01",
+      "arch_nemesis_basic:sport_yellow_02",
+      "arch_nemesis_lina:lina_malina_01"
+     ],
+     "origins": [
+      "look:burnt_sport_01",
+      "look:lina_malina_01",
+      "look:player_02",
+      "look:q101_troy_01",
+      "look:sport_black_02",
+      "look:sport_blue_01",
+      "look:sport_blue_03_neon",
+      "look:sport_gray_02",
+      "look:sport_green_02_neon",
+      "look:sport_neon_01",
+      "look:sport_orange_01",
+      "look:sport_red_01",
+      "look:sport_white_01",
+      "look:sport_yellow_02"
+     ]
+    },
+    {
+     "id": "da419289",
+     "code": "body_c_01",
+     "vehicle": "v_sportbike2_arch_nemesis",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_body_c_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_body_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "pink_01",
+     "paints": [
+      "violet",
+      "tygerclaws_boss_01",
+      "green",
+      "camo_01",
+      "blue_03_neon",
+      "orange_01",
+      "gray_02",
+      "gray_01",
+      "green_02_neon",
+      "blue_04",
+      "red_01",
+      "yellow_02",
+      "neon_01",
+      "green_03",
+      "camo_02_dark",
+      "black_02",
+      "black_03",
+      "chrome_01",
+      "pink_01",
+      "red_02",
+      "lina_01"
+     ],
+     "looks": [
+      "arch_nemesis_basic:player_03",
+      "arch_nemesis_basic:tygerclaws_boss_01",
+      "arch_nemesis_basic:tygerclaws_green_01",
+      "arch_nemesis_basic:tygerclaws_pink_01",
+      "arch_nemesis_basic:tygerclaws_red_02",
+      "arch_nemesis_basic:tygerclaws_violet_01",
+      "arch_nemesis_basic_burnt_tygerclaws_01",
+      "arch_nemesis_lina_lina_malina_02"
+     ],
+     "origins": [
+      "look:player_03",
+      "look:tygerclaws_boss_01",
+      "look:tygerclaws_green_01",
+      "look:tygerclaws_pink_01",
+      "look:tygerclaws_red_02",
+      "look:tygerclaws_violet_01",
+      "style:arch_nemesis_lina_lina_malina_02",
+      "wreck:arch_nemesis_basic_burnt_tygerclaws_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.body_cables",
+   "label": "Body: cables",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_cables_01"
+   ],
+   "options": [
+    {
+     "id": "8c926fc3",
+     "code": "body_a_cables_01",
+     "vehicle": "v_sportbike2_arch_nemesis",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_body_a_cables_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "red",
+      "camo_01",
+      "blue_03_neon",
+      "orange_01",
+      "gray_02",
+      "gray_01",
+      "green_02_neon",
+      "blue_04",
+      "red_01",
+      "yellow_02",
+      "neon_01",
+      "green_03",
+      "camo_02_dark",
+      "black_02",
+      "black_03",
+      "chrome_01",
+      "pink_01",
+      "red_02"
+     ],
+     "looks": [
+      "arch_nemesis_basic:jackie_tuned_up",
+      "arch_nemesis_basic:tygerclaws_boss_01",
+      "arch_nemesis_lina:lina_malina_01",
+      "arch_nemesis_lina_lina_malina_02"
+     ],
+     "origins": [
+      "look:jackie_tuned_up",
+      "look:lina_malina_01",
+      "look:tygerclaws_boss_01",
+      "style:arch_nemesis_lina_lina_malina_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.exhaust",
+   "label": "Exhaust",
+   "kind": "exhaust",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "exhaust_01"
+   ],
+   "options": [
+    {
+     "id": "bbb8517b",
+     "code": "exhaust_01",
+     "vehicle": "v_sportbike2_arch_nemesis",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_exhaust_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_exhaust_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "tygerclaws_boss_01",
+     "paints": [
+      "jackie",
+      "tygerclaws_boss_01"
+     ],
+     "looks": [
+      "arch_nemesis_basic:jackie_tuned_up",
+      "arch_nemesis_basic:tygerclaws_boss_01",
+      "arch_nemesis_lina:lina_malina_01",
+      "arch_nemesis_lina_lina_malina_02"
+     ],
+     "origins": [
+      "look:jackie_tuned_up",
+      "look:lina_malina_01",
+      "look:tygerclaws_boss_01",
+      "style:arch_nemesis_lina_lina_malina_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "f",
+    "b"
+   ],
+   "mounts": [
+    "wheel_front",
+    "wheel_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "77133d2c",
+     "code": "tire_01",
+     "vehicle": "v_sportbike2_arch_nemesis",
+     "meshes": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_tire_f_01.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_tire_b_01.mesh"
+     },
+     "shadows": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_tire_f_01_shadow.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_tire_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "red",
+      "violet",
+      "black",
+      "jackie",
+      "fluo_red",
+      "fluo_blue",
+      "white",
+      "fluo_green"
+     ],
+     "looks": [
+      "arch_nemesis_basic:jackie",
+      "arch_nemesis_basic:jackie_tuned_up",
+      "arch_nemesis_basic:player_01",
+      "arch_nemesis_basic:player_02",
+      "arch_nemesis_basic:player_03",
+      "arch_nemesis_basic:q101_troy_01",
+      "arch_nemesis_basic:sport_black_02",
+      "arch_nemesis_basic:sport_blue_01",
+      "arch_nemesis_basic:sport_blue_03_neon",
+      "arch_nemesis_basic:sport_gray_02",
+      "arch_nemesis_basic:sport_green_02_neon",
+      "arch_nemesis_basic:sport_neon_01",
+      "arch_nemesis_basic:sport_orange_01",
+      "arch_nemesis_basic:sport_red_01",
+      "arch_nemesis_basic:sport_white_01",
+      "arch_nemesis_basic:sport_yellow_02",
+      "arch_nemesis_basic:standard_black_03",
+      "arch_nemesis_basic:standard_blue_04",
+      "arch_nemesis_basic:standard_camo_01",
+      "arch_nemesis_basic:standard_camo_02_dark",
+      "arch_nemesis_basic:standard_gray_01",
+      "arch_nemesis_basic:standard_green_03",
+      "arch_nemesis_basic:standard_silver_01",
+      "arch_nemesis_basic:tygerclaws_boss_01",
+      "arch_nemesis_basic:tygerclaws_green_01",
+      "arch_nemesis_basic:tygerclaws_pink_01",
+      "arch_nemesis_basic:tygerclaws_red_02",
+      "arch_nemesis_basic:tygerclaws_violet_01",
+      "arch_nemesis_lina:lina_malina_01",
+      "arch_nemesis_lina_lina_malina_02"
+     ],
+     "origins": [
+      "look:jackie",
+      "look:jackie_tuned_up",
+      "look:lina_malina_01",
+      "look:player_01",
+      "look:player_02",
+      "look:player_03",
+      "look:q101_troy_01",
+      "look:sport_black_02",
+      "look:sport_blue_01",
+      "look:sport_blue_03_neon",
+      "look:sport_gray_02",
+      "look:sport_green_02_neon",
+      "look:sport_neon_01",
+      "look:sport_orange_01",
+      "look:sport_red_01",
+      "look:sport_white_01",
+      "look:sport_yellow_02",
+      "look:standard_black_03",
+      "look:standard_blue_04",
+      "look:standard_camo_01",
+      "look:standard_camo_02_dark",
+      "look:standard_gray_01",
+      "look:standard_green_03",
+      "look:standard_silver_01",
+      "look:tygerclaws_boss_01",
+      "look:tygerclaws_green_01",
+      "look:tygerclaws_pink_01",
+      "look:tygerclaws_red_02",
+      "look:tygerclaws_violet_01",
+      "style:arch_nemesis_lina_lina_malina_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "f",
+    "b"
+   ],
+   "mounts": [
+    "wheel_front",
+    "wheel_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_<c>_01"
+   ],
+   "options": [
+    {
+     "id": "2d5d76d5",
+     "code": "wheel_01",
+     "vehicle": "v_sportbike2_arch_nemesis",
+     "meshes": {
+      "f": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_wheel_f_01.mesh",
+      "b": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_wheel_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "black",
+     "paints": [
+      "black",
+      "violet",
+      "camo_01",
+      "blue_03_neon",
+      "chrome_01",
+      "orange_01",
+      "gray_02",
+      "silver_01",
+      "green_02_neon",
+      "blue_04",
+      "red_01",
+      "yellow_02",
+      "neon_01",
+      "green_03",
+      "camo_02_dark",
+      "black_02",
+      "black_03",
+      "gray_01",
+      "pink_01",
+      "red_02"
+     ],
+     "looks": [
+      "arch_nemesis_basic:jackie",
+      "arch_nemesis_basic:jackie_tuned_up",
+      "arch_nemesis_basic:player_01",
+      "arch_nemesis_basic:player_02",
+      "arch_nemesis_basic:player_03",
+      "arch_nemesis_basic:q101_troy_01",
+      "arch_nemesis_basic:sport_black_02",
+      "arch_nemesis_basic:sport_blue_01",
+      "arch_nemesis_basic:sport_blue_03_neon",
+      "arch_nemesis_basic:sport_gray_02",
+      "arch_nemesis_basic:sport_green_02_neon",
+      "arch_nemesis_basic:sport_neon_01",
+      "arch_nemesis_basic:sport_orange_01",
+      "arch_nemesis_basic:sport_red_01",
+      "arch_nemesis_basic:sport_white_01",
+      "arch_nemesis_basic:sport_yellow_02",
+      "arch_nemesis_basic:standard_black_03",
+      "arch_nemesis_basic:standard_blue_04",
+      "arch_nemesis_basic:standard_camo_01",
+      "arch_nemesis_basic:standard_camo_02_dark",
+      "arch_nemesis_basic:standard_gray_01",
+      "arch_nemesis_basic:standard_green_03",
+      "arch_nemesis_basic:standard_silver_01",
+      "arch_nemesis_basic:tygerclaws_boss_01",
+      "arch_nemesis_basic:tygerclaws_green_01",
+      "arch_nemesis_basic:tygerclaws_pink_01",
+      "arch_nemesis_basic:tygerclaws_red_02",
+      "arch_nemesis_basic:tygerclaws_violet_01",
+      "arch_nemesis_lina:lina_malina_01",
+      "arch_nemesis_lina_lina_malina_02"
+     ],
+     "origins": [
+      "look:jackie",
+      "look:jackie_tuned_up",
+      "look:lina_malina_01",
+      "look:player_01",
+      "look:player_02",
+      "look:player_03",
+      "look:q101_troy_01",
+      "look:sport_black_02",
+      "look:sport_blue_01",
+      "look:sport_blue_03_neon",
+      "look:sport_gray_02",
+      "look:sport_green_02_neon",
+      "look:sport_neon_01",
+      "look:sport_orange_01",
+      "look:sport_red_01",
+      "look:sport_white_01",
+      "look:sport_yellow_02",
+      "look:standard_black_03",
+      "look:standard_blue_04",
+      "look:standard_camo_01",
+      "look:standard_camo_02_dark",
+      "look:standard_gray_01",
+      "look:standard_green_03",
+      "look:standard_silver_01",
+      "look:tygerclaws_boss_01",
+      "look:tygerclaws_green_01",
+      "look:tygerclaws_pink_01",
+      "look:tygerclaws_red_02",
+      "look:tygerclaws_violet_01",
+      "style:arch_nemesis_lina_lina_malina_02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "steering_wheel.fairing",
+   "label": "Fairing",
+   "kind": "fairing",
+   "group": "steering_wheel",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "steering_wheel"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "fairing_a_01"
+   ],
+   "options": [
+    {
+     "id": "8d3238b5",
+     "code": "fairing_f_b_01",
+     "vehicle": "v_sportbike2_arch_nemesis",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_fairing_f_b_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_fairing_f_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "troy_01",
+     "paints": [
+      "white",
+      "blue",
+      "camo_01",
+      "blue_03_neon",
+      "orange_01",
+      "gray_02",
+      "gray_01",
+      "green_02_neon",
+      "blue_04",
+      "red_01",
+      "yellow_02",
+      "neon_01",
+      "green_03",
+      "camo_02_dark",
+      "black_02",
+      "black_03",
+      "chrome_01",
+      "pink_01",
+      "red_02",
+      "troy_01",
+      "lina_02"
+     ],
+     "looks": [
+      "arch_nemesis_basic:player_02",
+      "arch_nemesis_basic:q101_troy_01",
+      "arch_nemesis_basic:sport_black_02",
+      "arch_nemesis_basic:sport_blue_01",
+      "arch_nemesis_basic:sport_blue_03_neon",
+      "arch_nemesis_basic:sport_gray_02",
+      "arch_nemesis_basic:sport_green_02_neon",
+      "arch_nemesis_basic:sport_neon_01",
+      "arch_nemesis_basic:sport_orange_01",
+      "arch_nemesis_basic:sport_red_01",
+      "arch_nemesis_basic:sport_white_01",
+      "arch_nemesis_basic:sport_yellow_02",
+      "arch_nemesis_lina:lina_malina_01"
+     ],
+     "origins": [
+      "look:lina_malina_01",
+      "look:player_02",
+      "look:q101_troy_01",
+      "look:sport_black_02",
+      "look:sport_blue_01",
+      "look:sport_blue_03_neon",
+      "look:sport_gray_02",
+      "look:sport_green_02_neon",
+      "look:sport_neon_01",
+      "look:sport_orange_01",
+      "look:sport_red_01",
+      "look:sport_white_01",
+      "look:sport_yellow_02"
+     ]
+    },
+    {
+     "id": "71535e74",
+     "code": "fairing_f_a_01",
+     "vehicle": "v_sportbike2_arch_nemesis",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_fairing_f_a_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_fairing_f_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "jackie_tuned_up",
+     "paints": [
+      "silver",
+      "jackie_tuned_up",
+      "yellow",
+      "camo_01",
+      "blue_03_neon",
+      "orange_01",
+      "gray_02",
+      "gray_01",
+      "green_02_neon",
+      "blue_04",
+      "red_01",
+      "yellow_02",
+      "neon_01",
+      "green_03",
+      "camo_02_dark",
+      "black_02",
+      "black_03",
+      "chrome_01",
+      "pink_01",
+      "red_02"
+     ],
+     "looks": [
+      "arch_nemesis_basic:jackie",
+      "arch_nemesis_basic:jackie_tuned_up",
+      "arch_nemesis_basic:player_01",
+      "arch_nemesis_basic:standard_black_03",
+      "arch_nemesis_basic:standard_blue_04",
+      "arch_nemesis_basic:standard_camo_01",
+      "arch_nemesis_basic:standard_camo_02_dark",
+      "arch_nemesis_basic:standard_gray_01",
+      "arch_nemesis_basic:standard_green_03",
+      "arch_nemesis_basic:standard_silver_01"
+     ],
+     "origins": [
+      "look:jackie",
+      "look:jackie_tuned_up",
+      "look:player_01",
+      "look:standard_black_03",
+      "look:standard_blue_04",
+      "look:standard_camo_01",
+      "look:standard_camo_02_dark",
+      "look:standard_gray_01",
+      "look:standard_green_03",
+      "look:standard_silver_01"
+     ]
+    },
+    {
+     "id": "f5950a0a",
+     "code": "fairing_f_c_01",
+     "vehicle": "v_sportbike2_arch_nemesis",
+     "meshes": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_fairing_f_c_01.mesh"
+     },
+     "shadows": {
+      "all": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_fairing_f_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "pink_01",
+     "paints": [
+      "violet",
+      "tygerclaws_boss_01",
+      "green",
+      "camo_01",
+      "blue_03_neon",
+      "chrome_01",
+      "orange_01",
+      "pink_01",
+      "gray_02",
+      "gray_01",
+      "green_02_neon",
+      "blue_04",
+      "red_02",
+      "red_01",
+      "yellow_02",
+      "neon_01",
+      "green_03",
+      "camo_02_dark",
+      "black_02",
+      "black_03"
+     ],
+     "looks": [
+      "arch_nemesis_basic:player_03",
+      "arch_nemesis_basic:tygerclaws_boss_01",
+      "arch_nemesis_basic:tygerclaws_green_01",
+      "arch_nemesis_basic:tygerclaws_pink_01",
+      "arch_nemesis_basic:tygerclaws_red_02",
+      "arch_nemesis_basic:tygerclaws_violet_01",
+      "arch_nemesis_lina_lina_malina_02"
+     ],
+     "origins": [
+      "look:player_03",
+      "look:tygerclaws_boss_01",
+      "look:tygerclaws_green_01",
+      "look:tygerclaws_pink_01",
+      "look:tygerclaws_red_02",
+      "look:tygerclaws_violet_01",
+      "style:arch_nemesis_lina_lina_malina_02"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "sticker_9c48",
+   "family": "sticker",
+   "code": "body_a_stickers_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_02",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_body_a_stickers_01.mesh",
+     "code": "body_a_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "arch_nemesis_basic:jackie_tuned_up",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "arch_nemesis_basic:jackie",
+    "arch_nemesis_basic:jackie_tuned_up"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:jackie",
+    "look:jackie_tuned_up"
+   ]
+  },
+  {
+   "id": "sticker_0710",
+   "family": "sticker",
+   "code": "body_a_stickers_02",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_stickers_b_02",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_body_a_stickers_02.mesh",
+     "code": "body_a_stickers_02",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "arch_nemesis_basic:jackie_tuned_up",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "arch_nemesis_basic:jackie_tuned_up",
+    "arch_nemesis_basic:tygerclaws_boss_01"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:jackie_tuned_up",
+    "look:tygerclaws_boss_01"
+   ]
+  },
+  {
+   "id": "sticker_8c56",
+   "family": "sticker",
+   "code": "body_lightstripe_01",
+   "where": [
+    "body"
+   ],
+   "parts": [
+    {
+     "name": "body_a_sticker_jackie_01",
+     "mesh": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_body_lightstripe_01.mesh",
+     "code": "body_lightstripe_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "arch_nemesis_basic:tygerclaws_green_01",
+     "parent": "vehicle_slots:Base"
+    }
+   ],
+   "looks": [
+    "arch_nemesis_basic:player_03",
+    "arch_nemesis_basic:tygerclaws_boss_01",
+    "arch_nemesis_basic:tygerclaws_green_01",
+    "arch_nemesis_basic:tygerclaws_pink_01",
+    "arch_nemesis_basic:tygerclaws_red_02",
+    "arch_nemesis_basic:tygerclaws_violet_01",
+    "arch_nemesis_lina:lina_malina_01",
+    "arch_nemesis_lina_lina_malina_02"
+   ],
+   "made_for": [],
+   "needs": [],
+   "origins": [
+    "look:lina_malina_01",
+    "look:player_03",
+    "look:tygerclaws_boss_01",
+    "look:tygerclaws_green_01",
+    "look:tygerclaws_pink_01",
+    "look:tygerclaws_red_02",
+    "look:tygerclaws_violet_01",
+    "style:arch_nemesis_lina_lina_malina_02"
+   ]
+  }
+ ],
+ "looks": {
+  "arch_nemesis_lina_lina_malina_02": {
+   "app": "ep1\\vehicles\\appearances\\sportbike\\arch_nemesis_lina.app",
+   "app_look": "lina_malina_02",
+   "style": "arch_nemesis_lina_lina_malina_02",
+   "wreck": false,
+   "parts": {
+    "steering_wheel.fairing": {
+     "all": "fairing_a_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.body": {
+     "all": "body_c_01"
+    },
+    "base.body.body_cables": {
+     "all": "body_cables_01"
+    },
+    "wheel.wheel": {
+     "f": "wheel_f_01",
+     "b": "wheel_b_01"
+    },
+    "wheel.tire": {
+     "f": "tire_f_01",
+     "b": "tire_b_01"
+    }
+   }
+  },
+  "arch_nemesis_basic_burnt_tygerclaws_01": {
+   "app": "base\\vehicles\\appearances\\sportbike\\arch_nemesis_basic.app",
+   "app_look": "burnt_tygerclaws_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.body": {
+     "all": "body_c_01"
+    }
+   }
+  }
+ },
+ "wheel_kind": "bike",
+ "wheel_ref": {
+  "f": [
+   0.3009,
+   0.1325,
+   0.2295,
+   0.0
+  ],
+  "b": [
+   0.3355,
+   0.2509,
+   0.2275,
+   0.0
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "76d1b5fc",
+   "rim": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_wheel_b_01.mesh",
+   "tire": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_tire_b_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_tire_b_01_shadow.mesh",
+   "code": "wheel_b_01",
+   "tire_code": "tire_b_01",
+   "from": "Malina-mobile",
+   "radius": 0.3355,
+   "width": 0.2509,
+   "rim_radius": 0.2275,
+   "tire_center": 0.0,
+   "axles": [
+    "b"
+   ],
+   "looks": 30,
+   "paints": [
+    "black",
+    "violet",
+    "tygerclaws_boss_01",
+    "camo_01",
+    "blue_03_neon",
+    "orange_01",
+    "gray_02",
+    "gray_01",
+    "green_02_neon",
+    "blue_04",
+    "red_01",
+    "yellow_02",
+    "neon_01",
+    "green_03",
+    "camo_02_dark",
+    "black_02",
+    "black_03",
+    "silver_01",
+    "chrome_01",
+    "pink_01",
+    "red_02",
+    "lina_02"
+   ],
+   "default_paint": "black",
+   "kind": "bike",
+   "look_names": [
+    "arch_nemesis_basic:jackie",
+    "arch_nemesis_basic:jackie_tuned_up",
+    "arch_nemesis_basic:player_01",
+    "arch_nemesis_basic:player_02",
+    "arch_nemesis_basic:player_03",
+    "arch_nemesis_basic:q101_troy_01",
+    "arch_nemesis_basic:sport_black_02",
+    "arch_nemesis_basic:sport_blue_01",
+    "arch_nemesis_basic:sport_blue_03_neon",
+    "arch_nemesis_basic:sport_gray_02",
+    "arch_nemesis_basic:sport_green_02_neon",
+    "arch_nemesis_basic:sport_neon_01",
+    "arch_nemesis_basic:sport_orange_01",
+    "arch_nemesis_basic:sport_red_01",
+    "arch_nemesis_basic:sport_white_01",
+    "arch_nemesis_basic:sport_yellow_02",
+    "arch_nemesis_basic:standard_black_03",
+    "arch_nemesis_basic:standard_blue_04",
+    "arch_nemesis_basic:standard_camo_01",
+    "arch_nemesis_basic:standard_camo_02_dark",
+    "arch_nemesis_basic:standard_gray_01",
+    "arch_nemesis_basic:standard_green_03",
+    "arch_nemesis_basic:standard_silver_01",
+    "arch_nemesis_basic:tygerclaws_boss_01",
+    "arch_nemesis_basic:tygerclaws_green_01",
+    "arch_nemesis_basic:tygerclaws_pink_01",
+    "arch_nemesis_basic:tygerclaws_red_02",
+    "arch_nemesis_basic:tygerclaws_violet_01",
+    "arch_nemesis_lina:lina_malina_01",
+    "arch_nemesis_lina_lina_malina_02"
+   ]
+  },
+  {
+   "id": "911bc7ac",
+   "rim": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_wheel_f_01.mesh",
+   "tire": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_tire_f_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\sportbike\\v_sportbike2_arch_nemesis\\entities\\meshes\\v_sportbike2_arch_nemesis__ext01_tire_f_01_shadow.mesh",
+   "code": "wheel_f_01",
+   "tire_code": "tire_f_01",
+   "from": "Malina-mobile",
+   "radius": 0.3009,
+   "width": 0.1325,
+   "rim_radius": 0.2295,
+   "tire_center": 0.0,
+   "axles": [
+    "f"
+   ],
+   "looks": 30,
+   "paints": [
+    "black",
+    "violet",
+    "camo_01",
+    "blue_03_neon",
+    "chrome_01",
+    "orange_01",
+    "gray_02",
+    "silver_01",
+    "green_02_neon",
+    "blue_04",
+    "red_01",
+    "yellow_02",
+    "neon_01",
+    "green_03",
+    "camo_02_dark",
+    "black_02",
+    "black_03",
+    "gray_01",
+    "pink_01",
+    "red_02"
+   ],
+   "default_paint": "black",
+   "kind": "bike",
+   "look_names": [
+    "arch_nemesis_basic:jackie",
+    "arch_nemesis_basic:jackie_tuned_up",
+    "arch_nemesis_basic:player_01",
+    "arch_nemesis_basic:player_02",
+    "arch_nemesis_basic:player_03",
+    "arch_nemesis_basic:q101_troy_01",
+    "arch_nemesis_basic:sport_black_02",
+    "arch_nemesis_basic:sport_blue_01",
+    "arch_nemesis_basic:sport_blue_03_neon",
+    "arch_nemesis_basic:sport_gray_02",
+    "arch_nemesis_basic:sport_green_02_neon",
+    "arch_nemesis_basic:sport_neon_01",
+    "arch_nemesis_basic:sport_orange_01",
+    "arch_nemesis_basic:sport_red_01",
+    "arch_nemesis_basic:sport_white_01",
+    "arch_nemesis_basic:sport_yellow_02",
+    "arch_nemesis_basic:standard_black_03",
+    "arch_nemesis_basic:standard_blue_04",
+    "arch_nemesis_basic:standard_camo_01",
+    "arch_nemesis_basic:standard_camo_02_dark",
+    "arch_nemesis_basic:standard_gray_01",
+    "arch_nemesis_basic:standard_green_03",
+    "arch_nemesis_basic:standard_silver_01",
+    "arch_nemesis_basic:tygerclaws_boss_01",
+    "arch_nemesis_basic:tygerclaws_green_01",
+    "arch_nemesis_basic:tygerclaws_pink_01",
+    "arch_nemesis_basic:tygerclaws_red_02",
+    "arch_nemesis_basic:tygerclaws_violet_01",
+    "arch_nemesis_lina:lina_malina_01",
+    "arch_nemesis_lina_lina_malina_02"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "arch_nemesis_lina_lina_malina_02",
+   "Malina-mobile"
+  ]
+ ]
+}

@@ -1,0 +1,53 @@
+11:20:50 runner on; job camera; waiting for the save to load
+11:20:55 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+11:21:05 waiting at the menu: start screen not seen, newest save known (modded), menu here, 0 tries
+11:21:15 the run script says the start screen is gone
+11:21:15 waiting at the menu: start screen closed, newest save known (modded), menu here, 1 tries
+11:21:15 main menu continued the newest save; waiting for the world
+11:21:37 world loaded; job camera
+11:21:37   engine: ready: 100 catalogs, 500 pool copies and 104 of V's own cars, 100 entity files watched
+11:21:37   engine: attached: Vehicle.v_standard2_thorton_galena_bobas_player in thorton_galena__basic_q000_galena_bobas
+11:21:37   engine: attached: Vehicle.v_sport2_quadra_type66_nomad_tribute in quadra_type66_nomad_tribute_01
+11:21:37   engine: attached: Vehicle.v_sport1_rayfield_caliburn_02_player in rayfield_caliburn__basic_ma_bls_ina_se1_40
+11:21:37   engine: attached: Vehicle.v_standard25_thorton_colby_pickup_02_player in thorton_colby_pickup_ma_bls_ina_se1_44
+11:21:37 step 1: camera: turn V and spawn the Hella copy in front
+11:21:37   spawned entity 10827411ULL 7 m ahead of V
+11:21:38   engine: attached: Vehicle.vc_archer_hella__basic_01_3 in archer_hella__basic_player_01
+11:21:38   done waiting for the copy to appear (0.2 s)
+11:21:42 step 2: camera: find the near front wheel
+11:21:42 PASS the camera probe's script runs
+11:21:42 PASS a front wheel to aim at - wheel_01_fl_a
+11:21:43 step 3: camera: spawn the TV camera 1.6 m from the wheel
+11:21:43   done waiting for the camera to appear (0.1 s)
+11:21:44 step 4: camera: its picture on the HUD while it's still off
+11:21:44   enabled false, frequency 1, phase 0, fov 20.000000, streaming distance 1.000000, virtual camera RenderToTexture
+11:21:44 PASS its picture is on the HUD
+11:21:46 step 5: picture
+11:21:46 SHOT k0_off
+11:21:50 step 6: camera: switch it on, nothing else changed
+11:21:50   enabled true, frequency 1, phase 0, fov 20.000000, streaming distance 1.000000, virtual camera RenderToTexture
+11:21:51 step 7: picture
+11:21:51 SHOT k1_on_1s
+11:21:52 step 8: wait
+11:21:54 step 9: picture
+11:21:54 SHOT k2_on_4s
+11:21:58 step 10: camera: brighter, tint 3
+11:21:59 step 11: picture
+11:21:59 SHOT r1_tint3
+11:22:03 step 12: camera: tint 6
+11:22:04 step 13: picture
+11:22:04 SHOT r2_tint6
+11:22:08 step 14: camera: wider (fov 40), depth cut 2.2 m, plain background
+11:22:08   on: 1280 by 600, fov 40.000000, depth cut 2.200000, plain background true
+11:22:11 step 15: picture
+11:22:11 SHOT r3_cut_plain
+11:22:15 step 16: camera: depth cut 2.2 m, no plain background
+11:22:15   on: 1280 by 600, fov 40.000000, depth cut 2.200000, plain background false
+11:22:18 step 17: picture
+11:22:18 SHOT r4_cut_only
+11:22:22 step 18: camera: depth cut 1.9 m, plain background
+11:22:22   on: 1280 by 600, fov 40.000000, depth cut 1.900000, plain background true
+11:22:25 step 19: picture
+11:22:25 SHOT r5_cut_1_9_plain
+11:22:29 step 20: clean up: the camera, its picture and the car
+11:22:30 DONE 3 passed, 0 failed

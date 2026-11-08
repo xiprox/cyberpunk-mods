@@ -1,0 +1,77 @@
+Hozuki MH2 (mizutani_hozuki__basic_01_ep1), from ep1\vehicles\standard\v_standard2_mizutani_hozuki__basic_01.ent
+records: Vehicle.v_standard2_mizutani_hozuki_gt_player, Vehicle.v_standard2_mizutani_hozuki_player
+generated 2026-11-08
+
+STYLES (11; a style's other looks are its factory paints)
+  poor_01                  Poor             5 looks
+                                            paints: poor_04, poor_08, poor_11, poor_15
+  poor_05                  Poor 05          5 looks
+                                            paints: poor_10, poor_14, suburban_01, q301_no_wheels_01
+  poor_07                  Poor 07          3 looks
+                                            paints: poor_12, suburban_09
+  poor_junk_01             Poor junk        1 looks
+  poor_junk_02             Poor junk 02     1 looks
+  poor_junk_03             Poor junk 03     2 looks
+                                            paints: q301_no_wheels_02
+  poor_junk_04             Poor junk 04     1 looks
+  suburban_05              Suburban 05      7 looks
+                                            paints: suburban_06, suburban_07, suburban_10, web_01, urban_01, urban_09
+  urban_02                 Urban 02         9 looks
+                                            paints: urban_03, urban_04, urban_10, poor_02, poor_09, poor_13, suburban_02, suburban_03
+  urban_05                 Urban 05         8 looks
+                                            paints: urban_06, urban_07, urban_08, poor_03, poor_06, suburban_04, suburban_08
+  player_01                V's own          1 looks
+                                            kits: kit_player_body_bumper_doors_trunk
+WRECKS: burnt_01
+
+SLOTS (14)
+  Front bumper [bumper_front.bumper] (bumper_front): 3 options
+    bumper_f_01                                    35 paints  37 looks  [style: Poor] [style: Poor 05] [style: Poor 07] [style: Suburban 05] [style: Urban 02] ...
+    junk_bumper_f_01                                3 paints   5 looks  [style: Poor junk] [style: Poor junk 02] [style: Poor junk 03] [style: Poor junk 04]
+    bumper_f_player_01                              1 paints   1 looks  [style: V's own]
+  Rear bumper [bumper_back.bumper] (bumper_back): 3 options
+    bumper_b_01                                    35 paints  37 looks  [style: Poor] [style: Poor 05] [style: Poor 07] [style: Suburban 05] [style: Urban 02] ...
+    junk_bumper_b_01                                3 paints   5 looks  [style: Poor junk] [style: Poor junk 02] [style: Poor junk 03] [style: Poor junk 04]
+    bumper_b_player_01                              1 paints   1 looks  [style: V's own]
+  Hood [hood_a.hood] (hood_a): 2 options
+    hood_01                                        35 paints  41 looks  [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] [style: Poor junk 03] ...
+    hood_player_01                                  1 paints   1 looks  [style: V's own]
+  Trunk [trunk_a.trunk] (trunk_a): 2 options
+    trunk_a_01                                     35 paints  42 looks  [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] [style: Poor junk 02] ...
+    trunk_a_player_01                               1 paints   1 looks  [style: V's own]
+  Body: main [base.body] (Base): 2 options
+    body_01                                        35 paints  43 looks  [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] [style: Poor junk 02] ...
+    body_player_01                                  1 paints   1 looks  [style: V's own]
+  Body: headlight [base.body.body_headlight] (Base): 2 options
+    body_lights_01                                  0 paints  43 looks  [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] [style: Poor junk 02] ...
+    body_lights_player_01                           0 paints   1 looks  [style: V's own]
+  Exhaust [base.exhaust] (Base): 2 options
+    exhaust_01                                      3 paints  43 looks  [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] [style: Poor junk 02] ...
+    exhaust_player_01                               0 paints   1 looks  [style: V's own]
+  Interior [base.interior] (Base): 1 options
+    interior_01                                    35 paints  44 looks  [style: V's own] [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] ...
+  Mirrors [base.mirror] (Base): 1 options
+    mirror_01                                      35 paints  44 looks  [style: V's own] [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] ...
+  Windshield [base.window] (Base): 2 options
+    window_f_01                                     1 paints  43 looks  [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] [style: Poor junk 02] ...
+    window_f_player_01                              1 paints   1 looks  [style: V's own]
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         5 paints  33 looks  [car: Quartz EC-T2 r660] [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] ...
+    tire_a_01                                       0 paints   9 looks  [style: Poor junk 04] [style: Urban 05]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 7 options
+    colby_wheel_01                                  4 paints  11 looks  [style: Poor junk 03] [style: Urban 02]
+    wheel_a_01                                      0 paints   9 looks  [style: Poor junk 04] [style: Urban 05]
+    wheel_03                                        8 paints   7 looks  [car: Quartz EC-T2 r660] [style: Suburban 05]
+    wheel_02                                        3 paints   6 looks  [car: Colby CST40] [style: Poor] [style: Poor junk 02]
+    wheel_police_01                                 0 paints   5 looks  [car: Galena G240] [style: Poor 05]
+    wheel_01                                        1 paints   4 looks  [car: Quartz EC-T2 r660] [style: Poor 07] [style: Poor junk]
+    vtech_wheel_a_01                                3 paints   1 looks  [car: Type-66 Avenger] [style: V's own]
+  Doors [door.door] (door_front_left_a, door_front_right_a, door_back_left_a, door_back_right_a): 1 options
+    door_01                                        36 paints  43 looks  [style: V's own] [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] ...
+  Trunk (b) [trunk_b.trunk] (trunk_b): 2 options
+    trunk_b_01                                     35 paints  42 looks  [style: Poor] [style: Poor 05] [style: Poor 07] [style: Poor junk] [style: Poor junk 02] ...
+    trunk_b_player_01                               1 paints   1 looks  [style: V's own]
+
+KITS (1)
+  kit_player_body_bumper_doors_trunk             9 parts   1 looks  [style: V's own]
+                                                 made to sit on Rear bumper, Doors, Trunk

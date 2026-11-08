@@ -1,0 +1,56 @@
+MaiMai P126 (makigai_maimai_01_basic_01), from base\vehicles\standard\v_standard2_makigai_maimai_01_basic_01.ent
+records: Vehicle.v_standard2_makigai_maimai_player
+generated 2026-11-08
+
+STYLES (5; a style's other looks are its factory paints)
+  gt_01                    Gt               1 looks
+                                            kits: kit_sticker_body_bumper_hood_trunk
+  poor_01                  Poor             4 looks
+                                            paints: poor_03, poor_05, poor_07
+  poor_02                  Poor 02          3 looks
+                                            paints: poor_04, poor_06
+  suburban_01              Suburban         7 looks
+                                            paints: suburban_02, suburban_03, suburban_04, suburban_05, suburban_06, suburban_07
+  urban_01                 Urban            5 looks
+                                            paints: urban_02, urban_03, urban_05, player_01
+WRECKS: burnt_01
+
+SLOTS (12)
+  Front bumper [bumper_front.bumper] (bumper_front): 3 options
+    bumper_f_01                                    19 paints   8 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Suburban]
+    junk_bumper_f_01                                2 paints   7 looks  [car: v_standard2_makigai_maimai] [style: Poor] [style: Poor 02]
+    bumper_f_02                                    19 paints   6 looks  [car: v_standard2_makigai_maimai] [style: Gt] [style: Urban]
+  Rear bumper [bumper_back.bumper] (bumper_back): 3 options
+    bumper_b_01                                    19 paints   8 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Suburban]
+    junk_bumper_b_01                                2 paints   7 looks  [car: v_standard2_makigai_maimai] [style: Poor] [style: Poor 02]
+    bumper_b_02                                    19 paints   6 looks  [car: v_standard2_makigai_maimai] [style: Gt] [style: Urban]
+  Hood [hood_a.hood] (hood_a): 2 options
+    hood_01                                        19 paints  12 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Poor] [style: Suburban]
+    hood_02                                        19 paints   6 looks  [car: v_standard2_makigai_maimai] [style: Gt] [style: Urban]
+  Trunk [trunk_a.trunk] (trunk_a): 2 options
+    trunk_01                                       19 paints  12 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Poor] [style: Suburban]
+    trunk_02                                       19 paints   9 looks  [car: v_standard2_makigai_maimai] [style: Gt] [style: Poor 02] [style: Urban]
+  Body [base.body] (Base): 1 options
+    body_01                                        19 paints  22 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Gt] [style: Poor] [style: Poor 02] ...
+  Interior [base.interior] (Base): 1 options
+    interior_01                                     8 paints  22 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Gt] [style: Poor] [style: Poor 02] ...
+  Tires [wheel.tire] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 2 options
+    tire_01                                         0 paints  15 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Poor] [style: Poor 02] [style: Suburban]
+    tire_01                                         5 paints   6 looks  [car: Quartz EC-T2 r660] [style: Gt] [style: Urban]
+  Rims [wheel.wheel] (wheel_front_left, wheel_front_right, wheel_back_left, wheel_back_right): 3 options
+    wheel_a_01                                      8 paints  11 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Poor 02] [style: Suburban]
+    wheel_02                                        5 paints   6 looks  [car: Quartz EC-T2 r660] [style: Gt] [style: Urban]
+    wheel_02                                        4 paints   4 looks  [car: v_standard2_makigai_maimai] [style: Poor]
+  Doors [door.door] (door_front_left_a, door_front_right_a): 1 options
+    door_a_01                                      19 paints  21 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Gt] [style: Poor] [style: Poor 02] ...
+  Mirrors [door.mirror] (door_front_left_a, door_front_right_a): 1 options
+    mirror_01                                      19 paints  21 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Gt] [style: Poor] [style: Poor 02] ...
+  Doors (b) [door_b.door] (door_front_left_b, door_front_right_b): 1 options
+    door_01                                        19 paints  21 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Gt] [style: Poor] [style: Poor 02] ...
+  Doors (c) [door_c.door] (door_front_left_c, door_front_right_c): 2 options
+    door_c_01                                      19 paints  18 looks  [car: v_standard2_makigai_maimai] [look: default] [style: Gt] [style: Poor] [style: Suburban] ...
+    door_c_02                                      19 paints   3 looks  [car: v_standard2_makigai_maimai] [style: Poor 02]
+
+KITS (1)
+  kit_sticker_body_bumper_hood_trunk             5 parts   1 looks  [style: Gt]
+                                                 made to sit on Rear bumper, Front bumper, Hood, Trunk

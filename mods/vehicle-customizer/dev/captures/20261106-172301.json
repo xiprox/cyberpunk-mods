@@ -1,0 +1,30 @@
+{
+  "camera_forward": {
+    "x": -0.3,
+    "y": -1,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 400,
+    "x": -1322,
+    "y": 1912.7,
+    "z": -1.9
+  },
+  "nearest": {
+    "distance": 34.9,
+    "gig": "sts_wat_nid_01",
+    "gig_state_from": "not found in the journal",
+    "id": "hal_cantoss_workshop",
+    "name": "Hal Cantos's workshop"
+  },
+  "note": "",
+  "player": {
+    "x": -1205.1,
+    "y": 2295.1,
+    "yaw": 163,
+    "z": 7
+  },
+  "stamp": "20261106-172301",
+  "time": "2026-11-06 17:23:01"
+}

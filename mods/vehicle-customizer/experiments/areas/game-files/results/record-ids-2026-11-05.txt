@@ -1,0 +1,150 @@
+﻿Vehicle.v_sportbike2_arch_player_02                0x239d486ca8  tweakdb:2  ep1:2
+Vehicle.v_sportbike2_arch_player_02_kuro           0x2889b9a6c0  tweakdb:0  ep1:0
+Vehicle.v_sportbike2_arch_player_02_shiro          0x29891e9bde  tweakdb:0  ep1:0
+Vehicle.v_standard2_archer_hella_player            0x277002deb0  tweakdb:3  ep1:3
+Vehicle.v_standard2_archer_hella                   0x2029190887  tweakdb:2  ep1:2
+Vehicle.v_standard2_thorton_galena_player          0x290fa5eebc  tweakdb:2  ep1:2
+Vehicle.v_standard25_villefort_columbus_player     0x2eed4dec7a  tweakdb:2  ep1:2
+Vehicle.v_sport2_porsche_911turbo_player           0x283c959823  tweakdb:2  ep1:2
+Vehicle.vehicle_list.list                          0x19b4a74421  tweakdb:1  ep1:1
+
+appearances: ['6th_street_01', 'after_accident_01', 'burnt_01', 'combatcab_01', 'deathrace_01', 'deathrace_burnt_01', 'default', 'ep_10', 'player_01', 'player_burnt_01', 'player_damaged_01', 'police_01', 'police_burnt_01', 'poor_1', 'poor_1_1', 'poor_1_2', 'poor_1_3', 'poor_1_4', 'poor_1_5', 'poor_1_6', 'poor_1_7', 'poor_2', 'poor_2_1', 'poor_2_2', 'poor_2_3', 'poor_2_4', 'poor_3', 'poor_3_1', 'poor_3_2', 'poor_3_3', 'poor_3_4', 'poor_4', 'poor_4_1', 'poor_4_2', 'q304_combatcab_01', 'suburban_1', 'suburban_1_1', 'suburban_1_2', 'suburban_1_3', 'suburban_1_4', 'suburban_2', 'suburban_2_1', 'suburban_2_2', 'suburban_2_3', 'suburban_2_4']
+
+player_01 parts: 88
+  None                                       entAppearanceProxyMeshCo paint=default        bind=deformation_rig    archer_hella__basic_player_01.mesh
+  attachment_antenna_1_n_roof_radar_cables   entMeshComponent         paint=default        bind=Base               attachment_antenna_1_n_roof_radar_cables.mesh
+  bobble_head_01_vdog                        entMeshComponent         paint=default        bind=body               bobble_head_01_vdog.mesh
+  bobble_head_01_vdog_head                   entMeshComponent         paint=default        bind=head               bobble_head_01_vdog_head.mesh
+  body_01                                    entPhysicalMeshComponent paint=player_01      bind=Base               v_standard2_archer_hella__ext01_body_01.mesh
+  body_player_01                             entPhysicalMeshComponent paint=default        bind=Base               v_standard2_archer_hella__ext01_body_player_01.mesh
+  body_player_stripe_01                      entMeshComponent         paint=default        bind=body_player_01     v_standard2_archer_hella__ext01_body_player_stripe_01.mesh
+  body_shadow                                entMeshComponent         paint=default        bind=body_01            v_standard2_archer_hella__ext01_body_01_shadow.mesh
+  bottle_disinfectant_f                      entMeshComponent         paint=default        bind=Base               bottle_disinfectant_f.mesh
+  bottle_disinfectant_f7172                  entMeshComponent         paint=default        bind=Base               bottle_disinfectant_f.mesh
+  box_ammo_a                                 entMeshComponent         paint=default        bind=Base               box_ammo_a.mesh
+  box_ammo_a5445                             entMeshComponent         paint=default        bind=Base               box_ammo_a.mesh
+  braindance_cartridge_a_cover_stripe_a      entMeshComponent         paint=default        bind=Base               braindance_cartridge_a_cover_stripe_a.mesh
+  bumper_b_01                                entPhysicalMeshComponent paint=default        bind=bumper_back        v_standard2_archer_hella__ext01_junk_bumper_b_01.mesh
+  bumper_f_01                                entPhysicalMeshComponent paint=police_02      bind=bumper_front       v_standard2_archer_hella__ext01_bumper_f_01.mesh
+  bumper_f_player_01                         entMeshComponent         paint=default        bind=bumper_f_01        v_standard2_archer_hella__ext01_bumper_f_player_01.mesh
+  bumper_f_shadow                            entMeshComponent         paint=default        bind=bumper_f_01        v_standard2_archer_hella__ext01_bumper_f_01_shadow.mesh
+  chasis                                     entSkinnedMeshComponent  paint=red_brakes     bind=deformation_rig    v_standard2_archer_hella__ext01_chassis_01.mesh
+  decoset_trash_packaging_pile_b             entMeshComponent         paint=default        bind=Base               decoset_trash_packaging_pile_b.mesh
+  decoset_trash_packaging_pile_b2544         entMeshComponent         paint=default        bind=Base               i1_003_ma_slot__weyland_bag.mesh
+  door_bl_a                                  entPhysicalMeshComponent paint=player_01      bind=door_back_left_a   v_standard2_archer_hella__ext01_door_bl_01.mesh
+  door_bl_player_stripe_01                   entMeshComponent         paint=default        bind=door_bl_a          v_standard2_archer_hella__ext01_door_bl_player_stripe_01.mesh
+  door_bl_shadow                             entMeshComponent         paint=default        bind=door_bl_a          v_standard2_archer_hella__ext01_door_bl_01_shadow.mesh
+  door_br_a                                  entPhysicalMeshComponent paint=player_01      bind=door_back_right_a  v_standard2_archer_hella__ext01_door_br_01.mesh
+  door_br_player_stripe_01                   entMeshComponent         paint=default        bind=door_br_shadow     v_standard2_archer_hella__ext01_door_br_player_stripe_01.mesh
+  door_br_shadow                             entMeshComponent         paint=default        bind=door_br_a          v_standard2_archer_hella__ext01_door_br_01_shadow.mesh
+  door_fl_a                                  entPhysicalMeshComponent paint=player_01      bind=door_front_left_a  v_standard2_archer_hella__ext01_door_fl_01.mesh
+  door_fl_player_stripe_01                   entMeshComponent         paint=default        bind=door_fl_a          v_standard2_archer_hella__ext01_door_fl_player_stripe_01.mesh
+  door_fl_shadow                             entMeshComponent         paint=default        bind=door_fl_a          v_standard2_archer_hella__ext01_door_fl_01_shadow.mesh
+  door_fr_a                                  entPhysicalMeshComponent paint=player_01      bind=door_front_right_a v_standard2_archer_hella__ext01_door_fr_01.mesh
+  door_fr_player_stripe_01                   entMeshComponent         paint=default        bind=door_fr_a          v_standard2_archer_hella__ext01_door_fr_player_stripe_01.mesh
+  door_fr_shadow                             entMeshComponent         paint=default        bind=door_fr_a          v_standard2_archer_hella__ext01_door_fr_01_shadow.mesh
+  door_mirror_fl_01                          entPhysicalMeshComponent paint=police_01      bind=door_fl_a          v_standard2_archer_hella__ext01_door_mirror_fl_01.mesh
+  door_mirror_fr_01                          entPhysicalMeshComponent paint=police_01      bind=door_fr_a          v_standard2_archer_hella__ext01_door_mirror_fr_01.mesh
+  engine                                     entMeshComponent         paint=default        bind=Base               v_standard2_archer_hella__ext01_engine_01.mesh
+  exhaust_01                                 entMeshComponent         paint=default        bind=Base               v_standard2_archer_hella__ext01_exhaust_01.mesh
+  fuel_cap                                   entMeshComponent         paint=deathrace_01   bind=fuel_cap           v_standard2_archer_hella__ext01_fuel_cap_01.mesh
+  fuelport_standard                          entMeshComponent         paint=default        bind=fuel_port          fuelport_standard.mesh
+  fuse_box_large_a                           entMeshComponent         paint=default        bind=Base               fuse_box_large_a.mesh
+  fx_cutout                                  entMeshComponent         paint=default        bind=Base               archer_hella_fx_cutout.mesh
+  hood_a                                     entPhysicalMeshComponent paint=primer_black   bind=hood_a             v_standard2_archer_hella__ext01_hood_01.mesh
+  hood_a_shadow                              entMeshComponent         paint=default        bind=hood_a             v_standard2_archer_hella__ext01_hood_01_shadow.mesh
+  i1_002_pwa_slot__diving_bottle             entMeshComponent         paint=default        bind=Base               i1_002_pwa_slot__diving_bottle.mesh
+  i1_003_ma_slot__weyland_bag                entMeshComponent         paint=default        bind=Base               i1_003_ma_slot__weyland_bag.mesh
+  int_electronics_002__circuit_device_b      entMeshComponent         paint=default        bind=Base               int_electronics_002__circuit_device_b.mesh
+  int_electronics_002__circuit_device_b3022  entMeshComponent         paint=default        bind=Base               bottle_disinfectant_a.mesh
+  interior_01                                entPhysicalMeshComponent paint=player_01      bind=Base               v_standard2_archer_hella__int01_interior_01.mesh
+  interior_trunk_01                          entPhysicalMeshComponent paint=default        bind=Base               v_standard2_archer_hella__int01_interior_trunk_01.mesh
+  junk_fuelcell                              entPhysicalMeshComponent paint=color_03       bind=Base               v_standard2_archer_hella__ext01_junk_fuelcell_01.mesh
+  large_fusebox_attachment_l                 entMeshComponent         paint=default        bind=Base               large_fusebox_attachment_l.mesh
+  large_fusebox_attachment_l0305             entMeshComponent         paint=default        bind=Base               large_fusebox_attachment_l.mesh
+  large_fusebox_attachment_l1727             entMeshComponent         paint=default        bind=Base               large_fusebox_attachment_l.mesh
+  military_case_i                            entMeshComponent         paint=default        bind=Base               military_case_i.mesh
+  monitor_arm_p                              entMeshComponent         paint=default        bind=Base               monitor_arm_p.mesh
+  neo_milit_medical_device_b                 entMeshComponent         paint=default        bind=Base               neo_milit_medical_device_b.mesh
+  pedals                                     entMeshComponent         paint=default        bind=Base               v_common__int01_pedal_utility_01.mesh
+  position_lights_01                         entMeshComponent         paint=default        bind=Base               v_standard2_archer_hella__ext01_position_lights_01.mesh
+  steering_wheel                             entPhysicalMeshComponent paint=player_01      bind=steering_wheel     v_standard2_archer_hella__int01_stweel_01.mesh
+  t0_002_mm_armor__adam_smasher_pipe_l       entMeshComponent         paint=default        bind=Base               t0_002_mm_armor__adam_smasher_pipe_l.mesh
+  tire_01_bl_a                               entPhysicalMeshComponent paint=default        bind=wheel_back_left    v_sport1_quadra_turbo__ext01_tire_bl_01.mesh
+  tire_01_bl_a_shadow                        entMeshComponent         paint=default        bind=tire_01_bl_a       v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh
+  tire_01_br_a                               entPhysicalMeshComponent paint=default        bind=wheel_back_right   v_sport1_quadra_turbo__ext01_tire_bl_01.mesh
+  tire_01_br_a_shadow                        entMeshComponent         paint=default        bind=tire_01_br_a       v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh
+  tire_01_fl_a                               entPhysicalMeshComponent paint=default        bind=wheel_front_left   v_sport1_quadra_turbo__ext01_tire_bl_01.mesh
+  tire_01_fl_a_shadow                        entMeshComponent         paint=default        bind=tire_01_fl_a       v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh
+  tire_01_fr_a                               entPhysicalMeshComponent paint=default        bind=wheel_front_right  v_sport1_quadra_turbo__ext01_tire_bl_01.mesh
+  tire_01_fr_a_shadow                        entMeshComponent         paint=default        bind=tire_01_fr_a       v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh
+  trunk_a                                    entPhysicalMeshComponent paint=primer_black   bind=trunk_a            v_standard2_archer_hella__ext01_trunk_01.mesh
+  trunk_a_shadow                             entMeshComponent         paint=default        bind=trunk_a            v_standard2_archer_hella__ext01_trunk_01_shadow.mesh
+  v_common__int01_light_02                   entMeshComponent         paint=default        bind=interior_01        v_common__int01_light_02.mesh
+  v_standard2_archer_hella__ext01_trunk_player_01 entMeshComponent         paint=default        bind=trunk_a            v_standard2_archer_hella__ext01_trunk_player_01.mesh
+  v_standard2_archer_hella__int01_glove_box_01 entMeshComponent         paint=6th_street_01  bind=glove_box          v_standard2_archer_hella__int01_glove_box_01.mesh
+  v_standard2_archer_hella__int01_v_console_01 entPhysicalMeshComponent paint=default        bind=Base               v_standard2_archer_hella__int01_v_console_01.mesh
+  vehicle_lights_01                          entMeshComponent         paint=default        bind=Base               v_standard2_archer_hella__ext01_vehicle_lights_01.mesh
+  w_club_2h__baseball_bat__grip1_01_perfored_base entMeshComponent         paint=default        bind=Base               w_club_2h__baseball_bat__grip1_01_perfored_base.mesh
+  wheel_01_bl_a                              entPhysicalMeshComponent paint=default        bind=wheel_back_left    v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh
+  wheel_01_br_a                              entPhysicalMeshComponent paint=default        bind=wheel_back_right   v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh
+  wheel_01_fl_a                              entPhysicalMeshComponent paint=default        bind=wheel_front_left   v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh
+  wheel_01_fr_a                              entPhysicalMeshComponent paint=default        bind=wheel_front_right  v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh
+  window_b                                   entPhysicalMeshComponent paint=tinted         bind=Base               v_standard2_archer_hella__ext01_window_b_01.mesh
+  window_bl                                  entPhysicalMeshComponent paint=tinted         bind=window_back_left_a v_standard2_archer_hella__ext01_window_bl_01.mesh
+  window_bl_02_01                            entPhysicalMeshComponent paint=tinted         bind=Base               v_standard2_archer_hella__ext01_window_bl_02_01.mesh
+  window_br                                  entPhysicalMeshComponent paint=tinted         bind=window_back_right_a v_standard2_archer_hella__ext01_window_br_01.mesh
+  window_br_02                               entPhysicalMeshComponent paint=tinted         bind=Base               v_standard2_archer_hella__ext01_window_br_02_01.mesh
+  window_f                                   entPhysicalMeshComponent paint=default        bind=Base               v_standard2_archer_hella__ext01_window_f_01.mesh
+  window_fl                                  entPhysicalMeshComponent paint=default        bind=window_front_left_a v_standard2_archer_hella__ext01_window_fl_01.mesh
+  window_fr                                  entPhysicalMeshComponent paint=default        bind=window_front_right_a v_standard2_archer_hella__ext01_window_fr_01.mesh
+  wipers_01                                  entMeshComponent         paint=default        bind=Base               v_standard2_archer_hella__ext01_wipers_01.mesh
+
+slots whose mesh varies in this .app:
+  bumper_b_01
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_bumper_b_01.mesh   <- ['default', 'police_01', 'deathrace_01', 'after_accident_01']... (31)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_b_01.mesh   <- ['player_01', 'poor_2', 'poor_2_1', 'poor_2_2']... (10)
+  bumper_f_01
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_bumper_f_01.mesh   <- ['default', 'police_01', 'deathrace_01', 'after_accident_01']... (33)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh   <- ['poor_3', 'poor_3_1', 'poor_3_2', 'poor_3_3']... (8)
+  tire_01_bl_a
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_bl_01.mesh   <- ['default', 'after_accident_01', 'suburban_1', 'suburban_1_1']... (25)
+     base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh   <- ['player_01', 'player_damaged_01'] (2)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_standard_fl_01.mesh   <- ['6th_street_01', 'poor_1', 'poor_1_1', 'poor_1_2']... (9)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella_police__ext01_tire_fl_01.mesh   <- ['poor_4', 'poor_4_1', 'poor_4_2'] (3)
+  tire_01_bl_a_shadow
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh   <- ['default', 'after_accident_01', 'suburban_1', 'suburban_1_1']... (37)
+     base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh   <- ['player_01', 'player_damaged_01'] (2)
+  tire_01_br_a
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_bl_01.mesh   <- ['default', 'after_accident_01', 'suburban_1', 'suburban_1_1']... (25)
+     base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh   <- ['player_01', 'player_damaged_01'] (2)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_standard_fl_01.mesh   <- ['6th_street_01', 'poor_1', 'poor_1_1', 'poor_1_2']... (9)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella_police__ext01_tire_fl_01.mesh   <- ['poor_4', 'poor_4_1', 'poor_4_2'] (3)
+  tire_01_br_a_shadow
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh   <- ['default', 'after_accident_01', 'suburban_1', 'suburban_1_1']... (37)
+     base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01_shadow.mesh   <- ['player_01', 'player_damaged_01'] (2)
+  tire_01_fl_a
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_fl_01.mesh   <- ['default', 'after_accident_01', 'suburban_1', 'suburban_1_1']... (25)
+     base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh   <- ['player_01', 'player_damaged_01'] (2)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_standard_fl_01.mesh   <- ['6th_street_01', 'poor_1', 'poor_1_1', 'poor_1_2']... (9)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella_police__ext01_tire_fl_01.mesh   <- ['poor_4', 'poor_4_1', 'poor_4_2'] (3)
+  tire_01_fl_a_shadow
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh   <- ['default', 'after_accident_01', 'suburban_1', 'suburban_1_1']... (34)
+     base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh   <- ['player_01', 'player_damaged_01'] (2)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh   <- ['poor_4', 'poor_4_1', 'poor_4_2'] (3)
+  tire_01_fr_a
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_fl_01.mesh   <- ['default', 'after_accident_01', 'suburban_1', 'suburban_1_1']... (25)
+     base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_tire_fl_police_01.mesh   <- ['police_01', 'deathrace_01'] (2)
+     base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_bl_01.mesh   <- ['player_01', 'player_damaged_01'] (2)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_standard_fl_01.mesh   <- ['6th_street_01', 'poor_1', 'poor_1_1', 'poor_1_2']... (9)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella_police__ext01_tire_fl_01.mesh   <- ['poor_4', 'poor_4_1', 'poor_4_2'] (3)
+  tire_01_fr_a_shadow
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_tire_fl_01_shadow.mesh   <- ['default', 'after_accident_01', 'suburban_1', 'suburban_1_1']... (34)
+     base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_tire_bl_01_shadow.mesh   <- ['police_01', 'deathrace_01'] (2)
+     base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_tire_fl_01_shadow.mesh   <- ['player_01', 'player_damaged_01'] (2)
+     base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_wheel_bl_01_shadow.mesh   <- ['poor_4', 'poor_4_1', 'poor_4_2'] (3)
+  wheel_01_fr_a
+     base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_wheel_fl_police_02.mesh   <- ['police_01', 'deathrace_01'] (2)
+     base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_wheel_bl_01.mesh   <- ['player_01', 'player_damaged_01'] (2)
+
+paints used on hood_a across appearances: ['6th_street_01', 'after_accident_01', 'combatcab_01', 'deathrace_01', 'default', 'police_01', 'police_02', 'poor_01', 'poor_02', 'poor_03', 'poor_04', 'poor_05', 'primer_black', 'primer_gray', 'stickerbomb_01', 'suburban_01', 'suburban_02', 'suburban_03', 'suburban_04', 'suburban_05']

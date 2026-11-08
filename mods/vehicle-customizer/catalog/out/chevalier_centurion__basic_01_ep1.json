@@ -1,0 +1,3225 @@
+{
+ "id": "chevalier_centurion__basic_01_ep1",
+ "label": "Centurion 1000 6WD",
+ "entity": "ep1\\vehicles\\utility\\v_utility4_chevalier_centurion__basic_01.ent",
+ "family": "v_utility4_chevalier_centurion",
+ "garage": false,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_utility4_chevalier_centurion",
+  "Vehicle.v_utility4_chevalier_centurion_cargo_dogtown",
+  "Vehicle.v_utility4_chevalier_centurion_poor",
+  "Vehicle.v_utility4_chevalier_centurion_poor_dogtown"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app"
+ ],
+ "styles": [
+  {
+   "id": "chevalier_centurion_basic_dumptruck_poor_01",
+   "code": "chevalier_centurion_basic_dumptruck_poor_01",
+   "label": "Chevalier centurion basic dumptruck poor",
+   "base_look": "chevalier_centurion_basic_dumptruck_poor_01",
+   "looks": [
+    "chevalier_centurion_basic_dumptruck_poor_01",
+    "chevalier_centurion_basic_dumptruck_poor_02",
+    "chevalier_centurion_basic_dumptruck_poor_03",
+    "chevalier_centurion_basic_dumptruck_poor_04",
+    "chevalier_centurion_basic_dumptruck_poor_05",
+    "chevalier_centurion_basic_dumptruck_poor_06",
+    "chevalier_centurion_basic_dumptruck_suburban_01",
+    "chevalier_centurion_basic_dumptruck_suburban_02",
+    "chevalier_centurion_basic_dumptruck_suburban_03",
+    "chevalier_centurion_basic_dumptruck_suburban_04",
+    "chevalier_centurion_basic_dumptruck_suburban_05"
+   ],
+   "options": {
+    "bumper_front.bumper": "b31cfd55",
+    "bumper_back.bumper": "cd203ee7",
+    "hood_a.hood": "94cb378b",
+    "base.body": "fc73eef6",
+    "base.bumper": "26b2cf5f",
+    "base.interior": "19236a60",
+    "base.seat": "5dfb8f0a",
+    "base.seat.seats_fl": "28598f51",
+    "base.seat.seats_fr": "454a0139",
+    "wheel.tire": "048362f4",
+    "wheel.wheel": "450f5065",
+    "door.door": "a71a7e25",
+    "door.door.door_b": "d54e5f38",
+    "door.mirror": "c23e469a",
+    "wheel_b.tire": "5299e445",
+    "wheel_b.wheel": "e7d93364"
+   },
+   "kits": []
+  }
+ ],
+ "wrecks": [
+  "chevalier_centurion_basic_dumptruck_01_burnt"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "b31cfd55",
+     "code": "bumper_f_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "cargo_01",
+      "cargo_03",
+      "cargo_02"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "cd203ee7",
+     "code": "bumper_b_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "cargo_01",
+      "cargo_03",
+      "cargo_02"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "94cb378b",
+     "code": "hood_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "cargo_01",
+      "cargo_03",
+      "cargo_02"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body: main",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "fc73eef6",
+     "code": "body_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "cargo_01",
+      "cargo_02",
+      "cargo_03"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_01_burnt",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_01_burnt",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_01_burnt",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01",
+      "wreck:chevalier_centurion_basic_dumptruck_01_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.bed",
+   "label": "Body: bed",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bed_01"
+   ],
+   "options": [
+    {
+     "id": "68b27863",
+     "code": "body_bed_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_body_bed_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_body_bed_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "cargo_01",
+      "cargo_03",
+      "cargo_02"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:flatbed_01_burnt",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05"
+     ],
+     "origins": [
+      "look:flatbed_01_burnt",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.bumper",
+   "label": "Bumper (Base)",
+   "kind": "bumper",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_c_01",
+    "bumper_c_02"
+   ],
+   "options": [
+    {
+     "id": "26b2cf5f",
+     "code": "bumper_c_02",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_bumper_c_02.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_bumper_c_02_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "cargo_01",
+      "cargo_03",
+      "cargo_02"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic_dumptruck_01_burnt",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "style:chevalier_centurion_basic_dumptruck_poor_01",
+      "wreck:chevalier_centurion_basic_dumptruck_01_burnt"
+     ]
+    },
+    {
+     "id": "56df80b8",
+     "code": "bumper_c_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_bumper_c_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_bumper_c_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_05",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "cargo_01",
+      "cargo_03",
+      "cargo_02"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:flatbed_01_burnt",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05"
+     ],
+     "origins": [
+      "look:flatbed_01_burnt",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "19236a60",
+     "code": "interior_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_01_burnt",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_01_burnt",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_01_burnt",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01",
+      "wreck:chevalier_centurion_basic_dumptruck_01_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat",
+   "label": "Seats: back",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seats_b_01"
+   ],
+   "options": [
+    {
+     "id": "5dfb8f0a",
+     "code": "seats_b_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__int01_seats_b_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__int01_seats_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_01_burnt",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_01_burnt",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_01_burnt",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01",
+      "wreck:chevalier_centurion_basic_dumptruck_01_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat.seats_fl",
+   "label": "Seats: front left",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seats_fl_01"
+   ],
+   "options": [
+    {
+     "id": "28598f51",
+     "code": "seats_fl_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__int01_seats_fl_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__int01_seats_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_01_burnt",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_01_burnt",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_01_burnt",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01",
+      "wreck:chevalier_centurion_basic_dumptruck_01_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.seat.seats_fr",
+   "label": "Seats: front right",
+   "kind": "seat",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "seats_fr_01"
+   ],
+   "options": [
+    {
+     "id": "454a0139",
+     "code": "seats_fr_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__int01_seats_fr_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__int01_seats_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_01_burnt",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_01_burnt",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_01_burnt",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01",
+      "wreck:chevalier_centurion_basic_dumptruck_01_burnt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank",
+   "label": "Tank: gas c",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.9508,
+     -1.15,
+     0.2994
+    ]
+   ],
+   "rotations": [
+    [
+     0.13501594960689545,
+     -0.340663880109787,
+     0.8849437236785889,
+     -0.28739091753959656
+    ]
+   ],
+   "roles": [
+    "drug_lab_equipment_c_tank_a",
+    "gas_tank_c"
+   ],
+   "options": [
+    {
+     "id": "6648d4f8",
+     "code": "gas_tank_c",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_c.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "device"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02"
+     ]
+    },
+    {
+     "id": "cda6f97e",
+     "code": "drug_lab_equipment_c_tank_a",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\drug_lab_equipment_c_tank_a.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_03"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_03"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.tank.fuel_tank_a",
+   "label": "Tank: fuel a",
+   "kind": "tank",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.6913,
+     -1.2008,
+     0.1788
+    ]
+   ],
+   "rotations": [
+    [
+     -0.5157040357589722,
+     0.5020370483398438,
+     0.4979550540447235,
+     0.48378604650497437
+    ]
+   ],
+   "roles": [
+    "fuel_tank_a",
+    "gas_tank_e"
+   ],
+   "options": [
+    {
+     "id": "180bfd3e",
+     "code": "fuel_tank_a",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\fuel_tank_a.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "burned_a",
+      "burned_b",
+      "device",
+      "red"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_03"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_03"
+     ]
+    },
+    {
+     "id": "25680a77",
+     "code": "gas_tank_e",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\common\\meshes\\gas_tank_e.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "green",
+      "device"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     -0.7313537001609802,
+     0.0,
+     0.0,
+     0.6819983720779419
+    ],
+    [
+     -0.40673667192459106,
+     0.0,
+     0.0,
+     0.9135454297065735
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "048362f4",
+     "code": "tire_01 + tire_03",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_fl_01.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_fl_01.mesh",
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_fl_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_fl_01_shadow.mesh",
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03_shadow.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "dusty",
+     "paints": [
+      "dusty",
+      "clean",
+      "muddy"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     -0.7313537001609802,
+     0.0,
+     0.0,
+     0.6819983720779419
+    ],
+    [
+     -0.40673667192459106,
+     0.0,
+     0.0,
+     0.9135454297065735
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "450f5065",
+     "code": "wheel_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh",
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_bl_01.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wheel_01",
+     "paints": [
+      "wheel_02",
+      "wheel_03",
+      "wheel_01",
+      "wheel_04",
+      "wheel_05",
+      "wheel_06"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors: a",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "a71a7e25",
+     "code": "door_01 + door_a_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_fl_01.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_fr_01.mesh",
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_bl_a_01.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_br_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_fl_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_fr_01_shadow.mesh",
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_bl_a_01_shadow.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_br_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "cargo_01",
+      "cargo_03",
+      "cargo_02"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door.door_b",
+   "label": "Doors: back",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "door_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "d54e5f38",
+     "code": "door_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_bl_b_01.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_door_br_b_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.mirror",
+   "label": "Mirrors",
+   "kind": "mirror",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "mirror_<c>",
+    "mirror_l"
+   ],
+   "options": [
+    {
+     "id": "c23e469a",
+     "code": "mirror_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_mirror_fl_01.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_mirror_fr_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_mirror_fl_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_mirror_fr_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "cargo_01",
+      "cargo_03",
+      "cargo_02"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic:flatbed_poor_01",
+      "chevalier_centurion_basic:flatbed_poor_02",
+      "chevalier_centurion_basic:flatbed_poor_03",
+      "chevalier_centurion_basic:flatbed_poor_04",
+      "chevalier_centurion_basic:flatbed_poor_05",
+      "chevalier_centurion_basic:flatbed_poor_06",
+      "chevalier_centurion_basic:flatbed_suburban_01",
+      "chevalier_centurion_basic:flatbed_suburban_02",
+      "chevalier_centurion_basic:flatbed_suburban_03",
+      "chevalier_centurion_basic:flatbed_suburban_04",
+      "chevalier_centurion_basic:flatbed_suburban_05",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "look:flatbed_poor_01",
+      "look:flatbed_poor_02",
+      "look:flatbed_poor_03",
+      "look:flatbed_poor_04",
+      "look:flatbed_poor_05",
+      "look:flatbed_poor_06",
+      "look:flatbed_suburban_01",
+      "look:flatbed_suburban_02",
+      "look:flatbed_suburban_03",
+      "look:flatbed_suburban_04",
+      "look:flatbed_suburban_05",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.tire",
+   "label": "Tires (b)",
+   "kind": "tire",
+   "group": "wheel_b",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left_b",
+    "wheel_back_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "5299e445",
+     "code": "tire_03",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03.mesh"
+     },
+     "shadows": {
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03_shadow.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "dusty",
+     "paints": [
+      "dusty",
+      "clean",
+      "muddy"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel_b.wheel",
+   "label": "Rims (b)",
+   "kind": "wheel",
+   "group": "wheel_b",
+   "corners": [
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_back_left_b",
+    "wheel_back_right_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_b"
+   ],
+   "options": [
+    {
+     "id": "e7d93364",
+     "code": "wheel_01",
+     "vehicle": "v_utilty4_chevalier_centurion",
+     "meshes": {
+      "bl": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_bl_01.mesh",
+      "br": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_bl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "wheel_01",
+     "paints": [
+      "wheel_01",
+      "wheel_02",
+      "wheel_03",
+      "wheel_04",
+      "wheel_05"
+     ],
+     "looks": [
+      "chevalier_centurion_basic:dumptruck_cargo_01",
+      "chevalier_centurion_basic:dumptruck_cargo_02",
+      "chevalier_centurion_basic:dumptruck_cargo_03",
+      "chevalier_centurion_basic:dumptruck_cargo_04",
+      "chevalier_centurion_basic_dumptruck_poor_01",
+      "chevalier_centurion_basic_dumptruck_poor_02",
+      "chevalier_centurion_basic_dumptruck_poor_03",
+      "chevalier_centurion_basic_dumptruck_poor_04",
+      "chevalier_centurion_basic_dumptruck_poor_05",
+      "chevalier_centurion_basic_dumptruck_poor_06",
+      "chevalier_centurion_basic_dumptruck_suburban_01",
+      "chevalier_centurion_basic_dumptruck_suburban_02",
+      "chevalier_centurion_basic_dumptruck_suburban_03",
+      "chevalier_centurion_basic_dumptruck_suburban_04",
+      "chevalier_centurion_basic_dumptruck_suburban_05"
+     ],
+     "origins": [
+      "look:dumptruck_cargo_01",
+      "look:dumptruck_cargo_02",
+      "look:dumptruck_cargo_03",
+      "look:dumptruck_cargo_04",
+      "style:chevalier_centurion_basic_dumptruck_poor_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [],
+ "looks": {
+  "chevalier_centurion_basic_dumptruck_poor_01": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_poor_01",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_poor_05": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_poor_05",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_poor_03": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_poor_03",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_poor_06": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_poor_06",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_poor_04": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_poor_04",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_01_burnt": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_01_burnt",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_poor_02": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_poor_02",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_suburban_03": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_suburban_03",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_suburban_04": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_suburban_04",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_suburban_05": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_suburban_05",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_suburban_02": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_suburban_02",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  },
+  "chevalier_centurion_basic_dumptruck_suburban_01": {
+   "app": "ep1\\vehicles\\appearances\\utility\\chevalier_centurion_basic.app",
+   "app_look": "dumptruck_suburban_01",
+   "style": "chevalier_centurion_basic_dumptruck_poor_01",
+   "wreck": false,
+   "parts": {
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "door.door.door_b": {
+     "bl": "door_bl_b",
+     "br": "door_br_b"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl_01",
+     "br": "window_br"
+    },
+    "door.mirror": {
+     "fl": "mirror_l",
+     "fr": "mirror_fr"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.seat": {
+     "all": "seats_b_01"
+    },
+    "base.seat.seats_fl": {
+     "all": "seats_fl_01"
+    },
+    "base.seat.seats_fr": {
+     "all": "seats_fr_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.window": {
+     "all": "window_b"
+    },
+    "base.bumper": {
+     "all": "bumper_c_02"
+    },
+    "wheel_b.wheel": {
+     "bl": "wheel_01_bl_b",
+     "br": "wheel_01_br_b"
+    },
+    "wheel_b.tire": {
+     "bl": "tire_01_bl_b",
+     "br": "tire_01_br_b"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.6054,
+   0.4482,
+   0.3541,
+   -0.2988
+  ],
+  "b": [
+   0.6054,
+   0.7062,
+   0.3541,
+   -0.2259
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "22de97c4",
+   "rim": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_fl_01.mesh",
+   "tire": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Centurion 1000 6WD",
+   "radius": 0.6054,
+   "width": 0.4482,
+   "rim_radius": 0.3541,
+   "tire_center": -0.2988,
+   "axles": [
+    "f"
+   ],
+   "looks": 26,
+   "paints": [
+    "wheel_02",
+    "wheel_03",
+    "wheel_01",
+    "wheel_04",
+    "wheel_05",
+    "wheel_06"
+   ],
+   "default_paint": "wheel_01",
+   "kind": "car",
+   "look_names": [
+    "chevalier_centurion_basic:dumptruck_cargo_01",
+    "chevalier_centurion_basic:dumptruck_cargo_02",
+    "chevalier_centurion_basic:dumptruck_cargo_03",
+    "chevalier_centurion_basic:dumptruck_cargo_04",
+    "chevalier_centurion_basic:flatbed_poor_01",
+    "chevalier_centurion_basic:flatbed_poor_02",
+    "chevalier_centurion_basic:flatbed_poor_03",
+    "chevalier_centurion_basic:flatbed_poor_04",
+    "chevalier_centurion_basic:flatbed_poor_05",
+    "chevalier_centurion_basic:flatbed_poor_06",
+    "chevalier_centurion_basic:flatbed_suburban_01",
+    "chevalier_centurion_basic:flatbed_suburban_02",
+    "chevalier_centurion_basic:flatbed_suburban_03",
+    "chevalier_centurion_basic:flatbed_suburban_04",
+    "chevalier_centurion_basic:flatbed_suburban_05",
+    "chevalier_centurion_basic_dumptruck_poor_01",
+    "chevalier_centurion_basic_dumptruck_poor_02",
+    "chevalier_centurion_basic_dumptruck_poor_03",
+    "chevalier_centurion_basic_dumptruck_poor_04",
+    "chevalier_centurion_basic_dumptruck_poor_05",
+    "chevalier_centurion_basic_dumptruck_poor_06",
+    "chevalier_centurion_basic_dumptruck_suburban_01",
+    "chevalier_centurion_basic_dumptruck_suburban_02",
+    "chevalier_centurion_basic_dumptruck_suburban_03",
+    "chevalier_centurion_basic_dumptruck_suburban_04",
+    "chevalier_centurion_basic_dumptruck_suburban_05"
+   ]
+  },
+  {
+   "id": "def784d2",
+   "rim": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_wheel_bl_01.mesh",
+   "tire": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\utility\\v_utilty4_chevalier_centurion\\entities\\meshes\\v_utility4_chevalier_centurion__ext01_tire_bl_03_shadow.mesh",
+   "code": "wheel_bl_01",
+   "tire_code": "tire_bl_03",
+   "from": "Centurion 1000 6WD",
+   "radius": 0.6054,
+   "width": 0.7062,
+   "rim_radius": 0.3541,
+   "tire_center": -0.2259,
+   "axles": [
+    "b"
+   ],
+   "looks": 26,
+   "paints": [
+    "wheel_01",
+    "wheel_02",
+    "wheel_03",
+    "wheel_04",
+    "wheel_05"
+   ],
+   "default_paint": "wheel_01",
+   "kind": "car",
+   "look_names": [
+    "chevalier_centurion_basic:dumptruck_cargo_01",
+    "chevalier_centurion_basic:dumptruck_cargo_02",
+    "chevalier_centurion_basic:dumptruck_cargo_03",
+    "chevalier_centurion_basic:dumptruck_cargo_04",
+    "chevalier_centurion_basic:flatbed_poor_01",
+    "chevalier_centurion_basic:flatbed_poor_02",
+    "chevalier_centurion_basic:flatbed_poor_03",
+    "chevalier_centurion_basic:flatbed_poor_04",
+    "chevalier_centurion_basic:flatbed_poor_05",
+    "chevalier_centurion_basic:flatbed_poor_06",
+    "chevalier_centurion_basic:flatbed_suburban_01",
+    "chevalier_centurion_basic:flatbed_suburban_02",
+    "chevalier_centurion_basic:flatbed_suburban_03",
+    "chevalier_centurion_basic:flatbed_suburban_04",
+    "chevalier_centurion_basic:flatbed_suburban_05",
+    "chevalier_centurion_basic_dumptruck_poor_01",
+    "chevalier_centurion_basic_dumptruck_poor_02",
+    "chevalier_centurion_basic_dumptruck_poor_03",
+    "chevalier_centurion_basic_dumptruck_poor_04",
+    "chevalier_centurion_basic_dumptruck_poor_05",
+    "chevalier_centurion_basic_dumptruck_poor_06",
+    "chevalier_centurion_basic_dumptruck_suburban_01",
+    "chevalier_centurion_basic_dumptruck_suburban_02",
+    "chevalier_centurion_basic_dumptruck_suburban_03",
+    "chevalier_centurion_basic_dumptruck_suburban_04",
+    "chevalier_centurion_basic_dumptruck_suburban_05"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "None",
+   "Centurion 1000 6WD"
+  ]
+ ]
+}

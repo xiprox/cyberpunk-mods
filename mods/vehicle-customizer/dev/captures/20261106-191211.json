@@ -1,0 +1,28 @@
+{
+  "camera_forward": {
+    "x": 0,
+    "y": 1,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 400,
+    "x": -1838.9,
+    "y": -3911,
+    "z": 88.9
+  },
+  "nearest": {
+    "distance": 38.4,
+    "id": "badlands_gas_station",
+    "name": "Badlands gas station"
+  },
+  "note": "",
+  "player": {
+    "x": -1838.9,
+    "y": -4310.8,
+    "yaw": 0,
+    "z": 74
+  },
+  "stamp": "20261106-191211",
+  "time": "2026-11-06 19:12:11"
+}

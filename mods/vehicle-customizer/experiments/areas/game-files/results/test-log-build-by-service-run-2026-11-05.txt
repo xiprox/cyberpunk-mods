@@ -1,0 +1,520 @@
+﻿23:47:17 loaded; saved build: 0 parts, base look stock
+23:47:17 kit service told: on true, 1.3 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:49:11 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; the service builds its 0 saved parts
+23:49:11   kit service: copy built (1) by record in look archer_hella__basic_player_01; kit added; builds seen 1
+23:49:11   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:11   reassembles: 0 seen, last: none yet
+23:49:11   builds from the Hella's look file: 1 seen, last: record Vehicle.v_standard2_archer_hella_player_vctest, look archer_hella__basic_player_01, entity given, the copy: by record
+23:49:11   service build: build 1: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+23:49:11   parts now: 
+23:49:31 kit service told: on false, 1.3 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:49:31 kit taken off and forgotten
+23:49:31 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:49:31 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:49:31 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:49:31 checking the rebuilt car in 1 s
+23:49:32 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_a; the service builds its 0 saved parts
+23:49:32   kit service: copy built (2) by twin look in look archer_hella__basic_player_01__vc_a; kit off; builds seen 2
+23:49:32   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:32   reassembles: 1 seen, last: kit off
+23:49:32   builds from the Hella's look file: 2 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:49:32   service build: build 2: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+23:49:32   parts now: 
+23:49:34 bumper_f_01 saved to the build (mesh v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh, paint color_02); the service puts it on as the car is rebuilt
+23:49:34 kit service told: on false, 1.3 m ahead, 0.0 m up; 1 saved parts, put on by the service as the car is built -> done
+23:49:34 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:49:34 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:49:34 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:49:34 checking the rebuilt car in 1 s
+23:49:35 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 1 saved parts
+23:49:35   kit service: copy built (3) by twin look in look archer_hella__basic_player_01__vc_b; kit off; builds seen 3
+23:49:35   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:35   reassembles: 2 seen, last: kit off
+23:49:35   builds from the Hella's look file: 3 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:49:35   service build: build 3: 1 of 1 saved parts put on, 1 of them in the visual controller's list
+23:49:35   parts now: bumper_f_01: mesh as built, paint color_02; 
+23:49:35 wheel_01_fl_a saved to the build (mesh v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 wheel_01_fr_a saved to the build (mesh v_sport2_porsche_911turbo__ext01_wheel_fl_01.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 wheel_01_bl_a saved to the build (mesh v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 wheel_01_br_a saved to the build (mesh v_sport2_porsche_911turbo__ext01_wheel_bl_01.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 tire_01_fl_a saved to the build (mesh v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 tire_01_fr_a saved to the build (mesh v_sport2_porsche_911turbo__ext01_tire_fl_01.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 tire_01_bl_a saved to the build (mesh v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 tire_01_br_a saved to the build (mesh v_sport2_porsche_911turbo__ext01_tire_bl_01.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 tire_01_fl_a_shadow saved to the build (mesh v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 tire_01_fr_a_shadow saved to the build (mesh v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 tire_01_bl_a_shadow saved to the build (mesh v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:35 tire_01_br_a_shadow saved to the build (mesh v_sport2_porsche_911turbo__ext01_tire_bl_01_shadow.mesh, paint default); the service puts it on as the car is rebuilt
+23:49:36 kit service told: on false, 1.3 m ahead, 0.0 m up; 13 saved parts, put on by the service as the car is built -> done
+23:49:36 rebuilding the copy in place: archer_hella__basic_player_01__vc_b -> its twin
+23:49:36 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:49:36 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:49:36 checking the rebuilt car in 1 s
+23:49:37 the build copy appeared 1.02 s ago in look archer_hella__basic_player_01__vc_a; the service builds its 13 saved parts
+23:49:37   kit service: copy built (4) by twin look in look archer_hella__basic_player_01__vc_a; kit off; builds seen 4
+23:49:37   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:37   reassembles: 3 seen, last: kit off
+23:49:37   builds from the Hella's look file: 4 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:49:37   service build: build 4: 13 of 13 saved parts put on, 13 of them in the visual controller's list
+23:49:37   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; 
+23:49:42 hood_a saved to the build (mesh kept, paint primer_red); the service puts it on as the car is rebuilt
+23:49:42 kit service told: on false, 1.3 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:49:42 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:49:42 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:49:42 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:49:42 checking the rebuilt car in 1 s
+23:49:43 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 14 saved parts
+23:49:43   kit service: copy built (5) by twin look in look archer_hella__basic_player_01__vc_b; kit off; builds seen 5
+23:49:43   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:43   reassembles: 4 seen, last: kit off
+23:49:43   builds from the Hella's look file: 5 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:49:43   service build: build 5: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:49:43   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:49:43 hood_a saved to the build (mesh kept, paint stickerbomb_01); the service puts it on as the car is rebuilt
+23:49:43 kit service told: on false, 1.3 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:49:43 rebuilding the copy in place: archer_hella__basic_player_01__vc_b -> its twin
+23:49:43 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:49:43 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:49:43 checking the rebuilt car in 1 s
+23:49:44 hood_a saved to the build (mesh kept, paint deathrace_01); the service puts it on as the car is rebuilt
+23:49:44 kit service told: on false, 1.3 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:49:44 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:49:44 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:49:44 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:49:44 checking the rebuilt car in 1 s
+23:49:44 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 14 saved parts
+23:49:44   kit service: copy built (7) by twin look in look archer_hella__basic_player_01__vc_b; kit off; builds seen 7
+23:49:44   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:44   reassembles: 6 seen, last: kit off
+23:49:44   builds from the Hella's look file: 7 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:49:44   service build: build 7: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:49:44   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint deathrace_01; 
+23:49:45 hood_a saved to the build (mesh kept, paint police_01); the service puts it on as the car is rebuilt
+23:49:45 kit service told: on false, 1.3 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:49:45 rebuilding the copy in place: archer_hella__basic_player_01__vc_b -> its twin
+23:49:45 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:49:45 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:49:45 checking the rebuilt car in 1 s
+23:49:45 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_a; the service builds its 14 saved parts
+23:49:45   kit service: copy built (8) by twin look in look archer_hella__basic_player_01__vc_a; kit off; builds seen 8
+23:49:45   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:45   reassembles: 7 seen, last: kit off
+23:49:45   builds from the Hella's look file: 8 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:49:45   service build: build 8: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:49:45   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint police_01; 
+23:49:45 hood_a saved to the build (mesh kept, paint suburban_01); the service puts it on as the car is rebuilt
+23:49:45 kit service told: on false, 1.3 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:49:45 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:49:45 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:49:45 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:49:45 checking the rebuilt car in 1 s
+23:49:46 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 14 saved parts
+23:49:46   kit service: copy built (9) by twin look in look archer_hella__basic_player_01__vc_b; kit off; builds seen 9
+23:49:46   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:46   reassembles: 8 seen, last: kit off
+23:49:46   builds from the Hella's look file: 9 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:49:46   service build: build 9: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:49:46   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint suburban_01; 
+23:49:46 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 14 saved parts
+23:49:46   kit service: copy built (9) by twin look in look archer_hella__basic_player_01__vc_b; kit off; builds seen 9
+23:49:46   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:46   reassembles: 8 seen, last: kit off
+23:49:46   builds from the Hella's look file: 9 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:49:46   service build: build 9: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:49:46   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint suburban_01; 
+23:49:47 hood_a saved to the build (mesh kept, paint primer_black); the service puts it on as the car is rebuilt
+23:49:47 kit service told: on false, 1.3 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:49:47 rebuilding the copy in place: archer_hella__basic_player_01__vc_b -> its twin
+23:49:47 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:49:47 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:49:47 checking the rebuilt car in 1 s
+23:49:47 hood_a saved to the build (mesh kept, paint primer_red); the service puts it on as the car is rebuilt
+23:49:47 kit service told: on false, 1.3 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:49:47 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:49:47 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:49:47 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:49:47 checking the rebuilt car in 1 s
+23:49:48 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 14 saved parts
+23:49:48   kit service: copy built (11) by twin look in look archer_hella__basic_player_01__vc_b; kit off; builds seen 11
+23:49:48   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:48   reassembles: 10 seen, last: kit off
+23:49:48   builds from the Hella's look file: 11 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:49:48   service build: build 11: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:49:48   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:49:48 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 14 saved parts
+23:49:48   kit service: copy built (11) by twin look in look archer_hella__basic_player_01__vc_b; kit off; builds seen 11
+23:49:48   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:49:48   reassembles: 10 seen, last: kit off
+23:49:48   builds from the Hella's look file: 11 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:49:48   service build: build 11: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:49:48   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:51:33 Vehicle.v_standard2_archer_hella_player_vctest unlock -> true
+23:51:33 Vehicle.v_standard2_archer_hella_player_vctest_b unlock -> true
+23:51:33 Vehicle.v_utility4_kaukaz_bratsk_vctest unlock -> true
+23:51:33 Vehicle.v_utility4_chevalier_centurion_vctest unlock -> true
+23:51:33 Vehicle.av_rayfield_excalibur_vctest unlock -> true
+23:51:36 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; the service builds its 14 saved parts
+23:51:36   kit service: copy built (12) by record in look archer_hella__basic_player_01; kit off; builds seen 12
+23:51:36   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:51:36   reassembles: 10 seen, last: kit off
+23:51:36   builds from the Hella's look file: 12 seen, last: record Vehicle.v_standard2_archer_hella_player_vctest, look archer_hella__basic_player_01, entity given, the copy: by record
+23:51:36   service build: build 12: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:51:36   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:51:36 check: found with no mesh loaded, left as is: bumper_f_01, wheel_01_fl_a, wheel_01_fr_a, wheel_01_bl_a, wheel_01_br_a, tire_01_fl_a, tire_01_fr_a, tire_01_bl_a, tire_01_br_a, tire_01_fl_a_shadow, tire_01_fr_a_shadow, tire_01_bl_a_shadow, tire_01_br_a_shadow, hood_a
+23:51:37 check: every saved and kit part has its mesh loaded again
+23:51:59 kit service told: on true, 0.0 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:51:59 kit on
+23:51:59 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:51:59 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:51:59 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:51:59 checking the rebuilt car in 1 s
+23:52:00 the build copy appeared 1.00 s ago in look archer_hella__basic_player_01__vc_a; the service builds its 14 saved parts
+23:52:00   kit service: copy built (13) by twin look in look archer_hella__basic_player_01__vc_a; kit added; builds seen 13
+23:52:00   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:52:00   reassembles: 11 seen, last: kit already on
+23:52:00   builds from the Hella's look file: 13 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:52:00   service build: build 13: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:52:00   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:52:02 kit service told: on true, 0.1 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:02 kit moved: 0.10 m ahead, 0.00 m up in all
+23:52:02 kit service told: on true, 0.2 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:02 kit moved: 0.20 m ahead, 0.00 m up in all
+23:52:02 kit service told: on true, 0.3 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:02 kit moved: 0.30 m ahead, 0.00 m up in all
+23:52:02 kit service told: on true, 0.4 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:02 kit moved: 0.40 m ahead, 0.00 m up in all
+23:52:02 kit service told: on true, 0.5 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:02 kit moved: 0.50 m ahead, 0.00 m up in all
+23:52:03 kit service told: on true, 0.6 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:03 kit moved: 0.60 m ahead, 0.00 m up in all
+23:52:03 kit service told: on true, 0.7 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:03 kit moved: 0.70 m ahead, 0.00 m up in all
+23:52:03 kit service told: on true, 0.8 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:03 kit moved: 0.80 m ahead, 0.00 m up in all
+23:52:03 kit service told: on true, 0.9 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:03 kit moved: 0.90 m ahead, 0.00 m up in all
+23:52:03 kit service told: on true, 1.0 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:03 kit moved: 1.00 m ahead, 0.00 m up in all
+23:52:03 kit service told: on true, 1.1 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:03 kit moved: 1.10 m ahead, 0.00 m up in all
+23:52:04 kit service told: on true, 1.2 m ahead, 0.0 m up; 14 saved parts, put on by the service as the car is built -> done
+23:52:04 kit moved: 1.20 m ahead, 0.00 m up in all
+23:54:10 the build copy appeared 0.03 s ago in look archer_hella__basic_player_01; the service builds its 14 saved parts
+23:54:10   kit service: copy built (14) by record in look archer_hella__basic_player_01; kit added; builds seen 14
+23:54:10   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:54:10   reassembles: 11 seen, last: kit already on
+23:54:10   builds from the Hella's look file: 14 seen, last: record Vehicle.v_standard2_archer_hella_player_vctest, look archer_hella__basic_player_01, entity given, the copy: by record
+23:54:10   service build: build 14: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:54:10   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:54:11 check: found with no mesh loaded, left as is: bumper_f_01, wheel_01_fl_a, wheel_01_fr_a, wheel_01_bl_a, wheel_01_br_a, tire_01_fl_a, tire_01_fr_a, tire_01_bl_a, tire_01_br_a, tire_01_fl_a_shadow, tire_01_fr_a_shadow, tire_01_bl_a_shadow, tire_01_br_a_shadow, hood_a
+23:54:14 check: every saved and kit part has its mesh loaded again
+23:56:26 base look of the build copy, from its next call: archer_hella__basic_suburban_1_2
+23:56:26 look flat Vehicle.v_standard2_archer_hella_player_vctest.appearanceName holds ToCName{ hash_lo = 0x15BD9B57, hash_hi = 0xDEC04E91 --[[ archer_hella__basic_player_01 --]] }
+23:56:26   look set with a flat id and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:26   look set with a record id with the field and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:26   look set with a name and a string -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:26   look set with a name and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:26   the look wasn't set, so it isn't saved
+23:56:28 base look of the build copy, from its next call: archer_hella__basic_poor_2_2
+23:56:28 look flat Vehicle.v_standard2_archer_hella_player_vctest.appearanceName holds ToCName{ hash_lo = 0x15BD9B57, hash_hi = 0xDEC04E91 --[[ archer_hella__basic_player_01 --]] }
+23:56:28   look set with a flat id and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:28   look set with a record id with the field and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:28   look set with a name and a string -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:28   look set with a name and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:28   the look wasn't set, so it isn't saved
+23:56:30 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:56:30 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:56:30 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:56:30 checking the rebuilt car in 1 s
+23:56:31 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:56:31 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:56:31 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:56:31 checking the rebuilt car in 1 s
+23:56:31 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_a; the service builds its 14 saved parts
+23:56:31   kit service: copy built (16) by twin look in look archer_hella__basic_player_01__vc_b; kit added; builds seen 16
+23:56:31   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:56:31   reassembles: 12 seen, last: kit already on
+23:56:31   builds from the Hella's look file: 16 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:56:31   service build: build 16: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:56:31   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:56:32 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 14 saved parts
+23:56:32   kit service: copy built (16) by twin look in look archer_hella__basic_player_01__vc_b; kit added; builds seen 16
+23:56:32   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:56:32   reassembles: 13 seen, last: kit already on
+23:56:32   builds from the Hella's look file: 16 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:56:32   service build: build 16: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:56:32   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:56:32 base look of the build copy, from its next call: archer_hella__basic_6th_street_01
+23:56:32 look flat Vehicle.v_standard2_archer_hella_player_vctest.appearanceName holds ToCName{ hash_lo = 0x15BD9B57, hash_hi = 0xDEC04E91 --[[ archer_hella__basic_player_01 --]] }
+23:56:32   look set with a flat id and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:32   look set with a record id with the field and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:32   look set with a name and a string -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:32   look set with a name and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:32   the look wasn't set, so it isn't saved
+23:56:34 kit service told to expect look archer_hella__basic_suburban_1_2 -> true
+23:56:34 look of this car changed now to archer_hella__basic_suburban_1_2 -> true
+23:56:34 checking the rebuilt car in 1 s
+23:56:35 the build copy appeared 1.00 s ago in look archer_hella__basic_suburban_1_2; the service builds its 14 saved parts
+23:56:35   kit service: copy built (17) by the look the window expected in look archer_hella__basic_suburban_1_2; kit added; builds seen 17
+23:56:35   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:56:35   reassembles: 14 seen, last: kit already on
+23:56:35   builds from the Hella's look file: 17 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_suburban_1_2, entity not given, the copy: by the look the window expected
+23:56:35   service build: build 17: 10 of 14 saved parts put on, 10 of them in the visual controller's list; not in this look: wheel_01_fl_a wheel_01_fr_a wheel_01_bl_a wheel_01_br_a 
+23:56:35   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: not on the car; wheel_01_fr_a: not on the car; wheel_01_bl_a: not on the car; wheel_01_br_a: not on the car; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:56:44 kit service told to expect look archer_hella__basic_poor_2_2 -> true
+23:56:44 look of this car changed now to archer_hella__basic_poor_2_2 -> true
+23:56:44 checking the rebuilt car in 1 s
+23:56:45 the build copy appeared 1.00 s ago in look archer_hella__basic_poor_2_2; the service builds its 14 saved parts
+23:56:45   kit service: copy built (18) by the look the window expected in look archer_hella__basic_poor_2_2; kit added; builds seen 18
+23:56:45   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:56:45   reassembles: 15 seen, last: kit already on
+23:56:45   builds from the Hella's look file: 18 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_poor_2_2, entity not given, the copy: by the look the window expected
+23:56:45   service build: build 18: 9 of 14 saved parts put on, 9 of them in the visual controller's list; not in this look: wheel_01_fl_a wheel_01_fr_a wheel_01_bl_a wheel_01_br_a hood_a 
+23:56:45   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: not on the car; wheel_01_fr_a: not on the car; wheel_01_bl_a: not on the car; wheel_01_br_a: not on the car; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: not on the car; 
+23:56:50 base look of the build copy, from its next call: archer_hella__basic_player_01
+23:56:50 look flat Vehicle.v_standard2_archer_hella_player_vctest.appearanceName holds ToCName{ hash_lo = 0x15BD9B57, hash_hi = 0xDEC04E91 --[[ archer_hella__basic_player_01 --]] }
+23:56:50   look set with a flat id and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:50   look set with a record id with the field and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:50   look set with a name and a string -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:50   look set with a name and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:50   the look wasn't set, so it isn't saved
+23:56:51 base look of the build copy, from its next call: archer_hella__basic_suburban_1_2
+23:56:51 look flat Vehicle.v_standard2_archer_hella_player_vctest.appearanceName holds ToCName{ hash_lo = 0x15BD9B57, hash_hi = 0xDEC04E91 --[[ archer_hella__basic_player_01 --]] }
+23:56:51   look set with a flat id and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:51   look set with a record id with the field and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:51   look set with a name and a string -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:51   look set with a name and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:51   the look wasn't set, so it isn't saved
+23:56:51 kit service told to expect look archer_hella__basic_6th_street_01 -> true
+23:56:51 look of this car changed now to archer_hella__basic_6th_street_01 -> true
+23:56:51 checking the rebuilt car in 1 s
+23:56:52 the build copy appeared 1.03 s ago in look archer_hella__basic_6th_street_01; the service builds its 14 saved parts
+23:56:52   kit service: copy built (19) by the look the window expected in look archer_hella__basic_6th_street_01; kit added; builds seen 19
+23:56:52   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:56:52   reassembles: 16 seen, last: kit already on
+23:56:52   builds from the Hella's look file: 19 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_6th_street_01, entity not given, the copy: by the look the window expected
+23:56:52   service build: build 19: 10 of 14 saved parts put on, 10 of them in the visual controller's list; not in this look: wheel_01_fl_a wheel_01_fr_a wheel_01_bl_a wheel_01_br_a 
+23:56:52   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: not on the car; wheel_01_fr_a: not on the car; wheel_01_bl_a: not on the car; wheel_01_br_a: not on the car; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:56:53 base look of the build copy, from its next call: archer_hella__basic_poor_2_2
+23:56:53 look flat Vehicle.v_standard2_archer_hella_player_vctest.appearanceName holds ToCName{ hash_lo = 0x15BD9B57, hash_hi = 0xDEC04E91 --[[ archer_hella__basic_player_01 --]] }
+23:56:53   look set with a flat id and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:53   look set with a record id with the field and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:53   look set with a name and a string -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:53   look set with a name and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:56:53   the look wasn't set, so it isn't saved
+23:56:54 kit service told to expect look archer_hella__basic_player_01 -> true
+23:56:54 look of this car changed now to archer_hella__basic_player_01 -> true
+23:56:54 checking the rebuilt car in 1 s
+23:56:55 the build copy appeared 1.00 s ago in look archer_hella__basic_player_01; the service builds its 14 saved parts
+23:56:55   kit service: copy built (20) by the look the window expected in look archer_hella__basic_player_01; kit added; builds seen 20
+23:56:55   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:56:55   reassembles: 17 seen, last: kit already on
+23:56:55   builds from the Hella's look file: 20 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01, entity not given, the copy: by the look the window expected
+23:56:55   service build: build 20: 14 of 14 saved parts put on, 14 of them in the visual controller's list
+23:56:55   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: mesh as built, paint default; wheel_01_fr_a: mesh as built, paint default; wheel_01_bl_a: mesh as built, paint default; wheel_01_br_a: mesh as built, paint default; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:57:00 base look of the build copy, from its next call: archer_hella__basic_6th_street_01
+23:57:00 look flat Vehicle.v_standard2_archer_hella_player_vctest.appearanceName holds ToCName{ hash_lo = 0x15BD9B57, hash_hi = 0xDEC04E91 --[[ archer_hella__basic_player_01 --]] }
+23:57:00   look set with a flat id and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:00   look set with a record id with the field and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:00   look set with a name and a string -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:00   look set with a name and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:00   the look wasn't set, so it isn't saved
+23:57:04 kit service told to expect look archer_hella__basic_suburban_1_2 -> true
+23:57:04 look of this car changed now to archer_hella__basic_suburban_1_2 -> true
+23:57:04 checking the rebuilt car in 1 s
+23:57:05 the build copy appeared 1.03 s ago in look archer_hella__basic_suburban_1_2; the service builds its 14 saved parts
+23:57:05   kit service: copy built (21) by the look the window expected in look archer_hella__basic_suburban_1_2; kit added; builds seen 21
+23:57:05   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:57:05   reassembles: 18 seen, last: kit already on
+23:57:05   builds from the Hella's look file: 21 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_suburban_1_2, entity not given, the copy: by the look the window expected
+23:57:05   service build: build 21: 10 of 14 saved parts put on, 10 of them in the visual controller's list; not in this look: wheel_01_fl_a wheel_01_fr_a wheel_01_bl_a wheel_01_br_a 
+23:57:05   parts now: bumper_f_01: mesh as built, paint color_02; wheel_01_fl_a: not on the car; wheel_01_fr_a: not on the car; wheel_01_bl_a: not on the car; wheel_01_br_a: not on the car; tire_01_fl_a: mesh as built, paint default; tire_01_fr_a: mesh as built, paint default; tire_01_bl_a: mesh as built, paint default; tire_01_br_a: mesh as built, paint default; tire_01_fl_a_shadow: mesh as built, paint default; tire_01_fr_a_shadow: mesh as built, paint default; tire_01_bl_a_shadow: mesh as built, paint default; tire_01_br_a_shadow: mesh as built, paint default; hood_a: mesh as built, paint primer_red; 
+23:57:22 saved build forgotten; rebuilding the copy stock
+23:57:22 kit service told: on false, 0.0 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:57:22 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:57:22 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:57:22 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:57:22 checking the rebuilt car in 1 s
+23:57:24 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_a; the service builds its 0 saved parts
+23:57:24   kit service: copy built (22) by twin look in look archer_hella__basic_player_01__vc_a; kit off; builds seen 22
+23:57:24   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:57:24   reassembles: 20 seen, last: kit off
+23:57:24   builds from the Hella's look file: 23 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:57:24   service build: build 22: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+23:57:24   parts now: 
+23:57:25 Vehicle.v_standard2_archer_hella_player_vctest remove -> true
+23:57:25 Vehicle.v_standard2_archer_hella_player_vctest_b remove -> true
+23:57:25 Vehicle.v_utility4_kaukaz_bratsk_vctest remove -> true
+23:57:25 Vehicle.v_utility4_chevalier_centurion_vctest remove -> true
+23:57:25 Vehicle.av_rayfield_excalibur_vctest remove -> true
+23:57:26 Vehicle.v_standard2_archer_hella_player_vctest remove -> true
+23:57:26 Vehicle.v_standard2_archer_hella_player_vctest_b remove -> true
+23:57:26 Vehicle.v_utility4_kaukaz_bratsk_vctest remove -> true
+23:57:26 Vehicle.v_utility4_chevalier_centurion_vctest remove -> true
+23:57:26 Vehicle.av_rayfield_excalibur_vctest remove -> true
+23:57:32 Vehicle.v_standard2_archer_hella_player_vctest unlock -> true
+23:57:32 Vehicle.v_standard2_archer_hella_player_vctest_b unlock -> true
+23:57:32 Vehicle.v_utility4_kaukaz_bratsk_vctest unlock -> true
+23:57:32 Vehicle.v_utility4_chevalier_centurion_vctest unlock -> true
+23:57:32 Vehicle.av_rayfield_excalibur_vctest unlock -> true
+23:57:42 base look of the build copy, from its next call: archer_hella__basic_player_01
+23:57:42 look flat Vehicle.v_standard2_archer_hella_player_vctest.appearanceName holds ToCName{ hash_lo = 0x15BD9B57, hash_hi = 0xDEC04E91 --[[ archer_hella__basic_player_01 --]] }
+23:57:42   look set with a flat id and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:42   look set with a record id with the field and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:42   look set with a name and a string -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:42   look set with a name and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:42   the look wasn't set, so it isn't saved
+23:57:44 build copy sent back to the garage to be rebuilt -> done; calling it again in 2 s
+23:57:46 build copy called again -> true
+23:57:54 base look of the build copy, from its next call: archer_hella__basic_suburban_1_2
+23:57:54 look flat Vehicle.v_standard2_archer_hella_player_vctest.appearanceName holds ToCName{ hash_lo = 0x15BD9B57, hash_hi = 0xDEC04E91 --[[ archer_hella__basic_player_01 --]] }
+23:57:54   look set with a flat id and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:54   look set with a record id with the field and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:54   look set with a name and a string -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:54   look set with a name and a CName -> ERROR stack index -1, expected userdata, received nil: value is not a userdata 
+23:57:54   the look wasn't set, so it isn't saved
+23:57:58 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:57:58 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:57:58 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:57:58 checking the rebuilt car in 1 s
+23:57:59 the build copy appeared 1.00 s ago in look archer_hella__basic_player_01__vc_a; the service builds its 0 saved parts
+23:57:59   kit service: copy built (25) by twin look in look archer_hella__basic_player_01__vc_a; kit off; builds seen 25
+23:57:59   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:57:59   reassembles: 21 seen, last: kit off
+23:57:59   builds from the Hella's look file: 26 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:57:59   service build: build 25: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+23:57:59   parts now: 
+23:58:00 kit service told to expect look archer_hella__basic_poor_2_2 -> true
+23:58:00 look of this car changed now to archer_hella__basic_poor_2_2 -> true
+23:58:00 checking the rebuilt car in 1 s
+23:58:01 the build copy appeared 1.03 s ago in look archer_hella__basic_poor_2_2; the service builds its 0 saved parts
+23:58:01   kit service: copy built (26) by the look the window expected in look archer_hella__basic_poor_2_2; kit off; builds seen 26
+23:58:01   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:58:01   reassembles: 22 seen, last: kit off
+23:58:01   builds from the Hella's look file: 27 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_poor_2_2, entity not given, the copy: by the look the window expected
+23:58:01   service build: build 26: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+23:58:01   parts now: 
+23:59:24 kit service told: on true, 0.0 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:24 kit on
+23:59:24 rebuilding the copy in place: archer_hella__basic_player_01 -> its twin
+23:59:24 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:59:24 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:59:24 checking the rebuilt car in 1 s
+23:59:25 the build copy appeared 1.00 s ago in look archer_hella__basic_player_01__vc_a; the service builds its 0 saved parts
+23:59:25   kit service: copy built (27) by twin look in look archer_hella__basic_player_01__vc_a; kit added; builds seen 27
+23:59:25   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:59:25   reassembles: 24 seen, last: kit already on
+23:59:25   builds from the Hella's look file: 29 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:59:25   service build: build 27: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+23:59:25   parts now: 
+23:59:29 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:59:29 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:59:29 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:59:29 checking the rebuilt car in 1 s
+23:59:30 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 0 saved parts
+23:59:30   kit service: copy built (28) by twin look in look archer_hella__basic_player_01__vc_b; kit added; builds seen 28
+23:59:30   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:59:30   reassembles: 25 seen, last: kit already on
+23:59:30   builds from the Hella's look file: 30 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:59:30   service build: build 28: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+23:59:30   parts now: 
+23:59:34 kit service told: on false, 0.0 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:34 kit taken off and forgotten
+23:59:34 rebuilding the copy in place: archer_hella__basic_player_01__vc_b -> its twin
+23:59:34 kit service told to expect look archer_hella__basic_player_01__vc_a -> true
+23:59:34 look of this car changed now to archer_hella__basic_player_01__vc_a -> true
+23:59:34 checking the rebuilt car in 1 s
+23:59:35 the build copy appeared 1.03 s ago in look archer_hella__basic_player_01__vc_a; the service builds its 0 saved parts
+23:59:35   kit service: copy built (29) by twin look in look archer_hella__basic_player_01__vc_a; kit off; builds seen 29
+23:59:35   kit parts from the service (vc_nomad_*): off off off off off; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:59:35   reassembles: 26 seen, last: kit off
+23:59:35   builds from the Hella's look file: 31 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_a, entity not given, the copy: by twin look
+23:59:35   service build: build 29: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+23:59:35   parts now: 
+23:59:36 kit service told: on true, 0.0 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:36 kit on
+23:59:36 rebuilding the copy in place: archer_hella__basic_player_01__vc_a -> its twin
+23:59:36 kit service told to expect look archer_hella__basic_player_01__vc_b -> true
+23:59:36 look of this car changed now to archer_hella__basic_player_01__vc_b -> true
+23:59:36 checking the rebuilt car in 1 s
+23:59:37 the build copy appeared 1.00 s ago in look archer_hella__basic_player_01__vc_b; the service builds its 0 saved parts
+23:59:37   kit service: copy built (30) by twin look in look archer_hella__basic_player_01__vc_b; kit added; builds seen 30
+23:59:37   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+23:59:37   reassembles: 27 seen, last: kit already on
+23:59:37   builds from the Hella's look file: 32 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_player_01__vc_b, entity not given, the copy: by twin look
+23:59:37   service build: build 30: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+23:59:37   parts now: 
+23:59:37 kit service told: on true, 0.1 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:37 kit moved: 0.10 m ahead, 0.00 m up in all
+23:59:37 kit service told: on true, 0.2 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:37 kit moved: 0.20 m ahead, 0.00 m up in all
+23:59:37 kit service told: on true, 0.3 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:37 kit moved: 0.30 m ahead, 0.00 m up in all
+23:59:37 kit service told: on true, 0.4 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:37 kit moved: 0.40 m ahead, 0.00 m up in all
+23:59:38 kit service told: on true, 0.5 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:38 kit moved: 0.50 m ahead, 0.00 m up in all
+23:59:38 kit service told: on true, 0.6 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:38 kit moved: 0.60 m ahead, 0.00 m up in all
+23:59:38 kit service told: on true, 0.7 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:38 kit moved: 0.70 m ahead, 0.00 m up in all
+23:59:38 kit service told: on true, 0.8 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:38 kit moved: 0.80 m ahead, 0.00 m up in all
+23:59:38 kit service told: on true, 0.9 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:38 kit moved: 0.90 m ahead, 0.00 m up in all
+23:59:38 kit service told: on true, 1.0 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:38 kit moved: 1.00 m ahead, 0.00 m up in all
+23:59:39 kit service told: on true, 1.1 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:39 kit moved: 1.10 m ahead, 0.00 m up in all
+23:59:39 kit service told: on true, 1.2 m ahead, 0.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:39 kit moved: 1.20 m ahead, 0.00 m up in all
+23:59:52 kit service told: on true, 1.2 m ahead, 0.1 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:52 kit moved: 1.20 m ahead, 0.10 m up in all
+23:59:52 kit service told: on true, 1.2 m ahead, 0.2 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:52 kit moved: 1.20 m ahead, 0.20 m up in all
+23:59:52 kit service told: on true, 1.2 m ahead, 0.3 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:52 kit moved: 1.20 m ahead, 0.30 m up in all
+23:59:52 kit service told: on true, 1.2 m ahead, 0.4 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:52 kit moved: 1.20 m ahead, 0.40 m up in all
+23:59:53 kit service told: on true, 1.2 m ahead, 0.5 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:53 kit moved: 1.20 m ahead, 0.50 m up in all
+23:59:53 kit service told: on true, 1.2 m ahead, 0.6 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:53 kit moved: 1.20 m ahead, 0.60 m up in all
+23:59:53 kit service told: on true, 1.2 m ahead, 0.7 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:53 kit moved: 1.20 m ahead, 0.70 m up in all
+23:59:53 kit service told: on true, 1.2 m ahead, 0.8 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:53 kit moved: 1.20 m ahead, 0.80 m up in all
+23:59:53 kit service told: on true, 1.2 m ahead, 0.9 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:53 kit moved: 1.20 m ahead, 0.90 m up in all
+23:59:53 kit service told: on true, 1.2 m ahead, 1.0 m up; 0 saved parts, put on by the service as the car is built -> done
+23:59:53 kit moved: 1.20 m ahead, 1.00 m up in all
+00:00:18 the saved build is now put on by the window after the car appears
+00:00:18 kit service told: on true, 1.2 m ahead, 1.0 m up; 0 saved parts, put on by the window after it appears -> done
+00:00:20 the saved build is now put on by the service as the car is built
+00:00:20 kit service told: on true, 1.2 m ahead, 1.0 m up; 0 saved parts, put on by the service as the car is built -> done
+00:00:22 the saved build is now put on by the window after the car appears
+00:00:22 kit service told: on true, 1.2 m ahead, 1.0 m up; 0 saved parts, put on by the window after it appears -> done
+00:00:26 kit service told to expect look archer_hella__basic_6th_street_01 -> true
+00:00:26 look of this car changed now to archer_hella__basic_6th_street_01 -> true
+00:00:37 the saved build is now put on by the service as the car is built
+00:00:37 kit service told: on true, 1.2 m ahead, 1.0 m up; 0 saved parts, put on by the service as the car is built -> done
+00:00:38 kit service told to expect look archer_hella__basic_player_01 -> true
+00:00:38 look of this car changed now to archer_hella__basic_player_01 -> true
+00:00:38 checking the rebuilt car in 1 s
+00:00:39 kit service told to expect look archer_hella__basic_suburban_1_2 -> true
+00:00:39 look of this car changed now to archer_hella__basic_suburban_1_2 -> true
+00:00:39 checking the rebuilt car in 1 s
+00:00:39 the build copy appeared 1.00 s ago in look archer_hella__basic_suburban_1_2; the service builds its 0 saved parts
+00:00:39   kit service: copy built (32) by the look the window expected in look archer_hella__basic_suburban_1_2; kit added; builds seen 32
+00:00:39   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+00:00:39   reassembles: 31 seen, last: kit already on
+00:00:39   builds from the Hella's look file: 36 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_suburban_1_2, entity not given, the copy: by the look the window expected
+00:00:39   service build: build 32: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+00:00:39   parts now: 
+00:00:40 the build copy appeared 1.03 s ago in look archer_hella__basic_suburban_1_2; the service builds its 0 saved parts
+00:00:40   kit service: copy built (32) by the look the window expected in look archer_hella__basic_suburban_1_2; kit added; builds seen 32
+00:00:40   kit parts from the service (vc_nomad_*): on on on on on; from the ArchiveXL patch (vc_axl_*): off off off off off
+00:00:40   reassembles: 31 seen, last: kit already on
+00:00:40   builds from the Hella's look file: 36 seen, last: record <TDBID:00000000:00>, look archer_hella__basic_suburban_1_2, entity not given, the copy: by the look the window expected
+00:00:40   service build: build 32: 0 of 0 saved parts put on, 0 of them in the visual controller's list
+00:00:40   parts now: 

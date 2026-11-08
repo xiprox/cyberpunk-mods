@@ -1,0 +1,103 @@
+Catalogs generated 2026-11-08 from C:\Users\wayne\dev\cyberpunk-mods\vehicle-customizer\dev\runs\2026-11-07_15-57-58_toolui\vehicle-records.jsonl
+
+thorton_galena_nomad__01                                     garage  11 styles  14 slots   16 options   6 kits  Galena "Gecko"
+thorton_mackinaw_bmf_01                                      garage   1 styles   0 slots    0 options   0 kits  Mackinaw "Demiurge"
+thorton_mackinaw_nomad_01__basic_01                          garage   2 styles   6 slots    7 options   3 kits  Mackinaw "Beast"
+thorton_colby_pickup__kurtz_01_ep1                           garage   8 styles  15 slots   23 options  19 kits  Colby BARGHEST
+yaiba_kusanagi_basic_01                                      garage   9 styles   7 slots   16 options   4 kits  ASM-R250 Muramasa
+archer_quartz__basic_01                                      garage  10 styles  13 slots   21 options   4 kits  Quartz EC-T2 r660
+thorton_merrimac_01_player_01_ep1                            garage   1 styles  21 slots   48 options   5 kits  Merrimac "Warlock"
+thorton_galena_01__basic_01                                  garage  12 styles  13 slots   32 options   6 kits  Galena G240
+chevalier_legatus_basic_01                                   garage   2 styles   1 slots    2 options   0 kits  Legatus 450 Aquila
+quadra_type66_nomad__basic_01                                garage  10 styles  11 slots   11 options   8 kits  Type-66 "Hoon"
+thorton_colby_pickup_nomad__basic_01                         garage  12 styles  11 slots   13 options  13 kits  Colby "Vulture"
+quadra_turbo__basic_01                                       garage   8 styles  15 slots   22 options  14 kits  Turbo-R 740
+chevalier_emperor_01__basic_01                               garage   6 styles  19 slots   21 options  10 kits  Emperor 620 Ragnar
+chevalier_thrax__basic_01                                    garage   9 styles  14 slots   20 options  14 kits  Thrax 388 Jefferson
+quadra_type66__basic_01                                      garage  11 styles  15 slots   39 options   3 kits  Type-66 Avenger
+arch_nemesis_basic_01                                        garage   6 styles   6 slots    9 options   3 kits  Nazaré
+mahir_supron_01__basic_01                                    garage   7 styles  11 slots   19 options   3 kits  Supron FS3-T
+arch_nemesis_lina_01_ep1                                     garage   1 styles   6 slots    9 options   3 kits  Malina-mobile
+porsche_911turbo__basic_01                                   garage   1 styles   6 slots   12 options   3 kits  911 Turbo (930)
+makigai_tanishi_basic_01_ep1                                 garage  10 styles  24 slots   39 options   3 kits  Tanishi T400
+herrera_outlaw_heist_01_ep1                                  garage   2 styles   8 slots    9 options   0 kits  Outlaw "Weiler"
+quadra_sport_r7_01_ep1                                       garage  25 styles  22 slots   47 options  11 kits  Sport R-7 "Chiaroscuro"
+thorton_colby__basic_01                                      garage   8 styles  12 slots   20 options   5 kits  Colby CST40
+rayfield_aerondight__basic_01                                garage   2 styles  12 slots   14 options   0 kits  Aerondight "Guinevere"
+thorton_colby_pickup__basic_01                               garage   3 styles  15 slots   23 options  19 kits  Colby CX410 "Gran Butte"
+mizutani_hozuki__basic_01_ep1                                garage  11 styles  14 slots   32 options   1 kits  Hozuki MH2
+villefort_alvarado__basic_01                                 garage   5 styles  20 slots   45 options   3 kits  Alvarado V4F 570 Delegate
+brennan_apollo_basic_01                                      garage   8 styles   8 slots   32 options  11 kits  Apollo 650-S
+herrera_riptide_01_ep1                                       garage   2 styles  16 slots   18 options   1 kits  Riptide "Terrier"
+mizutani_shion__basic_01                                     garage   7 styles  13 slots   21 options  11 kits  Shion MZ1
+villefort_alvarado__cabrio_01                                garage   2 styles  20 slots   45 options   3 kits  Alvarado V4FC 580 "Vato"
+mizutani_shion_nomad__basic_01                               garage   5 styles  16 slots   19 options   5 kits  Shion "Samum"
+archer_quartz_nomad__01                                      garage   4 styles  12 slots   13 options   4 kits  Quartz "Specter"
+q304_charon_ep1                                              garage   2 styles  22 slots   47 options  11 kits  Sport R-7 "Charon"
+archer_hella__basic_01                                       garage   8 styles  18 slots   30 options  18 kits  Hella EC-D i360
+rayfield_caliburn__basic_01                                  garage   5 styles  13 slots   23 options   0 kits  Caliburn "Murkmobile"
+yaiba_semimaru__basic_01                                     garage   1 styles  12 slots   12 options   0 kits  ARV-Q340 Semimaru
+villefort_alvarado__hearse_01_ep1                            garage   5 styles  20 slots   45 options   3 kits  Alvarado V4FH 570 Herman
+makigai_maimai_01_basic_01                                   garage   5 styles  12 slots   22 options   1 kits  MaiMai P126
+thorton_mackinaw_01__basic_01                                garage   3 styles  16 slots   24 options   1 kits  Mackinaw MTL1
+villefort_deleon_01_ep1                                      garage   5 styles  11 slots   20 options   2 kits  Deleon V410-S Coupe
+militech_hellhound__basic_01_ep1                             garage   1 styles  11 slots   14 options   3 kits  Hellhound
+mahir_supron_kurtz_basic_01_ep1                              garage   4 styles  11 slots   20 options  10 kits  Supron "Trailbruiser"
+herrera_outlaw_basic_01                                      garage   2 styles   8 slots    9 options   0 kits  Outlaw
+villefort_cortes_01__basic_01                                garage   8 styles  13 slots   23 options  23 kits  Cortes V5000 Valor
+makigai_tanishi_player_01_ep1                                garage   1 styles  24 slots   39 options   3 kits  Tanishi "Kuma"
+villefort_columbus_01__basic_01                              garage  15 styles  12 slots   21 options  21 kits  Columbus V340-F Freight
+archer_bandit_01                                             garage   1 styles   3 slots    3 options   1 kits  Quartz "Bandit"
+villefort_cortes_01__police_01                               other    6 styles  13 slots   23 options  23 kits  Cortes V6000 NCPD Overlord
+kaukaz_bratsk_dogtown_container_truck_01_ep1                 other    1 styles   6 slots    6 options   1 kits  Bratsk U4020
+mahir_supron_kurtz_basic_mq304_ep1                           other    4 styles  11 slots   20 options  10 kits  Supron BARGHEST
+militech_behemoth_basic_01_ep1                               other    1 styles   6 slots   13 options   8 kits  Behemoth
+militech_behemoth_basic_01                                   other    4 styles   5 slots    8 options   2 kits  Behemoth
+archer_hella__police_01                                      other    2 styles  18 slots   30 options  18 kits  Hella EC-H i860 Enforcer
+kaukaz_bratsk__basic_concrete_truck_01                       other    1 styles   7 slots    7 options   0 kits  Bratsk U4020
+kaukaz_zeya__barrels_01                                      other    1 styles   5 slots    5 options   3 kits  Zeya U420
+kaukaz_zeya__full_01                                         other    2 styles   5 slots    5 options   3 kits  Zeya U420
+thorton_colby_pickup_nomad__basic_01_mq304_ep1               other   12 styles  11 slots   13 options  13 kits  Colby "Little Mule"
+thorton_colby_ep1__basic_01                                  other    2 styles  12 slots   20 options   5 kits  Colby C125
+chevalier_centurion__basic_01_ep1                            other    1 styles  19 slots   22 options   0 kits  Centurion 1000 6WD
+z71_aras__basic_01                                           other    1 styles   0 slots    0 options   0 kits  z71_aras__basic_01
+brennan_apollo_basic_01_ep1                                  other    4 styles   8 slots   32 options  11 kits  Apollo BARGHEST
+kaukaz_zeya__basic_01                                        other    1 styles   5 slots    5 options   3 kits  Zeya U420
+thorton_merrimac_01_basic_01_ep1                             other   12 styles  23 slots   52 options   7 kits  Merrimac MSL3
+villefort_cortes_02__delamain_01                             other    3 styles  13 slots   23 options  23 kits  Delamain no. 21
+kaukaz_bratsk__basic_machine_truck_01                        other    1 styles   7 slots    7 options   0 kits  Bratsk U4020
+kaukaz_bratsk_extended__basic_01                             other    2 styles   9 slots    9 options   1 kits  Bratsk U4020
+kaukaz_bratsk__basic_01                                      other    1 styles   7 slots    7 options   0 kits  Bratsk U4020
+thorton_merrimac_01_basic_01                                 other    1 styles  23 slots   52 options   7 kits  Merrimac MSP3 Dreadnought
+chevalier_thrax__basic_01_ep1                                other    3 styles  14 slots   20 options  14 kits  Thrax 388 Jefferson
+archer_hella_ep1__basic_01                                   other    2 styles  18 slots   30 options  18 kits  Hella EC-D i360
+kaukaz_zeya__container_01                                    other    1 styles   5 slots    5 options   3 kits  Zeya U420
+kaukaz_bratsk__basic_container_truck_01                      other    1 styles   7 slots    7 options   0 kits  Bratsk U4020
+chevalier_emperor_01__police_01                              other    1 styles  19 slots   21 options  10 kits  Emperor 720 NCPD Ironclad
+chevalier_centurion__flatbed_01_ep1                          other    1 styles  19 slots   22 options   0 kits  Centurion 1000 4WD
+villefort_columbus_scavengers_01_ep1                         other    3 styles  14 slots   28 options  24 kits  Columbus V340-F Freight
+thorton_mackinaw_larimore_01                                 other    1 styles  10 slots   10 options   0 kits  Mackinaw Larimore
+kaukaz_bratsk__deco_6wheel_02                                no looks found
+mahir_supron_kurtz_basic_no_cd_01_ep1                        other    4 styles  11 slots   20 options  10 kits  Supron BARGHEST
+kaukaz_bratsk_corp_bud_01_ep1                                other    1 styles   7 slots    8 options   3 kits  Bratsk U4020
+militech_hellhound__basic_01                                 other    1 styles  11 slots   14 options   3 kits  Hellhound "Man o' War"
+kaukaz_bratsk__basic_dump_truck_01                           other    1 styles   7 slots    7 options   0 kits  Bratsk U4020
+chevalier_thrax__dex                                         other    1 styles  14 slots   20 options  14 kits  Thrax 388 Jefferson
+villefort_columbus_songbird_01_ep1                           other    3 styles  14 slots   28 options  24 kits  Columbus V340-F Freight
+archer_hella_ep1__kurtz_01                                   other    3 styles  18 slots   30 options  18 kits  Hella EC-D i360
+thorton_mackinaw__courier_01_ep1                             other    4 styles  16 slots   24 options   1 kits  Mackinaw MTL1
+thorton_colby_pickup__kurtz_no_hull_01_ep1                   other    5 styles  15 slots   23 options  19 kits  Colby BARGHEST
+chevalier_centurion__cargo_01_ep1                            other    4 styles  19 slots   22 options   0 kits  Centurion 1000 6WD
+brennan_apollo_police_01                                     other    2 styles   6 slots   12 options   2 kits  Apollo 650-S Scout
+thorton_colby_pickup__kurtz_cd_01_ep1                        other    2 styles  15 slots   23 options  19 kits  Colby BARGHEST
+kaukaz_bratsk__basic_metalstud_truck_01                      other    1 styles   7 slots    7 options   0 kits  Bratsk U4020
+mizutani_shion_nomad__courier_01_ep1                         other    1 styles  16 slots   19 options   5 kits  Shion "Blackbird"
+kaukaz_zeya__freight_01                                      other    1 styles   5 slots    5 options   3 kits  Zeya U420
+kaukaz_zeya__kurtz_01_ep1                                    other    2 styles   5 slots    5 options   3 kits  Zeya U420
+kaukaz_bratsk_corp_bud_03_ep1                                other    1 styles   7 slots    8 options   3 kits  Bratsk U4020
+kaukaz_bratsk_corp_bud_02_ep1                                other    1 styles   7 slots    8 options   3 kits  Bratsk U4020
+mt28_coach_basic_01                                          other    2 styles   3 slots    7 options   0 kits  MT28 Coach
+militech_behemoth_police_01_ep1                              other    1 styles   6 slots    9 options   4 kits  Behemoth
+thorton_colby_pickup__kurtz_cd_no_hull_01_ep1                other    1 styles  15 slots   23 options  19 kits  Colby BARGHEST
+makigai_tanishi_hfs_01_ep1                                   other    1 styles  24 slots   39 options   3 kits  Tanishi T400
+militech_behemoth_netwatch_01_ep1                            other    1 styles   6 slots    9 options   4 kits  Behemoth

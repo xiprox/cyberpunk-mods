@@ -1,0 +1,5993 @@
+{
+ "id": "mizutani_hozuki__basic_01_ep1",
+ "label": "Hozuki MH2",
+ "entity": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki__basic_01.ent",
+ "family": "v_standard2_mizutani_hozuki",
+ "garage": true,
+ "default_look": "default",
+ "records": [
+  "Vehicle.v_standard2_mizutani_hozuki_gt_player",
+  "Vehicle.v_standard2_mizutani_hozuki_player"
+ ],
+ "generated": "2026-11-08",
+ "source_apps": [
+  "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app"
+ ],
+ "styles": [
+  {
+   "id": "poor_01",
+   "code": "poor_01",
+   "label": "Poor",
+   "base_look": "mizutani_hozuki__basic_poor_01",
+   "looks": [
+    "mizutani_hozuki__basic_poor_01",
+    "mizutani_hozuki__basic_poor_04",
+    "mizutani_hozuki__basic_poor_08",
+    "mizutani_hozuki__basic_poor_11",
+    "mizutani_hozuki__basic_poor_15"
+   ],
+   "options": {
+    "bumper_front.bumper": "bffac4c7",
+    "bumper_back.bumper": "7e84712d",
+    "hood_a.hood": "4b4906a1",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "259540ad",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "poor_05",
+   "code": "poor_05",
+   "label": "Poor 05",
+   "base_look": "mizutani_hozuki__basic_poor_05",
+   "looks": [
+    "mizutani_hozuki__basic_poor_05",
+    "mizutani_hozuki__basic_poor_10",
+    "mizutani_hozuki__basic_poor_14",
+    "mizutani_hozuki__basic_suburban_01",
+    "mizutani_hozuki__basic_q301_no_wheels_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "bffac4c7",
+    "bumper_back.bumper": "7e84712d",
+    "hood_a.hood": "4b4906a1",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "b04164e5",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "poor_07",
+   "code": "poor_07",
+   "label": "Poor 07",
+   "base_look": "mizutani_hozuki__basic_poor_07",
+   "looks": [
+    "mizutani_hozuki__basic_poor_07",
+    "mizutani_hozuki__basic_poor_12",
+    "mizutani_hozuki__basic_suburban_09"
+   ],
+   "options": {
+    "bumper_front.bumper": "bffac4c7",
+    "bumper_back.bumper": "7e84712d",
+    "hood_a.hood": "4b4906a1",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "d52203cd",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "poor_junk_01",
+   "code": "poor_junk_01",
+   "label": "Poor junk",
+   "base_look": "mizutani_hozuki__basic_poor_junk_01",
+   "looks": [
+    "mizutani_hozuki__basic_poor_junk_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "9d5e1cfc",
+    "bumper_back.bumper": "e4493e5e",
+    "hood_a.hood": "4b4906a1",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "d52203cd",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "poor_junk_02",
+   "code": "poor_junk_02",
+   "label": "Poor junk 02",
+   "base_look": "mizutani_hozuki__basic_poor_junk_02",
+   "looks": [
+    "mizutani_hozuki__basic_poor_junk_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "9d5e1cfc",
+    "bumper_back.bumper": "e4493e5e",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "259540ad",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "poor_junk_03",
+   "code": "poor_junk_03",
+   "label": "Poor junk 03",
+   "base_look": "mizutani_hozuki__basic_poor_junk_03",
+   "looks": [
+    "mizutani_hozuki__basic_poor_junk_03",
+    "mizutani_hozuki__basic_q301_no_wheels_02"
+   ],
+   "options": {
+    "bumper_front.bumper": "9d5e1cfc",
+    "bumper_back.bumper": "e4493e5e",
+    "hood_a.hood": "4b4906a1",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "f657c335",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "poor_junk_04",
+   "code": "poor_junk_04",
+   "label": "Poor junk 04",
+   "base_look": "mizutani_hozuki__basic_poor_junk_04",
+   "looks": [
+    "mizutani_hozuki__basic_poor_junk_04"
+   ],
+   "options": {
+    "bumper_front.bumper": "9d5e1cfc",
+    "bumper_back.bumper": "e4493e5e",
+    "hood_a.hood": "4b4906a1",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "5dd95fc8",
+    "wheel.wheel": "14fad995",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "suburban_05",
+   "code": "suburban_05",
+   "label": "Suburban 05",
+   "base_look": "mizutani_hozuki__basic_suburban_05",
+   "looks": [
+    "mizutani_hozuki__basic_suburban_05",
+    "mizutani_hozuki__basic_suburban_06",
+    "mizutani_hozuki__basic_suburban_07",
+    "mizutani_hozuki__basic_suburban_10",
+    "mizutani_hozuki__basic_web_01",
+    "mizutani_hozuki__basic_urban_01",
+    "mizutani_hozuki__basic_urban_09"
+   ],
+   "options": {
+    "bumper_front.bumper": "bffac4c7",
+    "bumper_back.bumper": "7e84712d",
+    "hood_a.hood": "4b4906a1",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "9108cd9d",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "urban_02",
+   "code": "urban_02",
+   "label": "Urban 02",
+   "base_look": "mizutani_hozuki__basic_urban_02",
+   "looks": [
+    "mizutani_hozuki__basic_urban_02",
+    "mizutani_hozuki__basic_urban_03",
+    "mizutani_hozuki__basic_urban_04",
+    "mizutani_hozuki__basic_urban_10",
+    "mizutani_hozuki__basic_poor_02",
+    "mizutani_hozuki__basic_poor_09",
+    "mizutani_hozuki__basic_poor_13",
+    "mizutani_hozuki__basic_suburban_02",
+    "mizutani_hozuki__basic_suburban_03"
+   ],
+   "options": {
+    "bumper_front.bumper": "bffac4c7",
+    "bumper_back.bumper": "7e84712d",
+    "hood_a.hood": "4b4906a1",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "3546ca88",
+    "wheel.wheel": "f657c335",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "urban_05",
+   "code": "urban_05",
+   "label": "Urban 05",
+   "base_look": "mizutani_hozuki__basic_urban_05",
+   "looks": [
+    "mizutani_hozuki__basic_urban_05",
+    "mizutani_hozuki__basic_urban_06",
+    "mizutani_hozuki__basic_urban_07",
+    "mizutani_hozuki__basic_urban_08",
+    "mizutani_hozuki__basic_poor_03",
+    "mizutani_hozuki__basic_poor_06",
+    "mizutani_hozuki__basic_suburban_04",
+    "mizutani_hozuki__basic_suburban_08"
+   ],
+   "options": {
+    "bumper_front.bumper": "bffac4c7",
+    "bumper_back.bumper": "7e84712d",
+    "hood_a.hood": "4b4906a1",
+    "trunk_a.trunk": "14dc68d5",
+    "base.body": "0a64410c",
+    "base.body.body_headlight": "9cf32fbf",
+    "base.exhaust": "2da8cdf2",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "39b160b9",
+    "wheel.tire": "5dd95fc8",
+    "wheel.wheel": "14fad995",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "2c92efcb"
+   },
+   "kits": []
+  },
+  {
+   "id": "player_01",
+   "code": "player_01",
+   "label": "V's own",
+   "base_look": "mizutani_hozuki__basic_player_01",
+   "looks": [
+    "mizutani_hozuki__basic_player_01"
+   ],
+   "options": {
+    "bumper_front.bumper": "dcdc20ab",
+    "bumper_back.bumper": "f1d859f5",
+    "hood_a.hood": "90af82e9",
+    "trunk_a.trunk": "bd29ebbd",
+    "base.body": "dd39815a",
+    "base.body.body_headlight": "a0912ac3",
+    "base.exhaust": "851033ac",
+    "base.interior": "d69078e2",
+    "base.mirror": "3f5306e0",
+    "base.window": "94211161",
+    "wheel.wheel": "72c8f57d",
+    "door.door": "f5127301",
+    "trunk_b.trunk": "20ee87af"
+   },
+   "kits": [
+    "player_b1c0"
+   ]
+  }
+ ],
+ "wrecks": [
+  "mizutani_hozuki__basic_burnt_01"
+ ],
+ "slots": [
+  {
+   "id": "bumper_front.bumper",
+   "label": "Front bumper",
+   "kind": "bumper",
+   "group": "bumper_front",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_front"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_f_01"
+   ],
+   "options": [
+    {
+     "id": "bffac4c7",
+     "code": "bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_13",
+     "paints": [
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05"
+     ]
+    },
+    {
+     "id": "9d5e1cfc",
+     "code": "junk_bumper_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_junk_bumper_f_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_junk_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "junk_01",
+      "junk_02",
+      "junk_03"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_02"
+     ],
+     "origins": [
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04"
+     ]
+    },
+    {
+     "id": "dcdc20ab",
+     "code": "bumper_f_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_bumper_f_player_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_bumper_f_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bumper_back.bumper",
+   "label": "Rear bumper",
+   "kind": "bumper",
+   "group": "bumper_back",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "bumper_back"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "bumper_b_01"
+   ],
+   "options": [
+    {
+     "id": "7e84712d",
+     "code": "bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_05",
+     "paints": [
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05"
+     ]
+    },
+    {
+     "id": "e4493e5e",
+     "code": "junk_bumper_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_junk_bumper_b_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_junk_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "junk_03",
+      "junk_02",
+      "junk_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_02"
+     ],
+     "origins": [
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04"
+     ]
+    },
+    {
+     "id": "f1d859f5",
+     "code": "bumper_b_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_bumper_b_player_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_bumper_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hood_a.hood",
+   "label": "Hood",
+   "kind": "hood",
+   "group": "hood_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "hood_a"
+   ],
+   "positions": [
+    [
+     0.0042,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.011271997354924679,
+     -0.00016399995365645736,
+     0.002334999619051814,
+     0.9999337792396545
+    ]
+   ],
+   "roles": [
+    "hood_a"
+   ],
+   "options": [
+    {
+     "id": "4b4906a1",
+     "code": "hood_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_hood_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05"
+     ]
+    },
+    {
+     "id": "90af82e9",
+     "code": "hood_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_hood_player_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_hood_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_01",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_a.trunk",
+   "label": "Trunk",
+   "kind": "trunk",
+   "group": "trunk_a",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_a"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_a"
+   ],
+   "options": [
+    {
+     "id": "14dc68d5",
+     "code": "trunk_a_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_trunk_a_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_trunk_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05"
+     ]
+    },
+    {
+     "id": "bd29ebbd",
+     "code": "trunk_a_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_trunk_a_player_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_trunk_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_01",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body",
+   "label": "Body: main",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01"
+   ],
+   "options": [
+    {
+     "id": "0a64410c",
+     "code": "body_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_body_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_burnt_01",
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "dd39815a",
+     "code": "body_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_body_player_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_body_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.body.body_headlight",
+   "label": "Body: headlight",
+   "kind": "body",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "body_01_headlight"
+   ],
+   "options": [
+    {
+     "id": "9cf32fbf",
+     "code": "body_lights_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_body_lights_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mizutani_hozuki__basic_burnt_01",
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "a0912ac3",
+     "code": "body_lights_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_body_lights_player_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.exhaust",
+   "label": "Exhaust",
+   "kind": "exhaust",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "exhaust_01"
+   ],
+   "options": [
+    {
+     "id": "2da8cdf2",
+     "code": "exhaust_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_exhaust_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_01",
+     "paints": [
+      "poor_01",
+      "suburban_01",
+      "urban_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_burnt_01",
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "851033ac",
+     "code": "exhaust_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_exhaust_player_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.interior",
+   "label": "Interior",
+   "kind": "interior",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "interior_01"
+   ],
+   "options": [
+    {
+     "id": "d69078e2",
+     "code": "interior_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__int01_interior_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_burnt_01",
+      "mizutani_hozuki__basic_player_01",
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.mirror",
+   "label": "Mirrors",
+   "kind": "mirror",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     -0.8315,
+     1.4216,
+     0.1768
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "mirror_01"
+   ],
+   "options": [
+    {
+     "id": "3f5306e0",
+     "code": "mirror_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_mirror_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_mirror_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "suburban_01",
+     "paints": [
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_burnt_01",
+      "mizutani_hozuki__basic_player_01",
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05",
+      "wreck:burnt_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "base.window",
+   "label": "Windshield",
+   "kind": "window",
+   "group": "Base",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "Base"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "window_f"
+   ],
+   "options": [
+    {
+     "id": "39b160b9",
+     "code": "window_f_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_window_f_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_burnt_01",
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05",
+      "wreck:burnt_01"
+     ]
+    },
+    {
+     "id": "94211161",
+     "code": "window_f_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_window_f_player_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.tire",
+   "label": "Tires",
+   "kind": "tire",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.14,
+     0.0,
+     0.0
+    ],
+    [
+     0.12,
+     0.0,
+     0.0
+    ],
+    [
+     0.14,
+     0.0,
+     0.0
+    ],
+    [
+     0.13,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "tire_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "3546ca88",
+     "code": "tire_01",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh"
+     },
+     "shadows": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "clean",
+      "dusty",
+      "muddy",
+      "clean_white_letters",
+      "whitewall"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:suburban_05",
+      "style:urban_02"
+     ]
+    },
+    {
+     "id": "5dd95fc8",
+     "code": "tire_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01_shadow.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01_shadow.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08"
+     ],
+     "origins": [
+      "style:poor_junk_04",
+      "style:urban_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheel.wheel",
+   "label": "Rims",
+   "kind": "wheel",
+   "group": "wheel",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "wheel_front_left",
+    "wheel_front_right",
+    "wheel_back_left",
+    "wheel_back_right"
+   ],
+   "positions": [
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    [
+     0.01,
+     0.0,
+     0.0
+    ],
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    [
+     0.01,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "wheel_01_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "f657c335",
+     "code": "colby_wheel_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__colby_wheel_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__colby_wheel_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__colby_wheel_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__colby_wheel_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "valentinos_01",
+      "orange"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_10"
+     ],
+     "origins": [
+      "style:poor_junk_03",
+      "style:urban_02"
+     ]
+    },
+    {
+     "id": "14fad995",
+     "code": "wheel_a_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08"
+     ],
+     "origins": [
+      "style:poor_junk_04",
+      "style:urban_05"
+     ]
+    },
+    {
+     "id": "9108cd9d",
+     "code": "wheel_03",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_03.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_03.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_03.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_03.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "clean_02",
+     "paints": [
+      "poor_01",
+      "poor_02",
+      "clean_01",
+      "clean_02",
+      "clean_04",
+      "golden_01",
+      "chrome_01",
+      "clean_red"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:suburban_05"
+     ]
+    },
+    {
+     "id": "259540ad",
+     "code": "wheel_02",
+     "vehicle": "Colby CST40",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "wheel_02_black",
+      "wheel_02_green",
+      "wheel_02_gray"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_02"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_junk_02"
+     ]
+    },
+    {
+     "id": "b04164e5",
+     "code": "wheel_police_01",
+     "vehicle": "Galena G240",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [],
+     "looks": [
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_suburban_01"
+     ],
+     "origins": [
+      "style:poor_05"
+     ]
+    },
+    {
+     "id": "d52203cd",
+     "code": "wheel_01",
+     "vehicle": "Quartz EC-T2 r660",
+     "meshes": {
+      "fl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh",
+      "fr": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh",
+      "bl": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh",
+      "br": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "poor_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_suburban_09"
+     ],
+     "origins": [
+      "style:poor_07",
+      "style:poor_junk_01"
+     ]
+    },
+    {
+     "id": "72c8f57d",
+     "code": "vtech_wheel_a_01",
+     "vehicle": "Type-66 Avenger",
+     "meshes": {
+      "fl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+      "fr": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+      "bl": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh",
+      "br": "base\\vehicles\\sport\\v_sport2_quadra_type66\\entities\\meshes\\v_sport2_quadra_type66_vtech__ext01_wheel_fl_a_01.mesh"
+     },
+     "shadows": {},
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "default",
+     "paints": [
+      "dark",
+      "white_red",
+      "gray_yellow"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "door.door",
+   "label": "Doors",
+   "kind": "door",
+   "group": "door",
+   "corners": [
+    "fl",
+    "fr",
+    "bl",
+    "br"
+   ],
+   "mounts": [
+    "door_front_left_a",
+    "door_front_right_a",
+    "door_back_left_a",
+    "door_back_right_a"
+   ],
+   "positions": [
+    [
+     -0.0027,
+     0.0058,
+     0.0012
+    ],
+    [
+     0.0,
+     0.0,
+     -0.0028
+    ],
+    [
+     0.0,
+     0.0,
+     -0.007
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0031329994089901447,
+     1.1999997695966158e-05,
+     -0.0038439990021288395,
+     0.999987781047821
+    ],
+    [
+     -0.003323999233543873,
+     7.999998160812538e-06,
+     0.002341999439522624,
+     0.999991774559021
+    ],
+    [
+     0.0009970003738999367,
+     5.000001692678779e-06,
+     -0.004731001798063517,
+     0.9999883770942688
+    ],
+    [
+     0.00045399987720884383,
+     -7.999998160812538e-06,
+     -0.000485999888041988,
+     0.9999997615814209
+    ]
+   ],
+   "roles": [
+    "door_<c>_a"
+   ],
+   "options": [
+    {
+     "id": "f5127301",
+     "code": "door_01",
+     "vehicle": null,
+     "meshes": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_fl_01.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_fr_01.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_bl_01.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_br_01.mesh"
+     },
+     "shadows": {
+      "fl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_fl_01_shadow.mesh",
+      "fr": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_fr_01_shadow.mesh",
+      "bl": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_bl_01_shadow.mesh",
+      "br": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_br_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_04",
+     "paints": [
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08",
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_player_01",
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:player_01",
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trunk_b.trunk",
+   "label": "Trunk (b)",
+   "kind": "trunk",
+   "group": "trunk_b",
+   "corners": [
+    "all"
+   ],
+   "mounts": [
+    "trunk_b"
+   ],
+   "positions": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "rotations": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "roles": [
+    "trunk_b"
+   ],
+   "options": [
+    {
+     "id": "2c92efcb",
+     "code": "trunk_b_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_trunk_b_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_trunk_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "poor_02",
+     "paints": [
+      "poor_14",
+      "poor_15",
+      "poor_12",
+      "poor_13",
+      "poor_10",
+      "poor_11",
+      "poor_09",
+      "poor_08",
+      "poor_01",
+      "poor_03",
+      "poor_02",
+      "poor_05",
+      "poor_04",
+      "poor_07",
+      "poor_06",
+      "suburban_10",
+      "suburban_09",
+      "suburban_08",
+      "suburban_07",
+      "suburban_06",
+      "suburban_05",
+      "suburban_04",
+      "suburban_03",
+      "suburban_02",
+      "suburban_01",
+      "urban_10",
+      "urban_05",
+      "urban_04",
+      "urban_07",
+      "urban_06",
+      "urban_01",
+      "urban_03",
+      "urban_02",
+      "urban_09",
+      "urban_08"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_poor_01",
+      "mizutani_hozuki__basic_poor_02",
+      "mizutani_hozuki__basic_poor_03",
+      "mizutani_hozuki__basic_poor_04",
+      "mizutani_hozuki__basic_poor_05",
+      "mizutani_hozuki__basic_poor_06",
+      "mizutani_hozuki__basic_poor_07",
+      "mizutani_hozuki__basic_poor_08",
+      "mizutani_hozuki__basic_poor_09",
+      "mizutani_hozuki__basic_poor_10",
+      "mizutani_hozuki__basic_poor_11",
+      "mizutani_hozuki__basic_poor_12",
+      "mizutani_hozuki__basic_poor_13",
+      "mizutani_hozuki__basic_poor_14",
+      "mizutani_hozuki__basic_poor_15",
+      "mizutani_hozuki__basic_poor_junk_01",
+      "mizutani_hozuki__basic_poor_junk_02",
+      "mizutani_hozuki__basic_poor_junk_03",
+      "mizutani_hozuki__basic_poor_junk_04",
+      "mizutani_hozuki__basic_q301_no_wheels_01",
+      "mizutani_hozuki__basic_q301_no_wheels_02",
+      "mizutani_hozuki__basic_suburban_01",
+      "mizutani_hozuki__basic_suburban_02",
+      "mizutani_hozuki__basic_suburban_03",
+      "mizutani_hozuki__basic_suburban_04",
+      "mizutani_hozuki__basic_suburban_05",
+      "mizutani_hozuki__basic_suburban_06",
+      "mizutani_hozuki__basic_suburban_07",
+      "mizutani_hozuki__basic_suburban_08",
+      "mizutani_hozuki__basic_suburban_09",
+      "mizutani_hozuki__basic_suburban_10",
+      "mizutani_hozuki__basic_urban_01",
+      "mizutani_hozuki__basic_urban_02",
+      "mizutani_hozuki__basic_urban_03",
+      "mizutani_hozuki__basic_urban_04",
+      "mizutani_hozuki__basic_urban_05",
+      "mizutani_hozuki__basic_urban_06",
+      "mizutani_hozuki__basic_urban_07",
+      "mizutani_hozuki__basic_urban_08",
+      "mizutani_hozuki__basic_urban_09",
+      "mizutani_hozuki__basic_urban_10",
+      "mizutani_hozuki__basic_web_01"
+     ],
+     "origins": [
+      "style:poor_01",
+      "style:poor_05",
+      "style:poor_07",
+      "style:poor_junk_01",
+      "style:poor_junk_02",
+      "style:poor_junk_03",
+      "style:poor_junk_04",
+      "style:suburban_05",
+      "style:urban_02",
+      "style:urban_05"
+     ]
+    },
+    {
+     "id": "20ee87af",
+     "code": "trunk_b_player_01",
+     "vehicle": null,
+     "meshes": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_trunk_b_player_01.mesh"
+     },
+     "shadows": {
+      "all": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_trunk_b_01_shadow.mesh"
+     },
+     "classes": [
+      "entPhysicalMeshComponent"
+     ],
+     "default_paint": "player_01",
+     "paints": [
+      "player_01"
+     ],
+     "looks": [
+      "mizutani_hozuki__basic_player_01"
+     ],
+     "origins": [
+      "style:player_01"
+     ]
+    }
+   ]
+  }
+ ],
+ "kits": [
+  {
+   "id": "player_b1c0",
+   "family": "player",
+   "code": "kit_player_body_bumper_doors_trunk",
+   "where": [
+    "body",
+    "bumper",
+    "doors",
+    "trunk"
+   ],
+   "parts": [
+    {
+     "name": "body_player_stickers_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_body_player_stickers_01.mesh",
+     "code": "body_player_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "body_01_headlight",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_hozuki__basic_player_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "bumper_b_player_stickers_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_bumper_b_player_stickers_01.mesh",
+     "code": "bumper_b_player_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "bumper_b_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_hozuki__basic_player_01",
+     "parent": "vehicle_slots:bumper_back"
+    },
+    {
+     "name": "door_bl_player_stickers_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_bl_player_stickers_01.mesh",
+     "code": "door_bl_player_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_bl_a",
+     "slot": null,
+     "position": [
+      0.0303,
+      0.0411,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_hozuki__basic_player_01",
+     "parent": "vehicle_slots:door_back_left_a"
+    },
+    {
+     "name": "door_br_player_stickers_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_br_player_stickers_01.mesh",
+     "code": "door_br_player_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_br_a",
+     "slot": null,
+     "position": [
+      -0.0288,
+      0.0399,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_hozuki__basic_player_01",
+     "parent": "vehicle_slots:door_back_right_a"
+    },
+    {
+     "name": "door_fl_player_stickers_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_fl_player_stickers_01.mesh",
+     "code": "door_fl_player_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fl_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_hozuki__basic_player_01",
+     "parent": "vehicle_slots:door_front_left_a"
+    },
+    {
+     "name": "door_fr_player_stickers_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_door_fr_player_stickers_01.mesh",
+     "code": "door_fr_player_stickers_01",
+     "paint": "default",
+     "cls": "entMeshComponent",
+     "bind": "door_fr_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_hozuki__basic_player_01",
+     "parent": "vehicle_slots:door_front_right_a"
+    },
+    {
+     "name": "engine",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_engine_player_01.mesh",
+     "code": "engine_player_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "vehicle_slots",
+     "slot": "Base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_hozuki__basic_player_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "spoiler_player_01",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_body_spoiler_player_01.mesh",
+     "code": "body_spoiler_player_01",
+     "paint": "default",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "body_01",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": null,
+     "look": "mizutani_hozuki__basic_player_01",
+     "parent": "vehicle_slots:Base"
+    },
+    {
+     "name": "wing_a",
+     "mesh": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wing_a_player_01.mesh",
+     "code": "wing_a_player_01",
+     "paint": "player_01",
+     "cls": "entPhysicalMeshComponent",
+     "bind": "trunk_a",
+     "slot": null,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "shadow": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wing_a_01_shadow.mesh",
+     "look": "mizutani_hozuki__basic_player_01",
+     "parent": "vehicle_slots:trunk_a"
+    }
+   ],
+   "looks": [
+    "mizutani_hozuki__basic_player_01"
+   ],
+   "made_for": [
+    "slot:bumper_back.bumper",
+    "slot:door.door",
+    "slot:trunk_a.trunk"
+   ],
+   "needs": [],
+   "origins": [
+    "style:player_01"
+   ]
+  }
+ ],
+ "looks": {
+  "mizutani_hozuki__basic_suburban_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_01",
+   "style": "poor_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_01",
+   "style": "suburban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_01",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_player_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "player_01",
+   "style": "player_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "base.interior.interior": {
+     "all": "interior_02"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.wheel.tire_a": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_burnt_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "burnt_01",
+   "style": null,
+   "wreck": true,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_12": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_12",
+   "style": "poor_07",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_14": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_14",
+   "style": "poor_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_07": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_07",
+   "style": "poor_07",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_02",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_13": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_13",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_08": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_08",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_11": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_11",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_06": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_06",
+   "style": "urban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_suburban_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_03",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_08": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_08",
+   "style": "urban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_03",
+   "style": "urban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_05": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_05",
+   "style": "poor_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_suburban_09": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_09",
+   "style": "poor_07",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_suburban_08": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_08",
+   "style": "urban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_suburban_05": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_05",
+   "style": "suburban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_suburban_06": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_06",
+   "style": "suburban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_suburban_04": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_04",
+   "style": "urban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_04": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_04",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_suburban_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_02",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_10": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_10",
+   "style": "poor_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_10": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_10",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_03",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_15": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_15",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_02",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_suburban_07": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_07",
+   "style": "suburban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_09": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_09",
+   "style": "urban_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_suburban_10": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "suburban_10",
+   "style": "suburban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_07": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_07",
+   "style": "urban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_05": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_05",
+   "style": "urban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_04": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_04",
+   "style": "poor_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_06": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_06",
+   "style": "urban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_urban_09": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "urban_09",
+   "style": "suburban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_web_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "web_01",
+   "style": "suburban_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_junk_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_junk_01",
+   "style": "poor_junk_01",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_junk_03": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_junk_03",
+   "style": "poor_junk_03",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_junk_04": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_junk_04",
+   "style": "poor_junk_04",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_poor_junk_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "poor_junk_02",
+   "style": "poor_junk_02",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_q301_no_wheels_02": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "q301_no_wheels_02",
+   "style": "poor_junk_03",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  },
+  "mizutani_hozuki__basic_q301_no_wheels_01": {
+   "app": "ep1\\vehicles\\appearances\\standard\\mizutani_hozuki__basic.app",
+   "app_look": "q301_no_wheels_01",
+   "style": "poor_05",
+   "wreck": false,
+   "parts": {
+    "base.window": {
+     "all": "window_f"
+    },
+    "base.body": {
+     "all": "body_01"
+    },
+    "base.body.body_headlight": {
+     "all": "body_01_headlight"
+    },
+    "base.mirror": {
+     "all": "mirror_01"
+    },
+    "base.exhaust": {
+     "all": "exhaust_01"
+    },
+    "bumper_back.bumper": {
+     "all": "bumper_b_01"
+    },
+    "bumper_front.bumper": {
+     "all": "bumper_f_01"
+    },
+    "door.door": {
+     "fl": "door_fl_a",
+     "fr": "door_fr_a",
+     "bl": "door_bl_a",
+     "br": "door_br_a"
+    },
+    "window.window": {
+     "fl": "window_fl",
+     "fr": "window_fr",
+     "bl": "window_bl",
+     "br": "window_br"
+    },
+    "hood_a.hood": {
+     "all": "hood_a"
+    },
+    "trunk_a.trunk": {
+     "all": "trunk_a"
+    },
+    "trunk_b.trunk": {
+     "all": "trunk_b"
+    },
+    "base.interior": {
+     "all": "interior_01"
+    },
+    "wheel.wheel": {
+     "fl": "wheel_01_fl_a",
+     "fr": "wheel_01_fr_a",
+     "bl": "wheel_01_bl_a",
+     "br": "wheel_01_br_a"
+    },
+    "wheel.tire": {
+     "fl": "tire_01_fl_a",
+     "fr": "tire_01_fr_a",
+     "bl": "tire_01_bl_a",
+     "br": "tire_01_br_a"
+    }
+   }
+  }
+ },
+ "wheel_kind": "car",
+ "wheel_ref": {
+  "f": [
+   0.362,
+   0.2965,
+   0.2626,
+   -0.1137
+  ],
+  "b": [
+   0.362,
+   0.2965,
+   0.2626,
+   -0.1137
+  ]
+ },
+ "wheel_sets": [
+  {
+   "id": "4e4f60a9",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_colby\\entities\\meshes\\v_standard2_thorton_colby__ext01_wheel_fl_02.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_02",
+   "tire_code": "tire_fl_01",
+   "from": "Colby CST40",
+   "radius": 0.362,
+   "width": 0.2965,
+   "rim_radius": 0.2625,
+   "tire_center": -0.1137,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 12,
+   "paints": [
+    "wheel_02_black",
+    "wheel_02_green",
+    "wheel_02_gray"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_hozuki__basic_poor_01",
+    "mizutani_hozuki__basic_poor_04",
+    "mizutani_hozuki__basic_poor_08",
+    "mizutani_hozuki__basic_poor_11",
+    "mizutani_hozuki__basic_poor_15",
+    "mizutani_hozuki__basic_poor_junk_02"
+   ]
+  },
+  {
+   "id": "aa2fa316",
+   "rim": "base\\vehicles\\standard\\v_standard2_thorton_galena\\entities\\meshes\\v_standard2_thorton_galena__ext01_wheel_police_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_police_01",
+   "tire_code": "tire_fl_01",
+   "from": "Galena G240",
+   "radius": 0.362,
+   "width": 0.2965,
+   "rim_radius": 0.2431,
+   "tire_center": -0.1137,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 10,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_hozuki__basic_poor_05",
+    "mizutani_hozuki__basic_poor_10",
+    "mizutani_hozuki__basic_poor_14",
+    "mizutani_hozuki__basic_q301_no_wheels_01",
+    "mizutani_hozuki__basic_suburban_01"
+   ]
+  },
+  {
+   "id": "aba65608",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_03.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_03",
+   "tire_code": "tire_fl_01",
+   "from": "Quartz EC-T2 r660",
+   "radius": 0.362,
+   "width": 0.2965,
+   "rim_radius": 0.3101,
+   "tire_center": -0.1137,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 14,
+   "paints": [
+    "poor_01",
+    "poor_02",
+    "clean_01",
+    "clean_02",
+    "clean_04",
+    "golden_01",
+    "chrome_01",
+    "clean_red"
+   ],
+   "default_paint": "clean_02",
+   "kind": "car",
+   "look_names": [
+    "mizutani_hozuki__basic_suburban_05",
+    "mizutani_hozuki__basic_suburban_06",
+    "mizutani_hozuki__basic_suburban_07",
+    "mizutani_hozuki__basic_suburban_10",
+    "mizutani_hozuki__basic_urban_01",
+    "mizutani_hozuki__basic_urban_09",
+    "mizutani_hozuki__basic_web_01"
+   ]
+  },
+  {
+   "id": "2665790b",
+   "rim": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__colby_wheel_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+   "code": "colby_wheel_01",
+   "tire_code": "tire_fl_01",
+   "from": "Hozuki MH2",
+   "radius": 0.362,
+   "width": 0.2965,
+   "rim_radius": 0.2626,
+   "tire_center": -0.1137,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 22,
+   "paints": [
+    "poor_01",
+    "poor_02",
+    "valentinos_01",
+    "orange"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_hozuki__basic_poor_02",
+    "mizutani_hozuki__basic_poor_09",
+    "mizutani_hozuki__basic_poor_13",
+    "mizutani_hozuki__basic_poor_junk_03",
+    "mizutani_hozuki__basic_q301_no_wheels_02",
+    "mizutani_hozuki__basic_suburban_02",
+    "mizutani_hozuki__basic_suburban_03",
+    "mizutani_hozuki__basic_urban_02",
+    "mizutani_hozuki__basic_urban_03",
+    "mizutani_hozuki__basic_urban_04",
+    "mizutani_hozuki__basic_urban_10"
+   ]
+  },
+  {
+   "id": "a78c0588",
+   "rim": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_wheel_fl_a_01.mesh",
+   "tire": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "ep1\\vehicles\\standard\\v_standard2_mizutani_hozuki\\entities\\meshes\\v_standard2_mizutani_hozuki__ext01_tire_fl_a_01_shadow.mesh",
+   "code": "wheel_fl_a_01",
+   "tire_code": "tire_fl_a_01",
+   "from": "Hozuki MH2",
+   "radius": 0.3552,
+   "width": 0.2499,
+   "rim_radius": 0.2715,
+   "tire_center": 0.0165,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 18,
+   "paints": [],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_hozuki__basic_poor_03",
+    "mizutani_hozuki__basic_poor_06",
+    "mizutani_hozuki__basic_poor_junk_04",
+    "mizutani_hozuki__basic_suburban_04",
+    "mizutani_hozuki__basic_suburban_08",
+    "mizutani_hozuki__basic_urban_05",
+    "mizutani_hozuki__basic_urban_06",
+    "mizutani_hozuki__basic_urban_07",
+    "mizutani_hozuki__basic_urban_08"
+   ]
+  },
+  {
+   "id": "372daa0a",
+   "rim": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_wheel_fl_01.mesh",
+   "tire": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01.mesh",
+   "rim_shadow": "",
+   "tire_shadow": "base\\vehicles\\standard\\v_standard2_archer_quartz\\entities\\meshes\\v_standard2_archer_quartz__ext01_tire_fl_01_shadow.mesh",
+   "code": "wheel_fl_01",
+   "tire_code": "tire_fl_01",
+   "from": "Quartz EC-T2 r660",
+   "radius": 0.362,
+   "width": 0.2965,
+   "rim_radius": 0.2807,
+   "tire_center": -0.1137,
+   "axles": [
+    "b",
+    "f"
+   ],
+   "looks": 8,
+   "paints": [
+    "poor_01"
+   ],
+   "default_paint": "default",
+   "kind": "car",
+   "look_names": [
+    "mizutani_hozuki__basic_poor_07",
+    "mizutani_hozuki__basic_poor_12",
+    "mizutani_hozuki__basic_poor_junk_01",
+    "mizutani_hozuki__basic_suburban_09"
+   ]
+  }
+ ],
+ "record_looks": [
+  [
+   "mizutani_hozuki__basic_player_01",
+   "Hozuki \"Hoseki\""
+  ],
+  [
+   "mizutani_hozuki__basic_urban_05",
+   "Hozuki MH2"
+  ]
+ ]
+}

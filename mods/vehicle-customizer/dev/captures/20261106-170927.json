@@ -1,0 +1,41 @@
+{
+  "camera_forward": {
+    "x": -0.2,
+    "y": 1,
+    "z": 0
+  },
+  "in_vehicle": false,
+  "look_at": {
+    "distance": 13.4,
+    "x": -1438,
+    "y": -1299.2,
+    "z": 48.5
+  },
+  "look_object": {
+    "class": "Door",
+    "entity_id": "17718960069634367388ULL",
+    "name": "LocKey#69",
+    "position": {
+      "x": -1437.2,
+      "y": -1299.2,
+      "z": 46.9
+    }
+  },
+  "nearest": {
+    "distance": 18.9,
+    "gig": "sts_hey_gle_06",
+    "gig_state": "Succeeded",
+    "gig_state_from": "id sts_hey_gle_06",
+    "id": "jake_estevezs_garage",
+    "name": "Jake Estevez's garage"
+  },
+  "note": "",
+  "player": {
+    "x": -1435.7,
+    "y": -1312.4,
+    "yaw": 9.8,
+    "z": 46.8
+  },
+  "stamp": "20261106-170927",
+  "time": "2026-11-06 17:09:27"
+}
