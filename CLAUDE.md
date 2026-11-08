@@ -28,7 +28,8 @@ Each folder in `mods/` is its own mod project; read its CLAUDE.md, README.md and
 - Parse Lua with `luajit -bl <file>` after changing it; only the game runs it.
 - Run Python that reads game files with `-I`.
 - WolvenKit 9.1.0 is at `H:\WolvenKit`, its command line at `H:\WolvenKit\Console\WolvenKit.CLI.exe`.
-- `tools/` holds what more than one mod uses or what isn't about any one mod: `check-scripts.ps1 -Mod <mod>` and `ncre.py`. A mod's own tools stay in its `tools/` folder, and a tool moves here when a second mod needs it.
+- `tools/` holds what more than one mod uses or what isn't about any one mod: `check-scripts.ps1 -Mod <mod>`, `ncre.py` and `fetch-red4ext-sdk.ps1`. A mod's own tools stay in its `tools/` folder, and a tool moves here when a second mod needs it.
+- `deps/` holds libraries the mods share, fetched and out of git; `vendor/` is third-party code that is in git. RED4ext.SDK is in `deps/`, pinned in `tools/fetch-red4ext-sdk.ps1`; raise the pin after a game patch that changes its types.
 
 ## The repo
 

@@ -55,7 +55,11 @@ powershell -File tools/fetch_deps.ps1
 ```
 
 ```bash
-cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DRED4EXT_SDK_DIR=<short path to RED4ext.SDK>
+powershell -File ../../tools/fetch-red4ext-sdk.ps1
+```
+
+```bash
+cmake -S . -B build -G "Visual Studio 17 2022" -A x64
 ```
 
 ```bash

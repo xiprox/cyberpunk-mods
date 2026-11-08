@@ -4,6 +4,9 @@ __pycache__/
 # The disassembly from tools/ncre.py
 /build/
 
+# Libraries the mods share, from tools/fetch-red4ext-sdk.ps1
+/deps/
+
 # The zips for the crew, kept on disk
 dist/
 

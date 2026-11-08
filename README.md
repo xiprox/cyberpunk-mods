@@ -12,6 +12,7 @@ Each mod's own README says how it's built and installed, and its RECORD.md (wher
 | `mods/passenger-radio` | The radio key the passenger seat lacks |
 | `mods/no-carry-weight` | Adds 1000 carry capacity |
 | `vendor/nightcoop-sdk` | NightCoop's SDK and its docs (MIT), which the mods build against |
+| `deps/` | Libraries the mods share, fetched and kept out of git |
 | `tools/` | What more than one mod uses, or isn't about any one mod |
 
 ## Shared tools
@@ -30,6 +31,12 @@ Read NightCoop's DLL for its natives (`disasm` first; needs `llvm-objdump`):
 
 ```bash
 python -I tools/ncre.py --help
+```
+
+Fetch RED4ext.SDK into `deps/`, at the commit the plugins are built against:
+
+```bash
+powershell -File tools/fetch-red4ext-sdk.ps1
 ```
 
 A mod's own tools are in its `tools/` folder.

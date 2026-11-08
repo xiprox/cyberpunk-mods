@@ -13,8 +13,8 @@ set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
 
 add_compile_definitions(WIN32_LEAN_AND_MEAN NOMINMAX UNICODE _UNICODE)
 
-# MSVC can't open files past 260 characters, so the SDK may need to live somewhere short.
-set(RED4EXT_SDK_DIR "${CMAKE_SOURCE_DIR}/deps/RED4ext.SDK" CACHE PATH "Path to a RED4ext.SDK checkout")
+# Shared between the mods, in the repo's deps folder (tools/fetch-red4ext-sdk.ps1 at the root).
+set(RED4EXT_SDK_DIR "${CMAKE_SOURCE_DIR}/../../deps/RED4ext.SDK" CACHE PATH "Path to a RED4ext.SDK checkout")
 
 # ---- libraries, fetched by tools/fetch_deps.ps1
 set(OPUS_BUILD_SHARED_LIBRARY OFF CACHE BOOL "" FORCE)

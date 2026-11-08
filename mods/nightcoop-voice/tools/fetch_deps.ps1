@@ -1,6 +1,5 @@
 # Fetches the libraries into deps/ at the versions this was built with, then patches RNNoise for MSVC.
-# RED4ext.SDK isn't fetched here: pass -DRED4EXT_SDK_DIR=<a short path> to CMake, since MSVC can't open files past 260
-# characters.
+# RED4ext.SDK is shared between the mods: tools/fetch-red4ext-sdk.ps1 at the repo's root fetches it.
 $deps = Join-Path $PSScriptRoot '..\deps'
 New-Item -ItemType Directory -Force $deps | Out-Null
 
