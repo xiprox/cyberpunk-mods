@@ -64,6 +64,16 @@ public abstract class VCData {
 
     // Whether a list of names from the catalog has this one, compared as text: the first suite run (2026-11-06)
     // found a style never matched when compared as names, while the text comparisons of PartOf all did.
+    // Whether a catalog option can wear a paint: one of its mesh's own, or one of the shop's colours if its meshes all have
+    // them (shop-paints.yaml, written by experiments/paint/make-paints.py).
+    public static func Offers(cat: CName, option: CName, offered: array<CName>, paint: CName) -> Bool {
+        if VCData.Has(offered, paint) {
+            return true;
+        }
+        return StrBeginsWith(NameToString(paint), "vcs_")
+            && TweakDBInterface.GetBool(VCData.Key(cat, "option." + NameToString(option) + ".shopPaint"), false);
+    }
+
     public static func Has(list: array<CName>, name: CName) -> Bool {
         let want = NameToString(name);
         let i = 0;

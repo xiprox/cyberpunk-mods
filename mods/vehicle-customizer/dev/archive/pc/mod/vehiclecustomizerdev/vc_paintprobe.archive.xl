@@ -1,0 +1,26 @@
+resource:
+  patch:
+    vehiclecustomizerdev\paint\door_fl_patch.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_fl_01.mesh
+    vehiclecustomizerdev\paint\door_fl_plain.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_fl_01.mesh
+    vehiclecustomizerdev\paint\door_fl_dyn.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_fl_01.mesh
+    vehiclecustomizerdev\paint\door_fr_patch.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_fr_01.mesh
+    vehiclecustomizerdev\paint\door_fr_plain.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_fr_01.mesh
+    vehiclecustomizerdev\paint\door_fr_dyn.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_fr_01.mesh
+    vehiclecustomizerdev\paint\door_bl_patch.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_bl_01.mesh
+    vehiclecustomizerdev\paint\door_bl_plain.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_bl_01.mesh
+    vehiclecustomizerdev\paint\door_bl_dyn.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_bl_01.mesh
+    vehiclecustomizerdev\paint\door_br_patch.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_br_01.mesh
+    vehiclecustomizerdev\paint\door_br_plain.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_br_01.mesh
+    vehiclecustomizerdev\paint\door_br_dyn.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_br_01.mesh

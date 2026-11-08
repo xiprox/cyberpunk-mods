@@ -1,0 +1,1252 @@
+resource:
+  patch:
+    vehiclecustomizer\paint\m\v_mahir_mt28_coach__ext01_body_01.mesh:
+      - base\vehicles\special\v_mahir_mt28_coach\entities\meshes\v_mahir_mt28_coach__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_mahir_mt28_coach__ext01_doors.mesh:
+      - base\vehicles\special\v_mahir_mt28_coach\entities\meshes\v_mahir_mt28_coach__ext01_doors.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_body.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_body.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_body_kit_transport.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_body_kit_transport.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_canopy_a.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_canopy_a.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_canopy_b.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_canopy_b.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_hinges.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_hinges.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_thrusters.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_thrusters.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_trunk_a.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_trunk_a.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_trunk_b.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_trunk_b.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_wing_left.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_wing_left.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_wing_left_kit_transport.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_wing_left_kit_transport.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_wing_right.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_wing_right.mesh
+    vehiclecustomizer\paint\m\av_militech_basilisk__ext01_wing_right_kit_transport.mesh:
+      - base\vehicles\special\v_militech_basilisk\entities\meshes\av_militech_basilisk__ext01_wing_right_kit_transport.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_door_bl_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_door_br_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_door_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_door_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_mirror_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_mirror_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_mirror_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_mirror_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_body_02.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_body_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_bumper_b_02.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_bumper_b_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_bumper_f_02.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_hood_02.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_hood_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo__ext01_trunk_02.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo__ext01_trunk_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo_ext01_door_l_01.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo_ext01_door_l_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo_ext01_door_l_mirror_01.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo_ext01_door_l_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo_ext01_door_r_01.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo_ext01_door_r_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_turbo_ext01_door_r_mirror_01.mesh:
+      - base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\v_sport1_quadra_turbo_ext01_door_r_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_door_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_door_fl_b_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_door_fl_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_door_fl_d_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_door_fl_d_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_door_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_door_fr_b_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_door_fr_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_door_fr_d_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_door_fr_d_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_hood_a_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_hood_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_hood_b_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_hood_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_mirror_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_mirror_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_mirror_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_mirror_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_aerondight__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_aerondight\entities\meshes\v_sport1_rayfield_aerondight__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_body_02.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_body_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_bumper_b_02.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_bumper_b_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_bumper_f_02.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_door_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_door_fl_mirror_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_door_fl_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_door_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_door_fr_mirror_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_door_fr_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_trunk_02.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_trunk_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_wing_a_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_wing_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_wing_b_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_wing_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_rayfield_caliburn__ext01_wing_c_01.mesh:
+      - base\vehicles\sport\v_sport1_rayfield_caliburn\entities\meshes\v_sport1_rayfield_caliburn__ext01_wing_c_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_yaiba_semimaru__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport1_yaiba_semimaru\entities\meshes\v_sport1_yaiba_semimaru__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_yaiba_semimaru__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport1_yaiba_semimaru\entities\meshes\v_sport1_yaiba_semimaru__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_yaiba_semimaru__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport1_yaiba_semimaru\entities\meshes\v_sport1_yaiba_semimaru__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_yaiba_semimaru__ext01_door_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport1_yaiba_semimaru\entities\meshes\v_sport1_yaiba_semimaru__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_yaiba_semimaru__ext01_door_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport1_yaiba_semimaru\entities\meshes\v_sport1_yaiba_semimaru__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_yaiba_semimaru__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\sport\v_sport1_yaiba_semimaru\entities\meshes\v_sport1_yaiba_semimaru__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_yaiba_semimaru__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\sport\v_sport1_yaiba_semimaru\entities\meshes\v_sport1_yaiba_semimaru__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_yaiba_semimaru__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport1_yaiba_semimaru\entities\meshes\v_sport1_yaiba_semimaru__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_yaiba_semimaru__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport1_yaiba_semimaru\entities\meshes\v_sport1_yaiba_semimaru__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_door_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_door_fl_c_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_door_fl_c_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_door_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_door_fr_c_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_door_fr_c_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_targa__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion_targa__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_targa__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion_targa__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_targa__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion\entities\meshes\v_sport2_mizutani_shion_targa__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_nomad__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion_nomad\entities\meshes\v_sport2_mizutani_shion_nomad__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_nomad__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion_nomad\entities\meshes\v_sport2_mizutani_shion_nomad__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_nomad__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion_nomad\entities\meshes\v_sport2_mizutani_shion_nomad__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_nomad__ext01_spoiler_b_01.mesh:
+      - base\vehicles\sport\v_sport2_mizutani_shion_nomad\entities\meshes\v_sport2_mizutani_shion_nomad__ext01_spoiler_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_body_02.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_body_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_bumper_f_02.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_door_fl_01.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_door_fl_02.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_door_fl_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_door_fr_01.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_door_fr_02.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_door_fr_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_hood_02.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_hood_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_mirror_fl_01.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_porsche_911turbo__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport2_porsche_911turbo\entities\meshes\v_sport2_porsche_911turbo__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_bumper_f_02.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_door_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_door_fl_b_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_door_fl_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_door_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_door_fr_b_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_door_fr_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_mirror_l_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_mirror_l_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_mirror_r_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_mirror_r_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_deathrace__ext01_bumper_b_02.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_deathrace__ext01_bumper_b_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_deathrace__ext01_bumper_f_03.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_deathrace__ext01_bumper_f_03.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_deathrace__ext01_bumper_f_04.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_deathrace__ext01_bumper_f_04.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_deathrace__ext01_fender_flares_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_deathrace__ext01_fender_flares_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_deathrace__ext01_hood_02.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_deathrace__ext01_hood_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_deathrace__ext01_spoiler_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_deathrace__ext01_spoiler_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_vtech__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_vtech__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_vtech__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_vtech__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_vtech__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_vtech__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_vtech__ext01_bumper_f_02.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_vtech__ext01_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_vtech__ext01_door_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_vtech__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_vtech__ext01_door_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_vtech__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_vtech__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_vtech__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_vtech__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66\entities\meshes\v_sport2_quadra_type66_vtech__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_nomad__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66_nomad\entities\meshes\v_sport2_quadra_type66_nomad__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_nomad__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66_nomad\entities\meshes\v_sport2_quadra_type66_nomad__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_nomad__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66_nomad\entities\meshes\v_sport2_quadra_type66_nomad__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_nomad__ext01_door_fl_a_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66_nomad\entities\meshes\v_sport2_quadra_type66_nomad__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_nomad__ext01_door_fr_a_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66_nomad\entities\meshes\v_sport2_quadra_type66_nomad__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_quadra_type66_nomad__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport2_quadra_type66_nomad\entities\meshes\v_sport2_quadra_type66_nomad__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_body_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_bumper_b_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_bumper_f_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_bl_a_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_bl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_bl_b_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_bl_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_bl_c_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_bl_c_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_br_a_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_br_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_br_b_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_br_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_br_c_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_br_c_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_fl_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_fr_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_hood_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_roof_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_roof_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado__ext01_trunk_01.mesh:
+      - base\vehicles\sport\v_sport2_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike1_yaiba_kusanagi__ext01_body_01.mesh:
+      - base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi\entities\meshes\v_sportbike1_yaiba_kusanagi__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike1_yaiba_kusanagi__ext01_body_02.mesh:
+      - base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi\entities\meshes\v_sportbike1_yaiba_kusanagi__ext01_body_02.mesh
+    vehiclecustomizer\paint\m\v_sportbike1_yaiba_kusanagi__ext01_kit_01.mesh:
+      - base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi\entities\meshes\v_sportbike1_yaiba_kusanagi__ext01_kit_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike1_yaiba_kusanagi__ext01_trunk_01.mesh:
+      - base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi\entities\meshes\v_sportbike1_yaiba_kusanagi__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike1_yaiba_kusanagi__ext01_wing_l_01.mesh:
+      - base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi\entities\meshes\v_sportbike1_yaiba_kusanagi__ext01_wing_l_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike1_yaiba_kusanagi__ext01_wing_r_01.mesh:
+      - base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi\entities\meshes\v_sportbike1_yaiba_kusanagi__ext01_wing_r_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_body_01.mesh:
+      - base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi\entities\meshes\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_body_cover_01.mesh:
+      - base\vehicles\sportbike\v_sportbike1_yaiba_kusanagi\entities\meshes\v_sportbike1_yaiba_kusanagi_asm_r250__ext01_body_cover_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike2_arch_nemesis__ext01_body_a_01.mesh:
+      - base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_body_a_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike2_arch_nemesis__ext01_body_a_cables_01.mesh:
+      - base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_body_a_cables_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike2_arch_nemesis__ext01_body_b_01.mesh:
+      - base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_body_b_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike2_arch_nemesis__ext01_body_c_01.mesh:
+      - base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_body_c_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike2_arch_nemesis__ext01_exhaust_01.mesh:
+      - base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_exhaust_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike2_arch_nemesis__ext01_fairing_f_a_01.mesh:
+      - base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_a_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike2_arch_nemesis__ext01_fairing_f_b_01.mesh:
+      - base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_b_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike2_arch_nemesis__ext01_fairing_f_c_01.mesh:
+      - base\vehicles\sportbike\v_sportbike2_arch_nemesis\entities\meshes\v_sportbike2_arch_nemesis__ext01_fairing_f_c_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_bars_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_bars_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_body_a_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_body_a_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_body_a_player_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_body_a_player_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_body_a_police_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_body_a_police_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_body_b_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_body_b_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_body_b_player_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_body_b_player_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_body_b_police_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_body_b_police_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_body_c_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_body_c_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_break_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_break_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_exhaust_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_exhaust_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_exhaust_02.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_exhaust_02.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_exhaust_04.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_exhaust_04.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_fairing_a_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_fairing_a_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_fairing_b_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_fairing_b_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_fairing_c_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_fairing_c_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_fairing_f_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_fairing_f_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_fairing_player_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_fairing_player_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_fairing_police_01.mesh:
+      - base\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_fairing_police_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_door_bl_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_door_br_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_door_fl_mirror_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_door_fl_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_door_fr_mirror_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_door_fr_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_exhaust_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_exhaust_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_junk_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_junk_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_junk_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_junk_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_lidar_01.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_lidar_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_trunk_a.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_trunk_a.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron__ext01_trunk_b.mesh:
+      - base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\v_standard25_mahir_supron__ext01_trunk_b.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_exhaust_02.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_exhaust_02.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_halogen_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_halogen_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_halogen_cover_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_halogen_cover_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_halogen_wires_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_halogen_wires_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup\entities\meshes\v_standard25_thorton_colby_pickup__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup_nomad__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup_nomad\entities\meshes\v_standard25_thorton_colby_pickup_nomad__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup_nomad__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup_nomad\entities\meshes\v_standard25_thorton_colby_pickup_nomad__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_pickup_nomad__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_colby_pickup_nomad\entities\meshes\v_standard25_thorton_colby_pickup_nomad__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_body_elements_player_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_body_elements_player_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_body_frames_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_body_frames_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_body_maxtac_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_body_maxtac_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_body_player_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_body_player_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_body_police_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_body_police_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_bumper_b_player_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_bumper_b_player_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_bumper_f_02.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_bumper_f_maxtac_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_bumper_f_maxtac_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_bumper_f_player_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_bumper_f_player_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_bumper_f_police_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_bumper_f_police_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_covers_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_covers_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_bl_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_bl_police_covers_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_bl_police_covers_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_br_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_br_police_covers_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_br_police_covers_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_fl_police_covers_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_fl_police_covers_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_fr_police_covers_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_fr_police_covers_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_exhaust_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_exhaust_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_hood_02.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_hood_02.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_police_speakers_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_police_speakers_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_merrimac__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\v_standard25_thorton_merrimac__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_body_wheel_covers_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_body_wheel_covers_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_bumper_f_a_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_bumper_f_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_bumper_f_b_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_bumper_f_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_door_bl_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_door_br_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_door_fl_mirror_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_door_fl_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_door_fr_mirror_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_door_fr_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_jammer_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_jammer_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_trunk_a_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_trunk_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_villefort_columbus__ext01_trunk_b_01.mesh:
+      - base\vehicles\standard\v_standard25_villefort_columbus\entities\meshes\v_standard25_villefort_columbus__ext01_trunk_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_bandit__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_bandit\meshes\v_standard2_archer_bandit__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_bandit__ext01_body_bandit_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_bandit\meshes\v_standard2_archer_bandit__ext01_body_bandit_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_bandit__ext01_bumper_b_a_02.mesh:
+      - base\vehicles\standard\v_standard2_archer_bandit\meshes\v_standard2_archer_bandit__ext01_bumper_b_a_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_bandit__ext01_bumper_f_a_02.mesh:
+      - base\vehicles\standard\v_standard2_archer_bandit\meshes\v_standard2_archer_bandit__ext01_bumper_f_a_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_bandit__ext01_bumper_f_b_02.mesh:
+      - base\vehicles\standard\v_standard2_archer_bandit\meshes\v_standard2_archer_bandit__ext01_bumper_f_b_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_bandit__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_bandit\meshes\v_standard2_archer_bandit__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_bandit__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_bandit\meshes\v_standard2_archer_bandit__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_bandit__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_bandit\meshes\v_standard2_archer_bandit__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_bandit__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_bandit\meshes\v_standard2_archer_bandit__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_body_player_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_body_player_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_door_bl_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_door_br_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_junk_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_junk_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_hella_police__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_hella\entities\meshes\v_standard2_archer_hella_police__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_bumper_b_a_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_bumper_b_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_bumper_b_b_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_bumper_b_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_bumper_f_a_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_bumper_f_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_bumper_f_b_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_bumper_f_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_bumper_f_lip_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_bumper_f_lip_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_door_poor_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_door_poor_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_exhaust_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_exhaust_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_junk_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_junk_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_junk_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_junk_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\v_standard2_archer_quartz__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz_nomad__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz_nomad\entities\meshes\v_standard2_archer_quartz_nomad__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz_nomad__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz_nomad\entities\meshes\v_standard2_archer_quartz_nomad__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz_nomad__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz_nomad\entities\meshes\v_standard2_archer_quartz_nomad__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz_nomad__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz_nomad\entities\meshes\v_standard2_archer_quartz_nomad__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz_nomad__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz_nomad\entities\meshes\v_standard2_archer_quartz_nomad__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz_nomad__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz_nomad\entities\meshes\v_standard2_archer_quartz_nomad__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz_nomad__ext01_trunk_a_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz_nomad\entities\meshes\v_standard2_archer_quartz_nomad__ext01_trunk_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_archer_quartz_nomad__ext01_trunk_b_01.mesh:
+      - base\vehicles\standard\v_standard2_archer_quartz_nomad\entities\meshes\v_standard2_archer_quartz_nomad__ext01_trunk_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_door_bl_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_door_bl_02.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_door_bl_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_door_br_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_door_br_02.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_door_br_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_chevalier_thrax__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard2_chevalier_thrax\entities\meshes\v_standard2_chevalier_thrax__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_door_fl_a_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_door_fl_b_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_door_fl_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_door_fl_c_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_door_fl_c_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_door_fr_a_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_door_fr_b_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_door_fr_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_door_fr_c_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_door_fr_c_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_junk_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_junk_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_junk_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_junk_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext02_bumper_b_02.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext02_bumper_b_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext02_bumper_f_02.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext02_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext02_door_fl_c_02.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext02_door_fl_c_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext02_door_fr_c_02.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext02_door_fr_c_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext02_hood_02.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext02_hood_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_makigai_maimai__ext02_trunk_02.mesh:
+      - base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\v_standard2_makigai_maimai__ext02_trunk_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_junk_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_junk_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_junk_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_junk_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\v_standard2_thorton_colby__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_bumper_b_02.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_bumper_b_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_bumper_f_02.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_door_bl_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_door_br_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_door_fl_mirror_02.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_door_fl_mirror_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_door_fr_mirror_02.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_door_fr_mirror_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_junk_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_junk_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_junk_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_junk_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena__ext01_trunk_spoiler_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena__ext01_trunk_spoiler_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena_q000__bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena_q000__bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena_q000__hood_nomad_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena_q000__hood_nomad_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena_q000__hood_nomad_02.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\v_standard2_thorton_galena_q000__hood_nomad_02.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena_nomad__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena_nomad__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena_nomad__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena_nomad__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena_nomad__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_galena_nomad__ext01_spoiler_01.mesh:
+      - base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\v_standard2_thorton_galena_nomad__ext01_spoiler_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_bumper_b_q000_padre.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_bumper_b_q000_padre.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_bumper_f_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_bumper_f_q000_streetkid.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_bumper_f_q000_streetkid.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_door_bl_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_door_br_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_door_fl_mirror_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_door_fl_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_door_fr_mirror_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_door_fr_mirror_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_villefort_cortes__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\v_standard2_villefort_cortes__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_bumper_b_01_a.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_bumper_b_01_a.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_bumper_b_01_b.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_bumper_b_01_b.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_bumper_f_01_a.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_bumper_f_01_a.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_bumper_f_01_b.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_bumper_f_01_b.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_bumper_f_01_c.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_bumper_f_01_c.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_bumper_f_01_d.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_bumper_f_01_d.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_door_bl_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_door_br_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_hood_a_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_hood_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_hood_b_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_hood_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_hood_c_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_hood_c_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_mobile_lab_computer_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_mobile_lab_computer_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_mobile_lab_roof_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_mobile_lab_roof_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_trunk_a_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_trunk_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_trunk_b_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_trunk_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_trunk_c_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_trunk_c_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_trunk_d_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_trunk_d_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_chevalier_emperor__ext01_windshield_cover_01.mesh:
+      - base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\v_standard3_chevalier_emperor__ext01_windshield_cover_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_door_bl_a_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_door_bl_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_door_bl_b_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_door_bl_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_door_br_a_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_door_br_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_door_br_b_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_door_br_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_door_fl_a_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_door_fl_b_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_door_fl_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_door_fr_a_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_door_fr_b_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_door_fr_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_police_body_elements_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_police_body_elements_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_militech_hellhound__ext01_turret_01.mesh:
+      - base\vehicles\standard\v_standard3_militech_hellhound\entities\meshes\v_standard3_militech_hellhound__ext01_turret_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_bumper_a_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_bumper_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_bumper_c_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_bumper_c_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_door_bl_a_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_door_bl_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_door_bl_b_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_door_bl_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_door_br_a_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_door_br_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_door_br_b_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_door_br_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw\entities\meshes\v_standard3_thorton_mackinaw__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_nomad__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_nomad\entities\meshes\v_standard3_thorton_mackinaw_nomad__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_nomad__ext01_bumper_c_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_nomad\entities\meshes\v_standard3_thorton_mackinaw_nomad__ext01_bumper_c_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_nomad__ext01_door_bl_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_nomad\entities\meshes\v_standard3_thorton_mackinaw_nomad__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_nomad__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_nomad\entities\meshes\v_standard3_thorton_mackinaw_nomad__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_nomad__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_nomad\entities\meshes\v_standard3_thorton_mackinaw_nomad__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_nomad__ext01_trunk_a_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_nomad\entities\meshes\v_standard3_thorton_mackinaw_nomad__ext01_trunk_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_nomad__ext01_trunk_b_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_nomad\entities\meshes\v_standard3_thorton_mackinaw_nomad__ext01_trunk_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_body_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_bumper_a_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_bumper_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_bumper_b_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_bumper_c_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_bumper_c_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_door_bl_a_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_door_bl_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_door_bl_b_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_door_bl_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_door_br_a_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_door_br_a_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_door_br_b_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_door_br_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_door_fl_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_door_fr_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_door_mirror_fl_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_door_mirror_fr_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_hood_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_trunk_01.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_thorton_mackinaw_suv__ext01_trunk_02.mesh:
+      - base\vehicles\standard\v_standard3_thorton_mackinaw_suv\entities\meshes\v_standard3_thorton_mackinaw_suv__ext01_trunk_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_legatus__ext01_body_01.mesh:
+      - base\vehicles\utility\v_utility4_chevalier_legatus\entities\meshes\v_utility4_chevalier_legatus__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_legatus__ext01_bumper_b_01.mesh:
+      - base\vehicles\utility\v_utility4_chevalier_legatus\entities\meshes\v_utility4_chevalier_legatus__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_legatus__ext01_door_bl_a_01.mesh:
+      - base\vehicles\utility\v_utility4_chevalier_legatus\entities\meshes\v_utility4_chevalier_legatus__ext01_door_bl_a_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_legatus__ext01_door_br_a_01.mesh:
+      - base\vehicles\utility\v_utility4_chevalier_legatus\entities\meshes\v_utility4_chevalier_legatus__ext01_door_br_a_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_legatus__ext01_door_fl_01.mesh:
+      - base\vehicles\utility\v_utility4_chevalier_legatus\entities\meshes\v_utility4_chevalier_legatus__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_legatus__ext01_door_fr_01.mesh:
+      - base\vehicles\utility\v_utility4_chevalier_legatus\entities\meshes\v_utility4_chevalier_legatus__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_body_01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_bumper_b_01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_bumper_f_01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_bumper_f_02.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_door_fl_01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_door_fr_01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_dumpster.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_dumpster.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_lift_a.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_lift_a.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_body_01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_body_bed01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_body_bed01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_body_cab_01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_body_cab_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_bumper_b.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_bumper_b.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_bumper_fl.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_bumper_fl.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_bumper_fr.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_bumper_fr.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_door_fl_01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_door_fr_01.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_mirror_fl.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_mirror_fl.mesh
+    vehiclecustomizer\paint\m\v_utility4_kakauz_zeya__ext01_mirror_fr.mesh:
+      - base\vehicles\utility\v_utility4_kaukaz_zeya\entities\meshes\v_utility4_kakauz_zeya__ext01_mirror_fr.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_body_01.mesh:
+      - base\vehicles\utility\v_utility4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_bumper_f_01.mesh:
+      - base\vehicles\utility\v_utility4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_door_fl_01.mesh:
+      - base\vehicles\utility\v_utility4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_door_fr_01.mesh:
+      - base\vehicles\utility\v_utility4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext0_mirror_fl_01.mesh:
+      - base\vehicles\utility\v_utility4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext0_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext0_mirror_fr_01.mesh:
+      - base\vehicles\utility\v_utility4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext0_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_thorton_mackinaw_monster__ext01_body_01.mesh:
+      - base\vehicles\utility\v_utility4_thorton_bmf\entities\meshes\v_utility4_thorton_mackinaw_monster__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_thorton_mackinaw_monster__ext01_bumper_b_01.mesh:
+      - base\vehicles\utility\v_utility4_thorton_bmf\entities\meshes\v_utility4_thorton_mackinaw_monster__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_thorton_mackinaw_monster__ext01_bumper_b_02.mesh:
+      - base\vehicles\utility\v_utility4_thorton_bmf\entities\meshes\v_utility4_thorton_mackinaw_monster__ext01_bumper_b_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_thorton_mackinaw_monster__ext01_bumper_f_01.mesh:
+      - base\vehicles\utility\v_utility4_thorton_bmf\entities\meshes\v_utility4_thorton_mackinaw_monster__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_thorton_mackinaw_monster__ext01_bumper_f_02.mesh:
+      - base\vehicles\utility\v_utility4_thorton_bmf\entities\meshes\v_utility4_thorton_mackinaw_monster__ext01_bumper_f_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_thorton_mackinaw_monster__ext01_door_fl_01.mesh:
+      - base\vehicles\utility\v_utility4_thorton_bmf\entities\meshes\v_utility4_thorton_mackinaw_monster__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_thorton_mackinaw_monster__ext01_door_fr_01.mesh:
+      - base\vehicles\utility\v_utility4_thorton_bmf\entities\meshes\v_utility4_thorton_mackinaw_monster__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_outlaw__ext01_body_heist_01.mesh:
+      - ep1\vehicles\sport\v_sport1_herrera_outlaw\entities\meshes\v_sport1_herrera_outlaw__ext01_body_heist_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_riptide__ext01_body_01.mesh:
+      - ep1\vehicles\sport\v_sport1_herrera_riptide\entities\meshes\v_sport1_herrera_riptide__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_riptide__ext01_mirror_fl_01.mesh:
+      - ep1\vehicles\sport\v_sport1_herrera_riptide\entities\meshes\v_sport1_herrera_riptide__ext01_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_riptide__ext01_mirror_fr_01.mesh:
+      - ep1\vehicles\sport\v_sport1_herrera_riptide\entities\meshes\v_sport1_herrera_riptide__ext01_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_riptide__ext01_roof_a_01.mesh:
+      - ep1\vehicles\sport\v_sport1_herrera_riptide\entities\meshes\v_sport1_herrera_riptide__ext01_roof_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_riptide__ext01_trunk_b_01.mesh:
+      - ep1\vehicles\sport\v_sport1_herrera_riptide\entities\meshes\v_sport1_herrera_riptide__ext01_trunk_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_herrera_riptide__ext01_trunk_b_player_01.mesh:
+      - ep1\vehicles\sport\v_sport1_herrera_riptide\entities\meshes\v_sport1_herrera_riptide__ext01_trunk_b_player_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_body_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_body_player_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_body_player_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_body_player_03.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_body_player_03.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_bumper_b_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_bumper_f_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_bumper_f_player_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_bumper_f_player_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_bumper_f_poor_02.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_bumper_f_poor_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_door_fl_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_door_fr_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_door_mirror_fl_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_door_mirror_fr_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_exhaust_02.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_exhaust_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_exhaust_03.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_exhaust_03.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_exhaust_player_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_exhaust_player_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_exhaust_player_02.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_exhaust_player_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_hood_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_spoiler_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_spoiler_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_spoiler_02.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_spoiler_02.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_trunk_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport1_quadra_sport_r7_ext01_trunk_player_01.mesh:
+      - ep1\vehicles\sport\v_sport1_quadra_sport_r7\entities\meshes\v_sport1_quadra_sport_r7_ext01_trunk_player_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_body_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_bumper_b_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_bumper_f_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_door_bl_a_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_door_bl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_door_bl_b_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_door_bl_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_door_br_a_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_door_br_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_door_br_b_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_door_br_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_door_fl_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_door_fr_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_door_mirror_fl_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_door_mirror_fr_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_hood_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_roof_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_roof_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_trunk_01.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_alvarado_hearse__ext01_trunk_02.mesh:
+      - ep1\vehicles\sport\v_sport1_villefort_alvarado\entities\meshes\v_sport2_villefort_alvarado_hearse__ext01_trunk_02.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_nomad__ext01_body_technical_01.mesh:
+      - ep1\vehicles\sport\v_sport2_mizutani_shion_nomad\entities\meshes\v_sport2_mizutani_shion_nomad__ext01_body_technical_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_nomad__ext01_door_fl_a_01.mesh:
+      - ep1\vehicles\sport\v_sport2_mizutani_shion_nomad\entities\meshes\v_sport2_mizutani_shion_nomad__ext01_door_fl_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_mizutani_shion_nomad__ext01_door_fr_a_01.mesh:
+      - ep1\vehicles\sport\v_sport2_mizutani_shion_nomad\entities\meshes\v_sport2_mizutani_shion_nomad__ext01_door_fr_a_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_body_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_bumper_b_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_bumper_f_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_door_fl_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_door_fr_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_door_mirror_fl_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_door_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_door_mirror_fr_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_door_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_hood_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_lidar_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_lidar_01.mesh
+    vehiclecustomizer\paint\m\v_sport2_villefort_deleon__ext01_trunk_01.mesh:
+      - ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\v_sport2_villefort_deleon__ext01_trunk_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_body_a_militia_01.mesh:
+      - ep1\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_body_a_militia_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_body_kurtz_01.mesh:
+      - ep1\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_body_kurtz_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_exhaust_kurtz_01.mesh:
+      - ep1\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_exhaust_kurtz_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_fairing_kurtz_01.mesh:
+      - ep1\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_fairing_kurtz_01.mesh
+    vehiclecustomizer\paint\m\v_sportbike3_brennan_apollo__ext01_fairing_militia_01.mesh:
+      - ep1\vehicles\sportbike\v_sportbike3_brennan_apollo\entities\meshes\v_sportbike3_brennan_apollo__ext01_fairing_militia_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_mizutani_hozuki__ext01_body_player_01.mesh:
+      - ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\v_standard2_mizutani_hozuki__ext01_body_player_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_mizutani_hozuki__ext01_junk_bumper_b_01.mesh:
+      - ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\v_standard2_mizutani_hozuki__ext01_junk_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_mizutani_hozuki__ext01_junk_bumper_f_01.mesh:
+      - ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\v_standard2_mizutani_hozuki__ext01_junk_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_thorton_colby_kurtz__ext01_grate_f_01.mesh:
+      - ep1\vehicles\standard\v_standard2_thorton_colby_kurtz\entities\meshes\v_standard25_thorton_colby_kurtz__ext01_grate_f_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby_kurtz_body_01.mesh:
+      - ep1\vehicles\standard\v_standard2_thorton_colby_kurtz\entities\meshes\v_standard2_thorton_colby_kurtz_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby_kurtz_hood_01.mesh:
+      - ep1\vehicles\standard\v_standard2_thorton_colby_kurtz\entities\meshes\v_standard2_thorton_colby_kurtz_hood_01.mesh
+    vehiclecustomizer\paint\m\v_standard2_thorton_colby_kurtz_roof_devices_01.mesh:
+      - ep1\vehicles\standard\v_standard2_thorton_colby_kurtz\entities\meshes\v_standard2_thorton_colby_kurtz_roof_devices_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz__ext01_body_base_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz__ext01_body_base_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz__ext01_door_bl_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz__ext01_door_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz__ext01_door_br_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz__ext01_door_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz__ext01_door_cover_bl_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz__ext01_door_cover_bl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz__ext01_door_cover_br_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz__ext01_door_cover_br_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz__ext01_door_cover_fl_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz__ext01_door_cover_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz__ext01_door_cover_fr_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz__ext01_door_cover_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz__ext01_door_fl_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz__ext01_door_fr_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_02.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz_ext01_body_front_kurtz_02.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz_ext01_body_kurtz_01.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz_ext01_body_kurtz_03.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz_ext01_body_kurtz_03.mesh
+    vehiclecustomizer\paint\m\v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01.mesh:
+      - ep1\vehicles\standard\v_standard3_mahir_supron_kurtz\entities\meshes\v_standard25_mahir_supron_kurtz_ext01_roof_kurtz_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_makigai_tanishi__ext01_body_01.mesh:
+      - ep1\vehicles\standard\v_standard3_makigai_tanishi\entities\meshes\v_standard3_makigai_tanishi__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_standard3_makigai_tanishi__ext01_trunk_cover_02.mesh:
+      - ep1\vehicles\standard\v_standard3_makigai_tanishi\entities\meshes\v_standard3_makigai_tanishi__ext01_trunk_cover_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_body_corp_01.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_body_corp_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_bumper_b_03.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_bumper_b_03.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_bumper_f_03.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_bumper_f_03.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_bumper_f_04.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_bumper_f_04.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_door_fl_02.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_door_fl_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_door_fr_02.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_door_fr_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_dumpster_02.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_dumpster_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_lift_a_01.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_lift_a_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_mirror_fl_02.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_mirror_fl_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_kaukaz_bratsk__ext01_mirror_fr_02.mesh:
+      - ep1\vehicles\utility\v_utility4_kaukaz_bratsk\entities\meshes\v_utility4_kaukaz_bratsk__ext01_mirror_fr_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_body_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_body_bed_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_body_bed_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_bumper_b_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_bumper_b_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_bumper_c_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_bumper_c_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_bumper_c_02.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_bumper_c_02.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_bumper_f_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_bumper_f_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_door_bl_a_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_door_bl_a_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_door_br_a_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_door_br_a_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_door_fl_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_door_fl_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_door_fr_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_door_fr_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_dumpster_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_dumpster_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_hood_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_hood_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_mirror_fl_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_mirror_fl_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_chevalier_centurion__ext01_mirror_fr_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_chevalier_centurion\entities\meshes\v_utility4_chevalier_centurion__ext01_mirror_fr_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_body_01_fab6e6c2.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_body_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_body_02_police.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_body_02_police.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_covers_bl_kurtz_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_covers_bl_kurtz_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_covers_br_kurtz_01.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_covers_br_kurtz_01.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_door_fl_02_police.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_door_fl_02_police.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_door_fl_04_kurtz.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_door_fl_04_kurtz.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth__ext01_door_fr_04_kurtz.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth__ext01_door_fr_04_kurtz.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth_netwatch__ext01_turret_a.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth_netwatch__ext01_turret_a.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth_netwatch__ext01_turret_b.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth_netwatch__ext01_turret_b.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth_netwatch__ext01_turret_c.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth_netwatch__ext01_turret_c.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth_netwatch__ext01_turret_d.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth_netwatch__ext01_turret_d.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth_netwatch__ext01_turret_e.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth_netwatch__ext01_turret_e.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth_netwatch__ext01_turret_f_1.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth_netwatch__ext01_turret_f_1.mesh
+    vehiclecustomizer\paint\m\v_utility4_militech_behemoth_netwatch__ext01_turret_f_2.mesh:
+      - ep1\vehicles\utility\v_utilty4_militech_behemoth\entities\meshes\v_utility4_militech_behemoth_netwatch__ext01_turret_f_2.mesh

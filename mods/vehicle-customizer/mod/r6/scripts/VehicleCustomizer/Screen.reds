@@ -1331,6 +1331,7 @@ public class VCScreen extends InGamePopup {
         }
         // The tool (Tool.reds): aim it at a car and change it part by part on its own screen.
         this.Add(this.m_a, VCItem.Make(n"tool", 0, "Take the tool", "", "Aim it at a car; arrow keys on its screen"));
+        this.Add(this.m_a, VCItem.Make(n"painttool", 0, "Take the paint tool", "", "Load a colour, then click a part"));
         // How the screen opens, while we find what freezes the world behind it; each applies at the next opening.
         let setups = ["Picker, exactly", "Picker, no blur", "No slow motion", "Codeware's own"];
         let notes = ["Slow motion and blur, the picker's queue", "Slow motion, the picker's queue", "Blocking, nothing else",
@@ -1534,6 +1535,13 @@ public class VCScreen extends InGamePopup {
                     this.Close();
                 } else {
                     shop.Say("The tool couldn't be handed over.");
+                }
+            } else if Equals(what, "painttool") {
+                if VCPaintTool.Get(shop.GetGameInstance()).Give() {
+                    shop.Say("The paint tool is in your hands: load a colour.");
+                    this.Close();
+                } else {
+                    shop.Say("The paint tool couldn't be handed over.");
                 }
             } else if StrBeginsWith(what, "mode_") {
                 shop.popupMode = StringToInt(StrAfterFirst(what, "_"));

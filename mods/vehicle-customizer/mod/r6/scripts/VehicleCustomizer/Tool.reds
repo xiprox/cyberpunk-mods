@@ -23,6 +23,14 @@ public class VCToolTab {
     }
 }
 
+// One tool's screen as it started up. A partner's tool in this game starts up too, so each is kept with its weapon, and the
+// menu goes on the one in V's own hands (a partner drawing theirs blanked the user's screen, 2026-11-08).
+public class VCToolScreen {
+    public let id: Int32;
+    public let weapon: wref<WeaponObject>;
+    public let root: wref<inkCompoundWidget>;
+}
+
 public class VCToolTick extends DelayCallback {
     public let tool: wref<VCTool>;
 
@@ -37,6 +45,10 @@ public class VCTool extends ScriptableSystem {
     // The screen: its lines, on every screen the tool has.
     private let m_lines: array<wref<inkText>>;
     private let m_lineCount: Int32;
+    private let m_screenRoot: wref<inkCompoundWidget>; // the tool's own screen: the menu goes here once it's up
+    private let m_screens: array<ref<VCToolScreen>>;
+    private let m_screenId: Int32; // which of them the menu is on
+    private let m_lastScreenId: Int32;
     private let m_ticking: Bool;
     private let m_idle: Int32;
     private let m_held: Bool;
@@ -157,7 +169,7 @@ public class VCTool extends ScriptableSystem {
     // --- the screen ---
 
     // Called by the screen's controller as the tool is drawn: its own content hidden, a backing and our lines added.
-    public func BuildScreen(root: ref<inkCompoundWidget>) {
+    public func BuildScreen(root: ref<inkCompoundWidget>, weapon: wref<WeaponObject>) {
         if !IsDefined(root) {
             return;
         }
@@ -169,12 +181,7 @@ public class VCTool extends ScriptableSystem {
         let size = root.GetSize();
         let w = size.X > 10.0 ? size.X : 500.0;
         let h = size.Y > 10.0 ? size.Y : 500.0;
-        let back = new inkRectangle();
-        back.SetName(n"vc_tool_back");
-        back.SetSize(w, h);
-        back.SetTintColor(new HDRColor(0.02, 0.04, 0.05, 1.0));
-        back.SetOpacity(0.92);
-        back.Reparent(root);
+        // No backing rectangle: an empty canvas is black on the screen, and a backing added here hid the menu (RECORD.md).
         let rows = 4;
         let r = 0;
         while r < rows {
@@ -189,12 +196,49 @@ public class VCTool extends ScriptableSystem {
             text.SetSize(w - 20.0, h / Cast<Float>(rows));
             text.SetMargin(new inkMargin(10.0, h / Cast<Float>(rows) * Cast<Float>(r), 0.0, 0.0));
             text.Reparent(root);
+            text.SetVisible(false); // kept for the tests' ScreenText; the panel below is what's seen
             ArrayPush(this.m_lines, text);
             r += 1;
         }
         this.m_lineCount = rows;
+        // Kept with its weapon; AdoptScreen puts the menu on it only if that's the tool in V's own hands.
+        let screen = new VCToolScreen();
+        this.m_lastScreenId += 1;
+        screen.id = this.m_lastScreenId;
+        screen.weapon = weapon;
+        screen.root = root;
+        ArrayPush(this.m_screens, screen);
         this.StartTicking();
         this.Render();
+    }
+
+    // The newest screen on the tool V holds gets the menu: the panel made anywhere else goes, and EnsureHud makes it there.
+    private func AdoptScreen() {
+        let game = this.GetGameInstance();
+        let held = GameInstance.GetTransactionSystem(game).GetItemInSlot(GetPlayer(game), t"AttachmentSlots.WeaponRight") as WeaponObject;
+        let found: ref<VCToolScreen>;
+        let i = ArraySize(this.m_screens) - 1;
+        while i >= 0 {
+            let screen = this.m_screens[i];
+            if !IsDefined(screen.weapon) || !IsDefined(screen.root) {
+                ArrayErase(this.m_screens, i);
+            } else if !IsDefined(found) && IsDefined(held) && screen.weapon.GetEntityID() == held.GetEntityID() {
+                found = screen;
+            }
+            i -= 1;
+        }
+        if !IsDefined(found) || found.id == this.m_screenId {
+            return;
+        }
+        this.m_screenId = found.id;
+        this.m_screenRoot = found.root;
+        if IsDefined(this.m_hud) {
+            let parent = this.m_hud.GetParentWidget() as inkCompoundWidget;
+            if IsDefined(parent) {
+                parent.RemoveChild(this.m_hud);
+            }
+            this.m_hud = null;
+        }
     }
 
     public func HasScreen() -> Bool {
@@ -262,6 +306,8 @@ public class VCTool extends ScriptableSystem {
         }
         this.m_idle = 0;
         this.m_held = true;
+        this.AdoptScreen();
+        VCToolScreens.FitToFov(this.GetGameInstance(), GameInstance.GetTransactionSystem(this.GetGameInstance()).GetItemInSlot(GetPlayer(this.GetGameInstance()), t"AttachmentSlots.WeaponRight") as WeaponObject);
         if this.m_row == 0 {
             this.Aim();
         }
@@ -456,6 +502,15 @@ public class VCTool extends ScriptableSystem {
         }
         size = (hi[0] - lo[0]) * (hi[1] - lo[1]) * (hi[2] - lo[2]) * AbsF(det);
         return MaxF(tmin, 0.0);
+    }
+
+    // For the paint tool, which aims the same way.
+    public func PartsAt(car: ref<VehicleObject>) -> array<ref<VCToolTab>> {
+        return this.PartsUnderCrosshair(car);
+    }
+
+    public func AimRay(out origin: Vector4, out dir: Vector4) -> Bool {
+        return this.Ray(origin, dir);
     }
 
     // The car's parts that can change under the crosshair, as tabs, the one to light first.
@@ -1326,7 +1381,9 @@ public class VCTool extends ScriptableSystem {
         if IsDefined(this.m_hud) {
             return true;
         }
-        let root = GameInstance.GetInkSystem().GetLayer(n"inkHUDLayer").GetVirtualWindow();
+        // On the tool's own screen if it has one; the HUD only for a tool without.
+        let onScreen = IsDefined(this.m_screenRoot);
+        let root: wref<inkCompoundWidget> = onScreen ? this.m_screenRoot : GameInstance.GetInkSystem().GetLayer(n"inkHUDLayer").GetVirtualWindow();
         if !IsDefined(root) {
             return false;
         }
@@ -1339,12 +1396,21 @@ public class VCTool extends ScriptableSystem {
         panel.SetAnchorPoint(new Vector2(0.0, 0.0));
         panel.SetSize(VCTool.HudWidth(), 172.0);
         panel.SetTranslation(new Vector2(120.0, 36.0));
+        if onScreen {
+            // The same panel, scaled to fill the screen's width.
+            let size = root.GetSize();
+            let scale = MinF(size.X / VCTool.HudWidth(), size.Y / 172.0);
+            panel.SetAnchorPoint(new Vector2(0.5, 0.5));
+            panel.SetTranslation(new Vector2(0.0, 0.0));
+            panel.SetScale(new Vector2(scale, scale));
+        }
         panel.Reparent(root);
         let back = new inkRectangle();
         back.SetName(n"back");
         back.SetSize(VCTool.HudWidth(), 172.0);
         back.SetTintColor(new HDRColor(0.02, 0.05, 0.07, 1.0));
         back.SetOpacity(0.74);
+        back.SetVisible(!onScreen); // the screen has its own backing, and the panel's tint would light this one up
         back.Reparent(panel);
         let edge = new inkRectangle();
         edge.SetName(n"edge");
@@ -1494,7 +1560,7 @@ public class VCTool extends ScriptableSystem {
 // The tool never fires: the weapon's state machine asks this before every kind of shot (probe, 2026-11-07).
 @wrapMethod(WeaponTransition)
 protected const func ShouldShoot(scriptInterface: ref<StateGameScriptInterface>) -> Bool {
-    if VCTool.IsTool(this.GetWeaponObject(scriptInterface)) {
+    if VCToolRules.IsAny(this.GetWeaponObject(scriptInterface)) {
         return false;
     }
     return wrappedMethod(scriptInterface);
@@ -1505,10 +1571,58 @@ protected const func ShouldShoot(scriptInterface: ref<StateGameScriptInterface>)
 // slot drops it: the tool fell out of the user's hands "after a while" (2026-11-07). A weapon switch still drops it.
 @wrapMethod(PublicSafeEvents)
 private func RequestWeaponUnequipNotifyUpperBody(stateContext: ref<StateContext>, scriptInterface: ref<StateGameScriptInterface>) {
-    if VCTool.IsTool(this.GetWeaponObject(scriptInterface)) {
+    if VCToolRules.IsAny(this.GetWeaponObject(scriptInterface)) {
         return;
     }
     wrappedMethod(stateContext, scriptInterface);
+}
+
+// The tools are always held raised and pointed ahead, and don't reload. The paint tool doesn't aim either: right click is
+// its own key (UX.md, "The paint tool and the tool rack"; user, 2026-11-08: a click mustn't go halfway to aiming and back).
+// The wrench aims, for the zoom on details such as a rim's fit (user, 2026-11-08).
+@wrapMethod(AimingStateDecisions)
+protected const func EnterCondition(stateContext: ref<StateContext>, scriptInterface: ref<StateGameScriptInterface>) -> Bool {
+    if VCToolScreens.IsPaintTool(DefaultTransition.GetRightActiveWeapon(scriptInterface)) {
+        return false;
+    }
+    return wrappedMethod(stateContext, scriptInterface);
+}
+
+@wrapMethod(ReloadDecisions)
+protected const func EnterCondition(stateContext: ref<StateContext>, scriptInterface: ref<StateGameScriptInterface>) -> Bool {
+    if VCToolRules.IsAny(this.GetWeaponObject(scriptInterface)) {
+        return false;
+    }
+    return wrappedMethod(stateContext, scriptInterface);
+}
+
+@wrapMethod(PublicSafeDecisions)
+protected const func EnterCondition(stateContext: ref<StateContext>, scriptInterface: ref<StateGameScriptInterface>) -> Bool {
+    if VCToolRules.IsAny(this.GetWeaponObject(scriptInterface)) {
+        return false;
+    }
+    return wrappedMethod(stateContext, scriptInterface);
+}
+
+@wrapMethod(SafeDecisions)
+protected const func EnterCondition(stateContext: ref<StateContext>, scriptInterface: ref<StateGameScriptInterface>) -> Bool {
+    if VCToolRules.IsAny(this.GetWeaponObject(scriptInterface)) {
+        return false;
+    }
+    return wrappedMethod(stateContext, scriptInterface);
+}
+
+// A tool out of V's hands goes back to the rack: nothing lands on the ground. The game drops every heavy-slot weapon as
+// a pickup here (equipment.script) when it's unequipped; the tool is taken out of the inventory instead, and handing it
+// over again makes a new one (Give).
+@wrapMethod(EquipmentBaseTransition)
+protected func DropActiveWeapon(scriptInterface: ref<StateGameScriptInterface>, stateContext: ref<StateContext>, stateMachineInstanceData: StateMachineInstanceData) {
+    let id = this.GetItemIDFromParam(stateMachineInstanceData, stateContext);
+    if VCToolRules.IsAnyId(id) {
+        GameInstance.GetTransactionSystem(scriptInterface.owner.GetGame()).RemoveItem(scriptInterface.owner, id, 1);
+        return;
+    }
+    wrappedMethod(scriptInterface, stateContext, stateMachineInstanceData);
 }
 
 // The tool's screen: the gun screens' controller (ironsight.script), which many guns share, so only the tool's.
@@ -1517,7 +1631,7 @@ protected cb func OnInitialize() -> Bool {
     let result = wrappedMethod();
     let weapon = this.GetOwnerEntity() as WeaponObject;
     if VCTool.IsTool(weapon) {
-        VCTool.Get(weapon.GetGame()).BuildScreen(this.GetRootCompoundWidget());
+        VCTool.Get(weapon.GetGame()).BuildScreen(this.GetRootCompoundWidget(), weapon);
     }
     return result;
 }

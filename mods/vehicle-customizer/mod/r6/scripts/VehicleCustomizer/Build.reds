@@ -24,6 +24,10 @@ public class VCBuild {
     public let slots: array<CName>;
     public let options: array<CName>;
     public let paints: array<CName>;
+    // One corner's paint, over its slot's (UX.md: aiming at one door paints that door): corner=<slot>:<corner>:<paint>.
+    public let cornerSlots: array<CName>;
+    public let cornerNames: array<CName>;
+    public let cornerPaints: array<CName>;
     public let kits: array<CName>;
     public let kitOffsets: array<Vector4>; // x, y, z in metres; w is the turn about z (yaw) in degrees
     public let kitTurns: array<Vector4>; // x pitch (about x), y roll (about y), degrees; with kits
@@ -82,6 +86,10 @@ public class VCBuild {
                 ArrayPush(build.slots, StringToName(StrRight(parts[0], StrLen(parts[0]) - 5)));
                 ArrayPush(build.options, StringToName(parts[1]));
                 ArrayPush(build.paints, ArraySize(parts) >= 3 ? StringToName(parts[2]) : n"");
+            } else if StrBeginsWith(field, "corner=") && ArraySize(parts) >= 3 {
+                ArrayPush(build.cornerSlots, StringToName(StrRight(parts[0], StrLen(parts[0]) - 7)));
+                ArrayPush(build.cornerNames, StringToName(parts[1]));
+                ArrayPush(build.cornerPaints, StringToName(parts[2]));
             } else if StrBeginsWith(field, "kit=") && ArraySize(parts) >= 1 {
                 ArrayPush(build.kits, StringToName(StrRight(parts[0], StrLen(parts[0]) - 4)));
                 // Set every time: a "let" in a loop keeps the last pass's value (third suite run, 2026-11-06,
@@ -150,6 +158,12 @@ public class VCBuild {
         while i < ArraySize(this.slots) {
             text += ";slot=" + NameToString(this.slots[i]) + ":" + NameToString(this.options[i]) + ":"
                 + (IsNameValid(this.paints[i]) ? NameToString(this.paints[i]) : "");
+            i += 1;
+        }
+        i = 0;
+        while i < ArraySize(this.cornerSlots) {
+            text += ";corner=" + NameToString(this.cornerSlots[i]) + ":" + NameToString(this.cornerNames[i]) + ":"
+                + NameToString(this.cornerPaints[i]);
             i += 1;
         }
         i = 0;
@@ -294,7 +308,78 @@ public class VCBuild {
         return -1;
     }
 
+    public func CornerIndex(slot: CName, corner: CName) -> Int32 {
+        let i = 0;
+        while i < ArraySize(this.cornerSlots) {
+            if Equals(this.cornerSlots[i], slot) && Equals(this.cornerNames[i], corner) {
+                return i;
+            }
+            i += 1;
+        }
+        return -1;
+    }
+
+    public func CornerPaint(slot: CName, corner: CName) -> CName {
+        let i = this.CornerIndex(slot, corner);
+        return i >= 0 ? this.cornerPaints[i] : n"";
+    }
+
+    public func HasCornerPaint(slot: CName) -> Bool {
+        let i = 0;
+        while i < ArraySize(this.cornerSlots) {
+            if Equals(this.cornerSlots[i], slot) {
+                return true;
+            }
+            i += 1;
+        }
+        return false;
+    }
+
+    // A corner's paint over its slot's; no paint takes it back off.
+    public func SetCornerPaint(slot: CName, corner: CName, paint: CName) {
+        let i = this.CornerIndex(slot, corner);
+        if !IsNameValid(paint) {
+            if i >= 0 {
+                ArrayErase(this.cornerSlots, i);
+                ArrayErase(this.cornerNames, i);
+                ArrayErase(this.cornerPaints, i);
+            }
+        } else if i >= 0 {
+            this.cornerPaints[i] = paint;
+        } else {
+            ArrayPush(this.cornerSlots, slot);
+            ArrayPush(this.cornerNames, corner);
+            ArrayPush(this.cornerPaints, paint);
+        }
+    }
+
+    public func ClearCornerPaints(slot: CName) {
+        let i = ArraySize(this.cornerSlots) - 1;
+        while i >= 0 {
+            if Equals(this.cornerSlots[i], slot) {
+                ArrayErase(this.cornerSlots, i);
+                ArrayErase(this.cornerNames, i);
+                ArrayErase(this.cornerPaints, i);
+            }
+            i -= 1;
+        }
+    }
+
+    // Every part's and corner's own paint gone, so a whole-car paint really is the whole car (the paint tool's Whole car brush).
+    public func ClearAllOwnPaints() {
+        let i = 0;
+        while i < ArraySize(this.paints) {
+            this.paints[i] = n"";
+            i += 1;
+        }
+        ArrayClear(this.cornerSlots);
+        ArrayClear(this.cornerNames);
+        ArrayClear(this.cornerPaints);
+    }
+
+    // A new part or a paint for the whole slot replaces its corners' paints.
     public func SetOption(slot: CName, option: CName, paint: CName) {
+        this.ClearCornerPaints(slot);
         let i = this.SlotIndex(slot);
         if i < 0 {
             ArrayPush(this.slots, slot);
@@ -307,6 +392,7 @@ public class VCBuild {
     }
 
     public func ClearSlot(slot: CName) {
+        this.ClearCornerPaints(slot);
         let i = this.SlotIndex(slot);
         if i >= 0 {
             ArrayErase(this.slots, i);

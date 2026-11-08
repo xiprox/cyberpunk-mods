@@ -1,8 +1,213 @@
-# The customizer's tool (UX.md, "a tool in your hand"; RECORD.md, 2026-11-07). For now a stand-in: a copy of the
-# Kyubi, whose back screen (kyubiback.inkwidget, 7.9 cm square) is the biggest any gun has facing its holder; our own
-# model comes next (user). Held in the heavy slot like a turret's gun, so a weapon switch drops it and anyone can
-# pick it up; without the weight packages; it never fires (Tool.reds).
-Items.VC_Tool:
-  $base: Items.Preset_Kyubi_Default
-  equipArea: EquipmentArea.WeaponHeavy
+# The customizer's tools (UX.md, "a tool in your hand"; RECORD.md, 2026-11-08): small controllers that direct the shop's
+# machines, held like a pistol (user). Each is its own clean weapon, built up from nothing rather than from a gun (user): what
+# it takes from the Lexington is only the hold (friendlyName picks V's arm animations) and the rig and gun animations its
+# .app files name. Meshes and screen are in archive/pc/mod/vehiclecustomizer/vehiclecustomizer_tools.archive
+# (tool-models/make-tools.py). ToolRules.reds stops what no record can: melee, citizens reacting, idle breaks, the corner panel.
+# Started nearly bare on purpose; what the game turns out to need gets added back, with the reason here (RECORD.md).
+Items.VC_ToolBase:
+  $type: gamedataWeaponItem_Record
+  itemType: ItemType.Wea_Handgun
+  itemCategory: ItemCategory.Weapon
+  equipArea: EquipmentArea.WeaponHeavy # a weapon switch takes it back (Tool.reds), and it never shares a slot with V's guns
+  entityName: weapon_root
+  stateMachineName: Weapon
+  friendlyName: w_handgun_militech_lexington # the hold
+  visualTags: [Default]
+  quality: Quality.Common
+  mass: 1.0
+  canDrop: false
+  # Quest stops drop and disassemble in the backpack (dropAction.script, disassembleAction.script).
+  tags: [Weapon, RangedWeapon, Quest]
+  buyPrice: []
+  sellPrice: []
   OnAttach: []
+  blueprint: Items.VC_Tool_Blueprint # the first bare run drew no model: a weapon's parts hang off its blueprint
+  crosshair: Crosshairs.Simple
+  # It never fires (Tool.reds), but the weapon code reads these every frame while it's ready (ReadyEvents).
+  triggerModes: [TriggerMode.SemiAuto]
+  primaryTriggerMode: TriggerMode.SemiAuto
+  rangedAttacks: Attacks.PowerBulletsBulletPackage
+  ammo: Ammo.HandgunAmmo
+  previewEffectName: '' # no ricochet lines from V's cyberware while aiming (ShowAttackPreview)
+  previewEffectTag: ''
+  weaponBlurIntensity: 0.0
+  weaponVignetteIntensity: 0.0
+  weaponBlurIntensity_aim: 0.0
+  weaponVignetteIntensity_aim: 0.0
+  statModifiers: []
+  statModifierGroups: [Items.VC_Tool_Stats]
+
+# The game's handgun blueprint with the mod and scope slots left out, so the tools have none.
+Items.VC_Tool_Blueprint:
+  $type: gamedataItemBlueprint_Record
+  rootElement: Items.VC_Tool_Blueprint_Receiver
+Items.VC_Tool_Blueprint_Receiver:
+  $type: gamedataItemBlueprintElement_Record
+  slot: AttachmentSlots.Receiver
+  childElements:
+    - Items.VC_Tool_Blueprint_Magazine
+    - Items.VC_Tool_Blueprint_MagazineEmpty
+    - Items.VC_Tool_Blueprint_Barrel
+Items.VC_Tool_Blueprint_Magazine:
+  $type: gamedataItemBlueprintElement_Record
+  slot: AttachmentSlots.Magazine
+Items.VC_Tool_Blueprint_MagazineEmpty:
+  $type: gamedataItemBlueprintElement_Record
+  slot: AttachmentSlots.MagazineEmpty
+Items.VC_Tool_Blueprint_Barrel:
+  $type: gamedataItemBlueprintElement_Record
+  slot: AttachmentSlots.Barrel
+
+Items.VC_Tool_Stats:
+  $type: gamedataStatModifierGroup_Record
+  statModifiers:
+    # At least one round: the heavy slot drops a weapon whose magazine is empty (IsHeavyWeaponEmpty).
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.MagazineCapacity
+      modifierType: Additive
+      value: 1
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.EquipDuration
+      modifierType: Additive
+      value: 0.3
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.EquipDuration_First
+      modifierType: Additive
+      value: 0.3
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.UnequipDuration
+      modifierType: Additive
+      value: 0.25
+    # The zoom the wrench aims for (user, 2026-11-08), the Lexington's own values; the paint tool can't aim (Tool.reds).
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.ZoomLevel
+      modifierType: Additive
+      value: 1.1
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.AimFOV
+      modifierType: Additive
+      value: 40
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.AimOffset
+      modifierType: Additive
+      value: 0.02
+
+Items.VC_Tool:
+  $base: Items.VC_ToolBase
+  displayName: vc_tool_wrench_name
+  localizedDescription: vc_tool_wrench_desc
+  appearanceResourceName: VC_Tool_Wrench
+  slotPartList:
+    - Items.VC_Tool_SlotList_Receiver
+    - Items.VC_Tool_Wrench_SlotList_Barrel
+    - Items.VC_Tool_SlotList_Magazine
+    - Items.VC_Tool_SlotList_MagazineEmpty
+  slotPartListPreset:
+    - Items.VC_Tool_Preset_Receiver
+    - Items.VC_Tool_Wrench_Preset_Barrel
+    - Items.VC_Tool_Preset_Magazine
+    - Items.VC_Tool_Preset_MagazineEmpty
+
+# The paint tool: the same body and screen with its own front. Nothing hands it over yet; its code comes later.
+Items.VC_PaintTool:
+  $base: Items.VC_ToolBase
+  displayName: vc_tool_paint_name
+  localizedDescription: vc_tool_paint_desc
+  appearanceResourceName: VC_Tool_Paint
+  slotPartList:
+    - Items.VC_Tool_SlotList_Receiver
+    - Items.VC_Tool_Paint_SlotList_Barrel
+    - Items.VC_Tool_SlotList_Magazine
+    - Items.VC_Tool_SlotList_MagazineEmpty
+  slotPartListPreset:
+    - Items.VC_Tool_Preset_Receiver
+    - Items.VC_Tool_Paint_Preset_Barrel
+    - Items.VC_Tool_Preset_Magazine
+    - Items.VC_Tool_Preset_MagazineEmpty
+
+# The parts: the body carries the meshes and the screen; the magazines keep the rigs the animations expect, with no meshes.
+Items.VC_Tool_Wrench_Body:
+  $base: Items.w_handgun_militech_lexington__base1
+  appearanceResourceName: VC_Tool_Wrench_Body
+Items.VC_Tool_Paint_Body:
+  $base: Items.w_handgun_militech_lexington__base1
+  appearanceResourceName: VC_Tool_Paint_Body
+Items.VC_Tool_Mag:
+  $base: Items.w_handgun_militech_lexington__mag_std
+  appearanceResourceName: VC_Tool_Mag
+Items.VC_Tool_MagR:
+  $base: Items.w_handgun_militech_lexington__mag_stdr
+  appearanceResourceName: VC_Tool_MagR
+
+Items.VC_Tool_Element_Receiver:
+  $type: gamedataItemPartListElement_Record
+  item: Items.w_handgun_militech_lexington__rcv1
+  weight: 1
+  statModifierWeight: []
+Items.VC_Tool_Wrench_Element_Barrel:
+  $type: gamedataItemPartListElement_Record
+  item: Items.VC_Tool_Wrench_Body
+  weight: 1
+  statModifierWeight: []
+Items.VC_Tool_Paint_Element_Barrel:
+  $type: gamedataItemPartListElement_Record
+  item: Items.VC_Tool_Paint_Body
+  weight: 1
+  statModifierWeight: []
+Items.VC_Tool_Element_Magazine:
+  $type: gamedataItemPartListElement_Record
+  item: Items.VC_Tool_Mag
+  weight: 1
+  statModifierWeight: []
+Items.VC_Tool_Element_MagazineEmpty:
+  $type: gamedataItemPartListElement_Record
+  item: Items.VC_Tool_MagR
+  weight: 1
+  statModifierWeight: []
+
+Items.VC_Tool_SlotList_Receiver:
+  $type: gamedataSlotItemPartListElement_Record
+  slot: AttachmentSlots.Receiver
+  itemPartList: [Items.VC_Tool_Element_Receiver]
+Items.VC_Tool_Wrench_SlotList_Barrel:
+  $type: gamedataSlotItemPartListElement_Record
+  slot: AttachmentSlots.Barrel
+  itemPartList: [Items.VC_Tool_Wrench_Element_Barrel]
+Items.VC_Tool_Paint_SlotList_Barrel:
+  $type: gamedataSlotItemPartListElement_Record
+  slot: AttachmentSlots.Barrel
+  itemPartList: [Items.VC_Tool_Paint_Element_Barrel]
+Items.VC_Tool_SlotList_Magazine:
+  $type: gamedataSlotItemPartListElement_Record
+  slot: AttachmentSlots.Magazine
+  itemPartList: [Items.VC_Tool_Element_Magazine]
+Items.VC_Tool_SlotList_MagazineEmpty:
+  $type: gamedataSlotItemPartListElement_Record
+  slot: AttachmentSlots.MagazineEmpty
+  itemPartList: [Items.VC_Tool_Element_MagazineEmpty]
+
+Items.VC_Tool_Preset_Receiver:
+  $type: gamedataSlotItemPartPreset_Record
+  slot: AttachmentSlots.Receiver
+  itemPartPreset: Items.w_handgun_militech_lexington__rcv1
+  itemPartList: []
+Items.VC_Tool_Wrench_Preset_Barrel:
+  $type: gamedataSlotItemPartPreset_Record
+  slot: AttachmentSlots.Barrel
+  itemPartPreset: Items.VC_Tool_Wrench_Body
+  itemPartList: []
+Items.VC_Tool_Paint_Preset_Barrel:
+  $type: gamedataSlotItemPartPreset_Record
+  slot: AttachmentSlots.Barrel
+  itemPartPreset: Items.VC_Tool_Paint_Body
+  itemPartList: []
+Items.VC_Tool_Preset_Magazine:
+  $type: gamedataSlotItemPartPreset_Record
+  slot: AttachmentSlots.Magazine
+  itemPartPreset: Items.VC_Tool_Mag
+  itemPartList: []
+Items.VC_Tool_Preset_MagazineEmpty:
+  $type: gamedataSlotItemPartPreset_Record
+  slot: AttachmentSlots.MagazineEmpty
+  itemPartPreset: Items.VC_Tool_MagR
+  itemPartList: []

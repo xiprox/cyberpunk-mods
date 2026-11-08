@@ -349,6 +349,24 @@ public class VCShop extends ScriptableSystem {
         }
     }
 
+    // The paint tool's Whole car brush.
+    public func ChooseWholeCarPaint(paint: CName) {
+        let vehicle = this.Changing();
+        if IsDefined(vehicle) {
+            this.Engine().ChooseWholeCarPaint(vehicle, paint);
+            this.Say("Whole car painted.");
+        }
+    }
+
+    // One corner of a part: the paint tool's click.
+    public func ChooseCornerPaint(slot: CName, corner: CName, paint: CName) {
+        let vehicle = this.Changing();
+        if IsDefined(vehicle) {
+            this.Engine().ChooseCornerPaint(vehicle, slot, corner, paint);
+            this.Say("Painted.");
+        }
+    }
+
     // Drops a part's own paint; a part chosen only to carry that paint goes back to being the style's own.
     public func ClearPartPaint(slot: CName) {
         let vehicle = this.Changing();

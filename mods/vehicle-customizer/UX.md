@@ -86,8 +86,38 @@ The whole car in one color as well, from the car's own paints or any color you p
 - **Proven:** paint on a single part, and Porsche wheels on the Hella.
 - **Proven:** switching the whole car to another of its looks on the spot, with your parts put back a moment later; each look has its own set of parts, so a look without separate wheels can't take wheel swaps.
 - **Likely:** the whole car in one of its own paints, part by part: a median of 11 paints shared by every body panel, up to 39.
-- **Likely:** any color. The game's paint system under CrystalCoat keeps primary and secondary colors as any RGB, with decals, paint layers and clear coat per part; we'd drive it from our own screen. Cars whose materials lack its paint mask need patched materials, generated for each car.
+- **Probed** (2026-11-08, on the Hella's doors only; RECORD.md): any color on a part. Paints of our own added to a part's mesh through ArchiveXL and chosen when the car is built hold through rebuilds, and a color can be set live, in memory, until it's first drawn. CrystalCoat's own per-part call stops working after a rebuild, so it isn't the route.
 - **Proven** (2026-11-06): any vehicle's wheels on any car (bikes' on any bike), from a shared list of 173 rim and tire pairs, each scaled to the car's own wheel size, front and back chosen apart, with size and width per axle in percent: a Bratsk truck's wheels sat right on a Hella, and narrower rears (for under wheel covers, user) are a width below 100%. Trucks take a set on every axle (a Bratsk's three), and the rims of each side can wear any paint their set offers (118 of the 181 car and bike sets have some); how a painted rim looks up close is still for the user to see.
+
+### The paint tool and the tool rack (designed with the user, 2026-11-08; nothing built)
+
+The trouble it answers: a car put together from parts of different cars can't be made to match, since each part only has its own paints and a paint's name means nothing across cars.
+
+**Two tools.** The wrench changes parts, style, wheels and add-ons; the paint tool does all the paint. Every Paint row leaves the wrench (one place per option). Style stays on the wrench: it's a bundle of parts and paint.
+
+**The paint tool: load a color, point and click.**
+- Left click paints what you're aiming at with the loaded color. Right click copies the color off whatever you're aiming at, on any car or a chip on the color stand (user, 2026-11-08), which is how parts get matched.
+- Two states (user). Empty: the panel is the Factory, Swatches, Custom menu. Loaded: the panel shows the color, its finish and the brush, and left click paints. Enter or a right click loads a color; Up empties the tool, back to the menu. No undo key: the user never used Backspace on the wrench; something like checkpoints instead, to look at later. Browsing the menu changes nothing on the car and costs no live colors; paint goes on when you click.
+- A factory paint exists only on parts that have it: clicking one that doesn't says so.
+- A brush size, toggled with R (reload means nothing on a tool) and shown on the panel: Part, or Whole car.
+- Aiming at one door and clicking paints that door. (The engine holds paint per corner since 2026-11-08, RECORD.md; it passes its test run.)
+
+**What can be loaded, the top row: Factory, Swatches, Custom.**
+- **Factory:** the aimed part's own paints; the list follows your aim and locks once you go in, as the wrench's does. They come with their finish built in.
+- **Swatches:** a color and a finish each, the same on every car and part. First the shop palette, 89 colors in uneven groups the way cars really come (`catalog/shop-palette.json`): dense in whites, silvers, greys, tinted blacks and earth tones, and a loud Night City group, the vibrance the base game lacks. Up and Down move between groups, Left and Right along one. Each color loads with the finish that suits it. Then your saved colors, 16 to a page and several pages. The palette is plain generated paint files, so it needs no live colors and is the same for everyone in co-op; a download of a few hundred MB is fine (user).
+- **Custom** (left out of the paint tool's first version, user, 2026-11-08)**:** a color wheel, and saving to a swatch. Left and Right go round the hue, Up and Down between pale at the center and vivid at the edge, Shift with Up and Down is brightness, and holding a key speeds up. Under the wheel a row for the finish, about five curated from the game's surfaces (gloss, metallic, matte, pearl, chrome). Finish is chosen only here; to change a swatch's, open it in Custom and save it again.
+
+**The color wall** (user's idea; the painted chips are a proposal). A wall in the shop the paint tool can copy from, as it copies from a car: real metal chips in the palette's groups, painted with the same paint files, so a color looks as it will on the car under the shop's lights. A strip of larger plates, one per finish, changes only the loaded finish. Your saved colors could go on a small screen beside it, later. It comes with the first real shop.
+
+**The rack.** The tools hang on a rack beside the bay, and you walk over and take one.
+- One at a time: taking the other puts the first back by itself.
+- Anything that takes it out of your hands sends it back to the rack, a weapon switch or leaving the shop, so no tool lies on the ground and none leaves the shop.
+- The rack never runs out: in co-op each player takes their own, and partners see it in your hands.
+- It comes with the first real shop (Dakota's); until then the F7 Service tab hands the tool over.
+
+**Proven** (test runs, 2026-11-08, RECORD.md; pictures read by me): the whole palette on a door's mesh, as plain patches or ArchiveXL dynamic materials, with no stutter or memory growth we could measure on one car's doors; the far version of a part needs the paint too, and holds it to at least 60 m; the mouse buttons and R reach us while firing is blocked; aiming can be blocked, and the tool stays raised past the 15 s relaxing; a tool put away is gone, with no pickup left. Only the paint tool's aim stays blocked, since its right click copies a color; the wrench aims, for the zoom on details such as a rim's fit (user).
+
+**To find out:** whether the mouse wheel's zoom steps work with the wrench and how far V's optics let them go, and whether the wrench can drop out of the way while zooming (a large `ikOffset`, or hiding it); what a whole car's meshes and many families cost in memory and stutter; whether the measured body-colour layer is right on every model (generated for all of them, RECORD.md); a flat mesh for the chips; whether R is really blocked (a full magazine can't reload, and the tool can't empty one) and whether the 60 s idle unequip still comes; when a live color that's been drawn frees up; other model families and bikes; how free colors travel in co-op.
 
 ## 7. It's still yours tomorrow
 

@@ -517,7 +517,7 @@ public class VCEngine extends ScriptableSystem {
             let chosenPaint = i >= 0 ? build.paints[i] : n"";
             // A slot the build leaves alone matters only to a whole-car paint, on the part the style has there.
             let inEffect = IsNameValid(option) ? option : VCData.StyleOption(cat, style, slot);
-            if IsNameValid(inEffect) && (IsNameValid(option) || IsNameValid(chosenPaint) || IsNameValid(build.paint)) {
+            if IsNameValid(inEffect) && (IsNameValid(option) || IsNameValid(chosenPaint) || IsNameValid(build.paint) || build.HasCornerPaint(slot)) {
                 let key = "option." + NameToString(inEffect) + ".";
                 let corners = VCData.Names(cat, "slot." + NameToString(slot) + ".corners");
                 let meshes = VCData.Paths(cat, key + "meshes");
@@ -527,6 +527,7 @@ public class VCEngine extends ScriptableSystem {
                 while c < ArraySize(corners) && c < ArraySize(meshes) {
                     let name = VCData.PartOf(cat, base, slot, corners[c]);
                     let mesh = this.FindMesh(parts, name);
+                    let cornerPaint = build.CornerPaint(slot, corners[c]);
                     if IsDefined(mesh) {
                         let had = mesh.meshAppearance;
                         if IsNameValid(option) {
@@ -540,14 +541,16 @@ public class VCEngine extends ScriptableSystem {
                             }
                             swapped += 1;
                         }
-                        // The paint, top layer first: the part's own, the whole car's if the part offers it, the
-                        // look's paint carried over to a swapped part that offers it, else the part's default.
+                        // The paint, top layer first: this corner's, the part's own, the whole car's if the part offers
+                        // it, the look's paint carried over to a swapped part that offers it, else the part's default.
                         let paint = had;
-                        if IsNameValid(chosenPaint) {
+                        if IsNameValid(cornerPaint) {
+                            paint = cornerPaint;
+                        } else if IsNameValid(chosenPaint) {
                             paint = chosenPaint;
-                        } else if IsNameValid(build.paint) && VCData.Has(offered, build.paint) {
+                        } else if IsNameValid(build.paint) && VCData.Offers(cat, inEffect, offered, build.paint) {
                             paint = build.paint;
-                        } else if IsNameValid(option) && !VCData.Has(offered, had) {
+                        } else if IsNameValid(option) && !VCData.Offers(cat, inEffect, offered, had) {
                             paint = VCData.Name(cat, key + "defaultPaint");
                         }
                         if !Equals(paint, had) {
@@ -558,8 +561,9 @@ public class VCEngine extends ScriptableSystem {
                     } else if IsNameValid(option) {
                         // The look has no such part (the police body over the stock one, on a Suburban): it's added
                         // on the slot's mount point, where the looks that have it carry it.
-                        let paint = IsNameValid(chosenPaint) ? chosenPaint
-                            : IsNameValid(build.paint) && VCData.Has(offered, build.paint) ? build.paint
+                        let paint = IsNameValid(cornerPaint) ? cornerPaint
+                            : IsNameValid(chosenPaint) ? chosenPaint
+                            : IsNameValid(build.paint) && VCData.Offers(cat, inEffect, offered, build.paint) ? build.paint
                             : VCData.Name(cat, key + "defaultPaint");
                         let shadow = c < ArraySize(shadows) ? shadows[c] : r"";
                         if this.AddSlotPart(appearance, cat, slot, c, corners[c], meshes[c], shadow, paint) {
@@ -569,6 +573,23 @@ public class VCEngine extends ScriptableSystem {
                         }
                     }
                     c += 1;
+                }
+            }
+        }
+        // Parts outside the catalog's slots (a slot exists only where a model has alternatives): a shop colour on the
+        // whole car reaches them too, if they have it (shop-paints.yaml, experiments/paint/list-parts.py).
+        if VCEngine.IsShopPaint(build.paint) {
+            let extras = VCData.Paths(cat, "shopMeshes");
+            if ArraySize(extras) > 0 {
+                for part in parts {
+                    let mesh = part as MeshComponent;
+                    if IsDefined(mesh) && VCEngine.IsOnList(extras, mesh) {
+                        if !Equals(mesh.meshAppearance, build.paint) {
+                            painted += 1;
+                        }
+                        mesh.meshAppearance = build.paint;
+                        this.UpdateDependency(controller, mesh);
+                    }
                 }
             }
         }
@@ -586,6 +607,20 @@ public class VCEngine extends ScriptableSystem {
 
     public static func Corners() -> array<CName> {
         return [n"fl", n"fr", n"bl", n"br", n"f", n"b"];
+    }
+
+    private static func IsShopPaint(paint: CName) -> Bool {
+        return IsNameValid(paint) && StrBeginsWith(NameToString(paint), "vcs_");
+    }
+
+    private static func IsOnList(list: array<ResRef>, mesh: ref<MeshComponent>) -> Bool {
+        let ref = mesh.mesh;
+        for path in list {
+            if ResourceAsyncRef.GetHash(ref) == ResRef.GetHash(path) {
+                return true;
+            }
+        }
+        return false;
     }
 
     // The car's own wheel on an axle (catalog wheelFit, measured from its stock pair): x its tire's radius, y the
@@ -1287,6 +1322,27 @@ public class VCEngine extends ScriptableSystem {
         this.Change(vehicle, build);
     }
 
+    // The paint tool's Whole car brush: this paint everywhere, over any part's or corner's own.
+    public func ChooseWholeCarPaint(vehicle: ref<VehicleObject>, paint: CName) {
+        let build = this.BuildFor(vehicle);
+        build.ClearAllOwnPaints();
+        build.paint = paint;
+        this.Change(vehicle, build);
+    }
+
+    // One corner of a slot's part, over the slot's paint (UX.md: aiming at one door paints that door); a slot with one part
+    // has the corner "all". No paint takes the corner's back off.
+    public func ChooseCornerPaint(vehicle: ref<VehicleObject>, slot: CName, corner: CName, paint: CName) {
+        let cat = this.CatalogOf(vehicle.GetRecordID());
+        let corners = VCData.Names(cat, "slot." + NameToString(slot) + ".corners");
+        if !VCData.Has(corners, corner) {
+            return;
+        }
+        let build = this.BuildFor(vehicle);
+        build.SetCornerPaint(slot, corner, paint);
+        this.Change(vehicle, build);
+    }
+
     public func ClearSlot(vehicle: ref<VehicleObject>, slot: CName) {
         let build = this.BuildFor(vehicle);
         build.ClearSlot(slot);
@@ -1420,13 +1476,13 @@ public class VCEngine extends ScriptableSystem {
             let option = i >= 0 ? build.options[i] : n"";
             let chosenPaint = i >= 0 ? build.paints[i] : n"";
             let inEffect = IsNameValid(option) ? option : VCData.StyleOption(cat, style, slot);
-            if IsNameValid(inEffect) && (IsNameValid(option) || IsNameValid(chosenPaint) || IsNameValid(build.paint)) {
+            if IsNameValid(inEffect) && (IsNameValid(option) || IsNameValid(chosenPaint) || IsNameValid(build.paint) || build.HasCornerPaint(slot)) {
                 let key = "option." + NameToString(inEffect) + ".";
                 let corners = VCData.Names(cat, "slot." + NameToString(slot) + ".corners");
                 let meshes = VCData.Paths(cat, key + "meshes");
                 let offered = VCData.Names(cat, key + "paints");
                 let wantPaint = IsNameValid(chosenPaint) ? chosenPaint
-                    : IsNameValid(build.paint) && VCData.Has(offered, build.paint) ? build.paint : n"";
+                    : IsNameValid(build.paint) && VCData.Offers(cat, inEffect, offered, build.paint) ? build.paint : n"";
                 let c = 0;
                 while c < ArraySize(corners) && c < ArraySize(meshes) {
                     let name = VCData.PartOf(cat, look, slot, corners[c]);
@@ -1443,12 +1499,29 @@ public class VCEngine extends ScriptableSystem {
                         if IsNameValid(option) && ResourceAsyncRef.GetHash(ref) != ResRef.GetHash(meshes[c]) {
                             problems += s"\(NameToString(name)) has another mesh; ";
                         }
-                        if IsNameValid(wantPaint) && !Equals(mesh.meshAppearance, wantPaint) {
-                            problems += s"\(NameToString(name)) is painted \(NameToString(mesh.meshAppearance)), not \(NameToString(wantPaint)); ";
+                        let want = build.CornerPaint(slot, corners[c]);
+                        if !IsNameValid(want) {
+                            want = wantPaint;
+                        }
+                        if IsNameValid(want) && !Equals(mesh.meshAppearance, want) {
+                            problems += s"\(NameToString(name)) is painted \(NameToString(mesh.meshAppearance)), not \(NameToString(want)); ";
                         }
                         checked += 1;
                     }
                     c += 1;
+                }
+            }
+        }
+        // Parts outside the slots wear a shop colour on the whole car.
+        if VCEngine.IsShopPaint(build.paint) {
+            let extras = VCData.Paths(cat, "shopMeshes");
+            for part in parts {
+                let extra = part as MeshComponent;
+                if IsDefined(extra) && VCEngine.IsOnList(extras, extra) {
+                    if !Equals(extra.meshAppearance, build.paint) {
+                        problems += s"\(NameToString(extra.name)) is painted \(NameToString(extra.meshAppearance)), not \(NameToString(build.paint)); ";
+                    }
+                    checked += 1;
                 }
             }
         }

@@ -588,7 +588,8 @@ local function lastBuildNote(record)
 end
 
 -- Variant 1: the first style, every slot's last option, the first three kits. Variant 2 ("sweep_b"): the last
--- style, every slot's second option, a whole-car paint, and the three kits after those.
+-- style, every slot's second option, a whole-car paint, and the three kits after those. Variant 3 ("shoppaint", 2026-11-08):
+-- the first style, nothing swapped, the whole car in one of the shop's colours, to see what takes it on every model.
 local function sweepSteps(variant)
     variant = variant or 1
     local cats = {}
@@ -600,7 +601,7 @@ local function sweepSteps(variant)
             local e = engine()
             check("engine is running", e ~= nil)
             check("saving is locked for the run", saveLock() ~= nil and saveLock():IsLocked() == true)
-            try(function() Game.GetTimeSystem():SetGameTimeByHMS(18, 0, 0) end)
+            try(function() Game.GetTimeSystem():SetGameTimeByHMS(variant == 3 and 12 or 18, 0, 0) end)
             S.distance = 12 -- room for the trucks and the coach
         end, 1 },
         { "turn V away from their own car", turnV, 2 },
@@ -616,6 +617,12 @@ local function sweepSteps(variant)
             base = baseName and (try(function() return baseName.value end) or nameOf(baseName)) or ""
             local parts = { "look=" .. base }
             local slots = catalogNames(cat, "slots")
+            if variant == 3 then
+                table.insert(parts, "paint=vcs_hot_pink")
+                local text = table.concat(parts, ";")
+                engine():SetBuildText(rid(), text)
+                return spawnCopy()
+            end
             if variant == 2 then
                 -- A whole-car paint: the second the body offers, else the first.
                 for _, slot in ipairs(slots) do
@@ -677,6 +684,331 @@ local function sweepSteps(variant)
         end, 1 })
     end
     return steps
+end
+
+-- Job "paintcheck" (2026-11-08, RECORD.md): why the Bandit, the plain Zeyas and the Apollo ep1 report parts repainted and show
+-- none of the shop's colour. For each: the body's mesh as the game has it (are our appearances on it?), what every mesh on
+-- the car is really wearing, and a picture. A stock paint on the same meshes shows whether changing paint works there at all;
+-- the Thrax is the control, a car where the shop's colours work.
+local function paintCheckSteps()
+    local function P()
+        return try(function() return Game.GetScriptableSystemsContainer():Get("VehicleCustomizerDev.ProbePaint") end)
+    end
+    local cases = {
+        { "chevalier_thrax__basic_01", "vcs_hot_pink" },
+        { "archer_bandit_01", "vcs_hot_pink" },
+        { "archer_bandit_01", "bandit_02" },
+        { "kaukaz_zeya__basic_01", "vcs_hot_pink" },
+        { "kaukaz_zeya__basic_01", "hazmat_01" },
+        { "brennan_apollo_basic_01_ep1", "vcs_hot_pink" },
+    }
+    local steps = {
+        { "noon, and room for the trucks", function()
+            check("the probe runs", P() ~= nil)
+            try(function() Game.GetTimeSystem():SetGameTimeByHMS(12, 0, 0) end)
+            S.distance = 12
+        end, 1 },
+        { "turn V away from their own car", turnV, 2 },
+    }
+    for n, case in ipairs(cases) do
+        local cat, paint = case[1], case[2]
+        local label = cat .. " in " .. paint
+        local base, body = "", ""
+        table.insert(steps, { label .. ": spawn it", function()
+            S.record = "Vehicle.vc_" .. cat .. "_4"
+            local style = catalogNames(cat, "styles")[1]
+            local baseName = catalogFlat(cat, "style." .. style .. ".base")
+            base = try(function() return baseName.value end) or nameOf(baseName)
+            for _, pair in ipairs(catalogNames(cat, "style." .. style .. ".options")) do
+                local slot, option = pair:match("^(.-)=(.+)$")
+                if slot == "base.body" then
+                    body = option
+                end
+            end
+            engine():SetBuildText(rid(), "look=" .. base .. ";paint=" .. paint)
+            return spawnCopy()
+        end, 1 })
+        table.insert(steps, { label .. ": wait for its style", function()
+            if not car() then
+                return nil
+            end
+            return { what = cat .. " in its style's look", timeout = 10,
+                     test = function()
+                         local look = lookOf(car())
+                         return base == "" or look == base or isTwinOf(look, base)
+                     end }
+        end, 3 })
+        table.insert(steps, { label .. ": load the body's mesh", function()
+            local count = P():LoadOption(CName.new(cat), CName.new(body))
+            write("  body option " .. body .. ": " .. tostring(count) .. " mesh(es)")
+            return { what = "the body's mesh", timeout = 15, test = function() return P():OptionLoaded() end }
+        end, 1 })
+        table.insert(steps, { label .. ": read it", function()
+            check(label .. " spawned", car() ~= nil, S.record)
+            if not car() then
+                return
+            end
+            verify(cat)
+            write("  mesh resource: " .. P():OptionReport())
+            write("  live parts: " .. P():LiveParts(car()))
+            shot(string.format("check_%d_%s_%s", n, cat, paint))
+        end, 4 })
+        table.insert(steps, { label .. ": take it away", function()
+            if S.id then
+                try(function() Game.GetDynamicEntitySystem():DeleteEntity(S.id) end)
+            end
+            S.id = nil
+            engine():SetBuildText(rid(), "")
+        end, 1 })
+    end
+    return steps
+end
+
+-- Job "cornerpaint" (2026-11-08, RECORD.md): one door painted without the others, a corner's paint over the whole car's, and
+-- what takes it off again: the corner cleared, or the slot painted whole. A Suburban Hella copy, a picture a step.
+local function cornerPaintSteps()
+    local SLOT = CName.new("door.door")
+    local function P()
+        return try(function() return Game.GetScriptableSystemsContainer():Get("VehicleCustomizerDev.ProbePaint") end)
+    end
+    local function wearing(part)
+        local v = car()
+        local text = v and P():LiveParts(v) or ""
+        return text:match("%f[%w_]" .. part .. "[%*!]*=([^;]+);") or "?"
+    end
+    local function doors(want, label)
+        for corner, paint in pairs(want) do
+            local got = wearing("door_" .. corner .. "_a")
+            check(label .. ": door " .. corner .. " wears " .. paint, got == paint, got)
+        end
+        verify(label)
+    end
+    local function text()
+        return engine():GetBuildText(rid()) or ""
+    end
+    local function step(name, action, want, picture, extra)
+        return { name, rebuilt(action), 5 }, { name .. ": check", function()
+            doors(want, name)
+            if extra then
+                extra()
+            end
+            shot(picture)
+        end, 2 }
+    end
+    local steps = {
+        { "noon; the engine and the probe", function()
+            check("the probe runs", P() ~= nil)
+            try(function() Game.GetTimeSystem():SetGameTimeByHMS(12, 0, 0) end)
+            S.distance = 8
+        end, 1 },
+        { "turn V away from their own car", turnV, 2 },
+        { "spawn a Suburban Hella copy", function()
+            engine():SetBuildText(rid(), "look=" .. S.suburban)
+            return spawnCopy()
+        end, 1 },
+        { "wait for the Suburban look", function()
+            return { what = "the Suburban look", timeout = 10,
+                     test = function()
+                         local look = lookOf(car())
+                         return look == S.suburban or isTwinOf(look, S.suburban)
+                     end }
+        end, 3 },
+    }
+    local function add(...)
+        for _, s in ipairs({ ... }) do
+            table.insert(steps, s)
+        end
+    end
+    local pink, cobalt, primer, emerald = CName.new("vcs_hot_pink"), CName.new("vcs_cobalt"), CName.new("primer_red"), CName.new("vcs_emerald")
+    add(step("front left door alone", function(e, v) e:ChooseCornerPaint(v, SLOT, CName.new("fl"), pink) end,
+        { fl = "vcs_hot_pink" }, "c1_one_door", function()
+            check("the others keep theirs", wearing("door_fr_a") ~= "vcs_hot_pink" and wearing("door_bl_a") ~= "vcs_hot_pink", wearing("door_fr_a"))
+            check("the build names the corner", text():find("corner=door.door:fl:vcs_hot_pink", 1, true) ~= nil, text())
+        end))
+    add(step("back right door too", function(e, v) e:ChooseCornerPaint(v, SLOT, CName.new("br"), cobalt) end,
+        { fl = "vcs_hot_pink", br = "vcs_cobalt" }, "c2_two_doors"))
+    add(step("the whole car primer: corners stay", function(e, v) e:ChooseCarPaint(v, primer) end,
+        { fl = "vcs_hot_pink", br = "vcs_cobalt", fr = "primer_red", bl = "primer_red" }, "c3_car_paint"))
+    add(step("front left taken back off", function(e, v) e:ChooseCornerPaint(v, SLOT, CName.new("fl"), CName.new(0)) end,
+        { fl = "primer_red", br = "vcs_cobalt" }, "c4_one_cleared", function()
+            check("the build no longer names it", text():find("corner=door.door:fl:", 1, true) == nil, text())
+        end))
+    add(step("all the doors one colour: corners go", function(e, v) e:ChoosePaint(v, SLOT, emerald) end,
+        { fl = "vcs_emerald", fr = "vcs_emerald", bl = "vcs_emerald", br = "vcs_emerald" }, "c5_slot_paint", function()
+            check("no corners left in the build", text():find("corner=", 1, true) == nil, text())
+        end))
+    add({ "take it away", function()
+        if S.id then
+            try(function() Game.GetDynamicEntitySystem():DeleteEntity(S.id) end)
+        end
+        S.id = nil
+        engine():SetBuildText(rid(), "")
+    end, 1 })
+    return steps
+end
+
+-- Job "painttool" (2026-11-08, RECORD.md): the paint tool on a Suburban Hella: handed over, its menu, a colour loaded, a door painted
+-- alone, a part that can't take the colour, copying, the Whole car brush, Factory, and real presses of R and left click.
+local function paintToolSteps()
+    local SLOT = CName.new("door.door")
+    local function T()
+        return try(function() return Game.GetScriptableSystemsContainer():Get("VehicleCustomizer.VCPaintTool") end)
+    end
+    local function P()
+        return try(function() return Game.GetScriptableSystemsContainer():Get("VehicleCustomizerDev.ProbePaint") end)
+    end
+    local function live()
+        local v = car()
+        return v and P():LiveParts(v) or ""
+    end
+    local function wearing(part)
+        return live():match("%f[%w_]" .. part .. "[%*!]*=([^;]+);") or "?"
+    end
+    local function key(name)
+        T():Press(CName.new(name))
+    end
+    local function press(name, ms)
+        write("PRESS " .. name .. " " .. ms)
+    end
+    local function text()
+        return engine():GetBuildText(rid()) or ""
+    end
+    local chosen, second, factory
+    return {
+        { "noon; the engine and the tool", function()
+            check("the paint tool runs", T() ~= nil)
+            check("the probe runs", P() ~= nil)
+            try(function() Game.GetTimeSystem():SetGameTimeByHMS(12, 0, 0) end)
+            S.distance = 7
+        end, 1 },
+        { "turn V away from their own car", turnV, 2 },
+        { "spawn a Suburban Hella copy", function()
+            engine():SetBuildText(rid(), "look=" .. S.suburban)
+            return spawnCopy()
+        end, 1 },
+        { "wait for the Suburban look", function()
+            return { what = "the Suburban look", timeout = 10,
+                     test = function()
+                         local look = lookOf(car())
+                         return look == S.suburban or isTwinOf(look, S.suburban)
+                     end }
+        end, 3 },
+        { "hand over the paint tool", function()
+            check("the paint tool is handed over", try(function() return T():Give() end) == true)
+            return { what = "the paint tool in V's hands", timeout = 15, test = function() return try(function() return T():IsHeld() end) == true end }
+        end, 4 },
+        { "its menu", function()
+            check("it has its screen", try(function() return T():HasScreen() end) == true)
+            check("it starts empty", T():Loaded() == "", T():Loaded())
+            shot("p1_menu")
+        end, 2 },
+        { "choose a colour and load it", function()
+            check("it starts on the top row", T():Row() == 0, tostring(T():Row()))
+            key("down")
+            check("Down goes into Swatches", T():Row() == 1, tostring(T():Row()))
+            local a = T():Selected()
+            key("right")
+            local b = T():Selected()
+            check("Right moves along the group", b ~= a and b ~= "", a .. " to " .. b)
+            key("down")
+            local c = T():Selected()
+            check("Down moves to another group", c ~= b and c ~= "", b .. " to " .. c)
+            key("enter")
+            chosen = T():Loaded()
+            check("Enter loads it", chosen == c, chosen)
+            shot("p2_loaded")
+        end, 2 },
+        { "paint the front left door", rebuilt(function(_, v)
+            check("the door takes it", T():PaintPart(v, SLOT, CName.new("fl")) == true)
+        end), 5 },
+        { "only that door", function()
+            check("front left wears it", wearing("door_fl_a") == chosen, wearing("door_fl_a"))
+            check("front right doesn't", wearing("door_fr_a") ~= chosen, wearing("door_fr_a"))
+            verify("after the click")
+            shot("p3_one_door")
+        end, 2 },
+        { "a part that can't take it", function()
+            check("a tire says no", T():PaintPart(car(), CName.new("wheel.tire"), CName.new("fl")) == false)
+        end, 1 },
+        { "empty it, back to the top row, copy the door", function()
+            key("up")
+            check("Up empties it", T():Loaded() == "", T():Loaded())
+            key("up")
+            key("up")
+            check("Up past the first group is the top row", T():Row() == 0, tostring(T():Row()))
+            T():TestAim(car(), SLOT, CName.new("fl"), CName.new("door_fl_a"), true)
+            key("copy")
+            check("right click copies the door's colour", T():Loaded() == chosen, T():Loaded())
+        end, 1 },
+        { "the Whole car brush", rebuilt(function()
+            key("brush")
+            check("R changes the brush", T():Brush() == "whole", T():Brush())
+            key("paint")
+        end), 5 },
+        { "the whole car took it", function()
+            check("front right door too", wearing("door_fr_a") == chosen, wearing("door_fr_a"))
+            check("no corners left in the build", text():find("corner=", 1, true) == nil, text())
+            check("the build's whole-car paint", text():find("paint=" .. chosen, 1, true) ~= nil, text())
+            verify("after the whole car")
+            shot("p4_whole_car")
+            key("brush")
+            key("up")
+        end, 2 },
+        { "Factory: the door's own paints, locked", function()
+            check("empty again", T():Loaded() == "", T():Loaded())
+            key("left")
+            key("down")
+            check("Factory opens on the aimed part", T():Row() == 1 and T():FactoryCount() > 0, T():FactoryCount() .. " paints")
+            key("right")
+            key("enter")
+            factory = T():Loaded()
+            check("a factory paint is loaded", factory ~= "" and factory:sub(1, 4) ~= "vcs_", factory)
+            T():TestAim(car(), SLOT, CName.new("fr"), CName.new("door_fr_a"), true)
+        end, 1 },
+        { "a factory paint on one door", rebuilt(function()
+            key("paint")
+        end), 5 },
+        { "it went on", function()
+            check("front right wears it", wearing("door_fr_a") == factory, wearing("door_fr_a"))
+            verify("after a factory paint")
+            shot("p5_factory")
+        end, 2 },
+        { "back to Swatches, and let go of the test's aim", function()
+            T():TestAim(car(), SLOT, CName.new("fr"), CName.new("door_fr_a"), false)
+            key("up")
+            key("up")
+            key("right")
+            key("down")
+            key("right")
+            key("enter")
+            second = T():Loaded()
+            check("another is loaded", second ~= "" and second ~= chosen, second)
+        end, 1 },
+        { "a real R", function()
+            press("r", 120)
+        end, 2 },
+        { "R reached the tool", function()
+            check("the real R changed the brush", T():Brush() == "whole", T():Brush())
+            press("r", 120)
+        end, 2 },
+        { "a real left click", function()
+            press("left", 200)
+        end, 5 },
+        { "what it did", function()
+            check("something under the crosshair took it", live():find(second, 1, true) ~= nil, live())
+            shot("p6_real_click")
+        end, 2 },
+        { "put it away", function()
+            press("b", 120)
+        end, 4 },
+        { "take the car away", function()
+            if S.id then
+                try(function() Game.GetDynamicEntitySystem():DeleteEntity(S.id) end)
+            end
+            S.id = nil
+            engine():SetBuildText(rid(), "")
+        end, 1 },
+    }
 end
 
 -- Job "repair": what holds of a repair (2026-11-06: the panel's first Repair, which rebuilt, left the dents and a
@@ -2359,6 +2691,502 @@ local function toolReadySteps()
     }
 end
 
+-- Job "paint" (2026-11-08, RECORD.md): how far colour can go, in one sitting, on a Suburban Hella copy side on to V, its
+-- front left door in view. The game's per-part paint call with the car's own paint, a paint of ours in a colour of
+-- ours (experiments/paint/make-probe-paints.py), without the mask, on two parts at once, with another family's
+-- paint; whether it survives a rebuild; the any-colour call on the whole car and on one part; and editing a palette
+-- and a paint in memory. The report says what was sent; the pictures say what the game drew.
+local function paintSteps()
+    local function P()
+        return try(function() return Game.GetScriptableSystemsContainer():Get("VehicleCustomizerDev.ProbePaint") end)
+    end
+    local DOOR, BACK = CName.new("door_fl_a"), CName.new("door_bl_a")
+    local BODY = CName.new("v_sportbike1_yaiba_kusanagi__ext01_body_011080")
+    local NONE = CName.new(0)
+    local function act(what, action)
+        return { "paint: " .. what, function()
+            local ok, result = pcall(action)
+            write("  " .. what .. ": " .. (ok and tostring(result) or ("ERROR " .. tostring(result))))
+        end, 3 }
+    end
+    local function pic(name)
+        return { "picture " .. name, function() shot(name) end, 4 }
+    end
+    local function door(paint)
+        return act("the door in " .. paint, function() return P():One(car(), DOOR, CName.new(paint), true) end)
+    end
+    local function clear()
+        return act("clear", function() return P():Clear(car()) end)
+    end
+    local function options(decalsOff, realCoat, byName)
+        return act(string.format("the call: decals off %s, real coat %s, by name %s", tostring(decalsOff), tostring(realCoat), tostring(byName)),
+            function() P():Options(decalsOff, realCoat, byName) return "set" end)
+    end
+    local function describe()
+        return act("what the car has", function() return P():Describe(car()) end)
+    end
+    local function rebuild()
+        return { "rebuild", rebuilt(function(e, v) e:Rebuild(v) end), 3 }
+    end
+    return {
+        { "paint: engine, a Suburban Hella copy", function()
+            check("engine is running", engine() ~= nil)
+            check("the probe runs", P() ~= nil)
+            try(function() Game.GetTimeSystem():SetGameTimeByHMS(12, 0, 0) end)
+            engine():SetBuildText(rid(), "look=" .. S.suburban)
+        end, 1 },
+        { "turn V away from their own car", turnV, 2 },
+        { "spawn the copy", spawnCopy, 3 },
+        { "wait for the style", function()
+            return { what = "the Suburban look", timeout = 10, test = function() return isTwinOf(lookOf(car()), S.suburban) end }
+        end, 4 },
+        describe(),
+        pic("p01_stock"),
+        act("a paint job of the game's", function()
+            local records = TweakDB:GetRecords("gamedataVehicleColorTemplate_Record") or {}
+            for _, record in ipairs(records) do
+                if record:HasCustomPattern() and record:GetCustomMultilayersCount() > 0 then
+                    return #records .. " templates; " .. P():UseTemplate(record:GetID())
+                end
+            end
+            return #records .. " templates, none with an override"
+        end),
+
+        -- What makes the black patches: the game turns the default decals off first and passes a real clear coat.
+        options(false, false, false), door("magenta"), pic("p02_control"), clear(),
+        options(true, false, false), door("magenta"), pic("p03_decals_off"), clear(),
+        options(false, true, false), door("magenta"), pic("p04_real_coat"), clear(),
+        options(true, true, false), door("magenta"), pic("p05_both"), clear(),
+
+        act("two doors: front magenta, back primer", function()
+            return P():Two(car(), DOOR, CName.new("magenta"), BACK, CName.new("primer"))
+        end),
+        pic("p06_two_doors"),
+        clear(),
+
+        -- A colour edited in memory, one nothing has drawn yet and one already drawn.
+        { "paint: load a palette through Codeware", function()
+            try(function() P():Load() end)
+            return { what = "the resources", timeout = 10, test = function() return try(function() return P():Loaded() end) == true end }
+        end, 1 },
+        act("lime made orange before anything draws it", function() return P():EditPalette(CName.new("vc_lime"), 1, 0.35, 0) end),
+        door("lime"), pic("p07_lime_edited_first"), clear(),
+        door("magenta"), pic("p08_magenta_before_edit"), clear(),
+        act("magenta made cyan after it has been drawn", function() return P():EditPalette(CName.new("vc_magenta"), 0, 1, 1) end),
+        door("magenta"), pic("p09_magenta_after_edit"), clear(),
+
+        -- Rebuilds: nothing active, by the other way to reach the component, back on the first twin, and while active.
+        rebuild(), describe(), door("magenta"), pic("p10_rebuilt_then_sent"),
+        options(true, true, true), door("magenta"), pic("p11_by_name"), options(true, true, false), clear(),
+        rebuild(), describe(), door("magenta"), pic("p12_back_on_first_twin"),
+        rebuild(), describe(), pic("p13_rebuilt_while_active"),
+        door("magenta"), pic("p14_sent_again"),
+        clear(), rebuild(), describe(), door("magenta"), pic("p15_recovered"),
+        clear(),
+        { "take the Hella away", function()
+            try(function() Game.GetDynamicEntitySystem():DeleteEntity(S.id) end)
+            engine():SetBuildText(rid(), "")
+        end, 2 },
+
+        -- Any colour needs CrystalCoat's mask in the materials, which the Kusanagi's body has and the Hella's door hasn't.
+        { "a Kusanagi", function()
+            S.record = "Vehicle.vc_yaiba_kusanagi_basic_01_3"
+            S.distance = 5
+            engine():SetBuildText(rid(), "")
+            return spawnCopy()
+        end, 4 },
+        describe(),
+        pic("p20_bike_stock"),
+        act("any colour, the whole bike: magenta", function() return P():Generic(car(), NONE, 255, 0, 255) end),
+        pic("p21_bike_any_colour"),
+        act("the game's colour effect", function() return P():Shader(car()) end),
+        pic("p22_bike_with_effect"),
+        clear(),
+        act("any colour, the body alone: lime", function() return P():Generic(car(), BODY, 64, 255, 0) end),
+        pic("p23_bike_body_alone"),
+        clear(),
+        { "clean up", function()
+            try(function() Game.GetDynamicEntitySystem():DeleteEntity(S.id) end)
+            engine():SetBuildText(rid(), "")
+        end, 1 },
+    }
+end
+
+-- Job "paintbuild" (2026-11-08, RECORD.md): paint put on while the car is built. Our paints are added to the Hella's
+-- door meshes by an ArchiveXL patch (experiments/paint/make-probe-paints.py) and chosen the way any part's paint is, so
+-- a rebuild should keep them. Colours of ours from the palette, and colours set in memory before they're first drawn.
+local function paintBuildSteps()
+    local function P()
+        return try(function() return Game.GetScriptableSystemsContainer():Get("VehicleCustomizerDev.ProbePaint") end)
+    end
+    local SLOT = CName.new("door.door")
+    local function act(what, action)
+        return { "paint: " .. what, function()
+            local ok, result = pcall(action)
+            write("  " .. what .. ": " .. (ok and tostring(result) or ("ERROR " .. tostring(result))))
+        end, 1 }
+    end
+    local function pic(name)
+        return { "picture " .. name, function() shot(name) end, 4 }
+    end
+    local function paint(name)
+        return { "the doors in " .. name, rebuilt(function(e, v) e:ChoosePaint(v, SLOT, CName.new(name)) end), 4 }
+    end
+    local function rebuild()
+        return { "rebuild", rebuilt(function(e, v) e:Rebuild(v) end), 4 }
+    end
+    local function edit(name, r, g, b)
+        return act(name .. " set in memory to " .. r .. " " .. g .. " " .. b, function() return P():EditPalette(CName.new(name), r, g, b) end)
+    end
+    local function checked(name, what)
+        return { "check " .. name, function()
+            verify(what)
+            write("  build: " .. tostring(try(function() return engine():GetBuildText(rid()) end)))
+        end, 1 }
+    end
+    return {
+        { "paint: engine, a Suburban Hella copy", function()
+            check("engine is running", engine() ~= nil)
+            check("the probe runs", P() ~= nil)
+            try(function() Game.GetTimeSystem():SetGameTimeByHMS(12, 0, 0) end)
+            engine():SetBuildText(rid(), "look=" .. S.suburban)
+        end, 1 },
+        { "turn V away from their own car", turnV, 2 },
+        { "spawn the copy", spawnCopy, 3 },
+        { "wait for the style", function()
+            return { what = "the Suburban look", timeout = 10, test = function() return isTwinOf(lookOf(car()), S.suburban) end }
+        end, 4 },
+        { "paint: load the palette and the door's mesh", function()
+            try(function() P():Load() end)
+            return { what = "the resources", timeout = 10, test = function() return try(function() return P():Loaded() end) == true end }
+        end, 1 },
+        act("is the patch on the mesh", function() return P():MeshCheck() end),
+        pic("b01_stock"),
+
+        paint("vc_magenta"), checked("magenta", "doors in our magenta"), pic("b02_doors_magenta"),
+        rebuild(), checked("after a rebuild", "still magenta after a rebuild"), pic("b03_after_rebuild"),
+
+        edit("vc_lime", 1, 0.35, 0),
+        paint("vc_lime"), checked("orange", "doors in the colour set in memory"), pic("b04_set_in_memory_orange"),
+        edit("vc_cyan", 0.05, 0.2, 1),
+        paint("vc_cyan"), checked("blue", "doors in a second colour set in memory"), pic("b05_set_in_memory_blue"),
+        rebuild(), pic("b06_blue_after_rebuild"),
+
+        paint("vc_magenta"), pic("b07_back_to_magenta"),
+        edit("vc_magenta", 0.1, 0.8, 0.2),
+        rebuild(), pic("b08_drawn_colour_edited_then_rebuilt"),
+
+        paint("suburban_01"), checked("own paint", "doors back in the car's own paint"), pic("b09_own_paint_back"),
+        { "clean up", function()
+            try(function() Game.GetDynamicEntitySystem():DeleteEntity(S.id) end)
+            engine():SetBuildText(rid(), "")
+        end, 1 },
+    }
+end
+
+-- Job "paintscale" (2026-11-08, RECORD.md; run with -TimeoutSeconds 1500): all 89 shop colours on the Hella's doors, by
+-- plain patch appearances (vcp_) and by ArchiveXL's dynamic materials (vcd_), from experiments/paint/make-probe-paints.py.
+-- For each colour: the frames while the car is rebuilt in it (paintscale.jsonl), and for the plain route a picture, every
+-- one at noon, to judge the colours on a car. Rebuilds with no change first, as the yardstick. Memory after each stage
+-- (memory.csv, by the run script). Then whether a repainted door keeps its colour far away: vc_magenta leaves the door's
+-- far chunks alone, as a control; vcp_ and vcd_ paint them too.
+local function paintScaleSteps()
+    local colours = require("paint-colours")
+    local SLOT = CName.new("door.door")
+    local SAMPLES = { alpine = true, silver = true, jet = true, signal_red = true, racing_yellow = true, cobalt = true,
+                      emerald = true, hot_pink = true, ultraviolet = true, copper = true }
+    local stats = { idle = {}, rebuild = {}, plain = {}, dyn = {} }
+    local now
+    local function P()
+        return try(function() return Game.GetScriptableSystemsContainer():Get("VehicleCustomizerDev.ProbePaint") end)
+    end
+    local function noon()
+        try(function() Game.GetTimeSystem():SetGameTimeByHMS(12, 0, 0) end)
+    end
+    local function begin(route, colour)
+        now = { route = route, colour = colour, frames = 0, total = 0, worst = 0, over33 = 0, over50 = 0, over100 = 0 }
+        runner.onFrame = function(delta)
+            local ms = delta * 1000
+            now.frames = now.frames + 1
+            now.total = now.total + ms
+            if ms > now.worst then now.worst = ms end
+            if ms > 33.4 then now.over33 = now.over33 + 1 end
+            if ms > 50 then now.over50 = now.over50 + 1 end
+            if ms > 100 then now.over100 = now.over100 + 1 end
+        end
+    end
+    local function close()
+        runner.onFrame = nil
+        if not now then
+            return
+        end
+        local row = now
+        now = nil
+        table.insert(stats[row.route], row)
+        local file = io.open("paintscale.jsonl", "a")
+        if file then
+            file:write(json(row), "\n")
+            file:close()
+        end
+    end
+    local function summary(route)
+        local rows = stats[route]
+        if #rows == 0 then
+            write("  " .. route .. ": nothing measured")
+            return
+        end
+        local worst, sum, timed, frames, over50 = {}, 0, 0, 0, 0
+        for _, r in ipairs(rows) do
+            table.insert(worst, r.worst)
+            if r.rebuild then
+                sum = sum + r.rebuild
+                timed = timed + 1
+            end
+            frames = frames + r.frames
+            over50 = over50 + r.over50
+        end
+        table.sort(worst)
+        write(string.format("  %s: %d windows; the worst frame of each: median %.0f ms, 90%% %.0f ms, highest %.0f ms; rebuild %.2f s on average; frames over 50 ms: %d of %d",
+            route, #rows, worst[math.ceil(#worst / 2)], worst[math.ceil(#worst * 0.9)], worst[#worst],
+            timed > 0 and sum / timed or 0, over50, frames))
+    end
+    local function memory(label)
+        return { "memory: " .. label, function() write("MEM " .. label) end, 3 }
+    end
+    -- One rebuild inside a measured window: paint names a colour, or nil for a rebuild with nothing changed.
+    local function measured(out, route, colour, paint, picture)
+        table.insert(out, { route .. " " .. colour, function()
+            local v = car()
+            local before = lookOf(v)
+            local started = runner.clock
+            begin(route, colour)
+            if paint then
+                engine():ChoosePaint(v, SLOT, CName.new(paint))
+            else
+                engine():Rebuild(v)
+            end
+            return { what = "the rebuild for " .. colour, timeout = 12, test = function()
+                if lookOf(car()) ~= before then
+                    if now then
+                        now.rebuild = runner.clock - started
+                    end
+                    return true
+                end
+                return false
+            end }
+        end, 1.5 })
+        table.insert(out, { "measured", function()
+            close()
+            noon()
+        end, 0.2 })
+        if picture then
+            table.insert(out, { "picture", function()
+                verify(route .. " " .. colour .. " is on the car")
+                shot(route .. "_" .. colour)
+            end, 3 })
+        end
+    end
+    local function moveCar(distance)
+        return function()
+            local pos = Game.GetPlayer():GetWorldPosition()
+            local fx, fy = -math.sin(S.facing), math.cos(S.facing)
+            Game.GetTeleportationFacility():Teleport(car(), Vector4.new(pos.x + fx * distance, pos.y + fy * distance, pos.z + 0.2, 1),
+                EulerAngles.new(0, 0, math.deg(S.facing + math.pi / 2)))
+        end
+    end
+
+    local steps = {
+        { "paintscale: engine, a Suburban Hella copy, a clear noon", function()
+            local file = io.open("paintscale.jsonl", "w")
+            if file then
+                file:close()
+            end
+            check("engine is running", engine() ~= nil)
+            check("the probe runs", P() ~= nil)
+            check("the 89 colours are listed", #colours == 89, #colours .. " colours")
+            noon()
+            try(function() Game.GetWeatherSystem():SetWeather(CName.new("24h_weather_sunny"), 0, 5) end)
+            engine():SetBuildText(rid(), "look=" .. S.suburban)
+            -- Straight ahead of V, not turned: the save has V facing a clear stretch, for the far-away pictures too
+            -- (the first run's save had a parked car exactly where the copy spawned, 2026-11-08).
+            local f = Game.GetPlayer():GetWorldForward()
+            S.facing = math.atan2(-f.x, f.y)
+        end, 1 },
+        { "spawn the copy", spawnCopy, 3 },
+        { "wait for the style", function()
+            return { what = "the Suburban look", timeout = 10, test = function() return isTwinOf(lookOf(car()), S.suburban) end }
+        end, 4 },
+        { "load the door's mesh", function()
+            try(function() P():Load() end)
+            return { what = "the resources", timeout = 10, test = function() return try(function() return P():Loaded() end) == true end }
+        end, 1 },
+        { "are the patches on the mesh", function()
+            local text = tostring(try(function() return P():MeshCheck() end))
+            check("all three patches reached the door", text:find("probe 3, plain 89, dynamic 89", 1, true) ~= nil, text)
+        end, 1 },
+        { "picture", function() shot("s00_stock") end, 3 },
+        memory("start"),
+        { "idle frames, 15 s", function() begin("idle", "idle") end, 15 },
+        { "measured", function() close() summary("idle") end, 0.2 },
+    }
+    for i = 1, 10 do
+        measured(steps, "rebuild", "same_" .. i, nil, false)
+    end
+    table.insert(steps, { "summary", function() summary("rebuild") end, 0.2 })
+    table.insert(steps, memory("after 10 plain rebuilds"))
+    for _, colour in ipairs(colours) do
+        measured(steps, "plain", colour, "vcp_" .. colour, true)
+    end
+    table.insert(steps, { "summary", function() summary("plain") end, 0.2 })
+    table.insert(steps, memory("after 89 plain colours"))
+    for _, colour in ipairs(colours) do
+        measured(steps, "dyn", colour, "vcd_" .. colour, SAMPLES[colour] == true)
+    end
+    table.insert(steps, { "summary", function() summary("dyn") end, 0.2 })
+    table.insert(steps, memory("after 89 dynamic colours"))
+
+    for _, paint in ipairs({ "vc_magenta", "vcp_magenta", "vcd_magenta" }) do
+        table.insert(steps, { "car back near V", moveCar(8), 3 })
+        table.insert(steps, { "the doors in " .. paint, rebuilt(function(e, v) e:ChoosePaint(v, SLOT, CName.new(paint)) end), 3 })
+        table.insert(steps, { "picture", function() shot("far_" .. paint .. "_008m") end, 3 })
+        for _, distance in ipairs({ 30, 60, 100 }) do
+            table.insert(steps, { "car to " .. distance .. " m", moveCar(distance), 4 })
+            table.insert(steps, { "picture", function() shot(string.format("far_%s_%03dm", paint, distance)) end, 3 })
+        end
+    end
+    table.insert(steps, { "clean up", function()
+        try(function() Game.GetDynamicEntitySystem():DeleteEntity(S.id) end)
+        engine():SetBuildText(rid(), "")
+    end, 1 })
+    return steps
+end
+
+-- Job "toolkeys" (2026-11-08, RECORD.md): the tool in hand under real presses (the run script's PRESS). The mouse
+-- buttons and R reach Input/Key while firing is blocked; right click aims, for the zoom; R doesn't reload; the tool stays
+-- raised; and put away, it leaves nothing on the ground or in the inventory.
+local function toolKeySteps()
+    local function K()
+        return try(function() return Game.GetScriptableSystemsContainer():Get("VehicleCustomizerDev.ProbeKeys") end)
+    end
+    local seen
+    local c = {}
+    local function watch()
+        seen = { upper = {}, weapon = {} }
+        runner.onFrame = function()
+            local k = K()
+            if k then
+                seen.upper[k:UpperBody()] = true
+                seen.weapon[k:RightWeapon()] = true
+            end
+        end
+    end
+    local function states(list)
+        local out = {}
+        for state in pairs(list) do
+            table.insert(out, state)
+        end
+        table.sort(out)
+        return table.concat(out, ",")
+    end
+    local function press(name, ms)
+        write("PRESS " .. name .. " " .. ms)
+    end
+    local function held()
+        return try(function() return vcTool():IsHeld() end) == true
+    end
+    local function magazine()
+        return tostring(try(function() return WeaponObject.GetMagazineAmmoCount(heldWeapon()) end))
+    end
+    local function notHeld(timeout)
+        return { what = "the tool out of V's hands", timeout = timeout, optional = true, test = function() return not held() end }
+    end
+    return {
+        { "toolkeys: turn V and spawn the Hella copy in front", function()
+            S.distance = 7
+            turnV()
+            try(function() engine():SetBuildText(rid(), "") end)
+            return spawnCopy()
+        end, 3 },
+        { "toolkeys: the tool in V's hands", function()
+            check("the key probe runs", K() ~= nil)
+            check("the tool is handed over", try(function() return vcTool():Give() end) == true)
+            return { what = "the tool in V's hands", timeout = 15, test = held }
+        end, 3 },
+        { "toolkeys: the state of things", function()
+            local k = K()
+            write("  zone (1 public, 2 safe): " .. tostring(k:Zone()) .. ", magazine " .. magazine())
+            write("  public safe after " .. tostring(try(function() return TweakDB:GetFlat("playerStateMachineWeapon.publicSafe.idleTimeToEnter") end))
+                .. " s, the game's unequip after " .. tostring(try(function() return TweakDB:GetFlat("playerStateMachineWeapon.publicSafe.timeToAutoUnequipWeapon") end)) .. " s")
+            c.left, c.right, c.r, c.ammo = k:Left(), k:Right(), k:R(), magazine()
+        end, 1 },
+        { "toolkeys: left click", function()
+            watch()
+            press("left", 200)
+        end, 3 },
+        { "toolkeys: what left click did", function()
+            runner.onFrame = nil
+            check("left click reaches the key callback", K():Left() > c.left, K():Left() - c.left .. " presses")
+            check("it doesn't shoot (state 8)", seen.weapon[8] == nil and magazine() == c.ammo, "states " .. states(seen.weapon) .. ", magazine " .. magazine())
+        end, 1 },
+        { "toolkeys: right click held", function()
+            watch()
+            press("right", 1500)
+        end, 4 },
+        { "toolkeys: what right click did", function()
+            runner.onFrame = nil
+            check("right click reaches the key callback", K():Right() > c.right, K():Right() - c.right .. " presses")
+            check("the wrench aims (state 6)", seen.upper[6] ~= nil, "upper body states " .. states(seen.upper))
+        end, 1 },
+        { "toolkeys: R", function()
+            watch()
+            press("r", 120)
+        end, 3 },
+        { "toolkeys: what R did", function()
+            runner.onFrame = nil
+            check("R reaches the key callback", K():R() > c.r, K():R() - c.r .. " presses")
+            check("it doesn't reload (state 2)", seen.weapon[2] == nil, "states " .. states(seen.weapon) .. "; a full magazine couldn't reload anyway: " .. magazine())
+        end, 1 },
+        { "toolkeys: left alone for 25 s", function() watch() end, 25 },
+        { "toolkeys: still raised", function()
+            runner.onFrame = nil
+            check("the tool stayed raised (safe is state 6)", seen.weapon[6] == nil and held(),
+                "states " .. states(seen.weapon) .. ", zone " .. tostring(K():Zone()) .. ", held " .. tostring(held()))
+            shot("k1_raised_after_25s")
+        end, 3 },
+        { "toolkeys: put it away with the holster key", function()
+            press("b", 120)
+            return notHeld(6)
+        end, 1 },
+        { "toolkeys: if it's still held, the weapon 1 key", function()
+            if not held() then
+                return
+            end
+            write("  the holster key left it in hand")
+            press("1", 120)
+            return notHeld(6)
+        end, 2 },
+        { "toolkeys: nothing left behind", function()
+            check("the tool is out of V's hands", not held())
+            local count = try(function() return K():ToolCount() end)
+            check("none in the inventory", count == 0, tostring(count))
+            shot("k2_put_away_nothing_on_the_ground")
+        end, 3 },
+        { "toolkeys: handed over again", function()
+            check("handed over again", try(function() return vcTool():Give() end) == true)
+            return { what = "the tool in V's hands", timeout = 15, test = held }
+        end, 3 },
+        { "toolkeys: one tool", function()
+            local count = try(function() return K():ToolCount() end)
+            check("exactly one", count == 1, tostring(count))
+            shot("k3_second_tool")
+        end, 3 },
+        { "clean up", function()
+            try(function() Game.GetTransactionSystem():RemoveItemByTDBID(Game.GetPlayer(), TweakDBID.new("Items.VC_Tool"), 1) end)
+            try(function() Game.GetDynamicEntitySystem():DeleteEntity(S.id) end)
+        end, 1 },
+    }
+end
+
 local JOBS = {
     -- Each job is a list of steps: { "description", function() ... end, wait seconds after }. A step may return
     -- { what = "...", timeout = s, test = function() return done end } to wait for something before the next.
@@ -2372,6 +3200,10 @@ local JOBS = {
     prepare = PREPARE,
     sweep = function() return sweepSteps(1) end,
     sweep_b = function() return sweepSteps(2) end,
+    shoppaint = function() return sweepSteps(3) end,
+    paintcheck = function() return paintCheckSteps() end,
+    cornerpaint = function() return cornerPaintSteps() end,
+    painttool = function() return paintToolSteps() end,
     repair = REPAIR,
     wheels = WHEELS,
     buy = function() return buySteps() end,
@@ -2381,6 +3213,10 @@ local JOBS = {
     tool = function() return toolSteps() end,
     camera = function() return cameraSteps() end,
     toolui = function() return toolUiSteps() end,
+    paint = function() return paintSteps() end,
+    paintbuild = function() return paintBuildSteps() end,
+    paintscale = function() return paintScaleSteps() end,
+    toolkeys = function() return toolKeySteps() end,
     toolready = function() return toolReadySteps() end,
 }
 
@@ -2426,6 +3262,10 @@ local function tick(delta)
     runner.clock = runner.clock + delta
     if not runner.enabled then
         return
+    end
+    -- A job's measure of every frame (paintscale, toolkeys).
+    if runner.onFrame then
+        pcall(runner.onFrame, delta)
     end
     if not runner.started then
         if not runner.continued then

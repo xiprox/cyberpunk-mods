@@ -1,0 +1,16 @@
+{
+  "note": "The shop palette the user approved on 2026-11-08 (UX.md, The paint tool and the tool rack). Colours are sRGB as shown on screen, to be judged again on a car. Names are placeholders.",
+  "groups": [
+    { "name": "Whites", "colours": [["Alpine", "#F4F4F0"], ["Ice white", "#E6EDF0"], ["Pearl", "#EAE6DC"], ["Cream", "#E8DFC8"], ["Ivory", "#DDD3B8"], ["Bone", "#CFC6B0"]] },
+    { "name": "Silvers and greys", "colours": [["Bright silver", "#D2D4D6"], ["Silver", "#B9BCBF"], ["Champagne silver", "#BDB5A6"], ["Quartz", "#A3A6A8"], ["Flat grey", "#8E9193"], ["Warm grey", "#89837B"], ["Titanium", "#7F8184"], ["Slate", "#64707A"], ["Gunmetal", "#4E5357"], ["Graphite", "#37393D"], ["Anthracite", "#2A2C2F"]] },
+    { "name": "Blacks", "colours": [["Carbon", "#1C1C1F"], ["Jet", "#0B0B0D"], ["Blue black", "#10141F"], ["Green black", "#121A16"], ["Plum black", "#1C1320"], ["Brown black", "#1E1612"]] },
+    { "name": "Earth tones", "colours": [["Sand", "#CDBB94"], ["Champagne", "#BFA77D"], ["Khaki", "#8F8560"], ["Tan", "#A5835A"], ["Copper", "#A8623A"], ["Bronze", "#7E6239"], ["Olive drab", "#4B5320"], ["Mocha", "#5B4030"], ["Chocolate", "#3E2A1F"]] },
+    { "name": "Reds", "colours": [["Coral", "#E8604C"], ["Terracotta", "#B5523B"], ["Signal red", "#D4141C"], ["Race red", "#C8102E"], ["Candy apple", "#A50A0A"], ["Cherry", "#8F0F1E"], ["Crimson", "#8F0202"], ["Burgundy", "#5E1220"], ["Oxblood", "#4F1014"]] },
+    { "name": "Oranges and yellows", "colours": [["Racing yellow", "#FFD500"], ["Taxi", "#F7C600"], ["Amber", "#F5A623"], ["Signal orange", "#F26B1D"], ["Mustard", "#C79A1E"], ["Old gold", "#9A7B2E"], ["Burnt orange", "#B34E22"], ["Rust", "#7A3B1E"]] },
+    { "name": "Blues", "colours": [["Powder", "#A8C5E2"], ["Baby blue", "#7FB2DD"], ["Sky", "#3C7FC3"], ["Steel", "#6C7D98"], ["Rally blue", "#0F4FB0"], ["Cobalt", "#0B3FBF"], ["Royal", "#1A3A8F"], ["Petrol", "#0E4D64"], ["Navy", "#14274E"], ["Midnight", "#0F1E4A"]] },
+    { "name": "Greens", "colours": [["Mint", "#A8D8B9"], ["Sage", "#8FB49D"], ["Emerald", "#0F8A5F"], ["Jade", "#1F7A5C"], ["Forest", "#1E4D2B"], ["Hunter", "#23402F"], ["Racing green", "#0B3D2E"]] },
+    { "name": "Night City", "colours": [["Acid lime", "#B4F000"], ["Chartreuse", "#BCDB2E"], ["Neon mint", "#60E5A8"], ["Cyber teal", "#00E0D0"], ["Aqua", "#2AC5C5"], ["Laser blue", "#00A8FF"], ["Electric blue", "#1E6BFF"], ["Ultraviolet", "#5B00E0"], ["Neon purple", "#8A2BE2"], ["Fuchsia", "#C020C0"], ["Magenta", "#D1007F"], ["Hot pink", "#FF2E93"], ["Candy orange", "#FF5A1F"]] },
+    { "name": "Soft and retro", "colours": [["Ice", "#A6E3E9"], ["Seafoam", "#71E8E8"], ["Lilac", "#E0A3EF"], ["Lavender", "#AC83D3"], ["Rose", "#E8A0B4"], ["Miami pink", "#F59BB6"]] },
+    { "name": "Deep", "colours": [["Violet", "#7248A1"], ["Plum", "#440979"], ["Wine", "#800146"], ["Aubergine", "#322238"]] }
+  ]
+}

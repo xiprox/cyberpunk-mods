@@ -93,6 +93,28 @@ public static class GameWindow
         keybd_event(0x20, 0x39, 2, UIntPtr.Zero);
         return true;
     }
+    [DllImport("user32.dll")] public static extern void mouse_event(uint flags, uint dx, uint dy, uint data, UIntPtr extra);
+    [DllImport("user32.dll")] public static extern uint MapVirtualKey(uint code, uint mapType);
+    // A mouse button ("left", "right") or a letter or digit key, held for ms, for jobs that test what a real press does.
+    public static bool Press(IntPtr hWnd, string name, int ms)
+    {
+        SetForegroundWindow(hWnd);
+        System.Threading.Thread.Sleep(150);
+        if (GetForegroundWindow() != hWnd) return false;
+        if (name == "left" || name == "right")
+        {
+            mouse_event(name == "left" ? 0x02u : 0x08u, 0, 0, 0, UIntPtr.Zero);
+            System.Threading.Thread.Sleep(ms);
+            mouse_event(name == "left" ? 0x04u : 0x10u, 0, 0, 0, UIntPtr.Zero);
+            return true;
+        }
+        byte vk = (byte)char.ToUpperInvariant(name[0]);
+        byte scan = (byte)MapVirtualKey(vk, 0);
+        keybd_event(vk, scan, 0, UIntPtr.Zero);
+        System.Threading.Thread.Sleep(ms);
+        keybd_event(vk, scan, 2, UIntPtr.Zero);
+        return true;
+    }
 }
 '@
 [GameWindow]::SetProcessDPIAware() | Out-Null
@@ -131,6 +153,35 @@ function Save-Shot([string]$name) {
     "  shot $safe.jpg"
 }
 
+# A job's "PRESS <left|right|letter> <ms>": a real press, for what only the game's input can show.
+function Send-Press([string]$name, [int]$ms) {
+    $proc = Get-Process Cyberpunk2077 -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowHandle -ne 0 } | Select-Object -First 1
+    if (-not $proc) { "  no game window to press $name"; return }
+    $ok = [GameWindow]::Press($proc.MainWindowHandle, $name, $ms)
+    "  pressed $name for $ms ms" + $(if ($ok) { "" } else { " (the game wasn't in front; skipped)" })
+}
+
+# A job's "MEM <label>": what the game holds now, one line in memory.csv in the run's folder. Graphics memory comes from
+# Windows' performance counters; it's left empty if they can't be read.
+function Save-Memory([string]$label) {
+    $proc = Get-Process Cyberpunk2077 -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowHandle -ne 0 } | Select-Object -First 1
+    if (-not $proc) { "  no game to measure for $label"; return }
+    $gpu = ""
+    try {
+        $samples = (Get-Counter "\GPU Process Memory(pid_$($proc.Id)*)\Dedicated Usage" -ErrorAction Stop).CounterSamples
+        $gpu = [int](($samples | Measure-Object CookedValue -Sum).Sum / 1MB)
+    } catch { }
+    $row = [pscustomobject]@{
+        time       = (Get-Date -Format "HH:mm:ss")
+        label      = $label
+        private_mb = [int]($proc.PrivateMemorySize64 / 1MB)
+        working_mb = [int]($proc.WorkingSet64 / 1MB)
+        gpu_mb     = $gpu
+    }
+    $row | Export-Csv -Path "$run\memory.csv" -Append -NoTypeInformation -Encoding UTF8
+    "  memory at ${label}: private $($row.private_mb) MB, working set $($row.working_mb) MB, graphics $gpu MB"
+}
+
 "launching for job '$Job' at $(Get-Date -Format HH:mm:ss); run folder $run"
 # Straight from the executable, with Steam already running: a steam://run link with arguments made Steam
 # drop the launch (first run, 2026-11-06), and -skipStartScreen spares the "press any key" screen.
@@ -156,6 +207,8 @@ while (((Get-Date) - $start).TotalSeconds -lt $TimeoutSeconds) {
         "  $line"
         # Case matters: "done waiting for ..." in a step's line once passed for the end (first suite run).
         if ($line -cmatch '^\d\d:\d\d:\d\d SHOT (.+)$') { Save-Shot $Matches[1] }
+        if ($line -cmatch '^\d\d:\d\d:\d\d PRESS (\S+) (\d+)$') { Send-Press $Matches[1] ([int]$Matches[2]) }
+        if ($line -cmatch '^\d\d:\d\d:\d\d MEM (.+)$') { Save-Memory $Matches[1] }
         if ($line -cmatch '^\d\d:\d\d:\d\d DONE (.*)$') { $done = $true; $doneAt = Get-Date; $result = $Matches[1] }
         if ($line -cmatch '^\d\d:\d\d:\d\d (main menu continued|a save loaded|world loaded)') { $continued = $true }
         if ($line -cmatch '^\d\d:\d\d:\d\d world loaded' -and -not $started) { $started = $true; $loadedAt = Get-Date }
