@@ -1,0 +1,15 @@
+# build
+[19:10:13.053] [info ] NightCoop loading, protocol version 143, build bacb705 (Oct 27 2026 14:47:44)
+[19:10:13.053] [info ] game version 2.5 (exe 3.0.88.46235)
+
+# first time, vote #63
+[21:22:22.062] [info ] dialog vote #63: we vote for option 4 'How much do you know about Rocky Ridge?' (item 0x302) (our press)
+[21:22:22.062] [info ] scene skip: we skip the cutscene of scene 0x14fa37456a18f706 (node 1753: the player's "cancel") — the partners skip it at that node too: at once, or when theirs comes in this run of the scene (skip_cut_by_run)
+[21:22:22.429] [info ] dialog vote #63: option 4 applied here (press replayed through the interaction manager)
+[21:22:24.064] [warn ] vehicles: net id 0x0003de72: our own quest car 0x897f60 was moved 822 m by our own game (a scene or quest teleport) to (2549.0, -74.6, 81.1) (our game's vehicleTeleportEvent to (2549.0, -74.6, 81.1); the car is 0.0 m from it; the in-frame stage held off it: mirror_game_teleport) (root at (2549.0, -74.6, 81.1), physics mask 0x5a0, physics body yes, in the last scan of the world), in it: seat_front_left 0x89614e, seat_front_right 0x1 (our player) — NightCoop does not put it back by the host's old snapshots: it waits until the host's track comes to it (up to 25 s; mirror_game_jump; #14)
+
+# second time, vote #76
+[21:31:10.995] [info ] dialog vote #76: we vote for option 4 'How much do you know about Rocky Ridge?' (item 0x302) (our press)
+[21:31:10.995] [info ] scene skip: we skip the cutscene of scene 0x14fa37456a18f706 (node 1753: the player's "cancel") — the partners skip it at that node too: at once, or when theirs comes in this run of the scene (skip_cut_by_run)
+[21:31:11.362] [info ] dialog vote #76: option 4 applied here (press replayed through the interaction manager)
+[21:31:12.961] [warn ] vehicles: net id 0x0003dfac: our own quest car 0x897f60 was moved 853 m by our own game (a scene or quest teleport) to (2549.0, -74.6, 81.1) (our game's vehicleTeleportEvent to (2549.0, -74.6, 81.1); the car is 0.0 m from it; the in-frame stage held off it: mirror_game_teleport) (root at (2549.0, -74.6, 81.1), physics mask 0x5a0, physics body yes, in the last scan of the world), in it: seat_front_left 0x89614e, seat_front_right 0x1 (our player) — NightCoop does not put it back by the host's old snapshots: it waits until the host's track comes to it (up to 25 s; mirror_game_jump; #15)

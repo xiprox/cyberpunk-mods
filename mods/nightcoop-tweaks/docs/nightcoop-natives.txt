@@ -1,0 +1,187 @@
+# NightCoop's script natives, from `python -I tools/re/ncre.py natives` on NightCoop build bacb705.
+# name(parameter types) -> return type  @address of the native in that build
+
+NightCoopHost(Int32) -> Bool  @180b47bd0
+NightCoopJoin(String, Int32) -> Bool  @180b48bc0
+NightCoopHostHub(String, Int32) -> String  @180b47c90
+NightCoopHostOnline() -> String  @180b48150
+NightCoopPuppetDrive(Bool) -> Bool  @180b52db0
+NightCoopJoinHub(String, Int32, String) -> String  @180b49090
+NightCoopJoinCode(String) -> String  @180b48cf0
+NightCoopMenu() -> String  @180b4b8f0
+NightCoopMenuOn(Bool) -> String  @180b4ba20
+NightCoopKick(Int32) -> String  @180b49a50
+NightCoopName(String) -> String  @180b4cc20
+NightCoopHubDirect(Bool) -> Bool  @180b48480
+NightCoopCode() -> String  @180b44b20
+NightCoopStop() -> Bool  @180b61d70
+NightCoopStatus() -> String  @180b61c30
+NightCoopPeerCount() -> Int32  @180b50400
+NightCoopRtt() -> Float  @180b5f8d0
+NightCoopSubmit(Float, Float, Float, Float, Float) -> Bool  @180b62ca0
+NightCoopRemoteInfo(Int32) -> String  @180b5ebf0
+NightCoopGiveItem(String, Int32, Int32) -> String  @180b46ff0
+NightCoopInventoryStatus() -> String  @180b48a60
+NightCoopLootStatus() -> String  @180b4b4c0
+NightCoopVehicleStatus() -> String  @180b65760
+NightCoopVehicleDump() -> String  @180b65030
+NightCoopVehicles(Bool) -> String  @180b65a60
+NightCoopVehicleTraffic(Bool) -> String  @180b65890
+NightCoopVehiclePlacement(String) -> String  @180b65160
+NightCoopVehicleSeats(String) -> String  @180b65460
+NightCoopSessionStatus() -> String  @180b61170
+NightCoopToHost() -> String  @180b62fa0
+NightCoopPreSessionSave(Bool) -> Bool  @180b51190
+NightCoopTravelScreen(Bool) -> Bool  @180b64f70
+NightCoopDowned(Bool) -> Bool  @180b46490
+NightCoopPassOut() -> String  @180b50070
+NightCoopPvp(Bool) -> String  @180b54330
+NightCoopPvpSet(String, Float) -> String  @180b54510
+NightCoopPvpStatus() -> String  @180b54850
+NightCoopFxStatus() -> String  @180b46ec0
+NightCoopHackStatus() -> String  @180b47540
+NightCoopPromo(String) -> String  @180b51b80
+NightCoopPhoto(String) -> String  @180b50430
+NightCoopChallenge(Int32) -> String  @180b44440
+NightCoopChallengeSet(String, Int32) -> String  @180b446d0
+NightCoopChallengeStatus() -> String  @180b449f0
+NightCoopQuestStatus() -> String  @180b5d0e0
+NightCoopDestructionStatus() -> String  @180b45f60
+NightCoopDestructionSet(String, Bool) -> String  @180b45b00
+NightCoopQuestDump() -> String  @180b54ac0
+NightCoopQuests(Bool) -> String  @180b5e8c0
+NightCoopQuestSet(String, Bool) -> String  @180b54e80
+NightCoopHudPlace(Float, Float, Float, Float) -> String  @180b485b0
+NightCoopMarkers(String) -> String  @180b4b5f0
+NightCoopStorySet(String, Float) -> String  @180b61ed0
+NightCoopStoryPull() -> String  @180b61da0
+NightCoopQuestResync() -> String  @180b54d50
+NightCoopQuestVote(Int32) -> String  @180b5e520
+NightCoopQuestVoteTimeout(Int32) -> String  @180b5e6f0
+NightCoopRide() -> String  @180b5f320
+NightCoopRideStatus() -> String  @180b5f770
+NightCoopRideSet(String, Bool) -> String  @180b5f450
+NightCoopGoAlone() -> String  @180b47400
+NightCoopStoryStatus() -> String  @180b62310
+NightCoopHostWorld() -> String  @180b48350
+NightCoopCampaign() -> String  @180b44310
+NightCoopFrames() -> Int32  @180b46ea0
+NightCoopBridgeStatus() -> String  @180b440e0
+NightCoopAutoPublish(Bool) -> Bool  @180b43ac0
+NightCoopPuppets() -> String  @180b540f0
+NightCoopPuppetsEnable(Bool) -> Bool  @180b54110
+NightCoopPuppetTest(Float, Float, Float) -> Bool  @180b53e20
+NightCoopPuppetClear() -> Bool  @180b525c0
+NightCoopPuppetRecord(String) -> Bool  @180b537b0
+NightCoopPuppetAnim(Bool) -> Bool  @180b520c0
+NightCoopPuppetBody(Bool) -> Bool  @180b52430
+NightCoopAnimTap(Int32) -> Bool  @180b437a0
+NightCoopAnimProbe() -> Bool  @180b43780
+NightCoopAnimWrapper(String, Float) -> None  @180b43870
+NightCoopPuppetGraph(Bool) -> Bool  @180b531a0
+NightCoopPuppetFire(Bool) -> Bool  @180b52e80
+NightCoopPuppetBullets(Bool) -> Bool  @180b524f0
+NightCoopWorld() -> String  @180b65e00
+NightCoopNoPause(Bool) -> Bool  @180b4dd70
+NightCoopLiveMenuBackground(Bool) -> Bool  @180b49c40
+NightCoopMirrorSlowdown(Bool) -> Bool  @180b4c850
+NightCoopPauseSource(String) -> Bool  @180b501a0
+NightCoopSlowdownValue(Float) -> Bool  @180b61860
+NightCoopSandevistanRadius(Float) -> String  @180b5fad0
+NightCoopSandevistanTest(Float, Float, Float) -> String  @180b60050
+NightCoopLocalState() -> String  @180b49d10
+NightCoopBlockPause() -> Bool  @180b43d00
+NightCoopIsConnected() -> Bool  @180b48b90
+NightCoopPuppetTemplate(String, String) -> Bool  @180b53a50
+NightCoopEcho(Bool) -> Bool  @180b46560
+NightCoopAddonStatus() -> String  @180b42840
+NightCoopEchoDelay(Int32) -> Bool  @180b46630
+NightCoopEchoOffset(Float) -> Bool  @180b46700
+NightCoopEchoStatus() -> String  @180b467d0
+NightCoopPuppetMode(String) -> Bool  @180b53270
+NightCoopAnimEvent(String) -> Int32  @180b42c70
+NightCoopAnimInput(String, String, String) -> Int32  @180b43340
+NightCoopAnimFeature(String, String, String) -> Int32  @180b42f10
+NightCoopAnimDuration(String) -> String  @180b42970
+NightCoopPuppetComponent(String, Bool) -> Int32  @180b525e0
+NightCoopPuppetPlacer(String) -> Bool  @180b53510
+NightCoopPuppetComponents() -> String  @180b52b50
+NightCoopPuppetVisuals(Bool) -> String  @180b53f20
+NightCoopPuppetDress() -> String  @180b52c80
+NightCoopMirrorDump() -> String  @180b4c0e0
+NightCoopMirrorSpine(String) -> String  @180b4c920
+NightCoopMirrorBodies(Int32) -> String  @180b4bbf0
+NightCoopBodyTpp(Bool) -> Bool  @180b44020
+NightCoopMirrorFloat(String, Float) -> String  @180b4c210
+NightCoopMirrorFloatClear(String) -> String  @180b4c330
+NightCoopMirrorBool(String, Bool) -> String  @180b4bdc0
+NightCoopPoseFix(String) -> String  @180b50750
+NightCoopPoseFixLowReady(Float, Float) -> String  @180b50a50
+NightCoopPoseFixStatus() -> String  @180b51060
+NightCoopPoseFixSet(String, Float) -> String  @180b50d20
+NightCoopTpp(Bool) -> String  @180b630d0
+NightCoopTppStatus() -> String  @180b64e40
+NightCoopTppProbe(String, String, Float) -> String  @180b64600
+NightCoopTppClip(String, String) -> String  @180b63190
+NightCoopTppSet(String, Float) -> String  @180b64b00
+NightCoopTppLegs(Bool) -> String  @180b63680
+NightCoopTppLegsStatus() -> String  @180b63b90
+NightCoopTppLegsSet(String, Float) -> String  @180b63850
+NightCoopTppLegsStyle(String) -> String  @180b63cc0
+NightCoopNetCheck(String) -> String  @180b4cf20
+NightCoopNetCheckStatus() -> String  @180b4d3b0
+NightCoopAutoTest() -> String  @180b43bd0
+NightCoopNetSim(Int32, Int32, Float) -> String  @180b4d4e0
+NightCoopNetStats(Int32) -> String  @180b4da20
+NightCoopLogSave(String) -> String  @180b4a0a0
+NightCoopNpcMirror(Int32) -> String  @180b4e720
+NightCoopNpcMirrorStop() -> String  @180b4f2e0
+NightCoopNpcMirrorSet(String, Float) -> String  @180b4ede0
+NightCoopNpcMirrorAi(Bool) -> String  @180b4e7e0
+NightCoopNpcMirrorKey(String, Int32) -> String  @180b4eac0
+NightCoopNpcMirrorStatus() -> String  @180b4f1b0
+NightCoopNpcOwners() -> String  @180b4f410
+NightCoopNpcOwnersDump() -> String  @180b4f430
+NightCoopNpcOwnersOn(Bool) -> String  @180b4f670
+NightCoopNpcOwnersRadius(String, Float) -> String  @180b4f840
+NightCoopNpcHandoff(Int32, Int32) -> String  @180b4e310
+NightCoopNpcCrowd(Bool) -> String  @180b4df70
+NightCoopNpcOwnersSet(String, Bool) -> String  @180b4fb80
+NightCoopEnemy(String, Float) -> String  @180b46900
+NightCoopEnemyClear() -> String  @180b46a20
+NightCoopEnemyStatus() -> String  @180b46d70
+NightCoopSandevistanSphere(Int32) -> String  @180b5fe30
+NightCoopSandevistanDust(Bool) -> String  @180b5f900
+NightCoopSandevistanZone(Bool) -> String  @180b60ca0
+NightCoopSandevistanTrail(Bool) -> String  @180b60330
+NightCoopSandevistanTrailSet(String, Float) -> String  @180b607a0
+NightCoopWanted(Bool) -> String  @180b65c30
+NightCoopNpcList() -> String  @180b4e5f0
+NightCoopNpcDump(Int32) -> String  @180b4e140
+NightCoopNpcClear() -> String  @180b4de40
+NightCoopDamageLog(Int32) -> String  @180b44e30
+NightCoopDamageGate(Bool) -> String  @180b44c60
+NightCoopDamageStatus() -> String  @180b45690
+NightCoopLook() -> String  @180b4a930
+NightCoopLookTest(String, String) -> String  @180b4b110
+NightCoopPartnerAsPlayer(Int32) -> String  @180b4fea0
+NightCoopThreats() -> String  @180b62e70
+NightCoopSenses() -> String  @180b61040
+NightCoopRemotePlayer(Bool) -> String  @180b5ef80
+NightCoopRemoteTemplate(Bool) -> String  @180b5f150
+NightCoopSolidBodies(String) -> String  @180b61930
+NightCoopBodyHitShapes(String) -> String  @180b43d20
+NightCoopScriptPlayer(Bool) -> String  @180b60e70
+NightCoopDamageLoopback(Bool) -> String  @180b45000
+NightCoopDamageReplay() -> String  @180b45390
+NightCoopDamageStage(Bool) -> String  @180b454c0
+NightCoopDamageSuppress(Bool) -> String  @180b45930
+NightCoopTppMelee(Bool) -> String  @180b63fc0
+NightCoopTppMeleeStatus() -> String  @180b644d0
+NightCoopTppMeleeSet(String, Float) -> String  @180b64190
+NightCoopPuppetComponentClass(String, Bool) -> String  @180b52710
+NightCoopPuppetGive(String, Bool) -> Int32  @180b52f50
+NightCoopPuppetAppearance(String) -> Int32  @180b52190
+NightCoopProbeClass(String, Bool) -> String  @180b51260
+NightCoopProbeRecord(String) -> String  @180b51580
+NightCoopProbeResource(String) -> String  @180b51880

@@ -1,0 +1,11 @@
+# Files CET writes in the mod's folder (the game's mods folder links here)
+cet/NightCoopTweaks/*.log
+cet/NightCoopTweaks/db.sqlite3
+cet/NightCoopTweaks/settings.json
+
+# The partner zip from tools/pack.ps1
+/dist/
+
+# The disassembly from `tools/re/ncre.py disasm`
+/build/
+__pycache__/
