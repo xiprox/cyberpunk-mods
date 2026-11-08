@@ -91,7 +91,7 @@ python -I tools/check.py
   - `log.lua`: problems, logged once each and listed in Diagnostics
 - `cet/NightCoopTweaks/tweaks/<tweak>/` is one tweak, `tweak.lua` its entry; `sendmoney/` has `money.lua` (balance and sending), `menu.lua` (its partner-menu steps) and `window.lua` (its window section); `bikeseat/` is the one file.
 - `tools/link.ps1` and `tools/pack.ps1` install the mod here and package it for a partner; `tools/check.py` checks its Lua.
-- `tools/re/ncre.py` reads NightCoop's disassembly, below.
+- `../../tools/ncre.py` reads NightCoop's disassembly, below.
 - `docs/nightcoop-natives.txt` lists NightCoop's script natives with their signatures.
 
 ## Adding a tweak
@@ -134,15 +134,15 @@ A hook that throws is written to the log once and stays off until Reload All Mod
 ## Reading NightCoop
 
 NightCoop is closed source, and its script natives aren't documented.
-`tools/re/ncre.py` finds them in the DLL's disassembly (it needs `llvm-objdump` on the PATH):
+`../../tools/ncre.py` finds them in the DLL's disassembly (it needs `llvm-objdump` on the PATH):
 
 ```bash
-python -I tools/re/ncre.py disasm
+python -I ../../tools/ncre.py disasm
 ```
 
 ```bash
-python -I tools/re/ncre.py natives
+python -I ../../tools/ncre.py natives
 ```
 
-Then `fn`, `strings`, `where` and `xref` show a native's code and the strings it uses; `python -I tools/re/ncre.py --help` lists them.
+Then `fn`, `strings`, `where` and `xref` show a native's code and the strings it uses; `python -I ../../tools/ncre.py --help` lists them.
 After a NightCoop update, regenerate `docs/nightcoop-natives.txt` and check that the natives the mod calls kept their signatures.

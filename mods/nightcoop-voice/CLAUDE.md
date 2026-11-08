@@ -18,7 +18,7 @@ build/Release/voice_test.exe
 ```
 
 ```bash
-powershell -File tools/check-scripts.ps1
+powershell -File ../../tools/check-scripts.ps1 -Mod nightcoop-voice
 ```
 
 ```bash

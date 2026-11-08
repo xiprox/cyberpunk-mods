@@ -1,4 +1,4 @@
-# NightCoop's script natives, from `python -I tools/re/ncre.py natives` on NightCoop build bacb705.
+# NightCoop's script natives, from `python -I tools/ncre.py natives` on NightCoop build bacb705.
 # name(parameter types) -> return type  @address of the native in that build
 
 NightCoopHost(Int32) -> Bool  @180b47bd0

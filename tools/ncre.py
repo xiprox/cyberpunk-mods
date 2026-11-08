@@ -21,7 +21,7 @@ import struct
 import subprocess
 import sys
 
-REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GAME = r"C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077"
 DEFAULT_DLL = os.path.join(GAME, r"red4ext\plugins\NightCoop\NightCoop.dll")
 DEFAULT_ASM = os.path.join(REPO, "build", "NightCoop.asm")

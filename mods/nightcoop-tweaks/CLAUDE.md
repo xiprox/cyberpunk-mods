@@ -4,7 +4,7 @@ Personal Cyber Engine Tweaks additions to the NightCoop co-op mod; [README.md](R
 `RECORD.md` holds what we found and decided, newest entry first; add an entry when a finding or decision changes how the mod works, and keep its "Not yet checked in the game" line current.
 
 - The game's mods folder links to `cet/NightCoopTweaks` (`tools/link.ps1`), so edit files here, never in the game folder; the user loads changes with CET's Reload All Mods.
-- Look game APIs up before using them: the script sources in `<game>\tools\redmod\scripts` and NightCoop's `rtti-names-*.txt`. NightCoop's own natives are in `docs/nightcoop-natives.txt`, and `tools/re/ncre.py` reads more of its DLL.
+- Look game APIs up before using them: the script sources in `<game>\tools\redmod\scripts` and NightCoop's `rtti-names-*.txt`. NightCoop's own natives are in `docs/nightcoop-natives.txt`, and `../../tools/ncre.py` reads more of its DLL.
 - Friends run zips from `tools/pack.ps1`; raise `VERSION` in `init.lua` before packing a build that differs from one already sent, so their logs say which build they ran.
 - Run `python -I tools/check.py` after every Lua change and fix what it reports. It parses with LuaJIT and flags stray and misspelt globals, but only the game runs the mod, so still say what went untested there.
 - Each tweak is a folder `cet/NightCoopTweaks/tweaks/<tweak>/` with `tweak.lua` as its entry, listed in `TWEAKS` in `init.lua` (README, "Adding a tweak"). It keeps its own code in its folder.

@@ -96,7 +96,7 @@ if(EXISTS "${RED4EXT_SDK_DIR}/CMakeLists.txt")
     add_subdirectory("${RED4EXT_SDK_DIR}" red4ext_sdk EXCLUDE_FROM_ALL)
 
     add_library(NightCoopVoice SHARED src/plugin/main.cpp src/plugin/keys.cpp)
-    target_include_directories(NightCoopVoice PRIVATE src "${CMAKE_SOURCE_DIR}/../nightcoop-sdk/include")
+    target_include_directories(NightCoopVoice PRIVATE src "${CMAKE_SOURCE_DIR}/../../vendor/nightcoop-sdk/include")
     target_link_libraries(NightCoopVoice PRIVATE voicecore RED4ext::SDK user32)
     target_compile_definitions(NightCoopVoice PRIVATE
         NCV_VERSION="${PROJECT_VERSION}"
