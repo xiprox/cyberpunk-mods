@@ -1,0 +1,8 @@
+# CMake's output, including build/stage
+/build/
+
+# The zips for the crew, kept on disk
+/dist/
+
+# Measurements from test runs
+/experiments/
