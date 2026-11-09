@@ -2,7 +2,7 @@
 # can't appear over the running game. The game's own cache isn't touched: the output goes to the temp folder.
 #   powershell -File tools/check-scripts.ps1 -Mod nightcoop-voice
 param(
-    [Parameter(Mandatory = $true)][ValidateSet('nightcoop-voice', 'vehicle-customizer')][string]$Mod,
+    [Parameter(Mandatory = $true)][ValidateSet('nightcoop-voice', 'vehicle-customizer', 'headset')][string]$Mod,
     [int]$Seconds = 90
 )
 $g = 'C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077'
@@ -23,6 +23,11 @@ switch ($Mod) {
         $ours = @(Get-Item "$p\game\scripts")
         $skipPlugins = @('NightCoopVoice')
         $warn = 'WARN.*NightCoopVoice|NightCoopVoice.*(error|WARN)'
+    }
+    'headset' {
+        $ours = @(Get-Item "$p\game\scripts")
+        $skipPlugins = @('Headset')
+        $warn = 'WARN.*HeadsetNative|HeadsetNative.*(error|WARN)'
     }
     'vehicle-customizer' {
         foreach ($root in 'test', 'dev', 'mod') {

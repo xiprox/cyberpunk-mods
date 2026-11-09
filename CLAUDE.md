@@ -33,7 +33,8 @@ Each folder in `mods/` is its own mod project; read its CLAUDE.md, README.md and
 
 ## The repo
 
-- This folder is one git repo for all the mods, with no remote. Claude commits only when asked, and proposes every commit's title and description first. Each mod's CLAUDE.md has its commit rules; changes to the repo itself use the scope `repo`.
+- This folder is one git repo for all the mods, private on GitHub as `xiprox/cyberpunk-mods`. Claude commits and pushes only when asked, and proposes every commit's title and description first.
+- The mods in `release-please-config.json` are released from here (README). Don't edit their `version.txt`, their `CHANGELOG.md` or `.release-please-manifest.json` by hand, and keep each commit to one mod's folder, since release-please goes by the files a commit touches. Each mod's CLAUDE.md has its commit rules; changes to the repo itself use the scope `repo`.
 - Mods moved into `mods/` and the SDK into `vendor/` on 2026-11-08, so older RECORD.md entries name the old paths.
 - Build output, zips, test-run pictures, recordings and dumps of game files stay on disk but out of git. The vehicle customizer's scouting pictures are in git, and so are the reports of the test runs its RECORD.md cites.
 

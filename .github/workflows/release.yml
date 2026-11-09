@@ -1,0 +1,96 @@
+# release-please reads the conventional commits on main and keeps one release pull request open for each mod in
+# release-please-config.json, with its next version and changelog. Merging one tags the version and publishes a GitHub
+# release, and only then does that mod's job run: it builds and tests the mod, attaches a zip laid out as the game
+# folder is, and uploads the same zip to Nexus Mods. To release another mod, add its outputs and a job like headset's.
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    outputs:
+      headset_created: ${{ steps.release.outputs['mods/headset--release_created'] }}
+      headset_tag: ${{ steps.release.outputs['mods/headset--tag_name'] }}
+      headset_version: ${{ steps.release.outputs['mods/headset--version'] }}
+      headset_body: ${{ steps.release.outputs['mods/headset--body'] }}
+    steps:
+      - uses: googleapis/release-please-action@v5
+        id: release
+
+  headset:
+    needs: release-please
+    if: needs.release-please.outputs.headset_created == 'true'
+    runs-on: windows-latest
+    env:
+      TAG: ${{ needs.release-please.outputs.headset_tag }}
+      VERSION: ${{ needs.release-please.outputs.headset_version }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Get RED4ext.SDK
+        run: ./tools/fetch-red4ext-sdk.ps1
+
+      # No -G, so CMake picks the newest Visual Studio on the runner image.
+      - name: Configure
+        run: cmake -S mods/headset -B mods/headset/build -A x64
+
+      - name: Build
+        run: cmake --build mods/headset/build --config Release --target headset_test Headset
+
+      - name: Test
+        run: ./mods/headset/build/Release/headset_test.exe
+
+      - name: Attach the zip to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cmake --install mods/headset/build --config Release --prefix stage
+          $zip = "Headset-$env:VERSION.zip"
+          # Windows' own tar writes forward slashes, and the tar that Git puts on the runner can't make a zip.
+          & "$env:SystemRoot\System32\tar.exe" -a -cf $zip -C stage archive bin red4ext
+          if ($LASTEXITCODE -ne 0) { throw 'tar failed' }
+          gh release upload $env:TAG $zip --repo $env:GITHUB_REPOSITORY
+
+      # Nexus Mods only takes a new version of a file already on the mod page, so the first upload is
+      # made by hand on the site. Until the repository has both variables, a release skips these steps.
+      - name: Turn the release notes into a Nexus Mods changelog
+        id: notes
+        if: vars.NEXUSMODS_HEADSET_MOD_ID != '' && vars.NEXUSMODS_HEADSET_FILE_ID != ''
+        env:
+          BODY: ${{ needs.release-please.outputs.headset_body }}
+        run: |
+          # Nexus takes one entry per line and shows Markdown as typed, so keep only the list items,
+          # without the "* ", the scope such as "**settings:** ", or the links such as
+          # " ([1a2b3c4](https://...))". A breaking change is listed twice, under its own heading and
+          # its type's, so it's kept once.
+          $entries = $env:BODY -split '\r?\n' | Where-Object { $_ -match '^\* ' } | ForEach-Object {
+            $entry = $_ -replace '^\* (\*\*[^*]+:\*\* )?', '' -replace ' \(\[[^\]]+\]\([^)]+\)\)', ''
+            $entry.Substring(0, 1).ToUpper() + $entry.Substring(1)
+          }
+          $notes = ($entries | Select-Object -Unique) -join "`n"
+          $delimiter = "EOF$([guid]::NewGuid().ToString('N'))"
+          "changelog<<$delimiter", $notes, $delimiter | Out-File -Append -FilePath $env:GITHUB_OUTPUT
+
+      - name: Upload to Nexus Mods
+        if: steps.notes.outcome == 'success'
+        uses: Nexus-Mods/upload-action@98532f7670c27cbecc78fae03fa3e278147827e2 # v1.0.0-beta.11
+        with:
+          api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+          mod_id: ${{ vars.NEXUSMODS_HEADSET_MOD_ID }}
+          file_id: ${{ vars.NEXUSMODS_HEADSET_FILE_ID }}
+          filename: Headset-${{ env.VERSION }}.zip
+          version: ${{ env.VERSION }}
+          display_name: Headset
+          changelog: ${{ steps.notes.outputs.changelog }}
+          archive_existing_version: true
+          update_mod_version: true
+          # Keeps mod managers' default download on the newest version, as the first upload was.
+          primary_mod_manager_download: true
