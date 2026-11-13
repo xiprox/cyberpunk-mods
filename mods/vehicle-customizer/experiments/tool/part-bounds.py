@@ -11,7 +11,7 @@ import struct
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "areas", "game-files"))
+sys.path.insert(0, os.path.join(HERE, "..", "..", "..", "..", "tools"))
 import pkg  # noqa: E402
 import rdar  # noqa: E402
 

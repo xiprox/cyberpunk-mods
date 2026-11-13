@@ -2,7 +2,8 @@
 
 Input: the vehicle records the game itself dumped (dev/runs/*/vehicle-records.jsonl, from the autotest job
 "dump": each record's entity file, look, localized name, kind and whether the garage lists it), and the game's
-archives, read with the probes' readers (experiments/areas/game-files, needing its data/parts.json).
+archives, read with the repo's readers (tools/rdar.py and tools/pkg.py), and the probes' data/parts.json
+(experiments/areas/game-files).
 
 A catalog is per entity file (.ent), since that is what a copy of a record can wear; its options come from the
 whole model family, every look file of the same car. For each it writes:
@@ -35,7 +36,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 PROBES = os.path.join(ROOT, "experiments", "areas", "game-files")
-sys.path.insert(0, PROBES)
+sys.path.insert(0, os.path.join(ROOT, "..", "..", "tools"))
 import pkg  # noqa: E402
 import rdar  # noqa: E402
 
