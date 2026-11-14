@@ -8,7 +8,8 @@ Installed: a 0.4.9 test build on the user's PC on 2026-11-10, with the commented
 Played on 0.4.7 on 2026-11-09 (user): "I've been playing with it. it's good", and the two others have had no issues, one on Linux. All three logs show the effect on 29 of 29 places.
 Heard and approved on 0.3.1 (user): shots in noise cancelling ("great"), driving with the radio in noise cancelling ("very good"), your own shots in clamping ("very good"), firing during a V line in both modes ("great"), and standing and walking somewhere quiet ("great").
 Also heard: grenades and a close explosion ("good"), burning wrecks ("wrecks are good too"), and NPC gunfire at offset 136 ("good"). The user called the tuning good on 2026-11-08, with every live value then matching the source, `grunt_body_db=8` being the last to carry over.
-Not yet checked in the game: the commented-out tuning file and moving old ones aside, which the log's `tuning: moved an old tuning file aside` line will show. 0.4.8's car radio and its thump on others' guns and blasts. 0.4.9's Wwise build check.
+Played on that build from 2026-11-12 to 14 by the user, Bleack, Bossun and Ecto: every log has `Wwise build 7e701, on 9 of the game's effects` and the effect on 41 of 41 places, so 0.4.8's twelve car radio buses take it. Every log reads `recoil 12 dB, thump 6 dB`, Bleack's and Bossun's included, and the user's old file is `tuning.old.ini`, so the old files were moved aside, though no collected log has the line saying so.
+Not yet checked in the game: 0.4.8's car radio and its thump on others' guns and blasts, by ear. The Wwise build check turning the mod off, which only a patch or the test shows.
 
 ## 2026-11-10: The tuning file no longer holds old values
 
@@ -18,7 +19,7 @@ Now (user): the mod writes the file with every value commented out, its first li
 ## 2026-11-09: Off on any Wwise but the one it was made for
 
 For publishing on Nexus (user). The effect is called through positions read from 2.5's exe, so a patch that moves Wwise could crash. The bank we make is version 150, so a change of bank version already fails safely at `LoadBankMemoryCopy`; a smaller Wwise update wouldn't.
-0.4.9 counts `mov dword ptr [rdx+4], 0x7E701` in the exe's code before touching Wwise, which is how each of the game's effects fills in its build number. 2.5 has nine; one more says `0x7E501`, so a stray can outlive an update, and it needs five or more. Below that it logs why and stays off. The count on the exe file is nine; the in-game line `Wwise build 7e701, on 9 of the game's effects` hasn't been seen yet.
+0.4.9 counts `mov dword ptr [rdx+4], 0x7E701` in the exe's code before touching Wwise, which is how each of the game's effects fills in its build number. 2.5 has nine; one more says `0x7E501`, so a stray can outlive an update, and it needs five or more. Below that it logs why and stays off. The count on the exe file is nine, and from 2026-11-12 every player's log has the in-game line `Wwise build 7e701, on 9 of the game's effects`.
 Also in 0.4.9: your own gun's `recoil_db` starts at 12 (user), which is what the user had live while playing 0.4.7.
 
 ## 2026-11-08: A thump for other people's guns and for blasts
