@@ -11,11 +11,11 @@ Outside Passthrough, you hear yourself from the inside: V's voice and breathing 
 
 ## Using it
 
-The headset key is the comma key (`,`) by default, and you can change it in Settings > Mods > Headset.
+The headset key is the comma key (`,`) by default, and you can change it under Mods > Headset in the main menu or the pause menu.
 
 - **Tap** it for the next mode.
 - **Hold** it to pick a mode from a wheel.
-  In co-op time doesn't slow down, so pick a safe moment.
+  In co-op, time doesn't slow down while the wheel is open, so pick a safe moment.
 
 ## What it needs
 
@@ -35,7 +35,7 @@ To remove it, delete `red4ext/plugins/Headset`, `bin/x64/plugins/cyber_engine_tw
 
 ## Known limits
 
-Sliding, the Fortified Ankles' charged jump, and Superhero Landing come through unchanged, along with a few other cyberware sounds.
+Sliding, the Fortified Ankles' charged jump, and Superhero Landing come through unchanged.
 
 ## Bug reports
 
@@ -47,17 +47,17 @@ Close the game and attach the newest `red4ext/logs/headset-*.log` from the game 
 
 Headset is a RED4ext plugin that registers a Wwise effect plug-in with the game's own Wwise, whose functions the game's exe exports by name, and puts that effect on the game's buses.
 A detector on each bus that carries bangs, such as `Guns_Firing`, turns the bus's level into an estimate of real-world loudness, with an offset for each bus.
-A clamp on each bus a headset's microphones would pick up turns that bus down by how far the loudest estimate is over the threshold, and adds the leak through the cups.
-Noise cancelling is three bands on the same buses, and V's voice gets its body path on `VO_V` and `VO_V_Onos`.
-The starting values are in `src/headset/control.hpp`, and [RECORD.md](RECORD.md) says why each part is the way it is, and what the game's banks showed.
+A clamp on each bus a headset's microphones would pick up turns that bus down by how far the detectors' estimates, added as power, are over the threshold, and adds the leak through the cups.
+Noise cancelling is three bands on the same buses, and V's voice and breathing get their body path on `VO_V` and `VO_V_Onos`.
+The starting values are in `src/headset/control.hpp`, each detector's offset is in `src/wwise/places.hpp`, and [RECORD.md](RECORD.md) says why each part is the way it is, and what the game's banks showed.
 
 The effect's interface was read from the game's exe, not from a Wwise SDK, so before touching Wwise the plugin checks that the game's effects carry the build number `src/wwise/ak.hpp` was read from (`kBuildVersion`, at least `kMinBuildStamps` of them).
 On any other build it logs why and stays off.
 
 ### For other mods adding Wwise effects
 
-A bus has four effect slots, and `SetBusEffect` silently replaces whatever is in the one it's given, so stay clear of these.
-The game's own effects take the low slots on many buses.
+A bus has four effect slots, and `SetBusEffect` puts an effect in the one it's given, replacing what's there (unverified: we haven't put an effect over one of the game's), so stay clear of these.
+Each slot in the table is the highest one the game's `init.bnk` leaves free on that bus.
 `src/wwise/places.hpp` is the source of this table, so change both together.
 
 | Bus | Slot | Use |
