@@ -1,6 +1,10 @@
 __pycache__/
 *.pyc
 
+# Claude Code's worktrees and per-machine settings; the rules and agents in .claude/ are shared
+/.claude/worktrees/
+/.claude/settings.local.json
+
 # The disassembly from tools/ncre.py
 /build/
 

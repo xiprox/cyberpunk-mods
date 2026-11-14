@@ -1,6 +1,7 @@
 # Cyberpunk 2077 mods
 
 Each folder in `mods/` is its own mod project; read its CLAUDE.md, README.md and RECORD.md first. This file holds what all of them share.
+How everything is written, from a README to a commit message, and when to run the `doc-reviewer` agent, is in [.claude/rules/writing.md](.claude/rules/writing.md).
 
 ## A mod's own files
 
@@ -12,16 +13,16 @@ Each folder in `mods/` is its own mod project; read its CLAUDE.md, README.md and
 
 ## The game and the crew
 
-- The game is in `C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077` (2.5, with Cyber Engine Tweaks, Codeware, TweakXL, ArchiveXL, RED4ext and NightCoop). Look game APIs up before using them: `<game>\tools\redmod\scripts`, and Codeware's `Scripts\Codeware.Global.reds`.
+- The game is in `C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077` (2.5, with Cyber Engine Tweaks, Codeware, TweakXL, ArchiveXL, RED4ext and NightCoop). Look game APIs up before using them: `<game>/tools/redmod/scripts`, and Codeware's `Scripts/Codeware.Global.reds`.
 - The crew: `xip` is the user, on this PC. Bossun's log folder is `Bobson` (an older one `bossun`), his NightCoop name is `B`, and his clock is 7 h behind; he hosts from North America. Bleack runs Linux (CachyOS, GOG), clock 1 h ahead.
 - For anything in the game, read the logs first. The user's log collector is Choom Collector (`C:\Users\wayne\dev\tools\choom-collector`, a rewrite of CP77 Log Collector), which writes one folder per session with a folder per player inside: `C:\Users\wayne\Documents\Choom Collector Logs\<YYYY-MM-DD> <code>\<player>`. Logs from before the switch (2026-11-13) stay in the old app's `C:\Users\wayne\Documents\CP77 Collected Logs\<player>`, with no session level. In a player's folder, NightCoop's log is at `game\red4ext\plugins\NightCoop\nightcoop.log` and its crashes in `nightcoop-crash.log`.
-- The crew gets mods through the collector's Mods tab: it shares folders only, from a fixed list of places, so an archive goes in a folder of its own inside `archive\pc\mod` (the game loads it from there). Don't change either collector's code unless plainly asked.
+- The crew gets mods through the collector's Mods tab: it shares folders only, from a fixed list of places, so an archive goes in a folder of its own inside `archive/pc/mod` (the game loads it from there). Don't change either collector's code unless plainly asked.
 
 ## While the game runs
 
 - Never install while the game runs, and never close it without being asked. While the user is testing in the game, edit code only and wait for "install and restart".
 - Running the game unattended needs the user's permission for that day. The game takes keys only while its window is in front, and the loading screen after a save waits for one, so an automated run needs the game in front after the save loads; the user keeps it there.
-- After CET's Reload All Mods, NightCoop's hooks are gone until a restart, so restart before judging co-op behaviour.
+- After CET's Reload All Mods, NightCoop's hooks are gone until a restart, so restart before judging co-op behavior.
 
 ## Lessons that cost a crash or an evening
 
