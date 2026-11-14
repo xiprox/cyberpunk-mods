@@ -2,14 +2,14 @@
 
 Various mods for Cyberpunk 2077, most of them for playing co-op on NightCoop.
 
-| Name                 | What                                                                           |
-| -------------------- | ------------------------------------------------------------------------------ |
-| `headset`            | Hearing protection and noise cancelling, in singleplayer or co-op              |
-| `nightcoop-voice`    | Proximity and radio voice for NightCoop                                        |
-| `nightcoop-tweaks`   | Fixes and small additions to NightCoop: sending money, bike animations, sfx... |
-| `vehicle-customizer` | Customize cars and bikes, with NightCoop support                               |
-| `passenger-radio`    | Set radio from the passenger seat                                              |
-| `no-carry-weight`    | Adds 1000 carry capacity                                                       |
+| Name                                            | What                                                                           |
+| ----------------------------------------------- | ------------------------------------------------------------------------------ |
+| [`headset`](mods/headset)                       | Hearing protection and noise cancelling, in singleplayer or co-op              |
+| [`nightcoop-voice`](mods/nightcoop-voice)       | Proximity and radio voice for NightCoop                                        |
+| [`nightcoop-tweaks`](mods/nightcoop-tweaks)     | Fixes and small additions to NightCoop: sending money, bike animations, sfx... |
+| [`vehicle-customizer`](mods/vehicle-customizer) | Customize cars and bikes, with NightCoop support                               |
+| [`passenger-radio`](mods/passenger-radio)       | Set radio from the passenger seat                                              |
+| [`no-carry-weight`](mods/no-carry-weight)       | Adds 1000 carry capacity                                                       |
 
 ## Shared tools
 
