@@ -37,6 +37,7 @@ A document that's two kinds at once serves neither reader.
 ### README
 
 The players' part comes first, and it's also the mod's Nexus Mods page.
+A mod on Nexus Mods opens its README with the page's header image, 1300×372 px, saved as `header.png` beside the README, so the README and the page look alike.
 Players skim it, reading the headings, the bold words, and the start of each bullet, and every extra line makes them read less.
 So it leaves out what the game shows in the first minutes of play, such as the mode a session starts in, and what anyone who mods the game already knows, such as closing the game before installing.
 It runs in this order, leaving out what a mod doesn't have:
