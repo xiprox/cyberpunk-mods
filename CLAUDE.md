@@ -29,7 +29,7 @@ Each folder in `mods/` is its own mod project; read its CLAUDE.md, README.md and
 - **Codeware natives:** don't pass a `script_ref` parameter straight to one. That corrupted the game's allocator and crashed all three players (NightCoop Voice 0.3.0).
 - **NightCoop's SDK, game thread only:** call it only from `NightCoopSdk.ListenFrame` (every frame) and `Listen` (events). DelaySystem callbacks and a Codeware popup's clicks and refreshes aren't reliably on the game thread, and NightCoop refuses such calls as -2 (NotNow), logging "a mod called a game-thread function of the SDK from another thread". Before reading a -2 as "not now", look for that line. From anywhere else, queue the write for the next frame (vehicle customizer, 2026-11-07).
 - **NightCoop's SDK, docs and protocol:** its docs are in `vendor/nightcoop-sdk/docs` (start with `concepts.md`), and `vendor/nightcoop-sdk/include/nightcoop_sdk.h` is the source of truth. Mod data passes only between players with the same protocol number, so raising it means everyone updates together.
-- **Vehicles in NightCoop:** players' vehicles of one TweakDB record become one car in a session. That's why `nazare-racer-coop` and the vehicle customizer's copies exist.
+- **Vehicles in NightCoop:** players' vehicles of one TweakDB record become one car in a session. That's why the vehicle customizer gives each player a copy of their own.
 
 ## Tools
 

@@ -9,7 +9,6 @@ Each mod's own README says how it's built and installed, and its RECORD.md what 
 | `mods/nightcoop-voice` | Proximity and radio voice for NightCoop |
 | `mods/nightcoop-tweaks` | Cyber Engine Tweaks additions to NightCoop: the partner menu, sending money, bike seats |
 | `mods/vehicle-customizer` | Customize cars and bikes, seen by co-op partners |
-| `mods/nazare-racer-coop` | Racer copies, so two players can each ride one in NightCoop |
 | `mods/passenger-radio` | The radio key the passenger seat lacks |
 | `mods/no-carry-weight` | Adds 1000 carry capacity |
 | `ideas/` | Mods scouted but not started: manual shifting, a drivable bus, partners' sounds, Equipment-EX outfits in co-op |
