@@ -1,20 +1,15 @@
 # Cyberpunk 2077 mods
 
-Our mods for Cyberpunk 2077, most of them for playing co-op on NightCoop.
-Each mod's own README says how it's built and installed, and its RECORD.md what we found and decided.
+Various mods for Cyberpunk 2077, most of them for playing co-op on NightCoop.
 
-| Folder | What |
-|---|---|
-| `mods/headset` | Hearing protection and noise cancelling, in singleplayer or co-op |
-| `mods/nightcoop-voice` | Proximity and radio voice for NightCoop |
-| `mods/nightcoop-tweaks` | Cyber Engine Tweaks additions to NightCoop: the partner menu, sending money, bike seats |
-| `mods/vehicle-customizer` | Customize cars and bikes, seen by co-op partners |
-| `mods/passenger-radio` | The radio key the passenger seat lacks |
-| `mods/no-carry-weight` | Adds 1000 carry capacity |
-| `ideas/` | Mods scouted but not started: manual shifting, a drivable bus, partners' sounds, Equipment-EX outfits in co-op |
-| `vendor/nightcoop-sdk` | NightCoop's SDK and its docs (MIT), which the mods build against |
-| `deps/` | Libraries the mods share, fetched and kept out of git |
-| `tools/` | What more than one mod uses, or isn't about any one mod |
+| Name                 | What                                                                           |
+| -------------------- | ------------------------------------------------------------------------------ |
+| `headset`            | Hearing protection and noise cancelling, in singleplayer or co-op              |
+| `nightcoop-voice`    | Proximity and radio voice for NightCoop                                        |
+| `nightcoop-tweaks`   | Fixes and small additions to NightCoop: sending money, bike animations, sfx... |
+| `vehicle-customizer` | Customize cars and bikes, with NightCoop support                               |
+| `passenger-radio`    | Set radio from the passenger seat                                              |
+| `no-carry-weight`    | Adds 1000 carry capacity                                                       |
 
 ## Shared tools
 
