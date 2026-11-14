@@ -40,6 +40,13 @@ NightCoop doesn't pass a car's horn on, so partners never heard you honk.
 With this mod they hear the horn of the car or bike you drive, its own sound, from their copy of it, for as long as you hold the key; a police car's is its police horn.
 The partners need nothing but NightCoop, and the **NightCoop Tweaks** window has a checkbox to turn it off.
 
+### Siren
+
+The game switches a police car's siren lights and its sound apart, and as far as NightCoop's code shows it passes neither sound on, so partners wouldn't hear your siren.
+With this mod they hear the siren of the police car you drive, its own sound, from their copy of it: it starts when the sound goes on (V, or anything else that turns it on while you drive) and stops when it goes off, when you get out, or when the car is gone.
+Switching the lights alone sends nothing, and the lights are left to the game and NightCoop.
+The partners need nothing but NightCoop, and the **NightCoop Tweaks** window has a checkbox to turn it off.
+
 ### Silenced shots
 
 NightCoop plays a partner's shots with the weapon's NPC sound, but a silenced weapon's with none, so partners heard nothing at all.
@@ -47,11 +54,11 @@ With this mod they hear the shot an NPC firing that weapon silenced makes, from 
 A weapon counts as silenced the way the game counts it, so a silencer or an iconic with one built in (Panam's Overwatch); one the game gives no silenced NPC sound plays its plain one.
 The partners need nothing but NightCoop, and the **NightCoop Tweaks** window has a checkbox to turn it off.
 
-Both send through NightCoop's SDK, which takes 10 sounds a second from a mod: past 8 a second a fast single-shot weapon drops some shots, so a horn's or a loop's stop always gets through.
+Horn, Siren and Silenced shots send through NightCoop's SDK, which takes 10 sounds a second from a mod: past 8 a second a fast single-shot weapon drops some shots, so a horn's, a siren's or a loop's stop always gets through.
 
 ## Requirements
 
-- NightCoop (with RED4ext); 0.2.0 or later, whose SDK plays sounds on partners' copies, for Horn and Silenced shots
+- NightCoop (with RED4ext); 0.2.0 or later, whose SDK plays sounds on partners' copies, for Horn, Siren and Silenced shots
 - Cyber Engine Tweaks 1.38 or later
 - Codeware, for the amount slider
 
@@ -111,10 +118,11 @@ python -I tools/check.py
   - `notify.lua`: the game's on-screen message
   - `ref.lua`: comparing game objects and EntityIDs, and holding a game object without keeping it alive
   - `sounds.lua`: game sounds played on partners' copies of our body or car through NightCoop's SDK (the mod registers with it for that)
+  - `vehicles.lua`: whether we sit in a vehicle's driver seat, and which of its audio resources a sound table knows (Horn, Siren)
   - `log.lua`: problems, logged once each and listed in Diagnostics
-- `cet/NightCoopTweaks/tweaks/<tweak>/` is one tweak, `tweak.lua` its entry; `sendmoney/` has `money.lua` (balance and sending), `menu.lua` (its partner-menu steps) and `window.lua` (its window section); `bikeseat/` and `farpins/` are one file each; `horn/horns.lua` and `silencedshots/sounds.lua` are tables written from the game's files (below).
+- `cet/NightCoopTweaks/tweaks/<tweak>/` is one tweak, `tweak.lua` its entry; `sendmoney/` has `money.lua` (balance and sending), `menu.lua` (its partner-menu steps) and `window.lua` (its window section); `bikeseat/` and `farpins/` are one file each; `horn/horns.lua`, `siren/sirens.lua` and `silencedshots/sounds.lua` are tables written from the game's files (below).
 - `tools/link.ps1` and `tools/pack.ps1` install the mod here and package it for a partner; `tools/check.py` checks its Lua.
-- `tools/make-sound-tables.py` writes the horn and silenced-shot tables from the game's audio metadata with WolvenKit's command line; run it again after a game patch:
+- `tools/make-sound-tables.py` writes the horn, siren and silenced-shot tables from the game's audio metadata with WolvenKit's command line; run it again after a game patch:
 
 ```bash
 python -I tools/make-sound-tables.py

@@ -13,6 +13,54 @@ Not yet checked in the game: that both F and Enter do it there, whether the mous
 CET writes small logs out only now and then, so during a session the mod's log is empty: the NightCoop Tweaks window's Diagnostics section shows what the partner menu sees, which keys reach the mod, and any error.
 Not yet checked in the game: anything of Far partner pins (below).
 Not yet checked in the game: anything of Horn and Silenced shots (below).
+Not yet checked in the game: anything of Siren (below), including that partners don't hear a siren without it.
+
+## 2026-11-14: Partners hear the siren of the police car we drive
+
+This came up while designing a car-controls menu mod, whose police-car switches would flip the game's siren lights and sound apart. The user believes NightCoop doesn't pass a police car's siren sound on, with the game's own V key too, so the fix belongs here and not in the car mod.
+That is the user's belief, not yet seen or heard in the game. What backs it:
+- No collected log has a line about a siren: Choom Collector's sessions of 2026-11-13 (all four players) and 2026-11-14, the old collector's folders, and the game's own NightCoop logs of today. The one hit is another mod's (Let There Be Flight naming a police record).
+- NightCoop's DLL (build 5a51ea59, protocol 183, the one installed) has no siren string apart from three `..._police_siren` names in its list of every vehicle record. Its vehicle code reads and sets the head light mode (`GetHeadLightMode`, `SetHeadLightMode`) and plays a prevention AV's sounds (`av_sound`), and nothing about sirens.
+
+**How the game switches it.** `VehicleComponent.ToggleSiren(lights, sounds)` (`vehicleComponent.script`, line 5557) acts only for a car whose data package has `UseAuxiliary`, the police cars, and only when that car isn't wrecked or the call turns something off.
+- Lights: `ToggleLights(lights, Utility)` and the police sign effect.
+- Sound: the native `VehicleObject.ToggleSiren(sounds)`.
+- Both are kept on the car's persistent state (`SetSirenLightsState`, `SetSirenSoundsState`).
+
+Who calls it:
+- Both on or both off: the V key (`VehicleSiren`, a tap under 0.25 s, which flips both by `GetSirenState`).
+- Each part as asked: the police AI's `ToggleLightsAndSirens`, a quest's `VehicleQuestSirenEvent`, a chase (`VehicleChaseTargetEvent`), and the record's default state 0.5 s after the car spawns (`SirenLight`, `SirenSounds`, which the `_siren` records set).
+- Both off: the player getting out (`OnUnmountingEvent`), the wanted level dropping to 0, and the car's death.
+
+**The sound** is in the audio metadata the horn's came from: `audioVehicleMetadata.generalData.sirenOnEvent` and `sirenOffEvent` (`..._siren_start`, `..._siren_stop`).
+- 12 audio resources have one: the Archer Hella, Chevalier Emperor, Militech Hellhound and Villefort Cortes police cars, and the Thorton Merrimac police and MaxTac. Each also has a `_traffic` resource with events of its own, and the MaxTac Merrimac uses the Emperor's siren.
+- `tools/make-sound-tables.py` now also writes `tweaks/siren/sirens.lua`. Its `horns.lua` and `silencedshots/sounds.lua` came out byte for byte as before.
+
+**The tweak.** `tweaks/siren` observes `ToggleSiren` before and after (`ObserveBefore`, `ObserveAfter`) and compares the car's `GetSirenSoundsState` across the call. So a call that changes the lights alone, one the game refuses (not a police car, a wreck), or one that repeats the state sends nothing. That leaves the car-controls mod free to switch lights and sound apart.
+- Sound on, in a car we drive (the horn's driver-seat test): the siren's on event on partners' copy, through `core/sounds.lua`.
+- Sound off: the off event, and 0.4 s later a stop of the on event itself, as the horn does. A new start in that car within the 0.4 s calls the second stop off, the silenced shots' lesson.
+- The off also goes for a car we drive whose siren we didn't start: one that was already sounding when we took the wheel, which partners' copy might be playing of its own accord.
+- Every 0.5 s, a siren on at partners is stopped if the car is gone, we're no longer in its driver seat, or its sound is off.
+- The car's resource is its record's `player_audio_resource` where the table knows it, else its `AudioResourceName`, as for the horn.
+
+The horn's driver-seat test and resource lookup moved to `core/vehicles.lua`, since the siren needs them too. The horn is otherwise as it was. The mod is 0.1.5 with the siren.
+
+An offline run of the real `core/sounds.lua`, `core/vehicles.lua`, the siren tweak and the horn tweak, with the game, CET and the SDK stubbed (the game's `ToggleSiren` rule copied into the stub), went through:
+- V on and off; the lights alone; a state repeated; getting out with the siren on; an NPC's police car; off and on again within 0.4 s; the car gone; a passenger seat;
+- a siren on before we took the wheel; a car known only by its traffic resource; a car that isn't a police car; a wreck; an unknown car;
+- the checkbox, no session, NightCoop's "not now", and Reload All Mods with the siren on;
+- the horn's press and release, and a passenger's press, after the move.
+
+Each sent what it should. That says nothing about what the game plays.
+Not yet checked in the game:
+- that partners really hear no siren without this; if NightCoop does pass it on, this doubles it, which would show as two sirens or one that won't stop;
+- that the `_siren_start` events play and loop on partners' copy and stop with `_siren_stop`;
+- that CET's `ObserveAfter` fires for `ToggleSiren` as `Observe` does for the horn;
+- whether partners' copy of a car whose record turns the siren on at spawn (`_siren` records) starts one of its own, and whether our off reaches it;
+- which resource the game's police records name.
+
+A siren already sounding when we take the wheel isn't sent, since nothing switched. Whether NightCoop passes the police lights on is unknown, and not this tweak's.
+In a session, the window's Siren section counts starts and stops. Diagnostics' "Sounds to partners" line says whether they went out, and each partner's nightcoop.log counts the mod sounds it played in its "fired paths" line (`sdk_fx:sound`).
 
 ## 2026-11-13: Partners hear our horn and our silenced shots
 

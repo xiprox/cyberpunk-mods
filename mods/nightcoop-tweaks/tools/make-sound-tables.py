@@ -1,5 +1,5 @@
-"""Writes the sound tables the horn and silenced-shot tweaks look events up in,
-from the game's own audio metadata, so no event name is typed by hand.
+"""Writes the sound tables the horn, siren and silenced-shot tweaks look events
+up in, from the game's own audio metadata, so no event name is typed by hand.
 
   - tweaks/silencedshots/sounds.lua: a weapon's audio set (Item_Record.AudioName,
     e.g. "wea_set_unity") -> the shots an NPC firing it silenced makes: its
@@ -8,6 +8,8 @@ from the game's own audio metadata, so no event name is typed by hand.
   - tweaks/horn/horns.lua: a vehicle's audio resource (Vehicle_Record's
     player_audio_resource, e.g. "v_car_thorton_galena") -> its horn's on and
     off events, and the police horn's where it has one
+  - tweaks/siren/sirens.lua: a police car's audio resource -> its siren's on
+    and off events (generalData's sirenOnEvent and sirenOffEvent)
 
 It unbundles the base game's and Phantom Liberty's cooked_metadata.audio_metadata
 from their audio_1_general.archive with WolvenKit's command line and serializes
@@ -108,6 +110,18 @@ def horn_table(vehicles):
     return table
 
 
+def siren_table(vehicles):
+    table = {}
+    for vehicle in vehicles:
+        general = vehicle.get("generalData") or {}
+        on, off = name(general.get("sirenOnEvent")), name(general.get("sirenOffEvent"))
+        if on and off:
+            table[name(vehicle["name"])] = {"on": on, "off": off}
+        elif on or off:
+            print(f"{name(vehicle['name'])}: a siren with only one of its events ({on or off}), left out")
+    return table
+
+
 def lua_string(text):
     return '"' + text.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
@@ -170,11 +184,18 @@ The shots an NPC makes firing a weapon silenced, by the weapon's audio set
 single: one shot; burst: one burst; loop and loopStop: an automatic loop.
 """, weapons)
 
-    horns = horn_table([o for o in found if o["$type"] == "audioVehicleMetadata"])
+    vehicles = [o for o in found if o["$type"] == "audioVehicleMetadata"]
+    horns = horn_table(vehicles)
     write_table(os.path.join(MOD, "tweaks", "horn", "horns.lua"), """
 A vehicle's horn by its audio resource (Vehicle_Record's player_audio_resource):
 on starts it, off stops it (a bike's beep has no off), police* for a police car's.
 """, horns)
+
+    sirens = siren_table(vehicles)
+    write_table(os.path.join(MOD, "tweaks", "siren", "sirens.lua"), """
+A police car's siren by its audio resource (Vehicle_Record's player_audio_resource,
+or AudioResourceName): on starts its loop, off stops it.
+""", sirens)
 
 
 if __name__ == "__main__":

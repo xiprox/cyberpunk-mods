@@ -15,7 +15,7 @@ local Sounds = require("core/sounds")
 
 -- Goes in the zip's name (tools/pack.ps1) and the log's first line, to tell
 -- the builds friends run apart. Raise it for every zip that goes out.
-local VERSION = "0.1.4"
+local VERSION = "0.1.5"
 Sounds.SetVersion(VERSION)
 
 -- The tweaks, in the order their partner-menu entries and window sections appear.
@@ -24,6 +24,7 @@ local TWEAKS = {
     "tweaks/bikeseat/tweak",
     "tweaks/farpins/tweak",
     "tweaks/horn/tweak",
+    "tweaks/siren/tweak",
     "tweaks/silencedshots/tweak",
 }
 

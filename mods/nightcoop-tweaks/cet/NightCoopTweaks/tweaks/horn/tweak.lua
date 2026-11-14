@@ -9,11 +9,11 @@
 local Log = require("core/log")
 local Ref = require("core/ref")
 local Sounds = require("core/sounds")
+local Vehicles = require("core/vehicles")
 local Horns = require("tweaks/horn/horns")
 
 local Tweak = { name = "Horn" }
 
-local DRIVER_SLOT = "seat_front_left"  -- VehicleComponent.GetDriverSlotName(); bikes use it too
 local RESEND_SECONDS = 0.4             -- a stop goes again, since a lost one would leave the horn on at partners
 local CHECK_SECONDS = 0.5              -- how often a horn left on is checked against our seat
 
@@ -23,33 +23,6 @@ local resend    -- { vehicle, on, at }: the stop's second try
 local lastCheck = -math.huge
 local presses = 0
 local report = "no horn yet"
-
--- The vehicle's audio resource, as the horn table knows it.
-local function audioResource(vehicle)
-    local record = vehicle:GetRecord()
-    local player = record:Player_audio_resource()
-    if Horns[player] then
-        return player
-    end
-    local other = NameToString(record:AudioResourceName())
-    if Horns[other] then
-        return other
-    end
-    return player ~= "" and player or other
-end
-
--- Whether the local player sits in this vehicle's driver seat.
-local function drives(vehicle)
-    local player = Game.GetPlayer()
-    if not player then
-        return false
-    end
-    local info = Game.GetMountingFacility():GetMountingInfoSingleWithIds(player:GetEntityID())
-    if not info or not Ref.SameId(info.parentId, vehicle:GetEntityID()) then
-        return false
-    end
-    return NameToString(info.slotId.id):find(DRIVER_SLOT, 1, true) ~= nil
-end
 
 local function stopActive()
     if active.off then
@@ -73,10 +46,10 @@ local function onToggle(component, state, isPolice)
         end
         return
     end
-    if not enabled or vehicle:IsA("vehicleAVBaseObject") or not drives(vehicle) then
+    if not enabled or vehicle:IsA("vehicleAVBaseObject") or not Vehicles.Drives(vehicle) then
         return
     end
-    local name = audioResource(vehicle)
+    local name = Vehicles.AudioResource(vehicle, Horns)
     local horn = Horns[name]
     if not horn then
         report = "no horn sound known for this vehicle (" .. tostring(name) .. ")"
@@ -119,7 +92,7 @@ function Tweak.Update()
     if active and now - lastCheck >= CHECK_SECONDS then
         lastCheck = now
         local vehicle = Game.FindEntityByID(active.vehicle)
-        if not vehicle or not drives(vehicle) then
+        if not vehicle or not Vehicles.Drives(vehicle) then
             stopActive()
         end
     end
