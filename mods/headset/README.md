@@ -1,39 +1,64 @@
 # Headset
 
-A headset for Cyberpunk 2077 with three modes, always on your head:
+Adds a tactical headset that mimics how real hearing protection and noise cancelling sound, with three modes on one key.
 
-- **Passthrough:** as if it weren't there.
-- **Active Hearing Protection** (level-dependent hearing protection): you hear the world through its outside microphones, a little thinner. The moment a gun or a blast goes off they're turned down, the way a tactical headset's electronics clamp a bang, and you get only what comes through the cups, a muffled thump. Then the world comes back. People talking, engines and the car radio can't set it off.
-- **Active Noise Cancellation:** the world is shut out, a car's radio included. A bang is too sudden for it to cancel, so a shot hits harder than in hearing protection.
+- **Hearing protection** lets you hear the street through its microphones and clamps gunshots, explosions, and crashes the instant they happen.
+  It judges each sound by what it is and how loud it would be in real life, so shouting, engines, and the radio never set it off.
+- **Noise cancelling** shuts the city out, but can't keep up with a shot, so gunfire still comes through.
+- **Passthrough:** as if the headset weren't there.
 
-It runs inside the game's own audio engine, Wwise, as an effect on the game's sound buses, so it knows what each sound is before the sounds are mixed together. It needs no co-op mod.
+Outside Passthrough, you hear yourself from the inside: V's voice and breathing through the skull, footsteps through your body, and a kick in your own shots.
 
-Requires RED4ext, redscript, Cyber Engine Tweaks, Codeware and Native Settings.
+## Using it
 
-Made for game version 2.5. If a patch changes the game's Wwise, the headset turns itself off until the mod is updated, and `red4ext/logs/headset-*.log` says so.
+The headset key is the comma key (`,`) by default, and you can change it in Settings > Mods > Headset.
 
-## The headset key
+- **Tap** it for the next mode.
+- **Hold** it to pick a mode from a wheel.
+  In co-op time doesn't slow down, so pick a safe moment.
 
-`,` by default, set under the game's Settings menu, Headset.
+## What it needs
 
-- **Tap:** the next mode: Passthrough, Active Noise Cancellation, Active Hearing Protection, and round again. A sound confirms which you landed on, and a small headphones icon on the HUD, under the health bar, shows the mode whenever it isn't Passthrough.
-- **Hold:** a wheel opens, three equal slices in the style of the game's own: Active Noise Cancellation top left, Active Hearing Protection top right, Passthrough at the bottom. Move the mouse and let go to pick. Time slows in singleplayer; in co-op it doesn't, so pick a safe moment.
+RED4ext, redscript, Cyber Engine Tweaks, Codeware, and Native Settings, on Cyberpunk 2077 2.5.
 
-The slices are a small texture in `game/archive/headset/headset_wheel.archive`, redrawn by `python -I tools/make_wheel_art.py`, which needs WolvenKit's command line.
+## Installing
 
-## What it listens to, and what it turns down
+Extract the zip into the game folder, or install it with your mod manager.
+To remove it, delete `red4ext/plugins/Headset`, `bin/x64/plugins/cyber_engine_tweaks/mods/Headset`, and `archive/pc/mod/headset`.
 
-**Can set it off:** your gun, NPC guns, grenades, explosions, bullet impacts, vehicle destruction and heavy physics. Each is read from its own bus, with an estimate of how loud that really is, and the clamp starts at about 85 dB of real-world loudness.
+## Compatibility
 
-**Gets turned down:** everything a headset's microphones would pick up: NPCs, including story characters talking to you in person, traffic, ambience, footsteps, your gun, reverb, music playing in the world and a car's radio.
+- **Co-op:** works on NightCoop.
+- **Linux:** runs under Proton.
+- **Sound mods:** untried with mods that replace the game's sounds, which the headset is tuned to.
+- **Game patches:** if a patch changes the game's audio engine, the headset switches itself off until it's updated.
 
-**Left out:** UI, full-screen effects, slow-motion stingers, the score, the radio on a bike or in your pocket, and phone and Johnny's voices, which you'd hear through implants.
+## Known limits
 
-**V's own body:** while worn, V's lines, grunts and breathing come through a warm body path, and an air path that follows the microphones, so V goes "inside your head" during a bang and in noise cancelling. A loud bang drowns V's lines out for a moment, as it would you, so they're often lost during a firefight. V's grunts and breathing stay in dynamic clamping: with the chaos held down, you can feel yourself breathe. Your own footsteps thud through your body, your own gunshots gain low-end recoil, and other people's gunshots and explosions a thump in the chest.
+Sliding, the Fortified Ankles' charged jump, and Superhero Landing come through unchanged, along with a few other cyberware sounds.
 
-## For other mods adding Wwise effects
+## Bug reports
 
-A bus has four effect slots, and `SetBusEffect` silently replaces whatever is in the one it's given, so stay clear of these. The game's own effects take the low slots on many buses.
+Close the game and attach the newest `red4ext/logs/headset-*.log` from the game folder.
+
+## For developers
+
+### How it works
+
+Headset is a RED4ext plugin that registers a Wwise effect plug-in with the game's own Wwise, whose functions the game's exe exports by name, and puts that effect on the game's buses.
+A detector on each bus that carries bangs, such as `Guns_Firing`, turns the bus's level into an estimate of real-world loudness, with an offset for each bus.
+A clamp on each bus a headset's microphones would pick up turns that bus down by how far the loudest estimate is over the threshold, and adds the leak through the cups.
+Noise cancelling is three bands on the same buses, and V's voice gets its body path on `VO_V` and `VO_V_Onos`.
+The starting values are in `src/headset/control.hpp`, and [RECORD.md](RECORD.md) says why each part is the way it is, and what the game's banks showed.
+
+The effect's interface was read from the game's exe, not from a Wwise SDK, so before touching Wwise the plugin checks that the game's effects carry the build number `src/wwise/ak.hpp` was read from (`kBuildVersion`, at least `kMinBuildStamps` of them).
+On any other build it logs why and stays off.
+
+### For other mods adding Wwise effects
+
+A bus has four effect slots, and `SetBusEffect` silently replaces whatever is in the one it's given, so stay clear of these.
+The game's own effects take the low slots on many buses.
+`src/wwise/places.hpp` is the source of this table, so change both together.
 
 | Bus | Slot | Use |
 |---|---|---|
@@ -47,37 +72,25 @@ A bus has four effect slots, and `SetBusEffect` silently replaces whatever is in
 
 The plug-in is company 173, plug-in `0x4853`.
 
-## For other mods using the headset
+### For other mods using the headset
 
-`src/headset_api.h` says what's offered: find `Headset_GetApi` in `Headset.dll` and carry on without it if it isn't there. NightCoop Voice hands it nearby voices to hear them as the world is heard.
+`src/headset_api.h` says what's offered: find `Headset_GetApi` in `Headset.dll`, and carry on without it if it isn't there.
+NightCoop Voice hands it nearby voices, so partners near you are heard the way the world is.
 
-## Tuning, for now
+### Tuning
 
-`%LOCALAPPDATA%\Headset\tuning.ini`, read within a second of saving. The mod writes it with every value commented out, so it changes nothing until you take the `#` off a line; put it back to return to where the mod starts. A file an older version wrote with live values is moved aside as `tuning.old.ini`, so a new starting value always reaches you. Lines like:
+The plugin writes `%LOCALAPPDATA%\Headset\tuning.ini` with every setting it reads, its starting value, and what it does, all commented out, and reads the file again within a second of saving.
+Take the `#` off a line to change that setting, and put it back to return to the starting value.
+A file an older version wrote with live values is moved aside as `tuning.old.ini`, so a new starting value reaches everyone.
 
-- `threshold_db=85`: the real-world loudness where the clamp starts.
-- `depth_per_db=0.57`: how many dB the microphones come down for each dB over it.
-- `deepest_db=40`: how far down they can go.
-- `sound=1`: 0 leaves only the clamp, to compare.
-- `leak_db=-10`: how much gets through the cups, muffled and never turned down.
-- `recoil_db=9`: how much the lows of your own gunshots are raised; 0 is off.
-- `thump_db=6`: the same for other people's gunshots and for explosions.
-- `lift_under_db=-38`, `hiss_db=-64`, `width=0.75`: the talk-through's lift, hiss and narrowing.
-- `body_db=5`, `air_floor_db=-60`, `air_open_db=-5`: V's lines; `grunt_body_db=8`, `grunt_floor_db=-60`, `grunt_open_db=-12`: V's grunts and breathing; `mask_db=-30`: how far the loudest bang drowns V out; `grunt_clamp_mask_db=0`, `grunt_body_hz=450`: grunts in dynamic clamping, and how dark they are; `footstep_db=6`: your own steps.
-- `noise_low_db=-26`, `noise_mid_db=-18`, `noise_high_db=-28`: noise cancelling's three bands.
-- `noise_bang_low_db=-8`, `noise_bang_mid_db=-12`, `noise_bang_high_db=-22`: the same during a bang, which it can't keep up with.
-- `offset_Guns_Firing=150`: what a bus's level adds up to in real-world dB, one per bus by name.
-- `always_worn=1`: hearing protection even in Passthrough.
-- `wheel_flip_y=1`: swaps up and down on the wheel, if they turn out reversed.
+### Building and testing
 
-## Building
+The commands for building, testing, checking the scripts, and installing are in [CLAUDE.md](CLAUDE.md#building-and-installing).
+`headset_test` checks the bank, the plug-in interface, and the sound without the game.
+RED4ext.SDK comes from the repository's `deps` folder, which `tools/fetch-red4ext-sdk.ps1` at the root fills.
+The wheel's slices are a texture in `game/archive/headset/headset_wheel.archive`, redrawn by `python -I tools/make_wheel_art.py`, which needs WolvenKit's command line.
 
-```bash
-cmake -S . -B build -G "Visual Studio 17 2022" -A x64
-```
+### How the crew gets it
 
-```bash
-cmake --build build --config Release --target headset_test Headset
-```
-
-RED4ext.SDK comes from the repo's `deps` folder (`tools/fetch-red4ext-sdk.ps1`). `headset_test` checks the bank, the plug-in interface and the clamp without the game.
+A build installed on xip's PC reaches the crew through Choom Collector's Mods tab.
+Releases for everyone else come from release-please, as the repository's [README.md](../../README.md#releases) describes.
