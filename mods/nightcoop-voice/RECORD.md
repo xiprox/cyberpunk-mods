@@ -22,6 +22,10 @@ Playing 0.7.6, the user found the cut in the way when getting ready for a fight:
 - Partners learned the radio's state only from the once-a-second presence, so an off and on could fall between two and never be seen. The first byte of the presence now also counts switch-ons in its top five bits, wrapping at 32, and every switch sends a presence at once. Builds before 0.7.7 test only the bits they know and ignore the count, so the protocol number stays; from such a build a switch-on is never seen and the cut works as in 0.7.6. The first count heard from a partner is only a start, so a late joiner doesn't take an earlier switch-on as one made close by.
 - The log has `radio: <name> switched their radio on close by, so stays on it` and `has been apart long enough to be left to the air again`, besides the cut's own lines.
 
+## 2026-11-10: Your own echo a touch quieter
+
+The user asked for your own voice in the room to come down "a touch", since it sounds louder than it is: it reaches you late by the mic's and the output's latency, which makes it stand out as an echo more than a room's sound would. 0.7.6 takes `kOwnEchoGain` from 0.5 to 0.35, 3 dB down, 9 dB under a partner's voice in the same room. `own_db` in `tuning.ini` still moves it live.
+
 ## 2026-11-10: The radio cut goes by distance alone
 
 On 0.7.3 and 0.7.4 the user found the radio "goes on and off within building spaces in ways that are unpredictable and hard to understand". The log agrees: 226 switches in about 70 minutes on the user's PC, 55 of them within 2 s of that partner's last. Two causes:

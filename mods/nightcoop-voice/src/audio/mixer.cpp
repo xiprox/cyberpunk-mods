@@ -32,8 +32,9 @@ constexpr float kEchoJumpSamples = 480.f;   // further off than this, it fades o
 constexpr float kEchoFadePerSample = 1.f / 144.f; // 3 ms
 constexpr float kEarLagSlewPerBlock = 1.f;
 
-// Your own voice in your room: 6 dB under anyone else's there, chosen by ear in an underpass.
-constexpr float kOwnEchoGain = 0.5f;
+// Your own voice in your room: 9 dB under anyone else's there. 6 was chosen by ear in an underpass, then turned down 3 dB (user,
+// 2026-11-10): it reaches you late by the mic's and the output's latency, which makes it stand out as an echo more than a room would.
+constexpr float kOwnEchoGain = 0.35f;
 
 // In the open you don't hear your own voice come back, unless you shout. Only somewhere closed in.
 constexpr float kOwnEchoNeedsClosedFrom = 0.25f;
