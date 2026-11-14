@@ -1,3 +1,5 @@
+![The headset's HUD icon, large, beside its Hearing Protection, Noise Cancelling, and Passthrough rows](header.png)
+
 # Headset
 
 Adds a tactical headset that mimics how real hearing protection and noise cancelling sound, with three modes on one key.
