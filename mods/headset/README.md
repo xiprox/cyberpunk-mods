@@ -53,7 +53,7 @@ The plug-in is company 173, plug-in `0x4853`.
 
 ## Tuning, for now
 
-`%LOCALAPPDATA%\Headset\tuning.ini`, read within a second of saving. Lines like:
+`%LOCALAPPDATA%\Headset\tuning.ini`, read within a second of saving. The mod writes it with every value commented out, so it changes nothing until you take the `#` off a line; put it back to return to where the mod starts. A file an older version wrote with live values is moved aside as `tuning.old.ini`, so a new starting value always reaches you. Lines like:
 
 - `threshold_db=85`: the real-world loudness where the clamp starts.
 - `depth_per_db=0.57`: how many dB the microphones come down for each dB over it.

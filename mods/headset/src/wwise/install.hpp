@@ -25,4 +25,7 @@ int CountBuildStamps(const uint8_t* aCode, size_t aSize, uint32_t aBuild);
 
 // Reads aFile now, if it changed; false when it didn't exist or hadn't changed.
 bool ReadTuning(const std::filesystem::path& aFile);
+
+// Writes aFile with every value commented out if it isn't there, first moving aside one an older version wrote with live values.
+void PrepareTuningFile(const std::filesystem::path& aFile);
 } // namespace hs

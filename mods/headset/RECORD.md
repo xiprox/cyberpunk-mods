@@ -4,11 +4,16 @@ What we found and decided while building Headset, newest entry first.
 "User" marks what the user heard or saw in the game. Everything else came from logs, code or tests.
 How the game's sound is built and what the probe showed is in `mods/nightcoop-voice/RECORD.md`, under 2026-11-08.
 
-Installed: 0.4.9 on the user's PC on 2026-11-09, with all tests passing.
+Installed: a 0.4.9 test build on the user's PC on 2026-11-10, with the commented-out tuning file, all 136 tests passing.
 Played on 0.4.7 on 2026-11-09 (user): "I've been playing with it. it's good", and the two others have had no issues, one on Linux. All three logs show the effect on 29 of 29 places.
 Heard and approved on 0.3.1 (user): shots in noise cancelling ("great"), driving with the radio in noise cancelling ("very good"), your own shots in clamping ("very good"), firing during a V line in both modes ("great"), and standing and walking somewhere quiet ("great").
 Also heard: grenades and a close explosion ("good"), burning wrecks ("wrecks are good too"), and NPC gunfire at offset 136 ("good"). The user called the tuning good on 2026-11-08, with every live value then matching the source, `grunt_body_db=8` being the last to carry over.
-Not yet checked in the game: 0.4.8's car radio and its thump on others' guns and blasts. 0.4.9's Wwise build check.
+Not yet checked in the game: the commented-out tuning file and moving old ones aside, which the log's `tuning: moved an old tuning file aside` line will show. 0.4.8's car radio and its thump on others' guns and blasts. 0.4.9's Wwise build check.
+
+## 2026-11-10: The tuning file no longer holds old values
+
+The user asked whether the crew gets the same behaviour. Not quite: Bleack's and Bossun's last logs show `recoil 6 dB`, the user's `recoil 12 dB`, though the source starts at 12. The mod wrote `tuning.ini` with that day's starting values the first time it ran, and every value in it overrides the source from then on, so a new start never reached anyone who already had the file. Their other values happened to match.
+Now (user): the mod writes the file with every value commented out, its first line `# Headset tuning, format 2.`, so it changes nothing until a line is opened. A file without that line is renamed `tuning.old.ini` on the next start and logged, so everyone gets the source's values. The user's own file goes the same way, with nothing lost, since every value in it matched the source. Live tuning from here means taking the `#` off a line in the new file, which the game writes, so it's one Claude can edit (AppData redirect). Others' thump stays at +6 (user), 6 dB under your own gun's +12.
 
 ## 2026-11-09: Off on any Wwise but the one it was made for
 

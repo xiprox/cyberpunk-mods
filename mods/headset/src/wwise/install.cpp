@@ -154,33 +154,60 @@ const FloatKey kFloatKeys[] = {
     {"noise_bang_high_db", &g_control.noiseBangHighDb, kStartNoiseBangHighDb, -60.f, 0.f, "noise cancelling during a bang: the highs"},
 };
 
-// The file is made here, by the game, so it's where the game can see it and every setting comes with its explanation.
-void WriteDefaultTuning(const std::filesystem::path& aFile)
+// The first line of a file this version wrote.
+constexpr const char* kTemplateMark = "# Headset tuning, format 2.";
+} // namespace
+
+// The file is made here, by the game, so it's where the game can see it and every setting comes with its explanation. Every value starts
+// commented out: a file written once with that day's starting values would otherwise hold a player there after they move on, as it held
+// two players' recoil at 6 dB after the start went to 12 (2026-11-10). A file without the mark is one of those, and is moved aside.
+void PrepareTuningFile(const std::filesystem::path& aFile)
 {
     std::error_code error;
     if (std::filesystem::exists(aFile, error))
     {
-        return;
+        std::string first;
+        {
+            std::ifstream existing(aFile);
+            std::getline(existing, first);
+        }
+        if (first.rfind(kTemplateMark, 0) == 0)
+        {
+            return;
+        }
+        std::filesystem::path old = aFile;
+        old.replace_extension(L".old.ini");
+        std::filesystem::rename(aFile, old, error);
+        if (error)
+        {
+            Logf(LogWarn, "tuning: couldn't move the old tuning file aside, so its values still apply: %s", error.message().c_str());
+            return;
+        }
+        Logf(LogInfo, "tuning: moved an old tuning file aside as %ls, so the mod's own starting values apply", old.filename().c_str());
     }
     std::filesystem::create_directories(aFile.parent_path(), error);
     std::ofstream file(aFile);
-    file << "# The headset, read again within a second of saving. These are where it starts.\n";
+    file << kTemplateMark << " Read again within a second of saving. Every value below starts with # and changes nothing:\n"
+         << "# take the # off a setting's line to use it, and put it back to return to where the mod starts.\n";
     for (const FloatKey& key : kFloatKeys)
     {
-        file << "# " << key.key << " is " << key.comment << "\n" << key.key << "=" << key.start << "\n";
+        file << "# " << key.key << " is " << key.comment << "\n# " << key.key << "=" << key.start << "\n";
     }
     file << "# sound=0 leaves only the clamp, to compare\n"
-         << "sound=1\n"
+         << "# sound=1\n"
          << "# wheel_flip_y=1 swaps up and down on the mode wheel, if they turn out reversed\n"
-         << "wheel_flip_y=0\n"
+         << "# wheel_flip_y=0\n"
          << "# always_worn=1 keeps it on without the key\n"
-         << "always_worn=0\n\n"
+         << "# always_worn=0\n\n"
          << "# What each bus's level adds up to in real-world dB: lower one to make that kind of sound clamp less\n";
     for (const DetectorPlace& place : kDetectors)
     {
-        file << "offset_" << place.name << "=" << place.offsetDb << "\n";
+        file << "# offset_" << place.name << "=" << place.offsetDb << "\n";
     }
 }
+
+namespace
+{
 
 int CountGameBuildStamps(HMODULE aGame)
 {
@@ -199,7 +226,7 @@ int CountGameBuildStamps(HMODULE aGame)
 
 void InstallerLoop(std::filesystem::path aTuningFile)
 {
-    WriteDefaultTuning(aTuningFile);
+    PrepareTuningFile(aTuningFile);
     const HMODULE game = GetModuleHandleW(nullptr);
     const auto isInitialized = reinterpret_cast<ak::IsInitializedFn>(GetProcAddress(game, ak::kIsInitializedName));
     const auto registerPlugin = reinterpret_cast<ak::RegisterPluginFn>(GetProcAddress(game, ak::kRegisterPluginName));

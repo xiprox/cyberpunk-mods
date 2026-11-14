@@ -882,6 +882,30 @@ void TestWithoutWwise()
     Check(!ReadTuning(file), "and only once until it changes");
     std::filesystem::remove(file);
 
+    {
+        const std::filesystem::path tuning = std::filesystem::temp_directory_path() / L"headset_test_prepare.ini";
+        const std::filesystem::path old = std::filesystem::temp_directory_path() / L"headset_test_prepare.old.ini";
+        std::filesystem::remove(old);
+        {
+            std::ofstream out(tuning, std::ios::trunc);
+            out << "# The headset, read again within a second of saving. These are where it starts.\nrecoil_db=6\n";
+        }
+        PrepareTuningFile(tuning);
+        Check(std::filesystem::exists(old), "a tuning file an older version wrote is moved aside");
+        g_control.recoilDb.store(0.f);
+        Check(ReadTuning(tuning) && g_control.recoilDb.load() == kStartRecoilDb, "so its old values no longer hold anyone back");
+        Sleep(50); // file times move in steps of about 16 ms, and a change within one step looks like no change
+        {
+            std::ofstream out(tuning, std::ios::app);
+            out << "recoil_db=9\n";
+        }
+        PrepareTuningFile(tuning);
+        Check(ReadTuning(tuning) && g_control.recoilDb.load() == 9.f, "a line someone takes the # off is used, and the file is kept");
+        std::filesystem::remove(tuning);
+        std::filesystem::remove(old);
+        g_control.recoilDb.store(kStartRecoilDb);
+    }
+
     StartInstaller(file);
     const double until = NowMs() + 2000.0;
     while (NowMs() < until && GetInstallState() != InstallState::NotAvailable)
