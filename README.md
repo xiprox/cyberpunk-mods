@@ -12,6 +12,7 @@ Each mod's own README says how it's built and installed, and its RECORD.md what 
 | `mods/nazare-racer-coop` | Racer copies, so two players can each ride one in NightCoop |
 | `mods/passenger-radio` | The radio key the passenger seat lacks |
 | `mods/no-carry-weight` | Adds 1000 carry capacity |
+| `ideas/` | Mods scouted but not started: manual shifting, a drivable bus, partners' sounds, Equipment-EX outfits in co-op |
 | `vendor/nightcoop-sdk` | NightCoop's SDK and its docs (MIT), which the mods build against |
 | `deps/` | Libraries the mods share, fetched and kept out of git |
 | `tools/` | What more than one mod uses, or isn't about any one mod |

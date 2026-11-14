@@ -8,6 +8,7 @@ Each folder in `mods/` is its own mod project; read its CLAUDE.md, README.md and
   - `README.md`: what it does for a player, and how it's built, installed and shared with the crew.
   - `RECORD.md`: what we found and decided, newest entry first, each entry under a `## <YYYY-MM-DD>: <what changed>` heading. "User" marks what the user saw or heard in the game. Its top keeps an "Installed" line and a "Not yet checked in the game" line current. Add an entry when a finding or decision changes how the mod works.
   - `CLAUDE.md`, once the mod has rules of its own: its build and test commands, what must stay in step in its code, and its commit scopes. What this file says isn't repeated there.
+- A mod idea that was scouted but not started has a file in `ideas/` with what was found. When the mod starts, that file becomes the first entry of its RECORD.md and leaves `ideas/`.
 
 ## The game and the crew
 
