@@ -37,13 +37,17 @@ How everything is written, from a README to a commit message, and when to run th
 - Parse Lua with `luajit -bl <file>` after changing it; only the game runs it.
 - Run Python that reads game files with `-I`.
 - WolvenKit 9.1.0 is at `H:\WolvenKit`, its command line at `H:\WolvenKit\Console\WolvenKit.CLI.exe`.
-- `tools/` holds what more than one mod uses or what isn't about any one mod: `check-scripts.ps1 -Mod <mod>`, `ncre.py`, `fetch-red4ext-sdk.ps1`, and the game-file readers `rdar.py` (archives, with the game's own Oodle) and `pkg.py` (CR2W files and the packages cooked into them), which a script imports by putting `tools/` on `sys.path`. A mod's own tools stay in its `tools/` folder, and a tool moves here when a second mod needs it.
+- `tools/` holds what more than one mod uses or what isn't about any one mod: `check-scripts.ps1 -Mod <mod>`, `ncre.py`, `fetch-red4ext-sdk.ps1`, the publishing tools `package-mod.ps1`, `nexus-page.py`, and `render-html.ps1` (README), and the game-file readers `rdar.py` (archives, with the game's own Oodle) and `pkg.py` (CR2W files and the packages cooked into them), which a script imports by putting `tools/` on `sys.path`.
+  A mod's own tools stay in its `tools/` folder, and a tool moves here when a second mod needs it.
 - `deps/` holds libraries the mods share, fetched and out of git; `vendor/` is third-party code that is in git. RED4ext.SDK is in `deps/`, pinned in `tools/fetch-red4ext-sdk.ps1`; raise the pin after a game patch that changes its types.
 
 ## The repo
 
 - This folder is one git repo for all the mods, private on GitHub as `xiprox/cyberpunk-mods`. Claude commits and pushes only when asked, and proposes every commit's title and description first.
-- The mods in `release-please-config.json` are released from here (README). Don't edit their `version.txt`, their `CHANGELOG.md` or `.release-please-manifest.json` by hand, and keep each commit to one mod's folder, since release-please goes by the files a commit touches. Each mod's CLAUDE.md has its commit rules; changes to the repo itself use the scope `repo`.
+- The mods in `release-please-config.json` are released from here, as the README's "Releases" section says, and the `publish-mod` skill adds a mod to them.
+  Outside that skill, don't edit `.release-please-manifest.json`, or a released mod's `version.txt` or `CHANGELOG.md`, by hand.
+  Keep each commit to one mod's folder, since release-please goes by the files a commit touches.
+  Each mod's CLAUDE.md has its commit rules; changes to the repo itself use the scope `repo`.
 - Mods moved into `mods/` and the SDK into `vendor/` on 2026-11-08, so older RECORD.md entries name the old paths.
 - Build output, zips, test-run pictures, recordings and dumps of game files stay on disk but out of git. The vehicle customizer's scouting pictures are in git, and so are the reports of the test runs its RECORD.md cites.
 
