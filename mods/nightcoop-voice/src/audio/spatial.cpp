@@ -9,15 +9,15 @@ namespace nv
 namespace
 {
 constexpr float kOpenCutoffHz = 16000.f;
-constexpr float kFarCutoffRatio = 0.28f;  // at the far limit a voice has lost the air above about 4.5 kHz
+constexpr float kFarCutoffRatio = 0.28f;  // by kDullestAtMeters a voice has lost the air above about 4.5 kHz
+constexpr float kDullestAtMeters = 40.f;  // apart from the far limit, so moving that doesn't change how voices sound nearer in
 
-// Close to how speech really falls off, about 6 dB per doubling of distance, with a fade to silence at the far limit.
-constexpr float kRolloff = 0.8f;
-constexpr float kFadeFrom = 0.75f;        // of the far limit
-
-// Temporary, for the falloff test's "with taper" choice: the full lift up to here, none of it left at the far limit.
-constexpr float kTaperFromMeters = 20.f;
-constexpr float kTaperToMeters = 40.f;
+// Speech really loses about 6 dB per doubling of distance, which spends most of the drop in the first few metres and left 15 m closer
+// to faint than to next to someone (user). Voices follow a softer bend down to this level at this distance, then fade to silence at the
+// far limit. How much it bends is g_liveTuning.falloffBend.
+constexpr float kFaintMeters = 40.f;
+constexpr float kFaintDb = 20.6f;
+constexpr float kFadeFrom = 0.8f;         // of the far limit
 
 // At full occlusion, thick walls. A closed door or a thin wall comes to about 10 dB and 1.5 kHz.
 constexpr float kWallCutoffHz = 450.f;
@@ -127,9 +127,9 @@ float DistanceGain(float aDistance, float aNear, float aFar)
     return RolloffGain(aDistance, aNear) * FarFade(aDistance, aNear, aFar);
 }
 
-float DistanceCutoff(float aDistance, float aNear, float aFar)
+float DistanceCutoff(float aDistance, float aNear)
 {
-    return kOpenCutoffHz * std::pow(kFarCutoffRatio, Clamp01((aDistance - aNear) / (aFar - aNear)));
+    return kOpenCutoffHz * std::pow(kFarCutoffRatio, Clamp01((aDistance - aNear) / std::max(kDullestAtMeters - aNear, 0.1f)));
 }
 
 // 0 they face you .. 1 their back is turned. aToTalker runs from the listener to the talker, one metre long.
@@ -238,18 +238,8 @@ float SlowMotionFromWorldSpeed(float aWorldSpeed)
 
 float RolloffGain(float aDistance, float aNearMeters)
 {
-    const float gain = 1.f / (1.f + kRolloff * std::max(aDistance - aNearMeters, 0.f) / aNearMeters);
-    // The falloff test: a power of the gain is that share of its dB.
-    float share = g_liveTuning.falloff.load();
-    if (share >= 1.f)
-    {
-        return gain;
-    }
-    if (g_liveTuning.falloffTaper.load())
-    {
-        share += (1.f - share) * Clamp01((aDistance - kTaperFromMeters) / (kTaperToMeters - kTaperFromMeters));
-    }
-    return std::pow(gain, share);
+    const float along = std::max(aDistance - aNearMeters, 0.f) / std::max(kFaintMeters - aNearMeters, 0.1f);
+    return std::pow(10.f, -kFaintDb * std::pow(along, g_liveTuning.falloffBend.load()) / 20.f);
 }
 
 float FarFade(float aDistance, float aNearMeters, float aFarMeters)
@@ -311,7 +301,7 @@ SpatialOutput ComputeSpatial(const SpatialInput& aInput)
     const float straightCarried = DistanceGain(distance, nearMeters, farMeters);
     const float straightGain = straightCarried * std::pow(10.f, -kWallLossDb * occlusion / 20.f);
     const float muffle = std::pow(occlusion, kWallMuffleCurve);
-    const float straightCutoff = BlendHz(DistanceCutoff(distance, nearMeters, farMeters), kWallCutoffHz, muffle);
+    const float straightCutoff = BlendHz(DistanceCutoff(distance, nearMeters), kWallCutoffHz, muffle);
 
     float gain = straightGain;
     float cutoff = straightCutoff;
@@ -329,7 +319,7 @@ SpatialOutput ComputeSpatial(const SpatialInput& aInput)
         const float doors = std::max(aInput.pathDoors, 0.f);
         const float roundCarried = DistanceGain(pathMeters, nearMeters, farMeters);
         const float roundGain = roundCarried * std::pow(kBendGain, bends) * std::pow(kPathDoorGain, doors);
-        const float roundCutoff = std::max(DistanceCutoff(pathMeters, nearMeters, farMeters) * std::pow(kBendCutoffRatio, bends) *
+        const float roundCutoff = std::max(DistanceCutoff(pathMeters, nearMeters) * std::pow(kBendCutoffRatio, bends) *
                                                std::pow(kPathDoorCutoffRatio, doors),
                                            kWallCutoffHz);
         const float straightPower = straightGain * straightGain;

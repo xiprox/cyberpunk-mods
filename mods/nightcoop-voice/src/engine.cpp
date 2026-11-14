@@ -846,6 +846,7 @@ void Engine::ReadLiveTuning(double aNowMs)
     float ring = 1.f;
     float echoDb = 0.f;
     float ownDb = 0.f;
+    float falloffBend = kStartFalloffBend;
     std::ifstream file(path);
     std::string line;
     while (std::getline(file, line))
@@ -877,8 +878,9 @@ void Engine::ReadLiveTuning(double aNowMs)
         {
             ownDb = std::clamp(value, -60.f, 20.f);
         }
-        else if (key == "headset_solo")
+        else if (key == "falloff_bend")
         {
+            falloffBend = std::clamp(value, 0.3f, 2.f);
         }
         else if (key == "headset_db")
         {
@@ -888,6 +890,7 @@ void Engine::ReadLiveTuning(double aNowMs)
     g_liveTuning.ring.store(ring);
     g_liveTuning.echoDb.store(echoDb);
     g_liveTuning.ownDb.store(ownDb);
+    g_liveTuning.falloffBend.store(falloffBend);
 }
 
 // Real numbers for when someone says a voice is too quiet, and what the mic learned, for next time.
@@ -1445,20 +1448,6 @@ void Engine::ApplySettings()
     m_autoMix.SetOffsetDb(m_settings.GetFloat("voice_level", 0.f));
     const bool headphones = m_settings.GetBool("headphones", true);
     m_headphones.store(headphones);
-
-    // Temporary, to compare falloff curves by ear in a session. Only changes what this PC hears, and never the 40 m limit
-    // that decides sending, so the players' games still agree.
-    const std::string falloff = m_settings.Get("falloff_test");
-    if (falloff != m_falloffChoice)
-    {
-        m_falloffChoice = falloff;
-        const bool taper = falloff == "70t";
-        const float share = falloff == "85" ? 0.85f : falloff == "70" || taper ? 0.7f : falloff == "50" ? 0.5f : 1.f;
-        g_liveTuning.falloff.store(share);
-        g_liveTuning.falloffTaper.store(taper);
-        Logf(LogInfo, "falloff: %.0f%%%s", share * 100.f, taper ? " with taper" : share >= 1.f ? " (today)" : "");
-    }
-
     // The Relay: "always" makes no direct links at all and tells partners so; anything else uses it only when needed.
     const bool always = m_settings.Get("relay") == "always";
     if (m_relayAlways.exchange(always) != always)

@@ -100,19 +100,6 @@ local function buildMenu()
     outputOption = addDeviceOption(HEARING, "Output", "Where you hear other players.", false, "output_device")
     menu.addRangeInt(HEARING, "Voice level", "Voices set their own level against the game and every mic evens itself out, so this is only for taste. In dB; 0 is the automatic level.",
         -12, 12, 1, settingNumber("voice_level", 0), 0, store("voice_level"))
-    -- Temporary, to compare curves by ear in a session; one gets built in for everyone and this goes.
-    local falloffs = { "", "85", "70", "50", "70t" }
-    local falloff = setting("falloff_test", "")
-    local falloffIndex = 1
-    for i, id in ipairs(falloffs) do
-        if id == falloff then
-            falloffIndex = i
-        end
-    end
-    menu.addSelectorString(HEARING, "Distance falloff (test)", "Temporary, to compare by ear: how fast nearby voices get quieter with distance. Lower keeps them louder at medium distances; with taper the lift eases off again past 20 m. Only changes what you hear, and voices still go silent at 40 m.",
-        { "100% (today)", "85%", "70%", "50%", "70% with taper" }, falloffIndex, 1, function(index)
-            nativeVoice.SetSetting("falloff_test", falloffs[index] or "")
-        end)
     menu.addSwitch(HEARING, "Headphones", "Places nearby voices around your head, which only works in headphones. Turn it off for speakers.",
         settingOn("headphones", true), true, store("headphones"))
     menu.addSwitch(HEARING, "Show the voice display", "The corner display of your mic, the radio and who's talking.",

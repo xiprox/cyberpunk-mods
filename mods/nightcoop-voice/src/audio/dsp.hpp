@@ -112,17 +112,15 @@ private:
 
 // Temporary, for tuning by ear: Engine reads these from tuning.ini while the game runs, if that file exists on this PC, so
 // levels can be tried without a restart. Once they're right they go into the constants and all of this comes out.
+inline constexpr float kStartFalloffBend = 0.8f; // falloff_bend: 1 is a straight line in dB, lower drops sooner, higher holds on longer
+
 struct LiveTuning
 {
     std::atomic<float> roomDb{0.f}; // added to the room's level
     std::atomic<float> ring{1.f};   // times the decay
     std::atomic<float> echoDb{0.f};
     std::atomic<float> ownDb{0.f};  // your own voice in the room, on top of roomDb
-
-    // From the Settings choice "Distance falloff (test)", not tuning.ini: the share of today's dB a voice loses with
-    // distance, and whether that lift eases back to today's curve between 20 and 40 m.
-    std::atomic<float> falloff{1.f};
-    std::atomic<bool> falloffTaper{false};
+    std::atomic<float> falloffBend{kStartFalloffBend};
 };
 inline LiveTuning g_liveTuning;
 

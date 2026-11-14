@@ -9,10 +9,32 @@ Started on 2026-11-05 and filled in from the session transcripts, notes and logs
 Installed: 0.6.3 on the user's PC on 2026-11-07, reaching the others through the log collector: the radio headset clamping at -14 dB, with live tuning keys and the radio always in both ears, on top of 0.5.0's Relay and 0.4.6's falloff choices, protocol 3, so it doesn't play with 0.4.x and everyone updates together. Its 336 tests pass with audio devices. The user's `headset_db` is back to 0. With `headset_db=6` (the clamp at -14 dB) the user said "I think this is good for now". So 0.6.3 builds it in for everyone: the clamp is at -14 dB and the lift stays at -38 dB, as heard; the user's `headset_db` goes back to 0 when it's installed. Its made-up test blast now peaks near -5 dB, as the recorded shots did. At -10 dB, from the old belief in a -10.5 dB ceiling, it was hardly clamped at -14. Installed the same day. 0.4.6 and 0.5.0 were never installed.
 Not yet checked in the game: all of 0.6.0's radio headset. All of 0.5.0's Relay (its entry says what to look for). 0.4.6's falloff choices. 0.4.5 itself. Partners' reverb and echoes, last heard on 0.4.0. Their room, corners and doors by ear. On the user's own voice since the fixes: the open street, alley, mattress alcove, ramp recess, tunnel and soft materials. Whether voices at 10-30 m are too quiet. Whispering. Car muffling timing, and radio grit and level.
 
+## 2026-11-09: A softer bend for distance
+
+Testing 0.7.2 with Bleack, the user found 40 m faint, as it should be, but 15 m "closer to faint than it is to being next to them, which isn't very logical". The numbers agree: -13.5 dB at 15 m and -20.6 at 40, which by the usual 10 dB for half as loud is about 39% and 24% as loud as someone beside you. That session's log had a nearby gain near 0.2 at 15 m and 0.1 at 40. A curve of 6 dB per doubling is right for sound level but spends most of its drop in the first few metres, and a levelled mic has none of what makes real distance feel gentler: reflections, people raising their voices, the brain's compensation.
+From four shapes that all keep 40 m as it was, the user picked the softer bend over the straight line my recommendation had been. 0.7.3: `-20.6 dB * ((distance - 2) / 38) ^ 0.8`, so -2.7 at 5 m, -5.9 at 10, -8.7 at 15, -11.3 at 20, -16.1 at 30, -20.6 at 40, then the fade from 40 to 50. Past 40 m the bend carries on, about 1.3 dB under the chart's line at 45 m, in the fade. It covers voices, room sound and echoes as before; the darkening with distance and the radio are unchanged.
+`falloff_bend` in `tuning.ini` moves it live (1 is a straight line in dB, lower drops sooner). No protocol change. A side effect in a closed room: the room's sound still falls about a third as fast as the voice, but with the voice falling less, it stands out less from it at 15 m (about 6 dB less drop than the voice, was about 9.5).
+
+## 2026-11-08: The 85% falloff for everyone
+
+The user picked 85% after the 0.4.6 comparison, for voices "a bit easier to hear" at medium distances. Built in as 0.7.2 (`kRolloffShare`), and the test choice's code is gone: `falloff_test` in `settings.ini` is ignored and the log no longer has `falloff:` lines.
+A voice, its room sound and its echoes now lose 85% of the old curve's dB, about 5 dB per doubling instead of 6. In dB: -5.8 at 5 m, -10.6 at 10, -15.5 at 20, -18.5 at 30, -20.6 at 40, then the fade to silence at 50. The radio is unchanged. It only changes what each player hears, so no protocol change.
+
 ## 2026-11-08: The radio no longer puts the headset on
 
 Removed at the user's request, with its switch under Hearing: you can now stay in Passthrough with the radio on. 0.7.2 no longer tells Headset about the radio, so its link only hands over nearby voices. `headset_solo` goes too, since all it did was let the radio key try this with no session; a leftover line in `tuning.ini` or `headset` in `settings.ini` is ignored.
 Headset's interface is version 2 without that call (its 0.4.8), and neither side accepts the other's old version. A mismatched pair doesn't crash: voice logs that it can't use the mod and nearby voices play plain, so 0.7.2 and 0.4.8 go out together.
+
+## 2026-11-08: Voices now carry to 50 m
+
+The user asked to move silence from 40 m to 50 m. The curve wasn't what cut voices off: from 40 to 50 m it only loses another 2 dB, while the fade started at 30 m and had them silent by 40.
+0.7.1 keeps a 10 m fade but runs it from 40 to 50 m, so at 35 m a voice is -23.1 dB instead of -29.1, and at 45 m -31.2 instead of silent. Nothing under 30 m changes in level.
+- The limit also decides who gets sent a voice, and `kFarMeters` in `acoustics.cpp` limits the rays and ways round, so `SpatialInput::farMeters` and it move together.
+- The darkening with distance used to stretch between 2 m and the far limit. It now has its own 40 m (`kDullestAtMeters`), so voices sound the same as before under 40 m and get no duller past it.
+- The falloff test's taper still ends at 40 m, now where the fade begins.
+- Packets mean the same, so no protocol change. But until everyone has 0.7.1, a player on 0.7.0 cuts a voice off at 40 m: a talker on 0.7.0 stops sending there, which a listener on 0.7.1 hears as a drop from about -24 dB, and a listener on 0.7.0 hears nothing from 40 to 50 m.
+- Not measured: the small extra cost of rays and ways round out to 50 m.
+- The "Distance falloff (test)" choice is hidden from Settings (user), so everyone is on today's curve. The code behind it stays, read from `falloff_test` in `settings.ini`, and a value saved earlier still applies with no menu to change it. The user tried 85% and 70% for a few minutes on 2026-11-08 and went back to 100% (log); no verdict was given.
 
 ## 2026-11-08: Settings stay on Native Settings
 

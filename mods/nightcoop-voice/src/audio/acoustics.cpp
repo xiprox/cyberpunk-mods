@@ -10,7 +10,7 @@ namespace nv
 {
 namespace
 {
-constexpr float kFarMeters = 40.f;     // no voice carries further, so neither ray nor way round needs to
+constexpr float kFarMeters = 50.f;     // no voice carries further, so neither ray nor way round needs to; as SpatialInput::farMeters
 constexpr float kSpeedOfSound = 343.f;
 
 // ---- the room

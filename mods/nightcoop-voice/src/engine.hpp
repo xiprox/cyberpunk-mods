@@ -266,7 +266,6 @@ private:
     double m_lastLevelsMs = 0.0;
     double m_lastTuningCheckMs = 0.0;
     int64_t m_tuningFileTime = -1;
-    std::string m_falloffChoice = "unset"; // temporary, so the log says which falloff curve was on
     float m_savedAutoGainDb = 0.f;
 
     std::mutex m_outMutex;

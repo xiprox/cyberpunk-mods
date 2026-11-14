@@ -25,7 +25,7 @@ struct SpatialInput
     // The same for everyone on purpose: players hear distance alike. To change how far voices carry, change these for
     // everyone.
     float nearMeters = 2.f;
-    float farMeters = 40.f;
+    float farMeters = 50.f; // and kFarMeters in acoustics.cpp
     bool headphones = true; // a head model for the two ears; on speakers a plain pan works better
     float underwater = 0.f;   // the listener: 0 in the air .. 1 diving
     float slowMotion = 0.f;   // 0 .. 1, from SlowMotionFromWorldSpeed

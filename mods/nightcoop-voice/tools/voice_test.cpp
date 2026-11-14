@@ -163,23 +163,30 @@ void TestSpatial()
     };
     std::printf("  distance: 5 m %.1f dB, 10 m %.1f dB, 15 m %.1f dB, 25 m %.1f dB, 35 m %.1f dB\n", dbAt(5.f), dbAt(10.f),
                 dbAt(15.f), dbAt(25.f), dbAt(35.f));
-    Check(dbAt(5.f) < -6.f && dbAt(5.f) > -8.f, "5 m is about 7 dB down", "%.1f dB", dbAt(5.f));
-    Check(dbAt(10.f) < -11.f && dbAt(10.f) > -14.f, "10 m no longer feels next to you", "%.1f dB", dbAt(10.f));
-    Check(dbAt(15.f) < -14.f && dbAt(15.f) > -18.f, "nor does 15 m", "%.1f dB", dbAt(15.f));
-    Check(dbAt(8.f) - dbAt(4.f) < -4.f && dbAt(8.f) - dbAt(4.f) > -6.5f, "doubling the distance loses close to 6 dB", "%.1f dB",
-          dbAt(8.f) - dbAt(4.f));
+    Check(dbAt(5.f) < -2.2f && dbAt(5.f) > -3.2f, "5 m is about 3 dB down", "%.1f dB", dbAt(5.f));
+    Check(dbAt(10.f) < -5.4f && dbAt(10.f) > -6.4f, "10 m about 6", "%.1f dB", dbAt(10.f));
+    Check(dbAt(15.f) < -8.2f && dbAt(15.f) > -9.2f, "15 m about 9", "%.1f dB", dbAt(15.f));
+    Check(dbAt(15.f) > dbAt(40.f) * 0.5f, "which is less than halfway down to 40 m's level", "%.1f dB", dbAt(15.f));
 
     input.talkerPosition = {0.f, 21.5f, 0.f};
     const SpatialOutput middle = ComputeSpatial(input);
-    Check(middle.gainLeft > 0.05f && middle.gainLeft < 0.2f, "halfway to the far limit is much quieter", "%.2f",
+    Check(middle.gainLeft > 0.15f && middle.gainLeft < 0.35f, "a voice at 21.5 m is much quieter", "%.2f",
           middle.gainLeft);
     Check(middle.lowpassHz < close.lowpassHz * 0.7f, "distant voices audibly lose high end", "%.0f Hz", middle.lowpassHz);
     Check(middle.reverbSend / middle.gainLeft > close.reverbSend / close.gainLeft, "and have more room around them");
 
+    Check(dbAt(35.f) < -17.9f && dbAt(35.f) > -18.9f, "at 35 m a voice hasn't begun to fade", "%.1f dB", dbAt(35.f));
+    Check(dbAt(40.f) < -20.1f && dbAt(40.f) > -21.1f, "nor at 40 m", "%.1f dB", dbAt(40.f));
+    Check(dbAt(45.f) < -28.3f && dbAt(45.f) > -29.3f, "halfway through the fade it's 6 dB further down", "%.1f dB", dbAt(45.f));
     input.talkerPosition = {0.f, 40.f, 0.f};
-    Check(!ComputeSpatial(input).audible, "at 40 m a voice is silent");
-    input.talkerPosition = {0.f, 39.f, 0.f};
-    Check(ComputeSpatial(input).gainLeft < 0.01f, "just inside 40 m a voice has nearly faded out");
+    const float dullest = ComputeSpatial(input).lowpassHz;
+    input.talkerPosition = {0.f, 45.f, 0.f};
+    Check(std::fabs(ComputeSpatial(input).lowpassHz - dullest) < 1.f, "past 40 m a voice gets no duller", "%.0f Hz", dullest);
+    input.talkerPosition = {0.f, 50.f, 0.f};
+    Check(!ComputeSpatial(input).audible, "at 50 m a voice is silent");
+    input.talkerPosition = {0.f, 49.f, 0.f};
+    Check(ComputeSpatial(input).gainLeft < 0.01f, "just inside 50 m a voice has nearly faded out");
+
 
     input.talkerPosition = {5.f, 0.f, 0.f};
     const SpatialOutput right = ComputeSpatial(input);
@@ -271,49 +278,6 @@ std::vector<std::vector<uint8_t>> EncodeFrames(const std::vector<float>& aPcm)
     }
     opus_encoder_destroy(encoder);
     return frames;
-}
-
-// Temporary, with the Settings choice it tests: the falloff curves to compare by ear.
-void TestFalloffChoices()
-{
-    std::printf("distance falloff choices\n");
-    SpatialInput input;
-    input.listenerForward = {0.f, 1.f, 0.f};
-    input.listenerRight = {1.f, 0.f, 0.f};
-    const auto dbAt = [&](float aMeters) {
-        input.talkerPosition = {0.f, aMeters, 0.f};
-        return 20.f * std::log10(std::max(ComputeSpatial(input).gainLeft, 1e-6f));
-    };
-
-    const float today20 = dbAt(20.f);
-    const float today30 = dbAt(30.f);
-    g_liveTuning.falloff.store(0.7f);
-    const float plain20 = dbAt(20.f);
-    const float plain30 = dbAt(30.f);
-    g_liveTuning.falloffTaper.store(true);
-    const float taper2 = dbAt(2.f);
-    const float taper20 = dbAt(20.f);
-    const float taper30 = dbAt(30.f);
-    g_liveTuning.falloffTaper.store(false);
-    std::printf("  20 m: today %.1f, 70%% %.1f, with taper %.1f dB; 30 m: today %.1f, 70%% %.1f, with taper %.1f dB\n", today20,
-                plain20, taper20, today30, plain30, taper30);
-    Check(std::fabs(plain20 - today20 * 0.7f) < 0.3f, "70% loses 70% of today's dB at 20 m", "%.1f dB", plain20);
-    Check(std::fabs(plain30 - today30 * 0.7f) < 0.3f, "and at 30 m", "%.1f dB", plain30);
-    Check(std::fabs(taper20 - plain20) < 0.1f, "with taper it's the same up to 20 m", "%.1f dB", taper20);
-    Check(taper30 < plain30 - 2.f && taper30 > today30 + 2.f, "and halfway back to today's by 30 m", "%.1f dB", taper30);
-    Check(taper2 > -0.1f, "within 2 m it stays full volume", "%.1f dB", taper2);
-
-    g_liveTuning.falloff.store(0.5f);
-    const float half20 = dbAt(20.f);
-    input.talkerPosition = {0.f, 40.f, 0.f};
-    const SpatialOutput atLimit = ComputeSpatial(input);
-    g_liveTuning.falloff.store(1.f);
-    input.talkerPosition = {0.f, 40.f, 0.f};
-    const SpatialOutput todayAtLimit = ComputeSpatial(input);
-    Check(std::fabs(half20 - today20 * 0.5f) < 0.3f, "50% halves today's dB", "%.1f dB", half20);
-    Check(atLimit.gainLeft == 0.f && !atLimit.audible && atLimit.audible == todayAtLimit.audible,
-          "40 m stays silent and unsent whatever the choice");
-    Check(std::fabs(dbAt(20.f) - today20) < 0.01f, "back on 100% it's today's curve again");
 }
 
 void TestJitter()
@@ -1309,7 +1273,7 @@ void TestWallsBetween()
         Scene scene;
         scene.world.walls.push_back({{20.f, -big, -big}, {21.f, big, big}});
         scene.listener = {0.f, 0.f, 1.6f};
-        scene.talker = {45.f, 0.f, 1.6f};
+        scene.talker = {55.f, 0.f, 1.6f};
         scene.Run(1.f);
         const int roomRaysOnly = scene.world.rays;
         Check(roomRaysOnly <= 84, "a player out of earshot costs no rays of their own, only the room's", "%.0f rays in a second", roomRaysOnly);
@@ -1872,7 +1836,7 @@ void TestRoomInMixer()
     const Rendered across = renderIn(closed, 15.f);
     const float directDrop = 20.f * std::log10(spatialAt(15.f).gainLeft / spatialAt(2.f).gainLeft);
     const float tailDrop = 20.f * std::log10(tailOf(across) / tailOf(inRoom));
-    Check(directDrop < -12.f && tailDrop > directDrop + 8.f, "the room stays loud across it while the voice falls", "room %+.1f dB", tailDrop);
+    Check(directDrop < -8.f && tailDrop > directDrop * 0.5f, "the room stays loud across it while the voice falls", "room %+.1f dB", tailDrop);
 
     // Turning away and looking away leave the room's sound alone.
     SpatialInput facing;
@@ -3381,7 +3345,6 @@ int main(int aCount, char** aArguments)
     const bool withDevices = !(aCount > 1 && std::strcmp(aArguments[1], "--no-devices") == 0);
     TestPackets();
     TestSpatial();
-    TestFalloffChoices();
     TestJitter();
     TestMic();
     TestMicLevels();
