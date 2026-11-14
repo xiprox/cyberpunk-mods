@@ -6,8 +6,8 @@ Each folder in `mods/` is its own mod project; read its CLAUDE.md, README.md and
 
 - The game is in `C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077` (2.5, with Cyber Engine Tweaks, Codeware, TweakXL, ArchiveXL, RED4ext and NightCoop). Look game APIs up before using them: `<game>\tools\redmod\scripts`, and Codeware's `Scripts\Codeware.Global.reds`.
 - The crew: `xip` is the user, on this PC. Bossun's log folder is `Bobson` (an older one `bossun`), his NightCoop name is `B`, and his clock is 7 h behind; he hosts from North America. Bleack runs Linux (CachyOS, GOG), clock 1 h ahead.
-- For anything in the game, read the logs first: `C:\Users\wayne\Documents\CP77 Collected Logs\<player>`, NightCoop's at `<player>\game\red4ext\plugins\NightCoop\nightcoop.log` and its crashes in `nightcoop-crash.log`.
-- The crew gets mods through the user's log collector (`C:\Users\wayne\dev\tools\cp77-log-collector`): its Mods tab shares folders only, from a fixed list of places, so an archive goes in a folder of its own inside `archive\pc\mod` (the game loads it from there). Don't change the collector's code unless plainly asked.
+- For anything in the game, read the logs first. The user's log collector is Choom Collector (`C:\Users\wayne\dev\tools\choom-collector`, a rewrite of CP77 Log Collector), which writes one folder per session with a folder per player inside: `C:\Users\wayne\Documents\Choom Collector Logs\<YYYY-MM-DD> <code>\<player>`. Logs from before the switch (2026-11-13) stay in the old app's `C:\Users\wayne\Documents\CP77 Collected Logs\<player>`, with no session level. In a player's folder, NightCoop's log is at `game\red4ext\plugins\NightCoop\nightcoop.log` and its crashes in `nightcoop-crash.log`.
+- The crew gets mods through the collector's Mods tab: it shares folders only, from a fixed list of places, so an archive goes in a folder of its own inside `archive\pc\mod` (the game loads it from there). Don't change either collector's code unless plainly asked.
 
 ## While the game runs
 
