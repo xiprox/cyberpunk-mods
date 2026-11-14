@@ -64,8 +64,7 @@ add_library(voicecore STATIC
     src/audio/acoustics.cpp
     src/audio/automix.cpp
     src/audio/dsp.cpp
-    src/audio/headset.cpp
-    src/audio/render_hook.cpp
+    src/audio/headset_link.cpp
     src/audio/spatial.cpp
     src/audio/jitter.cpp
     src/audio/mic.cpp
@@ -73,7 +72,7 @@ add_library(voicecore STATIC
     src/audio/radio.cpp
     src/audio/wasapi.cpp
     src/engine.cpp)
-target_include_directories(voicecore PUBLIC src)
+target_include_directories(voicecore PUBLIC src "${CMAKE_SOURCE_DIR}/../headset/src") # headset_api.h: what the Headset mod offers
 target_link_libraries(voicecore PUBLIC opus rnnoise speexecho monocypher juice-static ole32 bcrypt)
 target_compile_options(voicecore PRIVATE /W4 /utf-8 /permissive-)
 

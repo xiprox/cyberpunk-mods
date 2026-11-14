@@ -6,14 +6,14 @@
 #include "audio/acoustics.hpp"
 #include "audio/automix.hpp"
 #include "audio/dsp.hpp"
-#include "audio/headset.hpp"
+#include "audio/headset_link.hpp"
 #include "audio/jitter.hpp"
 #include "audio/mic.hpp"
 #include "audio/mixer.hpp"
-#include "audio/render_hook.hpp"
 #include "audio/spatial.hpp"
 #include "audio/wasapi.hpp"
 #include "engine.hpp"
+#include "headset_api.h"
 #include "net/link.hpp"
 #include "net/packet.hpp"
 #include "net/resend.hpp"
@@ -3333,362 +3333,39 @@ void BandsDb(const std::vector<float>& aStereo, size_t aFrom, size_t aTo, float&
     aTreble = 10.f * std::log10(static_cast<float>(std::max(treble / count, 1e-14)));
 }
 
-// Through a headset in 10 ms buffers, as the game hands them over.
-void ThroughHeadset(HeadsetStream& aHeadset, std::vector<float>& aSamples, int aChannels, bool aWorn, float aShiftDb = 0.f,
-                    bool aReport = false)
+void TestHeadsetLink()
 {
-    const size_t frames = aSamples.size() / aChannels;
-    constexpr size_t kBuffer = 480;
-    for (size_t start = 0; start < frames; start += kBuffer)
-    {
-        const uint32_t count = static_cast<uint32_t>(std::min(kBuffer, frames - start));
-        aHeadset.Process(aSamples.data() + start * aChannels, count, aWorn, aShiftDb, aReport, NowMs());
-    }
-}
+    std::printf("the link to the Headset mod\n");
+    SetHeadsetApiForTest(nullptr);
+    float left[4] = {0.5f, 0.5f, 0.5f, 0.5f};
+    float right[4] = {0.5f, 0.5f, 0.5f, 0.5f};
+    ProcessVoicesThroughHeadset(left, right, 4);
+    Check(left[0] == 0.5f && right[3] == 0.5f, "without the mod, voices pass untouched");
+    Check(!HeadsetLinked(), "and voice knows it isn't there");
+    Check(!HeadsetOn(), "so no headset is on");
 
-struct TestNoise
-{
-    uint32_t seed = 12345;
-    float Next()
-    {
-        seed = seed * 1664525u + 1013904223u;
-        return static_cast<float>(static_cast<int32_t>(seed)) / 2147483648.f;
-    }
-};
-
-// A bang like the game's: a crack, then a low rumble, its peak near -5 dB, as the shots in the user's recording of
-// 2026-11-07 14:23 peaked at -4 to -6 dB. (The first recordings' loudest stopped near -10.5 dB, which was taken for a limit
-// of the game's; it wasn't.)
-std::vector<float> MakeBlast(float aScale)
-{
-    constexpr float kGameLevel = 1.8f; // from -10.3 dB to about -5
-    aScale *= kGameLevel;
-    TestNoise noise;
-    std::vector<float> blast(static_cast<size_t>(kRate) * 2 * 2);
-    float low = 0.f;
-    for (size_t frame = 0; frame < blast.size() / 2; ++frame)
-    {
-        const float t = static_cast<float>(frame) / kRate;
-        const float n = noise.Next();
-        low += 0.02f * (n - low);
-        const float sample = (n * std::exp(-t / 0.01f) * 0.08f + low * 1.6f * std::exp(-t / 0.4f)) * aScale;
-        blast[frame * 2] = sample;
-        blast[frame * 2 + 1] = sample;
-    }
-    return blast;
-}
-
-void ResetHeadsetControl()
-{
-    g_headset.on.store(false);
-    g_headset.levelShiftDb.store(0.f);
-    for (int side = 0; side < 2; ++side)
-    {
-        g_headset.clamp[side].store(1.f);
-        g_headset.lift[side].store(1.f);
-    }
-    g_headset.gameAtMs.store(-1e9);
-    g_headset.deepestDb.store(0.f);
-    g_headset.breaths.store(0);
-}
-
-void TestHeadset()
-{
-    std::printf("radio headset\n");
-    TestNoise noise;
-    const size_t frames = static_cast<size_t>(kRate) * 3;
-    std::vector<float> street(frames * 2);
-    for (float& sample : street)
-    {
-        sample = noise.Next() * 0.0155f; // about -41 dB, the quiet street the user recorded
-    }
-
-    {
-        HeadsetStream headset;
-        headset.Configure(2, kRate);
-        std::vector<float> heard = street;
-        ThroughHeadset(headset, heard, 2, false);
-        Check(heard == street, "with the headset off, the game's sound is left exactly as it was");
-    }
-    {
-        HeadsetStream headset;
-        headset.Configure(2, kRate);
-        std::vector<float> heard = street;
-        ThroughHeadset(headset, heard, 2, true);
-        const size_t from = static_cast<size_t>(kRate) * 2; // past the fade in and the lift coming up
-        const float before = SignalDb(street.data() + from, street.size() - from, 1);
-        const float after = SignalDb(heard.data() + from, heard.size() - from, 1);
-        Check(after > before - 4.f && after < before + 6.f, "quiet sound through it stays about as loud", "%+.1f dB",
-              after - before);
-    }
-    {
-        HeadsetStream headset;
-        headset.Configure(2, kRate);
-        std::vector<float> silence(static_cast<size_t>(kRate) * 2, 0.f);
-        ThroughHeadset(headset, silence, 2, true);
-        const size_t from = static_cast<size_t>(kRate / 2) * 2;
-        const float hiss = SignalDb(silence.data() + from, silence.size() - from, 1);
-        Check(hiss > -68.f && hiss < -60.f, "in silence there's only its faint hiss", "%.1f dB", hiss);
-    }
-
-    const std::vector<float> blast = MakeBlast(1.f);
-    float peak = 0.f;
-    for (const float sample : blast)
-    {
-        peak = std::max(peak, std::fabs(sample));
-    }
-    std::printf("  made-up blast peaks at %.1f dB\n", 20.f * std::log10(peak));
-    {
-        HeadsetStream headset;
-        headset.Configure(2, kRate);
-        // Already worn when the blast comes.
-        std::vector<float> before(static_cast<size_t>(kRate / 2) * 2, 0.f);
-        ThroughHeadset(headset, before, 2, true);
-        std::vector<float> heard = blast;
-        ThroughHeadset(headset, heard, 2, true);
-        const size_t loudest = static_cast<size_t>(kRate) * 3 / 10;
-        float wholeIn, bassIn, trebleIn, wholeOut, bassOut, trebleOut;
-        BandsDb(blast, 0, loudest, wholeIn, bassIn, trebleIn);
-        BandsDb(heard, 0, loudest, wholeOut, bassOut, trebleOut);
-        std::printf("  loudest 0.3 s, whole / bass / treble: %.1f / %.1f / %.1f dB in, %.1f / %.1f / %.1f dB out\n", wholeIn, bassIn,
-                    trebleIn, wholeOut, bassOut, trebleOut);
-        Check((bassOut - trebleOut) > (bassIn - trebleIn) + 4.f, "a blast keeps its thump and loses its crack",
-              "%.1f dB more bass than treble", (bassOut - trebleOut) - (bassIn - trebleIn));
-        Check(wholeOut < wholeIn - 3.f, "and comes out quieter", "%.1f dB", wholeOut - wholeIn);
-    }
-    {
-        ResetHeadsetControl();
-        HeadsetStream headset;
-        headset.Configure(2, kRate);
-        std::vector<float> fire = street;
-        for (int shot = 0; shot < 15; ++shot)
+    static int mode = 1;
+    mode = 1;
+    HeadsetApi fake{};
+    fake.version = HEADSET_API_VERSION;
+    fake.EffectiveMode = []() { return mode; };
+    fake.ProcessNearbyVoices = [](float* aLeft, float* aRight, int aFrames) {
+        for (int i = 0; i < aFrames; ++i)
         {
-            const size_t start = static_cast<size_t>(kRate / 2) + static_cast<size_t>(shot) * (kRate / 10);
-            for (size_t n = 0; n < static_cast<size_t>(kRate) * 6 / 100; ++n)
-            {
-                const float t = static_cast<float>(n) / kRate;
-                const float value = noise.Next() * 0.3f * std::exp(-t / 0.008f);
-                fire[(start + n) * 2] += value;
-                fire[(start + n) * 2 + 1] += value;
-            }
+            aLeft[i] *= 0.5f;
+            aRight[i] *= 0.5f;
         }
-        ThroughHeadset(headset, fire, 2, true, 0.f, true);
-        const uint32_t breaths = g_headset.breaths.load();
-        Check(breaths <= 3, "through a burst of fire it stays down instead of breathing at the fire rate", "%u breaths", breaths);
-    }
-    {
-        // Bossun's Master volume 30: the game's samples about 10.5 dB quieter, and the clamp follows them down.
-        const float shiftDb = 20.f * std::log10(0.3f);
-        float deepest[2];
-        for (int run = 0; run < 2; ++run)
-        {
-            ResetHeadsetControl();
-            HeadsetStream headset;
-            headset.Configure(2, kRate);
-            std::vector<float> heard = MakeBlast(run == 0 ? 1.f : 0.3f);
-            ThroughHeadset(headset, heard, 2, true, run == 0 ? 0.f : shiftDb, true);
-            deepest[run] = g_headset.deepestDb.load();
-        }
-        std::printf("  turned down at most: %.1f dB at Master 100, %.1f dB at Master 30\n", deepest[0], deepest[1]);
-        Check(std::fabs(deepest[0] - deepest[1]) < 1.5f, "at a lower Master volume it clamps the same sounds as hard",
-              "%.1f dB apart", std::fabs(deepest[0] - deepest[1]));
-
-        // tuning.ini's headset_db and headset_steep, as the user tunes it by ear: up and less steep is gentler.
-        ResetHeadsetControl();
-        g_liveTuning.headsetDb.store(6.f);
-        g_liveTuning.headsetSteep.store(2.f);
-        HeadsetStream gentler;
-        gentler.Configure(2, kRate);
-        std::vector<float> heard = MakeBlast(1.f);
-        ThroughHeadset(gentler, heard, 2, true, 0.f, true);
-        const float tuned = g_headset.deepestDb.load();
-        g_liveTuning.headsetDb.store(0.f);
-        g_liveTuning.headsetSteep.store(3.f);
-        std::printf("  tuned 6 dB up and 2 dB per dB: turned down %.1f dB at most\n", tuned);
-        Check(tuned > deepest[0] + 6.f, "tuned gentler, it turns the same blast down less", "%.1f dB less",
-              tuned - deepest[0]);
-    }
-    {
-        HeadsetStream headset;
-        headset.Configure(2, kRate);
-        std::vector<float> part(static_cast<size_t>(kRate / 10) * 2);
-        std::copy(street.begin(), street.begin() + static_cast<std::ptrdiff_t>(part.size()), part.begin());
-        ThroughHeadset(headset, part, 2, true);
-        const float halfway = headset.WornAmount();
-        std::vector<float> more(static_cast<size_t>(kRate / 4) * 2, 0.f);
-        ThroughHeadset(headset, more, 2, true);
-        const float on = headset.WornAmount();
-        ThroughHeadset(headset, more, 2, false);
-        const float off = headset.WornAmount();
-        std::vector<float> after(street.begin(), street.begin() + static_cast<std::ptrdiff_t>(kRate / 10) * 2);
-        const std::vector<float> original = after;
-        ThroughHeadset(headset, after, 2, false);
-        Check(halfway > 0.4f && halfway < 0.6f && on == 1.f && off == 0.f && after == original,
-              "it goes on and off over a fifth of a second, then leaves the sound alone", "%.2f after 0.1 s", halfway);
-    }
-    {
-        // A 5.1 output: every channel gets the headset, and nothing breaks.
-        HeadsetStream headset;
-        headset.Configure(6, kRate);
-        std::vector<float> six(static_cast<size_t>(kRate) * 6);
-        for (size_t frame = 0; frame < six.size() / 6; ++frame)
-        {
-            for (int channel = 0; channel < 6; ++channel)
-            {
-                six[frame * 6 + channel] = blast[(frame % (blast.size() / 2)) * 2];
-            }
-        }
-        const std::vector<float> original = six;
-        ThroughHeadset(headset, six, 6, true);
-        bool finite = true;
-        for (const float sample : six)
-        {
-            finite = finite && std::isfinite(sample);
-        }
-        Check(finite && six[kRate * 6 / 2 + 4] != original[kRate * 6 / 2 + 4], "with six channels each one goes through it");
-    }
-    ResetHeadsetControl();
-}
-
-void TestHeadsetInMixer()
-{
-    std::printf("radio headset in the mixer (runs in real time)\n");
-    std::vector<float> tones(kRate);
-    for (int i = 0; i < kRate; ++i)
-    {
-        const float t = static_cast<float>(i) / kRate;
-        tones[static_cast<size_t>(i)] = 0.2f * std::sin(2.f * kPi * 1000.f * t) + 0.2f * std::sin(2.f * kPi * 6000.f * t);
-    }
-    const auto frames = EncodeFrames(tones);
-    SpatialInput input;
-    input.listenerForward = {0.f, 1.f, 0.f};
-    input.listenerRight = {1.f, 0.f, 0.f};
-    input.talkerPosition = {0.f, 1.f, 0.f};
-    const SpatialOutput beside = ComputeSpatial(input);
-    input.talkerPosition = {0.f, 200.f, 0.f}; // out of earshot, so only the radio carries them
-    const SpatialOutput faraway = ComputeSpatial(input);
-    const auto secondHalf = [](const std::vector<float>& aSignal) {
-        return std::vector<float>(aSignal.begin() + static_cast<std::ptrdiff_t>(aSignal.size() / 2), aSignal.end());
     };
-    const auto render = [&](uint8_t aFlags, bool aWorn, float aClamp) {
-        const SpatialOutput& spatial = (aFlags & kFlagRadio) ? faraway : beside;
-        ResetHeadsetControl();
-        g_headset.on.store(aWorn);
-        g_headset.clamp[0].store(aClamp);
-        g_headset.clamp[1].store(aClamp);
-        g_headset.gameAtMs.store(NowMs() + 1e9); // the game's sound counts as coming through all along
-        Mixer mixer;
-        mixer.AddVoice(1);
-        mixer.SetSpatial(1, spatial);
-        const Rendered out = RenderThrough(mixer, 1, frames, aFlags);
-        return Rms(secondHalf(out.left));
-    };
-    const float clean = render(0, false, 1.f);
-    const float calm = render(0, true, 1.f);
-    const float blasted = render(0, true, 0.01f);
-    Check(calm > clean * 0.5f && calm < clean * 1.2f, "with nothing loud going on, a voice beside you keeps about its level",
-          "%.2f of it", calm / clean);
-    Check(blasted < clean * 0.15f, "while a blast turns the headset down, it swallows a voice beside you", "%.2f of it",
-          blasted / clean);
-    const float radioClean = render(kFlagRadio, false, 1.f);
-    const float radioBlasted = render(kFlagRadio, true, 0.01f);
-    Check(radioClean > 0.f && std::fabs(radioBlasted / radioClean - 1.f) < 0.05f, "the radio plays inside it, untouched",
-          "%.2f of it", radioBlasted / radioClean);
-    ResetHeadsetControl();
-}
-
-void TestRenderHook()
-{
-    std::printf("the radio headset on a stream set up like the game's\n");
-    Check(InstallRenderHook(), "the hook on Windows' audio goes in");
-    ComThread com;
-    ResetHeadsetControl();
-    const RenderHookCounts before = GetRenderHookCounts();
-
-    IMMDeviceEnumerator* enumerator = nullptr;
-    IMMDevice* device = nullptr;
-    IAudioClient* client = nullptr;
-    IAudioRenderClient* render = nullptr;
-    WAVEFORMATEXTENSIBLE format{};
-    format.Format.wFormatTag = WAVE_FORMAT_EXTENSIBLE;
-    format.Format.nChannels = 2;
-    format.Format.nSamplesPerSec = kRate;
-    format.Format.wBitsPerSample = 32;
-    format.Format.nBlockAlign = 8;
-    format.Format.nAvgBytesPerSec = kRate * 8;
-    format.Format.cbSize = sizeof(WAVEFORMATEXTENSIBLE) - sizeof(WAVEFORMATEX);
-    format.Samples.wValidBitsPerSample = 32;
-    format.dwChannelMask = SPEAKER_FRONT_LEFT | SPEAKER_FRONT_RIGHT;
-    format.SubFormat = KSDATAFORMAT_SUBTYPE_IEEE_FLOAT;
-    const bool opened =
-        SUCCEEDED(CoCreateInstance(__uuidof(MMDeviceEnumerator), nullptr, CLSCTX_ALL, __uuidof(IMMDeviceEnumerator),
-                                   reinterpret_cast<void**>(&enumerator))) &&
-        SUCCEEDED(enumerator->GetDefaultAudioEndpoint(eRender, eConsole, &device)) &&
-        SUCCEEDED(device->Activate(__uuidof(IAudioClient), CLSCTX_ALL, nullptr, reinterpret_cast<void**>(&client))) &&
-        SUCCEEDED(client->Initialize(AUDCLNT_SHAREMODE_SHARED, AUDCLNT_STREAMFLAGS_AUTOCONVERTPCM | AUDCLNT_STREAMFLAGS_SRC_DEFAULT_QUALITY,
-                                     2000000, 0, &format.Format, nullptr)) &&
-        SUCCEEDED(client->GetService(__uuidof(IAudioRenderClient), reinterpret_cast<void**>(&render)));
-    Check(opened, "a stream like the game's opens");
-    const RenderHookCounts setUp = GetRenderHookCounts();
-    Check(setUp.streamsSeen == before.streamsSeen + 1 && setUp.streamsUsed == before.streamsUsed + 1,
-          "the hook sees it set up, in a format it can work on");
-    if (opened)
-    {
-        // Never started, so nothing written here is ever played.
-        g_headset.on.store(true);
-        const std::vector<float> blast = MakeBlast(1.f);
-        BYTE* data = nullptr;
-        constexpr UINT32 kFrames = 480;
-        for (int buffer = 0; buffer < 20; ++buffer)
-        {
-            if (FAILED(render->GetBuffer(kFrames, &data)))
-            {
-                break;
-            }
-            std::memcpy(data, blast.data() + static_cast<size_t>(buffer) * kFrames * 2, kFrames * 8);
-            render->ReleaseBuffer(kFrames, 0);
-        }
-        const RenderHookCounts written = GetRenderHookCounts();
-        Check(written.buffersRun > setUp.buffersRun, "each buffer goes through the headset before Windows takes it", "%.0f",
-              static_cast<double>(written.buffersRun - setUp.buffersRun));
-        Check(g_headset.deepestDb.load() < -6.f, "and a blast in it is turned down", "%.1f dB", g_headset.deepestDb.load());
-
-        RenderStream own;
-        if (own.Open(""))
-        {
-            std::vector<float> quiet(kBlock * 2, 0.f);
-            const double until = NowMs() + 200.0;
-            while (NowMs() < until)
-            {
-                int wanted = own.Wanted();
-                while (wanted >= kBlock && own.Write(quiet.data(), kBlock))
-                {
-                    wanted -= kBlock;
-                }
-                own.Wait(10);
-            }
-        }
-        const RenderHookCounts after = GetRenderHookCounts();
-        Check(after.buffersOwn > written.buffersOwn && after.buffersRun == written.buffersRun,
-              "the mod's own voices never go through it");
-    }
-    if (render)
-    {
-        render->Release();
-    }
-    if (client)
-    {
-        client->Release();
-    }
-    if (device)
-    {
-        device->Release();
-    }
-    if (enumerator)
-    {
-        enumerator->Release();
-    }
-    ResetHeadsetControl();
+    SetHeadsetApiForTest(&fake);
+    Check(HeadsetLinked(), "with it, voice finds it");
+    ProcessVoicesThroughHeadset(left, right, 4);
+    Check(left[0] == 0.25f && right[3] == 0.25f, "and nearby voices go through it");
+    Check(HeadsetOn(), "hearing protection counts as the headset on");
+    mode = 2;
+    Check(HeadsetOn(), "and so does noise cancelling");
+    mode = 0;
+    Check(!HeadsetOn(), "but Passthrough doesn't: the headset isn't worn");
+    SetHeadsetApiForTest(nullptr);
 }
 } // namespace
 
@@ -3727,12 +3404,10 @@ int main(int aCount, char** aArguments)
     TestRelayAlways();
     TestRelaySwitches();
     TestRelayRate();
-    TestHeadset();
-    TestHeadsetInMixer();
+    TestHeadsetLink();
     if (withDevices)
     {
         TestDevices();
-        TestRenderHook();
     }
 
     std::printf("\n%s (%d failure%s)\n", g_failures == 0 ? "ALL OK" : "FAILED", g_failures, g_failures == 1 ? "" : "s");

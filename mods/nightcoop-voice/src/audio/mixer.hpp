@@ -3,7 +3,6 @@
 
 #include "audio/acoustics.hpp"
 #include "audio/dsp.hpp"
-#include "audio/headset.hpp"
 #include "audio/radio.hpp"
 #include "audio/spatial.hpp"
 
@@ -106,7 +105,6 @@ private:
     // The radio plays inside the headset, so it's kept apart from what the headset's microphones hear.
     float m_radioLeft[kBlock]{};
     float m_radioRight[kBlock]{};
-    HeadsetVoices m_headset;
 
     // One writer, the mic thread, and one reader, the render thread.
     static constexpr int kOwnVoiceSamples = 4096;

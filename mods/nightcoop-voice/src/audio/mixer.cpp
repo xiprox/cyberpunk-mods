@@ -1,5 +1,6 @@
 #include "audio/mixer.hpp"
 
+#include "audio/headset_link.hpp"
 #include "audio/jitter.hpp"
 
 #include <opus.h>
@@ -727,9 +728,8 @@ void Mixer::Render(float* aStereo)
     m_reverb.SetRoom(room);
     m_reverb.Process(m_send, m_left, m_right, kBlock);
 
-    // Nearby voices and their rooms are outside sounds, heard through the headset's microphones when it's on; the radio
-    // plays inside it.
-    m_headset.Process(m_left, m_right, kBlock, g_headset.on.load(std::memory_order_relaxed), now);
+    // Nearby voices and their rooms are outside sounds, heard as the Headset mod hears the world; the radio plays inside it.
+    ProcessVoicesThroughHeadset(m_left, m_right, kBlock);
     for (int i = 0; i < kBlock; ++i)
     {
         m_left[i] += m_radioLeft[i];

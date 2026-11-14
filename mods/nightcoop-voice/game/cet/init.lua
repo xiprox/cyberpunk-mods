@@ -115,8 +115,6 @@ local function buildMenu()
         end)
     menu.addSwitch(HEARING, "Headphones", "Places nearby voices around your head, which only works in headphones. Turn it off for speakers.",
         settingOn("headphones", true), true, store("headphones"))
-    menu.addSwitch(HEARING, "Radio headset", "While your radio mic is on you wear a tactical headset: bangs and blasts turn into a muffled thump, quiet sounds come up a little, and there's a faint hiss. Nearby voices go through it too; the radio plays inside it. Off leaves the game's sound alone.",
-        settingOn("headset", true), true, store("headset"))
     menu.addSwitch(HEARING, "Show the voice display", "The corner display of your mic, the radio and who's talking.",
         settingOn("hud", true), true, store("hud"))
 

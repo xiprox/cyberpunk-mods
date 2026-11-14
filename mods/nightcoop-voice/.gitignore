@@ -9,3 +9,6 @@
 
 # Recordings of the game from tools/record_game, and what headset_clamp makes of them
 /recordings/
+
+# Measurements from test runs, such as the Wwise probe's
+/experiments/
