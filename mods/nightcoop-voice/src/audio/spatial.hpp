@@ -3,6 +3,8 @@
 
 #include "core/common.hpp"
 
+#include <vector>
+
 namespace nv
 {
 enum Cabin : int
@@ -11,6 +13,36 @@ enum Cabin : int
     CabinShared = 1,    // we sit in the same vehicle
     CabinSeparated = 2, // one of us is inside a car the other isn't in
 };
+
+// A closed car's body and glass: what gets through within reach, and how dull. Past the reach nothing does, since silence
+// "with someone standing at your window could look like a broken link" (RECORD.md), but further off it's simply silent.
+constexpr float kCabinWallGain = 0.45f;
+constexpr float kCabinWallCutoffHz = 500.f;
+constexpr float kCabinReachMeters = 5.f;
+
+// A gap in a car's cabin: a window wound down or shot out, an open door, a roof that's off. In the world.
+struct CarOpening
+{
+    Vec3 centre;
+    Vec3 normal;          // one metre long, pointing out of the cabin
+    float area = 0.f;     // square metres
+    float openness = 0.f; // 0 shut .. 1 fully open; in between while a window winds or a door swings
+};
+
+// What a car's openings let through between a talker and a listener, against the voice with no car in the way.
+struct CarSound
+{
+    float gain = 0.f;         // amplitude; 0 if nothing's open
+    float cutoffHz = 16000.f; // the treble the way through the gaps keeps
+    Vec3 arrival;             // where it seems to come from: the gaps nearest the listener, weighted by what each lets through
+};
+
+// The voice goes from the mouth out through a gap, and if the listener sits in a car of their own, in through one of
+// theirs, turning at each gap like round a corner. A gap that faces away from where the voice goes next has the car's
+// body in the way as well. A small gap lets through less than a side window's worth. Where only one car is open, the
+// other's closed body muffles what comes through. Either car can be missing (nullptr). aNearMeters is SpatialInput's.
+CarSound ThroughCars(const Vec3& aMouth, const Vec3& aEar, const std::vector<CarOpening>* aTalkerCar,
+                     const std::vector<CarOpening>* aListenerCar, float aNearMeters);
 
 struct SpatialInput
 {
@@ -37,6 +69,12 @@ struct SpatialInput
     float pathMeters = 0.f;   // how far the sound travels along it
     float pathBends = 0.f;
     float pathDoors = 0.f;    // closed doors on the way
+
+    // With a cabin between us (separatedCabin), what its openings let through, from ThroughCars.
+    float carOpenGain = 0.f;
+    float carOpenCutoffHz = 16000.f;
+    Vec3 carOpenArrival;
+    bool carOpenAny = false;  // any gap in either car, by what the players report, so both work out ShouldSendNearby alike
 };
 
 struct SpatialOutput
@@ -52,6 +90,7 @@ struct SpatialOutput
     float shadowLeftHz = kNoShadowHz; // the head blocks treble from the far ear
     float shadowRightHz = kNoShadowHz;
     float turnedAway = 0.f;        // 0 the talker faces the listener .. 1 their back is turned. For the log.
+    float carOpenShare = 0.f;      // 0 .. 1: of what crosses a cabin, how much came through its gaps; for echoes and the log
     bool audible = false;          // whether the talker should send to this listener, from ShouldSendNearby
 
     static constexpr float kNoShadowHz = 20000.f;
@@ -79,8 +118,10 @@ float FarFade(float aDistance, float aNearMeters, float aFarMeters);
 
 // Whether a talker at this straight-line distance should send their nearby voice. Both players do this sum about each
 // other, and walls, corners and which way anyone faces all come out differently on each machine, so it uses none of them:
-// no way round is ever shorter than the straight line, so this never stops a voice someone could hear.
-bool ShouldSendNearby(float aDistance, float aSeparatedCabin, float aFarMeters);
+// no way round is ever shorter than the straight line, so this never stops a voice someone could hear. A closed cabin
+// between us stops it past its reach, unless either car has a gap (aCarOpen), which both players know from what each
+// reports about their own car.
+bool ShouldSendNearby(float aDistance, float aSeparatedCabin, bool aCarOpen, float aFarMeters);
 
 // Whether a partner's radio stops playing here because you hear them in the air instead. Each player works this out for themselves and
 // only for that partner, whose radio still reaches everyone else. aWasCut holds it a little further out, so the edge doesn't flicker.

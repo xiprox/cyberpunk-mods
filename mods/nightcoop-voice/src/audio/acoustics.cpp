@@ -344,6 +344,7 @@ struct Acoustics::Talker
     PeerId id = 0;
     Vec3 position;
     int cabin = CabinNone;
+    bool carOpen = false;
     bool talking = false;
     double seenMs = 0.0;
 
@@ -425,7 +426,7 @@ void Acoustics::SetListener(const Vec3& aPosition, double aNowMs)
     NoteTrail(m_trail, aPosition);
 }
 
-void Acoustics::SetTalker(PeerId aPeer, const Vec3& aPosition, int aCabin, bool aTalking, double aNowMs)
+void Acoustics::SetTalker(PeerId aPeer, const Vec3& aPosition, int aCabin, bool aCarOpen, bool aTalking, double aNowMs)
 {
     Talker* talker = Find(aPeer);
     if (!talker)
@@ -437,6 +438,7 @@ void Acoustics::SetTalker(PeerId aPeer, const Vec3& aPosition, int aCabin, bool 
     }
     talker->position = aPosition;
     talker->cabin = aCabin;
+    talker->carOpen = aCarOpen;
     talker->talking = aTalking;
     talker->seenMs = aNowMs;
     NoteTrail(talker->trail, aPosition);
@@ -491,7 +493,7 @@ bool Acoustics::StartNextJob(double aNowMs)
         Talker& talker = *m_talkers[(m_cursor + i) % m_talkers.size()];
         const float straight = DistanceBetween(m_listener, talker.position);
         const bool reachable = straight < kFarMeters && talker.cabin != CabinShared &&
-                               ShouldSendNearby(straight, talker.cabin == CabinSeparated ? 1.f : 0.f, kFarMeters);
+                               ShouldSendNearby(straight, talker.cabin == CabinSeparated ? 1.f : 0.f, talker.carOpen, kFarMeters);
         if (!reachable)
         {
             // Nothing to hear, so nothing to measure. Walls and ways round start from what's true when that changes.

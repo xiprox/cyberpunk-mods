@@ -5,6 +5,7 @@
 
 #include "audio/acoustics.hpp"
 #include "audio/automix.hpp"
+#include "audio/car.hpp"
 #include "audio/dsp.hpp"
 #include "audio/headset_link.hpp"
 #include "audio/jitter.hpp"
@@ -1042,7 +1043,7 @@ struct Scene
         for (double elapsed = 0.0; elapsed < aSeconds * 1000.0; elapsed += step)
         {
             acoustics.SetListener(listener, now);
-            acoustics.SetTalker(1, talker, cabin, talking, now);
+            acoustics.SetTalker(1, talker, cabin, false, talking, now);
             RayRequest ray;
             for (int i = 0; i < 12 && acoustics.NextRay(ray, now); ++i)
             {
@@ -1549,8 +1550,9 @@ void TestPathSound()
     const bool sendsPlain = ComputeSpatial(input).audible;
     input.pathAmount = 1.f;
     Check(ComputeSpatial(input).audible == sendsPlain, "and it doesn't change whether anyone sends");
-    Check(ShouldSendNearby(39.f, 0.f, 40.f) && !ShouldSendNearby(41.f, 0.f, 40.f), "sending goes by straight-line distance");
-    Check(ShouldSendNearby(3.f, 1.f, 40.f) && !ShouldSendNearby(6.f, 1.f, 40.f) && ShouldSendNearby(6.f, 0.5f, 40.f), "and whether a car's in the way, which can't be heard past 5 m");
+    Check(ShouldSendNearby(39.f, 0.f, false, 40.f) && !ShouldSendNearby(41.f, 0.f, false, 40.f), "sending goes by straight-line distance");
+    Check(ShouldSendNearby(3.f, 1.f, false, 40.f) && !ShouldSendNearby(6.f, 1.f, false, 40.f) && ShouldSendNearby(6.f, 0.5f, false, 40.f), "and whether a car's in the way, which can't be heard past 5 m");
+    Check(ShouldSendNearby(30.f, 1.f, true, 40.f) && !ShouldSendNearby(41.f, 1.f, true, 40.f), "unless the car has a gap, when the far limit is all");
 
     PathEase ease;
     ease.Update(false, {}, 0.f, 0.f, 0.f, 100000.0);
@@ -1575,6 +1577,204 @@ void TestPathSound()
     now += 33.0;
     ease.Update(false, {}, 0.f, 0.f, 0.f, now);
     Check(ease.Amount() > 0.8f && ease.Meters() == 20.f, "and one lost fades, from where it was");
+}
+
+// A Mizutani Hozuki as the car probe found it on 2026-11-13: each glass and door part's mesh, and where the game put it
+// with everything shut, in the car's frame (right, forward, up).
+struct FakePart
+{
+    int glass;
+    int door;
+    const char* name;
+    uint64_t mesh;
+    Vec3 pivot;
+};
+
+const FakePart kHozuki[] = {
+    {0, -1, "window_f", 12278391241719043876ull, {0.f, 0.f, 0.40f}},
+    {1, -1, "window_fl", 16234536973204584184ull, {-0.81f, 0.59f, 0.64f}},
+    {2, -1, "window_fr", 14113000640040682594ull, {0.81f, 0.59f, 0.64f}},
+    {3, -1, "window_bl", 14228558100944804188ull, {-0.81f, -0.68f, 0.68f}},
+    {4, -1, "window_br", 1472569933064663054ull, {0.81f, -0.68f, 0.68f}},
+    {5, -1, "window_bl_02", 16343010582634198051ull, {-0.94f, -0.37f, 0.32f}},
+    {6, -1, "window_br_02", 10406851649055857633ull, {0.94f, -0.37f, 0.32f}},
+    {7, -1, "trunk_a_window_01", 1509337683122292238ull, {-0.55f, -1.22f, 1.02f}},
+    {-1, 0, "door_fl_a", 11534028905857495944ull, {-0.96f, 0.79f, 0.29f}},
+    {-1, 1, "door_fr_a", 4083839359777836626ull, {0.96f, 0.79f, 0.29f}},
+    {-1, 2, "door_bl_a", 11371938853316775724ull, {-0.94f, -0.37f, 0.32f}},
+    {-1, 3, "door_br_a", 16531046409370485118ull, {0.94f, -0.37f, 0.32f}},
+};
+const Vec3 kHozukiDriverHead{-0.39f, -0.10f, 0.78f}; // the NPC driver's head the probe read
+
+void BuildHozuki(Car& aCar, uint32_t aKey, const char* aAppearance = "mizutani_hozuki__basic_default")
+{
+    aCar.Begin(aKey);
+    for (const FakePart& part : kHozuki)
+    {
+        aCar.AddPart(part.glass, part.door, part.name, part.mesh, part.pivot);
+    }
+    aCar.Finish(aAppearance);
+}
+
+void DescribeHozuki(Engine& aEngine, PeerId aOwner, uint32_t aKey)
+{
+    aEngine.BeginCar(aOwner, aKey);
+    for (const FakePart& part : kHozuki)
+    {
+        aEngine.AddCarPart(aOwner, part.glass, part.door, part.name, part.mesh, part.pivot);
+    }
+    aEngine.FinishCar(aOwner, "mizutani_hozuki__basic_default");
+}
+
+CarStates WindowDown(int aDoor)
+{
+    CarStates states;
+    states.windowsDown = static_cast<uint8_t>(1u << aDoor);
+    return states;
+}
+
+const CarOpening* NearestGap(const std::vector<CarOpening>& aGaps, const Vec3& aTo)
+{
+    const CarOpening* best = nullptr;
+    float bestDistance = 1e9f;
+    for (const CarOpening& gap : aGaps)
+    {
+        const float d = std::hypot(gap.centre.x - aTo.x, gap.centre.y - aTo.y, gap.centre.z - aTo.z);
+        if (d < bestDistance)
+        {
+            bestDistance = d;
+            best = &gap;
+        }
+    }
+    return best;
+}
+
+void TestCars()
+{
+    std::printf("cars' gaps\n");
+    Vec3 min;
+    Vec3 max;
+    Check(FindCarMeshBox(16234536973204584184ull, min, max) && max.z > 0.3f && min.y < -0.8f,
+          "the table has the Hozuki's front left window, as the game files give it");
+    Check(!FindCarMeshBox(12345ull, min, max), "and nothing for a mesh it doesn't know");
+    Check(IsOpenTopAppearance("villefort_alvarado__basic_valentinos_02") && IsOpenTopAppearance("porsche_911turbo__basic_cabrio_01") &&
+              !IsOpenTopAppearance("villefort_alvarado__basic_default"),
+          "the Vato and the Porsche cabrio have no roof, a plain Alvarado has");
+
+    Car car;
+    BuildHozuki(car, 1);
+    Check(car.Described() && car.GapCount() == 12 && !car.OpenTop() && car.UnknownMeshes() == 0,
+          "the Hozuki has twelve gaps that can open: eight panes and four doors", "%.0f", car.GapCount());
+    CarFrame frame; // standing at the origin, facing +y
+    car.Update({}, frame, 100000.0);
+    Check(car.Openings().empty(), "shut, nothing is open");
+
+    car.Update(WindowDown(0), frame, 100100.0);
+    const float startWinding = car.Openings().empty() ? 0.f : car.Openings()[0].openness;
+    car.Update(WindowDown(0), frame, 100600.0);
+    const float halfWound = car.Openings().empty() ? 0.f : car.Openings()[0].openness;
+    car.Update(WindowDown(0), frame, 101200.0);
+    Check(startWinding < 0.2f && halfWound > 0.4f && halfWound < 0.7f && car.Openings().size() == 1 &&
+              car.Openings()[0].openness == 1.f,
+          "a window winds down over about a second", "%.2f halfway", halfWound);
+    const CarOpening& window = car.Openings()[0];
+    Check(window.centre.x < -0.6f && window.centre.y > 0.f && window.centre.z > 0.7f && window.centre.z < 1.f && window.normal.x < -0.9f,
+          "the driver's window is beside the driver's head and faces left", "%.2f m up", window.centre.z);
+    Check(window.area > 0.2f && window.area < 0.45f, "and is about a third of a square metre", "%.2f m2", window.area);
+
+    CarStates shot;
+    shot.glassGone = 1u << 6; // the back right quarter pane
+    car.Update(shot, frame, 101300.0);
+    const CarOpening* quarter = NearestGap(car.Openings(), {0.7f, -1.17f, 0.87f});
+    Check(quarter && quarter->openness == 1.f && quarter->area < 0.1f, "shot-out glass is open at once, and a quarter pane is small",
+          "%.2f m2", quarter ? quarter->area : 0.f);
+    car.Update({}, frame, 104000.0);
+
+    CarStates doorAndWindow;
+    doorAndWindow.doorsOpen = 1;
+    doorAndWindow.windowsDown = 1;
+    car.Update(doorAndWindow, frame, 110000.0);
+    Check(car.Openings().size() == 1 && car.Openings()[0].area > 0.9f, "an open door's gap takes its window in", "%.2f m2",
+          car.Openings().empty() ? 0.f : car.Openings()[0].area);
+
+    // A driver talking to someone standing outside.
+    car.Update(WindowDown(0), frame, 120000.0);
+    const Vec3 atWindow{-1.6f, 0.2f, 1.f};
+    const Vec3 farSide{1.6f, 0.2f, 1.f};
+    const CarSound inLine = ThroughCars(kHozukiDriverHead, atWindow, &car.Openings(), nullptr, 2.f);
+    Check(inLine.gain > 0.8f && inLine.cutoffHz > 8000.f, "at the open window you hear the driver nearly as in the open",
+          "%.2f", inLine.gain);
+    Check(inLine.arrival.x < -0.6f, "and from the window");
+    const CarSound across = ThroughCars(kHozukiDriverHead, farSide, &car.Openings(), nullptr, 2.f);
+    Check(across.gain < 0.5f * inLine.gain && across.cutoffHz < 0.5f * inLine.cutoffHz,
+          "across the car, with the body in the way, it's quieter and duller", "%.2f", across.gain);
+    const CarSound back = ThroughCars(atWindow, kHozukiDriverHead, nullptr, &car.Openings(), 2.f);
+    Check(std::fabs(back.gain - inLine.gain) < 0.01f, "the way in sounds as the way out", "%.3f", back.gain - inLine.gain);
+
+    car.Update({}, frame, 130000.0);
+    CarStates quarterOnly;
+    quarterOnly.glassGone = 1u << 5; // back left quarter pane
+    car.Update(quarterOnly, frame, 130100.0);
+    const CarSound small = ThroughCars(kHozukiDriverHead, atWindow, &car.Openings(), nullptr, 2.f);
+    Check(small.gain > 0.f && small.gain < 0.6f * inLine.gain, "a quarter pane lets less through than a window", "%.2f", small.gain);
+
+    CarStates both = WindowDown(0);
+    both.windowsDown |= 2;
+    car.Update(both, frame, 140000.0);
+    const CarSound twoOpen = ThroughCars(kHozukiDriverHead, farSide, &car.Openings(), nullptr, 2.f);
+    Check(twoOpen.gain > across.gain * 1.5f, "with the far side's window down too, the far side hears more", "%.2f", twoOpen.gain);
+
+    // Pulled up side by side, driver's window to driver's window.
+    Car other;
+    BuildHozuki(other, 2);
+    CarFrame beside;
+    beside.position = {-2.4f, 0.f, 0.f};
+    beside.right = {-1.f, 0.f, 0.f};
+    beside.forward = {0.f, -1.f, 0.f}; // facing the other way, so its driver's side faces ours
+    car.Update(WindowDown(0), frame, 150000.0);
+    other.Update({}, beside, 150000.0);
+    const Vec3 otherHead{-2.4f + 0.39f, 0.10f, 0.78f};
+    const CarSound oneShut = ThroughCars(kHozukiDriverHead, otherHead, &car.Openings(), &other.Openings(), 2.f);
+    other.Update(WindowDown(0), beside, 150010.0);
+    other.Update(WindowDown(0), beside, 152000.0);
+    const CarSound bothOpen = ThroughCars(kHozukiDriverHead, otherHead, &car.Openings(), &other.Openings(), 2.f);
+    Check(bothOpen.gain > 0.6f && oneShut.gain < 0.5f * bothOpen.gain && oneShut.cutoffHz <= kCabinWallCutoffHz + 1.f,
+          "window to window you can talk; with one shut, its glass muffles it", "%.2f", bothOpen.gain);
+
+    // In the mix: a closed car stays as it was, a gap opens it up and turns the voice towards it.
+    SpatialInput input;
+    input.listenerPosition = atWindow;
+    input.listenerForward = {0.f, 1.f, 0.f};
+    input.listenerRight = {1.f, 0.f, 0.f};
+    input.talkerPosition = kHozukiDriverHead;
+    input.separatedCabin = 1.f;
+    const SpatialOutput shut = ComputeSpatial(input);
+    Check(shut.lowpassHz <= kCabinWallCutoffHz && shut.carOpenShare == 0.f, "shut, the cabin muffles as before");
+    input.carOpenGain = inLine.gain;
+    input.carOpenCutoffHz = inLine.cutoffHz;
+    input.carOpenArrival = inLine.arrival;
+    input.carOpenAny = true;
+    const SpatialOutput open = ComputeSpatial(input);
+    Check(std::max(open.gainLeft, open.gainRight) > 2.f * std::max(shut.gainLeft, shut.gainRight) && open.lowpassHz > 4000.f &&
+              open.carOpenShare > 0.8f,
+          "the open window brings the voice out clear", "%.0f Hz", open.lowpassHz);
+    Check(open.gainRight > open.gainLeft, "and from the window, on the listener's right");
+    input.talkerPosition = {-30.f, 0.2f, 1.f};
+    input.listenerPosition = kHozukiDriverHead;
+    Check(ComputeSpatial(input).audible, "with a gap, a voice is sent past the cabin's 5 m");
+    input.carOpenAny = false;
+    Check(!ComputeSpatial(input).audible, "without one it isn't, as before");
+
+    Car vato;
+    BuildHozuki(vato, 3, "villefort_alvarado__basic_valentinos_02"); // the Hozuki's parts, with the Vato's missing roof
+    CarStates noRoof;
+    noRoof.openTop = true;
+    vato.Update(noRoof, frame, 160000.0);
+    const CarOpening* roof = NearestGap(vato.Openings(), {0.f, 0.f, 1.2f});
+    Check(vato.OpenTop() && roof && roof->normal.z > 0.9f && roof->area > 1.f, "a car with no roof has its whole top open",
+          "%.2f m2", roof ? roof->area : 0.f);
+    const CarSound overTop = ThroughCars(kHozukiDriverHead, farSide, &vato.Openings(), nullptr, 2.f);
+    Check(overTop.gain > across.gain, "and is heard across it better than through a far window");
 }
 
 void TestEchoes()
@@ -2730,6 +2930,57 @@ void TestLinks()
     Check(talkCloseOnRadio(), "switched off and on close by, B hears A on it again");
     a.ToggleRadio();
 
+    // A sits in a shut car 10 m from B, who isn't heard past the cabin's 5 m, until A winds the driver's window down: A's
+    // presence tells B at once, so both send and hear through it.
+    {
+        const CarFrame carFrame; // at the origin, facing +y
+        const Vec3 bAt{-10.f, 0.2f, 1.f};
+        DescribeHozuki(a, Engine::kOurCar, 42);
+        DescribeHozuki(b, 0, 42);
+        a.SetListener(kHozukiDriverHead, {0.f, 1.f, 0.f}, {1.f, 0.f, 0.f});
+        b.SetListener(bAt, {1.f, 0.f, 0.f}, {0.f, -1.f, 0.f});
+        const auto placeInCar = [&](const CarStates& aStates) {
+            a.SetOurCar(42, carFrame, kHozukiDriverHead, aStates);
+            a.SetPeerSpatial(7, bAt, {}, CabinSeparated, true);
+            b.SetPeerCar(0, 42, carFrame);
+            b.SetPeerSpatial(0, kHozukiDriverHead, {}, CabinSeparated, true);
+        };
+        const auto talkFromCar = [&](const CarStates& aStates) {
+            for (int i = 0; i < 150; ++i) // getting in takes a second to muffle, and what's queued plays out
+            {
+                placeInCar(aStates);
+                b.GetMixer().Render(block);
+                Sleep(10);
+            }
+            std::vector<float> got;
+            sent = 0;
+            while (sent + kBlock <= static_cast<int>(speech.size()))
+            {
+                placeInCar(aStates);
+                a.InjectMic(speech.data() + sent, kBlock);
+                sent += kBlock;
+                b.GetMixer().Render(block);
+                if (sent > kRate / 2) // past the presence's way over and what was queued
+                {
+                    for (int i = 0; i < kBlock; ++i)
+                    {
+                        got.push_back(block[i * 2]);
+                    }
+                }
+                Sleep(10);
+            }
+            return Rms(got);
+        };
+        const float shut = talkFromCar({});
+        const float open = talkFromCar(WindowDown(0));
+        a.SetOurCar(0, {}, {}, {});
+        b.SetPeerCar(0, 0, {});
+        a.SetListener({0.f, 0.f, 0.f}, {0.f, 1.f, 0.f}, {1.f, 0.f, 0.f});
+        b.SetListener({0.f, 2.f, 0.f}, {0.f, -1.f, 0.f}, {-1.f, 0.f, 0.f});
+        Check(shut < 0.002f, "A in a shut car 10 m away isn't heard", "rms %.5f", shut);
+        Check(open > 0.002f, "with A's window wound down, B hears A through it", "rms %.4f", open);
+    }
+
     Sleep(2500); // presence comes once a second
     Pump(a, 0, b);
     Pump(b, 7, a);
@@ -3439,6 +3690,7 @@ int main(int aCount, char** aArguments)
     TestWallsBetween();
     TestWaysRound();
     TestPathSound();
+    TestCars();
     TestEchoes();
     TestRoomReverb();
     TestRoomInMixer();

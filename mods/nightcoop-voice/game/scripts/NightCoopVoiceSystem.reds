@@ -15,6 +15,9 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
   private let m_worldTime: Float;
   private let m_diving: Bool;
   private let m_inCar: Bool;
+  private let m_ourCarKey: Uint32;
+  private let m_ourGlassGone: Int32;
+  private let m_glassChecks: Int32;
 
   private func ModId() -> String {
     return "xip.nightcoop_voice.hud"; // ASCII [a-z0-9._-], stable forever
@@ -180,6 +183,61 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
     return 0;
   }
 
+  // Where a voice comes from. Standing, 1.6 m above the body. Seated, from the head itself (the 2026-11-13 probe found it
+  // 0.64-0.72 m above a seated body), or near enough when the body has no head to ask.
+  private func MouthOf(body: wref<GameObject>, seated: Bool) -> Vector4 {
+    let position = body.GetWorldPosition();
+    if !seated {
+      position.Z += 1.6;
+      return position;
+    }
+    let puppet = body as ScriptedPuppet;
+    if IsDefined(puppet) {
+      let slots = puppet.GetSlotComponent();
+      let head: WorldTransform;
+      if IsDefined(slots) && slots.GetSlotTransform(n"Head", head) {
+        return WorldPosition.ToVector4(WorldTransform.GetWorldPosition(head));
+      }
+    }
+    position.Z += 0.7;
+    return position;
+  }
+
+  // The car we sit in: described once, then where it stands, our head in it and what's open, every update. Glass is read
+  // five times a second, since that means looking through all of the car's parts.
+  private func UpdateOurCar(player: ref<PlayerPuppet>, mine: wref<VehicleObject>) -> Void {
+    let none = new Vector4(0.0, 0.0, 0.0, 0.0);
+    if !this.IsClosedCar(mine) {
+      this.m_ourCarKey = 0u;
+      NightCoopVoiceNative.SetOurCar(0u, none, none, none, none, none, 0, 0, 0);
+      return;
+    }
+    NightCoopVoiceDescribeCar(-1, mine);
+    let key = NightCoopVoiceCars.Key(mine);
+    this.m_glassChecks += 1;
+    if key != this.m_ourCarKey || this.m_glassChecks >= 6 {
+      this.m_ourCarKey = key;
+      this.m_glassChecks = 0;
+      this.m_ourGlassGone = NightCoopVoiceGlassGone(mine);
+    }
+    let camera = player.GetFPPCameraComponent();
+    let head = IsDefined(camera) ? Matrix.GetTranslation(camera.GetLocalToWorld()) : mine.GetWorldPosition();
+    NightCoopVoiceNative.SetOurCar(key, mine.GetWorldPosition(), mine.GetWorldRight(), mine.GetWorldForward(), mine.GetWorldUp(),
+      head, this.m_ourGlassGone, NightCoopVoiceCars.WindowsDown(mine), NightCoopVoiceCars.DoorsOpen(mine));
+  }
+
+  // A partner's closed car that we aren't sharing: described once, then where it stands. What's open on it they tell us.
+  private func UpdatePeerCar(peer: Int32, mine: wref<VehicleObject>, theirs: wref<VehicleObject>) -> Void {
+    let none = new Vector4(0.0, 0.0, 0.0, 0.0);
+    if !this.IsClosedCar(theirs) || this.CabinBetween(mine, theirs) == 1 {
+      NightCoopVoiceNative.SetPeerCar(peer, 0u, none, none, none, none);
+      return;
+    }
+    NightCoopVoiceDescribeCar(peer, theirs);
+    NightCoopVoiceNative.SetPeerCar(peer, NightCoopVoiceCars.Key(theirs), theirs.GetWorldPosition(), theirs.GetWorldRight(),
+      theirs.GetWorldForward(), theirs.GetWorldUp());
+  }
+
   // On or in vehicles of your own, a bike included: passing each other would keep moving the radio's range, so the radio stays.
   private func ApartInVehicles(mine: wref<VehicleObject>, theirs: wref<VehicleObject>) -> Bool {
     if !IsDefined(mine) && !IsDefined(theirs) {
@@ -211,6 +269,7 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
 
     let mine = this.VehicleOf(NightCoopSdk.LocalPeer(), player);
     this.m_inCar = this.IsClosedCar(mine);
+    this.UpdateOurCar(player, mine);
     let i = 0;
     while i < count {
       let peer = NightCoopVoiceNative.PeerIdAt(i);
@@ -218,9 +277,9 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
         let body = GameInstance.FindEntityByID(game, NightCoopSdk.PartnerBody(peer)) as GameObject;
         if IsDefined(body) {
           let theirs = this.VehicleOf(peer, body);
-          let talker = body.GetWorldPosition();
-          talker.Z += 1.6;
+          let talker = this.MouthOf(body, IsDefined(theirs));
           let cabin = this.CabinBetween(mine, theirs);
+          this.UpdatePeerCar(peer, mine, theirs);
           NightCoopVoiceNative.SetPeerSpatial(peer, talker, body.GetWorldForward(), cabin, this.ApartInVehicles(mine, theirs));
         }
       }

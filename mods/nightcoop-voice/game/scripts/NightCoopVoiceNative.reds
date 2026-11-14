@@ -24,6 +24,18 @@ public native class NightCoopVoiceNative extends IScriptable {
   public static native func SetListenerState(underwater: Bool, worldSpeed: Float, inCar: Bool) -> Void;
   // The game's Master Volume setting, 0..100: voices keep their balance with it.
   public static native func SetGameMaster(percent: Float) -> Void;
+  // Cars, for their gaps: owner is a partner's id, or -1 for the car we sit in; car tells cars apart, 0 for none. A car is
+  // described once, part by part: glass is the part's index in its record's glass list or -1, door 0..3 for a door's main
+  // panel or -1, mesh its mesh's hash, pivot where it is in the car's frame (right, forward, up) with everything shut.
+  public static native func CarNeedsParts(owner: Int32, car: Uint32) -> Bool;
+  public static native func BeginCar(owner: Int32, car: Uint32) -> Void;
+  public static native func AddCarPart(owner: Int32, glass: Int32, door: Int32, name: String, mesh: Uint64, pivot: Vector4) -> Void;
+  public static native func FinishCar(owner: Int32, appearance: String) -> Void;
+  // Every update: the car we sit in, our head, and what's open on it. glassGone: bit per glass index; windowsDown and
+  // doorsOpen: bits 0..3, front left, front right, back left, back right.
+  public static native func SetOurCar(car: Uint32, position: Vector4, right: Vector4, forward: Vector4, up: Vector4, head: Vector4,
+    glassGone: Int32, windowsDown: Int32, doorsOpen: Int32) -> Void;
+  public static native func SetPeerCar(peer: Int32, car: Uint32, position: Vector4, right: Vector4, forward: Vector4, up: Vector4) -> Void;
   // Around all of the voice's work in a frame, to log what it costs.
   public static native func FrameBegin() -> Void;
   public static native func FrameEnd() -> Void;

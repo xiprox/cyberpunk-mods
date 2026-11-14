@@ -47,9 +47,12 @@ constexpr float kHeadRadiusMeters = 0.0875f;
 constexpr float kSpeedOfSound = 343.f;
 constexpr float kShadowHz = 1800.f;       // the far ear's treble limit with the talker straight to one side
 
-constexpr float kCabinReachMeters = 5.f;  // a car's cabin silences everything past this
-constexpr float kCabinGain = 0.45f;
-constexpr float kCabinCutoffHz = 500.f;
+// A car's gaps (ThroughCars). A side window wound down lets a voice through whole; a smaller gap, such as a quarter pane,
+// lets through its share of that, by area. Turning at a gap costs like a corner (kBendGain, kBendCutoffRatio), and a gap
+// facing away from where the voice goes next puts the car's body in the way, one bend more.
+constexpr float kFullGapSquareMeters = 0.3f;
+constexpr float kBehindBodyBends = 1.f;
+constexpr float kMostGapBends = 3.f;
 
 // A room's sound stays about as loud wherever the talker stands in it, while open air thins it out like the voice itself.
 constexpr float kRoomKeepsLevel = 0.7f;
@@ -282,13 +285,117 @@ EarGains EarsFor(float aSide, bool aHeadphones)
     return ears;
 }
 
-bool ShouldSendNearby(float aDistance, float aSeparatedCabin, float aFarMeters)
+bool ShouldSendNearby(float aDistance, float aSeparatedCabin, bool aCarOpen, float aFarMeters)
 {
-    if (aSeparatedCabin >= 1.f && aDistance >= kCabinReachMeters)
+    if (aSeparatedCabin >= 1.f && !aCarOpen && aDistance >= kCabinReachMeters)
     {
         return false;
     }
     return aDistance < aFarMeters;
+}
+
+namespace
+{
+// A way through a gap: from aFrom to the gap, then on to aTo. How many corners' worth the turn there costs, and one more
+// when the side outside the cabin lies behind the gap, so the car's body is in the way: aTo when leaving a cabin through
+// it, aFrom when coming in.
+float GapBends(const Vec3& aFrom, const CarOpening& aGap, const Vec3& aTo, bool aComingIn)
+{
+    Vec3 in = Between(aFrom, aGap.centre);
+    Vec3 out = Between(aGap.centre, aTo);
+    if (Normalize(in) < 0.01f || Normalize(out) < 0.01f)
+    {
+        return 0.f; // right at the gap: nothing to turn round
+    }
+    const float turn = std::acos(std::clamp(Dot(in, out), -1.f, 1.f)) / (kPi * 0.5f); // 0 straight on .. 2 back again
+    const float outside = aComingIn ? -Dot(in, aGap.normal) : Dot(out, aGap.normal);
+    return turn + (outside < 0.f ? kBehindBodyBends : 0.f);
+}
+
+float GapShare(const CarOpening& aGap)
+{
+    return std::sqrt(Clamp01(aGap.area / kFullGapSquareMeters)) * Clamp01(aGap.openness);
+}
+
+// What a way through one or two gaps lets through, from its length and bends, into the running sums.
+void AddWay(float aMeters, float aBends, float aShare, float aDirectRolloff, float aNearMeters, const Vec3& aArrival,
+            float aWallGain, float aWallCutoffHz, float& aPower, float& aLogCutoff, Vec3& aArrivalSum)
+{
+    if (aShare <= 0.f || aDirectRolloff <= 1e-6f)
+    {
+        return;
+    }
+    const float bends = std::min(aBends, kMostGapBends);
+    const float gain = RolloffGain(aMeters, aNearMeters) / aDirectRolloff * std::pow(kBendGain, bends) * aShare * aWallGain;
+    const float power = gain * gain;
+    if (power <= 1e-12f)
+    {
+        return;
+    }
+    const float cutoff = std::min(kOpenCutoffHz * std::pow(kBendCutoffRatio, bends), aWallCutoffHz);
+    aPower += power;
+    aLogCutoff += power * std::log(cutoff);
+    aArrivalSum.x += aArrival.x * power;
+    aArrivalSum.y += aArrival.y * power;
+    aArrivalSum.z += aArrival.z * power;
+}
+} // namespace
+
+CarSound ThroughCars(const Vec3& aMouth, const Vec3& aEar, const std::vector<CarOpening>* aTalkerCar,
+                     const std::vector<CarOpening>* aListenerCar, float aNearMeters)
+{
+    CarSound sound;
+    Vec3 direct = Between(aMouth, aEar);
+    const float directRolloff = RolloffGain(Normalize(direct), std::max(aNearMeters, 0.1f));
+    float power = 0.f;
+    float logCutoff = 0.f;
+    Vec3 arrival{};
+    auto length = [](const Vec3& aA, const Vec3& aB) {
+        Vec3 d = Between(aA, aB);
+        return Normalize(d);
+    };
+    const float nearMeters = std::max(aNearMeters, 0.1f);
+
+    // Out of theirs, then to the ear, or in through ours, or through our closed body.
+    if (aTalkerCar)
+    {
+        for (const CarOpening& out : *aTalkerCar)
+        {
+            if (aListenerCar)
+            {
+                for (const CarOpening& in : *aListenerCar)
+                {
+                    const float meters = length(aMouth, out.centre) + length(out.centre, in.centre) + length(in.centre, aEar);
+                    const float bends = GapBends(aMouth, out, in.centre, false) + GapBends(out.centre, in, aEar, true);
+                    AddWay(meters, bends, GapShare(out) * GapShare(in), directRolloff, nearMeters, in.centre, 1.f, kOpenCutoffHz,
+                           power, logCutoff, arrival);
+                }
+            }
+            const float wall = aListenerCar ? kCabinWallGain : 1.f;
+            const float wallCutoff = aListenerCar ? kCabinWallCutoffHz : kOpenCutoffHz;
+            AddWay(length(aMouth, out.centre) + length(out.centre, aEar), GapBends(aMouth, out, aEar, false), GapShare(out),
+                   directRolloff, nearMeters, out.centre, wall, wallCutoff, power, logCutoff, arrival);
+        }
+    }
+    // In through ours, from a talker in the open or through their closed body.
+    if (aListenerCar)
+    {
+        const float wall = aTalkerCar ? kCabinWallGain : 1.f;
+        const float wallCutoff = aTalkerCar ? kCabinWallCutoffHz : kOpenCutoffHz;
+        for (const CarOpening& in : *aListenerCar)
+        {
+            AddWay(length(aMouth, in.centre) + length(in.centre, aEar), GapBends(aMouth, in, aEar, true), GapShare(in),
+                   directRolloff, nearMeters, in.centre, wall, wallCutoff, power, logCutoff, arrival);
+        }
+    }
+
+    if (power > 1e-12f)
+    {
+        sound.gain = std::sqrt(power);
+        sound.cutoffHz = std::exp(logCutoff / power);
+        sound.arrival = {arrival.x / power, arrival.y / power, arrival.z / power};
+    }
+    return sound;
 }
 
 bool RadioCutWhenClose(bool aWasCut, float aDistance, float aRangeMeters, bool aApartInVehicles, bool aHeadsetOn)
@@ -424,15 +531,43 @@ SpatialOutput ComputeSpatial(const SpatialInput& aInput)
     // The room hears the voice before it's dulled by where the listener's head points or which way the talker faces.
     float roomCutoff = cutoff;
 
+    // Across a cabin: its closed body muffles what's within reach, and its gaps let through what ThroughCars found. The
+    // voice seems to come from the gaps as much as they carry it, and the room outside is heard through them.
+    const float separated = Clamp01(aInput.separatedCabin);
+    const float wallGain = kCabinWallGain * Clamp01(1.f - distance / kCabinReachMeters);
+    const float gapGain = std::max(aInput.carOpenGain, 0.f);
+    const float carPower = wallGain * wallGain + gapGain * gapGain;
+    const float gapShare = carPower > 1e-12f ? gapGain * gapGain / carPower : 0.f;
+    if (separated > 0.f && gapShare > 0.f)
+    {
+        Vec3 toGap = Between(aInput.listenerPosition, aInput.carOpenArrival);
+        if (Normalize(toGap) > 0.05f)
+        {
+            const float pull = gapShare * separated;
+            Vec3 blended{heardFrom.x + (toGap.x - heardFrom.x) * pull, heardFrom.y + (toGap.y - heardFrom.y) * pull,
+                         heardFrom.z + (toGap.z - heardFrom.z) * pull};
+            if (Normalize(blended) > 0.05f)
+            {
+                heardFrom = blended;
+            }
+            else if (pull > 0.5f)
+            {
+                heardFrom = toGap;
+            }
+        }
+    }
+
     const float behind = std::max(0.f, -Dot(heardFrom, aInput.listenerForward));
     cutoff *= 1.f - kBehindCutoffLoss * behind;
     gain *= 1.f - kBehindGainLoss * behind;
 
-    const float separated = Clamp01(aInput.separatedCabin);
-    gain *= 1.f + (kCabinGain * Clamp01(1.f - distance / kCabinReachMeters) - 1.f) * separated;
-    cutoff = BlendHz(cutoff, std::min(cutoff, kCabinCutoffHz), separated);
-    roomCutoff = BlendHz(roomCutoff, std::min(roomCutoff, kCabinCutoffHz), separated);
-    send *= 1.f - separated;
+    gain *= 1.f + (std::sqrt(carPower) - 1.f) * separated;
+    const float carCutoff = BlendHz(std::min(cutoff, kCabinWallCutoffHz), std::min(cutoff, aInput.carOpenCutoffHz), gapShare);
+    const float carRoomCutoff =
+        BlendHz(std::min(roomCutoff, kCabinWallCutoffHz), std::min(roomCutoff, aInput.carOpenCutoffHz), gapShare);
+    cutoff = BlendHz(cutoff, carCutoff, separated);
+    roomCutoff = BlendHz(roomCutoff, carRoomCutoff, separated);
+    send *= 1.f - separated * (1.f - gapShare);
 
     float side = std::clamp(Dot(heardFrom, aInput.listenerRight), -1.f, 1.f);
     if (distance < kPanCloseMeters)
@@ -441,7 +576,8 @@ SpatialOutput ComputeSpatial(const SpatialInput& aInput)
     }
 
     SpatialOutput output;
-    output.audible = ShouldSendNearby(distance, separated, farMeters);
+    output.audible = ShouldSendNearby(distance, separated, aInput.carOpenAny, farMeters);
+    output.carOpenShare = gapShare;
 
     // Coming round a corner, what the talker's mouth points at matters less.
     output.turnedAway = TurnedAway(aInput, toTalker, distance) * (1.f - roundShare);

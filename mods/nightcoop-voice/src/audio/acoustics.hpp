@@ -169,8 +169,9 @@ public:
     ~Acoustics();
 
     void SetListener(const Vec3& aPosition, double aNowMs);
-    // aTalking: they've spoken lately, so what's between us is worth the rays. aCabin is a Cabin.
-    void SetTalker(PeerId aPeer, const Vec3& aPosition, int aCabin, bool aTalking, double aNowMs);
+    // aTalking: they've spoken lately, so what's between us is worth the rays. aCabin is a Cabin, and aCarOpen says a car
+    // between us has a gap, so a voice gets past its cabin's reach (ShouldSendNearby).
+    void SetTalker(PeerId aPeer, const Vec3& aPosition, int aCabin, bool aCarOpen, bool aTalking, double aNowMs);
 
     // The next ray to cast, if any is due. Its answer goes to ReportRay before the next call.
     bool NextRay(RayRequest& aRequest, double aNowMs);

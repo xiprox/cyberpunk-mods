@@ -8,6 +8,7 @@
 #pragma once
 
 #include "audio/automix.hpp"
+#include "audio/car.hpp"
 #include "audio/mic.hpp"
 #include "audio/mixer.hpp"
 #include "core/settings.hpp"
@@ -110,6 +111,19 @@ public:
     void SetListenerState(bool aUnderwater, float aWorldSpeed, bool aInCar);
     void SetGameMaster(float aPercent);
 
+    // ---- cars, from the game thread. aOwner is a partner's id, or kOurCar. A closed car's key is anything that tells it
+    // apart from another; 0 means not in one.
+    static constexpr PeerId kOurCar = static_cast<PeerId>(-1);
+    // Whether the owner's car (aKey) still needs describing, part by part, between BeginCar and FinishCar.
+    bool CarNeedsParts(PeerId aOwner, uint32_t aKey);
+    void BeginCar(PeerId aOwner, uint32_t aKey);
+    void AddCarPart(PeerId aOwner, int aGlass, int aDoor, const std::string& aName, uint64_t aMesh, const Vec3& aPivot);
+    void FinishCar(PeerId aOwner, const std::string& aAppearance);
+    // The car we sit in, where our head is, and what our game says is open; partners hear of changes at once.
+    void SetOurCar(uint32_t aKey, const CarFrame& aFrame, const Vec3& aHead, const CarStates& aStates);
+    // The car a partner sits in, as it stands in our world; what's open on it comes from their presence.
+    void SetPeerCar(PeerId aPeer, uint32_t aKey, const CarFrame& aFrame);
+
     // ---- sound rays, from the game thread: it casts them, and everything else happens here
     bool NextSoundRay(RayRequest& aRequest)
     {
@@ -200,6 +214,7 @@ private:
     void RenderLoop();
 
     std::shared_ptr<Peer> FindPeer(PeerId aPeer) const;
+    Car* CarOf(PeerId aOwner, std::shared_ptr<Peer>& aKeep); // ours, or a partner's kept alive by aKeep
     void CreateLink(Peer& aPeer, uint32_t aGeneration);
     void DestroyLink(Peer& aPeer, const char* aWhy);
     void HandleSignal(Peer& aPeer, uint8_t aKind, uint32_t aGeneration, const std::string& aText);
@@ -251,6 +266,13 @@ private:
     std::atomic<bool> m_headphones{true};
     ListenerEase m_listenerEase; // game thread only
     Acoustics m_acoustics;       // game thread only
+
+    // The car we sit in. Game thread only, but for m_ourCarBits, which presence sends.
+    Car m_ourCar;
+    uint32_t m_ourCarKey = 0;
+    Vec3 m_ourHead;
+    CarStates m_ourCarStates;
+    std::atomic<uint64_t> m_ourCarBits{0};
 
     // The room we're in, as our partners hear about it.
     std::atomic<float> m_roomEnclosure{0.f};

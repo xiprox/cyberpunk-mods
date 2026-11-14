@@ -27,7 +27,7 @@ namespace
 {
 constexpr const char* kModId = "xip.nightcoop_voice"; // stable forever
 constexpr const char* kResendModId = "xip.nightcoop_voice.resend";
-constexpr uint32_t kProtocol = 3;                     // raise it when packets or setup messages change meaning
+constexpr uint32_t kProtocol = 4;                    // raise it when packets or setup messages change meaning
 constexpr uint16_t kChannelSignal = 1;                // link setup, reliable
 constexpr uint16_t kChannelAudio = 2;                 // the Relay: voice and presence when there's no direct link, unreliable
 static_assert(nv::kRelayMaxMessage <= NCSDK_UNRELIABLE_MAX);
@@ -688,6 +688,135 @@ void SetGameMaster(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, i
     }
 }
 
+// Cars: aOwner is a partner's id, or -1 for the car we sit in.
+nv::PeerId CarOwner(int32_t aOwner)
+{
+    return aOwner < 0 ? nv::Engine::kOurCar : static_cast<nv::PeerId>(aOwner);
+}
+
+nv::CarFrame ToCarFrame(const RED4ext::Vector4& aPosition, const RED4ext::Vector4& aRight, const RED4ext::Vector4& aForward,
+                        const RED4ext::Vector4& aUp)
+{
+    nv::CarFrame frame;
+    frame.position = ToVec3(aPosition);
+    frame.right = ToVec3(aRight);
+    frame.forward = ToVec3(aForward);
+    frame.up = ToVec3(aUp);
+    return frame;
+}
+
+void CarNeedsParts(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, bool* aOut, int64_t)
+{
+    int32_t owner = -1;
+    uint32_t car = 0;
+    RED4ext::GetParameter(aFrame, &owner);
+    RED4ext::GetParameter(aFrame, &car);
+    aFrame->code++;
+    if (aOut)
+    {
+        *aOut = g_engine && g_engine->CarNeedsParts(CarOwner(owner), car);
+    }
+}
+
+void BeginCar(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, int64_t)
+{
+    int32_t owner = -1;
+    uint32_t car = 0;
+    RED4ext::GetParameter(aFrame, &owner);
+    RED4ext::GetParameter(aFrame, &car);
+    aFrame->code++;
+    if (g_engine)
+    {
+        g_engine->BeginCar(CarOwner(owner), car);
+    }
+}
+
+void AddCarPart(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, int64_t)
+{
+    int32_t owner = -1;
+    int32_t glass = -1;
+    int32_t door = -1;
+    RED4ext::CString name;
+    uint64_t mesh = 0;
+    RED4ext::Vector4 pivot{};
+    RED4ext::GetParameter(aFrame, &owner);
+    RED4ext::GetParameter(aFrame, &glass);
+    RED4ext::GetParameter(aFrame, &door);
+    RED4ext::GetParameter(aFrame, &name);
+    RED4ext::GetParameter(aFrame, &mesh);
+    RED4ext::GetParameter(aFrame, &pivot);
+    aFrame->code++;
+    if (g_engine)
+    {
+        g_engine->AddCarPart(CarOwner(owner), glass, door, name.c_str(), mesh, ToVec3(pivot));
+    }
+}
+
+void FinishCar(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, int64_t)
+{
+    int32_t owner = -1;
+    RED4ext::CString appearance;
+    RED4ext::GetParameter(aFrame, &owner);
+    RED4ext::GetParameter(aFrame, &appearance);
+    aFrame->code++;
+    if (g_engine)
+    {
+        g_engine->FinishCar(CarOwner(owner), appearance.c_str());
+    }
+}
+
+void SetOurCar(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, int64_t)
+{
+    uint32_t car = 0;
+    RED4ext::Vector4 position{};
+    RED4ext::Vector4 right{};
+    RED4ext::Vector4 forward{};
+    RED4ext::Vector4 up{};
+    RED4ext::Vector4 head{};
+    int32_t glassGone = 0;
+    int32_t windowsDown = 0;
+    int32_t doorsOpen = 0;
+    RED4ext::GetParameter(aFrame, &car);
+    RED4ext::GetParameter(aFrame, &position);
+    RED4ext::GetParameter(aFrame, &right);
+    RED4ext::GetParameter(aFrame, &forward);
+    RED4ext::GetParameter(aFrame, &up);
+    RED4ext::GetParameter(aFrame, &head);
+    RED4ext::GetParameter(aFrame, &glassGone);
+    RED4ext::GetParameter(aFrame, &windowsDown);
+    RED4ext::GetParameter(aFrame, &doorsOpen);
+    aFrame->code++;
+    if (g_engine)
+    {
+        nv::CarStates states;
+        states.glassGone = static_cast<uint32_t>(glassGone);
+        states.windowsDown = static_cast<uint8_t>(windowsDown & 0xF);
+        states.doorsOpen = static_cast<uint8_t>(doorsOpen & 0xF);
+        g_engine->SetOurCar(car, ToCarFrame(position, right, forward, up), ToVec3(head), states);
+    }
+}
+
+void SetPeerCar(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, int64_t)
+{
+    int32_t peer = 0;
+    uint32_t car = 0;
+    RED4ext::Vector4 position{};
+    RED4ext::Vector4 right{};
+    RED4ext::Vector4 forward{};
+    RED4ext::Vector4 up{};
+    RED4ext::GetParameter(aFrame, &peer);
+    RED4ext::GetParameter(aFrame, &car);
+    RED4ext::GetParameter(aFrame, &position);
+    RED4ext::GetParameter(aFrame, &right);
+    RED4ext::GetParameter(aFrame, &forward);
+    RED4ext::GetParameter(aFrame, &up);
+    aFrame->code++;
+    if (g_engine)
+    {
+        g_engine->SetPeerCar(static_cast<nv::PeerId>(peer), car, ToCarFrame(position, right, forward, up));
+    }
+}
+
 // What the sound rays and the rest of the voice's frame cost the game thread, and how much rays may spend in one frame. A
 // ray's time runs from handing it to the script until the script reports back, so it covers the script as well as the cast.
 // Everything here runs on the game thread. Logs every 30 seconds.
@@ -1047,6 +1176,18 @@ void PostRegisterTypes()
     AddStatic("SetListenerState", Erase(&natives::SetListenerState), nullptr,
               {{"Bool", "underwater"}, {"Float", "worldSpeed"}, {"Bool", "inCar"}});
     AddStatic("SetGameMaster", Erase(&natives::SetGameMaster), nullptr, {{"Float", "percent"}});
+    AddStatic("CarNeedsParts", Erase(&natives::CarNeedsParts), "Bool", {{"Int32", "owner"}, {"Uint32", "car"}});
+    AddStatic("BeginCar", Erase(&natives::BeginCar), nullptr, {{"Int32", "owner"}, {"Uint32", "car"}});
+    AddStatic("AddCarPart", Erase(&natives::AddCarPart), nullptr,
+              {{"Int32", "owner"}, {"Int32", "glass"}, {"Int32", "door"}, {"String", "name"}, {"Uint64", "mesh"},
+               {"Vector4", "pivot"}});
+    AddStatic("FinishCar", Erase(&natives::FinishCar), nullptr, {{"Int32", "owner"}, {"String", "appearance"}});
+    AddStatic("SetOurCar", Erase(&natives::SetOurCar), nullptr,
+              {{"Uint32", "car"}, {"Vector4", "position"}, {"Vector4", "right"}, {"Vector4", "forward"}, {"Vector4", "up"},
+               {"Vector4", "head"}, {"Int32", "glassGone"}, {"Int32", "windowsDown"}, {"Int32", "doorsOpen"}});
+    AddStatic("SetPeerCar", Erase(&natives::SetPeerCar), nullptr,
+              {{"Int32", "peer"}, {"Uint32", "car"}, {"Vector4", "position"}, {"Vector4", "right"}, {"Vector4", "forward"},
+               {"Vector4", "up"}});
     AddStatic("FrameBegin", Erase(&natives::FrameBegin), nullptr);
     AddStatic("FrameEnd", Erase(&natives::FrameEnd), nullptr);
     AddStatic("NextRay", Erase(&natives::NextRay), "Bool");

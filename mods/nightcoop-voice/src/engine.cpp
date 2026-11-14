@@ -33,7 +33,10 @@ constexpr float kAutoGainSaveStepDb = 1.f;
 constexpr size_t kMaxSignalText = 4096;
 constexpr size_t kMaxQueuedSignals = 512;
 constexpr size_t kSignalHeader = 5;
-constexpr size_t kPresenceSize = 16;
+// Presence: bits (0), our send time (1), the echo of theirs and how long we held it (5, 9), our room (13-15), and what's
+// open on the car we sit in (16-21): its gone glass (4 bytes, by the car record's glass index), windows down and doors
+// open (a nibble each), and whether it has no roof.
+constexpr size_t kPresenceSize = 22;
 constexpr double kTalkingRecentlyMs = 10000.0; // what's between you and a quiet player isn't worth many rays
 constexpr float kPresenceRoomMeters = 40.f;    // the longest room a byte has to carry
 constexpr float kPresenceRoomDecay = 6.f;
@@ -280,6 +283,7 @@ struct Engine::Peer
     std::atomic<float> nearGain{0.f};
     std::atomic<float> turnedAway{0.f};
     std::atomic<int> cabin{0};
+    std::atomic<float> gapShare{0.f};       // of what crossed a cabin, how much came through its gaps
     std::atomic<bool> radioCut{false};      // close enough that their radio doesn't play here
     std::atomic<bool> presenceHeard{false}; // their first presence came, so its count of radio switch-ons means something
     std::atomic<float> wayRoundMeters{0.f}; // 0 if there's none
@@ -287,7 +291,33 @@ struct Engine::Peer
     TalkerEase ease;   // game thread only
     PathEase pathEase; // game thread only
     RadioKeep radioKeep; // game thread only
+
+    // The car they sit in: what's open on it, from their presence, and how it stands in our world (game thread only).
+    std::atomic<uint64_t> remoteCar{0};
+    Car car;
+    uint32_t carKey = 0;
+    CarFrame carFrame;
 };
+
+namespace
+{
+// What's open on a car, packed for an atomic: glass in the low 32 bits, then windows, doors, no roof.
+uint64_t PackCar(const CarStates& aStates)
+{
+    return static_cast<uint64_t>(aStates.glassGone) | (static_cast<uint64_t>(aStates.windowsDown & 0xFu) << 32) |
+           (static_cast<uint64_t>(aStates.doorsOpen & 0xFu) << 36) | (static_cast<uint64_t>(aStates.openTop ? 1u : 0u) << 40);
+}
+
+CarStates UnpackCar(uint64_t aBits)
+{
+    CarStates states;
+    states.glassGone = static_cast<uint32_t>(aBits);
+    states.windowsDown = static_cast<uint8_t>((aBits >> 32) & 0xFu);
+    states.doorsOpen = static_cast<uint8_t>((aBits >> 36) & 0xFu);
+    states.openTop = ((aBits >> 40) & 1u) != 0;
+    return states;
+}
+} // namespace
 
 Engine::Engine(Settings& aSettings, bool aUseDevices)
     : m_settings(aSettings)
@@ -928,10 +958,10 @@ void Engine::LogLevels(double aNowMs)
         m_mixer.TakeHeardStats(peer->id, db, bandBelow, seconds);
         if (seconds >= kHeardWorthLoggingSeconds)
         {
-            Logf(LogInfo, "levels: %s arrived at %.0f dB (speech band %.1f lower) over %.0f s; %.0f m away, walls %.2f, way round %.0f m with %.0f bends, cabin %d, turned away %.2f, nearby gain %.2f",
+            Logf(LogInfo, "levels: %s arrived at %.0f dB (speech band %.1f lower) over %.0f s; %.0f m away, walls %.2f, way round %.0f m with %.0f bends, cabin %d (%.2f through its gaps), turned away %.2f, nearby gain %.2f",
                  peer->name.c_str(), db, bandBelow, seconds, peer->distance.load(), peer->occlusion.load(),
-                 peer->wayRoundMeters.load(), peer->wayRoundBends.load(), peer->cabin.load(), peer->turnedAway.load(),
-                 peer->nearGain.load());
+                 peer->wayRoundMeters.load(), peer->wayRoundBends.load(), peer->cabin.load(), peer->gapShare.load(),
+                 peer->turnedAway.load(), peer->nearGain.load());
         }
     }
 }
@@ -970,6 +1000,7 @@ void Engine::SendPresence(double aNowMs)
     const uint8_t enclosure = ToByte(m_roomEnclosure.load(), 1.f);
     const uint8_t meters = ToByte(m_roomMeters.load(), kPresenceRoomMeters);
     const uint8_t decay = ToByte(m_roomDecay.load(), kPresenceRoomDecay);
+    const CarStates car = UnpackCar(m_ourCarBits.load());
 
     SharedLock lock(m_peersLock);
     for (const auto& peer : m_peers)
@@ -985,6 +1016,9 @@ void Engine::SendPresence(double aNowMs)
         plain[13] = enclosure;
         plain[14] = meters;
         plain[15] = decay;
+        PutU32(plain + 16, car.glassGone);
+        plain[20] = static_cast<uint8_t>((car.windowsDown & 0xFu) | ((car.doorsOpen & 0xFu) << 4));
+        plain[21] = car.openTop ? 1 : 0;
 
         PacketInfo info;
         info.type = PacketPresence;
@@ -1248,6 +1282,12 @@ void Engine::ReceivePacket(PeerId aPeer, const uint8_t* aData, size_t aSize, boo
         theirs.meters = FromByte(plain[14], kPresenceRoomMeters);
         theirs.decaySeconds = FromByte(plain[15], kPresenceRoomDecay);
         m_mixer.SetTheirRoom(aPeer, theirs);
+        CarStates car;
+        car.glassGone = GetU32(plain + 16);
+        car.windowsDown = static_cast<uint8_t>(plain[20] & 0xFu);
+        car.doorsOpen = static_cast<uint8_t>(plain[20] >> 4);
+        car.openTop = (plain[21] & 1u) != 0;
+        peer->remoteCar.store(PackCar(car));
     }
 }
 
@@ -1337,7 +1377,10 @@ void Engine::SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aFo
         return;
     }
     const double nowMs = NowMs();
-    m_acoustics.SetTalker(aPeer, aPosition, aCabin, nowMs - peer->lastAudioMs.load() < kTalkingRecentlyMs, nowMs);
+    // What's open on the cars between us, as each of us reports our own, so both games decide the sending alike.
+    const CarStates theirCar = UnpackCar(peer->remoteCar.load());
+    const bool carOpen = aCabin == CabinSeparated && (theirCar.Any() || m_ourCarStates.Any());
+    m_acoustics.SetTalker(aPeer, aPosition, aCabin, carOpen, nowMs - peer->lastAudioMs.load() < kTalkingRecentlyMs, nowMs);
     const float occlusion = aCabin == CabinShared ? 0.f : m_acoustics.Occlusion(aPeer);
     const SoundPath path = m_acoustics.Path(aPeer);
     peer->pathEase.Update(path.found, path.arrival, path.meters, path.bends, path.doors, nowMs);
@@ -1361,6 +1404,23 @@ void Engine::SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aFo
     input.pathMeters = peer->pathEase.Meters();
     input.pathBends = peer->pathEase.Bends();
     input.pathDoors = peer->pathEase.Doors();
+    if (aCabin == CabinSeparated)
+    {
+        // Through the gaps of their car, ours, or both. Inside a car, we hear with our head, not the camera behind it.
+        const bool theirs = peer->carKey != 0 && peer->car.Described() && peer->car.Key() == peer->carKey;
+        if (theirs)
+        {
+            peer->car.Update(theirCar, peer->carFrame, nowMs);
+        }
+        const bool ours = m_ourCarKey != 0 && m_ourCar.Described() && m_ourCar.Key() == m_ourCarKey;
+        const CarSound through = ThroughCars(aPosition, ours ? m_ourHead : m_listenerPosition,
+                                             theirs ? &peer->car.Openings() : nullptr, ours ? &m_ourCar.Openings() : nullptr,
+                                             input.nearMeters);
+        input.carOpenGain = through.gain;
+        input.carOpenCutoffHz = through.cutoffHz;
+        input.carOpenArrival = through.arrival;
+    }
+    input.carOpenAny = carOpen;
     const SpatialOutput output = ComputeSpatial(input);
     m_mixer.SetSpatial(aPeer, output);
     peer->audibleNearby.store(output.audible);
@@ -1398,7 +1458,7 @@ void Engine::SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aFo
     }
 
     const float echoAmount = Clamp01(1.f - input.occlusion * kEchoOcclusion) * (1.f - input.sharedCabin) *
-                             (1.f - input.separatedCabin) * (1.f - input.underwater) *
+                             (1.f - input.separatedCabin * (1.f - output.carOpenShare)) * (1.f - input.underwater) *
                              FarFade(distance, input.nearMeters, input.farMeters) *
                              (kEchoInOpenAir + (1.f - kEchoInOpenAir) * input.enclosure);
     m_mixer.SetEchoes(aPeer, ComputeEchoes(m_acoustics.Walls(), m_listenerPosition, m_listenerRight, aPosition, echoAmount, input.headphones));
@@ -1410,6 +1470,85 @@ void Engine::SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aFo
     peer->nearGain.store(std::max(output.gainLeft, output.gainRight));
     peer->turnedAway.store(output.turnedAway);
     peer->cabin.store(aCabin);
+    peer->gapShare.store(output.carOpenShare);
+}
+
+Car* Engine::CarOf(PeerId aOwner, std::shared_ptr<Peer>& aKeep)
+{
+    if (aOwner == kOurCar)
+    {
+        return &m_ourCar;
+    }
+    aKeep = FindPeer(aOwner);
+    return aKeep ? &aKeep->car : nullptr;
+}
+
+bool Engine::CarNeedsParts(PeerId aOwner, uint32_t aKey)
+{
+    std::shared_ptr<Peer> keep;
+    const Car* const car = CarOf(aOwner, keep);
+    return car && aKey != 0 && !(car->Described() && car->Key() == aKey);
+}
+
+void Engine::BeginCar(PeerId aOwner, uint32_t aKey)
+{
+    std::shared_ptr<Peer> keep;
+    if (Car* const car = CarOf(aOwner, keep))
+    {
+        car->Begin(aKey);
+    }
+}
+
+void Engine::AddCarPart(PeerId aOwner, int aGlass, int aDoor, const std::string& aName, uint64_t aMesh, const Vec3& aPivot)
+{
+    std::shared_ptr<Peer> keep;
+    if (Car* const car = CarOf(aOwner, keep))
+    {
+        car->AddPart(aGlass, aDoor, aName, aMesh, aPivot);
+    }
+}
+
+void Engine::FinishCar(PeerId aOwner, const std::string& aAppearance)
+{
+    std::shared_ptr<Peer> keep;
+    Car* const car = CarOf(aOwner, keep);
+    if (!car)
+    {
+        return;
+    }
+    car->Finish(aAppearance);
+    Logf(LogInfo, "car: %s (%s) has %d gaps that can open%s, %d parts missing from the table", aAppearance.c_str(),
+         aOwner == kOurCar ? "ours" : (keep ? keep->name.c_str() : "?"), car->GapCount(), car->OpenTop() ? ", no roof" : "",
+         car->UnknownMeshes());
+}
+
+void Engine::SetOurCar(uint32_t aKey, const CarFrame& aFrame, const Vec3& aHead, const CarStates& aStates)
+{
+    m_ourCarKey = aKey;
+    m_ourHead = aHead;
+    CarStates states;
+    if (aKey != 0 && m_ourCar.Described() && m_ourCar.Key() == aKey)
+    {
+        states = aStates;
+        states.openTop = m_ourCar.OpenTop();
+        m_ourCar.Update(states, aFrame, NowMs());
+    }
+    if (states != m_ourCarStates)
+    {
+        m_ourCarStates = states;
+        m_ourCarBits.store(PackCar(states));
+        Logf(LogInfo, "car: ours now has %s", states.Any() ? states.Describe().c_str() : "nothing open");
+        Post([this] { SendPresence(NowMs()); });
+    }
+}
+
+void Engine::SetPeerCar(PeerId aPeer, uint32_t aKey, const CarFrame& aFrame)
+{
+    if (const auto peer = FindPeer(aPeer))
+    {
+        peer->carKey = aKey;
+        peer->carFrame = aFrame;
+    }
 }
 
 void Engine::SetGameMaster(float aPercent)
