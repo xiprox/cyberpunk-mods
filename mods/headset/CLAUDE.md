@@ -27,7 +27,8 @@ cmake --install build --config Release --prefix build/stage
 
 - While the user is testing and tweaking in game, edit code only, and build, test, package and install when they say so. Levels can still change live through `tuning.ini` (README).
 - While the game runs, never install, and never close it without being asked.
-- Zip `build/stage` to `dist/Headset-<version>.zip` with `tar -a -cf dist/Headset-<version>.zip -C build/stage archive bin red4ext`, so its paths have forward slashes for Linux. Install by copying `build/stage` over the game folder, then compare file hashes.
+- Install by copying `build/stage` over the game folder, then compare file hashes.
+  A zip comes from `powershell -File ../../tools/package-mod.ps1 -Mod headset`, into `build/package`, built and tested through `tools/stage.ps1` as a release's is.
 - `version.txt` and `CHANGELOG.md` change only through release-please's pull request. Test builds between releases keep the last release's number, and the log's `built` time says which build ran.
 - Run the script check above before merging a release pull request: the release workflow builds and tests but can't compile redscript.
 
