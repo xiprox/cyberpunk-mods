@@ -649,14 +649,16 @@ void SetPeerSpatial(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, 
     RED4ext::Vector4 position{};
     RED4ext::Vector4 forward{};
     int32_t cabin = 0;
+    bool apart = false;
     RED4ext::GetParameter(aFrame, &peer);
     RED4ext::GetParameter(aFrame, &position);
     RED4ext::GetParameter(aFrame, &forward);
     RED4ext::GetParameter(aFrame, &cabin);
+    RED4ext::GetParameter(aFrame, &apart);
     aFrame->code++;
     if (g_engine)
     {
-        g_engine->SetPeerSpatial(static_cast<nv::PeerId>(peer), ToVec3(position), ToVec3(forward), cabin);
+        g_engine->SetPeerSpatial(static_cast<nv::PeerId>(peer), ToVec3(position), ToVec3(forward), cabin, apart);
     }
 }
 
@@ -1041,7 +1043,7 @@ void PostRegisterTypes()
     AddStatic("SetListener", Erase(&natives::SetListener), nullptr,
               {{"Vector4", "position"}, {"Vector4", "forward"}, {"Vector4", "right"}});
     AddStatic("SetPeerSpatial", Erase(&natives::SetPeerSpatial), nullptr,
-              {{"Int32", "peer"}, {"Vector4", "position"}, {"Vector4", "forward"}, {"Int32", "cabin"}});
+              {{"Int32", "peer"}, {"Vector4", "position"}, {"Vector4", "forward"}, {"Int32", "cabin"}, {"Bool", "apart"}});
     AddStatic("SetListenerState", Erase(&natives::SetListenerState), nullptr,
               {{"Bool", "underwater"}, {"Float", "worldSpeed"}, {"Bool", "inCar"}});
     AddStatic("SetGameMaster", Erase(&natives::SetGameMaster), nullptr, {{"Float", "percent"}});

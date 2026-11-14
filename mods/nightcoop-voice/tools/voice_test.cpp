@@ -187,6 +187,36 @@ void TestSpatial()
     input.talkerPosition = {0.f, 49.f, 0.f};
     Check(ComputeSpatial(input).gainLeft < 0.01f, "just inside 50 m a voice has nearly faded out");
 
+    Check(RadioCutWhenClose(false, 14.f, 15.f, false, false), "a partner within 15 m is left to the air");
+    Check(!RadioCutWhenClose(false, 16.f, 15.f, false, false), "one further off stays on the radio");
+    Check(RadioCutWhenClose(true, 24.f, 15.f, false, false) && !RadioCutWhenClose(true, 26.f, 15.f, false, false),
+          "walking out, the radio only comes back past 25 m");
+    Check(!RadioCutWhenClose(false, 5.f, 15.f, true, false), "apart in vehicles the radio stays");
+    Check(!RadioCutWhenClose(true, 5.f, 15.f, false, true), "as it does with the headset on in any mode");
+    Check(!RadioCutWhenClose(true, 1.f, 0.f, false, false), "and a range of 0 turns this off");
+    Check(!RadioCut(false, 5.f, 15.f, false, false, true, false) && RadioCut(false, 5.f, 15.f, false, false, false, false),
+          "switched on close by, a partner stays on the radio");
+    Check(RadioCut(false, 1.f, 15.f, false, true, true, false), "but not while we share a vehicle, where we hear each other clean");
+    Check(!RadioCut(false, 1.f, 15.f, false, true, true, true) && !RadioCut(false, 1.f, 15.f, false, true, false, true),
+          "unless the headset's on, when the radio is the intercom");
+
+    {
+        // Switching the radio on close by keeps a partner on it.
+        RadioKeep keep;
+        Check(!keep.Update(4, 5.f, 15.f, 0.0), "the first count heard is only where it starts, whatever it is");
+        Check(!keep.Update(4, 5.f, 15.f, 100.0), "and no change means no switch-on");
+        Check(keep.Update(5, 20.f, 15.f, 200.0) && keep.Changed() == 1, "a switch-on within 25 m keeps them on the radio");
+        Check(keep.Update(5, 5.f, 15.f, 300.0), "even as they come closer");
+        Check(keep.Update(5, 40.f, 15.f, 1000.0) && keep.Update(5, 40.f, 15.f, 20000.0), "a dash past 25 m doesn't end it");
+        Check(keep.Update(5, 10.f, 15.f, 25000.0) && keep.Update(5, 40.f, 15.f, 26000.0) && keep.Update(5, 40.f, 15.f, 50000.0),
+              "and coming back within 25 m starts the 30 s again");
+        Check(!keep.Update(5, 40.f, 15.f, 56000.0) && keep.Changed() == -1, "30 s apart past 25 m ends it");
+        Check(!keep.Update(5, 5.f, 15.f, 57000.0), "so coming close again leaves them to the air");
+        Check(!keep.Update(6, 30.f, 15.f, 58000.0), "a switch-on past 25 m is a radio left on from afar");
+        Check(!keep.Update(6, 5.f, 15.f, 59000.0) && keep.Changed() == 0, "and is cut once they're close");
+        Check(keep.Update(0, 5.f, 15.f, 60000.0), "the count may wrap round: any change is a switch-on");
+        Check(keep.Update(0, 5.f, 15.f, 61000.0) && keep.Changed() == 0, "and the log hears of it once");
+    }
 
     input.talkerPosition = {5.f, 0.f, 0.f};
     const SpatialOutput right = ComputeSpatial(input);
@@ -761,6 +791,24 @@ void TestMixer()
             }
         }
         Check(bestLag >= 28 && bestLag <= 35, "and hears it about 0.65 ms later", "%.0f samples", bestLag);
+    }
+    {
+        Mixer plain;
+        plain.AddVoice(1);
+        const float plainMid = Goertzel(RenderThrough(plain, 1, frames, kFlagRadio).left, 1000.f);
+
+        Mixer cut;
+        cut.AddVoice(1);
+        cut.SetSpatial(1, SpatialOutput{});
+        cut.SetRadioCut(1, true);
+        const float cutMid = Goertzel(RenderThrough(cut, 1, frames, kFlagRadio).left, 1000.f);
+        Check(cutMid < plainMid * 0.6f, "a close partner's radio fades away", "%.2f of normal", cutMid / plainMid);
+
+        Mixer stale;
+        stale.AddVoice(1);
+        stale.SetRadioCut(1, true);
+        const float staleMid = Goertzel(RenderThrough(stale, 1, frames, kFlagRadio).left, 1000.f);
+        Check(staleMid > plainMid * 0.9f, "but not without a fresh position for them", "%.2f of normal", staleMid / plainMid);
     }
     {
         Mixer mixer;
@@ -2586,8 +2634,8 @@ void TestLinks()
     double firstHeardMs = -1.0;
     while (sent + kBlock <= static_cast<int>(speech.size()))
     {
-        a.SetPeerSpatial(7, {0.f, 2.f, 0.f}, {}, CabinNone);
-        b.SetPeerSpatial(0, {0.f, 0.f, 0.f}, {}, CabinNone);
+        a.SetPeerSpatial(7, {0.f, 2.f, 0.f}, {}, CabinNone, false);
+        b.SetPeerSpatial(0, {0.f, 0.f, 0.f}, {}, CabinNone, false);
         a.InjectMic(speech.data() + sent, kBlock);
         sent += kBlock;
         b.GetMixer().Render(block);
@@ -2606,8 +2654,8 @@ void TestLinks()
 
     // Move out of range: A stops sending nearby voice to B.
     const auto moveApart = [&] {
-        a.SetPeerSpatial(7, {0.f, 200.f, 0.f}, {}, CabinNone);
-        b.SetPeerSpatial(0, {0.f, -200.f, 0.f}, {}, CabinNone);
+        a.SetPeerSpatial(7, {0.f, 200.f, 0.f}, {}, CabinNone, false);
+        b.SetPeerSpatial(0, {0.f, -200.f, 0.f}, {}, CabinNone, false);
     };
     std::vector<float> distant;
     moveApart();
@@ -2645,8 +2693,42 @@ void TestLinks()
         }
         Sleep(10);
     }
-    a.ToggleRadio();
     Check(Rms(radio) > 0.005f, "200 m apart with the radio mic on, B hears it", "rms %.4f", Rms(radio));
+
+    // Left on from there, A's radio is cut for B once they stand close; switched on close by, it plays (RadioKeep).
+    const auto standClose = [&] {
+        a.SetPeerSpatial(7, {0.f, 2.f, 0.f}, {}, CabinNone, false);
+        b.SetPeerSpatial(0, {0.f, 0.f, 0.f}, {}, CabinNone, false);
+    };
+    const auto talkCloseOnRadio = [&] {
+        bool onRadio = false;
+        sent = 0;
+        while (sent + kBlock <= static_cast<int>(speech.size()))
+        {
+            standClose();
+            a.InjectMic(speech.data() + sent, kBlock);
+            sent += kBlock;
+            b.GetMixer().Render(block);
+            if (sent > kRate / 2) // past the presence's way over and the cut's fade
+            {
+                const auto views = b.Peers();
+                onRadio = onRadio || (!views.empty() && views[0].talkingRadio);
+            }
+            Sleep(10);
+        }
+        return onRadio;
+    };
+    for (int i = 0; i < 50; ++i) // what's queued from afar plays out, and its lit radio goes dark
+    {
+        standClose();
+        b.GetMixer().Render(block);
+        Sleep(10);
+    }
+    Check(!talkCloseOnRadio(), "a radio left on from 200 m is cut once they stand close");
+    a.ToggleRadio();
+    a.ToggleRadio(); // off and straight back on, both between two of the once-a-second presences
+    Check(talkCloseOnRadio(), "switched off and on close by, B hears A on it again");
+    a.ToggleRadio();
 
     Sleep(2500); // presence comes once a second
     Pump(a, 0, b);
@@ -2892,11 +2974,11 @@ struct RelayRig
 
     void Step(bool aTalkA, bool aTalkB)
     {
-        a->SetPeerSpatial(idB, {0.f, 2.f, 0.f}, {}, CabinNone);
-        b->SetPeerSpatial(idA, {0.f, 0.f, 0.f}, {}, CabinNone);
+        a->SetPeerSpatial(idB, {0.f, 2.f, 0.f}, {}, CabinNone, false);
+        b->SetPeerSpatial(idA, {0.f, 0.f, 0.f}, {}, CabinNone, false);
         for (const PeerId peer : onlyListening)
         {
-            a->SetPeerSpatial(peer, {1.f, 1.f, 0.f}, {}, CabinNone);
+            a->SetPeerSpatial(peer, {1.f, 1.f, 0.f}, {}, CabinNone, false);
         }
         signalsFromA += PumpSignals(*a, idA, *b, idB, blockDirect);
         signalsFromB += PumpSignals(*b, idB, *a, idA, blockDirect);

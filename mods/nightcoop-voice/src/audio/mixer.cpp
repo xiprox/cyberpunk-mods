@@ -18,6 +18,7 @@ constexpr double kSquelchAfterMs = 2000.0;  // a radio click only after this muc
 constexpr float kTalkEnergy = 1e-6f;
 constexpr float kGainSlew = 0.15f;          // per sample block: new positions glide in instead of stepping
 constexpr float kRadioFade = 0.005f;        // per sample: a few milliseconds, so the radio cuts off cleanly when they stop
+constexpr float kRadioCutFade = 0.00008f;   // per sample: about a quarter of a second as a partner walks in or out of the radio's range
 constexpr int kDelaySamples = 64;          // a little over the widest head delay, and a power of two
 constexpr float kDelaySlewPerBlock = 4.f;   // samples: a fast glide would be heard as a pitch wobble
 constexpr float kShadowRecalcRatio = 0.03f; // recomputing a filter is cheap, but not worth it per tiny move
@@ -122,6 +123,7 @@ public:
     std::atomic<bool> audible{false};
     std::atomic<double> spatialMs{-1e12};
     std::atomic<bool> muted{false};
+    std::atomic<bool> radioCut{false};
 
     std::atomic<double> nearAtMs{-1e12};
     std::atomic<double> radioAtMs{-1e12};
@@ -191,6 +193,7 @@ private:
     Biquad m_statHigh;
     Biquad m_statLow;
     float m_radioGain = 0.f;
+    float m_radioAllowed = 1.f;
     double m_lastRadioMs = -1e12;
 };
 
@@ -260,6 +263,7 @@ void Voice::Render(float* aLeft, float* aRight, float* aSend, float* aRadioLeft,
     float targetTheirs = fresh ? theirRoomAmount.load() : 0.f;
     bool echoesOn = fresh && playerVolume > 0.f;
     bool radioRoute = true;
+    const bool radioCutHere = aTest == TestRoute::Off && fresh && radioCut.load();
     float targetDelayLeft = delayLeft.load();
     float targetDelayRight = delayRight.load();
     float targetShadowLeft = shadowLeftHz.load();
@@ -372,7 +376,7 @@ void Voice::Render(float* aLeft, float* aRight, float* aSend, float* aRadioLeft,
         if (m_position >= kFrame)
         {
             NextFrame(aNowMs);
-            if (m_frameActive && m_frameRadio && radioRoute)
+            if (m_frameActive && m_frameRadio && radioRoute && !radioCutHere)
             {
                 if (aNowMs - m_lastRadioMs > kSquelchAfterMs)
                 {
@@ -421,10 +425,11 @@ void Voice::Render(float* aLeft, float* aRight, float* aSend, float* aRadioLeft,
         const float radioTarget = m_frameActive && m_frameRadio && radioRoute ? 1.f : 0.f;
         m_radioGain += (radioTarget - m_radioGain) * kRadioFade;
         m_radioWorldGain += (aWorld.gain - m_radioWorldGain) * kRadioFade;
+        m_radioAllowed += ((radioCutHere ? 0.f : 1.f) - m_radioAllowed) * kRadioCutFade;
         if (m_radioGain > 0.0005f || m_radio.IsClicking())
         {
             float heard = m_radio.Process(sample, m_radioGain);
-            heard = m_radioWorld2.Lowpass(m_radioWorld1.Lowpass(heard)) * m_radioWorldGain * playerVolume;
+            heard = m_radioWorld2.Lowpass(m_radioWorld1.Lowpass(heard)) * m_radioWorldGain * playerVolume * m_radioAllowed;
             aSend[i] += heard * aWorld.send;
             aRadioLeft[i] += heard * kRadioBothEarsGain;
             aRadioRight[i] += heard * kRadioBothEarsGain;
@@ -465,7 +470,7 @@ void Voice::Render(float* aLeft, float* aRight, float* aSend, float* aRadioLeft,
         heardEnergy.fetch_add(energy);
         heardBandEnergy.fetch_add(bandEnergy);
         heardSamples.fetch_add(kBlock);
-        if (m_frameRadio && radioRoute)
+        if (m_frameRadio && radioRoute && !radioCutHere)
         {
             radioAtMs.store(aNowMs);
         }
@@ -591,6 +596,14 @@ void Mixer::PushOwnVoice(const float* aSamples, int aCount)
         ++write;
     }
     m_ownWrite.store(write, std::memory_order_release);
+}
+
+void Mixer::SetRadioCut(PeerId aPeer, bool aCut)
+{
+    if (const auto voice = Find(aPeer))
+    {
+        voice->radioCut.store(aCut);
+    }
 }
 
 void Mixer::SetPeerMuted(PeerId aPeer, bool aMuted)

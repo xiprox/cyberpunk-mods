@@ -106,7 +106,7 @@ public:
 
     // ---- positions, from the game thread
     void SetListener(const Vec3& aPosition, const Vec3& aForward, const Vec3& aRight);
-    void SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aForward, int aCabin);
+    void SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aForward, int aCabin, bool aApartInVehicles);
     void SetListenerState(bool aUnderwater, float aWorldSpeed, bool aInCar);
     void SetGameMaster(float aPercent);
 
@@ -228,6 +228,7 @@ private:
 
     std::atomic<bool> m_muted{false};
     std::atomic<bool> m_radioOn{false};
+    std::atomic<uint8_t> m_radioSwitchOns{0}; // how often the radio mic was switched on, for partners' RadioKeep
     std::atomic<bool> m_relayAlways{false};
     std::atomic<int> m_relayAudience{0}; // partners on the Relay who should have heard the last frame
 

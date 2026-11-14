@@ -180,6 +180,14 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
     return 0;
   }
 
+  // On or in vehicles of your own, a bike included: passing each other would keep moving the radio's range, so the radio stays.
+  private func ApartInVehicles(mine: wref<VehicleObject>, theirs: wref<VehicleObject>) -> Bool {
+    if !IsDefined(mine) && !IsDefined(theirs) {
+      return false;
+    }
+    return this.CabinBetween(mine, theirs) != 1;
+  }
+
   private func UpdatePositions() -> Void {
     let count = NightCoopVoiceNative.PeerCount();
     if count == 0 {
@@ -209,10 +217,11 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
       if NightCoopSdk.PeerInOurWorld(peer) {
         let body = GameInstance.FindEntityByID(game, NightCoopSdk.PartnerBody(peer)) as GameObject;
         if IsDefined(body) {
+          let theirs = this.VehicleOf(peer, body);
           let talker = body.GetWorldPosition();
           talker.Z += 1.6;
-          let cabin = this.CabinBetween(mine, this.VehicleOf(peer, body));
-          NightCoopVoiceNative.SetPeerSpatial(peer, talker, body.GetWorldForward(), cabin);
+          let cabin = this.CabinBetween(mine, theirs);
+          NightCoopVoiceNative.SetPeerSpatial(peer, talker, body.GetWorldForward(), cabin, this.ApartInVehicles(mine, theirs));
         }
       }
       i += 1;

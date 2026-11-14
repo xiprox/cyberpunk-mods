@@ -18,7 +18,8 @@ public native class NightCoopVoiceNative extends IScriptable {
 
   public static native func SetListener(position: Vector4, forward: Vector4, right: Vector4) -> Void;
   // forward: which way their body faces. cabin: 0 nothing between us, 1 same vehicle, 2 one of us is inside a car the other isn't in.
-  public static native func SetPeerSpatial(peer: Int32, position: Vector4, forward: Vector4, cabin: Int32) -> Void;
+  // apart: at least one of us is on or in a vehicle and we aren't sharing it.
+  public static native func SetPeerSpatial(peer: Int32, position: Vector4, forward: Vector4, cabin: Int32, apart: Bool) -> Void;
   // What this player's own state does to what they hear. worldSpeed: 1 normal, below that slow motion. inCar: inside a closed car.
   public static native func SetListenerState(underwater: Bool, worldSpeed: Float, inCar: Bool) -> Void;
   // The game's Master Volume setting, 0..100: voices keep their balance with it.

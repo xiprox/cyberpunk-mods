@@ -82,6 +82,49 @@ float FarFade(float aDistance, float aNearMeters, float aFarMeters);
 // no way round is ever shorter than the straight line, so this never stops a voice someone could hear.
 bool ShouldSendNearby(float aDistance, float aSeparatedCabin, float aFarMeters);
 
+// Whether a partner's radio stops playing here because you hear them in the air instead. Each player works this out for themselves and
+// only for that partner, whose radio still reaches everyone else. aWasCut holds it a little further out, so the edge doesn't flicker.
+// Distance only, so it's predictable: walls and rooms don't count. In separate vehicles the distance keeps changing, so the radio
+// stays. Neither is it cut with the Headset mod on in any mode: wearing it means wanting the radio (user, 2026-11-11), and its clamp
+// swallows a shout beside you in a fight, where the radio is what gets through.
+bool RadioCutWhenClose(bool aWasCut, float aDistance, float aRangeMeters, bool aApartInVehicles, bool aHeadsetOn);
+
+// The radio's range edge, past which a cut partner comes back on it: aRangeMeters and a margin.
+float RadioBackPastMeters(float aRangeMeters);
+
+// All told, whether a partner's radio is cut here: by RadioCutWhenClose, unless they switched it on close by (aKept, from
+// RadioKeep). In a vehicle we share that doesn't count: riders hear each other clean, so the radio would only play them
+// twice (user, 2026-11-14). The Headset mod still keeps it, since its noise cancelling or its clamp takes the voice beside
+// you, and the radio is then the intercom.
+bool RadioCut(bool aWasCut, float aDistance, float aRangeMeters, bool aApartInVehicles, bool aSharedVehicle, bool aKept,
+              bool aHeadsetOn);
+
+// A partner who switches their radio on close to you means to be heard on it, so the cut leaves them on the radio (user, 2026-11-11):
+// the cut is for a radio left on from afar, and switching on is the only thing that says otherwise. It holds until you've been past
+// the range edge for kRadioKeptApartMs on end, so a dash across a fight doesn't end it but going separate ways does. aSwitchOns is how
+// many times they've switched it on, as their presence counts it: only a change matters, and the first one seen is where it starts.
+class RadioKeep
+{
+public:
+    static constexpr double kApartMs = 30000.0;
+
+    // True while they stay on the radio here, whatever the cut says.
+    bool Update(uint8_t aSwitchOns, float aDistance, float aRangeMeters, double aNowMs);
+
+    // What the last Update changed, for the log: +1 kept from now, -1 no longer, 0 nothing.
+    int Changed() const
+    {
+        return m_changed;
+    }
+
+private:
+    bool m_known = false;
+    uint8_t m_switchOns = 0;
+    bool m_kept = false;
+    double m_apartSinceMs = -1.0;
+    int m_changed = 0;
+};
+
 // How much slow motion the world's speed amounts to, 0 .. 1. The game reports 0 for loads and a stopped world, which isn't
 // slow motion: there's nothing to feel slowed.
 float SlowMotionFromWorldSpeed(float aWorldSpeed);
