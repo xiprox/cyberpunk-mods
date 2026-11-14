@@ -1,5 +1,5 @@
--- Send money: eddies to a partner, from the partner menu ("[F] Interact" while
--- looking at them) or from this tweak's section of the CET window.
+-- Send money: eddies to a partner, from the partner menu (the phone's Contacts)
+-- or from this tweak's section of the CET window.
 -- The recipient needs only NightCoop; this mod is the sender's side.
 
 local PartnerMenu = require("core/partnermenu")

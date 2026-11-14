@@ -7,15 +7,15 @@ Personal additions to [NightCoop](https://nightcoop.net), the Cyberpunk 2077 co-
 
 ### Send money
 
-Stand within a metre of a partner and face them, and an **[F] Interact** prompt comes up, drawn like the game's own conversation choices (not in combat, a vehicle, a conversation, a cutscene or a seat, or while working a drone, camera or turret; and not for a partner standing on your very spot, where scenes put everyone).
-F opens **Send money / Never mind**; the mouse wheel, arrow keys or d-pad move the selection, and a tap of F picks.
+The phone's **Contacts** list has every partner in the session, sorted by name among the other contacts and marked "NightCoop partner".
+F or Enter on one closes the phone and opens **Send money / Never mind**, drawn like the game's own conversation choices, wherever they are and from inside a car too (not in combat, a conversation, a cutscene or a seat, or while working a drone, camera or turret).
+The mouse wheel, arrow keys or d-pad move the selection, and a tap of F picks (in a car too; holding F gets you out).
 Send money offers 1,000, 5,000 and 10,000 (those you can afford), All, and **Custom amount...**, which opens the game's own quantity slider.
 A preset asks once more before it sends; the slider's Send button sends straight away.
 The transfer then runs as the game's own progress bar with the eddies look, as the story's payments do: it completes once the host has taken the money, and fails if NightCoop refuses or the host doesn't answer in 8 seconds.
 
 Partners show by their NightCoop nickname once their map pin has been seen with no other partner beside them, and as "Peer N" until then.
 
-For a partner who isn't nearby, the phone's **Contacts** list has every partner in the session, sorted by name among the other contacts and marked "NightCoop partner": F or Enter on one closes the phone and opens the same menu, wherever they are, and from inside a car too (a tap picks there as well; holding F gets you out).
 The CET overlay's **NightCoop Tweaks** window also has a Send money section, and the CET console takes `GetMod("NightCoopTweaks").Send(peerId, amount)`.
 
 The money goes through NightCoop's own item transfer: the host checks it and the sender is debited before the partner is credited, so nothing is duplicated.
@@ -27,9 +27,31 @@ A partner riding a bike in first-person looks like they stand on it, to everyone
 With this mod you see them sitting, whichever camera they use; the rider doesn't need it.
 The **NightCoop Tweaks** window has a checkbox to turn it off.
 
+### Far partner pins
+
+NightCoop takes a partner's body away once they're 200 m off, and their map pin and name tag go with it.
+With this mod they stay on your map and on the edge of your minimap, however far they go, until their body and NightCoop's own pin come back at about 150 m.
+The name tag floating in the world still comes back only with the body.
+It follows NightCoop's "Player markers" setting, the **NightCoop Tweaks** window has a checkbox to turn it off, and the partner doesn't need it.
+
+### Horn
+
+NightCoop doesn't pass a car's horn on, so partners never heard you honk.
+With this mod they hear the horn of the car or bike you drive, its own sound, from their copy of it, for as long as you hold the key; a police car's is its police horn.
+The partners need nothing but NightCoop, and the **NightCoop Tweaks** window has a checkbox to turn it off.
+
+### Silenced shots
+
+NightCoop plays a partner's shots with the weapon's NPC sound, but a silenced weapon's with none, so partners heard nothing at all.
+With this mod they hear the shot an NPC firing that weapon silenced makes, from your body: a single shot, or the automatic loop from your first shot until you let go of the trigger.
+A weapon counts as silenced the way the game counts it, so a silencer or an iconic with one built in (Panam's Overwatch); one the game gives no silenced NPC sound plays its plain one.
+The partners need nothing but NightCoop, and the **NightCoop Tweaks** window has a checkbox to turn it off.
+
+Both send through NightCoop's SDK, which takes 10 sounds a second from a mod: past 8 a second a fast single-shot weapon drops some shots, so a horn's or a loop's stop always gets through.
+
 ## Requirements
 
-- NightCoop (with RED4ext)
+- NightCoop (with RED4ext); 0.2.0 or later, whose SDK plays sounds on partners' copies, for Horn and Silenced shots
 - Cyber Engine Tweaks 1.38 or later
 - Codeware, for the amount slider
 
@@ -79,7 +101,7 @@ python -I tools/check.py
 - `cet/NightCoopTweaks/init.lua` loads the core and the tweaks, passes CET's events on, and draws the NightCoop Tweaks window.
 - `cet/NightCoopTweaks/core/` is what the tweaks share:
   - `nightcoop.lua`: NightCoop's natives, the session, where the partners are, their nicknames
-  - `partnermenu.lua`: the look-at prompt and the partner's "[F] Interact" list, which tweaks add entries to
+  - `partnermenu.lua`: the partner's menu, which tweaks add entries to and the phone opens
   - `phone.lua`: partners in the phone's Contacts, opening their partner menu from afar
   - `choices.lua`: a choice list drawn by the game's dialog widget, and its keys
   - `input.lua`: the game's input actions (F, Enter, the scroll keys) for the parts that read keys
@@ -87,10 +109,16 @@ python -I tools/check.py
   - `progressbar.lua`: the game's progress bar from quests and quickhack uploads
   - `effects.lua`: the effects an entity can play, listed in Diagnostics and played from the console with `GetMod("NightCoopTweaks").Effect("name")`, for finding a game effect's name
   - `notify.lua`: the game's on-screen message
-  - `ref.lua`: comparing game objects, and holding one without keeping it alive
+  - `ref.lua`: comparing game objects and EntityIDs, and holding a game object without keeping it alive
+  - `sounds.lua`: game sounds played on partners' copies of our body or car through NightCoop's SDK (the mod registers with it for that)
   - `log.lua`: problems, logged once each and listed in Diagnostics
-- `cet/NightCoopTweaks/tweaks/<tweak>/` is one tweak, `tweak.lua` its entry; `sendmoney/` has `money.lua` (balance and sending), `menu.lua` (its partner-menu steps) and `window.lua` (its window section); `bikeseat/` is the one file.
+- `cet/NightCoopTweaks/tweaks/<tweak>/` is one tweak, `tweak.lua` its entry; `sendmoney/` has `money.lua` (balance and sending), `menu.lua` (its partner-menu steps) and `window.lua` (its window section); `bikeseat/` and `farpins/` are one file each; `horn/horns.lua` and `silencedshots/sounds.lua` are tables written from the game's files (below).
 - `tools/link.ps1` and `tools/pack.ps1` install the mod here and package it for a partner; `tools/check.py` checks its Lua.
+- `tools/make-sound-tables.py` writes the horn and silenced-shot tables from the game's audio metadata with WolvenKit's command line; run it again after a game patch:
+
+```bash
+python -I tools/make-sound-tables.py
+```
 - `../../tools/ncre.py` reads NightCoop's disassembly, below.
 - `docs/nightcoop-natives.txt` lists NightCoop's script natives with their signatures.
 
@@ -114,8 +142,8 @@ Tweak.api = { Wave = function(peerId) end }   -- GetMod("NightCoopTweaks").Wave(
 return Tweak
 ```
 
-To offer something in the partner's "[F] Interact" list, add an entry in `Init`; `core/partnermenu.lua` describes the `menu` its `open` gets.
-The same list opens from the phone's Contacts with the partner anywhere, so an entry that only makes sense up close checks the distance itself:
+To offer something in the partner menu, add an entry in `Init`; `core/partnermenu.lua` describes the `menu` its `open` gets.
+The list opens from the phone's Contacts with the partner anywhere, so an entry that only makes sense up close checks the distance itself:
 
 ```lua
 PartnerMenu.Add({

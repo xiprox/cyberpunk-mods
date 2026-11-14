@@ -11,15 +11,20 @@ local PartnerMenu = require("core/partnermenu")
 local Choices = require("core/choices")
 local Effects = require("core/effects")
 local Phone = require("core/phone")
+local Sounds = require("core/sounds")
 
 -- Goes in the zip's name (tools/pack.ps1) and the log's first line, to tell
 -- the builds friends run apart. Raise it for every zip that goes out.
-local VERSION = "0.1.1"
+local VERSION = "0.1.4"
+Sounds.SetVersion(VERSION)
 
 -- The tweaks, in the order their partner-menu entries and window sections appear.
 local TWEAKS = {
     "tweaks/sendmoney/tweak",
     "tweaks/bikeseat/tweak",
+    "tweaks/farpins/tweak",
+    "tweaks/horn/tweak",
+    "tweaks/silencedshots/tweak",
 }
 
 -- Shared parts with their own Init, Update or Shutdown, run before the tweaks.
@@ -31,6 +36,7 @@ local CORE = {
     "core/effects",
     "core/partnermenu",
     "core/phone",
+    "core/sounds",
 }
 
 local SESSION_SECONDS = 0.5
@@ -122,6 +128,9 @@ local function drawWindow()
         end
         ImGui.TextWrapped(Phone.Explain())
         ImGui.TextWrapped(Effects.Describe())
+        for _, line in ipairs(Sounds.Explain()) do
+            ImGui.TextWrapped(line)
+        end
         for _, text in ipairs(problems) do
             ImGui.TextColored(1, 0.45, 0.4, 1, text)
         end

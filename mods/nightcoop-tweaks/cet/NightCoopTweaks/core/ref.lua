@@ -7,6 +7,11 @@ function Ref.Same(a, b)
     return Game["OperatorEqual;IScriptableIScriptable;Bool"](a, b)
 end
 
+-- Whether two EntityIDs name the same entity.
+function Ref.SameId(a, b)
+    return Game["OperatorEqual;EntityIDEntityID;Bool"](a, b)
+end
+
 -- A slot for one game object that doesn't keep it alive, so a controller or a
 -- player from before a save load reads back as nil. Create it in an Init.
 function Ref.WeakSlot()

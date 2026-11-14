@@ -47,6 +47,9 @@ CET = {
     "spdlog", "json",
 }
 
+# NightCoop's own classes that came after its rtti-names dump (written once per game version).
+NIGHTCOOP = {"NightCoopSdk"}
+
 BYTECODE = re.compile(r"^-- BYTECODE -- (.+):(\d+-\d+)$")
 GLOBAL = re.compile(r'^\d+\s+(GGET|GSET)\s+\d+\s+\d+\s+; "(.*?)("~|"$)')
 MODULE_PATH = re.compile(r'"((?:core|tweaks)/[\w/]+)"')
@@ -114,7 +117,7 @@ def check_file(luajit, path, rel, dump):
         op, name, cut = g.group(1), g.group(2), g.group(3) == '"~'
         if op == "GSET":
             problems.append(f"{where}: sets the global '{name}' (a missing local?)")
-        elif name not in LUA and name not in CET:
+        elif name not in LUA and name not in CET and name not in NIGHTCOOP:
             if known is None:
                 continue
             if name in known or (cut and any(k.startswith(name) for k in known)):

@@ -1,4 +1,4 @@
--- Send money's section of the CET window, for a partner who isn't nearby (or
+-- Send money's section of the CET window, for a partner in the session (or
 -- whose peer id you type in).
 
 local NightCoop = require("core/nightcoop")

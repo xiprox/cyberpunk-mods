@@ -96,6 +96,7 @@ local function onResponse(closeData)
     if closeData and closeData:IsA("QuantityPickerPopupCloseData") and closeData.choosenQuantity > 0 then
         amount = closeData.choosenQuantity
     end
+    spdlog.info("quantity popup closed: " .. (amount and ("amount " .. amount) or "cancelled"))
     done.onClose(amount)
 end
 

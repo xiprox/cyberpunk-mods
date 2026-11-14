@@ -6,9 +6,123 @@ What we found and decided while building NightCoop Tweaks, newest entry first.
 "User" marks what the user saw in the game.
 Versions on this PC: Cyberpunk 2077 (CET reports 3.0.88.46235), NightCoop build bacb705, Cyber Engine Tweaks 1.38.1, Codeware installed.
 
-Checked in the game on 2026-10-29: the "[F] Interact" prompt comes up next to a partner, F opens the menu, and a send shows the progress bar (user).
-Not yet checked in the game: the 1 m range, F and Enter on a partner in the phone's Contacts (partners show there, user), whether the mouse wheel moves the selection, whether the quantity slider opens and closes in the world, whether a transfer arrives, whether map pins give nicknames, and whether NightCoop's dialog votes leave our choice list alone.
+Checked in the game on 2026-10-29: a send from the menu shows the progress bar (user).
+Checked in the game on 2026-11-03: the quantity slider opens and closes in the world (user), and a send through it arrives (Bossun's 1 eddy, offered at 14:34:24 on their clock, received at 22:34:25 on Bleack's).
+Checked in the game by 2026-11-08: opening the menu from the phone's Contacts works well (user).
+Not yet checked in the game: that both F and Enter do it there, whether the mouse wheel moves the selection, whether the amounts come back after cancelling the slider (below), whether map pins give nicknames, and whether NightCoop's dialog votes leave our choice list alone.
 CET writes small logs out only now and then, so during a session the mod's log is empty: the NightCoop Tweaks window's Diagnostics section shows what the partner menu sees, which keys reach the mod, and any error.
+Not yet checked in the game: anything of Far partner pins (below).
+Not yet checked in the game: anything of Horn and Silenced shots (below).
+
+## 2026-11-13: Partners hear our horn and our silenced shots
+
+Two things were annoying in co-op (user): a car's horn wasn't heard by the partners, and a silenced weapon made no sound for them whatsoever. Both are NightCoop's (build 5a51ea59, protocol 183), not ours.
+
+**Silenced shots are muted on purpose.** A partner's shot on our side is a blank shot, and NightCoop gives it the weapon's own NPC shot sound ("weapon sound: ... plays the weapon's own shot sound ('shoot' of its gameWeaponAudio, npc settings ...)"), except for a silenced weapon: "weapon sound: a blank shot has no sound — silenced shot". That line is in every crew member's logs from 2026-10-29 to today's session, and its reason, "silenced shot", sits in the DLL among the other reasons a blank shot is silent ("not a weapon", "no weapon audio", ...).
+The game has the right sound. In `base\sound\metadata\cooked_metadata.audio_metadata` (in `audio_1_general.archive`) a weapon's `audioWeaponSettingsGroup`, named by `Item_Record.AudioName()` (`wea_set_unity`), has `playerSettings`, `npcSettings`, `playerSilenced` and `npcSilenced`. The NPC settings name a gun choir of voices (`audioNpcGunChoirVoice`), each with a single shot (`fireSound`), a burst, or an automatic loop and its stop event (`autoFireSound`, `autoFireStop`). Unity's silenced NPC shot is `w_gun_npc_unity_fire_voice_01_supp`, heard to 150 m; the plain one, 500 m. Of the 74 sets, 16 have their own `npcSilenced`; the others have none, and Panam's Grad's plain NPC sound is already its silenced one.
+
+**A car's horn isn't synced at all.** The only horn NightCoop handles is a prevention AV's ("the game's AV sound scripts are watched ... descent, horn, hover, ascent ... (av_sound)"), and its DLL holds no other horn string. The driver's horn key goes `VehicleComponent.OnAction` → `ToggleVehicleHorn(state, isPolice)` → the native `VehicleObject.ToggleHorn` on our car, and partners' copy of it, a mirror NightCoop places, never hears it. Each car's horn is in the same metadata: `audioVehicleMetadata.generalData.hornOnEvent` and `hornOffEvent` (a loop and its stop, heard to 30 m), named by `Vehicle_Record`'s `player_audio_resource` (`v_car_thorton_galena`); a bike's is one 2 s beep with no stop, and police cars are their own resources with their own horn.
+
+**Both go through NightCoop's SDK.** `NightCoopSdk.PlaySoundOn(id, entity, event, stop)` plays a sound event, as `GameObject.PlaySound`, on each partner's mirror or copy of an entity NightCoop syncs: our player (their body of us) or a vehicle. Partners need only NightCoop; their NightCoop takes it from a mod whose passport declares `UsesEffects`, so `core/sounds.lua` registers the mod as `xip.nightcoop-tweaks`, protocol 1, with that flag alone. That's the first time this mod registers; before, it only read the SDK. Sounds go out from CET's `onUpdate`, the place NightCoop's CET guide polls from, since SDK calls belong on the game thread; hooks only queue them.
+- NightCoop takes 10 sounds a second from a mod in bursts of 20 (`NCSDK_FX_PER_S`), and nobody says whether they arrive for sure. So ordinary sounds keep to 8 and 16 of our own and are dropped past that, and a sound that ends something (a horn's or a loop's stop) is tried again for 2 s while NightCoop says "not now" or "over the limit", and goes a second time 0.4 s later as a stop of the sound's own event.
+- `tools/make-sound-tables.py` writes `tweaks/silencedshots/sounds.lua` (65 weapon sets) and `tweaks/horn/horns.lua` (173 vehicles) from that metadata, so no event name is typed by hand.
+
+`tweaks/horn` observes `VehicleComponent.ToggleVehicleHorn` and plays the horn on our car for partners when our player sits in its driver seat (the mounting facility's slot `seat_front_left`, as the game's `IsDriver`), not in an AV. The stop goes out when the release comes for that car, or when we're no longer in its driver seat with the horn still on.
+
+`tweaks/silencedshots` observes `ShootEvents.OnEnter`, once a shot in the local player's weapon state machine (partners' bodies have none), and acts on `weapon:IsSilenced()`. A shot is the set's single shot where there is one; held full auto, or a weapon with only a loop (the silenced Lexington, Pulsar, Ajax), runs the loop while shots keep coming within the weapon's `CycleTime` and 0.1 s, then sends its stop; a lone shot of a loop-only weapon stops it at 0.9 of a cycle, for one shot; the Masamune's silenced NPC sound is a burst only, played as firing starts and every 0.6 s while it goes on. Each player gets one of the set's voices by peer id, as each NPC gets one.
+Neither hook is in NightCoop's `do-not-hook.md`.
+
+An offline run of the real `core/sounds.lua` and both tweaks, with the game, CET and the SDK stubbed, went through a press and release, a passenger's horn, getting out with the key held, a bike, a police car, an unknown car, single shots, an unsilenced weapon, a partner's shot, full auto, a lone loop shot, bursts, Umbra's two kinds, a weapon change mid-loop, our own limit, NightCoop refusing a stop over its limit, no session, and a shutdown mid-loop and mid-honk; each sent what it should. That says nothing about what the game plays.
+Not yet checked in the game: that CET's `onUpdate` counts as the game thread for `PlaySoundOn` (a "not now" in Diagnostics, and "from another thread" in nightcoop.log, would say not); that `IsSilenced` is NightCoop's test too (if not, some shots play twice or not at all); how the NPC loops sound driven by our trigger, at their own rate rather than our weapon's; the 0.6 s Masamune burst, a guess; that partners hear it from our body, not the gun; and whether `GetMountingInfoSingleWithIds` takes the one argument from CET.
+If NightCoop's developer makes silenced shots heard, this would double them: check its log for the "silenced shot" line first.
+
+**First try, 21:58 that evening, after everyone's Reload All Mods (user):**
+- The user honked in a car and nobody heard it.
+- Bossun honked in the same car. Bleack and Ecto heard it, the user didn't, and Bleack and Ecto went on hearing a horn at the car after he got out.
+
+The logs say only the user's copy ran the new tweaks:
+- The user's NightCoop log has "[xip.nightcoop-tweaks] registered — 'NightCoop Tweaks' 0.1.3" at 21:58:06.
+- The mod lists the three partners sent at their reloads (21:58:09 to 22:00:03) don't have it.
+- Choom Collector's Mods tab had delivered the new files in four batches, but never `init.lua`, which loads them. Its hub had been looping since 21:56:26 on "init.lua changed on xip's PC while it was being sent": the file had been saved in three quick edits and the collector offered a hash from between them. The collector's log collection stopped at 21:56:23 too.
+- So the partners ran 0.1.2's `init.lua` with the new files unused beside it, and Bossun's honk was never sent.
+
+What Bleack and Ecto heard is unknown: possibly the user's horn, started at their side and never stopped. Their logs from the test weren't collected.
+
+The car was the host's player car. The user's own car of that record was its mirror (NightCoop's `player_car_place`), and the user sat in its driver seat from 21:58:12 to 21:58:29.
+
+NightCoop's receiving side, read in build 5a51ea59's disassembly (`HandleEffect` in `SdkSpawns.cpp`), plays a mod's sound with `AudioSystem.Play(event, entity, no emitter)` and stops one with `AudioSystem.Stop`. The game's own `GameObject.PlaySound` takes another path for an entity: it queues an `AudioEvent` on it. Still unproven:
+- whether a horn loop started NightCoop's way stops by the horn's stop event, or by `AudioSystem.Stop`;
+- whether the user's sends went out at all, which the Diagnostics window shows and no log does.
+
+Later, partners' logs (collected once the collector was restarted) showed that the user's sounds had gone out after all. Each partner's NightCoop counts the mod sounds it plays in its "fired paths" line, and by 21:58:57 `sdk_fx:sound` was 45 on all three, Bossun 2 m away among them.
+
+**Second try, after everyone had 0.1.3 (Reload All Mods 22:16 to 22:18, user):**
+- Honking "seems to work perfectly".
+- The user's suppressed Shigure on full auto was heard by everyone for its first three shots, then went silent.
+- Bleack's Overwatch was heard by nobody.
+
+The Shigure is the Arasaka Shigure, a Saratoga preset (`LocKey#51341`), so its audio set is `wea_set_saratoga`. Its silenced NPC voice has only the automatic loop (`w_gun_npc_saratoga_fire_voice_01_supp`, looping in the metadata) and its stop. So the tweak ran the loop, and something ended it after about three shots: either the loop's stop went out mid-burst, or loop starts and stops ran into NightCoop's 10-a-second limit. The window's counts will tell which.
+
+NightCoop itself plays a blank shot through the game's weapon audio with a mode, 'single', 'automatic' or 'burst', taken from the weapon's record (DLL strings: "the mode of a blank shot follows the weapon's record (FullAuto → 'automatic', others → 'single')"). The game manages an automatic loop inside that call. A bare loop event is the tweak's own approximation.
+
+The Overwatch (`Preset_Grad_Panam`) has no silencer attachment: its blueprint is `Iconic_Ranged_Weapon_NoMuzzle_Blueprint`, and it carries `BaseStats.CanSilentKill = 1` itself. The game's `ShootEvents.OnEnter` takes the silenced path (`SilencedShoot`, silenced stims) on `CanSilentKill > 0`, while the tweak asked `weapon:IsSilenced()`. NightCoop muted a partner's shot at 22:18:21 on the user's side, its first "silenced shot" since 20:49. After 22:18:33 the user's NightCoop played no more partner mod sounds. Silencer attachments (`w_silencer_01`), several iconic mods and PL's tech sniper also give `CanSilentKill`.
+
+The user's window, after the Shigure (22:16 to about 22:35):
+- "183 silenced shot(s), 29 sound(s) sent; last: wea_set_saratoga, loop of wea_npc_saratoga_suppressor".
+- "108 sent, heard 324 times, 0 dropped over our own limit", with no refusals.
+
+`ShootEvents.OnEnter` does come once a bullet. NightCoop refused nothing, so its limit wasn't the cause. But 183 shots made 29 loop runs: the loop kept stopping and starting again mid-fire. Two faults in 0.1.3, both reproduced offline:
+- A run ended once no shot had come within the weapon's cycle and 0.1 s. A frame hitch is longer than that, so held fire split into runs.
+- A run's second stop, 0.4 s after the first, stops the loop's event by name. So it also stopped the next run's loop when that started within the 0.4 s. In the offline run, a second burst 0.25 s after the first had its loop stopped 0.23 s in, while still firing: "three shots, then silent".
+
+0.1.4 ends a loop where the game ends the firing sequence: `WeaponTransition.EndShootingSequence`, called as the weapon goes back to ready (after its cycle, so a lone shot too), reloads, is lowered or put away. It's the same place the game lifts the weapon's trigger (`SetTriggerDown(false)`). A second without a shot ends a loop too, should that call not come. A new start of the same loop calls off the earlier run's second stop: the new run's stop ends any instance left over.
+
+0.1.4 also takes a shot as silenced by the game's rule, `CanSilentKill > 0`, not `IsSilenced()`. The offline run went through the earlier cases again, plus:
+- a hitch mid-burst: one loop;
+- two bursts 0.25 s apart: nothing stops the second while it fires;
+- a stat-silenced gun with nothing attached: the Overwatch's suppressed shot;
+- no end of the sequence: the loop stops a second after the last shot.
+
+Bleack had quit, so his window couldn't confirm that `IsSilenced()` was false for the Overwatch. Still unchecked in the game: how the NPC loop sounds for a whole burst, and whether a lone shot of a loop-only weapon (silenced Lexington, Pulsar) sounds as one shot when its loop runs for one cycle.
+
+Phantom Liberty keeps its own `ep1\sound\metadata\cooked_metadata.audio_metadata` (in `ep1\audio_1_general.archive`), which the generator didn't read. It now reads both, with one namespace, since a PL set can name base-game settings: 70 weapon sets, up from 65, and the same 173 horns.
+
+## 2026-11-08: The partner menu opens from the phone only
+
+The "[F] Interact" prompt next to a partner got in the way, and the phone's Contacts alone work well (user).
+The prompt is gone, with its look-at and facing checks and the 1 m reach. `PartnerMenu.OpenFor` is the only way in, so the menu now closes only when the partner leaves the session, not when they walk 5 m off. While no menu is up or asked for, `PartnerMenu.Update` does nothing, and the Diagnostics no longer list partners' distances or what we look at.
+Entries below that describe the prompt are history.
+
+An offline run of the real `core/partnermenu.lua` with the game stubbed went through idling beside a partner (no list, no game calls), opening from the phone, a far partner, a car, a popup coming back, combat refusing, a phone that stays open, and the partner leaving; each ended where it should. That says nothing about what the game draws.
+Not yet checked in the game: that the prompt no longer comes up.
+
+## 2026-11-08: Partners stay on the map when they're far away
+
+Partners' map markers vanished past a certain distance (user). NightCoop's logs say why: "puppets: peer 2 is 200 m away, their body is removed until they come closer", and 0.1 s later "the map pin of xip (peer 2) is removed". The pin is registered on the body (`RegisterMappinWithObject`), so it goes with it, and the floating name tag says "no marker: no body in our world".
+In Bleack's and Bossun's logs, 30 of 47 removals are at 200 or 201 m and the rest are jumps of 244 to 3039 m; no body ever appeared farther than 151.4 m. Both 200 and 150 are constants the function loads from the DLL, and no setting changes them. Raising them isn't the fix anyway: a body far off would stand in a part of the city that isn't loaded.
+It isn't a limit of the game's map: NightCoop gives the pin `MappinUISpawnProfile.Always` (no distance limit) and `MinimapMappinUIProfile.Quest` (`clampX`, `clampY`, so it sits on the minimap's edge).
+NightCoop goes on tracking a partner with no body: Bossun's log has peer 1 removed at 200 m and made again at 146.9 m almost three minutes later.
+
+`tweaks/farpins` puts our own pin at `NightCoopRemoteInfo`'s position while a partner has no body, and moves it four times a second. The rule is "no body", not "past 200 m", because coming back a partner has none between 200 and 150 m either.
+- It uses the SDK for who has a body and what they're called (`NightCoopSdk.PartnerBody`, `PeerName`; reads need no registration). Matching pins to partners by position, as `core/nightcoop.lua` does, can't tell who's who when two stand together. If the SDK doesn't answer there are no pins, since "no body" would put a second pin on everyone.
+- The pin has NightCoop's own pair, `Mappins.CPO_RemotePlayerMappinDefinition` and `CPO_RemotePlayerVariant`, because NightCoop's hooks on the minimap profile, icon and title choose by variant. NightCoop's pin goes through `RegisterMappinWithObject` and ours through `RegisterMappin`; NightCoop places its objective pins that way, with `Mappins.QuestStaticMappinDefinition`.
+- `core/nightcoop.lua` reads these pins too when it learns names. They carry the right name at the partner's place, so that's harmless.
+- It reads the mode from `NightCoopMarkers("status")` every 5 s and stays off when NightCoop's map markers are. A partner in their own world, not the host's, also has no body here, so they keep a pin at the position NightCoop gives.
+
+An offline run of the real `tweaks/farpins/tweak.lua` and `core/nightcoop.lua` with the game stubbed went through a body leaving and coming back, two partners, a load, the session ending, NightCoop's marker modes, the SDK off and missing, a refused pin and shutdown; each ended where it should. That says nothing about what the game draws.
+Test with a game restart, not Reload All Mods: that drops NightCoop's hooks, and the pin's look depends on them.
+Not yet checked in the game: whether the game takes a position pin of this pair and draws it with NightCoop's icon on the map and the minimap's edge, its caption on the map, and the `MappinData.new()` and `RegisterMappin` calls with this definition.
+
+## 2026-11-03: After cancelling the amount slider the menu wouldn't open for a while
+
+After "Custom amount..." and Cancel, the send menu couldn't be opened again for a while (user, on all three players).
+The logs don't show the cancel: nothing logged the slider opening or closing, and CET had written the user's log only up to 21:33. They do show the menu staying "open" with no send: Bossun's 14:34:38 for 37 s, until a menu opened, and 14:35:27 for 59 s; Bleack's 22:35:23 for 34 s. A stretch that long is rare in the earlier sessions. Bossun's transfer at 14:36:02, inside the 59 s, has no "Sent" line and left the menu open, so it didn't go through the menu; the CET window sends without either, so it probably came from there.
+While the state is "open" the prompt stays off, and only a pick, the partner walking off or something like a menu ends it, which would fit "temporarily".
+What only the cancel does: it drew the amounts list from inside the popup's close callback, with the popup still coming off the screen. A send closes the menu there and draws nothing. The phone lost its list in the same kind of moment (2026-10-29), so the list now comes back from `PartnerMenu.Update`, half a second after the popup closes, the same wait the phone gets.
+That the list was on the blackboard but not on the screen is the best guess, not something seen. Nothing in the game's scripts explains it, and F on such a list would still pick from it, so two blind presses would have sent money; the logs have no such send.
+For the next time, the log now says "quantity popup closed: cancelled" (or the amount) and "partner menu: waiting for a tweak's popup", and "open for ..." again when the list is back. No "quantity popup closed" line would mean the popup's callback never came, which would leave the menu waiting for good.
+An offline run of the real `core/partnermenu.lua` and `tweaks/sendmoney/menu.lua` with the game stubbed went through cancel, opening the slider again, a send, Back and Never mind, the partner walking off during the wait, a menu opening on the same Esc, and a slider that won't open; each ended where it should. That says nothing about what the game draws.
+Not yet checked in the game.
 
 ## 2026-11-01: A partner in first-person stands on a bike
 
