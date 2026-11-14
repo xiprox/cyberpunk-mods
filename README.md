@@ -1,7 +1,7 @@
 # Cyberpunk 2077 mods
 
 Our mods for Cyberpunk 2077, most of them for playing co-op on NightCoop.
-Each mod's own README says how it's built and installed, and its RECORD.md (where it has one) what we found and decided.
+Each mod's own README says how it's built and installed, and its RECORD.md what we found and decided.
 
 | Folder | What |
 |---|---|

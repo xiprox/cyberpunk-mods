@@ -2,6 +2,13 @@
 
 Each folder in `mods/` is its own mod project; read its CLAUDE.md, README.md and RECORD.md first. This file holds what all of them share.
 
+## A mod's own files
+
+- A new mod starts with these, without being asked:
+  - `README.md`: what it does for a player, and how it's built, installed and shared with the crew.
+  - `RECORD.md`: what we found and decided, newest entry first, each entry under a `## <YYYY-MM-DD>: <what changed>` heading. "User" marks what the user saw or heard in the game. Its top keeps an "Installed" line and a "Not yet checked in the game" line current. Add an entry when a finding or decision changes how the mod works.
+  - `CLAUDE.md`, once the mod has rules of its own: its build and test commands, what must stay in step in its code, and its commit scopes. What this file says isn't repeated there.
+
 ## The game and the crew
 
 - The game is in `C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077` (2.5, with Cyber Engine Tweaks, Codeware, TweakXL, ArchiveXL, RED4ext and NightCoop). Look game APIs up before using them: `<game>\tools\redmod\scripts`, and Codeware's `Scripts\Codeware.Global.reds`.
