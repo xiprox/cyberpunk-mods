@@ -36,15 +36,18 @@ A document that's two kinds at once serves neither reader.
 
 ### README
 
-The players' part comes first, and it's also the mod's Nexus Mods page, so its reader has never seen the code and stops reading once they know enough.
+The players' part comes first, and it's also the mod's Nexus Mods page.
+Players skim it, reading the headings, the bold words, and the start of each bullet, and every extra line makes them read less.
+So it leaves out what the game shows in the first minutes of play, such as the mode a session starts in, and what anyone who mods the game already knows, such as closing the game before installing.
 It runs in this order, leaving out what a mod doesn't have:
 
-1. What the mod does, in the game's terms, in two or three sentences.
-2. Using it: keys, menus, and what you see and hear.
-3. What it needs: the other mods by name, without links, since the Nexus Mods page lists them, and the game version it was made for.
-4. Installing, updating, and removing it.
-5. What it works with and against: co-op, other mods, a game patch, Linux.
-6. Known limits.
+1. What the mod adds, opening with "Adds", then what sets it apart, each point something a player can check in the game.
+   It never narrates V or a scene the way a trailer does, and claims no more than we know: Headset "mimics" real hearing protection.
+2. Using it: the keys and menus, and anything a player could only learn the hard way.
+3. What it needs: the other mods by name, without links, since the Nexus Mods page lists them, and the game version.
+4. Installing and removing it.
+5. What it works with: co-op, other mods, a game patch, and Linux, a line each.
+6. Known limits: gaps a player could hit, never design choices.
 7. What to send with a bug report.
 
 The players' part uses only headings, paragraphs, lists, bold, and code, so it carries over to the Nexus Mods page.
