@@ -534,7 +534,8 @@ SpatialOutput ComputeSpatial(const SpatialInput& aInput)
     // Across a cabin: its closed body muffles what's within reach, and its gaps let through what ThroughCars found. The
     // voice seems to come from the gaps as much as they carry it, and the room outside is heard through them.
     const float separated = Clamp01(aInput.separatedCabin);
-    const float wallGain = kCabinWallGain * Clamp01(1.f - distance / kCabinReachMeters);
+    const float wallGain =
+        kCabinWallGain * Clamp01((kCabinReachMeters - distance) / (kCabinReachMeters - kCabinFadeFromMeters));
     const float gapGain = std::max(aInput.carOpenGain, 0.f);
     const float carPower = wallGain * wallGain + gapGain * gapGain;
     const float gapShare = carPower > 1e-12f ? gapGain * gapGain / carPower : 0.f;

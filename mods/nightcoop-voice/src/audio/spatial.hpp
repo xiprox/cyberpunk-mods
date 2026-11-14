@@ -14,10 +14,13 @@ enum Cabin : int
     CabinSeparated = 2, // one of us is inside a car the other isn't in
 };
 
-// A closed car's body and glass: what gets through within reach, and how dull. Past the reach nothing does, since silence
-// "with someone standing at your window could look like a broken link" (RECORD.md), but further off it's simply silent.
-constexpr float kCabinWallGain = 0.45f;
-constexpr float kCabinWallCutoffHz = 500.f;
+// A closed car's body and glass: what gets through within reach, and how dull. Enough to tell someone inside is talking,
+// though hardly what they say: the treble that carries the words goes, the vowels and pitch stay (user, 2026-11-14, when
+// a 500 Hz cut left nothing to hear over the street). It holds to kCabinFadeFromMeters and fades out by the reach, past
+// which nothing gets through, since silence "with someone standing at your window could look like a broken link".
+constexpr float kCabinWallGain = 0.45f; // about -7 dB
+constexpr float kCabinWallCutoffHz = 1000.f;
+constexpr float kCabinFadeFromMeters = 3.f;
 constexpr float kCabinReachMeters = 5.f;
 
 // A gap in a car's cabin: a window wound down or shot out, an open door, a roof that's off. In the world.

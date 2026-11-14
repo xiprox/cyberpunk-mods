@@ -289,8 +289,18 @@ void TestSpatial()
     input.separatedCabin = 1.f;
     input.talkerPosition = {0.f, 2.f, 0.f};
     const SpatialOutput cabinClose = ComputeSpatial(input);
-    Check(cabinClose.audible && cabinClose.lowpassHz <= 500.f && cabinClose.gainLeft < 0.45f,
-          "through a car's cabin close by is heavily muffled", "%.2f", cabinClose.gainLeft);
+    Check(cabinClose.audible && cabinClose.lowpassHz <= 1000.f && cabinClose.lowpassHz > 700.f && cabinClose.gainLeft < 0.46f,
+          "through a car's cabin close by is muffled to a murmur, its vowels left and its words gone", "%.2f", cabinClose.gainLeft);
+    const auto cabinGain = [&](float aMeters) {
+        input.talkerPosition = {0.f, aMeters, 0.f};
+        input.separatedCabin = 0.f;
+        const float open = ComputeSpatial(input).gainLeft;
+        input.separatedCabin = 1.f;
+        return ComputeSpatial(input).gainLeft / open;
+    };
+    Check(std::fabs(cabinGain(1.f) - 0.45f) < 0.01f && std::fabs(cabinGain(3.f) - 0.45f) < 0.01f,
+          "it takes the same 7 dB at the door as at 3 m", "%.2f at 3 m", cabinGain(3.f));
+    Check(std::fabs(cabinGain(4.f) - 0.225f) < 0.01f, "then fades out", "%.2f at 4 m", cabinGain(4.f));
     input.talkerPosition = {0.f, 5.5f, 0.f};
     Check(!ComputeSpatial(input).audible, "through a car's cabin past 5 m is silent");
 }
@@ -1755,9 +1765,9 @@ void TestCars()
     input.carOpenArrival = inLine.arrival;
     input.carOpenAny = true;
     const SpatialOutput open = ComputeSpatial(input);
-    Check(std::max(open.gainLeft, open.gainRight) > 2.f * std::max(shut.gainLeft, shut.gainRight) && open.lowpassHz > 4000.f &&
-              open.carOpenShare > 0.8f,
-          "the open window brings the voice out clear", "%.0f Hz", open.lowpassHz);
+    const float louder = std::max(open.gainLeft, open.gainRight) / std::max(shut.gainLeft, shut.gainRight);
+    Check(louder > 1.6f && open.lowpassHz > 4000.f && shut.lowpassHz <= kCabinWallCutoffHz && open.carOpenShare > 0.7f,
+          "the open window brings the voice out clear, where the shut one lets only a murmur through", "%.1f times as loud", louder);
     Check(open.gainRight > open.gainLeft, "and from the window, on the listener's right");
     input.talkerPosition = {-30.f, 0.2f, 1.f};
     input.listenerPosition = kHozukiDriverHead;
