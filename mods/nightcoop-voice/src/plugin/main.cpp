@@ -9,6 +9,7 @@
 #include <RED4ext/Scripting/Utils.hpp>
 
 #include "audio/wasapi.hpp"
+#include "build_time.h"
 #include "engine.hpp"
 #include "net/resend.hpp"
 #include "nightcoop_sdk.h"
@@ -1237,7 +1238,7 @@ RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::v1::PluginHandle aHandle, RED4e
         g_engine = std::make_unique<nv::Engine>(g_settings);
         g_keys = std::make_unique<nv::KeyWatcher>(*g_engine);
         ApplyKeys();
-        aSdk->logger->Info(aHandle, "NightCoop Voice " NCV_VERSION " loaded");
+        aSdk->logger->Info(aHandle, "NightCoop Voice " NCV_VERSION " loaded, built " NCV_BUILT);
         break;
     }
     case RED4ext::v1::EMainReason::Unload:

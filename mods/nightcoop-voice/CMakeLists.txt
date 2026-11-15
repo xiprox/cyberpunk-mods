@@ -2,7 +2,11 @@ cmake_minimum_required(VERSION 3.25)
 
 set(CMAKE_POLICY_DEFAULT_CMP0091 NEW)
 set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
-project(NightCoopVoice VERSION 0.8.2 LANGUAGES C CXX)
+
+# version.txt holds the last release's number, and release-please raises it when it opens a release.
+file(STRINGS "${CMAKE_CURRENT_SOURCE_DIR}/version.txt" NCV_RELEASE_VERSION LIMIT_COUNT 1)
+project(NightCoopVoice VERSION ${NCV_RELEASE_VERSION} LANGUAGES C CXX)
+set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/version.txt")
 
 # Static C runtime: the mod has to load on Bleack's Proton setup too, where the system's C++ runtime may be older than
 # the one this was built against.
@@ -96,7 +100,12 @@ if(EXISTS "${RED4EXT_SDK_DIR}/CMakeLists.txt")
     add_subdirectory("${RED4EXT_SDK_DIR}" red4ext_sdk EXCLUDE_FROM_ALL)
 
     add_library(NightCoopVoice SHARED src/plugin/main.cpp src/plugin/keys.cpp)
-    target_include_directories(NightCoopVoice PRIVATE src "${CMAKE_SOURCE_DIR}/../../vendor/nightcoop-sdk/include")
+    add_custom_target(NightCoopVoiceBuildTime
+        COMMAND "${CMAKE_COMMAND}" "-DOUT=${CMAKE_BINARY_DIR}/generated/build_time.h" -DNAME=NCV_BUILT -P "${CMAKE_SOURCE_DIR}/../../tools/build-time.cmake"
+        BYPRODUCTS "${CMAKE_BINARY_DIR}/generated/build_time.h"
+        VERBATIM)
+    add_dependencies(NightCoopVoice NightCoopVoiceBuildTime)
+    target_include_directories(NightCoopVoice PRIVATE src "${CMAKE_SOURCE_DIR}/../../vendor/nightcoop-sdk/include" "${CMAKE_BINARY_DIR}/generated")
     target_link_libraries(NightCoopVoice PRIVATE voicecore RED4ext::SDK user32)
     target_compile_definitions(NightCoopVoice PRIVATE
         NCV_VERSION="${PROJECT_VERSION}"

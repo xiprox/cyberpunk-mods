@@ -3,15 +3,20 @@
 $deps = Join-Path $PSScriptRoot '..\deps'
 New-Item -ItemType Directory -Force $deps | Out-Null
 
-function Get-Library($Name, $Url, $Tag) {
+function Get-Library($Name, $Url, $Tag, $Commit) {
     $target = Join-Path $deps $Name
     if (Test-Path $target) { return }
-    if ($Tag) { git clone --quiet --depth 1 --branch $Tag $Url $target }
-    else { git clone --quiet --depth 1 $Url $target }
+    if ($Commit) {
+        git init --quiet $target
+        git -C $target fetch --quiet --depth 1 $Url $Commit
+        git -C $target checkout --quiet FETCH_HEAD
+    }
+    else { git clone --quiet --depth 1 --branch $Tag $Url $target }
 }
 
 Get-Library 'opus' 'https://github.com/xiph/opus.git' 'v1.5.2'
-Get-Library 'libjuice' 'https://github.com/paullouisageneau/libjuice.git' $null
+# The commit Voice was built and tested with, so a release build on GitHub uses the same libjuice as this PC.
+Get-Library 'libjuice' 'https://github.com/paullouisageneau/libjuice.git' -Commit 'abe8dd3f33e696106fe322b90b67fd11b1fe51ab'
 Get-Library 'rnnoise' 'https://github.com/xiph/rnnoise.git' 'v0.1.1'
 Get-Library 'speexdsp' 'https://github.com/xiph/speexdsp.git' 'SpeexDSP-1.2.1'
 Get-Library 'monocypher' 'https://github.com/LoupVaillant/Monocypher.git' '4.0.2'

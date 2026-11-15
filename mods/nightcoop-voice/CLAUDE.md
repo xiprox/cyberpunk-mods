@@ -27,8 +27,13 @@ cmake --install build --config Release --prefix build/stage
 
 - While the user is testing and tweaking in game, edit code only, and build, test, package and install when they say so ("install and restart"). Levels can still change live through `tuning.ini` (RECORD.md).
 - While the game runs, never install, and never close it without being asked. Pass `--no-devices` to `voice_test`. `check-scripts.ps1` runs on a hidden desktop so a compile error's dialog can't appear over the game; don't run `scc` any other way then.
-- Zip `build/stage` to `dist/NightCoopVoice-<version>.zip`. Install by copying `build/stage` over the game folder, then compare file hashes. Installing on the user's PC is how updates reach the others, through their log collector.
-- Raise `VERSION` in `CMakeLists.txt` before packing a build that differs from one already installed, so logs say which build ran. Raise `kProtocol` in `src/plugin/main.cpp` when packets or setup messages change meaning: all players then need the new version.
+- Install by copying `build/stage` over the game folder, then compare file hashes.
+  Installing on the user's PC is how updates reach the others, through their log collector.
+  A zip comes from `powershell -File ../../tools/package-mod.ps1 -Mod nightcoop-voice`, into `build/package`, built and tested through `tools/stage.ps1` as a release's is.
+- `version.txt` and `CHANGELOG.md` change only through release-please's pull request.
+  Test builds between releases keep the last release's number, and the log's `built` time says which build ran.
+- Raise `kProtocol` in `src/plugin/main.cpp` when packets or setup messages change meaning: all players then need the new version.
+- Run the script check above before merging a release pull request: the release workflow builds and tests but can't compile redscript.
 
 ## In the code
 
