@@ -43,7 +43,7 @@ if(EXISTS "${RED4EXT_SDK_DIR}/CMakeLists.txt")
     add_library(Headset SHARED src/plugin/main.cpp src/plugin/keys.cpp)
     # Test builds between releases share a number, so the log also says when each was built.
     add_custom_target(HeadsetBuildTime
-        COMMAND "${CMAKE_COMMAND}" "-DOUT=${CMAKE_BINARY_DIR}/generated/build_time.h" -P "${CMAKE_SOURCE_DIR}/tools/build_time.cmake"
+        COMMAND "${CMAKE_COMMAND}" "-DOUT=${CMAKE_BINARY_DIR}/generated/build_time.h" -DNAME=HS_BUILT -P "${CMAKE_SOURCE_DIR}/../../tools/build-time.cmake"
         BYPRODUCTS "${CMAKE_BINARY_DIR}/generated/build_time.h"
         VERBATIM)
     add_dependencies(Headset HeadsetBuildTime)
