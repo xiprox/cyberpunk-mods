@@ -172,7 +172,7 @@ void AnnounceFirstRun()
     const std::string text = "NightCoop Voice: your mic is live to co-op partners. Mute: " +
                              KeyLabel(g_settings.Get("key_mute", kDefaultMuteKey)) +
                              ", radio mic: " + KeyLabel(g_settings.Get("key_radio", kDefaultRadioKey)) +
-                             ". To change them: Settings, Mods, Voice.";
+                             ". To change them: Mods, Voice, in the main menu or the pause menu.";
     g_api->showMessage(g_mod, text.c_str(), 10.f, NCSDK_TONE_INFO);
 }
 
