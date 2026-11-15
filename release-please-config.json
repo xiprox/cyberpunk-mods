@@ -5,6 +5,10 @@
     "mods/headset": {
       "release-type": "simple",
       "component": "headset"
+    },
+    "mods/nightcoop-voice": {
+      "release-type": "simple",
+      "component": "nightcoop-voice"
     }
   }
 }
