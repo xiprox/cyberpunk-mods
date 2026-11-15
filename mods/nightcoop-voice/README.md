@@ -1,35 +1,63 @@
-# NightCoop Voice
+![Voice's corner display: your mic live, your radio on air, and three players nearby, on the radio, and on the Relay](header.png)
 
-Voice chat inside NightCoop sessions: nearby voices that follow distance, direction, walls and cars, plus a group radio. Audio goes directly between players when it can, and over NightCoop, through its host, when it can't (the Relay). [RECORD.md](RECORD.md) says why it's built the way it is.
+# NightCoop Proximity Voice + Radio
 
-## Install
+Adds proximity voice chat and a group radio to NightCoop, inside the game, with no voice app to run beside it.
 
-Every player needs the same files, and RED4ext, Codeware, CET, Native Settings and NightCoop 0.2.0 or newer. Unzip `dist/NightCoopVoice-<version>.zip` into the game folder. To remove the mod, delete `red4ext/plugins/NightCoopVoice` and `bin/x64/plugins/cyber_engine_tweaks/mods/NightCoopVoice`.
-Versions only talk to the same protocol: 0.8.0 and newer can't hear 0.7.x or older, so everyone updates together.
+- **Nearby voices** come from where your partners stand, fade with distance, and are muffled by walls, doors, and shut cars, while an open window or door lets them through.
+- **Rooms echo:** a voice rings in a tunnel, sounds close in a closet, and carries the echo of the room it comes from.
+- **The radio** reaches everyone at any distance, with the grit of a military radio.
+- **Levels set themselves:** every mic evens itself out, so nobody has to ask anyone to turn up.
 
-## How it plays
+## Using it
 
-Nothing needs pressing to talk. Links connect when a session starts, and your mic is live from then on, with a voice gate deciding when you're speaking.
+Your mic is live as soon as a session starts, and a voice gate decides when you're speaking.
 
-| Control | What it does |
-|---|---|
-| Mute (default mouse side button 1) | Silences your mic everywhere |
-| Radio mic (default mouse side button 2) | Tap: on or off. Hold: on until you let go |
+- **Mouse 4** mutes your mic.
+- **Mouse 5** is the radio mic: tap it to turn on the radio, or hold it for push-to-talk.
 
-- **Nearby:** full volume within 2 m, then falling more evenly than speech really does, about 9 dB down at 15 m and 21 dB at 40 m, then fading to silent at 50 m. In headphones, voices sit around your head: the far ear hears them a moment later and with less treble, and voices behind you lose treble too. On speakers, turn off Headphones in Settings for a plain pan. A talker with their back to you sounds duller and a little quieter. Voices nearly die when you dive underwater, and turn dull and roomy in any slow motion.
-- **Walls and doors:** five rays, spread across and up and down, so a ledge or door frame muffles partly. A closed door counts as a thin barrier. Glass stops less than a wall, and grates, catwalks and foliage hardly anything. Give `TraceResult.GetHitEntity` a local variable, never a `script_ref` parameter passed along: that form crashed all three players in 0.3.0.
-- **Corners:** when walls are in the way, the voice also comes round them if there's a way. It finds one from where either player has recently walked, which covers several corners, or by searching for a single corner nobody has walked. The voice then comes from the first bend you can see, with its distance measured along the route, less treble per corner, and more muffling for a closed door on the way. Otherwise it comes through the wall. Both add up, so it can't flip between the two.
-- **Rooms and echoes:** rays around you measure the space you're in. A closet dies fast, a hall or tunnel rings, and open air gives back very little. A balcony or anywhere else with no roof over one side lets sound out instead of ringing, and so does a low wall. Carpet, fabric, upholstery, grass and the like shorten the ring. Across a closed room the voice falls away while the room's sound doesn't. Walls far enough off and big enough give real echoes, from their own direction, up to four per talker. Posts, signs, stairs, low walls and soft surfaces don't. A voice through a wall brings the sound of the room it's in, as that player's own rays measured it. In headphones you also hear your own voice in the room, never directly, only somewhere closed in that rings for more than about half a second, and not underwater or in a car.
-- **Cars:** riders in one vehicle hear each other clean. Between the inside of a shut car and anywhere else, a voice is muffled to a murmur: you can tell someone is talking, though hardly what they say. It holds to 3 m and fades out by 5 m, past which nothing gets through. A car's gaps let voices through: a window wound down or shot out, an open or torn-off door, and the missing roof of a cabrio or targa. Through a gap a voice seems to come from it, sounds nearly as in the open in line with it and duller round the car, and a small pane lets through less than a window; two cars side by side talk window to window. Seated players' voices come from their heads. Bikes block nothing. Each player's game reports what's open on the car they sit in. Where the gaps are comes from each car's parts and a table of their meshes made from the game files (`tools/car_openings.py`, rerun after a game patch); a mod's car whose glass isn't in it stays shut.
-- **Radio:** everyone hears it, at any distance, through walls and cars. Only players with their radio mic on are sent over it. A partner who left theirs on from further off is left to the air within 15 m, so you don't hear them twice, and comes back on the radio past 25 m. Walls don't count, so someone close in the next room is heard muffled. Switching the radio on within 25 m of someone means it: they hear you on it until you've been more than 25 m apart for 30 s, so a dash across a fight doesn't end it, except while you share a vehicle, where you hear each other clean anyway. Nobody is left to the air while one of you is on or in a vehicle you aren't sharing, or while you wear the Headset mod in either mode, since putting it on means you want the radio. It has the grit of a military radio's digital voice encoding. It plays in both ears, from the headset's ear cups.
-- **Headset:** with the separate Headset mod (`mods/headset`), nearby voices are heard through it just as the world is, so a blast swallows a shout beside you, and noise cancelling quiets the people around you. The radio plays inside it, and turning it on never changes the headset's mode. Without the Headset mod, voice plays plain.
-- **Relay:** with no direct link to a partner, including the moment one takes to connect, voice goes to them over NightCoop instead, and back to direct once the link is up. Settings, Connection, Relay: When needed (the default), or Always, which makes no direct links at all, for every pair that includes you. Packing two frames a message adds 20 ms, waiting for game frames a little more, and a guest's voice to another guest goes by way of the host, so two players in Europe with a host in North America hear each other a few hundred ms later (an estimate). It only moves while the games run frames, so loading screens cut it. The HUD shows "Bleack - Relay", and "Bleack - nearby, Relay" while they talk.
+Both keys and every other setting are under Mods > Voice in the main menu or the pause menu.
+On speakers, switch off Headphones there, since voices are placed around your head for headphones.
 
-Levels set themselves. Each mic evens itself out with an automatic gain, which remembers each mic between runs, and a compressor, so speech leaves every player at about the same level. Each listener's voices then keep their balance with that player's game: the mod measures what the output plays, takes away its own voices, and sets one gain for all voices, so the game's Master Volume and the system volume don't matter. Voices rise when a fight starts and settle slowly afterwards. Nearby gunfire can still drown them out, on purpose. Where the output can't be measured, voices follow the Master Volume setting alone. Every 30 s NightCoop's log gets `levels:` lines with the real numbers, `rays:` lines with what the rays cost, and an `acoustics:` line with the measured room and how ways round were found.
+## Direct and Relay
 
-Settings are in the game's Settings menu under Mods, Voice. They're stored per PC in `%LOCALAPPDATA%\NightCoopVoice\settings.ini`, so sharing the mod folder doesn't share them. The co-op menu's Mods page also has mute and radio items.
+Voice travels one of two ways: directly between players, or through the host over NightCoop, called the Relay.
 
-## How it's built
+**Direct** sends your voice straight from your PC to each other player's PC over the internet, which is the quickest way.
+To connect, the two PCs have to reach each other through their home routers, and some routers and internet providers don't allow that, so a direct connection takes a moment to set up and sometimes can't be made at all.
+
+**The Relay** sends your voice along the connection NightCoop already uses for the game, through the host's PC.
+It works whenever you can play together, but it's a detour: two players far from the host hear each other later, and since it travels with the game's own messages, it stops during loading screens.
+
+Voice uses the Relay only while a direct connection is setting up, or when one can't be made, and the voice display shows "Relay" after a player's name while their voice comes that way.
+Under Mods > Voice > Connection, **Always** uses the Relay with everyone instead.
+
+## What it needs
+
+RED4ext, redscript, Cyber Engine Tweaks, Codeware, and Native Settings, on Cyberpunk 2077 2.5.
+Everyone in the session needs the mod, on the same version.
+
+## Installing
+
+Extract the zip into the game folder, or install it with your mod manager.
+To remove it, delete `red4ext/plugins/NightCoopVoice` and `bin/x64/plugins/cyber_engine_tweaks/mods/NightCoopVoice`.
+
+## Compatibility
+
+- **Headset:** with [Headset](https://www.nexusmods.com/cyberpunk2077/mods/38448) installed, voices around you go through it like the rest of the world, and the radio plays inside it.
+- **Linux:** runs under Proton.
+
+## Known limits
+
+Cars with models of their own, added by other mods, count as shut, windows and all.
+
+## Bug reports
+
+Close the game and attach the newest `red4ext/logs/nightcoopvoice-*.log` and `red4ext/plugins/NightCoop/nightcoop.log` from the game folder.
+
+## For developers
+
+### How it works
 
 | Part | Where | Does |
 |---|---|---|
@@ -39,35 +67,82 @@ Settings are in the game's Settings menu under Mods, Voice. They're stored per P
 | HUD and positions | `game/scripts/` | Reads positions and casts the rays it's asked for each frame, draws the corner display |
 | Settings | `game/cet/` | The Voice section, through Native Settings |
 
-NightCoop's SDK carries setup, addresses over a reliable channel, and a key the host makes per session in shared state. The host could read that key, as it can all SDK data.
-It also carries the Relay: the same encrypted packets as the direct links, two 20 ms frames to an unreliable message on a second channel, sent on the game thread, where the SDK has to be called. Each game picks a path per partner for itself and takes both at all times, so a switch needs nothing agreed, and sequence numbers run on across it. Presence goes the same way once a second, so mute, the radio mic, their room and the ping work on either path; the ping is then the Relay's real round trip. NightCoop allows 120 messages and 32768 bytes a second per mod: two frames a message fit four partners on the Relay at once, so past that a message carries three. When NightCoop refuses one for its rate, its frames are dropped, never retried, and messages carry a frame more for a while. On Always, a player tells partners in their presence, so they stop trying direct with them. `relay:` lines in NightCoop's log count what went each way every 30 s.
+NightCoop's SDK carries link setup, with each player's addresses, over a reliable channel, and a key the host makes per session in shared state.
+The host could read that key, as it can all mod data in a session (read in `vendor/nightcoop-sdk/SECURITY.md`: the host decrypts and relays guests' messages).
 
-A player's mod list can fail to register on another machine: on one join, Bleack's NightCoop never registered Bossun's, for any mod, so Bleack never answered Bossun's link offers. So while a player is stuck, the mod re-sends its own list, by registering and unregistering a throwaway mod, which makes NightCoop send it again.
+The Relay is the path through NightCoop: the same encrypted packets as the direct links, two 20 ms frames to an unreliable message on a second channel, sent on the game thread, where the SDK has to be called.
+Each game picks a path per partner for itself and takes both at all times, so a switch needs nothing agreed, and sequence numbers run on across it.
+Each player's presence, a small message with their mute, radio mic, and room, goes the same way once a second, so all of that and the ping work on either path; the ping is then the Relay's real round trip.
+NightCoop allows 120 messages and 32,768 bytes a second per mod (read in `nightcoop_sdk.h`, `NCSDK_RATE_MESSAGES_PER_S` and `NCSDK_RATE_BYTES_PER_S`): two frames a message fit four partners on the Relay at once, so past that a message carries three.
+When NightCoop refuses a message for its rate, its frames are dropped, never retried, and messages carry a frame more for a while.
+On Always, a player tells partners in their presence, so they stop trying direct with them.
+`relay:` lines in NightCoop's log count what went each way every 30 s.
 
-`src/engine.hpp` is the boundary to reuse if another mod ever needs direct links.
+A player's mod list can fail to register on another machine: on one join, Bleack's NightCoop never registered Bossun's, for any mod, so Bleack never answered Bossun's link offers, and the cause inside NightCoop is unknown (measured in the crew's logs, [RECORD.md](RECORD.md), 2026-11-03).
+So while some player has no link, or no word of their mods, the mod registers and unregisters a throwaway mod, which makes NightCoop send its list again, first after `ResendSchedule::kFirstMs` and then less and less often (`src/net/resend.hpp`).
 
-## Build
+Settings are stored per PC in `%LOCALAPPDATA%\NightCoopVoice\settings.ini`, so sharing the mod folder doesn't share them.
+NightCoop's co-op menu also has mute and radio items on its Mods page.
+[RECORD.md](RECORD.md) says why each part is the way it is.
 
-Needs Visual Studio 2022 and CMake.
+### How it sounds
 
-```bash
-powershell -File tools/fetch_deps.ps1
-```
+- **Nearby:** full volume within `kNearMeters`, then falling on the curve in `RolloffGain` (`src/audio/spatial.cpp`) and fading to silent at `kFarMeters` (`src/audio/acoustics.cpp`).
+  In headphones, the far ear hears a voice a moment later and with less treble, and voices behind you lose treble too.
+  A talker with their back to you sounds duller and a little quieter.
+  Voices nearly die when you dive underwater, and turn dull and roomy in any slow motion.
+- **Walls and doors:** five rays, spread across and up and down, so a ledge or door frame muffles partly.
+  A closed door counts as a thin barrier, glass stops less than a wall, and grates, catwalks, and foliage hardly anything.
+- **Corners:** when walls are in the way, the voice also comes around them if there's a way, found from where either player has recently walked or by searching for a single corner nobody has walked.
+  That part comes from the first bend you can see, with its distance measured along the route, less treble per corner, and more muffling for a closed door on the way.
+  It comes through the wall as well, and the two add up, so it can't flip between them.
+- **Rooms and echoes:** rays around you measure the space you're in.
+  A balcony or anywhere else with no roof over one side lets sound out instead of ringing, and so does a low wall, while carpet, fabric, upholstery, grass, and the like shorten the ring.
+  Walls far enough off and big enough give real echoes, from their own direction, up to four per talker.
+  A voice through a wall brings the sound of the room it's in, as that player's own rays measured it.
+  In headphones you also hear your own voice in a closed room that rings long enough, never directly, and not underwater or in a car (`src/audio/mixer.cpp`).
+- **Cars:** riders in one vehicle hear each other clean.
+  Between the inside of a shut car and anywhere else, a voice is muffled to a murmur that holds to `kCabinFadeFromMeters` and fades out by `kCabinReachMeters` (`src/audio/spatial.hpp`).
+  A window wound down or shot out, an open or torn-off door, and the missing roof of a cabrio or targa let voices through, and a voice through a gap seems to come from it.
+  Seated players' voices come from their heads, and bikes block nothing.
+  Each player's game reports what's open on the car they sit in, and where the gaps are comes from each car's parts and a table of their meshes made from the game files by `tools/car_openings.py`, rerun after a game patch.
+- **Radio:** only players with their radio mic on are sent over it.
+  A partner who left theirs on from further off is heard only nearby, not on the radio too, while closer than `kStartRadioNearMeters`, and comes back on the radio `kRadioBackPastMeters` further out.
+  Switching the radio on close by keeps you on it until you've been apart for `RadioKeep::kApartMs`.
+  Nobody is taken off the radio this way while one of you is on or in a vehicle the other isn't sharing, or while you wear Headset in either mode.
+- **Levels:** each mic evens itself out with an automatic gain, which remembers each mic between runs, and a compressor.
+  The mod measures what the output plays, takes away its own voices, and sets one gain for all voices, so the game's Master Volume and the system volume don't matter.
+  Where the output can't be measured, voices follow the Master Volume setting alone.
+  Every 30 s NightCoop's log gets `levels:` lines with the real numbers, `rays:` lines with what the rays cost, and an `acoustics:` line with the measured room and how ways round were found.
 
-```bash
-powershell -File ../../tools/fetch-red4ext-sdk.ps1
-```
+### For other mods
 
-```bash
-cmake -S . -B build -G "Visual Studio 17 2022" -A x64
-```
+`src/engine.hpp` is the boundary to reuse if another mod needs direct links.
+Voice uses Headset's interface, `../headset/src/headset_api.h`, to hand it nearby voices, and plays plain without it.
 
-```bash
-cmake --build build --config Release
-```
+### Building and testing
 
-`build/Release/voice_test.exe` checks everything that doesn't need the game: effects by their measured output, rooms, corners and echoes in a made-up world of boxes, packets, the jitter buffer, real links between two engines on one PC, the Relay over a fake NightCoop channel with its rate limit, and the audio devices. It plays only silence, and never stores or sends microphone audio.
+It needs Visual Studio and CMake 3.25 or newer.
+From a fresh clone, `powershell -File tools/stage.ps1 -Out build/stage` fetches the libraries into `deps/` at pinned versions and RED4ext.SDK with `../../tools/fetch-red4ext-sdk.ps1`, then configures, builds, and tests.
+After that, [CLAUDE.md](CLAUDE.md#building-and-installing) has the commands to rebuild, test, check the scripts, and install.
 
-Two tools for trying a headset-style clamp on the game's sound, outside the game and not part of the mod:
-- `build/Release/record_game.exe` records what the default output plays into `recordings/`. Page Up starts and stops it, with two rising beeps for recording and two falling ones for stopped, neither recorded. While it runs, the game doesn't get Page Up.
-- `build/Release/headset_clamp.exe <recording.wav>` writes `-limiter` and `-headset` versions next to the recording, at the same level, to compare by ear. `--at <dB>` sets one clamp level for every recording.
+`build/Release/voice_test.exe` checks everything that doesn't need the game, and plays only silence, never storing or sending microphone audio:
+
+- effects, by their measured output
+- rooms, corners, and echoes, in a made-up world of boxes
+- packets and the jitter buffer
+- real links between two engines on one PC
+- the Relay, over a fake NightCoop channel with its rate limit
+- the audio devices, unless it's given `--no-devices`
+
+Two tools try a headset-style clamp on the game's sound, outside the game and not part of the mod:
+
+- `build/Release/record_game.exe` records what the default output plays into `recordings/`.
+  Page Up starts and stops it, with two rising beeps for recording and two falling ones for stopped, neither recorded, and while it runs the game doesn't get Page Up.
+- `build/Release/headset_clamp.exe <recording.wav>` writes `-limiter`, `-headset`, `-headset2`, and `-headset3` versions next to the recording, at the same level, to compare by ear.
+  `--at <dB>` sets one clamp level for every recording.
+
+### How the crew gets it
+
+A build installed on xip's PC reaches the crew through Choom Collector's Mods tab.
+Releases for everyone else come from release-please, as the repository's [README.md](../../README.md#releases) describes.

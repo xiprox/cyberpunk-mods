@@ -1,0 +1,46 @@
+<!doctype html>
+<!-- The Nexus Mods header, 1300x372 px: Voice's corner display as the HUD draws it (NightCoopVoiceHud.reds: texts,
+     colors, the Rajdhani-like font), beside a microphone. The player names are made up.
+     powershell -File ../../tools/render-html.ps1 -Html mods/nightcoop-voice/header.html -Out mods/nightcoop-voice/header.png -->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+:root {
+  --cyan: #5ef5ff;
+  --yellow: #ffdb4d;
+  --grey: #9e9ea8;
+  --bg: #14141c;
+}
+html, body { margin: 0; width: 1300px; height: 372px; overflow: hidden; background: var(--bg); }
+body { display: flex; align-items: center; justify-content: center; gap: 72px; font-family: Rajdhani, sans-serif; font-weight: 500; letter-spacing: 0.8px; }
+.display { display: flex; flex-direction: column; gap: 6px; }
+.line { font-size: 42px; line-height: 50px; }
+.row { font-size: 38px; line-height: 46px; }
+.mic { display: flex; align-items: center; gap: 20px; color: var(--cyan); }
+.bar { width: 150px; height: 16px; background: var(--cyan); }
+.cyan { color: var(--cyan); }
+.yellow { color: var(--yellow); }
+</style>
+</head>
+<body>
+<svg width="230" height="230" viewBox="0 0 256 256" role="img" aria-label="A microphone with sound waves">
+  <g fill="none" stroke="#5ef5ff" stroke-width="14" stroke-linecap="round">
+    <rect x="92" y="28" width="56" height="112" rx="28"></rect>
+    <path d="M64 116 A56 56 0 0 0 176 116"></path>
+    <path d="M120 172 V214"></path>
+    <path d="M88 220 H152"></path>
+    <path d="M196 92 A44 44 0 0 1 196 152" opacity="0.8"></path>
+    <path d="M220 72 A72 72 0 0 1 220 172" opacity="0.5"></path>
+  </g>
+</svg>
+<div class="display">
+  <div class="line mic">MIC LIVE<span class="bar"></span></div>
+  <div class="line yellow">RADIO ON AIR</div>
+  <div class="row cyan">alex_k - nearby</div>
+  <div class="row yellow">tom92 - radio</div>
+  <div class="row cyan">danb - nearby, Relay</div>
+</div>
+</body>
+</html>
