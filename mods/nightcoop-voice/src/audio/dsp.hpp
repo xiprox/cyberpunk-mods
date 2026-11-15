@@ -113,7 +113,6 @@ private:
 // Temporary, for tuning by ear: Engine reads these from tuning.ini while the game runs, if that file exists on this PC, so
 // levels can be tried without a restart. Once they're right they go into the constants and all of this comes out.
 inline constexpr float kStartFalloffBend = 0.8f; // falloff_bend: 1 is a straight line in dB, lower drops sooner, higher holds on longer
-inline constexpr float kStartRadioNearMeters = 15.f; // radio_near_m: a partner closer than this isn't played on the radio; 0 is off
 
 struct LiveTuning
 {
@@ -122,7 +121,6 @@ struct LiveTuning
     std::atomic<float> echoDb{0.f};
     std::atomic<float> ownDb{0.f};  // your own voice in the room, on top of roomDb
     std::atomic<float> falloffBend{kStartFalloffBend};
-    std::atomic<float> radioNearMeters{kStartRadioNearMeters};
 };
 inline LiveTuning g_liveTuning;
 

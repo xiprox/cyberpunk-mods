@@ -10,9 +10,6 @@ namespace nv
 void RefreshHeadsetLink(double aNowMs);
 bool HeadsetLinked();
 
-// Whether the Headset mod is on in any mode, hearing protection or noise cancelling; false in Passthrough and without the mod.
-bool HeadsetOn();
-
 // Other players' nearby voices and their rooms, heard through the headset. The radio never goes through this: it plays inside it.
 void ProcessVoicesThroughHeadset(float* aLeft, float* aRight, int aFrames);
 

@@ -26,7 +26,6 @@ constexpr double kRestartAskEveryMs = 10000.0;
 constexpr double kNoLinkNoteAfterMs = 30000.0;
 constexpr double kAudioLingerMs = 10000.0;     // keeps the mic open through a quick reconnect
 constexpr double kPositionFreshMs = 1500.0;
-constexpr double kHoldToTalkMs = 350.0;
 constexpr double kLevelsEveryMs = 30000.0;
 constexpr float kHeardWorthLoggingSeconds = 0.5f;
 constexpr float kAutoGainSaveStepDb = 1.f;
@@ -73,10 +72,6 @@ enum PresenceBit : uint8_t
     PresenceOnAir = 2,
     PresenceRelayAlways = 4, // this player's Relay is set to Always: no direct link with them
 };
-// The rest of that byte counts how often this player has switched their radio mic on, so partners can tell a switch-on (RadioKeep)
-// even when an off and an on fall between two presences. Builds before 0.7.7 look only at the bits above and ignore it.
-constexpr int kPresenceSwitchOnsShift = 3;
-constexpr uint8_t kPresenceSwitchOnsMask = 0x1F;
 
 // Each sender's own millisecond clock, for the Relay's send times.
 uint32_t ClockStamp(double aNowMs)
@@ -284,13 +279,10 @@ struct Engine::Peer
     std::atomic<float> turnedAway{0.f};
     std::atomic<int> cabin{0};
     std::atomic<float> gapShare{0.f};       // of what crossed a cabin, how much came through its gaps
-    std::atomic<bool> radioCut{false};      // close enough that their radio doesn't play here
-    std::atomic<bool> presenceHeard{false}; // their first presence came, so its count of radio switch-ons means something
     std::atomic<float> wayRoundMeters{0.f}; // 0 if there's none
     std::atomic<float> wayRoundBends{0.f};
     TalkerEase ease;   // game thread only
     PathEase pathEase; // game thread only
-    RadioKeep radioKeep; // game thread only
 
     // The car they sit in: what's open on it, from their presence, and how it stands in our world (game thread only).
     std::atomic<uint64_t> remoteCar{0};
@@ -400,15 +392,15 @@ void Engine::SessionStart(PeerId aSelf)
 {
     m_self.store(aSelf);
     m_inSession.store(true);
-    m_radioOn.store(false); // the radio mic starts each session off
     Logf(LogInfo, "session started, we are peer %u", aSelf);
+    ChangeRadio([](RadioMic& aMic, double aNowMs) { return aMic.SetSession(true, aNowMs); }, false);
 }
 
 void Engine::SessionEnd()
 {
     m_inSession.store(false);
     m_haveKey.store(false);
-    m_radioOn.store(false);
+    ChangeRadio([](RadioMic& aMic, double aNowMs) { return aMic.SetSession(false, aNowMs); }, false);
     Post([this] {
         std::vector<std::shared_ptr<Peer>> peers;
         {
@@ -884,7 +876,6 @@ void Engine::ReadLiveTuning(double aNowMs)
     float echoDb = 0.f;
     float ownDb = 0.f;
     float falloffBend = kStartFalloffBend;
-    float radioNearMeters = kStartRadioNearMeters;
     std::ifstream file(path);
     std::string line;
     while (std::getline(file, line))
@@ -920,18 +911,13 @@ void Engine::ReadLiveTuning(double aNowMs)
         {
             falloffBend = std::clamp(value, 0.3f, 2.f);
         }
-        else if (key == "radio_near_m")
-        {
-            radioNearMeters = std::clamp(value, 0.f, 50.f);
-        }
     }
     g_liveTuning.roomDb.store(roomDb);
     g_liveTuning.ring.store(ring);
     g_liveTuning.echoDb.store(echoDb);
     g_liveTuning.ownDb.store(ownDb);
     g_liveTuning.falloffBend.store(falloffBend);
-    g_liveTuning.radioNearMeters.store(radioNearMeters);
-    Logf(LogInfo, "tuning: room %+.1f dB, ring times %.2f, echoes %+.1f dB, own voice %+.1f dB, falloff bend %.2f, radio cut within %.0f m", roomDb, ring, echoDb, ownDb, falloffBend, radioNearMeters);
+    Logf(LogInfo, "tuning: room %+.1f dB, ring times %.2f, echoes %+.1f dB, own voice %+.1f dB, falloff bend %.2f", roomDb, ring, echoDb, ownDb, falloffBend);
 }
 
 // Real numbers for when someone says a voice is too quiet, and what the mic learned, for next time.
@@ -993,9 +979,8 @@ void Engine::SendPresence(double aNowMs)
         SharedLock lock(m_keyLock);
         key = m_key;
     }
-    const uint8_t bits = static_cast<uint8_t>((m_muted.load() ? PresenceMuted : 0) | (m_radioOn.load() ? PresenceOnAir : 0) |
-                                              (m_relayAlways.load() ? PresenceRelayAlways : 0) |
-                                              ((m_radioSwitchOns.load() & kPresenceSwitchOnsMask) << kPresenceSwitchOnsShift));
+    const uint8_t bits = static_cast<uint8_t>((m_muted.load() ? PresenceMuted : 0) | (RadioOn() ? PresenceOnAir : 0) |
+                                              (m_relayAlways.load() ? PresenceRelayAlways : 0));
     const uint32_t now = static_cast<uint32_t>(aNowMs);
     const uint8_t enclosure = ToByte(m_roomEnclosure.load(), 1.f);
     const uint8_t meters = ToByte(m_roomMeters.load(), kPresenceRoomMeters);
@@ -1265,7 +1250,6 @@ void Engine::ReceivePacket(PeerId aPeer, const uint8_t* aData, size_t aSize, boo
             bits &= static_cast<uint8_t>(~PresenceRelayAlways);
         }
         peer->remoteBits.store(bits);
-        peer->presenceHeard.store(true);
         peer->echoSent.store(GetU32(plain + 1));
         peer->echoAtMs.store(now);
         const uint32_t held = GetU32(plain + 9);
@@ -1303,7 +1287,11 @@ void Engine::OnMicPacket(const uint8_t* aOpus, int aSize, bool aSpurt)
     plain[1] = static_cast<uint8_t>(sequence >> 8);
     std::memcpy(plain + 2, aOpus, static_cast<size_t>(aSize));
 
-    const bool radio = m_radioOn.load();
+    bool radio = false;
+    {
+        std::lock_guard lock(m_radioMutex);
+        radio = m_radioMic.OnAir(NowMs());
+    }
     const uint8_t flags = static_cast<uint8_t>((radio ? kFlagRadio : 0) | (aSpurt ? kFlagSpurt : 0));
 
     const int test = m_testRoute.load();
@@ -1369,7 +1357,7 @@ void Engine::SetListenerState(bool aUnderwater, float aWorldSpeed, bool aInCar)
     m_mixer.SetOwnEcho(m_headphones.load() ? (1.f - m_listenerEase.Underwater()) * (1.f - m_listenerEase.InCar()) : 0.f);
 }
 
-void Engine::SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aForward, int aCabin, bool aApartInVehicles)
+void Engine::SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aForward, int aCabin)
 {
     const auto peer = FindPeer(aPeer);
     if (!peer)
@@ -1430,32 +1418,6 @@ void Engine::SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aFo
     const float y = aPosition.y - m_listenerPosition.y;
     const float z = aPosition.z - m_listenerPosition.z;
     const float distance = std::sqrt(x * x + y * y + z * z);
-
-    // Close enough to hear them in the air, so not on the radio as well. By distance alone: judging walls and rooms switched it
-    // unpredictably inside buildings (2026-11-09), and hearing someone through a wall is the point. Unless they switched their
-    // radio on close by: then they mean it (2026-11-11).
-    const float radioRange = g_liveTuning.radioNearMeters.load();
-    bool radioKept = false;
-    if (peer->presenceHeard.load())
-    {
-        const uint8_t switchOns = static_cast<uint8_t>((peer->remoteBits.load() >> kPresenceSwitchOnsShift) & kPresenceSwitchOnsMask);
-        radioKept = peer->radioKeep.Update(switchOns, distance, radioRange, nowMs);
-        if (peer->radioKeep.Changed() != 0)
-        {
-            Logf(LogInfo, "radio: %s %s at %.0f m", peer->name.c_str(),
-                 radioKept ? "switched their radio on close by, so stays on it" : "has been apart long enough to be left to the air again",
-                 distance);
-        }
-    }
-    const bool shared = aCabin == CabinShared;
-    const bool radioCut = RadioCut(peer->radioCut.load(), distance, radioRange, aApartInVehicles, shared, radioKept, HeadsetOn());
-    m_mixer.SetRadioCut(aPeer, radioCut);
-    if (radioCut != peer->radioCut.exchange(radioCut))
-    {
-        Logf(LogInfo, "radio: %s %s at %.0f m", peer->name.c_str(),
-             radioCut ? (shared && radioKept ? "left to the air, as we share a vehicle" : "left to the air") : "back on the radio",
-             distance);
-    }
 
     const float echoAmount = Clamp01(1.f - input.occlusion * kEchoOcclusion) * (1.f - input.sharedCabin) *
                              (1.f - input.separatedCabin * (1.f - output.carOpenShare)) * (1.f - input.underwater) *
@@ -1571,40 +1533,60 @@ void Engine::ToggleMute()
     Logf(LogInfo, "mic %s", muted ? "muted" : "unmuted");
 }
 
-void Engine::SetRadio(bool aOn)
+void Engine::ChangeRadio(const std::function<bool(RadioMic&, double)>& aChange, bool aTone)
 {
-    if (m_radioOn.exchange(aOn) != aOn)
+    bool changed = false;
+    bool on = false;
+    bool combat = false;
     {
-        if (aOn)
-        {
-            m_radioSwitchOns.fetch_add(1);
-        }
-        Tone(aOn ? kToneRadioOn : kToneRadioOff);
-        Logf(LogInfo, "radio mic %s", aOn ? "on" : "off");
-        // Partners hear of it at once rather than with the next second's presence, so a switch-on close by keeps them hearing you
-        // on the radio from your first words.
-        Post([this] { SendPresence(NowMs()); });
+        std::lock_guard lock(m_radioMutex);
+        changed = aChange(m_radioMic, NowMs());
+        on = m_radioMic.On();
+        combat = m_radioMic.InCombat();
     }
-}
-
-void Engine::ToggleRadio()
-{
-    SetRadio(!m_radioOn.load());
+    if (!changed)
+    {
+        return;
+    }
+    if (aTone)
+    {
+        Tone(on ? kToneRadioOn : kToneRadioOff);
+    }
+    Logf(LogInfo, "radio mic %s", on ? (combat ? "on (in combat)" : "on (held)") : "off");
+    // Partners' displays show who's on the radio, so they hear of it at once rather than with the next second's presence.
+    Post([this] { SendPresence(NowMs()); });
 }
 
 void Engine::RadioKeyDown()
 {
-    // On at the press, so a held key talks from the first word.
-    m_radioWasOnAtPress = m_radioOn.load();
-    SetRadio(true);
+    ChangeRadio([](RadioMic& aMic, double aNowMs) { return aMic.SetHeld(true, aNowMs); }, true);
 }
 
-void Engine::RadioKeyUp(double aHeldMs)
+void Engine::RadioKeyUp()
 {
-    if (m_radioWasOnAtPress || aHeldMs >= kHoldToTalkMs)
+    ChangeRadio([](RadioMic& aMic, double aNowMs) { return aMic.SetHeld(false, aNowMs); }, true);
+}
+
+void Engine::SetInCombat(bool aInCombat)
+{
     {
-        SetRadio(false);
+        std::lock_guard lock(m_radioMutex);
+        if (m_radioMic.InCombat() == aInCombat)
+        {
+            return;
+        }
     }
+    if (m_inSession.load())
+    {
+        Logf(LogInfo, "combat: %s", aInCombat ? "started" : "over");
+    }
+    ChangeRadio([aInCombat](RadioMic& aMic, double aNowMs) { return aMic.SetCombat(aInCombat, aNowMs); }, false);
+}
+
+bool Engine::RadioOn() const
+{
+    std::lock_guard lock(m_radioMutex);
+    return m_radioMic.On();
 }
 
 void Engine::SetTest(int aRoute)

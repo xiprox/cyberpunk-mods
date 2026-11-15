@@ -126,47 +126,40 @@ float FarFade(float aDistance, float aNearMeters, float aFarMeters);
 // reports about their own car.
 bool ShouldSendNearby(float aDistance, float aSeparatedCabin, bool aCarOpen, float aFarMeters);
 
-// Whether a partner's radio stops playing here because you hear them in the air instead. Each player works this out for themselves and
-// only for that partner, whose radio still reaches everyone else. aWasCut holds it a little further out, so the edge doesn't flicker.
-// Distance only, so it's predictable: walls and rooms don't count. In separate vehicles the distance keeps changing, so the radio
-// stays. Neither is it cut with the Headset mod on in any mode: wearing it means wanting the radio (user, 2026-11-11), and its clamp
-// swallows a shout beside you in a fight, where the radio is what gets through.
-bool RadioCutWhenClose(bool aWasCut, float aDistance, float aRangeMeters, bool aApartInVehicles, bool aHeadsetOn);
-
-// The radio's range edge, past which a cut partner comes back on it: aRangeMeters and a margin.
-float RadioBackPastMeters(float aRangeMeters);
-
-// All told, whether a partner's radio is cut here: by RadioCutWhenClose, unless they switched it on close by (aKept, from
-// RadioKeep). In a vehicle we share that doesn't count: riders hear each other clean, so the radio would only play them
-// twice (user, 2026-11-14). The Headset mod still keeps it, since its noise cancelling or its clamp takes the voice beside
-// you, and the radio is then the intercom.
-bool RadioCut(bool aWasCut, float aDistance, float aRangeMeters, bool aApartInVehicles, bool aSharedVehicle, bool aKept,
-              bool aHeadsetOn);
-
-// A partner who switches their radio on close to you means to be heard on it, so the cut leaves them on the radio (user, 2026-11-11):
-// the cut is for a radio left on from afar, and switching on is the only thing that says otherwise. It holds until you've been past
-// the range edge for kRadioKeptApartMs on end, so a dash across a fight doesn't end it but going separate ways does. aSwitchOns is how
-// many times they've switched it on, as their presence counts it: only a change matters, and the first one seen is where it starts.
-class RadioKeep
+// Your radio mic: on while you hold the radio key, and while your game has you in combat (user, 2026-11-15). Never left on
+// otherwise: a radio left on put every partner past its old 25 m cut at full clarity, so nobody ever heard anyone get far away
+// (2026-11-14 logs). So partners play it at any distance, in a vehicle you share too, with no cut
+// for being close. What you say for kTailMs after it goes off still goes on the radio: a word ends a little after the key comes
+// up, and the mic's own processing holds the last of it back.
+class RadioMic
 {
 public:
-    static constexpr double kApartMs = 30000.0;
+    static constexpr double kTailMs = 250.0;
 
-    // True while they stay on the radio here, whatever the cut says.
-    bool Update(uint8_t aSwitchOns, float aDistance, float aRangeMeters, double aNowMs);
+    // Each returns true when it turns the radio mic on or off. Outside a session it stays off.
+    bool SetSession(bool aInSession, double aNowMs);
+    bool SetHeld(bool aHeld, double aNowMs);
+    bool SetCombat(bool aInCombat, double aNowMs);
 
-    // What the last Update changed, for the log: +1 kept from now, -1 no longer, 0 nothing.
-    int Changed() const
+    bool On() const
     {
-        return m_changed;
+        return m_on;
     }
+    bool InCombat() const
+    {
+        return m_inCombat;
+    }
+    // Whether what the mic sends now goes on the radio: while on, and for kTailMs after.
+    bool OnAir(double aNowMs) const;
 
 private:
-    bool m_known = false;
-    uint8_t m_switchOns = 0;
-    bool m_kept = false;
-    double m_apartSinceMs = -1.0;
-    int m_changed = 0;
+    bool Settle(double aNowMs);
+
+    bool m_inSession = false;
+    bool m_held = false;
+    bool m_inCombat = false;
+    bool m_on = false;
+    double m_tailUntilMs = -1e12;
 };
 
 // How much slow motion the world's speed amounts to, 0 .. 1. The game reports 0 for loads and a stopped world, which isn't

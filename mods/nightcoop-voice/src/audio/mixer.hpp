@@ -44,8 +44,6 @@ public:
     void SetSpatial(PeerId aPeer, const SpatialOutput& aSpatial);
     void SetEchoes(PeerId aPeer, const EchoSet& aEchoes);
     void SetPeerMuted(PeerId aPeer, bool aMuted);
-    // Not playing this partner's radio, because they're heard in the air. Only while their position is fresh.
-    void SetRadioCut(PeerId aPeer, bool aCut);
     void SetMasterGain(float aGain); // from AutoMix: one gain for every voice, not the confirmation beeps
     void SetRoom(const RoomSound& aRoom);
     // The room around a talker, as they measured it. From the network thread.

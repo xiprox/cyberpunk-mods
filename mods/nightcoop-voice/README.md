@@ -14,7 +14,8 @@ Adds proximity voice chat and a group radio to NightCoop, inside the game, with 
 Your mic is live as soon as a session starts, and a voice gate decides when you're speaking.
 
 - **Mouse 4** mutes your mic.
-- **Mouse 5** is the radio mic: tap it to turn on the radio, or hold it for push-to-talk.
+- **Mouse 5** is the radio mic: hold it to talk on the radio.
+  In combat, your voice goes on the radio without it.
 
 Both keys and every other setting are under Mods > Voice in the main menu or the pause menu.
 On speakers, switch off Headphones there, since voices are placed around your head for headphones.
@@ -82,7 +83,7 @@ A player's mod list can fail to register on another machine: on one join, Bleack
 So while some player has no link, or no word of their mods, the mod registers and unregisters a throwaway mod, which makes NightCoop send its list again, first after `ResendSchedule::kFirstMs` and then less and less often (`src/net/resend.hpp`).
 
 Settings are stored per PC in `%LOCALAPPDATA%\NightCoopVoice\settings.ini`, so sharing the mod folder doesn't share them.
-NightCoop's co-op menu also has mute and radio items on its Mods page.
+NightCoop's co-op menu also has a mute item on its Mods page.
 [RECORD.md](RECORD.md) says why each part is the way it is.
 
 ### How it sounds
@@ -106,10 +107,8 @@ NightCoop's co-op menu also has mute and radio items on its Mods page.
   A window wound down or shot out, an open or torn-off door, and the missing roof of a cabrio or targa let voices through, and a voice through a gap seems to come from it.
   Seated players' voices come from their heads, and bikes block nothing.
   Each player's game reports what's open on the car they sit in, and where the gaps are comes from each car's parts and a table of their meshes made from the game files by `tools/car_openings.py`, rerun after a game patch.
-- **Radio:** only players with their radio mic on are sent over it.
-  A partner who left theirs on from further off is heard only nearby, not on the radio too, while closer than `kStartRadioNearMeters`, and comes back on the radio `kRadioBackPastMeters` further out.
-  Switching the radio on close by keeps you on it until you've been apart for `RadioKeep::kApartMs`.
-  Nobody is taken off the radio this way while one of you is on or in a vehicle the other isn't sharing, or while you wear Headset in either mode.
+- **Radio:** a player is on the radio while they hold the radio key and while their game has them in combat, and for `RadioMic::kTailMs` after, so a last word isn't cut off (`src/audio/spatial.hpp`).
+  Their radio plays for every partner at any distance, close by and in a vehicle you share too, on top of their nearby voice.
 - **Levels:** each mic evens itself out with an automatic gain, which remembers each mic between runs, and a compressor.
   The mod measures what the output plays, takes away its own voices, and sets one gain for all voices, so the game's Master Volume and the system volume don't matter.
   Where the output can't be measured, voices follow the Master Volume setting alone.

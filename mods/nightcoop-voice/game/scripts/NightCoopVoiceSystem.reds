@@ -72,14 +72,22 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
     NightCoopVoiceNative.FrameEnd();
   }
 
-  private func IsDiving() -> Bool {
+  private func PlayerStates() -> ref<IBlackboard> {
     let game = this.GetGameInstance();
     let player = GetPlayer(game);
     if !IsDefined(player) {
-      return false;
+      return null;
     }
-    let machine = GameInstance.GetBlackboardSystem(game).GetLocalInstanced(player.GetEntityID(), GetAllBlackboardDefs().PlayerStateMachine);
+    return GameInstance.GetBlackboardSystem(game).GetLocalInstanced(player.GetEntityID(), GetAllBlackboardDefs().PlayerStateMachine);
+  }
+
+  private func IsDiving(machine: ref<IBlackboard>) -> Bool {
     return IsDefined(machine) && machine.GetInt(GetAllBlackboardDefs().PlayerStateMachine.Swimming) == EnumInt(gamePSMSwimming.Diving);
+  }
+
+  // The game's own combat state, which its phone also goes by to block calls in a fight (phoneSystem.script).
+  private func IsInCombat(machine: ref<IBlackboard>) -> Bool {
+    return IsDefined(machine) && machine.GetInt(GetAllBlackboardDefs().PlayerStateMachine.Combat) == EnumInt(gamePSMCombat.InCombat);
   }
 
   // Tells the plugin if we're underwater and how fast the world runs. Reading the world's speed, not what caused it, makes
@@ -91,12 +99,14 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
       this.m_worldTime = now;
       NightCoopSdk.Log(this.ModId(), 1, "time: the world runs at " + FloatToStringPrec(now, 2) + ", frame dt " + FloatToStringPrec(dt, 4));
     }
-    let diving = this.IsDiving();
+    let machine = this.PlayerStates();
+    let diving = this.IsDiving(machine);
     if NotEquals(diving, this.m_diving) {
       this.m_diving = diving;
       NightCoopSdk.Log(this.ModId(), 1, diving ? "water: diving" : "water: back up");
     }
     NightCoopVoiceNative.SetListenerState(diving, now, this.m_inCar);
+    NightCoopVoiceNative.SetInCombat(this.IsInCombat(machine));
   }
 
   private func ReportGameVolume() -> Void {
@@ -238,14 +248,6 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
       theirs.GetWorldForward(), theirs.GetWorldUp());
   }
 
-  // On or in vehicles of your own, a bike included: passing each other would keep moving the radio's range, so the radio stays.
-  private func ApartInVehicles(mine: wref<VehicleObject>, theirs: wref<VehicleObject>) -> Bool {
-    if !IsDefined(mine) && !IsDefined(theirs) {
-      return false;
-    }
-    return this.CabinBetween(mine, theirs) != 1;
-  }
-
   private func UpdatePositions() -> Void {
     let count = NightCoopVoiceNative.PeerCount();
     if count == 0 {
@@ -280,7 +282,7 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
           let talker = this.MouthOf(body, IsDefined(theirs));
           let cabin = this.CabinBetween(mine, theirs);
           this.UpdatePeerCar(peer, mine, theirs);
-          NightCoopVoiceNative.SetPeerSpatial(peer, talker, body.GetWorldForward(), cabin, this.ApartInVehicles(mine, theirs));
+          NightCoopVoiceNative.SetPeerSpatial(peer, talker, body.GetWorldForward(), cabin);
         }
       }
       i += 1;

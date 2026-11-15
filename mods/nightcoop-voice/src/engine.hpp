@@ -107,8 +107,10 @@ public:
 
     // ---- positions, from the game thread
     void SetListener(const Vec3& aPosition, const Vec3& aForward, const Vec3& aRight);
-    void SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aForward, int aCabin, bool aApartInVehicles);
+    void SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aForward, int aCabin);
     void SetListenerState(bool aUnderwater, float aWorldSpeed, bool aInCar);
+    // While our game has us in combat, the radio mic is on (RadioMic).
+    void SetInCombat(bool aInCombat);
     void SetGameMaster(float aPercent);
 
     // ---- cars, from the game thread. aOwner is a partner's id, or kOurCar. A closed car's key is anything that tells it
@@ -140,9 +142,8 @@ public:
 
     // ---- controls, from any thread
     void ToggleMute();
-    void ToggleRadio();
     void RadioKeyDown();
-    void RadioKeyUp(double aHeldMs);
+    void RadioKeyUp();
     void SetTest(int aRoute);     // TestRoute: hear yourself, with no session needed
     void ApplySettings();         // re-read everything from Settings
 
@@ -161,10 +162,7 @@ public:
     {
         return m_muted.load();
     }
-    bool RadioOn() const
-    {
-        return m_radioOn.load();
-    }
+    bool RadioOn() const;
     float MicLevel() const
     {
         return m_mic->Level();
@@ -221,7 +219,9 @@ private:
     void Note(const std::string& aText);
     void ApplyPeerMix(const Peer& aPeer);
     void OnMicPacket(const uint8_t* aOpus, int aSize, bool aSpurt);
-    void SetRadio(bool aOn);
+    // Changes the radio mic under its lock, then logs it and tells partners if that turned it on or off. aTone plays the radio's
+    // on or off tone too: only the key does, since combat starting and ending would beep through every fight (user, 2026-11-15).
+    void ChangeRadio(const std::function<bool(RadioMic&, double)>& aChange, bool aTone);
     void Tone(float aHz);
 
     Settings& m_settings;
@@ -242,8 +242,9 @@ private:
     std::atomic<bool> m_haveKey{false};
 
     std::atomic<bool> m_muted{false};
-    std::atomic<bool> m_radioOn{false};
-    std::atomic<uint8_t> m_radioSwitchOns{0}; // how often the radio mic was switched on, for partners' RadioKeep
+    // The key thread, the game thread and the mic all touch it.
+    mutable std::mutex m_radioMutex;
+    RadioMic m_radioMic;
     std::atomic<bool> m_relayAlways{false};
     std::atomic<int> m_relayAudience{0}; // partners on the Relay who should have heard the last frame
 
@@ -252,7 +253,6 @@ private:
     double m_relayLastLimitMs = -1e12;
     double m_relayLastRaiseMs = -1e12;
     double m_lastRelayLogMs = 0.0; // worker thread
-    bool m_radioWasOnAtPress = false;
     std::atomic<int> m_testRoute{0};
 
     uint16_t m_sequence = 0;

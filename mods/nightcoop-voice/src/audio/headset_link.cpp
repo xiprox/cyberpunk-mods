@@ -49,12 +49,6 @@ bool HeadsetLinked()
     return g_api.load() != nullptr;
 }
 
-bool HeadsetOn()
-{
-    const HeadsetApi* const api = g_api.load(std::memory_order_relaxed);
-    return api && api->EffectiveMode() != 0; // 0 is Passthrough, where the headset isn't worn
-}
-
 void ProcessVoicesThroughHeadset(float* aLeft, float* aRight, int aFrames)
 {
     if (const HeadsetApi* const api = g_api.load(std::memory_order_relaxed))

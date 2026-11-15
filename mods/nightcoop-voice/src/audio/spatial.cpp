@@ -18,9 +18,6 @@ constexpr float kDullestAtMeters = 40.f;  // apart from the far limit, so moving
 constexpr float kFaintMeters = 40.f;
 constexpr float kFaintDb = 20.6f;
 constexpr float kFadeFrom = 0.8f;         // of the far limit
-// How far past the radio's cut-off range it takes for a partner's radio to come back. At 3 m, stairs and floors in a building kept
-// switching it (2026-11-09 log), so walking about near the edge must not.
-constexpr float kRadioBackPastMeters = 10.f;
 
 // At full occlusion, thick walls. A closed door or a thin wall comes to about 10 dB and 1.5 kHz.
 constexpr float kWallCutoffHz = 450.f;
@@ -398,62 +395,42 @@ CarSound ThroughCars(const Vec3& aMouth, const Vec3& aEar, const std::vector<Car
     return sound;
 }
 
-bool RadioCutWhenClose(bool aWasCut, float aDistance, float aRangeMeters, bool aApartInVehicles, bool aHeadsetOn)
+bool RadioMic::SetSession(bool aInSession, double aNowMs)
 {
-    if (aRangeMeters <= 0.f || aApartInVehicles || aHeadsetOn)
+    m_inSession = aInSession;
+    return Settle(aNowMs);
+}
+
+bool RadioMic::SetHeld(bool aHeld, double aNowMs)
+{
+    m_held = aHeld;
+    return Settle(aNowMs);
+}
+
+bool RadioMic::SetCombat(bool aInCombat, double aNowMs)
+{
+    m_inCombat = aInCombat;
+    return Settle(aNowMs);
+}
+
+bool RadioMic::OnAir(double aNowMs) const
+{
+    return m_on || aNowMs < m_tailUntilMs;
+}
+
+bool RadioMic::Settle(double aNowMs)
+{
+    const bool on = m_inSession && (m_held || m_inCombat);
+    if (on == m_on)
     {
         return false;
     }
-    return aDistance < (aWasCut ? RadioBackPastMeters(aRangeMeters) : aRangeMeters);
-}
-
-float RadioBackPastMeters(float aRangeMeters)
-{
-    return aRangeMeters + kRadioBackPastMeters;
-}
-
-bool RadioCut(bool aWasCut, float aDistance, float aRangeMeters, bool aApartInVehicles, bool aSharedVehicle, bool aKept,
-              bool aHeadsetOn)
-{
-    return (!aKept || aSharedVehicle) && RadioCutWhenClose(aWasCut, aDistance, aRangeMeters, aApartInVehicles, aHeadsetOn);
-}
-
-bool RadioKeep::Update(uint8_t aSwitchOns, float aDistance, float aRangeMeters, double aNowMs)
-{
-    const bool wasKept = m_kept;
-    const bool withinEdge = aDistance < RadioBackPastMeters(aRangeMeters);
-    if (!m_known)
+    m_on = on;
+    if (!on)
     {
-        m_known = true;
-        m_switchOns = aSwitchOns;
+        m_tailUntilMs = aNowMs + kTailMs;
     }
-    else if (aSwitchOns != m_switchOns)
-    {
-        m_switchOns = aSwitchOns;
-        if (withinEdge)
-        {
-            m_kept = true;
-            m_apartSinceMs = -1.0;
-        }
-    }
-    if (m_kept)
-    {
-        if (withinEdge)
-        {
-            m_apartSinceMs = -1.0;
-        }
-        else if (m_apartSinceMs < 0.0)
-        {
-            m_apartSinceMs = aNowMs;
-        }
-        else if (aNowMs - m_apartSinceMs >= kApartMs)
-        {
-            m_kept = false;
-            m_apartSinceMs = -1.0;
-        }
-    }
-    m_changed = m_kept == wasKept ? 0 : (m_kept ? 1 : -1);
-    return m_kept;
+    return true;
 }
 
 SpatialOutput ComputeSpatial(const SpatialInput& aInput)

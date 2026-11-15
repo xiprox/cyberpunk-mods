@@ -99,7 +99,6 @@ void KeyWatcher::Loop()
 {
     bool muteWasDown = false;
     bool radioWasDown = false;
-    double radioPressedMs = 0.0;
 
     while (!m_stop.load())
     {
@@ -118,13 +117,12 @@ void KeyWatcher::Loop()
 
         if (radioDown && !radioWasDown)
         {
-            radioPressedMs = NowMs();
             m_engine.RadioKeyDown();
         }
         else if (!radioDown && radioWasDown)
         {
             // Alt-tabbing away mid-hold lands here too, which is the safe end: the hold is over.
-            m_engine.RadioKeyUp(NowMs() - radioPressedMs);
+            m_engine.RadioKeyUp();
         }
         radioWasDown = radioDown;
     }
