@@ -4,12 +4,67 @@ What we found and decided while building Headset, newest entry first.
 "User" marks what the user heard or saw in the game. Everything else came from logs, code or tests.
 How the game's sound is built and what the probe showed is in `mods/nightcoop-voice/RECORD.md`, under 2026-11-08.
 
-Installed: a 0.4.9 test build on the user's PC on 2026-11-10, with the commented-out tuning file, all 136 tests passing.
+Installed: a 0.5.0 test build with the Radioport switch and its mode chosen in the menu on the user's PC on 2026-11-15, all 136 tests passing.
 Played on 0.4.7 on 2026-11-09 (user): "I've been playing with it. it's good", and the two others have had no issues, one on Linux. All three logs show the effect on 29 of 29 places.
 Heard and approved on 0.3.1 (user): shots in noise cancelling ("great"), driving with the radio in noise cancelling ("very good"), your own shots in clamping ("very good"), firing during a V line in both modes ("great"), and standing and walking somewhere quiet ("great").
 Also heard: grenades and a close explosion ("good"), burning wrecks ("wrecks are good too"), and NPC gunfire at offset 136 ("good"). The user called the tuning good on 2026-11-08, with every live value then matching the source, `grunt_body_db=8` being the last to carry over.
 Played on that build from 2026-11-12 to 14 by the user, Bleack, Bossun and Ecto: every log has `Wwise build 7e701, on 9 of the game's effects` and the effect on 41 of 41 places, so 0.4.8's twelve car radio buses take it. Every log reads `recoil 12 dB, thump 6 dB`, Bleack's and Bossun's included, and the user's old file is `tuning.old.ini`, so the old files were moved aside, though no collected log has the line saying so.
 Not yet checked in the game: 0.4.8's car radio and its thump on others' guns and blasts, by ear. The Wwise build check turning the mod off, which only a patch or the test shows.
+The Radioport switch and its mode (2026-11-15), none of which has run yet.
+
+## 2026-11-15: The Radioport puts on a mode chosen in the menu
+
+This overturns the earlier entry's last mode used.
+A tap goes Passthrough, Noise Cancelling, Hearing Protection, and round again (`CycleMode` in `control.cpp`), so tapping the headset off always passes through Hearing Protection last.
+Anyone who taps would always get Hearing Protection back, and only the wheel could keep Noise Cancelling (user).
+
+Decided with the user: a second setting under the switch, "Mode with the Radioport", Active Noise Cancellation by default or Active Hearing Protection, saved in `settings.ini` as `radioport_mode`.
+Turning the Radioport on in Passthrough switches to it, and everything else in the earlier entry holds.
+The plugin no longer keeps the last mode used.
+
+We first planned to learn the setting from what the player wears while the music plays, and dropped it (user: "if you wanna use HP instead of NC with radioport, you do it on settings").
+
+- Tapping off from Noise Cancelling with the music on passes through Hearing Protection too, so a change needed to hold for a while to count: 3 s, then 10 s (user).
+- A fight in Hearing Protection while the music plays would have taught it, so changes in combat couldn't count either.
+- What's left costs a tap or two: from Noise Cancelling, one tap reaches Hearing Protection.
+
+## 2026-11-15: The Radioport can put the headset on
+
+A player asked for the headset to pair with the Radioport, the game's pocket radio, and with AudioWare Radio Framework's stations, perhaps by giving both the same key.
+What we found:
+
+- The sound needs nothing.
+  The Radioport plays on `Music_Dgtc_Pocket_Radio`, which has nothing of ours (2026-11-08), so it plays the same in every mode (read in `places.hpp`, not heard).
+  The game's 2.1 patch notes call it a feature of a "neural firmware update" (read in `lang_en_text.archive`), so it's implant audio, like the calls the headset already leaves alone.
+- AudioWare Radio Framework 1.7 plays its stations as Audioware `DynamicSoundEvent`s (read in its `Core/Service.reds`), and Audioware has its own audio engine.
+  `audioware.dll` carries Kira, and cpal 0.18.2 over WASAPI, and no Wwise sound engine (read in the DLL's strings), so the headset can't reach those stations, and they too play the same in every mode.
+- One key for both drifts apart.
+  The Radioport key toggles on a release within 0.2 s (`pocketRadio.script`, `HandleInputAction`), while a tap steps through three modes, so the second tap already disagrees.
+
+Decided with the user: one switch, "Radioport puts the headset on", off by default, saved in `settings.ini`.
+
+- Turning the Radioport on in Passthrough switches to the last mode other than Passthrough chosen since the game started.
+  With none yet it stays in Passthrough (user), and in a mode nothing changes.
+  The plugin keeps that mode (`LastWornMode`), and like the mode itself it isn't saved.
+- Turning it off goes back to Passthrough only if turning it on took the headset out of it, whatever mode it's in by then (user: "you switched your 'active mode' from NC to HP").
+  A loaded save forgets that.
+- The headset never works the Radioport.
+  Having it stop and start the music too was dropped (user), and with it two problems: with the game's "Cycle Stations with Button Press" the toggle event changes station instead of turning off, and the event that turns off one of the game's stations doesn't stop one of AudioWare Radio Framework's.
+- Only the player's own actions count, on foot: the Radioport key and the station list.
+  The game turns the Radioport off and on by itself for calls, scenes, clubs, fast travel and the metro (`pocketRadio.script`), and following that would take the headset off for every call.
+  So the two can drift apart, which the user accepted.
+
+How the script tells: `HeadsetRadioport.reds` notes the Radioport's `IsActive` where the player's action starts, and acts once it has held a new state for 0.2 s.
+The notes are taken in `PlayerPuppet.OnRadioToggleEvent` for the key, and `VehicleRadioPopupGameController.Activate` and `QuickSlotsManager.SendRadioEvent` for the station list.
+
+- Noting it in the player's handler of the station list's event would miss AudioWare Radio Framework's stations.
+  That mod starts them inside `SendRadioEvent` and only then queues the event on the player (read in its `Integration/RadioEvents.reds`).
+  It doesn't wrap `Activate`, so that note always comes before it.
+- The 0.2 s keeps a moment of silence from counting.
+  Going from one of that mod's stations to one of the game's, it lets go of `IsActive` at once, while the game's station starts only with an event handled later (read, not measured).
+  It's a margin, not tuned.
+- None of it has run in the game.
+  Testing AudioWare Radio Framework needs it and a station pack installed, since the framework ships no stations: its `Radios` folder is empty.
 
 ## 2026-11-10: The tuning file no longer holds old values
 

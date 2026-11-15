@@ -19,6 +19,8 @@ The headset key is the comma key (`,`) by default, and you can change it under M
 - **Hold** it to pick a mode from a wheel.
   In co-op, time doesn't slow down while the wheel is open, so pick a safe moment.
 
+With **Radioport puts the headset on** switched on in the same menu, turning the Radioport on in Passthrough switches to noise cancelling, or to hearing protection if you choose it there, and turning it off goes back to Passthrough.
+
 ## What it needs
 
 RED4ext, redscript, Cyber Engine Tweaks, Codeware, and Native Settings, on Cyberpunk 2077 2.5.

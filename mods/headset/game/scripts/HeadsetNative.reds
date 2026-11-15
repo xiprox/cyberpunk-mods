@@ -11,9 +11,11 @@ public native class HeadsetNative extends IScriptable {
   public static native func TakeWheelEvent() -> Int32;
   // 0 Passthrough, 1 Active Hearing Protection, 2 Active Noise Cancellation.
   public static native func ChosenMode() -> Int32;
-  // What the headset is doing right now: the chosen mode, or Hearing Protection while a radio left on borrows it from Passthrough.
+  // What the headset is doing right now: the chosen mode, or Hearing Protection while always_worn in tuning.ini borrows it from Passthrough.
   public static native func EffectiveMode() -> Int32;
   public static native func ChooseMode(mode: Int32) -> Void;
+  // As ChooseMode, for the Radioport, which the log says.
+  public static native func ChooseModeForRadioport(mode: Int32) -> Void;
   public static native func WheelFlipY() -> Bool;
 }
 

@@ -83,12 +83,12 @@ const char* ModeName(hs::Mode aMode)
     return aMode == hs::Mode::HearingProtection ? "hearing protection" : aMode == hs::Mode::NoiseCancelling ? "noise cancelling" : "passthrough";
 }
 
-// The player chose a mode, by a tap or the wheel.
-void NoteChoice()
+// A mode was chosen, by a tap, the wheel, or the Radioport (aWhy, for the log). Each plays its mode's cue.
+void NoteChoice(const char* aWhy = "")
 {
     const auto mode = static_cast<hs::Mode>(hs::g_control.mode.load());
     g_cue.store(static_cast<int>(mode) + 1);
-    hs::Logf(hs::LogInfo, "headset: %s", ModeName(mode));
+    hs::Logf(hs::LogInfo, "headset: %s%s", ModeName(mode), aWhy);
 }
 
 void OnKeyTap()
@@ -207,6 +207,18 @@ void ChooseMode(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, int6
     }
 }
 
+void ChooseModeForRadioport(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, int64_t)
+{
+    int32_t mode = 0;
+    RED4ext::GetParameter(aFrame, &mode);
+    aFrame->code++;
+    if (mode >= 0 && mode <= static_cast<int>(hs::Mode::NoiseCancelling))
+    {
+        hs::ChooseMode(static_cast<hs::Mode>(mode));
+        NoteChoice(", for the Radioport");
+    }
+}
+
 void WheelFlipY(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, bool* aOut, int64_t)
 {
     aFrame->code++;
@@ -281,7 +293,7 @@ void PostRegisterTypes()
     AddStatic("ChosenMode", Erase(&natives::ChosenMode), "Int32");
     AddStatic("EffectiveMode", Erase(&natives::EffectiveMode), "Int32");
     AddStatic("ChooseMode", Erase(&natives::ChooseMode), nullptr, {{"Int32", "mode"}});
-    AddStatic("WheelFlipY", Erase(&natives::WheelFlipY), "Bool");
+    AddStatic("ChooseModeForRadioport", Erase(&natives::ChooseModeForRadioport), nullptr, {{"Int32", "mode"}});    AddStatic("WheelFlipY", Erase(&natives::WheelFlipY), "Bool");
     AddStatic("SetOverlayOpen", Erase(&natives::SetOverlayOpen), nullptr, {{"Bool", "open"}});
 }
 } // namespace
