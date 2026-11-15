@@ -14,7 +14,10 @@ if ($LASTEXITCODE -ne 0) { throw 'CMake configure failed' }
 cmake --build $build --config Release --target voice_test NightCoopVoice
 if ($LASTEXITCODE -ne 0) { throw 'build failed' }
 # GitHub's build machines, which set CI, have no audio devices, so there the tests that open them are skipped.
-$testArguments = if ($env:CI) { @('--no-devices') } else { @() }
+# The list is built with += so it stays an array: an if that returns one item unwraps it to a string, and splatting a
+# string passes nothing.
+$testArguments = @()
+if ($env:CI) { $testArguments += '--no-devices' }
 & (Join-Path $build 'Release\voice_test.exe') @testArguments
 if ($LASTEXITCODE -ne 0) { throw 'voice_test failed' }
 cmake --install $build --config Release --prefix $Out
