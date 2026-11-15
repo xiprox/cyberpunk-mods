@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/xiprox/cyberpunk-mods/compare/headset-v0.5.0...headset-v0.6.0) (2026-11-15)
+
+
+### Features
+
+* **radioport:** turning the Radioport on can put the headset on ([e29eff9](https://github.com/xiprox/cyberpunk-mods/commit/e29eff9384f3d114a4972e5e587c9276906ab81b))
+
 ## [0.5.0](https://github.com/xiprox/cyberpunk-mods/compare/headset-v0.4.9...headset-v0.5.0) (2026-11-14)
 
 
