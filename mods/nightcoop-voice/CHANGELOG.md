@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.0](https://github.com/xiprox/cyberpunk-mods/compare/nightcoop-voice-v0.10.0...nightcoop-voice-v0.11.0) (2026-11-19)
+
+
+### Features
+
+* **radio:** tap the key to leave the radio on or off, or hold it to talk ([01f6c7a](https://github.com/xiprox/cyberpunk-mods/commit/01f6c7ab9ee7875dd57c062a9cfc6ddd71067b1e))
+
 ## [0.10.0](https://github.com/xiprox/cyberpunk-mods/compare/nightcoop-voice-v0.9.0...nightcoop-voice-v0.10.0) (2026-11-15)
 
 
