@@ -93,7 +93,7 @@ local function buildMenu()
     menu.addSubcategory(KEYS, "Keys")
     menu.addKeyBinding(KEYS, "Mute", "Silences your mic everywhere, nearby and on the radio.",
         setting("key_mute", "IK_Mouse4"), "IK_Mouse4", false, store("key_mute"))
-    menu.addKeyBinding(KEYS, "Radio mic", "Hold to talk on the radio. In combat, your voice goes on the radio without it.",
+    menu.addKeyBinding(KEYS, "Radio mic", "Tap to leave it on or off. Hold to talk, and it goes off when you let go.",
         setting("key_radio", "IK_Mouse5"), "IK_Mouse5", false, store("key_radio"))
 
     menu.addSubcategory(HEARING, "Hearing")

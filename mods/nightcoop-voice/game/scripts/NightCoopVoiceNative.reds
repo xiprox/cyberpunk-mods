@@ -21,8 +21,6 @@ public native class NightCoopVoiceNative extends IScriptable {
   public static native func SetPeerSpatial(peer: Int32, position: Vector4, forward: Vector4, cabin: Int32) -> Void;
   // What this player's own state does to what they hear. worldSpeed: 1 normal, below that slow motion. inCar: inside a closed car.
   public static native func SetListenerState(underwater: Bool, worldSpeed: Float, inCar: Bool) -> Void;
-  // Whether the game has us in combat, which puts the radio mic on.
-  public static native func SetInCombat(inCombat: Bool) -> Void;
   // The game's Master Volume setting, 0..100: voices keep their balance with it.
   public static native func SetGameMaster(percent: Float) -> Void;
   // Cars, for their gaps: owner is a partner's id, or -1 for the car we sit in; car tells cars apart, 0 for none. A car is

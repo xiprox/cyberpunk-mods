@@ -594,7 +594,6 @@ void Mixer::PushOwnVoice(const float* aSamples, int aCount)
     m_ownWrite.store(write, std::memory_order_release);
 }
 
-
 void Mixer::SetPeerMuted(PeerId aPeer, bool aMuted)
 {
     if (const auto voice = Find(aPeer))

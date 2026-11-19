@@ -126,39 +126,39 @@ float FarFade(float aDistance, float aNearMeters, float aFarMeters);
 // reports about their own car.
 bool ShouldSendNearby(float aDistance, float aSeparatedCabin, bool aCarOpen, float aFarMeters);
 
-// Your radio mic: on while you hold the radio key, and while your game has you in combat (user, 2026-11-15). Never left on
-// otherwise: a radio left on put every partner past its old 25 m cut at full clarity, so nobody ever heard anyone get far away
-// (2026-11-14 logs). So partners play it at any distance, in a vehicle you share too, with no cut
-// for being close. What you say for kTailMs after it goes off still goes on the radio: a word ends a little after the key comes
-// up, and the mic's own processing holds the last of it back.
+// Your radio mic: only you switch it, and nothing switches it for you (user, 2026-11-17). Every rule that did, a cut for
+// being close and then combat and the driver's seat turning it on, broke the sense of distance or got in the way. A tap
+// leaves it on or off; a hold of kHoldToTalkMs or more talks on the radio and goes off when you let go. While it's on,
+// partners play it at any distance, on top of your voice in the air close by. What you say for kTailMs after it goes off
+// still goes on the radio: a word ends a little after the key comes up, and the mic's own processing holds the last of it back.
 class RadioMic
 {
 public:
+    static constexpr double kHoldToTalkMs = 350.0;
     static constexpr double kTailMs = 250.0;
 
-    // Each returns true when it turns the radio mic on or off. Outside a session it stays off.
+    // Each returns true when it turns the radio mic on or off. Outside a session it stays off, and each session starts off.
     bool SetSession(bool aInSession, double aNowMs);
-    bool SetHeld(bool aHeld, double aNowMs);
-    bool SetCombat(bool aInCombat, double aNowMs);
+    // The key: on at the press, so a held key talks from the first word.
+    bool KeyDown(double aNowMs);
+    bool KeyUp(double aNowMs);
+    bool Toggle(double aNowMs);
 
     bool On() const
     {
         return m_on;
     }
-    bool InCombat() const
-    {
-        return m_inCombat;
-    }
     // Whether what the mic sends now goes on the radio: while on, and for kTailMs after.
     bool OnAir(double aNowMs) const;
 
 private:
-    bool Settle(double aNowMs);
+    bool Set(bool aOn, double aNowMs);
 
     bool m_inSession = false;
-    bool m_held = false;
-    bool m_inCombat = false;
     bool m_on = false;
+    bool m_down = false;
+    bool m_onAtPress = false;
+    double m_pressedMs = 0.0;
     double m_tailUntilMs = -1e12;
 };
 

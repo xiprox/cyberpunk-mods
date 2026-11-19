@@ -14,8 +14,9 @@ Adds proximity voice chat and a group radio to NightCoop, inside the game, with 
 Your mic is live as soon as a session starts, and a voice gate decides when you're speaking.
 
 - **Mouse 4** mutes your mic.
-- **Mouse 5** is the radio mic: hold it to talk on the radio.
-  In combat, your voice goes on the radio without it.
+- **Mouse 5** is the radio mic: tap it to leave it on or off, or hold it to talk and it goes off when you let go.
+  While it's on, everyone hears you on the radio, close by too.
+  NightCoop's co-op menu also switches it.
 
 Both keys and every other setting are under Mods > Voice in the main menu or the pause menu.
 On speakers, switch off Headphones there, since voices are placed around your head for headphones.
@@ -83,7 +84,7 @@ A player's mod list can fail to register on another machine: on one join, Bleack
 So while some player has no link, or no word of their mods, the mod registers and unregisters a throwaway mod, which makes NightCoop send its list again, first after `ResendSchedule::kFirstMs` and then less and less often (`src/net/resend.hpp`).
 
 Settings are stored per PC in `%LOCALAPPDATA%\NightCoopVoice\settings.ini`, so sharing the mod folder doesn't share them.
-NightCoop's co-op menu also has a mute item on its Mods page.
+NightCoop's co-op menu also has a mute item and a radio mic item on its Mods page.
 [RECORD.md](RECORD.md) says why each part is the way it is.
 
 ### How it sounds
@@ -107,7 +108,9 @@ NightCoop's co-op menu also has a mute item on its Mods page.
   A window wound down or shot out, an open or torn-off door, and the missing roof of a cabrio or targa let voices through, and a voice through a gap seems to come from it.
   Seated players' voices come from their heads, and bikes block nothing.
   Each player's game reports what's open on the car they sit in, and where the gaps are comes from each car's parts and a table of their meshes made from the game files by `tools/car_openings.py`, rerun after a game patch.
-- **Radio:** a player is on the radio while they hold the radio key and while their game has them in combat, and for `RadioMic::kTailMs` after, so a last word isn't cut off (`src/audio/spatial.hpp`).
+- **Radio:** only the player switches their radio mic: a tap leaves it on or off, a hold of `RadioMic::kHoldToTalkMs` or more talks and goes off when let go, and the co-op menu's item toggles it (`src/audio/spatial.hpp`).
+  Each session starts with it off.
+  What's said for `RadioMic::kTailMs` after it goes off still goes on the radio, so a last word isn't cut off.
   Their radio plays for every partner at any distance, close by and in a vehicle you share too, on top of their nearby voice.
 - **Levels:** each mic evens itself out with an automatic gain, which remembers each mic between runs, and a compressor.
   The mod measures what the output plays, takes away its own voices, and sets one gain for all voices, so the game's Master Volume and the system volume don't matter.

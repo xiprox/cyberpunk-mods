@@ -189,23 +189,28 @@ void TestSpatial()
     Check(ComputeSpatial(input).gainLeft < 0.01f, "just inside 50 m a voice has nearly faded out");
 
     {
-        // The radio mic: held or in combat, and a moment more.
+        // The radio mic: a tap leaves it on or off, a hold talks, and a moment more after it goes off.
         RadioMic mic;
-        Check(!mic.SetHeld(true, 0.0) && !mic.On(), "outside a session the key does nothing");
-        mic.SetHeld(false, 0.0);
-        Check(!mic.SetCombat(true, 0.0) && !mic.On(), "and neither does combat");
-        mic.SetCombat(false, 0.0);
-        mic.SetSession(true, 0.0);
-        Check(!mic.On() && !mic.OnAir(0.0), "in a session it starts off");
-        Check(mic.SetHeld(true, 100.0) && mic.On() && mic.OnAir(100.0), "holding the key puts it on");
-        Check(mic.SetHeld(false, 1000.0) && !mic.On(), "letting go takes it off");
-        Check(mic.OnAir(1240.0) && !mic.OnAir(1260.0), "but what's said in the next 250 ms still goes on the radio");
-        Check(mic.SetCombat(true, 2000.0) && mic.On() && mic.InCombat(), "combat puts it on without the key");
-        Check(!mic.SetHeld(true, 2100.0) && !mic.SetHeld(false, 2200.0) && mic.On(), "and a press in combat leaves it on");
-        Check(!mic.SetHeld(true, 2300.0) && !mic.SetCombat(false, 2400.0) && mic.On(), "held as combat ends, it stays on");
-        Check(mic.SetHeld(false, 2500.0) && !mic.On(), "until the key comes up");
-        mic.SetCombat(true, 3000.0);
-        Check(mic.SetSession(false, 3100.0) && !mic.On(), "and leaving the session takes it off");
+        Check(!mic.KeyDown(0.0) && !mic.On(), "outside a session the key does nothing");
+        mic.KeyUp(500.0);
+        Check(!mic.Toggle(600.0) && !mic.On(), "and neither does the menu");
+        mic.SetSession(true, 1000.0);
+        Check(!mic.On() && !mic.OnAir(1000.0), "in a session it starts off");
+        Check(mic.KeyDown(1100.0) && mic.On() && mic.OnAir(1100.0), "a press puts it on at once");
+        Check(!mic.KeyUp(1300.0) && mic.On(), "and a tap leaves it on");
+        Check(!mic.KeyDown(2000.0) && mic.KeyUp(2100.0) && !mic.On(), "the next tap takes it off");
+        Check(mic.OnAir(2340.0) && !mic.OnAir(2360.0), "but what's said in the next 250 ms still goes on the radio");
+        Check(mic.KeyDown(3000.0) && !mic.KeyUp(3340.0) && mic.On(), "a press just under 350 ms counts as a tap");
+        mic.KeyDown(4000.0);
+        mic.KeyUp(4100.0);
+        Check(mic.KeyDown(5000.0) && mic.KeyUp(5350.0) && !mic.On(), "a hold of 350 ms talks, and goes off when let go");
+        Check(mic.KeyDown(5400.0) && !mic.KeyDown(5450.0) && mic.On(), "a second press while held changes nothing");
+        mic.KeyUp(5900.0);
+        Check(mic.Toggle(6000.0) && mic.On() && mic.Toggle(6100.0) && !mic.On(), "the menu switches it on and off");
+        mic.Toggle(7000.0);
+        Check(mic.SetSession(false, 7100.0) && !mic.On(), "leaving the session takes it off");
+        mic.SetSession(true, 8000.0);
+        Check(!mic.On(), "and the next session starts off");
     }
 
     input.talkerPosition = {5.f, 0.f, 0.f};
@@ -2888,10 +2893,11 @@ void TestLinks()
     }
     Check(Rms(radio) > 0.005f, "200 m apart holding the radio key, B hears A on it", "rms %.4f", Rms(radio));
 
-    // Close by, a held key or combat still puts A on B's radio, and letting go takes A off it.
+    // Close by, a held key still puts A on B's radio, and letting go takes A off it.
+    int closeCabin = CabinNone;
     const auto standClose = [&] {
-        a.SetPeerSpatial(7, {0.f, 2.f, 0.f}, {}, CabinNone);
-        b.SetPeerSpatial(0, {0.f, 0.f, 0.f}, {}, CabinNone);
+        a.SetPeerSpatial(7, {0.f, 2.f, 0.f}, {}, closeCabin);
+        b.SetPeerSpatial(0, {0.f, 0.f, 0.f}, {}, closeCabin);
     };
     const auto talkCloseOnRadio = [&] {
         bool onRadio = false;
@@ -2926,9 +2932,27 @@ void TestLinks()
         Sleep(10);
     }
     Check(!talkCloseOnRadio(), "once A lets go, B hears A only in the air");
-    a.SetInCombat(true);
-    Check(talkCloseOnRadio(), "in combat, B hears A on the radio without the key");
-    a.SetInCombat(false);
+
+    // A tap leaves A on the radio, riding together too, until the next tap.
+    const auto settleClose = [&] {
+        for (int i = 0; i < 50; ++i)
+        {
+            standClose();
+            b.GetMixer().Render(block);
+            Sleep(10);
+        }
+    };
+    a.RadioKeyDown();
+    a.RadioKeyUp();
+    Check(talkCloseOnRadio(), "after a tap, B hears A on the radio without the key");
+    closeCabin = CabinShared;
+    settleClose();
+    Check(talkCloseOnRadio(), "riding together too");
+    a.RadioKeyDown();
+    a.RadioKeyUp();
+    closeCabin = CabinNone;
+    settleClose();
+    Check(!talkCloseOnRadio(), "and the next tap takes A off it");
 
     // A sits in a shut car 10 m from B, who isn't heard past the cabin's 5 m, until A winds the driver's window down: A's
     // presence tells B at once, so both send and hear through it.

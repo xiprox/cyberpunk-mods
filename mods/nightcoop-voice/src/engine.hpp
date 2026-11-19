@@ -109,8 +109,6 @@ public:
     void SetListener(const Vec3& aPosition, const Vec3& aForward, const Vec3& aRight);
     void SetPeerSpatial(PeerId aPeer, const Vec3& aPosition, const Vec3& aForward, int aCabin);
     void SetListenerState(bool aUnderwater, float aWorldSpeed, bool aInCar);
-    // While our game has us in combat, the radio mic is on (RadioMic).
-    void SetInCombat(bool aInCombat);
     void SetGameMaster(float aPercent);
 
     // ---- cars, from the game thread. aOwner is a partner's id, or kOurCar. A closed car's key is anything that tells it
@@ -144,6 +142,7 @@ public:
     void ToggleMute();
     void RadioKeyDown();
     void RadioKeyUp();
+    void ToggleRadio();           // the co-op menu's item
     void SetTest(int aRoute);     // TestRoute: hear yourself, with no session needed
     void ApplySettings();         // re-read everything from Settings
 
@@ -220,7 +219,7 @@ private:
     void ApplyPeerMix(const Peer& aPeer);
     void OnMicPacket(const uint8_t* aOpus, int aSize, bool aSpurt);
     // Changes the radio mic under its lock, then logs it and tells partners if that turned it on or off. aTone plays the radio's
-    // on or off tone too: only the key does, since combat starting and ending would beep through every fight (user, 2026-11-15).
+    // on or off tone too: the key and the menu do, a session starting or ending doesn't.
     void ChangeRadio(const std::function<bool(RadioMic&, double)>& aChange, bool aTone);
     void Tone(float aHz);
 

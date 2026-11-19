@@ -28,7 +28,7 @@ namespace
 {
 constexpr const char* kModId = "xip.nightcoop_voice"; // stable forever
 constexpr const char* kResendModId = "xip.nightcoop_voice.resend";
-constexpr uint32_t kProtocol = 5;                   // raise it when packets or setup messages change meaning
+constexpr uint32_t kProtocol = 7;                 // raise it when packets or setup messages change meaning
 constexpr uint16_t kChannelSignal = 1;                // link setup, reliable
 constexpr uint16_t kChannelAudio = 2;                 // the Relay: voice and presence when there's no direct link, unreliable
 static_assert(nv::kRelayMaxMessage <= NCSDK_UNRELIABLE_MAX);
@@ -395,6 +395,10 @@ void OnMenuItem(void*, const char* aKey)
     {
         g_engine->ToggleMute();
     }
+    else if (std::strcmp(aKey, "radio") == 0)
+    {
+        g_engine->ToggleRadio();
+    }
 }
 
 void OnShutdown(void*)
@@ -456,6 +460,7 @@ void TryConnect()
     if (NCSDK_HAS(api, menuItemSet))
     {
         api->menuItemSet(mod, "mute", "Голос: микрофон вкл/выкл", "Voice: mute or unmute", NCSDK_MENU_IN_SESSION);
+        api->menuItemSet(mod, "radio", "Голос: рация вкл/выкл", "Voice: radio mic on or off", NCSDK_MENU_IN_SESSION);
     }
     nv::Logf(nv::LogInfo, "NightCoop Voice %s connected to NightCoop %s", NCV_VERSION, api->build ? api->build : "?");
 }
@@ -653,17 +658,6 @@ void SetPeerSpatial(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, 
     if (g_engine)
     {
         g_engine->SetPeerSpatial(static_cast<nv::PeerId>(peer), ToVec3(position), ToVec3(forward), cabin);
-    }
-}
-
-void SetInCombat(RED4ext::IScriptable*, RED4ext::CStackFrame* aFrame, void*, int64_t)
-{
-    bool inCombat = false;
-    RED4ext::GetParameter(aFrame, &inCombat);
-    aFrame->code++;
-    if (g_engine)
-    {
-        g_engine->SetInCombat(inCombat);
     }
 }
 
@@ -1172,7 +1166,6 @@ void PostRegisterTypes()
               {{"Int32", "peer"}, {"Vector4", "position"}, {"Vector4", "forward"}, {"Int32", "cabin"}});
     AddStatic("SetListenerState", Erase(&natives::SetListenerState), nullptr,
               {{"Bool", "underwater"}, {"Float", "worldSpeed"}, {"Bool", "inCar"}});
-    AddStatic("SetInCombat", Erase(&natives::SetInCombat), nullptr, {{"Bool", "inCombat"}});
     AddStatic("SetGameMaster", Erase(&natives::SetGameMaster), nullptr, {{"Float", "percent"}});
     AddStatic("CarNeedsParts", Erase(&natives::CarNeedsParts), "Bool", {{"Int32", "owner"}, {"Uint32", "car"}});
     AddStatic("BeginCar", Erase(&natives::BeginCar), nullptr, {{"Int32", "owner"}, {"Uint32", "car"}});

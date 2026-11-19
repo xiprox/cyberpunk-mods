@@ -398,19 +398,38 @@ CarSound ThroughCars(const Vec3& aMouth, const Vec3& aEar, const std::vector<Car
 bool RadioMic::SetSession(bool aInSession, double aNowMs)
 {
     m_inSession = aInSession;
-    return Settle(aNowMs);
+    return Set(false, aNowMs);
 }
 
-bool RadioMic::SetHeld(bool aHeld, double aNowMs)
+bool RadioMic::KeyDown(double aNowMs)
 {
-    m_held = aHeld;
-    return Settle(aNowMs);
+    if (m_down)
+    {
+        return false;
+    }
+    m_down = true;
+    m_pressedMs = aNowMs;
+    m_onAtPress = m_on;
+    return m_inSession && Set(true, aNowMs);
 }
 
-bool RadioMic::SetCombat(bool aInCombat, double aNowMs)
+bool RadioMic::KeyUp(double aNowMs)
 {
-    m_inCombat = aInCombat;
-    return Settle(aNowMs);
+    if (!m_down)
+    {
+        return false;
+    }
+    m_down = false;
+    if (!m_inSession || (!m_onAtPress && aNowMs - m_pressedMs < kHoldToTalkMs))
+    {
+        return false; // a tap that switched it on leaves it on
+    }
+    return Set(false, aNowMs);
+}
+
+bool RadioMic::Toggle(double aNowMs)
+{
+    return m_inSession && Set(!m_on, aNowMs);
 }
 
 bool RadioMic::OnAir(double aNowMs) const
@@ -418,15 +437,14 @@ bool RadioMic::OnAir(double aNowMs) const
     return m_on || aNowMs < m_tailUntilMs;
 }
 
-bool RadioMic::Settle(double aNowMs)
+bool RadioMic::Set(bool aOn, double aNowMs)
 {
-    const bool on = m_inSession && (m_held || m_inCombat);
-    if (on == m_on)
+    if (aOn == m_on)
     {
         return false;
     }
-    m_on = on;
-    if (!on)
+    m_on = aOn;
+    if (!aOn)
     {
         m_tailUntilMs = aNowMs + kTailMs;
     }

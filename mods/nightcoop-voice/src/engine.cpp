@@ -1537,12 +1537,10 @@ void Engine::ChangeRadio(const std::function<bool(RadioMic&, double)>& aChange, 
 {
     bool changed = false;
     bool on = false;
-    bool combat = false;
     {
         std::lock_guard lock(m_radioMutex);
         changed = aChange(m_radioMic, NowMs());
         on = m_radioMic.On();
-        combat = m_radioMic.InCombat();
     }
     if (!changed)
     {
@@ -1552,35 +1550,24 @@ void Engine::ChangeRadio(const std::function<bool(RadioMic&, double)>& aChange, 
     {
         Tone(on ? kToneRadioOn : kToneRadioOff);
     }
-    Logf(LogInfo, "radio mic %s", on ? (combat ? "on (in combat)" : "on (held)") : "off");
+    Logf(LogInfo, "radio mic %s", on ? "on" : "off");
     // Partners' displays show who's on the radio, so they hear of it at once rather than with the next second's presence.
     Post([this] { SendPresence(NowMs()); });
 }
 
 void Engine::RadioKeyDown()
 {
-    ChangeRadio([](RadioMic& aMic, double aNowMs) { return aMic.SetHeld(true, aNowMs); }, true);
+    ChangeRadio([](RadioMic& aMic, double aNowMs) { return aMic.KeyDown(aNowMs); }, true);
 }
 
 void Engine::RadioKeyUp()
 {
-    ChangeRadio([](RadioMic& aMic, double aNowMs) { return aMic.SetHeld(false, aNowMs); }, true);
+    ChangeRadio([](RadioMic& aMic, double aNowMs) { return aMic.KeyUp(aNowMs); }, true);
 }
 
-void Engine::SetInCombat(bool aInCombat)
+void Engine::ToggleRadio()
 {
-    {
-        std::lock_guard lock(m_radioMutex);
-        if (m_radioMic.InCombat() == aInCombat)
-        {
-            return;
-        }
-    }
-    if (m_inSession.load())
-    {
-        Logf(LogInfo, "combat: %s", aInCombat ? "started" : "over");
-    }
-    ChangeRadio([aInCombat](RadioMic& aMic, double aNowMs) { return aMic.SetCombat(aInCombat, aNowMs); }, false);
+    ChangeRadio([](RadioMic& aMic, double aNowMs) { return aMic.Toggle(aNowMs); }, true);
 }
 
 bool Engine::RadioOn() const

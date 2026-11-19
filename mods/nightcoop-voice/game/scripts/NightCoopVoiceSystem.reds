@@ -85,11 +85,6 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
     return IsDefined(machine) && machine.GetInt(GetAllBlackboardDefs().PlayerStateMachine.Swimming) == EnumInt(gamePSMSwimming.Diving);
   }
 
-  // The game's own combat state, which its phone also goes by to block calls in a fight (phoneSystem.script).
-  private func IsInCombat(machine: ref<IBlackboard>) -> Bool {
-    return IsDefined(machine) && machine.GetInt(GetAllBlackboardDefs().PlayerStateMachine.Combat) == EnumInt(gamePSMCombat.InCombat);
-  }
-
   // Tells the plugin if we're underwater and how fast the world runs. Reading the world's speed, not what caused it, makes
   // this cover every kind of slow motion. Changes are logged, to learn which ones really reach us in co-op.
   private func UpdateListenerState(dt: Float) -> Void {
@@ -106,7 +101,6 @@ public class NightCoopVoiceSystem extends ScriptableSystem {
       NightCoopSdk.Log(this.ModId(), 1, diving ? "water: diving" : "water: back up");
     }
     NightCoopVoiceNative.SetListenerState(diving, now, this.m_inCar);
-    NightCoopVoiceNative.SetInCombat(this.IsInCombat(machine));
   }
 
   private func ReportGameVolume() -> Void {
